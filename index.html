@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EngStudy — Personal English Training</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/tabler-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+
+<div class="app" id="app">
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <div class="topbar-left">
+      <div class="topbar-brand">EngStudy</div>
+      <div class="topbar-date" id="top-date"></div>
+    </div>
+    <div class="topbar-right">
+      <span class="badge-level" id="badge-level">B1</span>
+      <button class="btn-icon" onclick="showPage('settings')" aria-label="ตั้งค่า">
+        <i class="ti ti-settings"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- PAGES -->
+  <div class="page-wrap">
+    <div class="page active" id="page-home"></div>
+    <div class="page" id="page-study"></div>
+    <div class="page" id="page-quiz"></div>
+    <div class="page" id="page-grammar"></div>
+    <div class="page" id="page-reading"></div>
+    <div class="page" id="page-progress"></div>
+    <div class="page" id="page-idioms"></div>
+    <div class="page" id="page-settings"></div>
+  </div>
+
+  <!-- BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <button class="nav-item active" id="nav-home" onclick="showPage('home')">
+      <i class="ti ti-home"></i>
+      <span data-i18n="nav_home">หน้าหลัก</span>
+    </button>
+    <button class="nav-item" id="nav-study" onclick="showPage('study')">
+      <i class="ti ti-book"></i>
+      <span data-i18n="nav_study">เรียน</span>
+    </button>
+    <button class="nav-item" id="nav-reading" onclick="showPage('reading')">
+      <i class="ti ti-file-text"></i>
+      <span>Reading</span>
+    </button>
+    <button class="nav-item" id="nav-progress" onclick="showPage('progress')">
+      <i class="ti ti-chart-bar"></i>
+      <span>Progress</span>
+    </button>
+    <button class="nav-item" id="nav-settings" onclick="showPage('settings')">
+      <i class="ti ti-settings"></i>
+      <span data-i18n="nav_settings">ตั้งค่า</span>
+    </button>
+  </nav>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+<script src="quiz.js"></script>
+<script src="grammar.js"></script>
+<script src="reading.js"></script>
+<script src="prog.js"></script>
+<script src="idioms.js"></script>
+
+</body>
+</html>
