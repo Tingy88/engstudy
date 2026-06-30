@@ -100,7 +100,10 @@ function renderHome() {
     const acc = w.seen ? Math.round((w.correct/w.seen)*100) : 0;
     const chipCls = acc < 55 ? 'chip-d' : acc < 70 ? 'chip-w' : 'chip-s';
     return `<div class="wrow">
-      <div><div class="w">${w.word}</div><div class="wm">${w.thai}</div></div>
+      <div>
+        <div class="w">${w.word}</div>
+        <div class="wm">${w.meanings ? w.meanings.map(m=>m.th).join(', ') : ''}</div>
+      </div>
       <span class="chip ${chipCls}">${acc}%</span>
     </div>`;
   }).join('');
