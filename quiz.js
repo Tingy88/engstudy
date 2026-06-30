@@ -80,22 +80,41 @@ function renderQuizQuestion() {
           <div style="font-size:20px;font-weight:500">${w.word}
             <span style="font-size:12px;font-weight:400;color:var(--accent);margin-left:6px">${w.level}</span>
           </div>
-          <div style="font-size:13px;color:var(--text3);margin-top:2px">${w.ipa}</div>
+          <div style="font-size:13px;color:var(--text3);margin-top:2px">
+            🇬🇧 ${w.ipa_uk} &nbsp; 🇺🇸 ${w.ipa_us}
+          </div>
+          <div style="font-size:12px;color:var(--text3);margin-top:3px">
+            ${w.partOfSpeech.join(' · ')}
+          </div>
         </div>
         <button class="btn-sm" onclick="speakWord('${w.word}')">
           <i class="ti ti-volume"></i> ${t('quiz_speak')}
         </button>
       </div>
-      <div class="info-thai">${w.thai}</div>
       <div class="info-lbl">${t('quiz_meaning')}</div>
-      <div class="info-def">${w.def}</div>
+      ${w.meanings.map(m => `
+        <div style="margin-bottom:8px">
+          <span style="font-size:11px;background:var(--teal-lt);color:var(--teal);
+            padding:2px 8px;border-radius:99px;font-weight:500">${m.pos}</span>
+          <div style="font-size:15px;font-weight:500;color:var(--accent);margin-top:4px">${m.th}</div>
+          <div style="font-size:13px;color:var(--text2);margin-top:2px">${m.en}</div>
+        </div>`).join('')}
+      ${w.antonyms && w.antonyms.length > 0 ? `
+        <div class="info-lbl" style="margin-top:8px">Antonyms</div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px">
+          ${w.antonyms.map(a =>
+            `<span style="background:var(--danger-lt);color:var(--danger);
+              padding:3px 10px;border-radius:99px;font-size:12px">${a}</span>`
+          ).join('')}
+        </div>` : ''}
       <div class="info-lbl" style="margin-top:8px">${t('quiz_example')}</div>
       ${w.examples.map(ex=>`<div class="info-ex">${ex}</div>`).join('')}
     </div>
 
     <div class="word-card">
       <div class="word-main">${w.word}</div>
-      <div class="word-ipa">${w.ipa}</div>
+      <div class="word-ipa">🇬🇧 ${w.ipa_uk} &nbsp; 🇺🇸 ${w.ipa_us}</div>
+      <div style="font-size:12px;color:var(--text3);margin-top:2px">${w.partOfSpeech.join(' · ')}</div>
       <div class="word-actions">
         <button class="btn-sm" onclick="speakWord('${w.word}')">
           <i class="ti ti-volume"></i> ${t('quiz_speak')}
@@ -123,12 +142,17 @@ function renderQuizQuestion() {
 
 // ===== RENDER CHOICES =====
 function renderChoices(w) {
-  const distractors = (DISTRACTORS[w.word] || ['ไม่ทราบ','ไม่แน่ใจ','ไม่มีข้อมูล','อื่นๆ']).slice(0, 3);
-  const options = shuffle([w.thai, ...distractors]);
+  const correct = w.meanings[0].th;
+  const allThai = WORDS
+    .filter(x => x.word !== w.word)
+    .map(x => x.meanings[0].th)
+    .filter(x => x !== correct);
+  const distractors = shuffle(allThai).slice(0, 3);
+  const options = shuffle([correct, ...distractors]);
   const letters = ['A','B','C','D'];
   const wrap = document.getElementById('choices-wrap');
   wrap.innerHTML = options.map((opt, i) => `
-    <button class="choice-btn" onclick="answerQuiz(${i}, '${escStr(opt)}', '${escStr(w.thai)}')">
+    <button class="choice-btn" onclick="answerQuiz(${i}, '${escStr(opt)}', '${escStr(correct)}')">
       <span class="choice-letter">${letters[i]}</span>
       <span>${opt}</span>
     </button>
