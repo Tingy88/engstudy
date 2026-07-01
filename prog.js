@@ -25,13 +25,15 @@ function renderProgress() {
     </div>`).join('');
 
   const weakWordsHTML = weakWords.map(w => {
-    const acc      = w.seen ? Math.round((w.correct/w.seen)*100) : 0;
+    const acc      = w.seen ? Math.round((w.correct / w.seen) * 100) : 0;
     const halfLife = calcHalfLife(w);
+    const thai     = w.meanings ? w.meanings[0].th : (w.thai || '');
     return `<div class="wrow">
       <div>
         <div class="w">${w.word}</div>
         <div class="wm">
-          ${t('prog_wrong')} ${w.seen-w.correct} ${t('prog_times')} ·
+          ${thai} ·
+          ${t('prog_wrong')} ${w.seen - w.correct} ${t('prog_times')} ·
           ${t('prog_halflife_label')}${halfLife} ${t('days_label')}
         </div>
       </div>
@@ -39,14 +41,14 @@ function renderProgress() {
     </div>`;
   }).join('');
 
-  const weakGrammarHTML = weakGrammar.map(([topic,v]) => {
-    const acc = Math.round((v.correct/v.attempts)*100);
+  const weakGrammarHTML = weakGrammar.map(([topic, v]) => {
+    const acc = Math.round((v.correct / v.attempts) * 100);
     return `<div class="wrow">
       <div>
         <div class="w">${topic}</div>
         <div class="wm">
           ${v.attempts} ${t('prog_times')} ·
-          ${t('prog_wrong')} ${v.attempts-v.correct} ${t('prog_times')}
+          ${t('prog_wrong')} ${v.attempts - v.correct} ${t('prog_times')}
         </div>
       </div>
       <span class="chip ${getAccChip(acc)}">${acc}%</span>
