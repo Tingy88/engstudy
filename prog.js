@@ -43,15 +43,10 @@ function renderProgress() {
     const acc = Math.round((v.correct/v.attempts)*100);
     return `<div class="wrow">
       <div>
-        <div class="w">${w.word}
-          <span style="font-size:11px;color:var(--text3);margin-left:6px">
-            ${w.partOfSpeech ? w.partOfSpeech[0] : ''}
-          </span>
-        </div>
+        <div class="w">${topic}</div>
         <div class="wm">
-          ${w.meanings ? w.meanings[0].th : ''} ·
-          ${t('prog_wrong')} ${w.seen-w.correct} ${t('prog_times')} ·
-          ${t('prog_halflife_label')}${halfLife} ${t('days_label')}
+          ${v.attempts} ${t('prog_times')} ·
+          ${t('prog_wrong')} ${v.attempts-v.correct} ${t('prog_times')}
         </div>
       </div>
       <span class="chip ${getAccChip(acc)}">${acc}%</span>
