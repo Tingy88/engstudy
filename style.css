@@ -44,9 +44,15 @@ body.dark {
   --success-lt: #1e3d0f;
   --warn-lt:    #3a2608;
   --danger-lt:  #3d1010;
-  --success:    #6abf3a;
-  --warn:       #e8a020;
-  --danger:     #e05555;
+  --success-lt:  #1e3d0f;
+  --warn-lt:     #3a2608;
+  --danger-lt:   #3d1010;
+  --success:     #7dd44a;
+  --warn:        #f0b030;
+  --danger:      #f07070;
+  --text:        #f5f3ee;
+  --text2:       #d0cdc6;
+  --text3:       #a0a09a;
 }
 
 /* ===== BASE ===== */
