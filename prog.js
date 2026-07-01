@@ -76,9 +76,22 @@ function renderProgress() {
           ${t('home_ready')} ${forecast.curr} ${t('prog_days')} · ~${forecast.date}
         </div>
       </div>
-      <div style="text-align:right">
-        <div class="lb-pct">${levelPct}%</div>
-        <div class="lb-plbl">${t('completed')}</div>
+     <div style="display:flex;align-items:center;gap:10px">
+        <div style="text-align:right">
+          <div class="lb-pct">${levelPct}%</div>
+          <div class="lb-plbl">${t('completed')}</div>
+        </div>
+        <svg width="52" height="52" viewBox="0 0 52 52">
+          <circle cx="26" cy="26" r="22"
+            fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="5"/>
+          <circle cx="26" cy="26" r="22"
+            fill="none" stroke="#afa9ec" stroke-width="5"
+            stroke-dasharray="${Math.round(2*Math.PI*22*levelPct/100)} ${Math.round(2*Math.PI*22)}"
+            stroke-dashoffset="${Math.round(2*Math.PI*22*0.25)}"
+            stroke-linecap="round"/>
+          <text x="26" y="30" text-anchor="middle"
+            font-size="11" font-weight="600" fill="#afa9ec">${levelPct}%</text>
+        </svg>
       </div>
     </div>
 
