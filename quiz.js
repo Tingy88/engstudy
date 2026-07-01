@@ -206,8 +206,7 @@ function answerQuiz(idx, chosen, correct) {
 
   if (QZ.mode === 'grammar') {
     setTimeout(() => {
-      const gq = GRAMMAR_QUESTIONS[QZ.idx % GRAMMAR_QUESTIONS.length];
-      if (gq) appendGrammarChallenge(gq);
+      appendGrammarChallenge(w);
     }, 400);
   }
 }
@@ -224,51 +223,155 @@ function moveBox(w, dir) {
 }
 
 // ===== GRAMMAR CHALLENGE INLINE =====
-function appendGrammarChallenge(gq) {
+function appendGrammarChallenge(w) {
   const fb = document.getElementById('quiz-feedback');
   if (!fb) return;
-  const gInfo = GRAMMAR_DB[gq.topic];
-  const letters = ['A','B','C','D'];
-  const opts = shuffle(gq.options);
+
+  const topics = Object.keys(GRAMMAR_DB);
+  const topic  = topics[Math.floor(Math.random() * topics.length)];
+  const gInfo  = GRAMMAR_DB[topic] || {};
 
   fb.insertAdjacentHTML('beforeend', `
     <hr class="divider">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
-      <span style="background:var(--teal-lt);color:var(--teal);border-radius:8px;padding:5px 12px;font-size:13px;font-weight:500">
-        <i class="ti ti-grammar"></i> ${gq.topic}
+      <span style="background:var(--teal-lt);color:var(--teal);
+        border-radius:8px;padding:5px 12px;font-size:13px;font-weight:500">
+        <i class="ti ti-pencil"></i> ${topic}
       </span>
     </div>
 
-    <button class="btn-sm" style="width:100%;justify-content:space-between;margin-bottom:8px" onclick="toggleGrammarInfoInline()">
-      <span><i class="ti ti-info-circle" style="color:var(--teal)"></i> ดูอธิบายแกรมม่า (ภาษาไทย)</span>
+    <button class="btn-sm" style="width:100%;justify-content:space-between;margin-bottom:8px"
+      onclick="toggleGrammarInfoInline()">
+      <span>
+        <i class="ti ti-info-circle" style="color:var(--teal)"></i>
+        ${t('gr_info_btn')}
+      </span>
       <i class="ti ti-chevron-down" id="gi-chev"></i>
     </button>
 
-    <div id="grammar-info-inline" style="display:none;background:var(--surface);border:0.5px solid var(--border);border-radius:12px;padding:14px;margin-bottom:10px">
-      <div class="gi-title">${gq.topic}</div>
-      <div class="info-lbl">ใช้เมื่อ</div>
-      <div class="gi-text" style="margin-bottom:8px">${gInfo.use}</div>
-      <div class="info-lbl">โครงสร้าง</div>
-      <div class="gi-structure">${gInfo.structure}</div>
-      <div class="info-lbl" style="margin-top:8px">ตัวอย่าง</div>
-      ${gInfo.examples.map(ex => `<div class="gi-ex">${ex}</div>`).join('')}
+    <div id="grammar-info-inline" style="display:none;background:var(--surface);
+      border:0.5px solid var(--border);border-radius:12px;padding:14px;margin-bottom:10px">
+      <div class="gi-title">${topic}</div>
+      <div class="info-lbl">${t('gr_use_when')}</div>
+      <div class="gi-text" style="margin-bottom:8px">${gInfo.use||''}</div>
+      <div class="info-lbl">${t('gr_structure')}</div>
+      <div class="gi-structure">${gInfo.structure||''}</div>
+      <div class="info-lbl" style="margin-top:8px">${t('gr_examples')}</div>
+      ${(gInfo.examples||[]).map(ex=>`<div class="gi-ex">${ex}</div>`).join('')}
     </div>
 
-    <div style="font-size:13px;color:var(--text2);margin-bottom:10px;line-height:1.6">
-      เติมช่องว่าง: <strong>${gq.sentence.replace('___', '<span style="color:var(--teal);font-weight:600">___</span>')}</strong>
+    <div style="font-size:14px;color:var(--text2);margin-bottom:10px;line-height:1.6">
+      ${t('gr_use_word')} <strong style="color:var(--accent)">"${w.word}"</strong>
+      ${t('gr_with')} <strong style="color:var(--teal)">${topic}</strong>
     </div>
 
-    <div id="grammar-choices">
-      ${opts.map((opt, i) => `
-        <button class="choice-btn" style="border-color:var(--teal-mid)" 
-          onclick="answerGrammarInline('${escStr(opt)}','${escStr(gq.answer)}','${escStr(gq.explanation)}',this)">
-          <span class="choice-letter">${letters[i]}</span>
-          <span>${opt}</span>
-        </button>
-      `).join('')}
+    <div style="background:var(--surface2);border-radius:8px;padding:10px 12px;
+      margin-bottom:10px;font-size:12px;color:var(--text3)">
+      ${t('gr_structure')}: <span style="color:var(--teal);font-weight:500">
+        ${gInfo.structure||''}
+      </span>
     </div>
+
+    <textarea id="gr-inline-input"
+      placeholder="${STATE.lang==='en'?'Type your sentence here...':'พิมพ์ประโยคของคุณที่นี่...'}"
+      maxlength="300"
+      oninput="grInlineCheckLength(this)"
+      style="width:100%;border:0.5px solid var(--border2);border-radius:10px;
+        padding:12px 14px;font-size:14px;font-family:inherit;resize:none;
+        min-height:80px;background:var(--surface);color:var(--text);
+        outline:none;margin-bottom:4px"></textarea>
+
+    <div style="display:flex;justify-content:space-between;margin-bottom:10px">
+      <div style="font-size:11px;color:var(--text3)">${t('gr_ai_note')}</div>
+      <div style="font-size:11px;color:var(--text3)">
+        <span id="gr-inline-count">0</span>/300
+      </div>
+    </div>
+
+    <button class="btn-primary teal" id="gr-inline-check-btn"
+      onclick="checkGrammarInline('${escStr(w.word)}','${escStr(topic)}')"
+      disabled style="margin-bottom:0">
+      ${t('gr_check')}
+    </button>
+
     <div id="grammar-feedback-inline"></div>
   `);
+}
+
+function grInlineCheckLength(el) {
+  const counter = document.getElementById('gr-inline-count');
+  if (counter) counter.textContent = el.value.length;
+  const btn = document.getElementById('gr-inline-check-btn');
+  if (btn) btn.disabled = el.value.trim().length < 5;
+}
+
+function checkGrammarInline(word, topic) {
+  const input    = document.getElementById('gr-inline-input');
+  const sentence = input ? input.value.trim() : '';
+  if (!sentence) return;
+
+  const btn = document.getElementById('gr-inline-check-btn');
+  if (btn) btn.disabled = true;
+
+  const fb = document.getElementById('grammar-feedback-inline');
+  fb.innerHTML = `<div class="feedback-box teal" style="margin-top:8px">
+    <div class="fb-title">${t('gr_checking')}</div>
+  </div>`;
+
+  const gInfo = GRAMMAR_DB[topic] || {};
+  const systemPrompt = `You are a strict English grammar evaluator for Thai learners at CEFR ${STATE.level}.
+Check grammar, spelling, word choice, and correct use of the required word.
+Reply ONLY in JSON with no markdown:
+{"correct":true/false,"corrected":"corrected sentence","errors":["error1"],"explanation":"2-3 sentences in Thai"}`;
+
+  const userPrompt = `Required word: "${word}"
+Grammar: ${topic}
+Structure: ${gInfo.structure||''}
+Student wrote: "${sentence}"`;
+
+  fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: 'claude-sonnet-4-6',
+      max_tokens: 400,
+      system: systemPrompt,
+      messages: [{ role:'user', content:userPrompt }],
+    }),
+  })
+  .then(r => r.json())
+  .then(data => {
+    let result = { correct:false, corrected:sentence, errors:[], explanation:'' };
+    try {
+      result = JSON.parse(data.content[0].text.replace(/```json|```/g,'').trim());
+    } catch(e) {}
+
+    const errorsHTML = (result.errors||[]).map(e =>
+      `<div style="display:flex;gap:6px;font-size:12px;margin-bottom:4px">
+        <span style="color:var(--danger)">✗</span><span>${e}</span>
+      </div>`).join('');
+
+    fb.innerHTML = result.correct
+      ? `<div class="feedback-box correct" style="margin-top:8px">
+          <div class="fb-title">${t('gr_correct_all')}</div>
+          <div>${result.explanation}</div>
+         </div>`
+      : `<div class="feedback-box wrong" style="margin-top:8px">
+          <div class="fb-title">${t('gr_errors')}</div>
+          ${errorsHTML}
+          <div style="margin-top:6px">${result.explanation}</div>
+          <div style="background:var(--surface2);border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13px">
+            <div style="font-size:11px;color:var(--text3);margin-bottom:3px">${t('gr_corrected')}</div>
+            <div style="color:var(--success);font-weight:500">${result.corrected}</div>
+          </div>
+         </div>`;
+  })
+  .catch(() => {
+    fb.innerHTML = `<div class="feedback-box wrong" style="margin-top:8px">
+      <div class="fb-title">${t('gr_no_api')}</div>
+      <div>${t('gr_no_api_sub')}</div>
+    </div>`;
+  });
 }
 
 function toggleGrammarInfoInline() {
