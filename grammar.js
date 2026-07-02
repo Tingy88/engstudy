@@ -358,7 +358,7 @@ Structure: ${gInfo.structure||''}
 Student wrote: "${sentence}"
 Check every aspect thoroughly.`;
 
-  fetch('https://api.anthropic.com/v1/messages', {
+  fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
