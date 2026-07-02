@@ -133,7 +133,7 @@ Vocabulary: use only real words appropriate for ${STATE.level} and below.
 Topic: any fictional everyday topic (community, travel, work, environment, technology, food).
 All content must be completely fictional.`;
 
-  fetch('https://api.anthropic.com/v1/messages', {
+  fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
