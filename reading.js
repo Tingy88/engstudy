@@ -148,7 +148,7 @@ All content must be completely fictional.`;
     RD.loading = false;
     let result = null;
     try {
-      const text = data.content[0].text;
+      const text = data.candidates[0].content.parts[0].text;
       result = JSON.parse(text.replace(/```json|```/g,'').trim());
     } catch(e) {
       showReadingError(t('rd_error'));
@@ -158,9 +158,9 @@ All content must be completely fictional.`;
     RD.questions = result.questions;
     renderReadingPassage(result);
   })
-  .catch(() => {
+  .catch((err) => {
     RD.loading = false;
-    showReadingError(t('gr_no_api_sub'));
+    showReadingError('Error: ' + err.message);
   });
 }
 
