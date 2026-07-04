@@ -358,21 +358,18 @@ Structure: ${gInfo.structure||''}
 Student wrote: "${sentence}"
 Check every aspect thoroughly.`;
 
-  fetch('/api/gemini', {
+    fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-6',
-      max_tokens: 400,
-      system: systemPrompt,
-      messages: [{ role:'user', content:userPrompt }],
+      contents: [{ parts: [{ text: systemPrompt + '\n\n' + userPrompt }] }],
     }),
   })
   .then(r => r.json())
   .then(data => {
     let result = { correct:false, corrected:sentence, errors:[], explanation:'' };
     try {
-      const text = data.content[0].text;
+      const text = data.candidates[0].content.parts[0].text;
       result = JSON.parse(text.replace(/```json|```/g,'').trim());
     } catch(e) {}
 
