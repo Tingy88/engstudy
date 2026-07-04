@@ -109,7 +109,10 @@ function generateReading() {
     if (data.error) throw new Error(data.error.message);
     const txt = data?.candidates?.[0]?.content?.parts?.[0]?.text;
     if (!txt) throw new Error('AI blocked response');
-    const res = JSON.parse(txt.replace(/```json|```/g,'').trim());
+    let cleanTxt = txt.replace(/```json|```/g, '').trim();
+    let res;
+    try { res = JSON.parse(cleanTxt); }
+    catch(e) { cleanTxt = cleanTxt.replace(/\\(?!["\\/bfnrtu])/g, '\\\\'); res = JSON.parse(cleanTxt); }
     RD.passage = res.passage;
     RD.questions = res.questions;
     RD.loading = false;
