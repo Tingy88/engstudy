@@ -306,71 +306,40 @@ function grInlineCheckLength(el) {
 }
 
 function checkGrammarInline(word, topic) {
-  const input    = document.getElementById('gr-inline-input');
+  const input = document.getElementById('gr-inline-input');
   const sentence = input ? input.value.trim() : '';
   if (!sentence) return;
-
   const btn = document.getElementById('gr-inline-check-btn');
   if (btn) btn.disabled = true;
-
   const fb = document.getElementById('grammar-feedback-inline');
-  fb.innerHTML = `<div class="feedback-box teal" style="margin-top:8px">
-    <div class="fb-title">${t('gr_checking')}</div>
-  </div>`;
+  fb.innerHTML = `<div class="feedback-box teal" style="margin-top:8px"><div class="fb-title">${t('gr_checking')}</div></div>`;
 
   const gInfo = GRAMMAR_DB[topic] || {};
-  const systemPrompt = `You are a strict English grammar evaluator for Thai learners at CEFR ${STATE.level}.
-Check grammar, spelling, word choice, and correct use of the required word.
-Reply ONLY in JSON with no markdown:
-{"correct":true/false,"corrected":"corrected sentence","errors":["error1"],"explanation":"2-3 sentences in Thai"}`;
-
-  const userPrompt = `Required word: "${word}"
+  const prompt = `You are a strict English grammar evaluator for Thai learners. Check grammar, spelling, word choice. Reply ONLY in JSON: {"correct":true/false,"corrected":"corrected sentence","errors":["error1"],"explanation":"Thai explanation"}
+Required word: "${word}"
 Grammar: ${topic}
 Structure: ${gInfo.structure||''}
 Student wrote: "${sentence}"`;
 
-  fetch('https://api.anthropic.com/v1/messages', {
+  fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      model: 'claude-sonnet-4-6',
-      max_tokens: 400,
-      system: systemPrompt,
-      messages: [{ role:'user', content:userPrompt }],
-    }),
+    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
   })
   .then(r => r.json())
   .then(data => {
     let result = { correct:false, corrected:sentence, errors:[], explanation:'' };
     try {
-      result = JSON.parse(data.content[0].text.replace(/```json|```/g,'').trim());
+      const txt = data.candidates[0].content.parts[0].text;
+      result = JSON.parse(txt.replace(/```json|```/g,'').trim());
     } catch(e) {}
-
-    const errorsHTML = (result.errors||[]).map(e =>
-      `<div style="display:flex;gap:6px;font-size:12px;margin-bottom:4px">
-        <span style="color:var(--danger)">✗</span><span>${e}</span>
-      </div>`).join('');
-
+    const errorsHTML = (result.errors||[]).map(e => `<div style="display:flex;gap:6px;font-size:12px;margin-bottom:4px"><span style="color:var(--danger)">✗</span><span>${e}</span></div>`).join('');
     fb.innerHTML = result.correct
-      ? `<div class="feedback-box correct" style="margin-top:8px">
-          <div class="fb-title">${t('gr_correct_all')}</div>
-          <div>${result.explanation}</div>
-         </div>`
-      : `<div class="feedback-box wrong" style="margin-top:8px">
-          <div class="fb-title">${t('gr_errors')}</div>
-          ${errorsHTML}
-          <div style="margin-top:6px">${result.explanation}</div>
-          <div style="background:var(--surface2);border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13px">
-            <div style="font-size:11px;color:var(--text3);margin-bottom:3px">${t('gr_corrected')}</div>
-            <div style="color:var(--success);font-weight:500">${result.corrected}</div>
-          </div>
-         </div>`;
+      ? `<div class="feedback-box correct" style="margin-top:8px"><div class="fb-title">${t('gr_correct_all')}</div><div>${result.explanation}</div></div>`
+      : `<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_errors')}</div>${errorsHTML}<div style="margin-top:6px">${result.explanation}</div><div style="background:var(--surface2);border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13px"><div style="font-size:11px;color:var(--text3);margin-bottom:3px">${t('gr_corrected')}</div><div style="color:var(--success);font-weight:500">${result.corrected}</div></div></div>`;
   })
   .catch(() => {
-    fb.innerHTML = `<div class="feedback-box wrong" style="margin-top:8px">
-      <div class="fb-title">${t('gr_no_api')}</div>
-      <div>${t('gr_no_api_sub')}</div>
-    </div>`;
+    fb.innerHTML = `<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_no_api')}</div><div>${t('gr_no_api_sub')}</div></div>`;
   });
 }
 
