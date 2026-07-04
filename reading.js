@@ -84,82 +84,38 @@ function setDifficulty(diff) {
 // ===== GENERATE READING WITH AI =====
 function generateReading() {
   if (RD.loading) return;
-  RD.loading   = true;
-  RD.submitted = false;
-  RD.answers   = {};
+  RD.loading = true; RD.submitted = false; RD.answers = {};
 
   const btn = document.getElementById('btn-gen-reading');
   if (btn) { btn.disabled=true; btn.textContent=t('rd_generating'); }
 
-  const cfg    = RD_CONFIG[STATE.level] || RD_CONFIG['B1'];
-  const range  = cfg[RD.difficulty];
-  const qCount = RD.difficulty==='exam' ? 6 : RD.difficulty==='standard' ? 5 : 4;
-  const diffEn = { light:'Light', standard:'Standard', exam:'Exam-style' };
-  const diffLabel = diffEn[RD.difficulty];
+  const cfg = RD_CONFIG[STATE.level]||RD_CONFIG['B1'];
+  const range = cfg[RD.difficulty];
+  const qCount = RD.difficulty==='exam'?6:RD.difficulty==='standard'?5:4;
+  const diffLabel = {light:'Light',standard:'Standard',exam:'Exam-style'}[RD.difficulty];
 
-  const qtypes = RD.difficulty==='exam'
-    ? 'literal comprehension, inference, vocabulary in context, main idea, author intention, logical conclusion'
-    : RD.difficulty==='standard'
-    ? 'literal comprehension, inference, vocabulary in context, main idea, logical conclusion'
-    : 'literal comprehension, main idea, vocabulary in context, logical conclusion';
-
-  const systemPrompt = `You are an English reading passage generator for CEFR ${STATE.level} learners.
-Generate FICTIONAL content only — no real people, real events, real places, or facts.
-Use only real English words. Never invent words.
-Reply ONLY in JSON with no markdown:
-{
-  "title": "passage title",
-  "passage": "full passage text",
-  "questions": [
-    {
-      "question": "question text",
-      "type": "question type",
-      "options": ["A. option","B. option","C. option","D. option"],
-      "answer": "A",
-      "explanation": "brief explanation in Thai why this is correct"
-    }
-  ]
-}`;
-
-  const userPrompt = `Create a ${diffLabel} reading passage for CEFR ${STATE.level}.
-Length: ${range[0]}–${range[1]} words.
-Questions: ${qCount} multiple choice questions covering: ${qtypes}
-${RD.difficulty==='exam'
-  ? 'Make questions challenging with plausible distractors. Include inference and author intention. Answers should NOT be directly stated in the text.'
-  : RD.difficulty==='standard'
-  ? 'Mix direct and inferential questions. Some distractors should be plausible.'
-  : 'Keep questions straightforward. Answers findable directly in text.'}
-Vocabulary: use only real words appropriate for ${STATE.level} and below.
-Topic: any fictional everyday topic (community, travel, work, environment, technology, food).
-All content must be completely fictional.`;
+  const prompt = `Create a ${diffLabel} fictional English passage for CEFR ${STATE.level} (${range[0]}-${range[1]} words). Create ${qCount} MCQs (A/B/C/D). Reply ONLY JSON: {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"Thai explanation"}]}`;
 
   fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: systemPrompt + '\n\n' + userPrompt }] }],
-      generationConfig: { temperature: 0.3, maxOutputTokens: 2000 },
-    }),
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.4, maxOutputTokens: 2048 }
+    })
   })
-  .then(r => r.json())
+  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
   .then(data => {
+    if (data.error) throw new Error(data.error.message);
+    const txt = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (!txt) throw new Error('AI blocked response');
+    const res = JSON.parse(txt.replace(/```json|```/g,'').trim());
+    RD.passage = res.passage;
+    RD.questions = res.questions;
     RD.loading = false;
-    let result = null;
-    try {
-      const text = data.candidates[0].content.parts[0].text;
-      result = JSON.parse(text.replace(/```json|```/g,'').trim());
-    } catch(e) {
-      showReadingError(t('rd_error'));
-      return;
-    }
-    RD.passage   = result.passage;
-    RD.questions = result.questions;
-    renderReadingPassage(result);
+    renderReadingPassage(res);
   })
-  .catch((err) => {
-    RD.loading = false;
-    showReadingError('Error: ' + err.message);
-  });
+  .catch(err => { RD.loading=false; showReadingError(err.message); });
 }
 
 // ===== SHOW ERROR =====
