@@ -193,7 +193,7 @@ function answerQuiz(idx, chosen, correct) {
   if (isCorrect) {
     fb.innerHTML = `<div class="feedback-box correct">
       <div class="fb-title">${t('quiz_result_great')}</div>
-      <div>${w.word} = ${w.thai}</div>
+      <div>${w.word} = ${w.meanings[0].th}</div>
     </div>`;
   } else {
     fb.innerHTML = `<div class="feedback-box wrong">
@@ -226,160 +226,69 @@ function moveBox(w, dir) {
 function appendGrammarChallenge(w) {
   const fb = document.getElementById('quiz-feedback');
   if (!fb) return;
-
-  const topics = Object.keys(GRAMMAR_DB);
-  const topic  = topics[Math.floor(Math.random() * topics.length)];
-  const gInfo  = GRAMMAR_DB[topic] || {};
-
   fb.insertAdjacentHTML('beforeend', `
     <hr class="divider">
     <div style="display:flex;align-items:center;gap:8px;margin-bottom:10px">
-      <span style="background:var(--teal-lt);color:var(--teal);
-        border-radius:8px;padding:5px 12px;font-size:13px;font-weight:500">
-        <i class="ti ti-pencil"></i> ${topic}
+      <span style="background:var(--teal-lt);color:var(--teal);border-radius:8px;padding:5px 12px;font-size:13px;font-weight:500">
+        <i class="ti ti-pencil"></i> Grammar + ${w.word}
       </span>
     </div>
-
-    <button class="btn-sm" style="width:100%;justify-content:space-between;margin-bottom:8px"
-      onclick="toggleGrammarInfoInline()">
-      <span>
-        <i class="ti ti-info-circle" style="color:var(--teal)"></i>
-        ${t('gr_info_btn')}
-      </span>
-      <i class="ti ti-chevron-down" id="gi-chev"></i>
-    </button>
-
-    <div id="grammar-info-inline" style="display:none;background:var(--surface);
-      border:0.5px solid var(--border);border-radius:12px;padding:14px;margin-bottom:10px">
-      <div class="gi-title">${topic}</div>
-      <div class="info-lbl">${t('gr_use_when')}</div>
-      <div class="gi-text" style="margin-bottom:8px">${gInfo.use||''}</div>
-      <div class="info-lbl">${t('gr_structure')}</div>
-      <div class="gi-structure">${gInfo.structure||''}</div>
-      <div class="info-lbl" style="margin-top:8px">${t('gr_examples')}</div>
-      ${(gInfo.examples||[]).map(ex=>`<div class="gi-ex">${ex}</div>`).join('')}
+    <div style="display:flex;gap:4px;margin-bottom:12px;background:var(--surface2);border-radius:8px;padding:3px">
+      <button id="gr-inline-mode-choice" onclick="switchInlineMode('choice','${escStr(w.word)}')" style="flex:1;padding:7px;border:none;border-radius:6px;font-size:12px;cursor:pointer;font-weight:500;background:var(--surface);color:var(--teal);border:0.5px solid var(--border)">${t('gr_choice')}</button>
+      <button id="gr-inline-mode-free" onclick="switchInlineMode('free','${escStr(w.word)}')" style="flex:1;padding:7px;border:none;border-radius:6px;font-size:12px;cursor:pointer;font-weight:500;background:none;color:var(--text3);border:none">${t('gr_free')}</button>
     </div>
-
-    <div style="font-size:14px;color:var(--text2);margin-bottom:10px;line-height:1.6">
-      ${t('gr_use_word')} <strong style="color:var(--accent)">"${w.word}"</strong>
-      ${t('gr_with')} <strong style="color:var(--teal)">${topic}</strong>
-    </div>
-
-    <div style="background:var(--surface2);border-radius:8px;padding:10px 12px;
-      margin-bottom:10px;font-size:12px;color:var(--text3)">
-      ${t('gr_structure')}: <span style="color:var(--teal);font-weight:500">
-        ${gInfo.structure||''}
-      </span>
-    </div>
-
-    <textarea id="gr-inline-input"
-      placeholder="${STATE.lang==='en'?'Type your sentence here...':'พิมพ์ประโยคของคุณที่นี่...'}"
-      maxlength="300"
-      oninput="grInlineCheckLength(this)"
-      style="width:100%;border:0.5px solid var(--border2);border-radius:10px;
-        padding:12px 14px;font-size:14px;font-family:inherit;resize:none;
-        min-height:80px;background:var(--surface);color:var(--text);
-        outline:none;margin-bottom:4px"></textarea>
-
-    <div style="display:flex;justify-content:space-between;margin-bottom:10px">
-      <div style="font-size:11px;color:var(--text3)">${t('gr_ai_note')}</div>
-      <div style="font-size:11px;color:var(--text3)">
-        <span id="gr-inline-count">0</span>/300
-      </div>
-    </div>
-
-    <button class="btn-primary teal" id="gr-inline-check-btn"
-      onclick="checkGrammarInline('${escStr(w.word)}','${escStr(topic)}')"
-      disabled style="margin-bottom:0">
-      ${t('gr_check')}
-    </button>
-
+    <div id="gr-inline-content-area"></div>
     <div id="grammar-feedback-inline"></div>
   `);
+  switchInlineMode('choice', w.word);
+}
+
+function switchInlineMode(mode, word) {
+  const cBtn = document.getElementById('gr-inline-mode-choice');
+  const fBtn = document.getElementById('gr-inline-mode-free');
+  cBtn.style.background = mode==='choice'?'var(--surface)':'none'; cBtn.style.color = mode==='choice'?'var(--teal)':'var(--text3)'; cBtn.style.border = mode==='choice'?'0.5px solid var(--border)':'none';
+  fBtn.style.background = mode==='free'?'var(--surface)':'none'; fBtn.style.color = mode==='free'?'var(--teal)':'var(--text3)'; fBtn.style.border = mode==='free'?'0.5px solid var(--border)':'none';
+  
+  const area = document.getElementById('gr-inline-content-area');
+  if (mode === 'choice') {
+    area.innerHTML = `<div style="text-align:center;padding:20px;color:var(--text3);font-size:13px">${t('rd_generating')}</div>`;
+    fetch('/api/gemini', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ contents:[{parts:[{text:`Create 1 multiple choice question testing correct grammar use of the word "${word}". Make 3 wrong options with common mistakes. Reply ONLY JSON: {"question":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"Thai explanation"}`}]}] }) })
+    .then(r=>r.json()).then(data=>{
+      try{ const q=JSON.parse(data.candidates[0].content.parts[0].text.replace(/```json|```/g,'').trim());
+        area.innerHTML=`<div style="font-size:14px;font-weight:500;margin-bottom:12px;line-height:1.5">${q.question}</div>${q.options.map((opt,i)=>`<button class="choice-btn" onclick="answerGrammarInlineChoice(${i},'${escStr(opt[0])}','${escStr(q.answer)}','${escStr(q.explanation)}')"><span class="choice-letter">${['A','B','C','D'][i]}</span><span style="text-align:left;line-height:1.5">${opt.substring(3)}</span></button>`).join('')}`;
+      }catch(e){ area.innerHTML=`<div style="color:var(--danger);font-size:13px">${t('rd_error')}</div>`; }
+    }).catch(()=>{ area.innerHTML=`<div style="color:var(--danger);font-size:13px">${t('gr_no_api')}</div>`; });
+  } else {
+    area.innerHTML=`<div style="font-size:14px;color:var(--text2);margin-bottom:10px">${t('gr_use_word')} <strong style="color:var(--accent)">"${word}"</strong> ${t('gr_create')}</div><textarea id="gr-inline-input" placeholder="${STATE.lang==='en'?'Type your sentence here...':'พิมพ์ประโยคของคุณที่นี่...'}" maxlength="300" oninput="grInlineCheckLength(this)" style="width:100%;border:0.5px solid var(--border2);border-radius:10px;padding:12px 14px;font-size:14px;font-family:inherit;resize:none;min-height:80px;background:var(--surface);color:var(--text);outline:none;margin-bottom:4px"></textarea><div style="display:flex;justify-content:space-between;margin-bottom:10px"><div style="font-size:11px;color:var(--text3)">${t('gr_ai_note')}</div><div style="font-size:11px;color:var(--text3)"><span id="gr-inline-count">0</span>/300</div></div><button class="btn-primary teal" id="gr-inline-check-btn" onclick="checkGrammarInline('${escStr(word)}')" disabled style="margin-bottom:0">${t('gr_check')}</button>`;
+  }
 }
 
 function grInlineCheckLength(el) {
-  const counter = document.getElementById('gr-inline-count');
-  if (counter) counter.textContent = el.value.length;
-  const btn = document.getElementById('gr-inline-check-btn');
-  if (btn) btn.disabled = el.value.trim().length < 5;
+  const c = document.getElementById('gr-inline-count'); if(c) c.textContent=el.value.length;
+  const b = document.getElementById('gr-inline-check-btn'); if(b) b.disabled=el.value.trim().length<5;
 }
 
-function checkGrammarInline(word, topic) {
-  const input = document.getElementById('gr-inline-input');
-  const sentence = input ? input.value.trim() : '';
-  if (!sentence) return;
-  const btn = document.getElementById('gr-inline-check-btn');
-  if (btn) btn.disabled = true;
+function checkGrammarInline(word) {
+  const input = document.getElementById('gr-inline-input'); const sentence = input?input.value.trim():''; if(!sentence)return;
+  const btn = document.getElementById('gr-inline-check-btn'); if(btn) btn.disabled=true;
   const fb = document.getElementById('grammar-feedback-inline');
-  fb.innerHTML = `<div class="feedback-box teal" style="margin-top:8px"><div class="fb-title">${t('gr_checking')}</div></div>`;
-
-  const gInfo = GRAMMAR_DB[topic] || {};
-  const prompt = `You are a strict English grammar evaluator for Thai learners. Check grammar, spelling, word choice. Reply ONLY in JSON: {"correct":true/false,"corrected":"corrected sentence","errors":["error1"],"explanation":"Thai explanation"}
-Required word: "${word}"
-Grammar: ${topic}
-Structure: ${gInfo.structure||''}
-Student wrote: "${sentence}"`;
-
-  fetch('/api/gemini', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }] }),
-  })
-  .then(r => r.json())
-  .then(data => {
-    let result = { correct:false, corrected:sentence, errors:[], explanation:'' };
-    try {
-      const txt = data.candidates[0].content.parts[0].text;
-      result = JSON.parse(txt.replace(/```json|```/g,'').trim());
-    } catch(e) {}
-    const errorsHTML = (result.errors||[]).map(e => `<div style="display:flex;gap:6px;font-size:12px;margin-bottom:4px"><span style="color:var(--danger)">✗</span><span>${e}</span></div>`).join('');
-    fb.innerHTML = result.correct
-      ? `<div class="feedback-box correct" style="margin-top:8px"><div class="fb-title">${t('gr_correct_all')}</div><div>${result.explanation}</div></div>`
-      : `<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_errors')}</div>${errorsHTML}<div style="margin-top:6px">${result.explanation}</div><div style="background:var(--surface2);border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13px"><div style="font-size:11px;color:var(--text3);margin-bottom:3px">${t('gr_corrected')}</div><div style="color:var(--success);font-weight:500">${result.corrected}</div></div></div>`;
-  })
-  .catch(() => {
-    fb.innerHTML = `<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_no_api')}</div><div>${t('gr_no_api_sub')}</div></div>`;
-  });
+  fb.innerHTML=`<div class="feedback-box teal" style="margin-top:8px"><div class="fb-title">${t('gr_checking')}</div></div>`;
+  fetch('/api/gemini', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ contents:[{parts:[{text:`You are a strict English grammar evaluator. Check grammar, spelling, word choice. The student MUST use the word "${word}". Reply ONLY JSON: {"correct":true/false,"corrected":"sentence","errors":["err"],"explanation":"Thai explanation"}\nStudent wrote: "${sentence}"`}]}] }) })
+  .then(r=>r.json()).then(data=>{
+    let res={correct:false,corrected:sentence,errors:[],explanation:''};
+    try{ res=JSON.parse(data.candidates[0].content.parts[0].text.replace(/```json|```/g,'').trim()); }catch(e){}
+    const errHTML=(res.errors||[]).map(e=>`<div style="display:flex;gap:6px;font-size:12px;margin-bottom:4px"><span style="color:var(--danger)">✗</span><span>${e}</span></div>`).join('');
+    fb.innerHTML=res.correct?`<div class="feedback-box correct" style="margin-top:8px"><div class="fb-title">${t('gr_correct_all')}</div><div>${res.explanation}</div></div>`:`<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_errors')}</div>${errHTML}<div style="margin-top:6px">${res.explanation}</div><div style="background:var(--surface2);border-radius:8px;padding:8px 10px;margin-top:8px;font-size:13px"><div style="font-size:11px;color:var(--text3);margin-bottom:3px">${t('gr_corrected')}</div><div style="color:var(--success);font-weight:500">${res.corrected}</div></div></div>`;
+  }).catch(()=>{ fb.innerHTML=`<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_no_api')}</div><div>${t('gr_no_api_sub')}</div></div>`; });
 }
 
-function toggleGrammarInfoInline() {
-  const el = document.getElementById('grammar-info-inline');
-  const chev = document.getElementById('gi-chev');
-  if (!el) return;
-  const open = el.style.display === 'block';
-  el.style.display = open ? 'none' : 'block';
-  if (chev) chev.style.transform = open ? '' : 'rotate(180deg)';
-}
-
-function answerGrammarInline(chosen, correct, explanation, btn) {
-  const btns = document.querySelectorAll('#grammar-choices .choice-btn');
-  btns.forEach(b => b.disabled = true);
-  const isCorrect = chosen === correct;
-  const letters = ['A','B','C','D'];
-  const idx = Array.from(btns).indexOf(btn);
-
-  if (isCorrect) {
-    btn.classList.add('correct');
-    btn.querySelector('.choice-letter').textContent = '✓';
-    if (STATE.grammarStats[QZ.queue[QZ.idx]?.topic || 'Past Simple']) {
-      STATE.grammarStats[QZ.queue[QZ.idx]?.topic || 'Past Simple'].correct++;
-    }
-  } else {
-    btn.classList.add('wrong');
-    btn.querySelector('.choice-letter').textContent = '✗';
-    btns.forEach(b => {
-      if (b.querySelectorAll('span')[1].textContent === correct) b.classList.add('reveal');
-    });
-  }
-
-  const gfb = document.getElementById('grammar-feedback-inline');
-  if (gfb) {
-    gfb.innerHTML = isCorrect
-      ? `<div class="feedback-box correct" style="margin-top:8px"><div class="fb-title">ถูกต้อง!</div><div>${explanation}</div></div>`
-      : `<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">ผิด — คำตอบที่ถูกคือ "${correct}"</div><div>${explanation}</div></div>`;
-  }
-  saveState();
+function answerGrammarInlineChoice(idx, chosen, correct, explanation) {
+  const btns=document.querySelectorAll('#gr-inline-content-area .choice-btn'); btns.forEach(b=>b.disabled=true);
+  const isCorrect=chosen===correct;
+  if(isCorrect){ btns[idx].classList.add('correct'); btns[idx].querySelector('.choice-letter').textContent='✓'; }
+  else{ btns[idx].classList.add('wrong'); btns[idx].querySelector('.choice-letter').textContent='✗'; btns.forEach(b=>{ if(b.querySelectorAll('span')[1].textContent.startsWith(correct)) b.classList.add('reveal'); }); }
+  const gfb=document.getElementById('grammar-feedback-inline');
+  if(gfb){ gfb.innerHTML=isCorrect?`<div class="feedback-box correct" style="margin-top:8px"><div class="fb-title">${t('quiz_result_great')}</div><div>${explanation}</div></div>`:`<div class="feedback-box wrong" style="margin-top:8px"><div class="fb-title">${t('gr_wrong_ans')} "${correct}"</div><div>${explanation}</div></div>`; }
 }
 
 // ===== TOGGLE INFO =====
