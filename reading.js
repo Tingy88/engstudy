@@ -94,8 +94,16 @@ function generateReading() {
   const qCount = RD.difficulty==='exam'?6:RD.difficulty==='standard'?5:4;
   const diffLabel = {light:'Light',standard:'Standard',exam:'Exam-style'}[RD.difficulty];
 
-  const prompt = `Create a ${diffLabel} fictional English passage for CEFR ${STATE.level} (${range[0]}-${range[1]} words). Create ${qCount} MCQs (A/B/C/D). Reply ONLY JSON: {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"Thai explanation"}]}`;
-
+  const prompt = `You are an IELTS/TOEFL reading test creator. CEFR: ${STATE.level}, Difficulty: ${diffLabel}. 
+TASK: Write a ${diffLabel} fictional passage. 
+LENGTH: STRICTLY ${range[0]}-${range[1]} words. DO NOT write shorter.
+VOCABULARY: Use ONLY vocabulary appropriate for ${STATE.level}. NO simple words if level is B2+.
+DIFFICULTY MAPPING:
+- Light: Lower-bound of ${STATE.level}. Clear structure but academic vocabulary.
+- Standard: Mid ${STATE.level}. Some complex sentences, mixed question types.
+- Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals). Questions MUST mimic IELTS/TOEFL (require synthesis, inference, identifying author's tone). DO NOT make answers easy to copy-paste from text.
+QUESTIONS: ${qCount} MCQs (A/B/C/D). Reply ONLY raw JSON: 
+{"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
   fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
