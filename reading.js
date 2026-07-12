@@ -81,18 +81,18 @@ function setDifficulty(diff) {
   renderReading();
 }
 
-// ===== GENERATE READING WITH AI =====
-function generateReading() {
+// ===== GENERATE READING WITH AI (with word-count validation + auto-expand) =====
+async function generateReading() {
   if (RD.loading) return;
   RD.loading = true; RD.submitted = false; RD.answers = {};
 
   const btn = document.getElementById('btn-gen-reading');
-  if (btn) { btn.disabled=true; btn.textContent=t('rd_generating'); }
+  if (btn) { btn.disabled = true; btn.textContent = t('rd_generating'); }
 
-  const cfg = RD_CONFIG[STATE.level]||RD_CONFIG['B1'];
+  const cfg = RD_CONFIG[STATE.level] || RD_CONFIG['B1'];
   const range = cfg[RD.difficulty];
-  const qCount = RD.difficulty==='exam'?6:RD.difficulty==='standard'?5:4;
-  const diffLabel = {light:'Light',standard:'Standard',exam:'Exam-style'}[RD.difficulty];
+  const qCount = RD.difficulty === 'exam' ? 6 : RD.difficulty === 'standard' ? 5 : 4;
+  const diffLabel = { light: 'Light', standard: 'Standard', exam: 'Exam-style' }[RD.difficulty];
 
   const prompt = `You are an IELTS/TOEFL reading test creator. CEFR: ${STATE.level}, Difficulty: ${diffLabel}. 
 TASK: Write a ${diffLabel} fictional passage. 
@@ -104,29 +104,68 @@ DIFFICULTY MAPPING:
 - Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals). Questions MUST mimic IELTS/TOEFL (require synthesis, inference, identifying author's tone). DO NOT make answers easy to copy-paste from text.
 QUESTIONS: ${qCount} MCQs (A/B/C/D). Reply ONLY raw JSON: 
 {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
-  fetch('/api/gemini', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.4, maxOutputTokens: 2048 }
-    })
-  })
-  .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
-  .then(data => {
-    if (data.error) throw new Error(data.error.message);
-    const txt = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-    if (!txt) throw new Error('AI blocked response');
-    let cleanTxt = txt.replace(/```json|```/g, '').trim();
-    let res;
-    try { res = JSON.parse(cleanTxt); }
-    catch(e) { cleanTxt = cleanTxt.replace(/\\(?!["\\/bfnrtu])/g, '\\\\'); res = JSON.parse(cleanTxt); }
+
+  try {
+    let res = await callAI(prompt, 2048);
+    let wordCount = countWords(res.passage);
+    let attempts = 0;
+
+    // ถ้าสั้นกว่าที่กำหนด ให้ขอ AI ขยายเนื้อหาต่อ สูงสุด 3 รอบ
+    while (wordCount < range[0] && attempts < 3) {
+      attempts++;
+      const needed = range[0] - wordCount + 40; // ขอเผื่อนิดหน่อยกันสั้นซ้ำ
+      const expandPrompt = `Continue this passage naturally from where it ends. Add approximately ${needed} more words. SAME topic, SAME CEFR level (${STATE.level}), SAME difficulty (${diffLabel}). Do NOT repeat existing content, do NOT restart the story, do NOT add a title. Reply ONLY raw JSON: {"continuation":"..."}
+
+Existing passage:
+${res.passage}`;
+
+      const expandRes = await callAI(expandPrompt, 1024);
+      if (expandRes.continuation) {
+        res.passage = res.passage.trim() + ' ' + expandRes.continuation.trim();
+        wordCount = countWords(res.passage);
+      } else {
+        break; // AI ไม่ยอมส่ง continuation กลับมา หยุด retry กันลูปค้าง
+      }
+    }
+
     RD.passage = res.passage;
     RD.questions = res.questions;
     RD.loading = false;
     renderReadingPassage(res);
-  })
-  .catch(err => { RD.loading=false; showReadingError(err.message); });
+
+  } catch (err) {
+    RD.loading = false;
+    showReadingError(err.message);
+  }
+}
+
+// ===== HELPER: นับคำจริงจาก passage =====
+function countWords(text) {
+  return text.trim().split(/\s+/).filter(Boolean).length;
+}
+
+// ===== HELPER: เรียก AI แล้ว parse JSON กลับมา =====
+async function callAI(prompt, maxTokens) {
+  const r = await fetch('/api/gemini', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.4, maxOutputTokens: maxTokens }
+    })
+  });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const data = await r.json();
+  if (data.error) throw new Error(data.error.message);
+  const txt = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+  if (!txt) throw new Error('AI blocked response');
+  let cleanTxt = txt.replace(/```json|```/g, '').trim();
+  try {
+    return JSON.parse(cleanTxt);
+  } catch (e) {
+    cleanTxt = cleanTxt.replace(/\\(?!["\\/bfnrtu])/g, '\\\\');
+    return JSON.parse(cleanTxt);
+  }
 }
 
 // ===== SHOW ERROR =====
