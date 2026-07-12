@@ -10,24 +10,79 @@ let GR = {
   resultLog: [],
 };
 
-// ===== START SESSION =====
-function startGrammarSession(mode) {
-  const q = mode === 'weak'
-    ? buildWeakGrammarQueue()
-    : shuffle([...GRAMMAR_QUESTIONS]).slice(0, 6);
-
-  GR = { mode, queue: q, idx:0, correct:0, wrong:0,
-         answered:false, infoOpen:false, resultLog:[] };
+// ===== START SESSION (AI-generated questions) =====
+async function startGrammarSession(mode) {
   showPage('grammar');
-  renderGrammarQuestion();
+  renderGrammarLoading();
+
+  const topics = mode === 'weak' ? getWeakTopics() : Object.keys(GRAMMAR_DB);
+
+  try {
+    const questions = await generateGrammarQuestions(topics, 6);
+    GR = { mode, queue: questions, idx: 0, correct: 0, wrong: 0,
+           answered: false, infoOpen: false, resultLog: [] };
+    renderGrammarQuestion();
+  } catch (err) {
+    showGrammarError(err.message);
+  }
 }
 
-function buildWeakGrammarQueue() {
+function getWeakTopics() {
   const weak = Object.entries(STATE.grammarStats)
-    .filter(([,v]) => v.attempts > 0 && (v.correct/v.attempts) < 0.65)
+    .filter(([, v]) => v.attempts > 0 && (v.correct / v.attempts) < 0.65)
     .map(([topic]) => topic);
-  const filtered = GRAMMAR_QUESTIONS.filter(q => weak.includes(q.topic));
-  return shuffle(filtered.length ? filtered : [...GRAMMAR_QUESTIONS]).slice(0, 6);
+  return weak.length ? weak : Object.keys(GRAMMAR_DB);
+}
+
+// ===== GENERATE GRAMMAR QUESTIONS WITH AI =====
+async function generateGrammarQuestions(topics, count) {
+  const levelWords = WORDS.filter(w => w.level === STATE.level);
+  const pool = (levelWords.length ? levelWords : WORDS).map(w => w.word);
+  const sampleWords = shuffle([...pool]).slice(0, count);
+
+  const topicList = topics.map(tp => {
+    const g = GRAMMAR_DB[tp] || {};
+    return `- ${tp}: ${g.structure || ''}`;
+  }).join('\n');
+
+  const prompt = `You are an English grammar exercise creator for Thai learners at CEFR ${STATE.level}.
+Create exactly ${count} fill-in-the-blank grammar questions.
+Use ONLY these grammar topics (pick randomly, can repeat if needed):
+${topicList}
+
+Use ONLY these target vocabulary words, one per question, in this exact order: ${sampleWords.join(', ')}
+
+For each question:
+- Write ONE natural sentence with a blank shown as "___" where the target word (in the correct grammatical form) should go.
+- Give 4 options (A-D), only ONE grammatically correct for that blank.
+- Distractors must be plausible wrong verb forms/tenses of the SAME word, not random unrelated words.
+- explanation must be 1-2 sentences in Thai, explaining WHY the correct answer fits the grammar rule.
+
+Reply ONLY raw JSON, no markdown:
+{"questions":[{"word":"...","ipa":"...","topic":"...","sentence":"... ___ ...","options":["...","...","...","..."],"answer":"...","explanation":"..."}]}`;
+
+  const res = await callAI(prompt, 2048);
+  if (!res.questions || !res.questions.length) throw new Error(t('gr_ai_fail'));
+  return res.questions;
+}
+
+// ===== LOADING STATE =====
+function renderGrammarLoading() {
+  document.getElementById('page-grammar').innerHTML = `
+    <div style="display:flex;flex-direction:column;align-items:center;
+      justify-content:center;padding:60px 20px;text-align:center">
+      <div style="font-size:14px;color:var(--text3)">${t('gr_generating')}</div>
+    </div>`;
+}
+
+// ===== ERROR STATE =====
+function showGrammarError(msg) {
+  document.getElementById('page-grammar').innerHTML = `
+    <div class="feedback-box wrong" style="margin:20px 0">
+      <div class="fb-title">${t('rd_error')}</div>
+      <div>${msg}</div>
+    </div>
+    <button class="btn-primary ghost" onclick="renderGrammarMenu()">${t('gr_back_study')}</button>`;
 }
 
 // ===== GRAMMAR MENU =====
