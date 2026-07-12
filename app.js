@@ -45,6 +45,7 @@ function setTopDate() {
 function saveState() {
   localStorage.setItem('engstudy_state', JSON.stringify(STATE));
   localStorage.setItem('engstudy_words', JSON.stringify(WORDS));
+  syncPush();
 }
 
 function loadState() {
@@ -362,7 +363,7 @@ const I18N = {
     gr_correct_all:'ถูกต้องทุกด้าน!', gr_errors:'พบข้อผิดพลาด',
     gr_corrected:'ประโยคที่ถูกต้อง',
     gr_wrong_ans:'ผิด — คำตอบที่ถูกคือ',
-    gr_next:'ต่อไป →', gr_attempts:'ครั้งทั้งหมด', gr_generating:'กำลังสร้างคำถามด้วย AI...', gr_ai_fail:'AI ไม่สามารถสร้างคำถามได้ ลองใหม่อีกครั้ง',
+    gr_next:'ต่อไป →', gr_attempts:'ครั้งทั้งหมด', gr_generating:'กำลังสร้างคำถามด้วย AI...', gr_ai_fail:'AI ไม่สามารถสร้างคำถามได้ ลองใหม่อีกครั้ง', sync_ask_name:'ชื่อของคุณ (เช่น กไก่)', sync_ask_pin:'ตั้งรหัส PIN (จำไว้ให้ดี)', sync_setup_success:'ตั้งค่า Sync สำเร็จ!', sync_restore_success:'กู้คืนข้อมูลสำเร็จ!', sync_error:'เกิดข้อผิดพลาด', sync_not_found:'ไม่พบข้อมูล ชื่อหรือ PIN อาจไม่ถูกต้อง', sync_unlink_confirm:'ยกเลิกการ sync? (ข้อมูลบนเครื่องนี้จะไม่หาย แค่เลิกส่งขึ้น cloud)', sync_active:'เชื่อมต่อแล้ว', sync_active_sub:'ข้อมูลสำรองอัตโนมัติทุกครั้งที่มีการเปลี่ยนแปลง', sync_setup_new:'ตั้งค่าครั้งแรก', sync_setup_new_sub:'สร้างชื่อ+PIN เพื่อเริ่มสำรองข้อมูล', sync_restore:'เคยตั้งค่าไว้แล้ว', sync_restore_sub:'กรอกชื่อ+PIN เดิมเพื่อกู้คืนข้อมูล',
     gr_weak_topics:'topic อ่อน', gr_topics:'topics',
     gr_start_mixed:'เริ่ม Mixed — 6 โจทย์',
     gr_train_weak:'ฝึก topic ที่อ่อน',
@@ -477,7 +478,7 @@ const I18N = {
     gr_correct_all:'Perfectly correct!', gr_errors:'Errors found',
     gr_corrected:'Corrected sentence',
     gr_wrong_ans:'Wrong — correct answer is',
-    gr_next:'Next →', gr_attempts:'Total attempts', gr_generating:'Generating questions with AI...', gr_ai_fail:'AI could not generate questions. Try again.',
+    gr_next:'Next →', gr_attempts:'Total attempts', gr_generating:'Generating questions with AI...', gr_ai_fail:'AI could not generate questions. Try again.', sync_ask_name:'Your name (e.g. Kai)', sync_ask_pin:'Set a PIN (remember it)', sync_setup_success:'Sync setup complete!', sync_restore_success:'Data restored!', sync_error:'Error occurred', sync_not_found:'Not found. Name or PIN may be incorrect', sync_unlink_confirm:'Unlink sync? (Local data stays, just stops uploading to cloud)', sync_active:'Connected', sync_active_sub:'Progress auto-backs-up on every change', sync_setup_new:'First-time setup', sync_setup_new_sub:'Create a name+PIN to start backing up', sync_restore:'Already set up before', sync_restore_sub:'Enter your name+PIN to restore data',
     gr_weak_topics:'weak topics', gr_topics:'topics',
     gr_start_mixed:'Start Mixed — 6 questions',
     gr_train_weak:'Practise weak topics',
@@ -673,6 +674,34 @@ function renderSettings() {
       </div>
     </div>
 
+    <div class="sec-label">${lang === 'th' ? 'สำรองข้อมูลอัตโนมัติ (Cloud)' : 'Auto Backup (Cloud)'}</div>
+    <div class="card">
+      ${getSyncIdentity() ? `
+        <div class="settings-row" style="border-bottom:none">
+          <div>
+            <div class="sl">${t('sync_active')}: ${getSyncIdentity().name}</div>
+            <div class="ss">${t('sync_active_sub')}</div>
+          </div>
+          <button class="btn-icon" onclick="unlinkSync()"><i class="ti ti-unlink"></i></button>
+        </div>
+      ` : `
+        <div class="settings-row">
+          <div>
+            <div class="sl">${t('sync_setup_new')}</div>
+            <div class="ss">${t('sync_setup_new_sub')}</div>
+          </div>
+          <button class="btn-icon" onclick="setupSyncNew()"><i class="ti ti-cloud-upload"></i></button>
+        </div>
+        <div class="settings-row" style="border-bottom:none">
+          <div>
+            <div class="sl">${t('sync_restore')}</div>
+            <div class="ss">${t('sync_restore_sub')}</div>
+          </div>
+          <button class="btn-icon" onclick="setupSyncExisting()"><i class="ti ti-cloud-download"></i></button>
+        </div>
+      `}
+    </div>
+    
     <div class="sec-label">${lang === 'th' ? 'เกี่ยวกับ' : 'About'}</div>
     <div class="card">
       <div class="settings-row" style="border-bottom:none">
