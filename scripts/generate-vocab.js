@@ -33,11 +33,45 @@ function pickNextLevel(levelCounts) {
 }
 
 // ===== ขั้นที่ 3: ให้ Groq generate คำศัพท์ใหม่ =====
-async function generateCandidates(level, excludeWords) {
-  const prompt = `Generate exactly ${BATCH_SIZE} English vocabulary words for CEFR level ${level}, suitable for Thai learners.
-DO NOT use any of these existing words: ${excludeWords.slice(-300).join(', ')}
-For each word give: word, level ('${level}'), partOfSpeech (array e.g. ['verb [T]']), meanings (array of {pos, en, th} - en definition in English, th translation in Thai), antonyms (array, 2 words), examples (array of exactly 3 natural sentences using the word).
-Reply ONLY raw JSON: {"words":[{...}]}`;
+// ===== โหลดคลังคำจริงจาก CEFR-J (ข้อมูลจริง ไม่ใช่ AI เดา) =====
+async function loadCefrjList() {
+  const r = await fetch('https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/master/cefrj-vocabulary-profile-1.5.csv');
+  const text = await r.text();
+  const lines = text.split('\n').slice(1); // ข้าม header
+  const list = [];
+  for (const line of lines) {
+    const cols = line.split(',');
+    const word = cols[0]?.trim();
+    const level = cols[2]?.trim();
+    if (word && level && /^[A-Za-z]+$/.test(word)) {
+      list.push({ word, level });
+    }
+  }
+  return list;
+}
+
+// ===== เลือกคำจริงจาก CEFR-J ที่ level ต้องการ และยังไม่มีในคลัง =====
+function pickWordsForLevel(cefrjList, level, excludeWords, count) {
+  const excludeLower = new Set(excludeWords.map(w => w.toLowerCase()));
+  const candidates = cefrjList.filter(w =>
+    w.level === level && !excludeLower.has(w.word.toLowerCase())
+  );
+  // สุ่มลำดับ กันได้คำกลุ่มเดิมซ้ำทุกวัน (เช่น เรียงตาม a,b,c เสมอ)
+  for (let i = candidates.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [candidates[i], candidates[j]] = [candidates[j], candidates[i]];
+  }
+  return candidates.slice(0, count).map(c => c.word);
+}
+
+// ===== ให้ Groq เติมรายละเอียดให้คำที่กำหนดมาแล้ว (ไม่ต้องคิดคำ/level เอง) =====
+async function generateCandidates(level, wordList) {
+  const prompt = `You are given a fixed list of English words at CEFR level ${level}. For EACH word in this exact list, provide: partOfSpeech (array e.g. ['verb [T]']), meanings (array of {pos, en, th} - en definition in English, th translation in Thai), antonyms (array, 2 words), examples (array of exactly 3 natural sentences using the word).
+DO NOT add, remove, or change any word in the list. Use ALL of them.
+
+Word list: ${wordList.join(', ')}
+
+Reply ONLY raw JSON: {"words":[{"word":"...","level":"${level}","partOfSpeech":[...],"meanings":[...],"antonyms":[...],"examples":[...]}]}`;
 
   const r = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',
@@ -45,7 +79,7 @@ Reply ONLY raw JSON: {"words":[{...}]}`;
     body: JSON.stringify({
       model: 'llama-3.3-70b-versatile',
       messages: [{ role: 'user', content: prompt }],
-      temperature: 0.6, max_tokens: 6000,
+      temperature: 0.4, max_tokens: 4000,
       response_format: { type: 'json_object' },
     }),
   });
@@ -116,7 +150,16 @@ async function main() {
   const level = pickNextLevel(levelCounts);
   console.log(`เลือก level: ${level} (ตอนนี้มี ${levelCounts[level] || 0} คำ)`);
 
-  const candidates = await generateCandidates(level, existingWords);
+  const cefrjList = await loadCefrjList();
+  const wordsToGenerate = pickWordsForLevel(cefrjList, level, existingWords, BATCH_SIZE);
+  console.log(`เลือกคำจาก CEFR-J ได้ ${wordsToGenerate.length} คำ: ${wordsToGenerate.join(', ')}`);
+
+  if (wordsToGenerate.length === 0) {
+    console.log(`ไม่มีคำเหลือใน CEFR-J สำหรับ level ${level} แล้ว (อาจครบหมดแล้ว)`);
+    return;
+  }
+
+  const candidates = await generateCandidates(level, wordsToGenerate);
   const fresh = candidates.filter(c => !existingWords.includes(c.word));
   console.log(`Groq generate มา ${candidates.length} คำ, ไม่ซ้ำ ${fresh.length} คำ`);
 
