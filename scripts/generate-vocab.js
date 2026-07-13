@@ -2,7 +2,7 @@
 import fs from 'fs';
 
 const GROQ_KEY = process.env.GROQ_KEY;
-const GEMINI_KEY = process.env.GEMINI_KEY;
+const ZAI_KEY = process.env.ZAI_KEY;
 const BATCH_SIZE = 10;
 const DATA_PATH = './data.js';
 
@@ -70,24 +70,26 @@ async function fetchIPA(word) {
   }
 }
 
-// ===== ขั้นที่ 5: ให้ Gemini ตรวจสอบ =====
-async function verifyWithGemini(candidates) {
+// ===== ขั้นที่ 5: ให้ z.ai (GLM) ตรวจสอบ =====
+async function verifyWithZai(candidates) {
   const prompt = `You are a strict English vocabulary checker. Review this JSON list of words. For each word, check if the meanings, Thai translations, and example sentences are accurate and natural. Reply ONLY raw JSON: {"results":[{"word":"...","valid":true or false,"reason":"..."}]}
 
 Words to check:
 ${JSON.stringify(candidates.map(c => ({ word: c.word, meanings: c.meanings, examples: c.examples })))}`;
 
-  const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${GEMINI_KEY}`, {
+  const r = await fetch('https://api.z.ai/api/paas/v4/chat/completions', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Authorization': `Bearer ${ZAI_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.2, responseMimeType: 'application/json' },
+      model: 'glm-4.7-flash',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.2,
+      response_format: { type: 'json_object' },
     }),
   });
   const data = await r.json();
-  if (data.error) throw new Error('Gemini error: ' + data.error.message);
-  const txt = data.candidates[0].content.parts[0].text;
+  if (data.error) throw new Error('z.ai error: ' + data.error.message);
+  const txt = data.choices[0].message.content;
   return JSON.parse(txt).results;
 }
 
@@ -117,7 +119,7 @@ async function main() {
   const fresh = candidates.filter(c => !existingWords.includes(c.word));
   console.log(`Groq generate มา ${candidates.length} คำ, ไม่ซ้ำ ${fresh.length} คำ`);
 
-  const verifyResults = await verifyWithGemini(fresh);
+  const verifyResults = await verifyWithZai(fresh);
   const accepted = [];
   const skipped = [];
 
