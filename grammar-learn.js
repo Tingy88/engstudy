@@ -97,22 +97,18 @@ function openGrammarAnchor(topicId) {
   const partner = topic.pairedWith ? GRAMMAR_TOPICS.find(t => t.id === topic.pairedWith) : null;
   const pairKey = getBankKey(topic.id, partner ? partner.id : null);
 
-  const renderCard = (t) => `
-    <div class="card" style="margin-bottom:12px">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px">
-        <i class="ti ${t.icon}" style="font-size:24px;color:var(--teal)"></i>
-        <div style="font-weight:700">${STATE.lang==='en' ? t.name_en : t.name_th}</div>
-      </div>
-      <div class="ms" style="font-style:italic;margin-bottom:6px">
-        "${STATE.lang==='en' ? t.anchor_en : t.anchor_th}"
-      </div>
-      <div class="ms" style="margin-bottom:8px">${t.description_th}</div>
-      <div style="font-size:13px;line-height:1.8">
+  const renderCard = (t, theme) => `
+    <div class="anchor-card theme-${theme}">
+      <i class="ti ${t.icon} anchor-icon"></i>
+      <div class="anchor-title">${STATE.lang==='en' ? t.name_en : t.name_th}</div>
+      <div class="anchor-metaphor">"${STATE.lang==='en' ? t.anchor_en : t.anchor_th}"</div>
+      <div class="anchor-desc">${t.description_th}</div>
+      <div class="anchor-structure">
         <b>+</b> ${t.structure_positive}<br>
         <b>−</b> ${t.structure_negative}<br>
         <b>?</b> ${t.structure_question}
       </div>
-      <div class="ms" style="margin-top:8px">
+      <div class="anchor-examples">
         ${t.examples.map(ex => '• ' + ex).join('<br>')}
       </div>
     </div>`;
@@ -121,8 +117,8 @@ function openGrammarAnchor(topicId) {
     <div class="topbar-back" onclick="renderGrammarTopicList()" style="cursor:pointer;padding:8px 0">
       <i class="ti ti-arrow-left"></i> ${STATE.lang==='en' ? 'Back' : 'กลับ'}
     </div>
-    ${renderCard(topic)}
-    ${partner ? renderCard(partner) : ''}
+    ${renderCard(topic, 'a')}
+    ${partner ? renderCard(partner, 'b') : ''}
     <button class="btn-primary" style="width:100%;margin-top:8px" onclick="startGrammarTopicTest('${pairKey}')">
       ${STATE.lang==='en' ? 'Start Test' : 'เริ่มทดสอบ'}
     </button>
@@ -148,7 +144,7 @@ function renderGrammarTest() {
   const q = GT.questions[GT.idx];
   const blanksHtml = q.blanks.map((b, bi) => `
     <div class="card" style="margin-bottom:10px">
-      <div style="margin-bottom:8px">${b.sentence.replace('___', '<b style="color:var(--accent)">___</b>')}</div>
+      <div class="test-sentence">${b.sentence.replace('___', '<b style="color:var(--accent)">___</b>')}</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
         ${b.options.map(opt => `
           <button class="opt-btn" id="gt-opt-${bi}-${escStr(opt)}"
@@ -162,7 +158,7 @@ function renderGrammarTest() {
       <i class="ti ti-x"></i> ${STATE.lang==='en' ? 'Exit test' : 'ออกจากทดสอบ'}
     </div>
     <div class="ms" style="margin-bottom:10px">${GT.idx + 1} / ${GT.questions.length}</div>
-    <div class="card" style="margin-bottom:12px;font-style:italic">${q.situation_th}</div>
+    <div class="situation-card">${q.situation_th}</div>
     ${blanksHtml}
     <button class="btn-primary" style="width:100%;margin-top:10px" id="btn-gt-submit"
       onclick="submitGrammarAnswer()" disabled>
