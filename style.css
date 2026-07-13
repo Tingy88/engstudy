@@ -707,3 +707,29 @@ canvas {
   margin-bottom: 12px;
   line-height: 1.6;
 }
+
+/* ===== ICON BADGE (วงกลมสีทึบ ใหญ่ ชัด) ===== */
+.icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.icon-badge i { color: #fff; }
+.icon-badge.c-accent { background: var(--accent); }
+.icon-badge.c-teal { background: var(--teal); }
+
+.icon-badge.size-md { width: 40px; height: 40px; }
+.icon-badge.size-md i { font-size: 20px; }
+
+.icon-badge.size-lg { width: 72px; height: 72px; margin: 0 auto 10px; }
+.icon-badge.size-lg i { font-size: 36px; }
+
+/* ===== OPTION BUTTON — สีตาม topic ===== */
+.opt-btn.c-accent.selected,
+.opt-btn.c-accent.correct { border-color: var(--accent); background: var(--accent-lt); }
+.opt-btn.c-accent.correct { color: var(--accent); }
+.opt-btn.c-teal.selected,
+.opt-btn.c-teal.correct { border-color: var(--teal); background: var(--teal-lt); }
+.opt-btn.c-teal.correct { color: var(--teal); }
