@@ -3,7 +3,7 @@ import fs from 'fs';
 
 const GROQ_KEY = process.env.GROQ_KEY;
 const ZAI_KEY = process.env.ZAI_KEY;
-const BATCH_SIZE = 10;
+const BATCH_SIZE = 30;
 const DATA_PATH = './data.js';
 
 // ===== ขั้นที่ 1-2: อ่านไฟล์เดิม + นับคำแต่ละ level =====
@@ -44,7 +44,7 @@ Reply ONLY raw JSON: {"words":[{...}]}`;
     body: JSON.stringify({
       model: 'llama-3.3-70b-versatile',
       messages: [{ role: 'user', content: prompt }],
-      temperature: 0.6, max_tokens: 3000,
+      temperature: 0.6, max_tokens: 6000,
       response_format: { type: 'json_object' },
     }),
   });
