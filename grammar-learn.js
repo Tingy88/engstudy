@@ -59,7 +59,7 @@ function renderGrammarTopicList() {
 
     cards += `
       <div class="mode-card" onclick="openGrammarAnchor('${topic.id}')">
-        <div class="mode-icon" style="background:var(--teal-lt);color:var(--teal)">
+        <div class="icon-badge size-md c-${topic.color}">
           <i class="ti ${topic.icon}"></i>
         </div>
         <div>
@@ -99,7 +99,7 @@ function openGrammarAnchor(topicId) {
 
   const renderCard = (t, theme) => `
     <div class="anchor-card theme-${theme}">
-      <i class="ti ${t.icon} anchor-icon"></i>
+      <div class="icon-badge size-lg c-${t.color}"><i class="ti ${t.icon}"></i></div>
       <div class="anchor-title">${STATE.lang==='en' ? t.name_en : t.name_th}</div>
       <div class="anchor-metaphor">"${STATE.lang==='en' ? t.anchor_en : t.anchor_th}"</div>
       <div class="anchor-desc">${t.description_th}</div>
@@ -146,10 +146,14 @@ function renderGrammarTest() {
     <div class="card" style="margin-bottom:10px">
       <div class="test-sentence">${b.sentence.replace('___', '<b style="color:var(--accent)">___</b>')}</div>
       <div style="display:flex;gap:8px;flex-wrap:wrap">
-        ${b.options.map(opt => `
-          <button class="opt-btn" id="gt-opt-${bi}-${escStr(opt)}"
-            onclick="selectGrammarAnswer(${bi}, '${escStr(opt)}')">${opt}</button>
-        `).join('')}
+        ${(() => {
+          const btnTopic = GRAMMAR_TOPICS.find(t => t.id === b.topicId);
+          const c = btnTopic ? btnTopic.color : 'accent';
+          return b.options.map(opt => `
+            <button class="opt-btn c-${c}" id="gt-opt-${bi}-${escStr(opt)}"
+              onclick="selectGrammarAnswer(${bi}, '${escStr(opt)}')">${opt}</button>
+          `).join('');
+        })()}
       </div>
     </div>`).join('');
 
