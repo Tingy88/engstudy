@@ -13,6 +13,7 @@ function showPage(name) {
     settings: renderSettings,
     reading:  renderReading,
     idioms:   renderIdiomMenu,
+    gramlearn: renderGrammarLevelPicker,
   };
   if (renders[name]) renders[name]();
 }
@@ -260,6 +261,18 @@ function renderStudy() {
       <i class="ti ti-chevron-right" style="margin-left:auto;color:var(--text3)"></i>
     </div>
 
+    <div class="sec-label">${STATE.lang==='en' ? 'Grammar Course' : 'เรียนแกรมม่า'}</div>
+    <div class="mode-card" onclick="showGrammarLevelSelect()">
+      <div class="mode-icon" style="background:var(--accent-lt);color:var(--accent)">
+        <i class="ti ti-school"></i>
+      </div>
+      <div>
+        <div class="mt">${STATE.lang==='en' ? 'Learn by Level' : 'เรียนแกรมม่าตามระดับ'}</div>
+        <div class="ms">${STATE.lang==='en' ? 'A1–C2, Memory Anchor system' : 'A1–C2 พร้อม Memory Anchor'}</div>
+      </div>
+      <i class="ti ti-chevron-right" style="margin-left:auto;color:var(--text3)"></i>
+    </div>
+    
     <div class="sec-label">${t('study_grammar')}</div>
     <div class="mode-card" onclick="startGrammarSession('mixed')">
       <div class="mode-icon" style="background:var(--teal-lt);color:var(--teal)">
