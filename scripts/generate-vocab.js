@@ -119,7 +119,14 @@ async function main() {
   const fresh = candidates.filter(c => !existingWords.includes(c.word));
   console.log(`Groq generate มา ${candidates.length} คำ, ไม่ซ้ำ ${fresh.length} คำ`);
 
-  const verifyResults = await verifyWithZai(fresh);
+  // แบ่งตรวจทีละ 10 คำ แทนที่จะยัดทีเดียวทั้งหมด (กัน AI ขี้เกียจตรวจตอนลิสต์ยาว)
+  const CHUNK_SIZE = 10;
+  let verifyResults = [];
+  for (let i = 0; i < fresh.length; i += CHUNK_SIZE) {
+    const chunk = fresh.slice(i, i + CHUNK_SIZE);
+    const chunkResults = await verifyWithZai(chunk);
+    verifyResults = verifyResults.concat(chunkResults);
+  }
   const accepted = [];
   const skipped = [];
 
