@@ -110,7 +110,7 @@ const GRAMMAR_DB = {
 // Full version will load from Oxford 3000 JSON
 const WORDS = [{
     word: 'achieve',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/əˈtʃiːv/',
     ipa_us: '/əˈtʃiːv/',
@@ -145,7 +145,7 @@ const WORDS = [{
   },
   {
     word: 'adequate',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['adjective'],
     ipa_uk: '/ˈædɪkwət/',
     ipa_us: '/ˈædɪkwət/',
@@ -179,7 +179,7 @@ const WORDS = [{
   },
   {
     word: 'ambition',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'noun [U]'],
     ipa_uk: '/æmˈbɪʃən/',
     ipa_us: '/æmˈbɪʃən/',
@@ -233,7 +233,7 @@ const WORDS = [{
   },
   {
     word: 'attitude',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'noun [U]'],
     ipa_uk: '/ˈætɪtjuːd/',
     ipa_us: '/ˈætɪtuːd/',
@@ -250,7 +250,7 @@ const WORDS = [{
   },
   {
     word: 'avoid',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/əˈvɔɪd/',
     ipa_us: '/əˈvɔɪd/',
@@ -302,7 +302,7 @@ const WORDS = [{
   },
   {
     word: 'challenge',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'verb [T]'],
     ipa_uk: '/ˈtʃælɪndʒ/',
     ipa_us: '/ˈtʃælɪndʒ/',
@@ -320,7 +320,7 @@ const WORDS = [{
   },
   {
     word: 'communicate',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [I]', 'verb [T]'],
     ipa_uk: '/kəˈmjuːnɪkeɪt/',
     ipa_us: '/kəˈmjuːnɪkeɪt/',
@@ -337,7 +337,7 @@ const WORDS = [{
   },
   {
     word: 'concentrate',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [I]'],
     ipa_uk: '/ˈkɒnsəntreɪt/',
     ipa_us: '/ˈkɑːnsəntreɪt/',
@@ -354,7 +354,7 @@ const WORDS = [{
   },
   {
     word: 'confident',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['adjective'],
     ipa_uk: '/ˈkɒnfɪdənt/',
     ipa_us: '/ˈkɑːnfɪdənt/',
@@ -389,7 +389,7 @@ const WORDS = [{
   },
   {
     word: 'consequence',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]'],
     ipa_uk: '/ˈkɒnsɪkwəns/',
     ipa_us: '/ˈkɑːnsɪkwəns/',
@@ -406,7 +406,7 @@ const WORDS = [{
   },
   {
     word: 'consistent',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['adjective'],
     ipa_uk: '/kənˈsɪstənt/',
     ipa_us: '/kənˈsɪstənt/',
@@ -441,7 +441,7 @@ const WORDS = [{
   },
   {
     word: 'creative',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['adjective'],
     ipa_uk: '/kriˈeɪtɪv/',
     ipa_us: '/kriˈeɪtɪv/',
@@ -493,7 +493,7 @@ const WORDS = [{
   },
   {
     word: 'debate',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'noun [U]', 'verb [I]', 'verb [T]'],
     ipa_uk: '/dɪˈbeɪt/',
     ipa_us: '/dɪˈbeɪt/',
@@ -634,7 +634,7 @@ const WORDS = [{
   },
   {
     word: 'evaluate',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/ɪˈvæljueɪt/',
     ipa_us: '/ɪˈvæljueɪt/',
@@ -704,7 +704,7 @@ const WORDS = [{
   },
   {
     word: 'flexible',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['adjective'],
     ipa_uk: '/ˈfleksɪbəl/',
     ipa_us: '/ˈfleksɪbəl/',
@@ -722,7 +722,7 @@ const WORDS = [{
   },
   {
     word: 'focus',
-    level: 'B1',
+    level: 'A1',
     partOfSpeech: ['verb [I]', 'verb [T]', 'noun [U]', 'noun [C]'],
     ipa_uk: '/ˈfəʊkəs/',
     ipa_us: '/ˈfoʊkəs/',
@@ -740,7 +740,7 @@ const WORDS = [{
   },
   {
     word: 'fundamental',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['adjective', 'noun [C]'],
     ipa_uk: '/ˌfʌndəˈmentəl/',
     ipa_us: '/ˌfʌndəˈmentəl/',
@@ -775,7 +775,7 @@ const WORDS = [{
   },
   {
     word: 'genuine',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['adjective'],
     ipa_uk: '/ˈdʒenjuɪn/',
     ipa_us: '/ˈdʒenjuɪn/',
@@ -811,7 +811,7 @@ const WORDS = [{
   },
   {
     word: 'identify',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/aɪˈdentɪfaɪ/',
     ipa_us: '/aɪˈdentɪfaɪ/',
@@ -829,7 +829,7 @@ const WORDS = [{
   },
   {
     word: 'impact',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'noun [U]', 'verb [T]'],
     ipa_uk: '/ˈɪmpækt/',
     ipa_us: '/ˈɪmpækt/',
@@ -847,7 +847,7 @@ const WORDS = [{
   },
   {
     word: 'implement',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/ˈɪmplɪment/',
     ipa_us: '/ˈɪmplɪment/',
@@ -864,7 +864,7 @@ const WORDS = [{
   },
   {
     word: 'improve',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [I]', 'verb [T]'],
     ipa_uk: '/ɪmˈpruːv/',
     ipa_us: '/ɪmˈpruːv/',
@@ -881,7 +881,7 @@ const WORDS = [{
   },
   {
     word: 'indicate',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/ˈɪndɪkeɪt/',
     ipa_us: '/ˈɪndɪkeɪt/',
@@ -917,7 +917,7 @@ const WORDS = [{
   },
   {
     word: 'influence',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'noun [U]', 'verb [T]'],
     ipa_uk: '/ˈɪnfluəns/',
     ipa_us: '/ˈɪnfluəns/',
@@ -935,7 +935,7 @@ const WORDS = [{
   },
   {
     word: 'initiative',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['noun [C]', 'noun [U]'],
     ipa_uk: '/ɪˈnɪʃətɪv/',
     ipa_us: '/ɪˈnɪʃətɪv/',
@@ -953,7 +953,7 @@ const WORDS = [{
   },
   {
     word: 'interpret',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['verb [T]', 'verb [I]'],
     ipa_uk: '/ɪnˈtɜːprɪt/',
     ipa_us: '/ɪnˈtɜːrprɪt/',
@@ -989,7 +989,7 @@ const WORDS = [{
   },
   {
     word: 'issue',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'verb [T]'],
     ipa_uk: '/ˈɪʃuː/',
     ipa_us: '/ˈɪʃuː/',
@@ -1007,7 +1007,7 @@ const WORDS = [{
   },
   {
     word: 'justify',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/ˈdʒʌstɪfaɪ/',
     ipa_us: '/ˈdʒʌstɪfaɪ/',
@@ -1042,7 +1042,7 @@ const WORDS = [{
   },
   {
     word: 'manage',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [T]', 'verb [I]'],
     ipa_uk: '/ˈmænɪdʒ/',
     ipa_us: '/ˈmænɪdʒ/',
@@ -1060,7 +1060,7 @@ const WORDS = [{
   },
   {
     word: 'method',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]'],
     ipa_uk: '/ˈmeθəd/',
     ipa_us: '/ˈmeθəd/',
@@ -1145,7 +1145,7 @@ const WORDS = [{
   },
   {
     word: 'opportunity',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['noun [C]', 'noun [U]'],
     ipa_uk: '/ˌɒpəˈtjuːnɪti/',
     ipa_us: '/ˌɑːpərˈtuːnɪti/',
@@ -1162,7 +1162,7 @@ const WORDS = [{
   },
   {
     word: 'perceive',
-    level: 'B1',
+    level: 'B2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/pəˈsiːv/',
     ipa_us: '/pərˈsiːv/',
@@ -1179,7 +1179,7 @@ const WORDS = [{
   },
   {
     word: 'prevent',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/prɪˈvent/',
     ipa_us: '/prɪˈvent/',
@@ -1231,7 +1231,7 @@ const WORDS = [{
   },
   {
     word: 'pursue',
-    level: 'B1',
+    level: 'A2',
     partOfSpeech: ['verb [T]'],
     ipa_uk: '/pəˈsjuː/',
     ipa_us: '/pərˈsuː/',
@@ -1338,7 +1338,7 @@ const WORDS = [{
   },
   {
     word: 'fold',
-    level: 'A1',
+    level: 'B1',
     partOfSpeech: ["verb [T]"],
     ipa_uk: '/fəʊld/',
     ipa_us: '/fəʊld/',
@@ -1359,7 +1359,7 @@ const WORDS = [{
   },
   {
     word: 'fresh',
-    level: 'A1',
+    level: 'A2',
     partOfSpeech: ["adjective"],
     ipa_uk: '/fɹɛʃ/',
     ipa_us: '/fɹɛʃ/',
@@ -1401,7 +1401,7 @@ const WORDS = [{
   },
   {
     word: 'loud',
-    level: 'A1',
+    level: 'B1',
     partOfSpeech: ["adjective"],
     ipa_uk: '/laʊd/',
     ipa_us: '/laʊd/',
@@ -1443,7 +1443,7 @@ const WORDS = [{
   },
   {
     word: 'simple',
-    level: 'A1',
+    level: 'A2',
     partOfSpeech: ["adjective"],
     ipa_uk: '/ˈsɪmpəl/',
     ipa_us: '/ˈsɪmpəl/',
