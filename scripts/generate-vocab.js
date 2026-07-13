@@ -9,8 +9,9 @@ const DATA_PATH = './data.js';
 // ===== ขั้นที่ 1-2: อ่านไฟล์เดิม + นับคำแต่ละ level =====
 function readExistingWords(fileText) {
   const startIdx = fileText.indexOf('const WORDS = [{');
-  const endMarker = '\n];\n\nconst DISTRACTORS';
-  const endIdx = fileText.indexOf(endMarker, startIdx);
+  const endMatch = fileText.slice(startIdx).match(/\];\r?\n\r?\nconst DISTRACTORS/);
+  if (!endMatch) throw new Error('หาตำแหน่งปิด WORDS array ไม่เจอ — โครงสร้างไฟล์อาจเปลี่ยนไป');
+  const endIdx = startIdx + endMatch.index;
   const wordsSection = fileText.slice(startIdx, endIdx);
 
   const words = [...wordsSection.matchAll(/word:\s*'([^']+)'/g)].map(m => m[1]);
