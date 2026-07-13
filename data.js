@@ -1352,3 +1352,218 @@ const GRAMMAR_QUESTIONS = [
     explanation:'ใช้ Passive Voice Past Simple เพราะ "committee" เป็นผู้กระทำ แต่ไม่ใช่ประธาน และมีบอกเวลา "last Friday"',
   },
 ];
+  {
+    word: 'borrow',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈbɔɹoʊ/',
+    ipa_us: '/ˈbɔɹoʊ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take something from someone with the intention of returning it",
+              "th": "ยืม"
+        }
+  ],
+    antonyms: ["lend","give"],
+    examples:   [
+        "I need to borrow some money from my friend to pay the rent.",
+        "She borrowed a book from the library to read over the weekend.",
+        "Can I borrow your car for a day?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cloudy',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈklaʊːdɪ/',
+    ipa_us: '/ˈklaʊːdɪ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having many clouds in the sky",
+              "th": "มีเมฆ"
+        }
+  ],
+    antonyms: ["sunny","clear"],
+    examples:   [
+        "The weather forecast says it will be cloudy tomorrow.",
+        "I don't like playing outside when it's cloudy.",
+        "The cloudy sky made the day feel gloomy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dirty',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdɜːti/',
+    ipa_us: '/ˈdɜːti/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not clean",
+              "th": "ไม่สะอาด"
+        }
+  ],
+    antonyms: ["clean","spotless"],
+    examples:   [
+        "The dirty dishes were piled up in the sink.",
+        "She washed her dirty hands before eating.",
+        "The dirty air in the city is bad for your health."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fast',
+    level: 'A1',
+    partOfSpeech: ["adverb","adjective"],
+    ipa_uk: '/fɑːst/',
+    ipa_us: '/fɑːst/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "moving or able to move quickly",
+              "th": "เร็ว"
+        },
+        {
+              "pos": "adjective",
+              "en": "firmly fixed or closed",
+              "th": "มั่นคง"
+        }
+  ],
+    antonyms: ["slow","loose"],
+    examples:   [
+        "He runs fast and can finish the marathon in under three hours.",
+        "The fast car sped down the highway.",
+        "She held the door handle fast so it wouldn't open."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fold',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/fəʊld/',
+    ipa_us: '/fəʊld/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to bend something, especially paper or cloth, so that one part covers another",
+              "th": "พับ"
+        }
+  ],
+    antonyms: ["unfold","open"],
+    examples:   [
+        "Can you fold this map so we can put it in the bag?",
+        "She folded the laundry and put it away in the drawer.",
+        "He learned how to fold a paper plane when he was a kid."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fresh',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/fɹɛʃ/',
+    ipa_us: '/fɹɛʃ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "new or recently made, and therefore clean and attractive",
+              "th": "ใหม่"
+        }
+  ],
+    antonyms: ["stale","old"],
+    examples:   [
+        "I love the smell of fresh bread from the bakery.",
+        "The fresh air in the mountains was refreshing.",
+        "She bought fresh flowers to decorate the room."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hurry',
+    level: 'A1',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/ˈhʌ.ɹi/',
+    ipa_us: '/ˈhʌ.ɹi/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move or act quickly",
+              "th": "เร่ง"
+        }
+  ],
+    antonyms: ["delay","wait"],
+    examples:   [
+        "I'm in a hurry, can we talk later?",
+        "She had to hurry to catch the bus on time.",
+        "He hurried to finish his project before the deadline."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'loud',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/laʊd/',
+    ipa_us: '/laʊd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "making a lot of noise",
+              "th": "ดัง"
+        }
+  ],
+    antonyms: ["quiet","soft"],
+    examples:   [
+        "The music was too loud and gave me a headache.",
+        "He spoke loudly so everyone could hear him.",
+        "The loud noise from the construction site was disturbing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'quiet',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkwaɪ.ət/',
+    ipa_us: '/ˈkwaɪ.ət/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "making little or no noise",
+              "th": "เงียบ"
+        }
+  ],
+    antonyms: ["loud","noisy"],
+    examples:   [
+        "The library is a quiet place where you can study.",
+        "She likes to read in quiet surroundings.",
+        "The quiet village was a nice place to relax."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'simple',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsɪmpəl/',
+    ipa_us: '/ˈsɪmpəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not complex or complicated",
+              "th": "ง่าย"
+        }
+  ],
+    antonyms: ["complex","complicated"],
+    examples:   [
+        "The simple design of the room made it look elegant.",
+        "He likes to eat simple food like rice and vegetables.",
+        "The simple instructions made it easy to assemble the furniture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
