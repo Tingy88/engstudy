@@ -218,7 +218,7 @@ function submitGrammarAnswer() {
   nextBtn.textContent = (GT.idx < GT.questions.length - 1)
     ? (STATE.lang==='en' ? 'Next →' : 'ข้อต่อไป →')
     : (STATE.lang==='en' ? 'Finish' : 'เสร็จสิ้น');
-  nextBtn.onclick = nextGrammarQuestion;
+  nextBtn.onclick = nextGramTestQ;
   document.getElementById('page-gramlearn').appendChild(nextBtn);
 }
 
@@ -229,7 +229,7 @@ function moveGrammarBox(topic, dir) {
 }
 
 // ===== NEXT QUESTION / FINISH =====
-function nextGrammarQuestion() {
+function nextGramTestQ() {
   if (GT.idx < GT.questions.length - 1) {
     GT.idx++;
     GT.answers = {};
