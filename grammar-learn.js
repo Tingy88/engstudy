@@ -128,3 +128,136 @@ function openGrammarAnchor(topicId) {
     </button>
   `;
 }
+
+// ===== GRAMMAR TEST STATE =====
+let GT = { pairKey: '', questions: [], idx: 0, answers: {}, submitted: false };
+
+// ===== SCREEN 4: START TEST =====
+function startGrammarTopicTest(pairKey) {
+  const bank = GRAMMAR_TEST_BANK[pairKey];
+  if (!bank || bank.length === 0) {
+    alert(STATE.lang==='en' ? 'No test questions available yet for this topic.' : 'ยังไม่มีคำถามทดสอบสำหรับหัวข้อนี้');
+    return;
+  }
+  GT = { pairKey, questions: bank, idx: 0, answers: {}, submitted: false };
+  renderGrammarTest();
+}
+
+// ===== RENDER TEST QUESTION =====
+function renderGrammarTest() {
+  const q = GT.questions[GT.idx];
+  const blanksHtml = q.blanks.map((b, bi) => `
+    <div class="card" style="margin-bottom:10px">
+      <div style="margin-bottom:8px">${b.sentence.replace('___', '<b style="color:var(--accent)">___</b>')}</div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        ${b.options.map(opt => `
+          <button class="opt-btn" id="gt-opt-${bi}-${escStr(opt)}"
+            onclick="selectGrammarAnswer(${bi}, '${escStr(opt)}')">${opt}</button>
+        `).join('')}
+      </div>
+    </div>`).join('');
+
+  document.getElementById('page-gramlearn').innerHTML = `
+    <div class="topbar-back" onclick="renderGrammarTopicList()" style="cursor:pointer;padding:8px 0">
+      <i class="ti ti-x"></i> ${STATE.lang==='en' ? 'Exit test' : 'ออกจากทดสอบ'}
+    </div>
+    <div class="ms" style="margin-bottom:10px">${GT.idx + 1} / ${GT.questions.length}</div>
+    <div class="card" style="margin-bottom:12px;font-style:italic">${q.situation_th}</div>
+    ${blanksHtml}
+    <button class="btn-primary" style="width:100%;margin-top:10px" id="btn-gt-submit"
+      onclick="submitGrammarAnswer()" disabled>
+      ${STATE.lang==='en' ? 'Check' : 'ตรวจคำตอบ'}
+    </button>
+  `;
+}
+
+// ===== SELECT ANSWER (ก่อนกดตรวจ) =====
+function selectGrammarAnswer(blankIndex, option) {
+  if (GT.submitted) return;
+  GT.answers[blankIndex] = option;
+  const q = GT.questions[GT.idx];
+  q.blanks.forEach((b, bi) => {
+    b.options.forEach(opt => {
+      const el = document.getElementById(`gt-opt-${bi}-${escStr(opt)}`);
+      if (el) el.classList.toggle('selected', GT.answers[bi] === opt);
+    });
+  });
+  const allAnswered = q.blanks.every((_, bi) => GT.answers[bi] !== undefined);
+  document.getElementById('btn-gt-submit').disabled = !allAnswered;
+}
+
+// ===== SUBMIT & GRADE =====
+function submitGrammarAnswer() {
+  if (GT.submitted) return;
+  GT.submitted = true;
+  const q = GT.questions[GT.idx];
+
+  q.blanks.forEach((b, bi) => {
+    const correct = GT.answers[bi] === b.answer;
+    const topic = GRAMMAR_TOPICS.find(t => t.id === b.topicId);
+    if (topic) {
+      topic.seen = (topic.seen || 0) + 1;
+      if (correct) topic.correct = (topic.correct || 0) + 1;
+      moveGrammarBox(topic, correct ? 'up' : 'down');
+      topic.lastSeen = Date.now();
+    }
+    b.options.forEach(opt => {
+      const el = document.getElementById(`gt-opt-${bi}-${escStr(opt)}`);
+      if (!el) return;
+      if (opt === b.answer) el.classList.add('correct');
+      else if (opt === GT.answers[bi]) el.classList.add('wrong');
+      el.disabled = true;
+    });
+  });
+
+  saveState();
+
+  const nextBtn = document.createElement('button');
+  nextBtn.className = 'btn-primary';
+  nextBtn.style.cssText = 'width:100%;margin-top:12px';
+  nextBtn.textContent = (GT.idx < GT.questions.length - 1)
+    ? (STATE.lang==='en' ? 'Next →' : 'ข้อต่อไป →')
+    : (STATE.lang==='en' ? 'Finish' : 'เสร็จสิ้น');
+  nextBtn.onclick = nextGrammarQuestion;
+  document.getElementById('page-gramlearn').appendChild(nextBtn);
+}
+
+// ===== MOVE BOX (ใช้ logic เดียวกับ vocab) =====
+function moveGrammarBox(topic, dir) {
+  if (dir === 'up' && topic.box < 6) topic.box++;
+  if (dir === 'down' && topic.box > 1) topic.box--;
+}
+
+// ===== NEXT QUESTION / FINISH =====
+function nextGrammarQuestion() {
+  if (GT.idx < GT.questions.length - 1) {
+    GT.idx++;
+    GT.answers = {};
+    GT.submitted = false;
+    renderGrammarTest();
+  } else {
+    renderGrammarTestResult();
+  }
+}
+
+// ===== RESULT SCREEN =====
+function renderGrammarTestResult() {
+  const topicIds = [...new Set(GT.questions.flatMap(q => q.blanks.map(b => b.topicId)))];
+  const topics = topicIds.map(id => GRAMMAR_TOPICS.find(t => t.id === id));
+  const avgBox = Math.round(topics.reduce((s, t) => s + t.box, 0) / topics.length);
+
+  document.getElementById('page-gramlearn').innerHTML = `
+    <div style="text-align:center;padding:30px 16px">
+      <i class="ti ti-confetti" style="font-size:40px;color:var(--accent)"></i>
+      <div style="font-size:20px;font-weight:700;margin:10px 0">
+        ${STATE.lang==='en' ? 'Test Complete!' : 'ทดสอบเสร็จแล้ว!'}
+      </div>
+      <div class="ms" style="margin-bottom:20px">
+        ${STATE.lang==='en' ? 'Current level' : 'ระดับความจำตอนนี้'}: Box ${avgBox}/6
+      </div>
+      <button class="btn-primary" style="width:100%" onclick="renderGrammarTopicList()">
+        ${STATE.lang==='en' ? 'Back to topics' : 'กลับไปหน้าหัวข้อ'}
+      </button>
+    </div>
+  `;
+}
