@@ -582,3 +582,128 @@ select {
 canvas {
   max-width: 100%;
 }
+
+/* ===== GRAMMAR LEARN — BACK BUTTON ===== */
+.topbar-back {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text2);
+}
+.topbar-back:hover { color: var(--accent); }
+
+/* ===== GRAMMAR LEARN — ANCHOR CARD (หน้าเรียน) ===== */
+.anchor-card {
+  border-radius: 16px;
+  padding: 20px 16px;
+  margin-bottom: 14px;
+  border: 2px solid var(--border2);
+}
+.anchor-card.theme-a {
+  background: linear-gradient(135deg, var(--accent-lt), transparent);
+  border-color: var(--accent-mid);
+}
+.anchor-card.theme-b {
+  background: linear-gradient(135deg, var(--teal-lt), transparent);
+  border-color: var(--teal-mid);
+}
+.anchor-card .anchor-icon {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+.anchor-card.theme-a .anchor-icon { color: var(--accent); }
+.anchor-card.theme-b .anchor-icon { color: var(--teal); }
+.anchor-card .anchor-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.anchor-card .anchor-metaphor {
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.anchor-card .anchor-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text2);
+  margin-bottom: 12px;
+}
+.anchor-card .anchor-structure {
+  font-size: 13px;
+  line-height: 2;
+  background: rgba(0,0,0,0.04);
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+}
+.anchor-card .anchor-examples {
+  font-size: 13.5px;
+  line-height: 1.9;
+  color: var(--text2);
+}
+
+/* ===== GRAMMAR TEST — OPTION BUTTONS ===== */
+.opt-btn {
+  flex: 1;
+  min-width: 130px;
+  padding: 16px 12px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 14px;
+  border: 2px solid var(--border2);
+  background: var(--bg1, #fff);
+  color: var(--text1, #222);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.opt-btn:hover:not(:disabled) {
+  border-color: var(--accent-mid);
+  background: var(--accent-lt);
+}
+.opt-btn.selected {
+  border-color: var(--accent);
+  background: var(--accent-lt);
+  box-shadow: 0 0 0 2px var(--accent-mid);
+}
+.opt-btn.correct {
+  border-color: var(--teal);
+  background: var(--teal-lt);
+  color: var(--teal);
+}
+.opt-btn.wrong {
+  border-color: var(--danger);
+  background: var(--danger-lt);
+  color: var(--danger);
+  animation: shake 0.3s ease;
+}
+.opt-btn:disabled { cursor: default; opacity: 0.85; }
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-4px); }
+  75% { transform: translateX(4px); }
+}
+
+/* ===== GRAMMAR TEST — SITUATION CARD ===== */
+.situation-card {
+  font-size: 15px;
+  line-height: 1.7;
+  font-style: italic;
+  color: var(--text2);
+  background: var(--accent-lt);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+/* ===== GRAMMAR TEST — SENTENCE (โจทย์) ===== */
+.test-sentence {
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
