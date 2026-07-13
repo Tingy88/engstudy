@@ -4,6 +4,7 @@ const STATE = {
   dailyGoal: 20,
   darkMode: false,
   streak: 7,
+  grammarLevel: 'A1',
   totalDays: 23,
   boxes: { 1:18, 2:24, 3:31, 4:22, 5:16, 6:9 },
   grammarStats: {
