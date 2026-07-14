@@ -199,6 +199,11 @@ async function main() {
       skipped.push(`${c.word}: Gemini ไม่ผ่าน (${verdict?.reason || 'ไม่มีข้อมูล'})`);
       continue;
     }
+    if (!c.meanings || !c.meanings.length || !c.examples || !c.examples.length) {
+      skipped.push(`${c.word}: Groq ส่งข้อมูลไม่ครบ (ขาด meanings หรือ examples)`);
+      continue;
+    }
+    
     const ipa = await fetchIPA(c.word);
     if (!ipa) {
       skipped.push(`${c.word}: หา IPA ใน dictionary ไม่เจอ`);
