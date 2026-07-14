@@ -38,16 +38,22 @@ function pickNextLevel(levelCounts) {
 // ===== ขั้นที่ 3: ให้ Groq generate คำศัพท์ใหม่ =====
 // ===== โหลดคลังคำจริงจาก CEFR-J (ข้อมูลจริง ไม่ใช่ AI เดา) =====
 async function loadCefrjList() {
-  const r = await fetch('https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/master/cefrj-vocabulary-profile-1.5.csv');
-  const text = await r.text();
-  const lines = text.split('\n').slice(1); // ข้าม header
+  const urls = [
+    'https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/master/cefrj-vocabulary-profile-1.5.csv',      // A1-B2
+    'https://raw.githubusercontent.com/openlanguageprofiles/olp-en-cefrj/master/octanove-vocabulary-profile-c1c2-1.0.csv', // C1-C2
+  ];
   const list = [];
-  for (const line of lines) {
-    const cols = line.split(',');
-    const word = cols[0]?.trim();
-    const level = cols[2]?.trim();
-    if (word && level && /^[A-Za-z]+$/.test(word)) {
-      list.push({ word, level });
+  for (const url of urls) {
+    const r = await fetch(url);
+    const text = await r.text();
+    const lines = text.split('\n').slice(1); // ข้าม header
+    for (const line of lines) {
+      const cols = line.split(',');
+      const word = cols[0]?.trim();
+      const level = cols[2]?.trim();
+      if (word && level && /^[A-Za-z]+$/.test(word)) {
+        list.push({ word, level });
+      }
     }
   }
   return list;
