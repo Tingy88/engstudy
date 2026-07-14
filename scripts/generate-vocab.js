@@ -103,12 +103,15 @@ async function fetchIPA(word) {
     const r = await fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${encodeURIComponent(word)}`);
     if (!r.ok) return null;
     const data = await r.json();
-    const entry = data[0];
-    // พยายามหาแบบ British (สังเกตจาก audio url ที่มี _gb_)
-    const gbPhonetic = entry.phonetics.find(p => p.audio && p.audio.includes('_gb_') && p.text);
-    const anyPhonetic = entry.phonetics.find(p => p.text);
-    const text = (gbPhonetic || anyPhonetic || entry).text;
-    return text || null;
+
+    // ไล่เช็คทุก entry (คำที่มีหลายความหมาย เช่น recall เป็นได้ทั้งกริยา/คำนาม จะมีหลาย entry)
+    for (const entry of data) {
+      const gbPhonetic = entry.phonetics?.find(p => p.audio && p.audio.includes('_gb_') && p.text);
+      const anyPhonetic = entry.phonetics?.find(p => p.text);
+      const text = gbPhonetic?.text || anyPhonetic?.text || entry.phonetic;
+      if (text) return text;
+    }
+    return null;
   } catch (e) {
     return null;
   }
