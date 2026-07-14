@@ -1463,7 +1463,400 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
-];
+
+  {
+    word: 'cast',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kæst/',
+    ipa_us: '/kæst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to throw something in a particular direction",
+              "th": "โยนหรือปล่อยสิ่งใดสิ่งหนึ่งไปในแนวทิศทางใดทิศทางหนึ่ง"
+        }
+  ],
+    antonyms: ["gather","collect"],
+    examples:   [
+        "The fisherman cast his line into the water.",
+        "She cast a glance at the clock on the wall.",
+        "The company will cast the actor for the lead role next week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'align',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/æˈlaɪn/',
+    ipa_us: '/æˈlaɪn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to put something in a straight line with something else",
+              "th": "ทำให้สิ่งหนึ่งอยู่ในแนวเดียวกันกับสิ่งอื่น"
+        }
+  ],
+    antonyms: ["misalign","clash"],
+    examples:   [
+        "You need to align the wheels of your car properly.",
+        "The teacher asked the students to align their desks in a row.",
+        "The company will align its strategy with the new market trends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'justly',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈdʒʌstli/',
+    ipa_us: '/ˈdʒʌstli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a fair and just way",
+              "th": "ด้วยวิธีที่ยุติธรรมและเป็นธรรม"
+        }
+  ],
+    antonyms: ["unfairly","unjustly"],
+    examples:   [
+        "The judge tried to sentence the defendant justly.",
+        "The company aims to treat all employees justly.",
+        "The new policy is designed to reward employees justly for their hard work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'expire',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/ɛkˈspaɪ.ə(ɹ)/',
+    ipa_us: '/ɛkˈspaɪ.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to come to an end or no longer be valid",
+              "th": "สิ้นสุดลงหรือไม่มีผลบังคับใช้อีกต่อไป"
+        }
+  ],
+    antonyms: ["renew","extend"],
+    examples:   [
+        "The passport will expire in six months.",
+        "The contract will expire at the end of the year.",
+        "The coupon will expire if you don't use it within a week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gourmet',
+    level: 'C1',
+    partOfSpeech: ["noun [C]","adjective"],
+    ipa_uk: '/ˈɡɔːmeɪ/',
+    ipa_us: '/ˈɡɔːmeɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who enjoys good food and drink",
+              "th": "บุคคลที่ชื่นชอบอาหารและเครื่องดื่มที่ดี"
+        },
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of good food and drink",
+              "th": "เกี่ยวข้องกับหรือมีลักษณะของอาหารและเครื่องดื่มที่ดี"
+        }
+  ],
+    antonyms: ["fast food","ordinary"],
+    examples:   [
+        "The gourmet restaurant in town is very popular.",
+        "She is a gourmet and loves to try new recipes.",
+        "The gourmet food store has a wide selection of cheeses."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lap',
+    level: 'C1',
+    partOfSpeech: ["noun [C]","verb [I/T]"],
+    ipa_uk: '/læp/',
+    ipa_us: '/læp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the upper part of the leg of a seated person",
+              "th": "ส่วนบนของขาเมื่อนั่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to move around a track or course, especially in a car or on foot",
+              "th": "เคลื่อนที่รอบๆ สนามแข่งขันหรือเส้นทาง โดยเฉพาะอย่างยิ่งในรถหรือเดิน"
+        }
+  ],
+    antonyms: ["stand","stop"],
+    examples:   [
+        "The child sat on her mother's lap.",
+        "The car took a lap around the track.",
+        "The runner will lap the field if she keeps this pace."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'reap',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɹiːp/',
+    ipa_us: '/ɹiːp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to gather or collect something, especially a crop",
+              "th": "เก็บเกี่ยวหรือรวบรวมสิ่งใดสิ่งหนึ่ง โดยเฉพาะอย่างยิ่งพืชผล"
+        }
+  ],
+    antonyms: ["sow","plant"],
+    examples:   [
+        "The farmer will reap the wheat next week.",
+        "You reap what you sow, so be careful what you plant.",
+        "The company will reap the benefits of its investment in a few years."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scoff',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/skɒf/',
+    ipa_us: '/skɒf/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to laugh at someone or something, or to show that you do not believe or respect them",
+              "th": "หัวเราะเยาะหรือแสดงว่าคุณไม่เชื่อหรือไม่เคารพใครหรืออะไร"
+        }
+  ],
+    antonyms: ["praise","admire"],
+    examples:   [
+        "The children scoff at the idea of eating vegetables.",
+        "She scoffs at the notion that money can buy happiness.",
+        "The critics scoff at the new artist's work, saying it lacks originality."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'appallingly',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ʌˈpɑlɪŋli/',
+    ipa_us: '/ʌˈpɑlɪŋli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a way that is extremely bad or unpleasant",
+              "th": "ด้วยวิธีที่ไม่ดีหรือไม่พึงประสงค์อย่างมาก"
+        }
+  ],
+    antonyms: ["acceptably","tolerably"],
+    examples:   [
+        "The hotel room was appallingly dirty and smelly.",
+        "The service at the restaurant was appallingly slow.",
+        "The conditions in the refugee camp were appallingly poor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'speculation',
+    level: 'C1',
+    partOfSpeech: ["noun [U/C]"],
+    ipa_uk: '/ˌspɛkjəˈleɪʃən/',
+    ipa_us: '/ˌspɛkjəˈleɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of guessing or forming opinions without firm evidence",
+              "th": "การเดาหรือมีความคิดเห็นโดยไม่มีหลักฐานที่แน่ชัด"
+        }
+  ],
+    antonyms: ["fact","reality"],
+    examples:   [
+        "There is a lot of speculation about the company's future plans.",
+        "The media is full of speculation about the celebrity's personal life.",
+        "The economist warned against speculation in the financial markets."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hostess',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈhəʊstəs/',
+    ipa_us: '/ˈhəʊstəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a woman who welcomes or entertains guests, especially in her own home",
+              "th": "ผู้หญิงที่ต้อนรับหรือให้ความบันเทิงแก่ผู้มาเยือน โดยเฉพาะอย่างยิ่งในบ้านของเธอ"
+        }
+  ],
+    antonyms: ["guest","stranger"],
+    examples:   [
+        "The hostess greeted us warmly at the door.",
+        "She was a charming hostess and made everyone feel at ease.",
+        "The hostess of the party was busy making sure everything was perfect."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wooded',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈwʊdɪd/',
+    ipa_us: '/ˈwʊdɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a lot of trees or woods",
+              "th": "มีต้นไม้หรือป่าไม้มาก"
+        }
+  ],
+    antonyms: ["barren","treeless"],
+    examples:   [
+        "The wooded area was perfect for a hike.",
+        "The house is situated in a wooded valley.",
+        "The wooded landscape was beautiful and peaceful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fiend',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/fiːnd/',
+    ipa_us: '/fiːnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an evil or cruel person, or something that is very bad or unpleasant",
+              "th": "บุคคลที่ชั่วร้ายหรือโหดร้าย หรือสิ่งที่ไม่ดีหรือไม่พึงประสงค์อย่างมาก"
+        }
+  ],
+    antonyms: ["angel","saint"],
+    examples:   [
+        "The villain in the movie was a fiend who tortured his victims.",
+        "She was a fiend for chocolate and ate it every day.",
+        "The disease was a fiend that destroyed many lives."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thereby',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ðɛəˈbaɪ/',
+    ipa_us: '/ðɛəˈbaɪ/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "as a result of something, or by doing something",
+              "th": "เป็นผลมาจากสิ่งใดสิ่งหนึ่ง หรือโดยการทำสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["nevertheless","however"],
+    examples:   [
+        "By working hard, she was able to finish the project thereby earning a promotion.",
+        "The company increased its production thereby reducing its costs.",
+        "The new policy was implemented thereby improving the overall quality of life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tantrum',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈtæntɹəm/',
+    ipa_us: '/ˈtæntɹəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sudden and uncontrolled outburst of anger or frustration, especially by a child",
+              "th": "การระเบิดของความโกรธหรือความผิดหวังที่ไม่สามารถควบคุมได้ โดยเฉพาะอย่างยิ่งในเด็ก"
+        }
+  ],
+    antonyms: ["calmness","patience"],
+    examples:   [
+        "The child had a tantrum in the supermarket because he wanted a toy.",
+        "She threw a tantrum when her parents wouldn't let her go to the party.",
+        "The toddler had a tantrum because he was tired and hungry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'engross',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɛnˈɡɹəʊs/',
+    ipa_us: '/ɛnˈɡɹəʊs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to occupy someone's complete attention, or to write or copy something carefully and in detail",
+              "th": "ยึดความสนใจของใครบางคนอย่างสมบูรณ์ หรือเขียนหรือคัดลอกสิ่งใดสิ่งหนึ่งด้วยความระมัดระวังและรายละเอียด"
+        }
+  ],
+    antonyms: ["distract","divert"],
+    examples:   [
+        "The book engrossed me for hours and I couldn't put it down.",
+        "The task engrossed her attention and she worked on it all day.",
+        "The lawyer had to engross the contract carefully before signing it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'honk',
+    level: 'C1',
+    partOfSpeech: ["verb [I]","noun [C]"],
+    ipa_uk: '/hɒŋk/',
+    ipa_us: '/hɒŋk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make a loud, harsh noise, especially like the sound of a car horn",
+              "th": "发出เสียงดังและหยาบ โดยเฉพาะอย่างยิ่งเสียงคล้ายกับเสียงแตรรถ"
+        },
+        {
+              "pos": "noun",
+              "en": "a loud, harsh noise, especially one made by a car horn",
+              "th": "เสียงดังและหยาบ โดยเฉพาะอย่างยิ่งเสียงที่ทำโดยแตรรถ"
+        }
+  ],
+    antonyms: ["whisper","murmur"],
+    examples:   [
+        "The driver honked the horn to get the pedestrian's attention.",
+        "The goose will honk loudly if it feels threatened.",
+        "The honk of the car horn was loud and startling."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'angle',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈæŋ.ɡəl/',
+    ipa_us: '/ˈæŋ.ɡəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a corner or bend where two lines or surfaces meet",
+              "th": "มุมหรือโค้งงอที่เส้นหรือพื้นผิวสองเส้นมาบรรจบกัน"
+        }
+  ],
+    antonyms: ["curve","circle"],
+    examples:   [
+        "The picture frame was at an angle on the wall.",
+        "The fisherman tried to get a good angle to catch the fish.",
+        "The architect designed the building at a unique angle to maximize the view."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },];
 
 // ===== DISTRACTORS MAP =====
 const DISTRACTORS = {
