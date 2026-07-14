@@ -121,20 +121,30 @@ async function verifyWithZai(candidates) {
 Words to check:
 ${JSON.stringify(candidates.map(c => ({ word: c.word, meanings: c.meanings, examples: c.examples })))}`;
 
-  const r = await fetch('https://api.z.ai/api/paas/v4/chat/completions', {
-    method: 'POST',
-    headers: { 'Authorization': `Bearer ${ZAI_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      model: 'glm-4.7-flash',
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.2,
-      response_format: { type: 'json_object' },
-    }),
-  });
-  const data = await r.json();
-  if (data.error) throw new Error('z.ai error: ' + data.error.message);
-  const txt = data.choices[0].message.content;
-  return JSON.parse(txt).results;
+  let lastError;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const r = await fetch('https://api.z.ai/api/paas/v4/chat/completions', {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${ZAI_KEY}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: 'glm-4.7-flash',
+          messages: [{ role: 'user', content: prompt }],
+          temperature: 0.2,
+          response_format: { type: 'json_object' },
+        }),
+      });
+      const data = await r.json();
+      if (data.error) throw new Error('z.ai error: ' + data.error.message);
+      const txt = data.choices[0].message.content;
+      return JSON.parse(txt).results;
+    } catch (err) {
+      lastError = err;
+      console.log(`z.ai ลองครั้งที่ ${attempt} ไม่สำเร็จ (${err.message}) รออีก ${attempt * 5} วิ...`);
+      if (attempt < 3) await new Promise(res => setTimeout(res, attempt * 5000));
+    }
+  }
+  throw lastError;
 }
 
 // ===== ขั้นที่ 6: ประกอบร่างเป็น JS object แล้วแทรกเข้าไฟล์ =====
