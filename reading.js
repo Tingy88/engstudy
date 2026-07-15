@@ -91,7 +91,7 @@ async function generateReading() {
 
   const cfg = RD_CONFIG[STATE.level] || RD_CONFIG['B1'];
   const range = cfg[RD.difficulty];
-  const qCount = RD.difficulty === 'exam' ? 6 : RD.difficulty === 'standard' ? 5 : 4;
+  const qCount = RD.difficulty === 'exam' ? 10 : RD.difficulty === 'standard' ? 7 : 5;
   const diffLabel = { light: 'Light', standard: 'Standard', exam: 'Exam-style' }[RD.difficulty];
 
   const prompt = `You are an IELTS/TOEFL reading test creator. CEFR: ${STATE.level}, Difficulty: ${diffLabel}. 
@@ -102,7 +102,7 @@ DIFFICULTY MAPPING:
 - Light: Lower-bound of ${STATE.level}. Clear structure but academic vocabulary.
 - Standard: Mid ${STATE.level}. Some complex sentences, mixed question types.
 - Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals). Questions MUST mimic IELTS/TOEFL (require synthesis, inference, identifying author's tone). DO NOT make answers easy to copy-paste from text.
-QUESTIONS: ${qCount} MCQs (A/B/C/D). Reply ONLY raw JSON: 
+QUESTIONS: ${qCount} MCQs (A/B/C/D), MIXED STYLE — combine TOEIC-style questions (direct detail, vocabulary-in-context, straightforward inference — like TOEIC Part 7 single/double passage) with IELTS/TOEFL-style questions (synthesis, author's tone, matching information, identifying claims) in roughly equal proportion. Do NOT make all questions one style. Reply ONLY raw JSON:
 {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
 
   try {
