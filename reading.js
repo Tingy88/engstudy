@@ -140,6 +140,8 @@ ${res.passage}`;
       }
     }
 
+    res.questions = await auditAndFixQuestions(res.passage, res.questions, STATE.level, diffLabel);
+
     RD.passage = res.passage;
     RD.questions = res.questions;
     RD.loading = false;
@@ -403,4 +405,52 @@ function updateReadingStats(acc) {
   STATE.accuracy30.reading.push(acc);
   if (STATE.accuracy30.reading.length > 30) STATE.accuracy30.reading.shift();
   saveState();
+}
+
+// ===== ตรวจสอบคำถามที่ generate มา แล้วซ่อมข้อที่มีปัญหา =====
+async function auditAndFixQuestions(passage, questions, level, diffLabel) {
+  if (diffLabel !== 'Exam-style') return questions; // ตรวจเข้มเฉพาะโหมดยาก
+
+  const auditPrompt = `You are a strict exam quality auditor. Below is a reading passage and its questions. Find questions that FAIL any of these rules:
+
+1. MISLABELED: labeled "Inference" or "Synthesis" but the answer is a near-verbatim copy of ONE sentence in the passage (that's actually "Detail", not Inference/Synthesis).
+2. CHEAP DISTRACTOR: any wrong option is a blatant opposite (increase/decrease, more/less) or absurd/nonsensical, rather than a subtle plausible paraphrase from the passage.
+3. REDUNDANT: the question tests essentially the same fact/idea as another question in this same set (even if worded differently).
+
+Passage:
+${passage}
+
+Questions:
+${JSON.stringify(questions)}
+
+Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the specific reason: {"failing":[{"index":0,"reason":"..."}]}`;
+
+  let auditResult;
+  try {
+    auditResult = await callAI(auditPrompt, 1024);
+  } catch (e) {
+    return questions; // ตรวจไม่ได้ ก็ปล่อยของเดิมผ่านไป ดีกว่าทำให้ทั้งระบบพัง
+  }
+
+  const failing = auditResult.failing || [];
+  if (failing.length === 0) return questions;
+
+  // ซ่อมทีละข้อที่ fail โดยบอกเหตุผลที่พังให้ AI รู้ตรงๆ จะได้ไม่พลาดซ้ำ
+  for (const f of failing) {
+    const fixPrompt = `Rewrite ONLY this one exam question about the passage below. The previous version failed because: "${f.reason}"
+
+Passage:
+${passage}
+
+Write a NEW question (different angle, not the same fact as before) that is a genuine Inference or Synthesis or Detail question (pick whichever fits naturally) with subtle, plausible distractors (NOT blatant opposites, NOT verbatim passage text as wrong answers). Reply ONLY raw JSON: {"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${level}"}`;
+
+    try {
+      const fixed = await callAI(fixPrompt, 512);
+      questions[f.index] = fixed;
+    } catch (e) {
+      // ถ้าซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้ ดีกว่าทำให้ค้าง
+    }
+  }
+
+  return questions;
 }
