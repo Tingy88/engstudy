@@ -159,13 +159,14 @@ function countWords(text) {
 }
 
 // ===== HELPER: เรียก AI แล้ว parse JSON กลับมา =====
-async function callAI(prompt, maxTokens) {
+async function callAI(prompt, maxTokens, provider) {
   const r = await fetch('/api/gemini', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.85, maxOutputTokens: maxTokens }
+      generationConfig: { temperature: 0.85, maxOutputTokens: maxTokens },
+      provider: provider || 'groq',
     })
   });
   if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -427,7 +428,7 @@ Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the speci
 
   let auditResult;
   try {
-    auditResult = await callAI(auditPrompt, 1024);
+    auditResult = await callAI(auditPrompt, 1024, 'mistral');
   } catch (e) {
     return questions; // ตรวจไม่ได้ ก็ปล่อยของเดิมผ่านไป ดีกว่าทำให้ทั้งระบบพัง
   }
@@ -445,7 +446,7 @@ ${passage}
 Write a NEW question (different angle, not the same fact as before) that is a genuine Inference or Synthesis or Detail question (pick whichever fits naturally) with subtle, plausible distractors (NOT blatant opposites, NOT verbatim passage text as wrong answers). Reply ONLY raw JSON: {"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${level}"}`;
 
     try {
-      const fixed = await callAI(fixPrompt, 512);
+      const fixed = await callAI(fixPrompt, 512, 'mistral');
       questions[f.index] = fixed;
     } catch (e) {
       // ถ้าซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้ ดีกว่าทำให้ค้าง
