@@ -2,7 +2,7 @@
 import fs from 'fs';
 
 const GROQ_KEY = process.env.GROQ_KEY;
-const ZAI_KEY = process.env.ZAI_KEY;
+const MISTRAL_KEY = process.env.MISTRAL_KEY;
 const BATCH_SIZE = 30;
 const DATA_PATH = './data.js';
 
@@ -118,30 +118,27 @@ async function fetchIPA(word) {
 }
 
 // ===== ขั้นที่ 5: ให้ z.ai (GLM) ตรวจสอบ =====
-async function verifyWithZai(candidates) {
+async function verifyWithMistral(candidates) {
   const prompt = `You are a strict English vocabulary checker. Review this JSON list of words. For each word, check if the meanings, Thai translations, and example sentences are accurate and natural. Reply ONLY raw JSON: {"results":[{"word":"...","valid":true or false,"reason":"..."}]}
 
 Words to check:
 ${JSON.stringify(candidates.map(c => ({ word: c.word, meanings: c.meanings, examples: c.examples })))}`;
 
-  let lastError;
-  for (let attempt = 1; attempt <= 3; attempt++) {
-    try {
-      const r = await fetch('https://api.z.ai/api/paas/v4/chat/completions', {
-        method: 'POST',
-        headers: { 'Authorization': `Bearer ${ZAI_KEY}`, 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          model: 'glm-4.7-flash',
-          messages: [{ role: 'user', content: prompt }],
-          temperature: 0.2,
-          response_format: { type: 'json_object' },
-        }),
-      });
-      const data = await r.json();
-      if (data.error) throw new Error('z.ai error: ' + data.error.message);
-      const txt = data.choices[0].message.content;
-      return JSON.parse(txt).results;
-    } catch (err) {
+  const r = await fetch('https://api.mistral.ai/v1/chat/completions', {
+    method: 'POST',
+    headers: { 'Authorization': `Bearer ${MISTRAL_KEY}`, 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      model: 'mistral-small-latest',
+      messages: [{ role: 'user', content: prompt }],
+      temperature: 0.2,
+      response_format: { type: 'json_object' },
+    }),
+  });
+  const data = await r.json();
+  if (data.error) throw new Error('Mistral error: ' + (data.error.message || JSON.stringify(data.error)));
+  const txt = data.choices[0].message.content;
+  return JSON.parse(txt).results;
+} catch (err) {
       lastError = err;
       console.log(`z.ai ลองครั้งที่ ${attempt} ไม่สำเร็จ (${err.message}) รออีก ${attempt * 5} วิ...`);
       if (attempt < 3) await new Promise(res => setTimeout(res, attempt * 5000));
@@ -190,7 +187,7 @@ async function main() {
   let verifyResults = [];
   for (let i = 0; i < fresh.length; i += CHUNK_SIZE) {
     const chunk = fresh.slice(i, i + CHUNK_SIZE);
-    const chunkResults = await verifyWithZai(chunk);
+    const chunkResults = await verifyWithMistral(chunk);
     verifyResults = verifyResults.concat(chunkResults);
   }
   const accepted = [];
