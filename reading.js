@@ -94,8 +94,20 @@ async function generateReading() {
   const qCount = RD.difficulty === 'exam' ? 10 : RD.difficulty === 'standard' ? 7 : 5;
   const diffLabel = { light: 'Light', standard: 'Standard', exam: 'Exam-style' }[RD.difficulty];
 
+  const TOPIC_POOL = [
+    'space exploration', 'ancient history', 'urban wildlife', 'a small business owner',
+    'renewable energy', 'traditional crafts', 'ocean conservation', 'a scientific discovery',
+    'street food culture', 'a music festival', 'remote work challenges', 'volcanic islands',
+    'a mystery in a small town', 'sports psychology', 'architecture and design',
+    'a family tradition', 'artificial intelligence ethics', 'migration of animals',
+    'a historical figure', 'sustainable fashion', 'a childhood memory', 'city transportation',
+    'a folk legend', 'photography as a hobby', 'climate adaptation', 'a job interview twist',
+    'underground cave systems', 'a cooking competition', 'language and culture', 'friendship across generations',
+  ];
+  const topic = TOPIC_POOL[Math.floor(Math.random() * TOPIC_POOL.length)];
+
   const prompt = `You are an IELTS/TOEFL reading test creator. CEFR: ${STATE.level}, Difficulty: ${diffLabel}. 
-TASK: Write a ${diffLabel} fictional passage. 
+TASK: Write a ${diffLabel} fictional passage about "${topic}". Be creative and specific — avoid generic, cliché storylines. 
 LENGTH: STRICTLY ${range[0]}-${range[1]} words. DO NOT write shorter.
 VOCABULARY: Use ONLY vocabulary appropriate for ${STATE.level}. NO simple words if level is B2+.
 DIFFICULTY MAPPING:
@@ -151,7 +163,7 @@ async function callAI(prompt, maxTokens) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.4, maxOutputTokens: maxTokens }
+      generationConfig: { temperature: 0.85, maxOutputTokens: maxTokens }
     })
   });
   if (!r.ok) throw new Error('HTTP ' + r.status);
