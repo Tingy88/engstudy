@@ -138,13 +138,6 @@ ${JSON.stringify(candidates.map(c => ({ word: c.word, meanings: c.meanings, exam
   if (data.error) throw new Error('Mistral error: ' + (data.error.message || JSON.stringify(data.error)));
   const txt = data.choices[0].message.content;
   return JSON.parse(txt).results;
-} catch (err) {
-      lastError = err;
-      console.log(`z.ai ลองครั้งที่ ${attempt} ไม่สำเร็จ (${err.message}) รออีก ${attempt * 5} วิ...`);
-      if (attempt < 3) await new Promise(res => setTimeout(res, attempt * 5000));
-    }
-  }
-  throw lastError;
 }
 
 // ===== ขั้นที่ 6: ประกอบร่างเป็น JS object แล้วแทรกเข้าไฟล์ =====
