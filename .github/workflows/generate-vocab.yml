@@ -24,6 +24,7 @@ jobs:
       - name: Run vocabulary generator
         env:
           GROQ_KEY: ${{ secrets.GROQ_KEY }}
+          MISTRAL_KEY: ${{ secrets.MISTRAL_KEY }}
           ZAI_KEY: ${{ secrets.ZAI_KEY }}
         run: node scripts/generate-vocab.js
 
