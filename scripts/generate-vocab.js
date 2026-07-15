@@ -210,7 +210,7 @@ async function main() {
   skipped.forEach(s => console.log('  - ' + s));
 
   if (accepted.length > 0) {
-    const newText = fileText.slice(0, endIdx) + '\n' + accepted.join('\n') + fileText.slice(endIdx);
+    const newText = fileText.slice(0, endIdx) + '\n' + accepted.join('\n') + '\n' + fileText.slice(endIdx);
     fs.writeFileSync(DATA_PATH, newText, 'utf-8');
     console.log('เขียนเข้า data.js เรียบร้อย');
   }
