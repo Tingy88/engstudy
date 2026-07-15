@@ -1,0 +1,19 @@
+name: Keep Supabase Awake
+
+on:
+  schedule:
+    - cron: '0 3 * * 1,4'   # ทุกวันจันทร์และพฤหัส 10:00 เวลาไทย
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase to prevent auto-pause
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          curl -s "$SUPABASE_URL/rest/v1/progress?select=name&limit=1" \
+            -H "apikey: $SUPABASE_ANON_KEY" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY"
