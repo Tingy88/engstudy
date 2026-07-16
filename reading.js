@@ -138,6 +138,8 @@ DISTRACTOR RULES (apply to every question regardless of type):
 - NEVER use blatant opposites (increase/decrease) or absurd/nonsensical options.
 - Each wrong option must come from real passage content, altered in one subtle way per the mechanism described for its type above.
 
+LANGUAGE RULE (mandatory, no exceptions): passage, every question, and all 4 options for every single question MUST be written in English only. NEVER switch to Thai anywhere in these fields. ONLY the "explanation" field uses Thai.
+
 Reply ONLY raw JSON:
 {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
 
@@ -434,33 +436,13 @@ function updateReadingStats(acc) {
 
 // ===== ตรวจสอบคำถามที่ generate มา แล้วซ่อมข้อที่มีปัญหา =====
 async function auditAndFixQuestions(passage, questions, level, diffLabel) {
-  if (diffLabel !== 'Exam-style') return questions; // ตรวจเข้มเฉพาะโหมดยาก
+  if (diffLabel !== 'Exam-style') return questions;
 
-  const auditPrompt = `You are a strict exam quality auditor. Below is a reading passage and its questions. Find questions that FAIL any of these rules:
-
-1. MISLABELED: labeled "Inference" or "Synthesis" but the answer is a near-verbatim copy of ONE sentence in the passage (that's actually "Detail", not Inference/Synthesis).
-2. CHEAP DISTRACTOR: any wrong option is a blatant opposite (increase/decrease, more/less) or absurd/nonsensical, rather than a subtle plausible paraphrase from the passage.
-3. REDUNDANT: the question tests essentially the same fact/idea as another question in this same set (even if worded differently).
-
-Passage:
-${passage}
-
-Questions:
-${JSON.stringify(questions)}
-
-Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the specific reason: {"failing":[{"index":0,"reason":"..."}]}`;
-
-  let auditResult;
-  try {
-    auditResult = await callAI(auditPrompt, 1024, 'mistral');
-  } catch (e) {
-    return questions; // ตรวจไม่ได้ ก็ปล่อยของเดิมผ่านไป ดีกว่าทำให้ทั้งระบบพัง
-  }
-
-  const failingSet = new Map((auditResult.failing || []).map(f => [f.index, f.reason]));
+  // ===== ขั้นที่ 1: เช็คด้วยโค้ดก่อนเสมอ (ไม่พึ่ง AI เลย เชื่อถือได้ 100%) =====
+  const failingSet = new Map();
 
   questions.forEach((q, i) => {
-    if ((q.type === 'Inference' || q.type === 'การอนุมาน' || q.type === 'synthesis')
+    if ((q.type === 'Inference' || q.type === 'การอนุมาน' || q.type === 'Synthesis' || q.type === 'Relationship')
         && overlapsSingleSentence(passage, q.answer)) {
       failingSet.set(i, 'คำตอบลอกมาจากประโยคเดียวคำต่อคำ ไม่ใช่การอนุมาน/สังเคราะห์จริง ต้องเขียนใหม่');
     }
@@ -473,30 +455,53 @@ Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the speci
     });
   });
 
+  // ===== ขั้นที่ 2: เสริมด้วย AI audit (ถ้าเรียกไม่สำเร็จ ไม่กระทบผลจากขั้นที่ 1 เลย) =====
+  try {
+    const auditPrompt = `You are a strict exam quality auditor. Below is a reading passage and its questions. Find questions that FAIL any of these rules:
+
+1. MISLABELED: labeled "Inference" or "Synthesis" but the answer is a near-verbatim copy of ONE sentence in the passage (that's actually "Detail", not Inference/Synthesis).
+2. CHEAP DISTRACTOR: any wrong option is a blatant opposite (increase/decrease, more/less) or absurd/nonsensical, rather than a subtle plausible paraphrase from the passage.
+3. REDUNDANT: the question tests essentially the same fact/idea as another question in this same set (even if worded differently).
+4. GRAMMAR MISMATCH FOR REFERENCE TYPE: if type is "Reference", the pronoun asked about must genuinely refer to a real noun mentioned earlier — NOT a dummy/grammatical "it" (like in "Were it not for...", "It is raining", "It seems that..."). If the passage's "it" is a dummy subject with no real noun antecedent, this question is invalid.
+
+Passage:
+${passage}
+
+Questions:
+${JSON.stringify(questions)}
+
+Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the specific reason: {"failing":[{"index":0,"reason":"..."}]}`;
+
+    const auditResult = await callAI(auditPrompt, 1024, 'mistral');
+    (auditResult.failing || []).forEach(f => {
+      if (!failingSet.has(f.index)) failingSet.set(f.index, f.reason);
+    });
+  } catch (e) {
+    // Mistral ล้มเหลว ไม่เป็นไร — ผลจากขั้นที่ 1 (โค้ดเช็ค) ยังคงอยู่ครบ ไม่หายไปไหน
+  }
+
   if (failingSet.size === 0) return questions;
   const failing = [...failingSet.entries()].map(([index, reason]) => ({ index, reason }));
 
-  // ซ่อมทีละข้อที่ fail โดยบอกเหตุผลที่พังให้ AI รู้ตรงๆ จะได้ไม่พลาดซ้ำ
   for (const f of failing) {
     const fixPrompt = `Rewrite ONLY this one exam question about the passage below. The previous version failed because: "${f.reason}"
 
 Passage:
 ${passage}
 
-Write a NEW question (different angle, not the same fact as before) that is a genuine Inference or Synthesis or Detail question (pick whichever fits naturally) with subtle, plausible distractors (NOT blatant opposites, NOT verbatim passage text as wrong answers). Reply ONLY raw JSON: {"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${level}"}`;
+Write a NEW question (different angle, not the same fact as before) that is a genuine Inference, Detail, or Relationship question (pick whichever fits naturally) with subtle, plausible distractors (NOT blatant opposites, NOT verbatim passage text as wrong answers). The question and all 4 options MUST be in English. Reply ONLY raw JSON: {"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${level}"}`;
 
     try {
       const fixed = await callAI(fixPrompt, 512, 'mistral');
-      // บังคับ format "A. " "B. " "C. " "D. " ด้วยโค้ดเสมอ ไม่ว่า AI จะตอบมาแบบไหน
       const letters = ['A', 'B', 'C', 'D'];
       fixed.options = fixed.options.map((opt, i) => {
-        const stripped = opt.replace(/^[A-Z][\.\):]\s*/, ''); // ตัด prefix เดิมทิ้งก่อน (ถ้ามี)
+        const stripped = opt.replace(/^[A-Z][\.\):]\s*/, '');
         return `${letters[i]}. ${stripped}`;
       });
-      fixed.answer = letters[0]; // ตั้งให้ตัวถูกเป็น A เสมอ (ทำให้ตรงกับตำแหน่งจริง)
+      fixed.answer = letters[0];
       questions[f.index] = fixed;
     } catch (e) {
-      // ถ้าซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้ ดีกว่าทำให้ค้าง
+      // ซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้
     }
   }
 
