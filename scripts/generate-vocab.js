@@ -9,12 +9,12 @@ const DATA_PATH = './data.js';
 // ===== ขั้นที่ 1-2: อ่านไฟล์เดิม + นับคำแต่ละ level =====
 function readExistingWords(fileText) {
   const startIdx = fileText.indexOf('const WORDS = [{');
-  const distractorsMarker = fileText.indexOf('\nconst DISTRACTORS', startIdx);
+  const distractorsMarker = fileText.indexOf('const DISTRACTORS', startIdx);
   if (distractorsMarker === -1) throw new Error('หา "const DISTRACTORS" ไม่เจอ — โครงสร้างไฟล์อาจเปลี่ยนไป');
   const searchZone = fileText.slice(startIdx, distractorsMarker);
-  const closeBracketPos = searchZone.lastIndexOf('\n];');
-  if (closeBracketPos === -1) throw new Error('หาตำแหน่งปิด WORDS array (];) ไม่เจอ');
-  const endIdx = startIdx + closeBracketPos + 1; // +1 เพื่อชี้ไปที่ "];" พอดี (ข้าม \n)
+  const closeBracketPos = searchZone.lastIndexOf(']'); // หาแค่ ] ตัวสุดท้าย ไม่สนใจว่าก่อนหน้ามี \n ไหม
+  if (closeBracketPos === -1) throw new Error('หาตำแหน่งปิด WORDS array (]) ไม่เจอ');
+  const endIdx = startIdx + closeBracketPos; // ชี้ไปที่ตัว ] เป๊ะๆ (จุดที่จะแทรกคำใหม่ไว้ "ก่อนหน้า" นี้)
   const wordsSection = fileText.slice(startIdx, endIdx);
 
   const words = [...wordsSection.matchAll(/word:\s*'([^']+)'/g)].map(m => m[1]);
