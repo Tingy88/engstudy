@@ -2498,6 +2498,521 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'anyone',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/ˈæniˌwʌn/',
+    ipa_us: '/ˈæniˌwʌn/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "any person",
+              "th": "บุคคลใดๆ"
+        }
+  ],
+    antonyms: ["no one","nobody"],
+    examples:   [
+        "Is anyone going to the store?",
+        "I don't know if anyone will be there.",
+        "Anyone can join the club."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'his',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/ˈhɪz/',
+    ipa_us: '/ˈhɪz/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "belonging to him",
+              "th": "ของเขา"
+        }
+  ],
+    antonyms: ["hers","its"],
+    examples:   [
+        "The book is his.",
+        "His car is very nice.",
+        "I like his sense of humor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'orange',
+    level: 'A1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈɔɹɪ̈nd͡ʒ/',
+    ipa_us: '/ˈɔɹɪ̈nd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of fruit",
+              "th": "ส้ม"
+        },
+        {
+              "pos": "adjective",
+              "en": "having a yellow-orange color",
+              "th": "มีสีส้ม"
+        }
+  ],
+    antonyms: ["blue","green"],
+    examples:   [
+        "I love eating oranges.",
+        "The orange dress is beautiful.",
+        "The orange tree is very tall."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'add',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/æd/',
+    ipa_us: '/æd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to put something with something else",
+              "th": "เพิ่ม"
+        }
+  ],
+    antonyms: ["subtract","remove"],
+    examples:   [
+        "Can you add this to the list?",
+        "I will add some sugar to my coffee.",
+        "You need to add water to the plant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'case',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/keɪs/',
+    ipa_us: '/keɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a container or a situation",
+              "th": "กรณี"
+        }
+  ],
+    antonyms: ["absence","freedom"],
+    examples:   [
+        "I need a case for my phone.",
+        "This is a special case.",
+        "The doctor studied the case carefully."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'catch',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kæt͡ʃ/',
+    ipa_us: '/kæt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take hold of something",
+              "th": "จับ"
+        }
+  ],
+    antonyms: ["release","drop"],
+    examples:   [
+        "I will catch the ball.",
+        "You need to catch the bus.",
+        "The dog will catch the frisbee."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'am',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '[e̞m]',
+    ipa_us: '[e̞m]',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be, first person singular",
+              "th": "เป็น (รูปแรกบุรุษเดี่ยว)"
+        }
+  ],
+    antonyms: ["are not","is not"],
+    examples:   [
+        "I am happy.",
+        "I am a student.",
+        "What am I doing?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dinner',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɪnə/',
+    ipa_us: '/ˈdɪnə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the main meal of the day",
+              "th": "อาหารเย็น"
+        }
+  ],
+    antonyms: ["breakfast","lunch"],
+    examples:   [
+        "What time is dinner?",
+        "I love having dinner with my family.",
+        "The dinner party was fun."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dollar',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɔlɚ/',
+    ipa_us: '/dɔlɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the basic unit of money in the US",
+              "th": "ดอลลาร์"
+        }
+  ],
+    antonyms: ["euro","yen"],
+    examples:   [
+        "I have a dollar in my pocket.",
+        "The price is one dollar.",
+        "Can you exchange my dollars for euros?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'own',
+    level: 'A1',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ˈəʊn/',
+    ipa_us: '/ˈəʊn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to have something as a possession",
+              "th": "เป็นเจ้าของ"
+        },
+        {
+              "pos": "adjective",
+              "en": "belonging to oneself",
+              "th": "เป็นของตัวเอง"
+        }
+  ],
+    antonyms: ["rent","share"],
+    examples:   [
+        "I own a car.",
+        "This is my own room.",
+        "Do you own a house?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'all',
+    level: 'A1',
+    partOfSpeech: ["determiner"],
+    ipa_uk: '/ɔːl/',
+    ipa_us: '/ɔːl/',
+    meanings:   [
+        {
+              "pos": "determiner",
+              "en": "every single one",
+              "th": "ทั้งหมด"
+        }
+  ],
+    antonyms: ["none","some"],
+    examples:   [
+        "I have all the books.",
+        "All the students are here.",
+        "I want all the ice cream."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'will',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/wɪl/',
+    ipa_us: '/wɪl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to express future intention",
+              "th": "จะ"
+        }
+  ],
+    antonyms: ["won't","can't"],
+    examples:   [
+        "I will go to the store.",
+        "What will you do tomorrow?",
+        "She will be a doctor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'butter',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbʊtə/',
+    ipa_us: '/ˈbʊtə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of food made from milk",
+              "th": "เนย"
+        }
+  ],
+    antonyms: ["oil","margarine"],
+    examples:   [
+        "I love eating butter on toast.",
+        "The recipe calls for butter.",
+        "Can you pass the butter?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'door',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɔː/',
+    ipa_us: '/dɔː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an opening in a building or vehicle",
+              "th": "ประตู"
+        }
+  ],
+    antonyms: ["window","wall"],
+    examples:   [
+        "The door is open.",
+        "Can you close the door?",
+        "The door is locked."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'around',
+    level: 'A1',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/əˈɹaʊnd/',
+    ipa_us: '/əˈɹaʊnd/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "in a circle or on every side",
+              "th": "รอบๆ"
+        }
+  ],
+    antonyms: ["across","through"],
+    examples:   [
+        "The park is around the corner.",
+        "I will be around later.",
+        "The city is around the mountain."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cat',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kat/',
+    ipa_us: '/kat/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small animal",
+              "th": "แมว"
+        }
+  ],
+    antonyms: ["dog","mouse"],
+    examples:   [
+        "I have a cat.",
+        "The cat is sleeping.",
+        "Cats are cute animals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inside',
+    level: 'A1',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/ɪnˈsaɪd/',
+    ipa_us: '/ɪnˈsaɪd/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "in the inner part of something",
+              "th": "ด้านใน"
+        }
+  ],
+    antonyms: ["outside","beyond"],
+    examples:   [
+        "The book is inside the box.",
+        "I will be inside the house.",
+        "The inside of the car is clean."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'early',
+    level: 'A1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈɜː.li/',
+    ipa_us: '/ˈɜː.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "before the expected or usual time",
+              "th": "เร็ว"
+        }
+  ],
+    antonyms: ["late","delayed"],
+    examples:   [
+        "I woke up early.",
+        "The early bird catches the worm.",
+        "We should arrive early."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bean',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/biːn/',
+    ipa_us: '/biːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of seed or legume",
+              "th": "ถั่ว"
+        }
+  ],
+    antonyms: ["pea","lentil"],
+    examples:   [
+        "I love eating beans.",
+        "The recipe calls for beans.",
+        "Can you pass the beans?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'where',
+    level: 'A1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/wɛə(ɹ)/',
+    ipa_us: '/wɛə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in or to what place",
+              "th": "ที่ไหน"
+        }
+  ],
+    antonyms: ["everywhere","nowhere"],
+    examples:   [
+        "Where are you going?",
+        "I don't know where I am.",
+        "Where is the bathroom?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'group',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɡɹuːp/',
+    ipa_us: '/ɡɹuːp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a number of people or things together",
+              "th": "กลุ่ม"
+        }
+  ],
+    antonyms: ["individual","single"],
+    examples:   [
+        "The group is working together.",
+        "I am part of a group.",
+        "The group is very diverse."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'red',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɛd/',
+    ipa_us: '/ɹɛd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a color like blood or fire",
+              "th": "สีแดง"
+        }
+  ],
+    antonyms: ["blue","green"],
+    examples:   [
+        "The apple is red.",
+        "I love the color red.",
+        "The red car is fast."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'snowy',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/snəʊi/',
+    ipa_us: '/snəʊi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "covered with snow",
+              "th": "มีหิมะ"
+        }
+  ],
+    antonyms: ["sunny","hot"],
+    examples:   [
+        "The snowy mountain is beautiful.",
+        "I love playing in the snowy park.",
+        "The snowy day is perfect for skiing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'type',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/taɪp/',
+    ipa_us: '/taɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a particular kind or class of thing",
+              "th": "ประเภท"
+        }
+  ],
+    antonyms: ["example","instance"],
+    examples:   [
+        "What type of music do you like?",
+        "The type of car is important.",
+        "I need to know the type of computer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
