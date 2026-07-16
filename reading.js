@@ -113,8 +113,30 @@ VOCABULARY: Use ONLY vocabulary appropriate for ${STATE.level}. NO simple words 
 DIFFICULTY MAPPING:
 - Light: Lower-bound of ${STATE.level}. Clear structure but academic vocabulary.
 - Standard: Mid ${STATE.level}. Some complex sentences, mixed question types.
-- Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals). Questions MUST mimic IELTS/TOEFL (require synthesis, inference, identifying author's tone). DO NOT make answers easy to copy-paste from text.
-QUESTIONS: ${qCount} MCQs (A/B/C/D), MIXED STYLE — combine TOEIC-style questions (direct detail, vocabulary-in-context, straightforward inference — like TOEIC Part 7 single/double passage) with IELTS/TOEFL-style questions (synthesis, author's tone, matching information, identifying claims) in roughly equal proportion. Do NOT make all questions one style. IMPORTANT LANGUAGE RULE: passage, question text, and all 4 options MUST ALWAYS be in English, with NO exceptions. ONLY the "explanation" field is written in Thai.
+- Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals).
+
+QUESTION TYPE POOL — you MUST choose types ONLY from this list (do not invent other labels):
+1. "Main Idea" — asks about the passage's overall point. WRONG options must be true-but-minor details, never the central theme.
+2. "Detail" — asks about one specific stated fact. The correct answer MUST be a paraphrase — NEVER reuse 3+ consecutive words from the passage in the correct option.
+3. "Negative Factual" — phrase the question with "NOT" or "EXCEPT". Three options are true per the passage, one is false or unmentioned.
+4. "Inference" — the answer is NEVER stated in any single sentence. It must require combining at least TWO separate pieces of information from different parts of the passage.
+5. "Rhetorical Purpose" — asks WHY the author mentions/includes something (not WHAT it is). Wrong options describe what the thing IS rather than why it's mentioned.
+6. "Vocabulary in Context" — asks the closest meaning of a specific word/phrase from the passage. Wrong options must be OTHER real dictionary meanings of that same word, just wrong for this context.
+7. "Reference" — asks what a pronoun (it/this/they/such) refers to. Wrong options are other nearby nouns that don't fit the sentence's logic.
+8. "Sentence Simplification" — quote ONE genuinely long/complex sentence from the passage, ask which option best restates its essential meaning. Wrong options distort the cause-effect or drop a key condition.
+9. "Relationship" — asks how two ideas/events in the passage relate (cause-effect, contrast, sequence). Wrong options reverse or misstate that relationship.
+
+SELECTION RULE: randomly select ${qCount} types from this pool (repeats allowed) but NO single type may be used more than 3 times. Vary your selection — do not default to only Detail and Inference.
+
+MANDATORY ANTI-REPETITION PROCESS:
+STEP 1: Before writing, list ${qCount} different specific facts/sentences from DIFFERENT parts of the passage (spread across beginning, middle, end).
+STEP 2: Assign one question type (from the pool above, respecting the cap) to each fact.
+STEP 3: Check — no two facts may be about the same underlying point even if phrased differently. If two overlap, replace one with an unused part of the passage.
+STEP 4: Only then write the questions.
+
+DISTRACTOR RULES (apply to every question regardless of type):
+- NEVER use blatant opposites (increase/decrease) or absurd/nonsensical options.
+- Each wrong option must come from real passage content, altered in one subtle way per the mechanism described for its type above.
 
 Reply ONLY raw JSON:
 {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
