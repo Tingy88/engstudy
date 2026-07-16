@@ -189,7 +189,7 @@ async function main() {
   for (const c of fresh) {
     const verdict = verifyResults.find(v => v.word === c.word);
     if (!verdict || !verdict.valid) {
-      skipped.push(`${c.word}: Gemini ไม่ผ่าน (${verdict?.reason || 'ไม่มีข้อมูล'})`);
+      skipped.push(`${c.word}: Mistral ไม่ผ่าน (${verdict?.reason || 'ไม่มีข้อมูล'})`);
       continue;
     }
     if (!c.meanings || !c.meanings.length || !c.examples || !c.examples.length) {
