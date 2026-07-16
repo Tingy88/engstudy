@@ -1856,7 +1856,8 @@ const WORDS = [{
         "The architect designed the building at a unique angle to maximize the view."
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
-  },];
+  },
+];
 
 // ===== DISTRACTORS MAP =====
 const DISTRACTORS = {
