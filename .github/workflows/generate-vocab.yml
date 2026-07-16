@@ -2,7 +2,7 @@ name: Generate Vocabulary
 
 on:
   schedule:
-    - cron: '0 2,9,14 * * *'
+    - cron: '0 2,5,14 * * *'
     # 09:00, 16:00, 21:00 เวลาไทย
   workflow_dispatch:        # ปุ่มกดรันเองได้ด้วย ไม่ต้องรอตารางเวลา
 
