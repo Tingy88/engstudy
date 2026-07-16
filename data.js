@@ -2204,6 +2204,300 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'protest',
+    level: 'B2',
+    partOfSpeech: ["verb [I/T]","noun [C]"],
+    ipa_uk: '/ˈpɹəʊ.tɛst/',
+    ipa_us: '/ˈpɹəʊ.tɛst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to express strong disagreement or disapproval",
+              "th": "แสดงความไม่เห็นด้วยหรือไม่ยอมรับ"
+        },
+        {
+              "pos": "noun",
+              "en": "a statement or action expressing strong disagreement or disapproval",
+              "th": "คำพูดหรือการกระทำที่แสดงความไม่เห็นด้วยหรือไม่ยอมรับ"
+        }
+  ],
+    antonyms: ["support","approval"],
+    examples:   [
+        "The students organized a protest against the tuition fee increase.",
+        "The government's decision was met with widespread protest from the community.",
+        "She wrote a letter to the editor to protest the misleading article."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'orchestral',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌɔɹˈkɛstɹəl/',
+    ipa_us: '/ˌɔɹˈkɛstɹəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of an orchestra",
+              "th": "เกี่ยวข้องกับหรือมีลักษณะของวงดนตรีสิมโฟนี"
+        }
+  ],
+    antonyms: ["solo","unaccompanied"],
+    examples:   [
+        "The orchestral performance was breathtakingly beautiful.",
+        "The composer wrote an orchestral piece that premiered at the concert hall.",
+        "The film's orchestral soundtrack won several awards."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sensible',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsen.sə.bl̩/',
+    ipa_us: '/ˈsen.sə.bl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a reasonable and practical attitude or approach",
+              "th": "มีทัศนคติหรือแนวทางที่มีเหตุผลและเป็นประโยชน์"
+        }
+  ],
+    antonyms: ["foolish","irrational"],
+    examples:   [
+        "It's sensible to save money for emergencies.",
+        "The sensible decision was to postpone the trip due to bad weather.",
+        "She made a sensible choice by choosing a career that aligned with her skills and interests."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'transmit',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/tɹænsˈmɪt/',
+    ipa_us: '/tɹænsˈmɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to send or pass on something, such as a signal, a message, or a disease",
+              "th": "ส่งหรือส่งต่อบางสิ่ง เช่น สัญญาณ ข้อความ หรือโรค"
+        }
+  ],
+    antonyms: ["receive","block"],
+    examples:   [
+        "The radio station will transmit the news broadcast at 8pm.",
+        "The doctor warned that the disease could transmit through close contact.",
+        "The company will transmit the data to the server for analysis."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stink',
+    level: 'B2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/stɪŋk/',
+    ipa_us: '/stɪŋk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to have a strong and unpleasant smell",
+              "th": "มีกลิ่นที่รุนแรงและไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["smell nice","be fragrant"],
+    examples:   [
+        "The garbage stink in the summer heat.",
+        "The fish market stink of rotten fish.",
+        "The sewer stink was overwhelming in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exaggeration',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ɪɡˌzæd͡ʒəˈɹeɪʃən/',
+    ipa_us: '/ɪɡˌzæd͡ʒəˈɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement or description that is not true or is greater than the reality",
+              "th": "ข้อความหรือคำอธิบายที่ไม่เป็นความจริงหรือมากกว่าความเป็นจริง"
+        }
+  ],
+    antonyms: ["understatement","fact"],
+    examples:   [
+        "The story was an exaggeration of what really happened.",
+        "The company's claims about their product were an exaggeration.",
+        "The politician's speech was full of exaggeration and hyperbole."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'murmur',
+    level: 'B2',
+    partOfSpeech: ["verb [I]","noun [C]"],
+    ipa_uk: '/ˈmɜː.mə(ɹ)/',
+    ipa_us: '/ˈmɜː.mə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make a low, indistinct sound, often expressing discontent or disapproval",
+              "th": "ทำให้เกิดเสียงต่ำและไม่ชัดเจน บ่อยครั้งแสดงถึงความไม่พอใจหรือไม่ยอมรับ"
+        },
+        {
+              "pos": "noun",
+              "en": "a low, indistinct sound, often expressing discontent or disapproval",
+              "th": "เสียงต่ำและไม่ชัดเจน บ่อยครั้งแสดงถึงความไม่พอใจหรือไม่ยอมรับ"
+        }
+  ],
+    antonyms: ["cheer","applaud"],
+    examples:   [
+        "The crowd began to murmur in discontent as the delay continued.",
+        "A murmur of disapproval spread through the audience.",
+        "The teacher tried to quiet the students as they began to murmur among themselves."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'firmness',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈfɜːmnəs/',
+    ipa_us: '/ˈfɜːmnəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being strong and unshakeable in one's beliefs, decisions, or actions",
+              "th": "คุณสมบัติของการมีความแข็งแกร่งและไม่สั่นคลอนในความเชื่อ การตัดสินใจ หรือการกระทำ"
+        }
+  ],
+    antonyms: ["weakness","indecisiveness"],
+    examples:   [
+        "The company's firmness in its decision to expand was admirable.",
+        "The leader's firmness in the face of opposition was inspiring.",
+        "The athlete's firmness in her training regimen paid off in the competition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'abolish',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əˈbɒlɪʃ/',
+    ipa_us: '/əˈbɒlɪʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to officially end or stop something, such as a law, a system, or a practice",
+              "th": "ยุติหรือหยุดบางสิ่งอย่างเป็นทางการ เช่น กฎหมาย ระบบ หรือการปฏิบัติ"
+        }
+  ],
+    antonyms: ["establish","reinstate"],
+    examples:   [
+        "The government voted to abolish the death penalty.",
+        "The company decided to abolish the outdated policy.",
+        "The activists campaigned to abolish slavery in the country."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gasp',
+    level: 'B2',
+    partOfSpeech: ["verb [I]","noun [C]"],
+    ipa_uk: '/ɡɑːsp/',
+    ipa_us: '/ɡɑːsp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take a sudden, deep breath, often in surprise, shock, or effort",
+              "th": "หายใจเข้าอย่างรวดเร็วและลึก บ่อยครั้งเนื่องจากความประหลาดใจ ความตกใจ หรือความพยายาม"
+        },
+        {
+              "pos": "noun",
+              "en": "a sudden, deep breath, often in surprise, shock, or effort",
+              "th": "การหายใจเข้าอย่างรวดเร็วและลึก บ่อยครั้งเนื่องจากความประหลาดใจ ความตกใจ หรือความพยายาม"
+        }
+  ],
+    antonyms: ["exhale","breathe easily"],
+    examples:   [
+        "She let out a gasp of surprise when she saw the gift.",
+        "The audience gasped in shock at the plot twist.",
+        "The athlete took a gasp of air as she crossed the finish line."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thickness',
+    level: 'B2',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/ˈθɪknəs/',
+    ipa_us: '/ˈθɪknəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being thick, or a measure of how thick something is",
+              "th": "สภาพของการมีความหนา หรือการวัดความหนาของบางสิ่ง"
+        }
+  ],
+    antonyms: ["thinness","slenderness"],
+    examples:   [
+        "The thickness of the glass made it difficult to break.",
+        "The thickness of the fog reduced visibility to almost zero.",
+        "The chef checked the thickness of the steak before cooking it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'supply',
+    level: 'B2',
+    partOfSpeech: ["verb [T]","noun [C/U]"],
+    ipa_uk: '/səˈplaɪ/',
+    ipa_us: '/səˈplaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to provide something that is needed or wanted",
+              "th": "จัดหาหรือให้บางสิ่งที่ต้องการหรือต้องการ"
+        },
+        {
+              "pos": "noun",
+              "en": "the amount of something that is available or provided",
+              "th": "ปริมาณของบางสิ่งที่มีอยู่หรือจัดหา"
+        }
+  ],
+    antonyms: ["demand","shortage"],
+    examples:   [
+        "The company will supply the materials for the project.",
+        "The store will supply the goods to the customers.",
+        "The supply of water in the city is limited due to the drought."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conjunction',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/kənˈdʒʌŋkʃən/',
+    ipa_us: '/kənˈdʒʌŋkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a word that connects words, phrases, or clauses in a sentence",
+              "th": "คำที่เชื่อมคำ วลี หรือประโยคในประโยค"
+        }
+  ],
+    antonyms: ["separation","division"],
+    examples:   [
+        "The word 'and' is a conjunction in the sentence.",
+        "The conjunction of the two clauses creates a complex sentence.",
+        "The teacher explained the use of conjunctions in sentence structure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
