@@ -454,7 +454,15 @@ async function auditAndFixQuestions(passage, questions, level, diffLabel) {
       }
     });
   });
-
+// เช็คภาษาไทยหลุดมาไหม ด้วยโค้ดตรงๆ (ไม่พึ่ง AI เลย เชื่อถือ 100%)
+  const thaiPattern = /[\u0E00-\u0E7F]/;
+  questions.forEach((q, i) => {
+    const hasThaiInQuestion = thaiPattern.test(q.question);
+    const hasThaiInOptions = q.options.some(opt => thaiPattern.test(opt));
+    if ((hasThaiInQuestion || hasThaiInOptions) && !failingSet.has(i)) {
+      failingSet.set(i, 'คำถามหรือตัวเลือกมีภาษาไทยปนอยู่ ต้องเขียนใหม่เป็นภาษาอังกฤษล้วน (ยกเว้น explanation)');
+    }
+  });
   // ===== ขั้นที่ 2: เสริมด้วย AI audit (ถ้าเรียกไม่สำเร็จ ไม่กระทบผลจากขั้นที่ 1 เลย) =====
   try {
     const auditPrompt = `You are a strict exam quality auditor. Below is a reading passage and its questions. Find questions that FAIL any of these rules:
@@ -499,7 +507,9 @@ Write a NEW question (different angle, not the same fact as before) that is a ge
         return `${letters[i]}. ${stripped}`;
       });
       fixed.answer = letters[0];
-      questions[f.index] = fixed;
+      // เช็คซ้ำอีกรอบว่าที่ซ่อมมาไม่มีไทยหลุด ถ้ายังมีไทยอยู่ ไม่ใส่ค่าใหม่ทับ (ปล่อยของเดิมไว้ดีกว่า)
+      const stillHasThai = thaiPattern.test(fixed.question) || fixed.options.some(o => thaiPattern.test(o));
+      if (!stillHasThai) questions[f.index] = fixed;
     } catch (e) {
       // ซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้
     }
