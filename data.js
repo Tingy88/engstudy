@@ -1857,6 +1857,353 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'hotelier',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌhoʊ.ˈtɛl.i.əɹ/',
+    ipa_us: '/ˌhoʊ.ˈtɛl.i.əɹ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who owns or manages a hotel",
+              "th": "เจ้าของหรือผู้จัดการโรงแรม"
+        }
+  ],
+    antonyms: ["guest","traveler"],
+    examples:   [
+        "The hotelier ensured that all guests had a pleasant stay.",
+        "She was a renowned hotelier with a chain of luxury hotels.",
+        "The hotelier was responsible for the overall management of the hotel."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'solicit',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/səˈlɪsɪt/',
+    ipa_us: '/səˈlɪsɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to ask someone for something, especially money or help",
+              "th": "ขอใครสักคนให้บางสิ่ง โดยเฉพาะเงินหรือความช่วยเหลือ"
+        }
+  ],
+    antonyms: ["refuse","decline"],
+    examples:   [
+        "The charity will solicit donations from the public to support the cause.",
+        "She did not solicit any help from her friends or family.",
+        "The company will solicit bids from contractors for the new project."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'proliferate',
+    level: 'C2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/pɹəˈlɪf.əɹ.eɪt/',
+    ipa_us: '/pɹəˈlɪf.əɹ.eɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to increase or multiply rapidly",
+              "th": "เพิ่มขึ้นหรือคูณกันอย่างรวดเร็ว"
+        }
+  ],
+    antonyms: ["decline","decrease"],
+    examples:   [
+        "New technologies have proliferated in recent years, changing the way we live.",
+        "The number of social media platforms has proliferated in the past decade.",
+        "The disease will proliferate if left untreated."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'quiver',
+    level: 'C2',
+    partOfSpeech: ["verb [I]","noun"],
+    ipa_uk: '/ˈkwɪvəɹ/',
+    ipa_us: '/ˈkwɪvəɹ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to shake or tremble, often with fear or excitement",
+              "th": "สั่นหรือสั่นน้อยๆ บ่อยครั้งด้วยความกลัวหรือตื่นเต้น"
+        },
+        {
+              "pos": "noun",
+              "en": "a container for holding arrows",
+              "th": "ภาชนะสำหรับเก็บลูกศร"
+        }
+  ],
+    antonyms: ["steady","still"],
+    examples:   [
+        "Her voice began to quiver as she spoke about her fears.",
+        "The archer's quiver was full of arrows.",
+        "The leaves quiver in the gentle breeze."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'surreptitious',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌsʌɹɪpˈtɪʃəs/',
+    ipa_us: '/ˌsʌɹɪpˈtɪʃəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "done secretly or stealthily",
+              "th": "ทำอย่างลับๆ หรือแอบแฝง"
+        }
+  ],
+    antonyms: ["open","overt"],
+    examples:   [
+        "The surreptitious meeting between the two leaders was not disclosed to the public.",
+        "She made a surreptitious glance at her watch during the meeting.",
+        "The company used surreptitious methods to gather information about their competitors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'notorious',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/nəʊˈtɔːɹɪəs/',
+    ipa_us: '/nəʊˈtɔːɹɪəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "famous or well-known, especially for something bad",
+              "th": "มีชื่อเสียงหรือรู้จักกันดี โดยเฉพาะอย่างยิ่งสำหรับเรื่องร้ายๆ"
+        }
+  ],
+    antonyms: ["respected","revered"],
+    examples:   [
+        "The notorious gangster was finally caught by the police.",
+        "The company has a notorious reputation for poor customer service.",
+        "The notorious hacker was responsible for several high-profile cyber attacks."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shoal',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ʃɒʊl/',
+    ipa_us: '/ʃɒʊl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large group of fish swimming together",
+              "th": "กลุ่มปลาใหญ่ที่ว่ายน้ำด้วยกัน"
+        }
+  ],
+    antonyms: ["solitary","lonely"],
+    examples:   [
+        "The shoal of fish darted through the coral reef.",
+        "The fishermen caught a large shoal of sardines.",
+        "The shoal of sharks was a formidable sight."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'resound',
+    level: 'C2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/ˌɹiːˈsaʊnd/',
+    ipa_us: '/ˌɹiːˈsaʊnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to produce a loud, clear sound that continues for a long time",
+              "th": "ทำให้เกิดเสียงดังและชัดเจนที่ยังคงอยู่เป็นเวลานาน"
+        }
+  ],
+    antonyms: ["fade","diminish"],
+    examples:   [
+        "The music resounded through the concert hall.",
+        "The news of her resignation resounded throughout the company.",
+        "The applause resounded as the actor took his final bow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'apprehend',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/æ.pɹiˈhɛnd/',
+    ipa_us: '/æ.pɹiˈhɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to catch or arrest someone, especially a criminal",
+              "th": "จับหรือ逮ับตัวใครสักคน โดยเฉพาะอย่างยิ่งผู้กระทำความผิด"
+        }
+  ],
+    antonyms: ["release","free"],
+    examples:   [
+        "The police apprehended the suspect after a long chase.",
+        "The authorities apprehended several people in connection with the crime.",
+        "The detective was able to apprehend the culprit through careful investigation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'attrition',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '[əˈtɹɪʃən]',
+    ipa_us: '[əˈtɹɪʃən]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of wearing something down or weakening it, especially through constant pressure or attack",
+              "th": "กระบวนการของการกัดเซาะหรือทำให้อ่อนลง โดยเฉพาะอย่างยิ่งผ่านการกดดันหรือการโจมตีที่ไม่หยุดยั้ง"
+        }
+  ],
+    antonyms: ["growth","strengthening"],
+    examples:   [
+        "The company faced high attrition rates due to poor working conditions.",
+        "The constant attrition of the coastline was a major concern for the local government.",
+        "The war of attrition between the two countries lasted for years."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'menial',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmiːni.əl/',
+    ipa_us: '/ˈmiːni.əl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unimportant or low-level, especially in relation to work or tasks",
+              "th": "ไม่สำคัญหรือระดับต่ำ โดยเฉพาะอย่างยิ่งเกี่ยวกับงานหรือภารกิจ"
+        }
+  ],
+    antonyms: ["important","skilled"],
+    examples:   [
+        "The menial tasks were assigned to the new intern.",
+        "She felt that her job was too menial and unchallenging.",
+        "The menial work was tedious and unrewarding."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flit',
+    level: 'C2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/flɪt/',
+    ipa_us: '/flɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move quickly and lightly from one place to another",
+              "th": "เคลื่อนที่อย่างรวดเร็วและเบาจากที่หนึ่งไปอีกที่หนึ่ง"
+        }
+  ],
+    antonyms: ["stay","remain"],
+    examples:   [
+        "The bird began to flit between the branches of the tree.",
+        "Her eyes flit from one person to another in the crowded room.",
+        "The butterfly flit from flower to flower in the garden."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'laryngitis',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/læɹɪnˈdʒajtɪs/',
+    ipa_us: '/læɹɪnˈdʒajtɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "inflammation of the larynx, especially causing hoarseness or loss of voice",
+              "th": "การอักเสบของกล่องเสียง โดยเฉพาะอย่างยิ่งที่ทำให้เกิดความกระด้างหรือเสียงหาย"
+        }
+  ],
+    antonyms: ["health","wellness"],
+    examples:   [
+        "The singer was diagnosed with laryngitis and had to cancel her tour.",
+        "The teacher developed laryngitis after shouting at the students all day.",
+        "The doctor prescribed medication to treat the patient's laryngitis."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'declination',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌdɛklɪˈneɪʃən/',
+    ipa_us: '/ˌdɛklɪˈneɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of declining or refusing something, especially an invitation or offer",
+              "th": "การปฏิเสธหรือไม่ยอมรับบางสิ่ง โดยเฉพาะอย่างยิ่งคำเชิญหรือการเสนอ"
+        }
+  ],
+    antonyms: ["acceptance","approval"],
+    examples:   [
+        "The declination of the invitation was due to a prior commitment.",
+        "The company's declination of the offer was a surprise to everyone.",
+        "The declination of the proposal was met with disappointment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'perch',
+    level: 'C2',
+    partOfSpeech: ["verb [I]","noun"],
+    ipa_uk: '/pɜːtʃ/',
+    ipa_us: '/pɜːtʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to sit or rest on a high or narrow place",
+              "th": "นั่งหรือพักผ่อนบนพื้นที่สูงหรือแคบ"
+        },
+        {
+              "pos": "noun",
+              "en": "a high or narrow place where someone or something can sit or rest",
+              "th": "พื้นที่สูงหรือแคบซึ่งบุคคลหรือสิ่งใดสิ่งหนึ่งสามารถนั่งหรือพักผ่อน"
+        }
+  ],
+    antonyms: ["descend","dismount"],
+    examples:   [
+        "The bird began to perch on the branch of the tree.",
+        "The cat likes to perch on the windowsill.",
+        "The rock climber had to perch on a narrow ledge to catch her breath."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'allude',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əˈluːd/',
+    ipa_us: '/əˈluːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to mention or refer to something indirectly or subtly",
+              "th": "กล่าวถึงหรืออ้างอิงถึงบางสิ่งโดยไม่ตรงไปตรงมาหรือละเอียดอ่อน"
+        }
+  ],
+    antonyms: ["state","declare"],
+    examples:   [
+        "The speaker alluded to the recent scandal without mentioning it directly.",
+        "The writer alluded to the mythological story in her novel.",
+        "The politician alluded to the opposition's weaknesses in her speech."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
