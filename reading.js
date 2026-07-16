@@ -433,8 +433,24 @@ Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the speci
     return questions; // ตรวจไม่ได้ ก็ปล่อยของเดิมผ่านไป ดีกว่าทำให้ทั้งระบบพัง
   }
 
-  const failing = auditResult.failing || [];
-  if (failing.length === 0) return questions;
+  const failingSet = new Map((auditResult.failing || []).map(f => [f.index, f.reason]));
+
+  questions.forEach((q, i) => {
+    if ((q.type === 'Inference' || q.type === 'การอนุมาน' || q.type === 'synthesis')
+        && overlapsSingleSentence(passage, q.answer)) {
+      failingSet.set(i, 'คำตอบลอกมาจากประโยคเดียวคำต่อคำ ไม่ใช่การอนุมาน/สังเคราะห์จริง ต้องเขียนใหม่');
+    }
+  });
+  questions.forEach((q, i) => {
+    questions.forEach((q2, j) => {
+      if (i < j && isDuplicateQuestion(q, q2) && !failingSet.has(j)) {
+        failingSet.set(j, 'ถามเรื่องเดียวกับข้ออื่นในชุดนี้ ต้องเปลี่ยนมุมคำถามใหม่ทั้งหมด');
+      }
+    });
+  });
+
+  if (failingSet.size === 0) return questions;
+  const failing = [...failingSet.entries()].map(([index, reason]) => ({ index, reason }));
 
   // ซ่อมทีละข้อที่ fail โดยบอกเหตุผลที่พังให้ AI รู้ตรงๆ จะได้ไม่พลาดซ้ำ
   for (const f of failing) {
@@ -447,6 +463,13 @@ Write a NEW question (different angle, not the same fact as before) that is a ge
 
     try {
       const fixed = await callAI(fixPrompt, 512, 'mistral');
+      // บังคับ format "A. " "B. " "C. " "D. " ด้วยโค้ดเสมอ ไม่ว่า AI จะตอบมาแบบไหน
+      const letters = ['A', 'B', 'C', 'D'];
+      fixed.options = fixed.options.map((opt, i) => {
+        const stripped = opt.replace(/^[A-Z][\.\):]\s*/, ''); // ตัด prefix เดิมทิ้งก่อน (ถ้ามี)
+        return `${letters[i]}. ${stripped}`;
+      });
+      fixed.answer = letters[0]; // ตั้งให้ตัวถูกเป็น A เสมอ (ทำให้ตรงกับตำแหน่งจริง)
       questions[f.index] = fixed;
     } catch (e) {
       // ถ้าซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้ ดีกว่าทำให้ค้าง
@@ -454,4 +477,24 @@ Write a NEW question (different angle, not the same fact as before) that is a ge
   }
 
   return questions;
+}
+
+function overlapsSingleSentence(passage, answerText) {
+  const sentences = passage.split(/(?<=[.!?])\s+/);
+  const answerWords = answerText.toLowerCase().replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 3);
+  if (answerWords.length === 0) return false;
+  for (const sentence of sentences) {
+    const sentLower = sentence.toLowerCase();
+    const matchCount = answerWords.filter(w => sentLower.includes(w)).length;
+    if ((matchCount / answerWords.length) >= 0.7) return true;
+  }
+  return false;
+}
+
+function isDuplicateQuestion(q1, q2) {
+  const norm = s => s.toLowerCase().replace(/[^\w\s]/g, '').split(/\s+/).filter(w => w.length > 3);
+  const words1 = new Set(norm(q1.question + ' ' + q1.answer));
+  const words2 = norm(q2.question + ' ' + q2.answer);
+  const matchCount = words2.filter(w => words1.has(w)).length;
+  return (matchCount / words2.length) >= 0.5;
 }
