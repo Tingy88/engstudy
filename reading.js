@@ -114,7 +114,9 @@ DIFFICULTY MAPPING:
 - Light: Lower-bound of ${STATE.level}. Clear structure but academic vocabulary.
 - Standard: Mid ${STATE.level}. Some complex sentences, mixed question types.
 - Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals). Questions MUST mimic IELTS/TOEFL (require synthesis, inference, identifying author's tone). DO NOT make answers easy to copy-paste from text.
-QUESTIONS: ${qCount} MCQs (A/B/C/D), MIXED STYLE — combine TOEIC-style questions (direct detail, vocabulary-in-context, straightforward inference — like TOEIC Part 7 single/double passage) with IELTS/TOEFL-style questions (synthesis, author's tone, matching information, identifying claims) in roughly equal proportion. Do NOT make all questions one style. Reply ONLY raw JSON:
+QUESTIONS: ${qCount} MCQs (A/B/C/D), MIXED STYLE — combine TOEIC-style questions (direct detail, vocabulary-in-context, straightforward inference — like TOEIC Part 7 single/double passage) with IELTS/TOEFL-style questions (synthesis, author's tone, matching information, identifying claims) in roughly equal proportion. Do NOT make all questions one style. IMPORTANT LANGUAGE RULE: passage, question text, and all 4 options MUST ALWAYS be in English, with NO exceptions. ONLY the "explanation" field is written in Thai.
+
+Reply ONLY raw JSON:
 {"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
 
   try {
