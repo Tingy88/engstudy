@@ -3013,6 +3013,384 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'pleasurable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈplɛʒəɹəbəl/',
+    ipa_us: '/ˈplɛʒəɹəbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving a feeling of pleasure",
+              "th": "ให้รู้สึกสบายใจ"
+        }
+  ],
+    antonyms: ["painful","unpleasant"],
+    examples:   [
+        "The warm bath was pleasurable after a long day.",
+        "She found the experience of skydiving pleasurable and exciting.",
+        "The pleasurable atmosphere of the party made everyone feel relaxed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'violet',
+    level: 'C1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈvaɪlət/',
+    ipa_us: '/ˈvaɪlət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small, delicate purple flower",
+              "th": "ดอกไม้สีม่วงขนาดเล็กและสวยงาม"
+        },
+        {
+              "pos": "adjective",
+              "en": "having a purple color",
+              "th": "มีสีม่วง"
+        }
+  ],
+    antonyms: ["green","yellow"],
+    examples:   [
+        "The violet flowers bloomed in the garden.",
+        "She wore a violet dress to the party.",
+        "The violet color of the sky at sunset was breathtaking."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'portable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɔː(ɹ)təbl̩/',
+    ipa_us: '/ˈpɔː(ɹ)təbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to be easily carried or moved",
+              "th": "สามารถพกพาหรือย้ายได้ง่าย"
+        }
+  ],
+    antonyms: ["bulky","heavy"],
+    examples:   [
+        "The portable laptop was convenient for working on the go.",
+        "The portable speaker was perfect for outdoor parties.",
+        "The portable toilet was a necessary facility at the music festival."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'crumb',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kɹʌm/',
+    ipa_us: '/kɹʌm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small piece of food, especially bread",
+              "th": "เศษอาหารเล็กๆ โดยเฉพาะขนมปัง"
+        }
+  ],
+    antonyms: ["loaf","slice"],
+    examples:   [
+        "She dropped a crumb on the floor while eating.",
+        "The crumb of the cake was delicious.",
+        "The table was covered with crumbs after the meal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exotic',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪɡˈzɒtɪk/',
+    ipa_us: '/ɪɡˈzɒtɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unusual and interesting because of being from a foreign country",
+              "th": "แปลกใหม่และน่าสนใจเนื่องจากมาจากต่างประเทศ"
+        }
+  ],
+    antonyms: ["ordinary","familiar"],
+    examples:   [
+        "The exotic island was a popular tourist destination.",
+        "She wore an exotic perfume that smelled like flowers.",
+        "The exotic food at the restaurant was a unique experience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'taut',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/tɔːt/',
+    ipa_us: '/tɔːt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "stretched tightly, or feeling nervous and tense",
+              "th": "ถูกดึงตึงหรือรู้สึกกังวลและตึงเครียด"
+        }
+  ],
+    antonyms: ["loose","relaxed"],
+    examples:   [
+        "The taut rope was ready for climbing.",
+        "She felt taut and anxious before the exam.",
+        "The taut muscles in his face showed his anger."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sarcastic',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/sɑːˈkæstik/',
+    ipa_us: '/sɑːˈkæstik/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "using irony or sarcasm to express contempt or annoyance",
+              "th": "ใช้คำพูดที่เป็นเยาะเย้ยหรือเยาะเลียนเพื่อแสดงความไม่พอใจ"
+        }
+  ],
+    antonyms: ["sincere","genuine"],
+    examples:   [
+        "The sarcastic comment made her feel embarrassed.",
+        "He was known for his sarcastic sense of humor.",
+        "The sarcastic tone in her voice was unmistakable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'adjoin',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈdʒɔɪn/',
+    ipa_us: '/əˈdʒɔɪn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be next to or join something",
+              "th": "อยู่ข้างๆ หรือเชื่อมต่อกับสิ่งอื่น"
+        }
+  ],
+    antonyms: ["separate","detach"],
+    examples:   [
+        "The two rooms adjoin each other.",
+        "The park adjoins the lake.",
+        "The hotel adjoins the conference center."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conditional',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kənˈdɪʃənəl/',
+    ipa_us: '/kənˈdɪʃənəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "depending on something else happening or being true",
+              "th": "ขึ้นอยู่กับสิ่งอื่นเกิดขึ้นหรือเป็นจริง"
+        }
+  ],
+    antonyms: ["unconditional","absolute"],
+    examples:   [
+        "The conditional offer was based on the results of the exam.",
+        "The conditional sentence was used to express a hypothetical situation.",
+        "The conditional contract was subject to certain terms and conditions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'burst',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/bɜːst/',
+    ipa_us: '/bɜːst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to suddenly and violently break or explode",
+              "th": "แตกหรือระเบิดอย่างรุนแรงและ突然"
+        },
+        {
+              "pos": "noun",
+              "en": "a sudden and intense release of energy or emotion",
+              "th": "การปล่อยพลังงานหรืออารมณ์ที่รุนแรงและ突然"
+        }
+  ],
+    antonyms: ["implode","collapse"],
+    examples:   [
+        "The balloon burst when it was pricked with a pin.",
+        "She burst into tears when she heard the news.",
+        "The burst of energy helped him to finish the project."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'domination',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌdɒməˈneɪʃən/',
+    ipa_us: '/ˌdɒməˈneɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being in control or having power over something",
+              "th": "สถานะที่อยู่ในการควบคุมหรือมีอำนาจเหนือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["subordination","submission"],
+    examples:   [
+        "The company's domination of the market led to a monopoly.",
+        "The domination of the team was evident in their winning streak.",
+        "The domination of the ruling party was challenged by the opposition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pioneer',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˌpaɪəˈnɪəɹ/',
+    ipa_us: '/ˌpaɪəˈnɪəɹ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is among the first to do something",
+              "th": "บุคคลที่เป็นหนึ่งในกลุ่มแรกที่ทำสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to be the first to do or develop something",
+              "th": "เป็นคนแรกที่ทำหรือพัฒนาสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["follower","imitator"],
+    examples:   [
+        "The pioneer in the field of medicine made groundbreaking discoveries.",
+        "She pioneered a new approach to teaching mathematics.",
+        "The company pioneered the development of renewable energy sources."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cite',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/saɪt/',
+    ipa_us: '/saɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to quote or mention something as an example or authority",
+              "th": "อ้างอิงหรือกล่าวถึงสิ่งใดสิ่งหนึ่งเป็นตัวอย่างหรืออ้างอิง"
+        }
+  ],
+    antonyms: ["ignore","dismiss"],
+    examples:   [
+        "The researcher cited several studies to support her argument.",
+        "The judge cited the law to justify his decision.",
+        "The author cited the expert's opinion to add credibility to her claim."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'instinctive',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈstɪŋktɪv/',
+    ipa_us: '/ɪnˈstɪŋktɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "done or felt without conscious thought or intention",
+              "th": "ทำหรือรู้สึกโดยไม่ต้องคิดหรือตั้งใจ"
+        }
+  ],
+    antonyms: ["deliberate","intentional"],
+    examples:   [
+        "The instinctive reaction to danger is to run away.",
+        "She had an instinctive feeling that something was wrong.",
+        "The instinctive behavior of the animal was fascinating to watch."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'abound',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈbaʊnd/',
+    ipa_us: '/əˈbaʊnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to exist in large quantities or numbers",
+              "th": "มีอยู่ในปริมาณมากหรือจำนวนมาก"
+        }
+  ],
+    antonyms: ["lack","scarcity"],
+    examples:   [
+        "The city abounds with cultural attractions.",
+        "The forest abounds with wildlife.",
+        "The company abounds with talented employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'contract',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkɒntɹækt/',
+    ipa_us: '/ˈkɒntɹækt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal agreement between two or more parties",
+              "th": "ข้อตกลง正式ระหว่างสองฝ่ายหรือมากกว่า"
+        },
+        {
+              "pos": "verb",
+              "en": "to become smaller or narrower",
+              "th": "เล็กลงหรือแคบลง"
+        }
+  ],
+    antonyms: ["expand","increase"],
+    examples:   [
+        "The company signed a contract with the supplier.",
+        "The muscle contracted and relaxed repeatedly.",
+        "The economy contracted due to the recession."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'profoundly',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/pɹəˈfaʊndli/',
+    ipa_us: '/pɹəˈfaʊndli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a great degree or intensely",
+              "th": "ในระดับที่มากหรือเข้มข้น"
+        }
+  ],
+    antonyms: ["slightly","mildly"],
+    examples:   [
+        "The experience affected her profoundly and changed her life.",
+        "The music moved him profoundly and brought tears to his eyes.",
+        "The book impacted the readers profoundly and made them think deeply."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
