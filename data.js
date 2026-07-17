@@ -3391,6 +3391,405 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'recognition',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌɹɛkəɡˈnɪʃən/',
+    ipa_us: '/ˌɹɛkəɡˈnɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of recognizing or acknowledging something",
+              "th": "การยอมรับหรือรับรู้สิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["ignorance","misconception"],
+    examples:   [
+        "The company received recognition for its innovative approach to sustainability.",
+        "Her recognition of the problem led to a solution.",
+        "The artist struggled for recognition throughout his career."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'oval',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈəʊvəl/',
+    ipa_us: '/ˈəʊvəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a shape that is like an egg",
+              "th": "มีรูปร่างเหมือนไข่"
+        },
+        {
+              "pos": "noun",
+              "en": "a shape that is like an egg",
+              "th": "รูปร่างเหมือนไข่"
+        }
+  ],
+    antonyms: ["circular","square"],
+    examples:   [
+        "The oval shape of the stadium allowed for more seating.",
+        "She drew an oval around the picture.",
+        "The oval frame suited the painting perfectly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dearly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈdɪəli/',
+    ipa_us: '/ˈdɪəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a way that shows love or great affection",
+              "th": "ด้วยความรักหรือความชื่นชมอย่างมาก"
+        }
+  ],
+    antonyms: ["hatefully","coldly"],
+    examples:   [
+        "I love you dearly and will always be here for you.",
+        "She held her child dearly, trying to comfort him.",
+        "He cherished the memory of his grandmother dearly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'precisely',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/pɹɪˈsaɪsli/',
+    ipa_us: '/pɹɪˈsaɪsli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "exactly or accurately",
+              "th": "อย่างแน่นอนหรือแม่นยำ"
+        }
+  ],
+    antonyms: ["inaccurately","roughly"],
+    examples:   [
+        "The scientist measured the data precisely to ensure accurate results.",
+        "She arrived precisely at 8 o'clock as planned.",
+        "The engineer designed the mechanism to work precisely under pressure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'concede',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kənˈsiːd/',
+    ipa_us: '/kənˈsiːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to admit that something is true or correct",
+              "th": "ยอมรับว่าสิ่งใดสิ่งหนึ่งเป็นความจริงหรือถูกต้อง"
+        }
+  ],
+    antonyms: ["refute","deny"],
+    examples:   [
+        "The politician had to concede defeat after the election results were announced.",
+        "I concede that your argument has some merit.",
+        "The company will concede to the union's demands to avoid a strike."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'preferable',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹəˈfɜːɹəb(ə)l/',
+    ipa_us: '/pɹəˈfɜːɹəb(ə)l/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "more desirable or acceptable than something else",
+              "th": "น่าพึงพอใจหรือยอมรับมากกว่าสิ่งอื่น"
+        }
+  ],
+    antonyms: ["undesirable","unacceptable"],
+    examples:   [
+        "A quiet room is preferable to a noisy one for studying.",
+        "Eating at home is often preferable to eating out.",
+        "The new policy is preferable to the old one as it benefits more people."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vomit',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈvɒmɪt/',
+    ipa_us: '/ˈvɒmɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to throw up food or liquid from the stomach",
+              "th": "อาเจียนหรือปะทุอาหารหรือของเหลวจากกระเพาะอาหาร"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of vomiting or the matter vomited",
+              "th": "การอาเจียนหรือสิ่งที่อาเจียนออกมา"
+        }
+  ],
+    antonyms: ["swallow","digest"],
+    examples:   [
+        "She had to vomit after eating the spoiled food.",
+        "The smell of the rotten fish made him vomit.",
+        "The doctor examined the vomit to determine the cause of the illness."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'peacefully',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈpiːsfəli/',
+    ipa_us: '/ˈpiːsfəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a peaceful manner, without violence or disturbance",
+              "th": "ด้วยวิธีการที่สงบเรียบร้อยโดยไม่มีความรุนแรงหรือการรบกวน"
+        }
+  ],
+    antonyms: ["violently","aggressively"],
+    examples:   [
+        "The protesters marched peacefully through the city.",
+        "The couple lived peacefully in the countryside.",
+        "The two countries resolved their conflict peacefully through diplomacy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'indignity',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈdɪɡ.nə.ti/',
+    ipa_us: '/ɪnˈdɪɡ.nə.ti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a situation or experience that is humiliating or degrading",
+              "th": "สถานการณ์หรือประสบการณ์ที่ทำให้รู้สึกอายหรือเสื่อมเสีย"
+        }
+  ],
+    antonyms: ["dignity","respect"],
+    examples:   [
+        "The prisoner suffered great indignity during his time in jail.",
+        "She felt an indignity at being treated like a child.",
+        "The company's actions were an indignity to the entire industry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bruise',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/bɹuːz/',
+    ipa_us: '/bɹuːz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to hurt or damage someone's skin, causing a bruise",
+              "th": "ทำให้บาดเจ็บหรือเสียหายต่อผิวหนังของใครสักคน ทำให้เกิดรอยช้ำ"
+        },
+        {
+              "pos": "noun",
+              "en": "a mark on the skin where it has been hurt",
+              "th": "รอยช้ำบนผิวหนังที่ได้รับบาดเจ็บ"
+        }
+  ],
+    antonyms: ["heal","cure"],
+    examples:   [
+        "She bruised her knee when she fell down the stairs.",
+        "The fruit will bruise easily if it's handled roughly.",
+        "The doctor examined the bruise to determine the extent of the injury."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tyrant',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtaɪɹənt/',
+    ipa_us: '/ˈtaɪɹənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a ruler who has complete power and uses it in a cruel way",
+              "th": "ผู้ปกครองซึ่งมีอำนาจทั้งหมดและใช้มันในทางที่โหดร้าย"
+        }
+  ],
+    antonyms: ["benevolent","democrat"],
+    examples:   [
+        "The tyrant ruled the country with an iron fist.",
+        "The people suffered under the tyrant's oppressive regime.",
+        "The tyrant's actions were widely condemned by the international community."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vital',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvaɪt̬əl/',
+    ipa_us: '/ˈvaɪt̬əl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "necessary for the success or continued existence of something",
+              "th": "จำเป็นต่อความสำเร็จหรือการดำรงอยู่ต่อไปของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["nonessential","trivial"],
+    examples:   [
+        "Water is vital for human survival.",
+        "The company's vital assets were sold to pay off debts.",
+        "The doctor said that rest is vital for recovery from the illness."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'madam',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmæd.əm/',
+    ipa_us: '/ˈmæd.əm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a polite title used to address a woman, especially one in a position of authority",
+              "th": "ชื่อเรียกที่สุภาพใช้เรียกผู้หญิง โดยเฉพาะผู้ที่อยู่ในตำแหน่งที่มีอำนาจ"
+        }
+  ],
+    antonyms: ["sir","mr"],
+    examples:   [
+        "The madam of the house greeted the guests warmly.",
+        "Madam President gave a speech at the conference.",
+        "The madam of the hotel ensured that all guests were comfortable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'antique',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ænˈtiːk/',
+    ipa_us: '/ænˈtiːk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very old, often valuable and attractive because of its age",
+              "th": "เก่ามาก มักจะมีค่าและดึงดูดเพราะอายุ"
+        },
+        {
+              "pos": "noun",
+              "en": "an object that is very old and often valuable",
+              "th": "วัตถุที่เก่ามากและมักจะมีค่า"
+        }
+  ],
+    antonyms: ["modern","new"],
+    examples:   [
+        "The antique furniture in the house was worth a fortune.",
+        "She collected antique jewelry and displayed it proudly.",
+        "The antique shop sold rare and valuable items from the past."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cane',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '[kʰeɪn]',
+    ipa_us: '[kʰeɪn]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, thin stick used for support or as a weapon",
+              "th": "ไม้ยาวและบางที่ใช้สำหรับการสนับสนุนหรือเป็นอาวุธ"
+        }
+  ],
+    antonyms: ["crutch","walker"],
+    examples:   [
+        "The old man used a cane to walk after his injury.",
+        "The police officer used his cane to defend himself.",
+        "The hiker used a cane to help her navigate the difficult terrain."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'medication',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/mɛdɪˈkeɪʃən/',
+    ipa_us: '/mɛdɪˈkeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a drug or treatment used to cure or prevent a disease or medical condition",
+              "th": "ยาที่ใช้รักษาหรือป้องกันโรคหรือสภาวะทางการแพทย์"
+        }
+  ],
+    antonyms: ["poison","toxin"],
+    examples:   [
+        "The doctor prescribed medication to lower her blood pressure.",
+        "The patient forgot to take her medication this morning.",
+        "The new medication has shown great promise in treating the disease."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'needy',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈniːdi/',
+    ipa_us: '/ˈniːdi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "requiring or deserving help or support because of being poor or in a difficult situation",
+              "th": "ต้องการหรือสมควรได้รับความช่วยเหลือหรือการสนับสนุนเพราะความยากจนหรือสถานการณ์ที่ยากลำบาก"
+        }
+  ],
+    antonyms: ["wealthy","affluent"],
+    examples:   [
+        "The charity provided aid to the needy families in the community.",
+        "The government launched a program to help the needy and homeless.",
+        "The volunteer work focused on assisting the needy and vulnerable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tribe',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tɹaɪb/',
+    ipa_us: '/tɹaɪb/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a social group of people who share a common culture, language, or ancestry",
+              "th": "กลุ่มสังคมของผู้คนซึ่งมีวัฒนธรรม ภาษา หรือบรรพบุรุษร่วมกัน"
+        }
+  ],
+    antonyms: ["nation","society"],
+    examples:   [
+        "The tribe lived in the remote village for generations.",
+        "The tribe's traditional practices were passed down through oral tradition.",
+        "The anthropologist studied the tribe's customs and way of life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
