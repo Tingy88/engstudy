@@ -3790,6 +3790,374 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'bogus',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈbəʊ.ɡəs/',
+    ipa_us: '/ˈbəʊ.ɡəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not genuine or true",
+              "th": "ไม่แท้จริง"
+        }
+  ],
+    antonyms: ["authentic","genuine"],
+    examples:   [
+        "The company was selling bogus products, which were actually just cheap knockoffs.",
+        "The bogus ID was easily spotted by the bouncer at the club.",
+        "The scientist's bogus claims about the new medicine were quickly debunked by the medical community."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fruition',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɹuː.ɪʃ.ən/',
+    ipa_us: '/ˈfɹuː.ɪʃ.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being complete or fulfilled",
+              "th": "สภาพที่สมบูรณ์หรือเต็มที่"
+        }
+  ],
+    antonyms: ["failure","disappointment"],
+    examples:   [
+        "After years of hard work, the project finally came to fruition and was launched with great success.",
+        "The company's plans for expansion reached fruition when they opened their new office in the city.",
+        "The fruit tree finally reached fruition and produced a bountiful harvest."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relinquish',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '[ɹɪˈlɪŋkwɪʃ]',
+    ipa_us: '[ɹɪˈlɪŋkwɪʃ]',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give up or abandon something",
+              "th": "ยอมแพ้หรือทิ้งบางสิ่ง"
+        }
+  ],
+    antonyms: ["retain","keep"],
+    examples:   [
+        "She had to relinquish her claim to the throne due to the scandal surrounding her family.",
+        "The company was forced to relinquish its assets after filing for bankruptcy.",
+        "He reluctantly had to relinquish his dream of becoming a professional athlete due to a serious injury."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rift',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹɪft/',
+    ipa_us: '/ɹɪft/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a deep division or split",
+              "th": "การแบ่งหรือแยกออก"
+        }
+  ],
+    antonyms: ["unity","harmony"],
+    examples:   [
+        "The rift between the two countries has been growing for years, making diplomatic relations increasingly difficult.",
+        "The new policy created a rift between the management and the employees, leading to a strike.",
+        "The rift in the rock face was so deep that it was almost impossible to climb."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'secure',
+    level: 'C2',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/səˈkjɔː(ɹ)/',
+    ipa_us: '/səˈkjɔː(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "safe or protected from harm",
+              "th": "ปลอดภัยหรือได้รับการคุ้มครอง"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something safe or protected",
+              "th": "ทำให้บางสิ่งปลอดภัยหรือได้รับการคุ้มครอง"
+        }
+  ],
+    antonyms: ["insecure","vulnerable"],
+    examples:   [
+        "The secure door was locked and guarded by a team of security personnel.",
+        "The company will secure the funding needed to complete the project.",
+        "The hikers had to secure their ropes to the mountain face before attempting to climb."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ethos',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈiːθɒs/',
+    ipa_us: '/ˈiːθɒs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the characteristic spirit or attitude of a person or group",
+              "th": "จิตวิญญาณหรือทัศนคติที่เป็นลักษณะของบุคคลหรือกลุ่ม"
+        }
+  ],
+    antonyms: ["apathy","indifference"],
+    examples:   [
+        "The company's ethos is centered around innovation and customer satisfaction.",
+        "The ethos of the school is to provide a supportive and inclusive learning environment.",
+        "The artist's ethos is reflected in her use of recycled materials and sustainable practices."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deficient',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈfɪʃənt/',
+    ipa_us: '/dɪˈfɪʃənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lacking or inadequate",
+              "th": "ขาดหรือไม่เพียงพอ"
+        }
+  ],
+    antonyms: ["sufficient","adequate"],
+    examples:   [
+        "The deficient funding for the project meant that it had to be put on hold.",
+        "The deficient nutritional content of the food led to health problems for the children.",
+        "The company's deficient safety protocols were criticized after the accident."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'materialism',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/məˈtɪəɹiəlɪzəm/',
+    ipa_us: '/məˈtɪəɹiəlɪzəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a focus on material possessions and wealth",
+              "th": "การมุ่งเน้นไปที่ทรัพย์สินและความมั่งคั่ง"
+        }
+  ],
+    antonyms: ["spirituality","idealism"],
+    examples:   [
+        "The materialism of modern society has led to a decline in traditional values.",
+        "The philosopher argued that materialism is a major obstacle to achieving true happiness.",
+        "The artist's work critiques the materialism of contemporary culture and the impact it has on the environment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wither',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈwɪðə/',
+    ipa_us: '/ˈwɪðə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become dry and shriveled, often due to lack of water or nourishment",
+              "th": "แห้งและหดตัวลง"
+        }
+  ],
+    antonyms: ["flourish","thrive"],
+    examples:   [
+        "The plants began to wither and die after a week without water.",
+        "The old man's body began to wither away as he lay in bed, unable to move.",
+        "The economy began to wither under the weight of debt and inflation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'contemptuously',
+    level: 'C2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/kənˈtɛmp.tju.əs.li/',
+    ipa_us: '/kənˈtɛmp.tju.əs.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a contemptuous manner",
+              "th": "ด้วยท่าทีที่ดูถูก"
+        }
+  ],
+    antonyms: ["respectfully","admiringly"],
+    examples:   [
+        "He spoke contemptuously of his opponents, which only served to alienate his supporters.",
+        "The judge looked at the defendant contemptuously, clearly unimpressed by his excuses.",
+        "The artist's latest work was criticized contemptuously by the art critic, who called it 'amateurish'."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mercantile',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmɜːkənˌtaɪl/',
+    ipa_us: '/ˈmɜːkənˌtaɪl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to trade or commerce",
+              "th": "เกี่ยวกับการค้าหรือพาณิชยกรรม"
+        }
+  ],
+    antonyms: ["non-commercial","charitable"],
+    examples:   [
+        "The mercantile fleet sailed across the seas, carrying goods to be traded and sold.",
+        "The city's mercantile history is still evident in its old port and warehouses.",
+        "The company's mercantile approach to business has been criticized for prioritizing profits over people."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mediation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/midiˈeɪʃən/',
+    ipa_us: '/midiˈeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of mediating or intervening in a dispute",
+              "th": "การไกล่เกลี่ยหรือเข้าแทรกแซงในการขัดแย้ง"
+        }
+  ],
+    antonyms: ["confrontation","adversarial"],
+    examples:   [
+        "The union and management agreed to mediation to resolve the labor dispute.",
+        "The mediator helped the two parties reach a settlement through mediation.",
+        "The company offers mediation services to help resolve conflicts between employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fractious',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfɹæk.ʃəs/',
+    ipa_us: '/ˈfɹæk.ʃəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unruly or disobedient",
+              "th": "ไม่เชื่อฟังหรือไม่เชื่อถือ"
+        }
+  ],
+    antonyms: ["obedient","compliant"],
+    examples:   [
+        "The fractious child refused to listen to his parents and threw a tantrum.",
+        "The fractious employees were difficult to manage and often challenged the authority of their supervisors.",
+        "The fractious crowd began to riot, causing chaos and destruction in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prostrate',
+    level: 'C2',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ˈpɹɒstɹeɪt/',
+    ipa_us: '/ˈpɹɒstɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to lie flat on the ground, often in a state of exhaustion or defeat",
+              "th": "นอนราบกับพื้น"
+        },
+        {
+              "pos": "adjective",
+              "en": "lying flat on the ground, often in a state of exhaustion or defeat",
+              "th": "นอนราบกับพื้น"
+        }
+  ],
+    antonyms: ["upright","standing"],
+    examples:   [
+        "The athlete was prostrate on the ground, exhausted from the marathon.",
+        "The prostrate figure of the beggar on the street was a sad sight.",
+        "The city was prostrate after the devastating earthquake, with buildings lying in ruins."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disseminate',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈsɛmɪˌneɪt/',
+    ipa_us: '/dɪˈsɛmɪˌneɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to spread or distribute something, often information or ideas",
+              "th": "กระจายหรือเผยแพร่บางสิ่ง"
+        }
+  ],
+    antonyms: ["conceal","withhold"],
+    examples:   [
+        "The company will disseminate the new policy to all employees through a series of meetings and emails.",
+        "The artist's work aims to disseminate a message of hope and unity to the world.",
+        "The scientist's research was disseminated through a series of academic papers and presentations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'reptilian',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹepˈtɪliən/',
+    ipa_us: '/ɹepˈtɪliən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or resembling reptiles",
+              "th": "เกี่ยวกับหรือคล้ายกับ爬虫"
+        }
+  ],
+    antonyms: ["mammalian","avian"],
+    examples:   [
+        "The reptilian creatures that lived in the desert were well adapted to the harsh environment.",
+        "The reptilian features of the dinosaur were still visible in its fossilized remains.",
+        "The artist's use of reptilian imagery in her work was meant to evoke a sense of primal fear."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'moribund',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmɔːɹɪbʌnd/',
+    ipa_us: '/ˈmɔːɹɪbʌnd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "near death or in a state of decline",
+              "th": "ใกล้จะเสียชีวิตหรืออยู่ในสถานะที่เสื่อมถอย"
+        }
+  ],
+    antonyms: ["thriving","flourishing"],
+    examples:   [
+        "The moribund industry was struggling to stay afloat, with many companies going bankrupt.",
+        "The moribund patient was given only a short time to live, and the family was preparing for the worst.",
+        "The moribund city was a shadow of its former self, with many abandoned buildings and a dwindling population."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
