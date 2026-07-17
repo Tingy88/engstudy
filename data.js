@@ -4158,6 +4158,447 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'teammate',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtiːmˌmeɪt/',
+    ipa_us: '/ˈtiːmˌmeɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is a member of a team, especially in a sport",
+              "th": "เพื่อนร่วมทีม"
+        }
+  ],
+    antonyms: ["opponent","rival"],
+    examples:   [
+        "My teammate helped me to win the game.",
+        "She is a valuable teammate and a good friend.",
+        "The new player became a teammate of the famous footballer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rational',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹæʃ(ə)nəl/',
+    ipa_us: '/ˈɹæʃ(ə)nəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "based on reason or good judgment",
+              "th": "มีเหตุผล"
+        }
+  ],
+    antonyms: ["irrational","emotional"],
+    examples:   [
+        "She made a rational decision to quit her job and start her own business.",
+        "The rational approach to the problem led to a successful outcome.",
+        "He tried to be rational and not let his emotions control his actions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'moisture',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɔɪstʃɚ/',
+    ipa_us: '/ˈmɔɪstʃɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small amount of liquid, such as water, that is present in the air or in a substance",
+              "th": "ความชื้น"
+        }
+  ],
+    antonyms: ["dryness","aridity"],
+    examples:   [
+        "The high moisture in the air made it difficult to dry the clothes.",
+        "The plant needs a certain level of moisture to grow well.",
+        "The moisture in the soil helps to prevent soil erosion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'temper',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈtɛmpə/',
+    ipa_us: '/ˈtɛmpə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person's natural personality or disposition",
+              "th": "อุปนิสัย"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something less severe or extreme",
+              "th": "ทำให้ลดลง"
+        }
+  ],
+    antonyms: ["calm","composure"],
+    examples:   [
+        "She has a bad temper and often gets angry.",
+        "The heat can temper the metal and make it stronger.",
+        "The news tempered her excitement and made her more cautious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'emotion',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/iˈmoʊʃən/',
+    ipa_us: '/iˈmoʊʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a strong feeling, such as happiness, sadness, or fear",
+              "th": "อารมณ์"
+        }
+  ],
+    antonyms: ["apathy","indifference"],
+    examples:   [
+        "The movie evoked a strong emotion in the audience.",
+        "She tried to control her emotion and not show how she felt.",
+        "The emotion in his voice made it clear how much he cared."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'aggressive',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈɡɹɛs.ɪv/',
+    ipa_us: '/əˈɡɹɛs.ɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a strong and forceful personality or behavior",
+              "th": "ก้าวร้าว"
+        }
+  ],
+    antonyms: ["passive","submissive"],
+    examples:   [
+        "The aggressive marketing campaign helped to increase sales.",
+        "He has an aggressive driving style and often gets into accidents.",
+        "The company has an aggressive expansion plan and is opening new stores."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bullet',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbʊl.ɪt/',
+    ipa_us: '/ˈbʊl.ɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small metal projectile fired from a gun",
+              "th": "กระสุน"
+        },
+        {
+              "pos": "noun",
+              "en": "a symbol used to introduce items in a list",
+              "th": "สัญลักษณ์"
+        }
+  ],
+    antonyms: ["shield","protection"],
+    examples:   [
+        "The bullet missed its target and hit a nearby building.",
+        "The presentation used bullets to list the main points.",
+        "The bullet train is a high-speed train that can travel at over 300 km/h."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nevertheless',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈnɛvəðəlɛs/',
+    ipa_us: '/ˈnɛvəðəlɛs/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "despite something",
+              "th": "อย่างไรก็ตาม"
+        }
+  ],
+    antonyms: ["however","on the other hand"],
+    examples:   [
+        "I'm tired, but I'll go to the party nevertheless.",
+        "She didn't like the food, but she ate it nevertheless.",
+        "The company is struggling, but it will survive nevertheless."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'confusion',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kənˈfjuːʒən/',
+    ipa_us: '/kənˈfjuːʒən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of disorder or uncertainty",
+              "th": "ความสับสน"
+        }
+  ],
+    antonyms: ["clarity","understanding"],
+    examples:   [
+        "The instructions caused confusion among the students.",
+        "The plot of the movie was full of confusion and twists.",
+        "The new policy has caused confusion among the employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mechanic',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/məˈkænɪk/',
+    ipa_us: '/məˈkænɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who repairs and maintains machines, especially cars",
+              "th": "ช่างเครื่อง"
+        }
+  ],
+    antonyms: ["engineer","technician"],
+    examples:   [
+        "The mechanic fixed my car and it's running smoothly now.",
+        "She's a skilled mechanic and can repair any type of vehicle.",
+        "The mechanic's shop is open from 8 am to 5 pm."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'aim',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/eɪm/',
+    ipa_us: '/eɪm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to point or direct something, such as a weapon or a camera, at a target",
+              "th": "มุ่งหมาย"
+        },
+        {
+              "pos": "noun",
+              "en": "a goal or objective",
+              "th": "เป้าหมาย"
+        }
+  ],
+    antonyms: ["avoid","neglect"],
+    examples:   [
+        "The archer took aim and shot the arrow.",
+        "My aim is to finish the project by the end of the month.",
+        "The company's aim is to provide the best customer service."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conscious',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkɒn.ʃəs/',
+    ipa_us: '/ˈkɒn.ʃəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "aware of one's surroundings, thoughts, and feelings",
+              "th": "ตื่นตัว"
+        }
+  ],
+    antonyms: ["unconscious","unaware"],
+    examples:   [
+        "She's conscious of her body language and tries to make a good impression.",
+        "He's conscious of the environmental impact of his actions.",
+        "The patient is conscious and able to talk to the doctor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conservation',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkɑnsə(ɹ)ˈveɪʃən/',
+    ipa_us: '/ˌkɑnsə(ɹ)ˈveɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of preserving or protecting something, especially the natural environment",
+              "th": "การอนุรักษ์"
+        }
+  ],
+    antonyms: ["destruction","exploitation"],
+    examples:   [
+        "The conservation of water is essential for the survival of our planet.",
+        "The company is involved in conservation efforts to protect endangered species.",
+        "The conservation of energy is crucial for reducing our carbon footprint."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'limitation',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/lɪmɪˈteɪʃən/',
+    ipa_us: '/lɪmɪˈteɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a restriction or a lack of something",
+              "th": "ข้อจำกัด"
+        }
+  ],
+    antonyms: ["freedom","flexibility"],
+    examples:   [
+        "The limitation of the study is that it only included a small sample size.",
+        "The company's limitation is that it only operates in one country.",
+        "The limitation of the technology is that it's still in its early stages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'preference',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɛf(ə)ɹ(ə)ns/',
+    ipa_us: '/ˈpɹɛf(ə)ɹ(ə)ns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of liking or wanting something more than another thing",
+              "th": "ความชอบ"
+        }
+  ],
+    antonyms: ["dislike","aversion"],
+    examples:   [
+        "I have a preference for coffee over tea.",
+        "The company gives preference to candidates with experience.",
+        "Her preference is to work independently rather than in a team."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'departure',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪˈpɑː(ɹ)tjə(ɹ)/',
+    ipa_us: '/dɪˈpɑː(ɹ)tjə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of leaving a place or a situation",
+              "th": "การออกเดินทาง"
+        }
+  ],
+    antonyms: ["arrival","return"],
+    examples:   [
+        "The departure of the train was delayed due to technical issues.",
+        "The departure from the traditional approach was a bold move.",
+        "The departure of the CEO was a surprise to everyone."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bathe',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/beɪð/',
+    ipa_us: '/beɪð/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to wash the body, especially in a bath or shower",
+              "th": "อาบน้ำ"
+        }
+  ],
+    antonyms: ["dirty","soil"],
+    examples:   [
+        "I like to bathe in the morning to wake myself up.",
+        "The baby needs to bathe every day to stay clean.",
+        "The dog will bathe in the lake to cool off."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'grouping',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɡɹuːpɪŋ/',
+    ipa_us: '/ˈɡɹuːpɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of putting people or things into groups",
+              "th": "การแบ่งกลุ่ม"
+        }
+  ],
+    antonyms: ["separation","isolation"],
+    examples:   [
+        "The grouping of the students was based on their age and grade.",
+        "The grouping of the data helped to identify patterns.",
+        "The company uses grouping to organize its employees into teams."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discourage',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪsˈkʌɹɪd͡ʒ/',
+    ipa_us: '/dɪsˈkʌɹɪd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone less likely to do something",
+              "th": "ทำให้ไม่สู้"
+        }
+  ],
+    antonyms: ["encourage","motivate"],
+    examples:   [
+        "The high cost of living can discourage people from moving to the city.",
+        "The teacher tried to discourage the student from dropping out of school.",
+        "The company's policy is designed to discourage employees from taking long breaks."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'alternative',
+    level: 'B1',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ɒl.ˈtɜː(ɹ).nə.tɪv/',
+    ipa_us: '/ɒl.ˈtɜː(ɹ).nə.tɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "providing a choice between two or more things",
+              "th": "ทางเลือก"
+        },
+        {
+              "pos": "noun",
+              "en": "a choice or option",
+              "th": "ตัวเลือก"
+        }
+  ],
+    antonyms: ["mainstream","conventional"],
+    examples:   [
+        "The alternative route to the beach is more scenic.",
+        "The company offers an alternative to traditional health insurance.",
+        "The alternative energy source is becoming more popular."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
