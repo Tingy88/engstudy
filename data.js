@@ -5103,6 +5103,436 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'disorder',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪsˈɔːdə(ɹ)/',
+    ipa_us: '/dɪsˈɔːdə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of confusion or upheaval",
+              "th": "สภาพของความสับสนหรือการเปลี่ยนแปลงอย่างฉับพลัน"
+        }
+  ],
+    antonyms: ["order","stability"],
+    examples:   [
+        "The country was in a state of disorder after the coup.",
+        "The doctor diagnosed the patient with a mental disorder.",
+        "The room was in complete disorder after the party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wink',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈwɪŋk/',
+    ipa_us: '/ˈwɪŋk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to close and open one eye quickly",
+              "th": "ปิดและเปิดดวงตาหนึ่งดวงอย่างรวดเร็ว"
+        },
+        {
+              "pos": "noun",
+              "en": "a quick closing and opening of one eye",
+              "th": "การปิดและเปิดดวงตาหนึ่งดวงอย่างรวดเร็ว"
+        }
+  ],
+    antonyms: ["stare","glare"],
+    examples:   [
+        "He winked at me across the room, and I felt a spark of attraction.",
+        "The comedian's wink at the audience was a clever way to connect with them.",
+        "The wink in her eye suggested that she was hiding something."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'species',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈspiːsiːz/',
+    ipa_us: '/ˈspiːsiːz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of living things that share common characteristics",
+              "th": "กลุ่มของสิ่งมีชีวิตที่มีลักษณะทั่วไป"
+        }
+  ],
+    antonyms: ["individual","hybrid"],
+    examples:   [
+        "The scientist studied the species of plants that were native to the island.",
+        "The conservation effort aimed to protect the endangered species.",
+        "The new species of bird was discovered in the depths of the Amazon rainforest."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'penetrate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈpɛnɪtɹeɪt/',
+    ipa_us: '/ˈpɛnɪtɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to enter or spread into something",
+              "th": "เข้าหรือแพร่กระจายเข้าไปในบางสิ่ง"
+        }
+  ],
+    antonyms: ["repel","withstand"],
+    examples:   [
+        "The new technology helped to penetrate the market and increase sales.",
+        "The cold air began to penetrate the room, and we shivered.",
+        "The company's marketing strategy aimed to penetrate the competitive industry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gangster',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɡæŋstə/',
+    ipa_us: '/ˈɡæŋstə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a member of a gang, especially one involved in crime",
+              "th": "สมาชิกของแก๊ง โดยเฉพาะอย่างยิ่งผู้ที่เกี่ยวข้องกับอาชญากรรม"
+        }
+  ],
+    antonyms: ["lawman","citizen"],
+    examples:   [
+        "The gangster was known for his ruthless tactics and violent outbursts.",
+        "The movie portrayed the gangster as a complex and multifaceted character.",
+        "The city was plagued by gangster violence and corruption."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mixture',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɪkstʃə/',
+    ipa_us: '/ˈmɪkstʃə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a combination of different things",
+              "th": "ส่วนผสมของสิ่งต่างๆ ที่แตกต่างกัน"
+        }
+  ],
+    antonyms: ["purity","uniformity"],
+    examples:   [
+        "The recipe required a mixture of flour, sugar, and eggs.",
+        "The city's cultural mixture was reflected in its diverse cuisine.",
+        "The artist created a unique mixture of colors and textures in her painting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'roast',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɹəʊst/',
+    ipa_us: '/ɹəʊst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cook food, especially meat, in an oven or over an open fire",
+              "th": "การปรุงอาหาร โดยเฉพาะเนื้อ ในเตาหรือเหนือไฟที่เปิด"
+        },
+        {
+              "pos": "noun",
+              "en": "a meal, especially of roasted meat",
+              "th": "มื้ออาหาร โดยเฉพาะของเนื้อที่ถูกย่าง"
+        }
+  ],
+    antonyms: ["boil","raw"],
+    examples:   [
+        "The chef decided to roast the chicken for the holiday dinner.",
+        "The roast beef was tender and flavorful.",
+        "The family gathered around the table for the traditional Sunday roast."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wreck',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈɹɛk/',
+    ipa_us: '/ˈɹɛk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cause something to be completely damaged or destroyed",
+              "th": "ทำให้บางสิ่งถูกทำลายหรือเสียหายอย่างสมบูรณ์"
+        },
+        {
+              "pos": "noun",
+              "en": "the remains of something that has been destroyed",
+              "th": "ส่วนที่เหลือของสิ่งที่ถูกทำลาย"
+        }
+  ],
+    antonyms: ["repair","restore"],
+    examples:   [
+        "The storm wrecked the small boat, leaving the sailors stranded.",
+        "The wreck of the old car was sold for scrap metal.",
+        "The company's finances were wrecked by the economic downturn."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mess',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/mɛs/',
+    ipa_us: '/mɛs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of confusion or disorder",
+              "th": "สภาพของความสับสนหรือความไม่เรียบร้อย"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something untidy or disorganized",
+              "th": "ทำให้บางสิ่งไม่เรียบร้อยหรือไม่เป็นระเบียบ"
+        }
+  ],
+    antonyms: ["order","tidiness"],
+    examples:   [
+        "The room was a mess after the party, with trash and broken glasses everywhere.",
+        "The company's finances were a mess, and they needed to reorganize.",
+        "The chef's kitchen was a mess, with pots and pans scattered all over the counter."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'defy',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈfaɪ/',
+    ipa_us: '/dɪˈfaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to refuse to obey or comply with something",
+              "th": "ปฏิเสธที่จะเชื่อฟังหรือทำตามบางสิ่ง"
+        }
+  ],
+    antonyms: ["obey","comply"],
+    examples:   [
+        "The activist defied the government's orders and continued to protest.",
+        "The company defied the industry trends and launched a successful new product.",
+        "The teenager defied her parents' rules and stayed out late with her friends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inflation',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈfleɪʃən/',
+    ipa_us: '/ɪnˈfleɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a general increase in prices and a fall in the value of money",
+              "th": "การเพิ่มขึ้นของราคาทั่วไปและความเสื่อมถอยของมูลค่าของเงิน"
+        }
+  ],
+    antonyms: ["deflation","stability"],
+    examples:   [
+        "The country experienced high inflation, and the cost of living increased significantly.",
+        "The central bank raised interest rates to combat inflation.",
+        "The economist predicted that inflation would rise in the coming year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eloquence',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛl.ə.kwəns/',
+    ipa_us: '/ˈɛl.ə.kwəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being fluent and persuasive in speech or writing",
+              "th": "คุณภาพของการเป็นคล่องแคล่วและเป็นที่เชื่อถือในคำพูดหรือการเขียน"
+        }
+  ],
+    antonyms: ["inarticulateness","awkwardness"],
+    examples:   [
+        "The politician's eloquence won over the audience and helped her win the election.",
+        "The writer's eloquence made her novel a bestseller.",
+        "The teacher encouraged her students to develop their eloquence through public speaking."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'venue',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvɛnjuː/',
+    ipa_us: '/ˈvɛnjuː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place where an event or activity is held",
+              "th": "สถานที่ที่จัดกิจกรรมหรืองาน"
+        }
+  ],
+    antonyms: ["absence","cancellation"],
+    examples:   [
+        "The concert venue was packed with excited fans.",
+        "The company chose a unique venue for their product launch.",
+        "The wedding venue was a beautiful outdoor garden."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'aspiration',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌæspəˈɹeɪʃən/',
+    ipa_us: '/ˌæspəˈɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a strong desire or ambition to achieve something",
+              "th": "ความปรารถนาหรือความทะเยอทะยานที่จะบรรลุเป้าหมาย"
+        }
+  ],
+    antonyms: ["apathy","resignation"],
+    examples:   [
+        "Her aspiration to become a doctor motivated her to study hard.",
+        "The company's aspiration to be a leader in the industry drove their innovation.",
+        "The artist's aspiration to create something new and original inspired her to experiment with different techniques."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chief',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/tʃiːf/',
+    ipa_us: '/tʃiːf/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "most important or main",
+              "th": "สำคัญที่สุดหรือหลัก"
+        },
+        {
+              "pos": "noun",
+              "en": "a leader or head of a group or organization",
+              "th": "ผู้นำหรือหัวหน้ากลุ่มหรือองค์กร"
+        }
+  ],
+    antonyms: ["subordinate","assistant"],
+    examples:   [
+        "The chief executive officer made the final decision.",
+        "The chief of police was responsible for the safety of the city.",
+        "The chief ingredient in the recipe was fresh basil."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'envy',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈɛnvi/',
+    ipa_us: '/ˈɛnvi/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to feel jealous or resentful of someone's success or advantages",
+              "th": "รู้สึกอิจฉาหรือไม่พอใจต่อความสำเร็จหรือความได้เปรียบของคนอื่น"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of jealousy or resentment towards someone's success or advantages",
+              "th": "ความรู้สึกอิจฉาหรือไม่พอใจต่อความสำเร็จหรือความได้เปรียบของคนอื่น"
+        }
+  ],
+    antonyms: ["admiration","pride"],
+    examples:   [
+        "She envied her friend's beautiful house and luxurious lifestyle.",
+        "The envy of his colleagues drove him to work harder and achieve more.",
+        "The company's success sparked envy among their competitors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prosecute',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈpɹɒsɪkjuːt/',
+    ipa_us: '/ˈpɹɒsɪkjuːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to bring a legal action against someone, especially in a court of law",
+              "th": "การดำเนินคดีทางกฎหมายกับใครบางคน โดยเฉพาะอย่างยิ่งในศาล"
+        }
+  ],
+    antonyms: ["defend","exonerate"],
+    examples:   [
+        "The government decided to prosecute the company for their environmental violations.",
+        "The lawyer was hired to prosecute the case against the defendant.",
+        "The district attorney chose not to prosecute the suspect due to lack of evidence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'judo',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdʒuːdəʊ/',
+    ipa_us: '/ˈdʒuːdəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a Japanese martial art that emphasizes throwing, grappling, and submission techniques",
+              "th": "ศิลปะการต่อสู้ของญี่ปุ่นที่เน้นเทคนิคการโยน การยึด และการยอมจำนน"
+        }
+  ],
+    antonyms: ["boxing","wrestling"],
+    examples:   [
+        "The athlete competed in judo at the Olympic Games.",
+        "The judo instructor taught his students various throwing techniques.",
+        "The school offered judo classes as part of their physical education program."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'axis',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈæksəs/',
+    ipa_us: '/ˈæksəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a line or plane around which something rotates or is symmetrical",
+              "th": "เส้นหรือระนาบที่บางสิ่งหมุนหรือสมมาตร"
+        }
+  ],
+    antonyms: ["periphery","edge"],
+    examples:   [
+        "The Earth rotates on its axis, causing day and night.",
+        "The axis of the wheel was damaged, causing the car to vibrate.",
+        "The artist used the axis of the composition to create a sense of balance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
