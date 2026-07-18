@@ -5533,6 +5533,337 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'firm',
+    level: 'C1',
+    partOfSpeech: ["adjective","noun","verb"],
+    ipa_uk: '/fɜːm/',
+    ipa_us: '/fɜːm/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "strong and stable",
+              "th": "มั่นคง"
+        },
+        {
+              "pos": "noun",
+              "en": "a business organization",
+              "th": "บริษัท"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something stronger",
+              "th": "ทำให้แข็งแรง"
+        }
+  ],
+    antonyms: ["weak","unstable"],
+    examples:   [
+        "The firm ground beneath my feet gave me confidence.",
+        "The firm has been in business for over 20 years.",
+        "She tried to firm up her resolve to quit smoking."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'parasite',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpæɹəˌsaɪt/',
+    ipa_us: '/ˈpæɹəˌsaɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an organism that lives on or in another organism",
+              "th": "สิ่งมีชีวิตที่อาศัยในหรือบนอีกสิ่งมีชีวิตหนึ่ง"
+        }
+  ],
+    antonyms: ["host","benefactor"],
+    examples:   [
+        "The parasite was feeding off the host's blood.",
+        "The doctor prescribed medication to kill the parasite.",
+        "The parasite was difficult to detect in the patient's system."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'resilience',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹə.zɪl.ɪ.əns/',
+    ipa_us: '/ɹə.zɪl.ɪ.əns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to withstand or recover from difficult conditions",
+              "th": "ความสามารถในการทนต่อหรือฟื้นตัวจากสภาพที่ยากลำบาก"
+        }
+  ],
+    antonyms: ["fragility","vulnerability"],
+    examples:   [
+        "The resilience of the community was inspiring after the natural disaster.",
+        "She showed remarkable resilience in the face of adversity.",
+        "The resilience of the material was tested in extreme temperatures."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'intuitive',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈtjuːɪtɪv/',
+    ipa_us: '/ɪnˈtjuːɪtɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to acquire knowledge or insight without conscious reasoning",
+              "th": "สามารถได้รับความรู้หรือความเข้าใจโดยไม่ต้องมีการให้เหตุผลอย่างตระหนัก"
+        }
+  ],
+    antonyms: ["logical","methodical"],
+    examples:   [
+        "She had an intuitive sense of how to solve the problem.",
+        "The intuitive interface of the software made it easy to use.",
+        "He had an intuitive feeling that something was wrong."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dissection',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/daɪˈsɛkʃən/',
+    ipa_us: '/daɪˈsɛkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of cutting something open in order to examine it",
+              "th": "การทำการผ่าเพื่อตรวจสอบสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["assembly","construction"],
+    examples:   [
+        "The dissection of the frog was a required lab experiment in biology class.",
+        "The dissection of the evidence revealed a surprising truth.",
+        "The doctor performed a dissection of the tissue to examine it more closely."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'blithely',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈblaɪðli/',
+    ipa_us: '/ˈblaɪðli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a happy and carefree way",
+              "th": "ในลักษณะที่มีความสุขและไม่มีความกังวล"
+        }
+  ],
+    antonyms: ["gloomily","melancholically"],
+    examples:   [
+        "She walked blithely through the park, enjoying the sunshine.",
+        "He spoke blithely about his future plans, without a care in the world.",
+        "The children played blithely in the garden, laughing and shouting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eccentric',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪkˈsɛntɹɪk/',
+    ipa_us: '/ɪkˈsɛntɹɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unconventional and unusual",
+              "th": "ไม่ปกติและไม่ธรรมดา"
+        }
+  ],
+    antonyms: ["conventional","normal"],
+    examples:   [
+        "The eccentric artist was known for his unusual sculptures.",
+        "She had an eccentric style, often wearing bright colors and patterns.",
+        "The eccentric billionaire was famous for his extravagant parties."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dispense',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪsˈpɛns/',
+    ipa_us: '/dɪsˈpɛns/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give out or distribute something",
+              "th": "ให้สิ่งใดสิ่งหนึ่งหรือกระจายสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["withhold","retain"],
+    examples:   [
+        "The pharmacist will dispense the medication to the patient.",
+        "The charity will dispense food and water to the affected areas.",
+        "The machine will dispense the tickets automatically."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'impede',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪmˈpiːd/',
+    ipa_us: '/ɪmˈpiːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to slow or prevent something from happening or progressing",
+              "th": "ชะลอหรือป้องกันสิ่งใดสิ่งหนึ่งจากที่จะเกิดขึ้นหรือคืบหน้า"
+        }
+  ],
+    antonyms: ["facilitate","accelerate"],
+    examples:   [
+        "The traffic jam will impede our journey to the airport.",
+        "The lack of funding will impede the progress of the project.",
+        "The bad weather will impede the outdoor activities."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'buzzer',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbʌzə/',
+    ipa_us: '/ˈbʌzə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that makes a loud, high-pitched sound",
+              "th": "อุปกรณ์ที่ทำให้เกิดเสียงดังและเสียงสูง"
+        }
+  ],
+    antonyms: ["silencer","muffler"],
+    examples:   [
+        "The buzzer on the timer went off, signaling the end of the game.",
+        "The doorbell had a loud buzzer that could be heard from afar.",
+        "The alarm clock had a buzzer that was difficult to turn off."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compulsion',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəmˈpʌl.ʃən/',
+    ipa_us: '/kəmˈpʌl.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a strong and usually unpleasant feeling that you must do something",
+              "th": "ความรู้สึกที่รุนแรงและไม่สบายใจที่คุณต้องทำสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["freedom","choice"],
+    examples:   [
+        "She had a compulsion to check her phone every few minutes.",
+        "He had a compulsion to wash his hands repeatedly throughout the day.",
+        "The compulsion to gamble had taken over his life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'alignment',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '[əˈɫaɪnmənt]',
+    ipa_us: '[əˈɫaɪnmənt]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of adjusting or positioning something so that it is in a straight line or in the correct position",
+              "th": "การปรับหรือวางสิ่งใดสิ่งหนึ่งให้อยู่ในแนวตรงหรือในตำแหน่งที่ถูกต้อง"
+        }
+  ],
+    antonyms: ["misalignment","displacement"],
+    examples:   [
+        "The alignment of the wheels was off, causing the car to pull to one side.",
+        "The alignment of the planets was a rare astronomical event.",
+        "The alignment of the text was important for the design of the brochure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rumble',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈɹʌmb(ə)l/',
+    ipa_us: '/ˈɹʌmb(ə)l/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make a low, continuous sound, like thunder",
+              "th": "ทำให้เกิดเสียงต่ำและต่อเนื่องกัน เช่น เสียงฟ้าผ่า"
+        },
+        {
+              "pos": "noun",
+              "en": "a low, continuous sound",
+              "th": "เสียงต่ำและต่อเนื่องกัน"
+        }
+  ],
+    antonyms: ["silence","stillness"],
+    examples:   [
+        "The thunder began to rumble in the distance, signaling an approaching storm.",
+        "The engine started to rumble, shaking the entire car.",
+        "The rumble of the waterfall was soothing to listen to."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stamina',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈstæmɪnə/',
+    ipa_us: '/ˈstæmɪnə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to withstand difficult or prolonged physical or mental effort",
+              "th": "ความสามารถในการทนต่อความพยายามที่ยากหรือยาวนานทั้งทางกายและจิต"
+        }
+  ],
+    antonyms: ["weakness","fatigue"],
+    examples:   [
+        "The athlete's stamina allowed her to run the marathon without getting tired.",
+        "The student's stamina helped him to study for hours without a break.",
+        "The hiker's stamina was tested as he climbed the steep mountain trail."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fissure',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɪʃ.ə(ɹ)/',
+    ipa_us: '/ˈfɪʃ.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, narrow opening or crack in something, especially in rock or the earth's surface",
+              "th": "ช่องเปิดหรือรอยแตกที่ยาวและแคบในบางสิ่ง โดยเฉพาะในหินหรือพื้นผิวโลก"
+        }
+  ],
+    antonyms: ["fusion","merger"],
+    examples:   [
+        "The fissure in the rock face was a sign of the earthquake's impact.",
+        "The doctor examined the fissure in the patient's skin, looking for signs of infection.",
+        "The fissure in the ice was a hazard for the skaters."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
