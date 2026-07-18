@@ -4599,6 +4599,510 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'expect',
+    level: 'A2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɛkˈspɛkt/',
+    ipa_us: '/ɛkˈspɛkt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to think that something will happen",
+              "th": "คาดหวัง"
+        }
+  ],
+    antonyms: ["doubt","surprise"],
+    examples:   [
+        "I expect to see you at the party tonight.",
+        "She expects to finish her project by the end of the month.",
+        "They expect a lot of visitors at the museum this weekend."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'escalator',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɛs.kə.leɪ.tə/',
+    ipa_us: '/ˈɛs.kə.leɪ.tə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a moving staircase",
+              "th": "บันไดเลื่อน"
+        }
+  ],
+    antonyms: ["staircase","elevator"],
+    examples:   [
+        "The escalator in the mall is very long and takes you to the top floor.",
+        "She got on the escalator and went up to the food court.",
+        "The escalator was broken, so we had to take the stairs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'delay',
+    level: 'A2',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/dɪˈleɪ/',
+    ipa_us: '/dɪˈleɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something happen later than planned",
+              "th": "ทำให้ล่าช้า"
+        },
+        {
+              "pos": "noun",
+              "en": "a period of time when something is late",
+              "th": "การล่าช้า"
+        }
+  ],
+    antonyms: ["hurry","speed"],
+    examples:   [
+        "The flight was delayed due to bad weather.",
+        "She delayed her trip because of the hurricane.",
+        "The delay in the project has caused a lot of problems."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'far',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/fɑː/',
+    ipa_us: '/fɑː/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at a great distance",
+              "th": "ไกล"
+        }
+  ],
+    antonyms: ["near","close"],
+    examples:   [
+        "The city is far from the beach.",
+        "She lives far away from her family.",
+        "The hotel is far from the airport, so we need to take a taxi."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'earth',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ɜːθ/',
+    ipa_us: '/ɜːθ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the planet we live on",
+              "th": "โลก"
+        }
+  ],
+    antonyms: ["space","moon"],
+    examples:   [
+        "The earth is the only known planet with life.",
+        "We need to take care of the earth and its resources.",
+        "The earthquake shook the earth and caused a lot of damage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fail',
+    level: 'A2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/feɪl/',
+    ipa_us: '/feɪl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to not succeed",
+              "th": "ล้มเหลว"
+        }
+  ],
+    antonyms: ["succeed","pass"],
+    examples:   [
+        "He failed the exam because he didn't study.",
+        "The company will fail if it doesn't get more funding.",
+        "She failed to finish the marathon because of an injury."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'basically',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈbeɪsɪk(ə)li/',
+    ipa_us: '/ˈbeɪsɪk(ə)li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "used to show that something is true in a general sense",
+              "th": "โดยพื้นฐาน"
+        }
+  ],
+    antonyms: ["generally","usually"],
+    examples:   [
+        "I'm basically a happy person, but I get sad sometimes.",
+        "He's basically a good driver, but he got into an accident.",
+        "The hotel is basically full, but they have a few rooms left."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'seed',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/siːd/',
+    ipa_us: '/siːd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small part of a plant that grows into a new plant",
+              "th": "เมล็ด"
+        }
+  ],
+    antonyms: ["plant","flower"],
+    examples:   [
+        "She planted a seed in her garden and watered it every day.",
+        "The farmer scattered seeds all over the field.",
+        "The seed of the idea was planted in his mind years ago."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'success',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/səkˈsɛs/',
+    ipa_us: '/səkˈsɛs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of achieving something desired or intended",
+              "th": "ความสำเร็จ"
+        }
+  ],
+    antonyms: ["failure","defeat"],
+    examples:   [
+        "She felt a sense of success when she graduated from college.",
+        "The company's success is due to its innovative products.",
+        "His success in the music industry was a surprise to everyone."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fry',
+    level: 'A2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/fɹaɪ/',
+    ipa_us: '/fɹaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cook food in hot oil or fat",
+              "th": "ทอด"
+        }
+  ],
+    antonyms: ["boil","steam"],
+    examples:   [
+        "She fried the eggs in a pan and served them with toast.",
+        "He likes to fry fish and eat it with rice.",
+        "The chef will fry the vegetables in a wok and add them to the stir-fry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'claim',
+    level: 'A2',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/kleɪm/',
+    ipa_us: '/kleɪm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to say that something is true or is a fact",
+              "th": "อ้าง"
+        },
+        {
+              "pos": "noun",
+              "en": "a statement that something is true or is a fact",
+              "th": "การอ้าง"
+        }
+  ],
+    antonyms: ["deny","refuse"],
+    examples:   [
+        "He claimed that he was innocent and didn't commit the crime.",
+        "The company will claim the insurance money for the damaged goods.",
+        "The claim that the product is organic is not supported by evidence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pity',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈpɪti/',
+    ipa_us: '/ˈpɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of sadness or sympathy for someone or something",
+              "th": "ความสงสาร"
+        }
+  ],
+    antonyms: ["joy","happiness"],
+    examples:   [
+        "I feel pity for the homeless people on the streets.",
+        "She felt pity for her friend who lost her job.",
+        "The pity in his eyes made me feel uncomfortable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'weekly',
+    level: 'A2',
+    partOfSpeech: ["adverb","adjective"],
+    ipa_uk: '/wiːk.li/',
+    ipa_us: '/wiːk.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "happening or done once a week",
+              "th": "ทุกสัปดาห์"
+        },
+        {
+              "pos": "adjective",
+              "en": "happening or done once a week",
+              "th": "รายสัปดาห์"
+        }
+  ],
+    antonyms: ["daily","monthly"],
+    examples:   [
+        "The weekly meeting is at 2 PM on Fridays.",
+        "She gets a weekly allowance from her parents.",
+        "The weekly newspaper is delivered to our doorstep every Sunday."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'robin',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɹɒb.ɪn/',
+    ipa_us: '/ˈɹɒb.ɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small bird with a red breast",
+              "th": "นกโรบิน"
+        }
+  ],
+    antonyms: ["sparrow","finch"],
+    examples:   [
+        "The robin is a common bird in North America.",
+        "She saw a robin in her backyard and was delighted.",
+        "The robin's song is a beautiful sound to wake up to in the morning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chimpanzee',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/tʃɪmˈpæn.zi/',
+    ipa_us: '/tʃɪmˈpæn.zi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large intelligent primate that lives in Africa",
+              "th": "ชิมแปนซี"
+        }
+  ],
+    antonyms: ["gorilla","orangutan"],
+    examples:   [
+        "The chimpanzee is one of the smartest animals in the world.",
+        "She visited the chimpanzee sanctuary and was amazed by their intelligence.",
+        "The chimpanzee's behavior is similar to that of humans in many ways."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'silently',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈsaɪləntli/',
+    ipa_us: '/ˈsaɪləntli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "without making any noise",
+              "th": "อย่างเงียบๆ"
+        }
+  ],
+    antonyms: ["loudly","noisily"],
+    examples:   [
+        "She walked silently through the forest, not wanting to scare the animals.",
+        "He sat silently in the corner, lost in thought.",
+        "The crowd watched silently as the parade went by."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'joy',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/dʒɔɪ/',
+    ipa_us: '/dʒɔɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of great happiness",
+              "th": "ความสุข"
+        }
+  ],
+    antonyms: ["sadness","sorrow"],
+    examples:   [
+        "She felt joy when she heard the news that she got the job.",
+        "The joy of being with loved ones is the best feeling in the world.",
+        "The joy of learning something new is a great motivator."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'marry',
+    level: 'A2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈmæɹɪ/',
+    ipa_us: '/ˈmæɹɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become the husband or wife of someone",
+              "th": "แต่งงาน"
+        }
+  ],
+    antonyms: ["divorce","separate"],
+    examples:   [
+        "She wants to marry her boyfriend and have kids.",
+        "He will marry his girlfriend next year.",
+        "The couple decided to marry in a small ceremony with close friends and family."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scissors',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈsɪzəz/',
+    ipa_us: '/ˈsɪzəz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a tool used for cutting things",
+              "th": "กรรไกร"
+        }
+  ],
+    antonyms: ["knife","blade"],
+    examples:   [
+        "She used scissors to cut the paper into small pieces.",
+        "He needs scissors to cut the rope.",
+        "The scissors were sharp and cut through the fabric easily."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chapter',
+    level: 'A2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈt͡ʃæptə/',
+    ipa_us: '/ˈt͡ʃæptə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a part of a book, usually with its own title",
+              "th": "บท"
+        }
+  ],
+    antonyms: ["page","section"],
+    examples:   [
+        "The chapter on history was the most interesting part of the book.",
+        "She read a chapter of the novel every night before bed.",
+        "The chapter on science was difficult to understand."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'adult',
+    level: 'A2',
+    partOfSpeech: ["noun [C]","adjective"],
+    ipa_uk: '/əˈdʌlt/',
+    ipa_us: '/əˈdʌlt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is fully grown",
+              "th": "ผู้ใหญ่"
+        },
+        {
+              "pos": "adjective",
+              "en": "relating to or intended for adults",
+              "th": "สำหรับผู้ใหญ่"
+        }
+  ],
+    antonyms: ["child","teenager"],
+    examples:   [
+        "The adult education program is very popular.",
+        "She became an adult at the age of 18.",
+        "The adult movie was not suitable for children."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'perfectly',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈpɜːfɪktli/',
+    ipa_us: '/ˈpɜːfɪktli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "completely or totally",
+              "th": "อย่างสมบูรณ์"
+        }
+  ],
+    antonyms: ["imperfectly","partially"],
+    examples:   [
+        "She speaks English perfectly, without any accent.",
+        "He cooked the steak perfectly, it was medium rare.",
+        "The puzzle pieces fit together perfectly, without any gaps."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relaxed',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɪˈlækst/',
+    ipa_us: '/ɹɪˈlækst/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing a state of calm and comfort",
+              "th": "ผ่อนคลาย"
+        }
+  ],
+    antonyms: ["tense","stressed"],
+    examples:   [
+        "She felt relaxed after taking a warm bath.",
+        "He looked relaxed in his casual clothes.",
+        "The relaxed atmosphere of the beach made me feel at ease."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
