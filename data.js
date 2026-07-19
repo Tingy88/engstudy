@@ -6661,6 +6661,274 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'climax',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈklaɪmæks/',
+    ipa_us: '/ˈklaɪmæks/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the most exciting or important part of a story or situation",
+              "th": "ส่วนที่น่าตื่นเต้นที่สุดหรือสำคัญที่สุดของเรื่องหรือสถานการณ์"
+        },
+        {
+              "pos": "verb",
+              "en": "to reach the most exciting or important part of a story or situation",
+              "th": "ถึงจุดสูงสุดหรือสำคัญที่สุดของเรื่องหรือสถานการณ์"
+        }
+  ],
+    antonyms: ["anticlimax","letdown"],
+    examples:   [
+        "The climax of the movie was both surprising and satisfying.",
+        "The story built up to a thrilling climax.",
+        "The concert reached its climax with a rousing finale."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'drawback',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɹɔːˌbæk/',
+    ipa_us: '/ˈdɹɔːˌbæk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a disadvantage or problem",
+              "th": "ข้อเสียหรือปัญหา"
+        }
+  ],
+    antonyms: ["advantage","benefit"],
+    examples:   [
+        "One major drawback of the new policy is its high cost.",
+        "The drawback of living in a big city is the high cost of living.",
+        "The only drawback of the plan is that it will take a long time to implement."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'swap',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/swɒp/',
+    ipa_us: '/swɒp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to exchange something for something else",
+              "th": "แลกเปลี่ยนสิ่งหนึ่งด้วยสิ่งอื่น"
+        },
+        {
+              "pos": "noun",
+              "en": "an exchange of something for something else",
+              "th": "การแลกเปลี่ยนสิ่งหนึ่งด้วยสิ่งอื่น"
+        }
+  ],
+    antonyms: ["keep","retain"],
+    examples:   [
+        "I'd like to swap this shirt for a larger size.",
+        "The two friends decided to swap phones for a day.",
+        "The company will swap your old device for a new one."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stately',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsteɪtli/',
+    ipa_us: '/ˈsteɪtli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "grand and impressive in a dignified way",
+              "th": "ยิ่งใหญ่และน่าประทับใจด้วยความมีเกียรติ"
+        }
+  ],
+    antonyms: ["humble","modest"],
+    examples:   [
+        "The stately mansion was a popular tourist destination.",
+        "The stately trees lined the driveway to the estate.",
+        "The stately pace of the procession was impressive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tranquil',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtɹæŋ.kwɪl/',
+    ipa_us: '/ˈtɹæŋ.kwɪl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "quiet and peaceful",
+              "th": "เงียบและสงบ"
+        }
+  ],
+    antonyms: ["turbulent","chaotic"],
+    examples:   [
+        "The tranquil atmosphere of the forest was a welcome change.",
+        "The tranquil lake reflected the beauty of the surrounding mountains.",
+        "The tranquil music helped her to relax."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'forfeit',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈfɔː.fɪt/',
+    ipa_us: '/ˈfɔː.fɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give up or lose something, especially as a penalty",
+              "th": "สละหรือเสียสิ่งใดสิ่งหนึ่ง โดยเฉพาะอย่างยิ่ง作为การลงโทษ"
+        },
+        {
+              "pos": "noun",
+              "en": "something that is given up or lost, especially as a penalty",
+              "th": "สิ่งที่สละหรือเสีย โดยเฉพาะอย่างยิ่ง作为การลงโทษ"
+        }
+  ],
+    antonyms: ["gain","win"],
+    examples:   [
+        "If you don't pay the fine, you'll forfeit your right to appeal.",
+        "The team will forfeit the game if they don't show up on time.",
+        "The forfeit of the match was a disappointment to the fans."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bubbly',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈbʌbli/',
+    ipa_us: '/ˈbʌbli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "full of energy and enthusiasm",
+              "th": "เต็มไปด้วยพลังงานและความกระตือรือร้น"
+        }
+  ],
+    antonyms: ["flat","lifeless"],
+    examples:   [
+        "The bubbly personality of the teacher made the lesson enjoyable.",
+        "The bubbly drink was refreshing on a hot day.",
+        "The bubbly atmosphere of the party was infectious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conscientious',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌkɒnʃiˈɛnʃəs/',
+    ipa_us: '/ˌkɒnʃiˈɛnʃəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "careful and thorough in your work or duties",
+              "th": "รอบคอบและละเอียดในงานหรือหน้าที่"
+        }
+  ],
+    antonyms: ["careless","negligent"],
+    examples:   [
+        "She is a conscientious worker who always meets her deadlines.",
+        "The conscientious student double-checked her answers before submitting the exam.",
+        "The company values conscientious employees who take pride in their work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gruelling',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɡɹʊə.lɪŋ/',
+    ipa_us: '/ˈɡɹʊə.lɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "extremely tiring or demanding",
+              "th": "เหนื่อยล้าหรือต้องการมาก"
+        }
+  ],
+    antonyms: ["easy","relaxing"],
+    examples:   [
+        "The gruelling training schedule left her exhausted.",
+        "The gruelling hike was a challenge even for experienced climbers.",
+        "The gruelling work schedule took a toll on his health."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'complexity',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəmˈplɛk.sɪ.ti/',
+    ipa_us: '/kəmˈplɛk.sɪ.ti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being complex or complicated",
+              "th": "สภาพที่ซับซ้อนหรือยุ่งยาก"
+        }
+  ],
+    antonyms: ["simplicity","straightforwardness"],
+    examples:   [
+        "The complexity of the issue made it difficult to understand.",
+        "The complexity of the problem required a team of experts to solve.",
+        "The complexity of the system made it prone to errors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fanciful',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfænsɪfəl/',
+    ipa_us: '/ˈfænsɪfəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a lot of imagination or fantasy",
+              "th": "มีจินตนาการหรือความฝันฟุ้งซ่าน"
+        }
+  ],
+    antonyms: ["practical","down-to-earth"],
+    examples:   [
+        "The fanciful designs of the fashion show were impressive.",
+        "The fanciful story was full of magical creatures and far-off lands.",
+        "The fanciful idea of flying cars may one day become a reality."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mountaineer',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌmaʊn.tɪnˈɪə̯(ɹ)/',
+    ipa_us: '/ˌmaʊn.tɪnˈɪə̯(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who climbs mountains, especially as a sport or hobby",
+              "th": "บุคคลที่ปีนเขา โดยเฉพาะอย่างยิ่งเป็นกีฬาหรืองานอดิเรก"
+        }
+  ],
+    antonyms: ["lowlander","city-dweller"],
+    examples:   [
+        "The mountaineer reached the summit after hours of climbing.",
+        "The experienced mountaineer led the group through the treacherous terrain.",
+        "The mountaineer's love for nature and adventure drove her to explore new peaks."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
