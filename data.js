@@ -6257,6 +6257,410 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'obsession',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əbˈsɛʃən/',
+    ipa_us: '/əbˈsɛʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an idea or thought that continually preoccupies or intrudes on a person's mind",
+              "th": "ความคิดหรือความคิดที่ครอบงำหรือรบกวนจิตใจของคนอย่างต่อเนื่อง"
+        }
+  ],
+    antonyms: ["indifference","apathy"],
+    examples:   [
+        "Her obsession with music led her to become a professional singer.",
+        "The detective's obsession with solving the case kept him up all night.",
+        "The new video game became an obsession for many teenagers during the summer break."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'store',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/stɔː/',
+    ipa_us: '/stɔː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a building or part of a building where goods are sold, usually to the public",
+              "th": "อาคารหรือส่วนหนึ่งของอาคารที่ขายสินค้า โดยทั่วไปคือการขายให้กับสาธารณชน"
+        },
+        {
+              "pos": "verb",
+              "en": "to put or keep something in a place for future use",
+              "th": "การนำสิ่งใดสิ่งหนึ่งไปเก็บหรือเก็บรักษาไว้ในที่ใดที่หนึ่งเพื่อใช้ในอนาคต"
+        }
+  ],
+    antonyms: ["withdraw","remove"],
+    examples:   [
+        "The new store on the corner sells a wide range of electronics.",
+        "Can you store these boxes in the attic for me?",
+        "The company will store your personal data securely according to the law."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'evolution',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛvəluːʃ(ə)n/',
+    ipa_us: '/ˈɛvəluːʃ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of change and development that occurs over a long period of time",
+              "th": "กระบวนการเปลี่ยนแปลงและพัฒนาที่เกิดขึ้นในช่วงระยะเวลานาน"
+        }
+  ],
+    antonyms: ["devolution","regression"],
+    examples:   [
+        "The evolution of the human species is a subject of great interest in science.",
+        "The company's evolution from a small startup to a global brand is impressive.",
+        "The evolution of technology has transformed the way we communicate and work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'finely',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈfaɪnli/',
+    ipa_us: '/ˈfaɪnli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a very careful and detailed way",
+              "th": "ด้วยความระมัดระวังและละเอียดมาก"
+        }
+  ],
+    antonyms: ["coarsely","roughly"],
+    examples:   [
+        "The chef chopped the vegetables finely to ensure they cooked evenly.",
+        "The engineer worked finely to repair the delicate machinery.",
+        "The artist painted the landscape finely, capturing every detail of the scene."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deputy',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɛpjəti/',
+    ipa_us: '/ˈdɛpjəti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is given the power to act for someone else, especially in a position of authority",
+              "th": "บุคคลที่ได้รับมอบอำนาจในการดำเนินการแทนคนอื่น โดยเฉพาะในตำแหน่งที่มีอำนาจ"
+        }
+  ],
+    antonyms: ["principal","chief"],
+    examples:   [
+        "The deputy manager will take charge in the absence of the manager.",
+        "The deputy mayor will represent the city at the international conference.",
+        "The deputy director is responsible for overseeing the daily operations of the department."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'monastery',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɒnəstɹi/',
+    ipa_us: '/ˈmɒnəstɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a building or group of buildings where monks or nuns live and work",
+              "th": "อาคารหรือกลุ่มของอาคารที่พระภิกษุหรือภิกษุณีอาศัยและทำงาน"
+        }
+  ],
+    antonyms: ["secular","lay"],
+    examples:   [
+        "The old monastery on the hill has been converted into a hotel.",
+        "The monastery is famous for its beautiful gardens and peaceful atmosphere.",
+        "The young monk decided to leave the monastery to explore the world outside."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'consultant',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kənˈsʌltənt/',
+    ipa_us: '/kənˈsʌltənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who gives expert advice to others, especially in a particular area of work",
+              "th": "บุคคลที่ให้คำแนะนำจากผู้เชี่ยวชาญแก่ผู้อื่น โดยเฉพาะในด้านการทำงานที่เฉพาะเจาะจง"
+        }
+  ],
+    antonyms: ["novice","amateur"],
+    examples:   [
+        "The company hired a consultant to help them improve their marketing strategy.",
+        "As a consultant, she travels frequently to meet with clients and provide advice.",
+        "The consultant's report highlighted several areas where the business could be improved."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'elective',
+    level: 'B2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ɪˈlɛktɪv/',
+    ipa_us: '/ɪˈlɛktɪv/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a subject or course that students can choose to study, rather than one that is compulsory",
+              "th": "วิชาหรือหลักสูตรที่นักเรียนสามารถเลือกเรียน โดยไม่จำเป็นต้องเรียนตามที่กำหนด"
+        },
+        {
+              "pos": "adjective",
+              "en": "chosen or decided by vote, rather than being compulsory",
+              "th": "ได้รับการเลือกหรือตัดสินโดยการลงคะแนนเสียง มากกว่าที่จะเป็นไปตามข้อบังคับ"
+        }
+  ],
+    antonyms: ["compulsory","required"],
+    examples:   [
+        "The university offers a wide range of elective courses for students to choose from.",
+        "The elective surgery was scheduled for the following week.",
+        "The student decided to take an elective course in photography to explore her creative side."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dormitory',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɔɹmɪˌtɔɹi/',
+    ipa_us: '/ˈdɔɹmɪˌtɔɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a room or building where people, especially students, sleep or live",
+              "th": "ห้องหรืออาคารที่คน โดยเฉพาะนักเรียน นอนหรืออาศัยอยู่"
+        }
+  ],
+    antonyms: ["private room","single accommodation"],
+    examples:   [
+        "The dormitory was crowded and noisy, but the students enjoyed the social atmosphere.",
+        "The university provides dormitory accommodation for all first-year students.",
+        "The old dormitory building has been renovated and is now used as a hotel."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mortar',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɔːtə(ɹ)/',
+    ipa_us: '/ˈmɔːtə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mixture of cement, sand, and water, used for building or repairing structures",
+              "th": "ส่วนผสมของซีเมนต์ ทราย และน้ำ ใช้ในการก่อสร้างหรือซ่อมแซมโครงสร้าง"
+        }
+  ],
+    antonyms: ["demolition","destruction"],
+    examples:   [
+        "The bricklayer mixed the mortar carefully to ensure it was the right consistency.",
+        "The ancient mortar used in the construction of the temple has withstood the test of time.",
+        "The mortar between the bricks was crumbling and needed to be replaced."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'original',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/əˈɹɪdʒnəl/',
+    ipa_us: '/əˈɹɪdʒnəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "created or made first, and not a copy",
+              "th": "สร้างหรือทำขึ้นเป็นครั้งแรก และไม่ใช่สำเนา"
+        },
+        {
+              "pos": "noun",
+              "en": "the first or earliest form of something",
+              "th": "รูปแบบแรกหรือรูปแบบที่เก่าแก่ที่สุดของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["copy","replica"],
+    examples:   [
+        "The original painting was sold at auction for a record price.",
+        "The original idea for the story was developed over several years.",
+        "The company is looking for someone to create an original design for their new product."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scar',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/skɑː(ɹ)/',
+    ipa_us: '/skɑː(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mark left on the skin or on a surface after a wound has healed",
+              "th": "รอยที่เหลืออยู่บนผิวหนังหรือบนพื้นผิวหลังจากที่บาดแผลได้รับการรักษา"
+        },
+        {
+              "pos": "verb",
+              "en": "to leave a scar on someone or something",
+              "th": "ทำให้เกิดรอยแผลบนใครบางคนหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["heal","cure"],
+    examples:   [
+        "The scar above her eyebrow was from a childhood accident.",
+        "The fire scarred the walls of the building.",
+        "The experience left a scar on his psyche that would take years to heal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'adaptable',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈdæptəbəl/',
+    ipa_us: '/əˈdæptəbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to adjust to new or changing requirements or circumstances",
+              "th": "สามารถปรับตัวให้เข้ากับข้อกำหนดหรือสถานการณ์ใหม่หรือที่เปลี่ยนแปลง"
+        }
+  ],
+    antonyms: ["inflexible","rigid"],
+    examples:   [
+        "The adaptable nature of the company allowed it to survive the economic downturn.",
+        "She's an adaptable person who can thrive in any environment.",
+        "The new software is highly adaptable and can be customized to meet the needs of different users."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pee',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/piː/',
+    ipa_us: '/piː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to urinate, especially for a short time",
+              "th": "การปัสสาวะ โดยเฉพาะอย่างยิ่งในช่วงเวลาสั้นๆ"
+        }
+  ],
+    antonyms: ["hold","retain"],
+    examples:   [
+        "I need to pee, can we stop at a restroom?",
+        "The child couldn't hold it and had to pee in the car.",
+        "After drinking too much coffee, he had to pee every hour."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'procedure',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹəˈsiːdʒə/',
+    ipa_us: '/pɹəˈsiːdʒə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a series of actions or operations which are done in a particular order, especially as part of a formal or official process",
+              "th": "ชุดของการกระทำหรือการดำเนินการที่ทำในลำดับที่เฉพาะเจาะจง โดยเฉพาะอย่างยิ่งในฐานะส่วนหนึ่งของกระบวนการอย่างเป็นทางการ"
+        }
+  ],
+    antonyms: ["improvisation","spontaneity"],
+    examples:   [
+        "The doctor explained the procedure for the surgery and the recovery process.",
+        "The company has a strict procedure for handling customer complaints.",
+        "The new employee had to follow a lengthy procedure to get her ID badge and access to the building."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'version',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvɜːʃən/',
+    ipa_us: '/ˈvɜːʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a particular form or variation of something, especially a written or recorded work",
+              "th": "รูปแบบหรือรูปแบบที่เฉพาะเจาะจงของสิ่งใดสิ่งหนึ่ง โดยเฉพาะอย่างยิ่งงานเขียนหรืองานบันทึก"
+        }
+  ],
+    antonyms: ["original","prototype"],
+    examples:   [
+        "The new version of the software includes several improvements and bug fixes.",
+        "The band released a live version of their hit song as a single.",
+        "The movie is an adaptation of the novel, but it's not the only version of the story."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'leap',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/liːp/',
+    ipa_us: '/liːp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sudden jump or movement, especially into the air",
+              "th": "การกระโดดหรือการเคลื่อนไหวที่ฉับพลัน โดยเฉพาะอย่างยิ่งไปขึ้นในอากาศ"
+        },
+        {
+              "pos": "verb",
+              "en": "to jump or spring suddenly, especially into the air",
+              "th": "การกระโดดหรือกระดกขึ้นอย่างฉับพลัน โดยเฉพาะอย่างยิ่งไปขึ้นในอากาศ"
+        }
+  ],
+    antonyms: ["plod","trudge"],
+    examples:   [
+        "The athlete took a leap over the hurdle and won the race.",
+        "The child took a leap of faith and jumped into the pool.",
+        "The company is ready to leap into the global market with its new product."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'torch',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tɔːtʃ/',
+    ipa_us: '/tɔːtʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a stick or device with a flame or light at the top, used for giving light",
+              "th": "ไม้หรืออุปกรณ์ที่มีไฟหรือแสงสว่างที่ด้านบน ใช้สำหรับให้แสงสว่าง"
+        }
+  ],
+    antonyms: ["darkness","shadow"],
+    examples:   [
+        "The hikers used a torch to light their way through the dark forest.",
+        "The Olympic torch was carried by runners from all over the world.",
+        "The torch on her phone helped her find her way back to the campsite."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
