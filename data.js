@@ -5864,6 +5864,399 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'potential',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/pəˈtɛnʃəl/',
+    ipa_us: '/pəˈtɛnʃəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the possibility of something happening or being the case",
+              "th": "โอกาสที่บางสิ่งจะเกิดขึ้นหรือเป็นกรณี"
+        },
+        {
+              "pos": "adjective",
+              "en": "having or showing the possibility of future development or use",
+              "th": "มีหรือแสดงถึงโอกาสที่จะพัฒนาหรือใช้ในอนาคต"
+        }
+  ],
+    antonyms: ["impossible","hopeless"],
+    examples:   [
+        "The new employee has great potential for growth within the company.",
+        "The potential for error is high if you don't follow the instructions carefully.",
+        "She has the potential to become a great leader one day."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'formally',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈfɔːməli/',
+    ipa_us: '/ˈfɔːməli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a formal way, following the rules or customs of a particular situation",
+              "th": "ด้วยวิธีการที่เป็นทางการ โดยปฏิบัติตามกฎหรือธรรมเนียมของสถานการณ์เฉพาะ"
+        }
+  ],
+    antonyms: ["informally","casually"],
+    examples:   [
+        "The company will formally announce the new policy next week.",
+        "She formally introduced herself to the audience before giving her speech.",
+        "The two countries formally established diplomatic relations last year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'invest',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪnˈvɛst/',
+    ipa_us: '/ɪnˈvɛst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to put money into something in order to make a profit or achieve a goal",
+              "th": "การใส่เงินเข้าไปในบางสิ่งเพื่อสร้างผลกำไรหรือบรรลุเป้าหมาย"
+        }
+  ],
+    antonyms: ["withdraw","divest"],
+    examples:   [
+        "I'm going to invest in a new business venture.",
+        "The company will invest in research and development to improve its products.",
+        "She invested her savings in a retirement fund."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'satisfied',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsætɪsfaɪd/',
+    ipa_us: '/ˈsætɪsfaɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling happy or content because your needs or wishes have been met",
+              "th": "รู้สึกสบายใจหรือพอใจเพราะความต้องการหรือความปรารถนาของคุณได้รับการตอบสนอง"
+        }
+  ],
+    antonyms: ["dissatisfied","unhappy"],
+    examples:   [
+        "I'm satisfied with the service I received at the hotel.",
+        "She felt satisfied after finishing her first marathon.",
+        "The customer was satisfied with the product and left a positive review."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'measurement',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmeʒ.ə.mənt/',
+    ipa_us: '/ˈmeʒ.ə.mənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of measuring something, or a unit of measurement",
+              "th": "การวัดบางสิ่งหรือหน่วยวัด"
+        }
+  ],
+    antonyms: ["estimation","approximation"],
+    examples:   [
+        "The measurement of the room is 10 feet by 12 feet.",
+        "The scientist took precise measurements of the data to ensure accuracy.",
+        "The company uses a standard measurement system to ensure consistency."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'baker',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbeɪ.kə(ɹ)/',
+    ipa_us: '/ˈbeɪ.kə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who makes bread, cakes, and pastries",
+              "th": "บุคคลที่ทำขนมปัง เค้ก และของหวาน"
+        }
+  ],
+    antonyms: ["butcher","chef"],
+    examples:   [
+        "The baker worked all night to prepare the bread for the morning.",
+        "She is a skilled baker and makes delicious cakes for special occasions.",
+        "The bakery is run by a family of bakers who have been in the business for generations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'emerge',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/iˈmɜːd͡ʒ/',
+    ipa_us: '/iˈmɜːd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become visible or apparent, or to come into existence",
+              "th": "ปรากฏให้เห็นหรือชัดเจน หรือเกิดขึ้น"
+        }
+  ],
+    antonyms: ["disappear","vanish"],
+    examples:   [
+        "The sun will emerge from behind the clouds soon.",
+        "A new trend is emerging in the fashion industry.",
+        "The company will emerge from bankruptcy after restructuring its debt."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gossip',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈɡɒs.ɪp/',
+    ipa_us: '/ˈɡɒs.ɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "talk or rumors about other people's personal lives",
+              "th": "การพูดหรือข่าวลือเกี่ยวกับชีวิตส่วนตัวของคนอื่น"
+        },
+        {
+              "pos": "verb",
+              "en": "to talk or spread rumors about other people's personal lives",
+              "th": "การพูดหรือเผยแพร่ข่าวลือเกี่ยวกับชีวิตส่วนตัวของคนอื่น"
+        }
+  ],
+    antonyms: ["fact","truth"],
+    examples:   [
+        "The gossip about the celebrity's divorce is all over social media.",
+        "She loves to gossip with her friends about the latest fashion trends.",
+        "The company is trying to stop the gossip about the upcoming merger."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bound',
+    level: 'B1',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ˈbaʊnd/',
+    ipa_us: '/ˈbaʊnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to jump or move with a lot of energy, or to be tied or fastened",
+              "th": "การกระโดดหรือเคลื่อนที่ด้วยพลังงานมาก หรือถูกมัดหรือผูก"
+        },
+        {
+              "pos": "adjective",
+              "en": "limited or restricted in some way, or tied or fastened",
+              "th": "ถูกจำกัดหรือจำกัดในบางด้าน หรือมัดหรือผูก"
+        }
+  ],
+    antonyms: ["free","unrestricted"],
+    examples:   [
+        "The dog is bound to its owner by a leash.",
+        "She is bound for the airport to catch her flight.",
+        "The book is bound in leather and has a beautiful cover."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'more',
+    level: 'B1',
+    partOfSpeech: ["adverb","determiner"],
+    ipa_uk: '/ˈmɔː/',
+    ipa_us: '/ˈmɔː/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a greater extent or degree, or in addition",
+              "th": "ในระดับที่สูงกว่าหรือมากขึ้น หรือเพิ่มเติม"
+        },
+        {
+              "pos": "determiner",
+              "en": "a greater amount or quantity of something",
+              "th": "ปริมาณที่มากขึ้นของบางสิ่ง"
+        }
+  ],
+    antonyms: ["less","fewer"],
+    examples:   [
+        "I want to learn more about the history of this city.",
+        "She has more experience in marketing than anyone else in the company.",
+        "There are more people living in urban areas than in rural areas."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disappointment',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪsəˈpɔɪntmənt/',
+    ipa_us: '/dɪsəˈpɔɪntmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of sadness or dissatisfaction because something has not happened or has not been as good as expected",
+              "th": "ความรู้สึกของความเสียใจหรือไม่พอใจเพราะบางสิ่งไม่ได้เกิดขึ้นหรือไม่ได้ดีเท่าที่คาดหวัง"
+        }
+  ],
+    antonyms: ["satisfaction","pleasure"],
+    examples:   [
+        "The news of the cancellation was a great disappointment to the fans.",
+        "She felt a deep disappointment when she didn't get the job she wanted.",
+        "The disappointment of not winning the competition was hard to overcome."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'designer',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪˈzaɪnɚ/',
+    ipa_us: '/dɪˈzaɪnɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who creates and plans the look and functionality of something, such as a product, building, or website",
+              "th": "บุคคลที่สร้างและวางแผนรูปลักษณ์และฟังก์ชันของบางสิ่ง เช่น ผลิตภัณฑ์ อาคาร หรือเว็บไซต์"
+        }
+  ],
+    antonyms: ["manufacturer","producer"],
+    examples:   [
+        "The fashion designer created a stunning collection for the runway show.",
+        "The graphic designer worked on the logo and branding for the new company.",
+        "The interior designer helped us choose the perfect furniture for our living room."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'glint',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɡlɪnt/',
+    ipa_us: '/ɡlɪnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small, brief sparkle or shine, especially in someone's eye",
+              "th": "ประกายหรือแสงเล็กๆ สั้นๆ โดยเฉพาะอย่างยิ่งในดวงตาของใครบางคน"
+        },
+        {
+              "pos": "verb",
+              "en": "to shine or sparkle briefly, especially with a hint of amusement or mischief",
+              "th": "ส่องแสงหรือประกายสั้นๆ โดยเฉพาะอย่างยิ่งด้วยความเยาะเย้ยนหรือความเลว"
+        }
+  ],
+    antonyms: ["dullness","dimness"],
+    examples:   [
+        "A glint of amusement appeared in his eye when he heard the joke.",
+        "The glint of the diamond ring caught her attention.",
+        "The sunlight glinted off the water, creating a beautiful effect."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'celebrity',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/sɪˈlɛbɹɪti/',
+    ipa_us: '/sɪˈlɛbɹɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a famous person, especially in the entertainment industry",
+              "th": "บุคคลที่มีชื่อเสียง โดยเฉพาะอย่างยิ่งในอุตสาหกรรมบันเทิง"
+        }
+  ],
+    antonyms: ["nobody","unknown"],
+    examples:   [
+        "The celebrity walked the red carpet at the movie premiere.",
+        "She is a celebrity in the music industry, known for her powerful voice.",
+        "The celebrity's personal life is always under scrutiny by the media."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lead',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/lɛd/',
+    ipa_us: '/lɛd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to show or guide someone to a place, or to be in charge of a group or organization",
+              "th": "นำหรือชี้ทางให้ใครบางคนไปที่ใดๆ หรือเป็นผู้นำของกลุ่มหรือองค์กร"
+        },
+        {
+              "pos": "noun",
+              "en": "a heavy, bluish-white metal, or a position of leadership or guidance",
+              "th": "โลหะหนักสีเทา-ขาว หรือตำแหน่งผู้นำหรือการชี้นำ"
+        }
+  ],
+    antonyms: ["follow","trail"],
+    examples:   [
+        "The tour guide will lead us through the museum.",
+        "She will lead the team in the upcoming project.",
+        "The company is looking for someone to lead their marketing department."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hearing',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈhiːɹ.ɪŋ/',
+    ipa_us: '/ˈhiːɹ.ɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to hear, or a formal meeting to discuss and decide on something",
+              "th": "ความสามารถในการฟัง หรือการประชุมอย่างเป็นทางการเพื่อหารือและตัดสินใจเกี่ยวกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["deafness","silence"],
+    examples:   [
+        "The hearing test showed that I have perfect hearing.",
+        "The committee will hold a hearing to discuss the proposed law.",
+        "The judge scheduled a hearing to determine the verdict."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'urge',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɜːd͡ʒ/',
+    ipa_us: '/ɜːd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to strongly advise or encourage someone to do something",
+              "th": "แนะนำหรือสนับสนุนใครบางคนอย่างแข็งขันให้ทำบางสิ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a strong desire or need to do something",
+              "th": "ความปรารถนาหรือความจำเป็นที่เข้มแข็งในการทำบางสิ่ง"
+        }
+  ],
+    antonyms: ["discourage","deter"],
+    examples:   [
+        "I urge you to take this opportunity and apply for the job.",
+        "She felt an urge to travel and explore new places.",
+        "The doctor will urge the patient to quit smoking for their health."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
