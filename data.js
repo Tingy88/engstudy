@@ -6929,6 +6929,269 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'distillation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪstɪˈleɪʃən/',
+    ipa_us: '/dɪstɪˈleɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of purifying a liquid by heating it and then cooling the vapor to condense it back into a liquid",
+              "th": "กระบวนการทำให้ของเหลวบริสุทธิ์โดยการทำให้ร้อนแล้วทำให้ไอน้ำเย็นจัดเพื่อควบแน่นกลายเป็นของเหลวอีกครั้ง"
+        }
+  ],
+    antonyms: ["contamination","pollution"],
+    examples:   [
+        "The distillation process is used to produce high-quality whiskey.",
+        "Distillation is a crucial step in the production of perfumes.",
+        "The company specializes in the distillation of essential oils."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'strait',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/stɹeɪt/',
+    ipa_us: '/stɹeɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a narrow passage of water connecting two large bodies of water",
+              "th": "ช่องแคบหรือช่องทางแคบของน้ำที่เชื่อมต่อระหว่างสองแหล่งน้ำขนาดใหญ่"
+        }
+  ],
+    antonyms: ["ocean","lake"],
+    examples:   [
+        "The strait is a busy shipping lane.",
+        "The city is located on the strait, making it a strategic port.",
+        "The strait is known for its strong currents and treacherous waters."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gambit',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɡæmbɪt/',
+    ipa_us: '/ˈɡæmbɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a clever or cunning move, especially one that involves some risk",
+              "th": "การเคลื่อนไหวที่ฉลาดหรือมีเล่ห์เหลี่ยม โดยเฉพาะอย่างยิ่งการเคลื่อนไหวที่มีความเสี่ยง"
+        }
+  ],
+    antonyms: ["caution","prudence"],
+    examples:   [
+        "The company's gambit to enter the new market paid off.",
+        "The politician's gambit to win over the opposition backfired.",
+        "The chess player made a clever gambit to gain an advantage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'accrue',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈkɹuː/',
+    ipa_us: '/əˈkɹuː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to increase or grow, especially in amount or degree",
+              "th": "เพิ่มขึ้นหรือเติบโต โดยเฉพาะอย่างยิ่งในปริมาณหรือระดับ"
+        }
+  ],
+    antonyms: ["decrease","diminish"],
+    examples:   [
+        "The interest will accrue over time, making the investment more valuable.",
+        "The company's profits will accrue from the new business deal.",
+        "The benefits of exercise will accrue over time, improving overall health."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'constrained',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kənˈstɹeɪnd/',
+    ipa_us: '/kənˈstɹeɪnd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "restricted or limited in some way",
+              "th": "ถูกจำกัดหรือมีข้อจำกัดในบางด้าน"
+        }
+  ],
+    antonyms: ["unrestricted","unlimited"],
+    examples:   [
+        "The constrained budget meant that we had to make some tough decisions.",
+        "The constrained space made it difficult to move around.",
+        "The constrained timeline meant that we had to work quickly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'plane',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pleɪn/',
+    ipa_us: '/pleɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of aircraft that has fixed wings and is powered by engines",
+              "th": "เครื่องบินประเภทหนึ่งที่มีปีกตายและขับเคลื่อนด้วยเครื่องยนต์"
+        }
+  ],
+    antonyms: ["train","ship"],
+    examples:   [
+        "The plane took off from the runway and soared into the sky.",
+        "I'm afraid of flying on a plane, but I know it's safe.",
+        "The plane was delayed due to bad weather."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'emulation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɛmjʊˈleɪʃən/',
+    ipa_us: '/ɛmjʊˈleɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of trying to equal or surpass someone or something by imitating them",
+              "th": "การพยายามที่จะเทียบเท่าหรือเหนือกว่าใครบางคนหรือบางสิ่งโดยการลอกเลียนแบบ"
+        }
+  ],
+    antonyms: ["ignorance","disregard"],
+    examples:   [
+        "The company's emulation of the successful business model led to their own success.",
+        "The artist's emulation of the master's style was impressive.",
+        "The emulation of the rival's strategy helped the team to win the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'utilitarian',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/juːˌtɪlɪˈtɛːɹi.ən/',
+    ipa_us: '/juːˌtɪlɪˈtɛːɹi.ən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the idea that the best action is the one that produces the most happiness or well-being for the greatest number of people",
+              "th": "เกี่ยวข้องกับความคิดที่ว่าการกระทำที่ดีที่สุดคือสิ่งที่ทำให้เกิดความสุขหรือความเป็นอยู่ที่ดีสำหรับจำนวนคนมากที่สุด"
+        }
+  ],
+    antonyms: ["altruistic","selfish"],
+    examples:   [
+        "The utilitarian approach to ethics prioritizes the greater good.",
+        "The utilitarian philosophy emphasizes the importance of happiness and well-being.",
+        "The company's utilitarian policy aims to maximize profits for the shareholders."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trifle',
+    level: 'C2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈtɹaɪfəl/',
+    ipa_us: '/ˈtɹaɪfəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small amount of something, especially food",
+              "th": "ปริมาณเล็กน้อยของสิ่งใดสิ่งหนึ่ง โดยเฉพาะอาหาร"
+        },
+        {
+              "pos": "verb",
+              "en": "to treat something as if it is not important or to waste time on something unimportant",
+              "th": "การรักษาสิ่งใดสิ่งหนึ่งด้วยความไม่สำคัญหรือการเสียเวลากับสิ่งที่ไม่สำคัญ"
+        }
+  ],
+    antonyms: ["substantial","significant"],
+    examples:   [
+        "The trifle of dessert was just enough to satisfy my sweet tooth.",
+        "Don't trifle with the situation, it's more serious than you think.",
+        "The company doesn't trifle with its finances, every penny counts."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hull',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/hʌl/',
+    ipa_us: '/hʌl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the main body of a ship or boat, excluding the mast, sails, and other equipment",
+              "th": "ส่วนหลักของเรือหรือเรือ โดยไม่รวมคานใบเรือและอุปกรณ์อื่นๆ"
+        }
+  ],
+    antonyms: ["keel","stern"],
+    examples:   [
+        "The hull of the ship was damaged in the storm.",
+        "The hull of the boat was made of fiberglass.",
+        "The hull of the submarine was designed to withstand extreme pressure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ingenuous',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈdʒɛn.ju.əs/',
+    ipa_us: '/ɪnˈdʒɛn.ju.əs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "sincere and honest, without any intention to deceive",
+              "th": "ซื่อสัตย์และจริงใจ โดยไม่มีเจตนาหลอกลวง"
+        }
+  ],
+    antonyms: ["deceptive","dishonest"],
+    examples:   [
+        "The ingenuous smile of the child melted my heart.",
+        "The ingenuous approach to the problem was refreshing.",
+        "The ingenuous nature of the artist's work was inspiring."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pedestrian',
+    level: 'C2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/pəˈdɛst.ɹi.ən/',
+    ipa_us: '/pəˈdɛst.ɹi.ən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lacking interest or excitement, dull",
+              "th": "ไม่มีความสนใจหรือความตื่นเต้น น่าเบื่อ"
+        },
+        {
+              "pos": "noun",
+              "en": "a person who is walking, especially in a city or town",
+              "th": "บุคคลที่กำลังเดิน โดยเฉพาะอย่างยิ่งในเมืองหรือเมือง"
+        }
+  ],
+    antonyms: ["exciting","interesting"],
+    examples:   [
+        "The pedestrian pace of the movie put me to sleep.",
+        "The pedestrian crossing was busy with people rushing to work.",
+        "The pedestrian path was lined with beautiful trees and flowers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
