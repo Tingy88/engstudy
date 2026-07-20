@@ -7192,6 +7192,482 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'nor',
+    level: 'B1',
+    partOfSpeech: ["conjunction"],
+    ipa_uk: '/nɔː/',
+    ipa_us: '/nɔː/',
+    meanings:   [
+        {
+              "pos": "conjunction",
+              "en": "used to indicate the negation of two or more things",
+              "th": "ใช้เพื่อแสดงการปฏิเสธของสิ่งหนึ่งหรือหลายสิ่ง"
+        }
+  ],
+    antonyms: ["and","or"],
+    examples:   [
+        "I don't like tea, nor do I like coffee.",
+        "She doesn't speak French, nor does she speak Spanish.",
+        "He won't go to the party, nor will his friends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lawful',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈlɔːfʊl/',
+    ipa_us: '/ˈlɔːfʊl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "allowed by law",
+              "th": "ได้รับอนุญาตตามกฎหมาย"
+        }
+  ],
+    antonyms: ["unlawful","illegal"],
+    examples:   [
+        "The company is operating a lawful business.",
+        "The police are trying to stop unlawful activities in the area.",
+        "It's lawful to park your car on the street, but you have to pay for it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lessen',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈlɛsən/',
+    ipa_us: '/ˈlɛsən/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something less in amount, degree, or intensity",
+              "th": "ทำให้บางสิ่งลดลงในจำนวน ระดับ หรือความเข้มข้น"
+        }
+  ],
+    antonyms: ["increase","intensify"],
+    examples:   [
+        "The new policy aims to lessen the burden on taxpayers.",
+        "Exercise can help lessen the symptoms of depression.",
+        "The teacher tried to lessen the workload for her students."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'giant',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","adjective"],
+    ipa_uk: '/ˈdʒaɪ.ənt/',
+    ipa_us: '/ˈdʒaɪ.ənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an extremely large or powerful person, thing, or organization",
+              "th": "คน สิ่ง หรือองค์กรที่มีขนาดหรืออำนาจมากเป็นพิเศษ"
+        },
+        {
+              "pos": "adjective",
+              "en": "extremely large or powerful",
+              "th": "มีขนาดหรืออำนาจมากเป็นพิเศษ"
+        }
+  ],
+    antonyms: ["small","tiny"],
+    examples:   [
+        "The company is a giant in the tech industry.",
+        "The giant statue in the park is a popular tourist attraction.",
+        "The giant waves crashed against the shore, causing damage to the houses."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trouble',
+    level: 'B1',
+    partOfSpeech: ["noun [U]","verb [I or T]"],
+    ipa_uk: '/ˈtɹʌb(ə)l/',
+    ipa_us: '/ˈtɹʌb(ə)l/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a problem or difficulty",
+              "th": "ปัญหาหรือความยากลำบาก"
+        },
+        {
+              "pos": "verb",
+              "en": "to cause someone anxiety or worry",
+              "th": "ทำให้บางคนเกิดความกังวลหรือความวิตก"
+        }
+  ],
+    antonyms: ["ease","comfort"],
+    examples:   [
+        "I'm having trouble with my computer, it won't turn on.",
+        "She's been in trouble with the law before.",
+        "The company is in financial trouble and may have to close down."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stumble',
+    level: 'B1',
+    partOfSpeech: ["verb [I or T]"],
+    ipa_uk: '/ˈstʌmbəl/',
+    ipa_us: '/ˈstʌmbəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to trip or fall over something",
+              "th": "ส绊หรือล้มเพราะบางสิ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to find or discover something by chance",
+              "th": "พบหรือค้นพบบางสิ่งโดยบังเอิญ"
+        }
+  ],
+    antonyms: ["find","discover"],
+    examples:   [
+        "She stumbled over the rock and fell to the ground.",
+        "I stumbled upon a great restaurant in the city.",
+        "He stumbled over his words and couldn't finish the sentence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'completely',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/kəmˈpliːtli/',
+    ipa_us: '/kəmˈpliːtli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "totally or entirely",
+              "th": "โดยสมบูรณ์หรือทั้งหมด"
+        }
+  ],
+    antonyms: ["partially","incompletely"],
+    examples:   [
+        "I'm completely exhausted after working all day.",
+        "The city was completely destroyed in the war.",
+        "She's completely fluent in three languages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'last',
+    level: 'B1',
+    partOfSpeech: ["adjective","adverb","verb [I or T]"],
+    ipa_uk: '/last/',
+    ipa_us: '/last/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "most recent or happening at the end of a period of time",
+              "th": "ที่เกิดขึ้นใหม่หรือเกิดขึ้นที่สุดของช่วงเวลา"
+        },
+        {
+              "pos": "adverb",
+              "en": "until the end of a period of time",
+              "th": "จนกระทั่งสิ้นสุดของช่วงเวลา"
+        },
+        {
+              "pos": "verb",
+              "en": "to continue to exist or be effective for a certain period of time",
+              "th": "ยังคงอยู่หรือมีผลกระทบเป็นเวลานาน"
+        }
+  ],
+    antonyms: ["first","initial"],
+    examples:   [
+        "This is the last chance to buy tickets for the concert.",
+        "The last thing I want to do is go to the gym.",
+        "The last time I saw her was at the party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'jewel',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/dʒul/',
+    ipa_us: '/dʒul/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a precious stone, especially one used in jewelry",
+              "th": "หินอ่อนที่มีค่า โดยเฉพาะที่ใช้ในเครื่องประดับ"
+        },
+        {
+              "pos": "noun",
+              "en": "something or someone that is very valuable or special",
+              "th": "บางสิ่งหรือบางคนซึ่งมีค่าหรือพิเศษมาก"
+        }
+  ],
+    antonyms: ["worthless","valueless"],
+    examples:   [
+        "The queen's crown is adorned with precious jewels.",
+        "She's a jewel of a person, always helping others.",
+        "The city is a jewel of the country, known for its beauty."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'approve',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əˈpɹuːv/',
+    ipa_us: '/əˈpɹuːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to agree with or accept something as good or satisfactory",
+              "th": "เห็นด้วยหรือยอมรับบางสิ่งว่าดีหรือเหมาะสม"
+        }
+  ],
+    antonyms: ["disapprove","reject"],
+    examples:   [
+        "The board of directors approved the new business plan.",
+        "She approved of his decision to quit his job.",
+        "The government approved the use of the new vaccine."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'iron',
+    level: 'B1',
+    partOfSpeech: ["noun [U]","verb [T]"],
+    ipa_uk: '/ˈaɪən/',
+    ipa_us: '/ˈaɪən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a chemical element, used to make steel and other alloys",
+              "th": "ธาตุเคมี ใช้ในการผลิตเหล็กกล้าและโลหะผสมอื่น ๆ"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something smooth and flat using a hot iron",
+              "th": "ทำให้บางสิ่งเรียบและแบนโดยใช้เหล็กร้อน"
+        }
+  ],
+    antonyms: ["wrinkle","crease"],
+    examples:   [
+        "Iron is an essential mineral for the human body.",
+        "She irons her clothes every morning.",
+        "The iron gate at the entrance of the house is very old."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'aid',
+    level: 'B1',
+    partOfSpeech: ["noun [U]","verb [T]"],
+    ipa_uk: '/eɪd/',
+    ipa_us: '/eɪd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "help or assistance, especially financial help",
+              "th": "ความช่วยเหลือหรือการสนับสนุน โดยเฉพาะความช่วยเหลือด้านการเงิน"
+        },
+        {
+              "pos": "verb",
+              "en": "to help or assist someone or something",
+              "th": "ช่วยเหลือหรือสนับสนุนบางคนหรือบางสิ่ง"
+        }
+  ],
+    antonyms: ["hinder","obstruct"],
+    examples:   [
+        "The charity provides aid to people in need.",
+        "The government will aid the affected areas with financial support.",
+        "The new technology will aid in the development of renewable energy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'equal',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈiːkwəl/',
+    ipa_us: '/ˈiːkwəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having the same amount, size, or value as something else",
+              "th": "มีจำนวน ขนาด หรือค่าเท่ากับบางสิ่งอื่น"
+        }
+  ],
+    antonyms: ["unequal","uneven"],
+    examples:   [
+        "The two teams are equal in strength and skill.",
+        "Men and women should have equal rights and opportunities.",
+        "The company aims to provide equal pay for equal work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compose',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kəmˈpəʊz/',
+    ipa_us: '/kəmˈpəʊz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to create music, literature, or art",
+              "th": "สร้างสรรค์เพลง วรรณกรรม หรือศิลปะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something by combining different parts or elements",
+              "th": "สร้างบางสิ่งโดยการรวมส่วนต่าง ๆ หรือองค์ประกอบ"
+        }
+  ],
+    antonyms: ["decompose","dismantle"],
+    examples:   [
+        "The famous composer will compose a new symphony.",
+        "She composed a beautiful poem for her mother's birthday.",
+        "The team will compose a report on the project's progress."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'valuable',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvæljuəbl̩/',
+    ipa_us: '/ˈvæljuəbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "worth a lot of money or having a high value",
+              "th": "มีมูลค่ามากหรือมีค่าในระดับสูง"
+        }
+  ],
+    antonyms: ["worthless","valueless"],
+    examples:   [
+        "The painting is a valuable piece of art.",
+        "Her experience and skills are valuable assets to the company.",
+        "The data collected is valuable for future research."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'progress',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈpɹɒɡɹɛs/',
+    ipa_us: '/ˈpɹɒɡɹɛs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "movement towards a place or situation, or the process of improving or developing something",
+              "th": "การเคลื่อนที่ไปสู่ที่หรือสถานการณ์ หรือกระบวนการปรับปรุงหรือพัฒนาบางสิ่ง"
+        }
+  ],
+    antonyms: ["regress","deterioration"],
+    examples:   [
+        "The company has made significant progress in the past year.",
+        "The progress of the project is being monitored closely.",
+        "She's making good progress in her recovery from the illness."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'round',
+    level: 'B1',
+    partOfSpeech: ["adjective","adverb","preposition"],
+    ipa_uk: '/ˈɹaʊnd/',
+    ipa_us: '/ˈɹaʊnd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "shaped like a circle or a sphere",
+              "th": "มีรูปทรงเป็นวงกลมหรือทรงกลม"
+        },
+        {
+              "pos": "adverb",
+              "en": "in a circular motion or shape",
+              "th": "ในลักษณะการเคลื่อนที่เป็นวงกลมหรือรูปทรง"
+        },
+        {
+              "pos": "preposition",
+              "en": "on all sides of something, or in every direction from something",
+              "th": "ที่ด้านทุกด้านของบางสิ่ง หรือในทิศทางทุกทิศทางจากบางสิ่ง"
+        }
+  ],
+    antonyms: ["square","angular"],
+    examples:   [
+        "The round table in the meeting room is very large.",
+        "The ball rolled round the corner of the room.",
+        "The house is situated round the hill."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'phoenix',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈfiːnɪks/',
+    ipa_us: '/ˈfiːnɪks/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mythical bird that is born from its own ashes and lives for 500 years before it dies and is reborn again",
+              "th": "นกตัวมีพญาในตำนานที่เกิดจากเถ้าถ่านของตัวเองและอาศัยอยู่เป็นเวลา 500 ปีก่อนที่จะตายและเกิดใหม่อีกครั้ง"
+        }
+  ],
+    antonyms: ["mortal","human"],
+    examples:   [
+        "The phoenix is a symbol of rebirth and renewal.",
+        "The company has risen from the ashes like a phoenix.",
+        "The phoenix is a mythical creature that has captivated people's imagination for centuries."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'oppression',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/əˈpɹɛʃən/',
+    ipa_us: '/əˈpɹɛʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being oppressed, or the act of oppressing someone or something",
+              "th": "สถานะของการถูกกดขี่ หรือการกดขี่บางคนหรือบางสิ่ง"
+        }
+  ],
+    antonyms: ["liberation","freedom"],
+    examples:   [
+        "The people suffered under the oppression of the dictator.",
+        "The oppression of women is a major issue in many countries.",
+        "The company's policies are an example of economic oppression."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'motherland',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈmʌðɚˌlænd/',
+    ipa_us: '/ˈmʌðɚˌlænd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the country where someone was born or where their ancestors came from",
+              "th": "ประเทศที่บางคนเกิดหรือที่บรรพบุรุษมาจาก"
+        }
+  ],
+    antonyms: ["foreign land","adopted country"],
+    examples:   [
+        "She returned to her motherland after living abroad for many years.",
+        "The motherland of the ancient civilization is now a popular tourist destination.",
+        "He feels a strong connection to his motherland and its culture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
