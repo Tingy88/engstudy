@@ -7668,6 +7668,457 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'unhappy',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈhæpi/',
+    ipa_us: '/ʌnˈhæpi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling sad or displeased",
+              "th": "รู้สึกไม่สบายใจหรือไม่พอใจ"
+        }
+  ],
+    antonyms: ["happy","joyful"],
+    examples:   [
+        "She looked unhappy when she received the news.",
+        "The unhappy child started to cry.",
+        "He felt unhappy about the decision."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'crowded',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkɹaʊdɪd/',
+    ipa_us: '/ˈkɹaʊdɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a large number of people in a small space",
+              "th": "มีคนจำนวนมากในพื้นที่เล็ก"
+        }
+  ],
+    antonyms: ["empty","quiet"],
+    examples:   [
+        "The crowded bus made me feel uncomfortable.",
+        "The city was crowded during the festival.",
+        "She avoided the crowded restaurant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'appear',
+    level: 'A2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əˈpiːɹ/',
+    ipa_us: '/əˈpiːɹ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become visible or to seem",
+              "th": "ปรากฏหรือดูเหมือน"
+        }
+  ],
+    antonyms: ["disappear","hide"],
+    examples:   [
+        "The ghost appeared in the haunted house.",
+        "She will appear on the TV show tonight.",
+        "The problem appears to be more serious than we thought."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'further',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/fɜː(ɹ)ðə(ɹ)/',
+    ipa_us: '/fɜː(ɹ)ðə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a greater degree or extent",
+              "th": "ในระดับหรือปริมาณที่มากขึ้น"
+        }
+  ],
+    antonyms: ["less","nearer"],
+    examples:   [
+        "I will investigate the matter further.",
+        "The hotel is further away from the city center than I thought.",
+        "She wants to study further to get a master's degree."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pile',
+    level: 'A2',
+    partOfSpeech: ["noun","verb [T]"],
+    ipa_uk: '/paɪl/',
+    ipa_us: '/paɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a collection of things laid on top of each other",
+              "th": "สิ่งของที่วางซ้อนกัน"
+        },
+        {
+              "pos": "verb",
+              "en": "to put things on top of each other",
+              "th": "วางสิ่งของซ้อนกัน"
+        }
+  ],
+    antonyms: ["remove","scatter"],
+    examples:   [
+        "There is a pile of dirty laundry in the corner.",
+        "She started to pile the books on the shelf.",
+        "The kids love to pile up the leaves in the autumn."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'smooth',
+    level: 'A2',
+    partOfSpeech: ["adjective","verb [T]"],
+    ipa_uk: '/smuːð/',
+    ipa_us: '/smuːð/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a surface that is not rough",
+              "th": "มีพื้นผิวที่ไม่ขรุขระ"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something smooth",
+              "th": "ทำให้บางสิ่งมีพื้นผิวที่ไม่ขรุขระ"
+        }
+  ],
+    antonyms: ["rough","bumpy"],
+    examples:   [
+        "The smooth road made the journey comfortable.",
+        "She smoothed out the wrinkles on her dress.",
+        "The smooth music helped me to relax."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'advertising',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈædvə(ɹ)ˌtaɪzɪŋ/',
+    ipa_us: '/ˈædvə(ɹ)ˌtaɪzɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the business of making people aware of a product or service",
+              "th": "ธุรกิจที่ทำให้ผู้คนรู้จักสินค้าหรือบริการ"
+        }
+  ],
+    antonyms: ["hiding","concealing"],
+    examples:   [
+        "The company spends a lot of money on advertising.",
+        "Advertising is an important part of any business.",
+        "The advertising campaign was very successful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pleasant',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈplɛzənt/',
+    ipa_us: '/ˈplɛzənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving a feeling of enjoyment or satisfaction",
+              "th": "ทำให้รู้สึกสบายใจหรือพอใจ"
+        }
+  ],
+    antonyms: ["unpleasant","awful"],
+    examples:   [
+        "The pleasant weather made our trip enjoyable.",
+        "She has a pleasant personality.",
+        "The hotel room was pleasant and clean."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'schoolwork',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈskuːlˌwɜːk/',
+    ipa_us: '/ˈskuːlˌwɜːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "work that is done by a student as part of their studies",
+              "th": "งานที่นักเรียนทำเป็นส่วนหนึ่งของการศึกษา"
+        }
+  ],
+    antonyms: ["leisure","entertainment"],
+    examples:   [
+        "The student spent most of her time on schoolwork.",
+        "The teacher helped the student with their schoolwork.",
+        "Schoolwork can be challenging and time-consuming."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'opposite',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈɒpəsɪt/',
+    ipa_us: '/ˈɒpəsɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "completely different or on the other side",
+              "th": "แตกต่างทั้งหมดหรือทางด้านตรงข้าม"
+        },
+        {
+              "pos": "noun",
+              "en": "something that is completely different",
+              "th": "บางสิ่งที่แตกต่างทั้งหมด"
+        }
+  ],
+    antonyms: ["same","similar"],
+    examples:   [
+        "The two cities are opposite in terms of culture.",
+        "The opposite side of the street is where the park is.",
+        "The opposite of happy is sad."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pink',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/pɪŋk/',
+    ipa_us: '/pɪŋk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a color that is a mixture of red and white",
+              "th": "มีสีที่เป็นส่วนผสมของสีแดงและสีขาว"
+        },
+        {
+              "pos": "noun",
+              "en": "the color pink",
+              "th": "สีชมพู"
+        }
+  ],
+    antonyms: ["green","blue"],
+    examples:   [
+        "The pink dress looked beautiful on her.",
+        "The pink flowers were blooming in the garden.",
+        "The room was painted pink and white."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bury',
+    level: 'A2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈbʌ.ɹi/',
+    ipa_us: '/ˈbʌ.ɹi/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to put something under the ground",
+              "th": "วางบางสิ่งไว้ใต้ดิน"
+        }
+  ],
+    antonyms: ["uncover","dig up"],
+    examples:   [
+        "They will bury the dead body in the cemetery.",
+        "The dog likes to bury bones in the backyard.",
+        "The treasure was buried on the island."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fog',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/fɒɡ/',
+    ipa_us: '/fɒɡ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a cloud-like mass of tiny water droplets in the air",
+              "th": "กลุ่มเมฆที่ประกอบด้วยหยดน้ำขนาดเล็กในอากาศ"
+        }
+  ],
+    antonyms: ["clear","sunny"],
+    examples:   [
+        "The fog made it difficult to drive.",
+        "The city was covered in fog this morning.",
+        "The fog rolled in off the ocean."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'purple',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈpɜː(ɹ).pəl/',
+    ipa_us: '/ˈpɜː(ɹ).pəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a color that is a mixture of red and blue",
+              "th": "มีสีที่เป็นส่วนผสมของสีแดงและสีน้ำเงิน"
+        },
+        {
+              "pos": "noun",
+              "en": "the color purple",
+              "th": "สีม่วง"
+        }
+  ],
+    antonyms: ["orange","yellow"],
+    examples:   [
+        "The purple flowers were beautiful.",
+        "The queen wore a purple dress to the party.",
+        "The room was painted purple and silver."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disappointed',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌdɪsəˈpɔɪntɪd/',
+    ipa_us: '/ˌdɪsəˈpɔɪntɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling sad or unhappy because something did not happen as expected",
+              "th": "รู้สึกเสียใจหรือไม่สบายใจเพราะบางสิ่งไม่เกิดขึ้นตามที่คาดหวัง"
+        }
+  ],
+    antonyms: ["happy","pleased"],
+    examples:   [
+        "I was disappointed when I didn't get the job.",
+        "She felt disappointed when her favorite team lost.",
+        "The disappointed child started to cry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'coin',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kɔɪn/',
+    ipa_us: '/kɔɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small piece of metal used as money",
+              "th": "ชิ้นเล็กของโลหะที่ใช้เป็นเงิน"
+        }
+  ],
+    antonyms: ["bill","note"],
+    examples:   [
+        "I need a coin to use the vending machine.",
+        "The coin was old and rare.",
+        "She found a coin on the ground."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'illegal',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪˈliːɡəl/',
+    ipa_us: '/ɪˈliːɡəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "against the law",
+              "th": "ขัดต่อกฎหมาย"
+        }
+  ],
+    antonyms: ["legal","lawful"],
+    examples:   [
+        "The illegal drug trade is a serious problem.",
+        "It is illegal to park your car here.",
+        "The company was involved in illegal activities."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'widely',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈwaɪdli/',
+    ipa_us: '/ˈwaɪdli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a great extent or over a large area",
+              "th": "ในระดับที่มากหรือในพื้นที่ขนาดใหญ่"
+        }
+  ],
+    antonyms: ["narrowly","locally"],
+    examples:   [
+        "The news was widely reported in the media.",
+        "The company's products are widely available.",
+        "The language is widely spoken in the country."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'attack',
+    level: 'A2',
+    partOfSpeech: ["noun","verb [T]"],
+    ipa_uk: '/əˈtæk/',
+    ipa_us: '/əˈtæk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a violent or aggressive act",
+              "th": "การกระทำที่รุนแรงหรือก้าวร้าว"
+        },
+        {
+              "pos": "verb",
+              "en": "to use force or violence against someone or something",
+              "th": "ใช้กำลังหรือความรุนแรงต่อใครบางคนหรือบางสิ่ง"
+        }
+  ],
+    antonyms: ["defend","protect"],
+    examples:   [
+        "The attack on the city was unexpected.",
+        "The dog will attack if it feels threatened.",
+        "The company launched an attack on its competitor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'envelope',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɒn.və.ləʊp/',
+    ipa_us: '/ˈɒn.və.ləʊp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a paper container used for sending letters or documents",
+              "th": "ภาชนะกระดาษที่ใช้สำหรับส่งจดหมายหรือเอกสาร"
+        }
+  ],
+    antonyms: ["box","package"],
+    examples:   [
+        "I need an envelope to send this letter.",
+        "The envelope was addressed to my friend.",
+        "She put the letter in the envelope and sealed it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
