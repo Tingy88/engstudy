@@ -9028,6 +9028,363 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'factor',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfæktə/',
+    ipa_us: '/ˈfæktə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a fact or situation that influences the result of something",
+              "th": "ปัจจัยหรือสถานการณ์ที่มีผลต่อผลลัพธ์ของบางสิ่ง"
+        }
+  ],
+    antonyms: ["result","outcome"],
+    examples:   [
+        "The weather was a significant factor in the success of the event.",
+        "Her age was not a factor in the decision to hire her.",
+        "The company considered several factors before making a decision."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tremor',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɹɛmɚ/',
+    ipa_us: '/ˈtɹɛmɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a slight shaking movement, especially of the earth or of someone's hands",
+              "th": "การเคลื่อนไหวที่สั่นเล็กน้อย โดยเฉพาะของโลกหรือของมือของผู้ใด"
+        }
+  ],
+    antonyms: ["stillness","calmness"],
+    examples:   [
+        "The earthquake caused a tremor that lasted for several minutes.",
+        "The patient had a tremor in her hands, which made it hard for her to write.",
+        "The doctor diagnosed the tremor as a symptom of a neurological disorder."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'signify',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈsɪɡnɪfaɪ/',
+    ipa_us: '/ˈsɪɡnɪfaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to mean or represent something",
+              "th": "หมายถึงหรือเป็นตัวแทนของบางสิ่ง"
+        }
+  ],
+    antonyms: ["misrepresent","distort"],
+    examples:   [
+        "The flag signifies the country's history and values.",
+        "The symbol signifies peace and unity.",
+        "The artist's use of color signifies a sense of sadness and melancholy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compression',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kɒm.pɹɛʃ.ən/',
+    ipa_us: '/kɒm.pɹɛʃ.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of pressing or squeezing something together",
+              "th": "การกดหรือบีบอัดบางสิ่งเข้าด้วยกัน"
+        }
+  ],
+    antonyms: ["expansion","dilation"],
+    examples:   [
+        "The compression of the data allowed it to be sent more quickly.",
+        "The compression of the air in the tire made it more efficient.",
+        "The doctor used compression to stop the bleeding from the wound."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'orchid',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɔː.kɪd/',
+    ipa_us: '/ˈɔː.kɪd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of flowering plant",
+              "th": "ประเภทของพืชดอก"
+        }
+  ],
+    antonyms: ["weed","fern"],
+    examples:   [
+        "The orchid is a popular choice for wedding bouquets.",
+        "The gardener specialized in growing rare and exotic orchids.",
+        "The orchid was a symbol of luxury and beauty in ancient cultures."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'route',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹʉːt/',
+    ipa_us: '/ɹʉːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a way or course taken to get from one place to another",
+              "th": "ทางหรือเส้นทางที่ใช้ในการเดินทางจากที่หนึ่งไปอีกที่หนึ่ง"
+        }
+  ],
+    antonyms: ["detour","diversion"],
+    examples:   [
+        "The bus took a scenic route through the mountains.",
+        "The hikers got lost because they took a wrong route.",
+        "The company is planning to change its delivery route to reduce costs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'attainable',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈteɪnəb(ə)l/',
+    ipa_us: '/əˈteɪnəb(ə)l/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "possible to achieve or get",
+              "th": "สามารถบรรลุหรือได้รับ"
+        }
+  ],
+    antonyms: ["unattainable","impossible"],
+    examples:   [
+        "The goal was attainable, but it required a lot of hard work.",
+        "The company made the product more attainable by reducing its price.",
+        "The student felt that the scholarship was attainable if she studied hard enough."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cooperate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/koʊˈɒpəɹeɪt/',
+    ipa_us: '/koʊˈɒpəɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to work together and share the work or responsibility",
+              "th": "ทำงานร่วมกันและแบ่งปันงานหรือความรับผิดชอบ"
+        }
+  ],
+    antonyms: ["compete","oppose"],
+    examples:   [
+        "The companies will cooperate to develop a new product.",
+        "The countries agreed to cooperate on the environmental issue.",
+        "The team members learned to cooperate and trust each other."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bureaucracy',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/bjʊəˈɹɒkɹəsi/',
+    ipa_us: '/bjʊəˈɹɒkɹəsi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a system of government or organization that has many rules and officials",
+              "th": "ระบบการปกครองหรือองค์กรที่มีกฎและเจ้าหน้าที่จำนวนมาก"
+        }
+  ],
+    antonyms: ["meritocracy","democracy"],
+    examples:   [
+        "The bureaucracy in the government made it hard to get anything done.",
+        "The company's bureaucracy was criticized for being slow and inefficient.",
+        "The artist's work was a commentary on the bureaucracy and red tape in society."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nostril',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈnɒstɹəl/',
+    ipa_us: '/ˈnɒstɹəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "one of the two small openings in the nose through which air is breathed in and out",
+              "th": "ช่องเปิดเล็กๆ สองช่องในจมูกที่ใช้ในการหายใจเข้าและออก"
+        }
+  ],
+    antonyms: ["mouth","throat"],
+    examples:   [
+        "The doctor examined the patient's nostrils to check for any blockages.",
+        "The athlete's nostrils flared as she took deep breaths before the competition.",
+        "The child picked her nostrils, which was a bad habit."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'struggle',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈstrʌɡəl/',
+    ipa_us: '/ˈstrʌɡəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to try very hard to do something, or to fight against something",
+              "th": "พยายามอย่างหนักเพื่อทำบางสิ่ง หรือต่อสู้กับบางสิ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a difficult or violent effort to achieve or resist something",
+              "th": "ความพยายามอย่างยากลำบากหรือรุนแรงเพื่อบรรลุหรือต่อต้านบางสิ่ง"
+        }
+  ],
+    antonyms: ["surrender","yield"],
+    examples:   [
+        "The team struggled to win the game, but eventually emerged victorious.",
+        "The single mother struggled to make ends meet, but never gave up.",
+        "The country struggled to recover from the economic crisis, but is now on the path to growth."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pension',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɛnʃ(ə)n/',
+    ipa_us: '/ˈpɛnʃ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a regular payment made to someone who has retired from work",
+              "th": "การชำระเงินเป็นประจำให้กับบุคคลที่เกษียณอายุการทำงาน"
+        }
+  ],
+    antonyms: ["salary","wage"],
+    examples:   [
+        "The retired teacher received a generous pension and was able to travel.",
+        "The company offered a pension plan to its employees, which was a major benefit.",
+        "The government increased the pension for veterans, which was a welcome change."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sack',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/sæk/',
+    ipa_us: '/sæk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to dismiss someone from their job",
+              "th": "ให้ใครออกจากงาน"
+        },
+        {
+              "pos": "noun",
+              "en": "a bag made of flexible material, or a dismissal from a job",
+              "th": "ถุงทำจากวัสดุอ่อน หรือการให้ใครออกจากงาน"
+        }
+  ],
+    antonyms: ["hire","employ"],
+    examples:   [
+        "The company sacked the employee for poor performance.",
+        "The manager was sacked after the team's losing streak.",
+        "The worker carried his tools in a sack on his back."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rafter',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹæftəɹ/',
+    ipa_us: '/ˈɹæftəɹ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, narrow piece of wood or metal that is part of a roof",
+              "th": "แผ่นไม้หรือโลหะยาวและแคบที่เป็นส่วนหนึ่งของหลังคา"
+        }
+  ],
+    antonyms: ["column","beam"],
+    examples:   [
+        "The contractor installed new rafters in the attic to support the roof.",
+        "The old house had exposed rafters, which added to its charm.",
+        "The carpenter used rafters to build a sturdy frame for the shed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'risk',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɹɪsk/',
+    ipa_us: '/ɹɪsk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a situation that could possibly cause harm or danger",
+              "th": "สถานการณ์ที่อาจก่อให้เกิดอันตรายหรือความเสี่ยง"
+        },
+        {
+              "pos": "verb",
+              "en": "to take a chance or do something that might cause harm or danger",
+              "th": "ที่จะรับความเสี่ยงหรือทำบางสิ่งที่อาจก่อให้เกิดอันตรายหรือความเสี่ยง"
+        }
+  ],
+    antonyms: ["safety","security"],
+    examples:   [
+        "The investor took a risk by putting all his money into one stock.",
+        "The hiker took a risk by climbing the mountain without a guide.",
+        "The company assessed the risk of the new project before deciding to proceed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stress',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/stɹɛs/',
+    ipa_us: '/stɹɛs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of anxiety or tension, or a force that causes this",
+              "th": "สภาพของความวิตกกังวลหรือความตึงเครียด หรือแรงที่ทำให้เกิดสิ่งนี้"
+        },
+        {
+              "pos": "verb",
+              "en": "to emphasize or give importance to something",
+              "th": "เน้นหรือให้ความสำคัญกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["relaxation","calmness"],
+    examples:   [
+        "The employee was under a lot of stress at work, which affected her health.",
+        "The teacher tried to stress the importance of punctuality to the students.",
+        "The company offered stress management workshops to its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
