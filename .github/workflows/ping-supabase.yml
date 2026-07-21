@@ -14,6 +14,8 @@ jobs:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
-          curl -s "$SUPABASE_URL/rest/v1/progress?select=name&limit=1" \
+          curl -s -X POST "$SUPABASE_URL/rest/v1/rpc/get_progress" \
             -H "apikey: $SUPABASE_ANON_KEY" \
-            -H "Authorization: Bearer $SUPABASE_ANON_KEY"
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            -H "Content-Type: application/json" \
+            -d '{"p_name": "keepalive-ping", "p_pin": "0000"}'
