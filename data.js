@@ -8645,6 +8645,389 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'concur',
+    level: 'C1',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/kənˈkɜː/',
+    ipa_us: '/kənˈkɜː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to agree with something or someone",
+              "th": "เห็นด้วยกับบางสิ่งหรือบางคน"
+        }
+  ],
+    antonyms: ["disagree","dissent"],
+    examples:   [
+        "I concur with your opinion on this matter.",
+        "The experts concur that climate change is a pressing issue.",
+        "She concurs with her colleague's assessment of the situation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sauna',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈsaʊ.nə/',
+    ipa_us: '/ˈsaʊ.nə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small room or building where people sit or stand to sweat, typically for health or relaxation",
+              "th": "ห้องหรืออาคารขนาดเล็กที่คนนั่งหรือยืนเพื่อออกเหงื่อ โดยทั่วไปเพื่อสุขภาพหรือผ่อนคลาย"
+        }
+  ],
+    antonyms: ["freezer","icebox"],
+    examples:   [
+        "After the workout, he relaxed in the sauna.",
+        "The spa has a sauna and a steam room for guests.",
+        "She enjoys spending time in the sauna to detoxify her body."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'temperament',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈtɛmpəɹmənt/',
+    ipa_us: '/ˈtɛmpəɹmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the natural disposition or character of a person",
+              "th": "อุปนิสัยหรือลักษณะนิสัยที่เป็นธรรมชาติของคน"
+        }
+  ],
+    antonyms: ["personality","character"],
+    examples:   [
+        "Her temperament is well-suited for a career in diplomacy.",
+        "He has a calm temperament, which helps him in stressful situations.",
+        "The artist's temperament is reflected in her bold and expressive paintings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'knowledgeable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈnɑl.ɪd͡ʒ.ə.bəl/',
+    ipa_us: '/ˈnɑl.ɪd͡ʒ.ə.bəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a lot of knowledge about something",
+              "th": "มีหรือแสดงให้เห็นถึงความรู้มากมายเกี่ยวกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["ignorant","uninformed"],
+    examples:   [
+        "The professor is knowledgeable about ancient history.",
+        "She is knowledgeable about the latest technology trends.",
+        "He is a knowledgeable guide who can answer all your questions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tycoon',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/taɪˈkuːn/',
+    ipa_us: '/taɪˈkuːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a very rich and powerful business person",
+              "th": "คนรวยและมีอำนาจมากในธุรกิจ"
+        }
+  ],
+    antonyms: ["pauper","beggar"],
+    examples:   [
+        "The tycoon donated millions to charity.",
+        "He is a self-made tycoon who built his empire from scratch.",
+        "The tycoon's business practices have been criticized by many."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'negligible',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈnɛɡlɪdʒɪbəl/',
+    ipa_us: '/ˈnɛɡlɪdʒɪbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "so small or unimportant that it can be ignored",
+              "th": "เล็กหรือไม่สำคัญจนสามารถเพิกเฉยได้"
+        }
+  ],
+    antonyms: ["significant","substantial"],
+    examples:   [
+        "The risk of side effects is negligible.",
+        "The change in temperature is negligible compared to other factors.",
+        "The amount of money he spent was negligible compared to his income."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'carpenter',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkɑː.pən.tə/',
+    ipa_us: '/ˈkɑː.pən.tə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who builds, repairs, and installs structures and fixtures made of wood, wood substitutes, and other materials",
+              "th": "คนซึ่งสร้าง ซ่อมแซม และติดตั้งโครงสร้างและอุปกรณ์ที่ทำจากไม้ วัสดุแทนน้ำมัน และวัสดุอื่นๆ"
+        }
+  ],
+    antonyms: ["demolition worker","wrecker"],
+    examples:   [
+        "The carpenter built a beautiful wooden house.",
+        "He worked as a carpenter before starting his own business.",
+        "The carpenter's skills are in high demand for renovation projects."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'batter',
+    level: 'C1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/ˈbætə(ɹ)/',
+    ipa_us: '/ˈbætə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to hit or strike something or someone repeatedly",
+              "th": "ตีหรือกระแทกบางสิ่งหรือบางคนซ้ำๆ"
+        },
+        {
+              "pos": "noun",
+              "en": "a mixture of flour, liquid, and other ingredients used for making cakes, pancakes, etc.",
+              "th": "ส่วนผสมของแป้ง น้ำ และส่วนผสมอื่นๆ ที่ใช้สำหรับการทำเค้ก แพนเค้ก ฯลฯ"
+        }
+  ],
+    antonyms: ["protect","defend"],
+    examples:   [
+        "The boxer will batter his opponent in the ring.",
+        "The storm will batter the coast with strong winds.",
+        "She used a special batter to make delicious pancakes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'signal',
+    level: 'C1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈsɪɡnəl/',
+    ipa_us: '/ˈsɪɡnəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a movement, gesture, or sound that conveys a particular meaning",
+              "th": "การเคลื่อนไหว ท่าทาง หรือเสียงที่สื่อความหมายเฉพาะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to convey a message or instruction by means of a signal",
+              "th": "สื่อสารข้อความหรือคำสั่งโดยใช้สัญญาณ"
+        }
+  ],
+    antonyms: ["noise","interference"],
+    examples:   [
+        "The signal from the lighthouse guided the ship to safety.",
+        "She signaled to her friend to meet her outside.",
+        "The company will signal its intention to expand into new markets."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'latent',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈleɪ.tənt/',
+    ipa_us: '/ˈleɪ.tənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "existing but not yet developed or visible",
+              "th": "มีอยู่แต่ยังไม่พัฒนาหรือมองเห็น"
+        }
+  ],
+    antonyms: ["obvious","apparent"],
+    examples:   [
+        "The latent talent of the young artist was discovered by a critic.",
+        "The company has latent potential for growth.",
+        "The latent virus can reactivate years after the initial infection."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'succession',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/səkˈsɛʃ.ən/',
+    ipa_us: '/səkˈsɛʃ.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of one thing following another in time or order",
+              "th": "กระบวนการที่สิ่งหนึ่งตามหลังอีกสิ่งหนึ่งในเวลาหรือลำดับ"
+        }
+  ],
+    antonyms: ["predecessor","isolated event"],
+    examples:   [
+        "The succession of events led to the company's bankruptcy.",
+        "The succession of kings in the dynasty was marked by power struggles.",
+        "The succession of natural disasters devastated the region."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'motley',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmɒtli/',
+    ipa_us: '/ˈmɒtli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "consisting of a mixture of different things",
+              "th": "ประกอบด้วยส่วนผสมของสิ่งต่างๆ ที่แตกต่างกัน"
+        }
+  ],
+    antonyms: ["uniform","homogeneous"],
+    examples:   [
+        "The motley crew of sailors came from different parts of the world.",
+        "The city has a motley population of people from various ethnic backgrounds.",
+        "The artist's motley style reflects her eclectic taste in art."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'crude',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kɹʉd/',
+    ipa_us: '/kɹʉd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lacking refinement or subtlety",
+              "th": "ขาดความซับซ้อนหรือความละมุนละม่อม"
+        }
+  ],
+    antonyms: ["sophisticated","refined"],
+    examples:   [
+        "The crude oil needs to be refined before use.",
+        "His crude behavior offended many people at the party.",
+        "The crude tools were not effective for the delicate task."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'behind',
+    level: 'C1',
+    partOfSpeech: ["preposition","adverb"],
+    ipa_uk: '/bəˈhaɪnd/',
+    ipa_us: '/bəˈhaɪnd/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "at the back of something or someone",
+              "th": "ที่ด้านหลังของสิ่งหรือคน"
+        },
+        {
+              "pos": "adverb",
+              "en": "in a position where someone or something is late or slow",
+              "th": "ในตำแหน่งที่คนหรือสิ่งใดอยู่ในตำแหน่งที่ล่าช้าหรือช้า"
+        }
+  ],
+    antonyms: ["ahead","in front"],
+    examples:   [
+        "The car is behind the tree.",
+        "She is behind schedule with her project.",
+        "The team is behind in the game, but they can still win."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cynicism',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈsɪn.ɪˌsɪzəm/',
+    ipa_us: '/ˈsɪn.ɪˌsɪzəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the belief that people are motivated by self-interest and that they do not care about others",
+              "th": "ความเชื่อที่ว่าคนถูกขับเคลื่อนด้วยผลประโยชน์ส่วนตนและไม่สนใจผู้อื่น"
+        }
+  ],
+    antonyms: ["optimism","trust"],
+    examples:   [
+        "The cynicism of the politician's words was evident.",
+        "Cynicism can lead to a lack of trust in institutions.",
+        "The cynicism of the media can be discouraging to young journalists."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'numb',
+    level: 'C1',
+    partOfSpeech: ["adjective","verb [T]"],
+    ipa_uk: '/nʌm/',
+    ipa_us: '/nʌm/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unable to feel anything, especially pain or emotion",
+              "th": "ไม่สามารถรู้สึกอะไรได้ โดยเฉพาะเจ็บปวดหรืออารมณ์"
+        },
+        {
+              "pos": "verb",
+              "en": "to make someone or something unable to feel anything",
+              "th": "ทำให้คนหรือสิ่งใดไม่สามารถรู้สึกอะไรได้"
+        }
+  ],
+    antonyms: ["sensitive","responsive"],
+    examples:   [
+        "The numbness in her leg made it difficult to walk.",
+        "The doctor will numb the area before the surgery.",
+        "The news left her numb and unable to react."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relapse',
+    level: 'C1',
+    partOfSpeech: ["verb [I]","noun [C]"],
+    ipa_uk: '/ɹɪˈlæps/',
+    ipa_us: '/ɹɪˈlæps/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to return to a previous state, especially an undesirable one",
+              "th": "กลับสู่สถานะก่อนหน้า โดยเฉพาะอย่างยิ่งสถานะที่ไม่พึงประสงค์"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of returning to a previous state, especially an undesirable one",
+              "th": "การกลับสู่สถานะก่อนหน้า โดยเฉพาะอย่างยิ่งสถานะที่ไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["recover","improve"],
+    examples:   [
+        "The patient may relapse if they don't take their medication.",
+        "She relapsed into her old habits after a few months.",
+        "The relapse of the disease was a setback for the researchers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
