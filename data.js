@@ -8119,6 +8119,532 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'apron',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈeɪ.pɹən/',
+    ipa_us: '/ˈeɪ.pɹən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of fabric worn over the front of the body to protect clothing",
+              "th": "ผ้าปิดหน้า"
+        }
+  ],
+    antonyms: ["gloves","jacket"],
+    examples:   [
+        "She put on an apron to protect her clothes while cooking.",
+        "The apron was covered in flour and sugar after baking.",
+        "He wore a leather apron to work in the garage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hurt',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/hɜːt/',
+    ipa_us: '/hɜːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cause someone pain or injury",
+              "th": "ทำให้เจ็บ"
+        }
+  ],
+    antonyms: ["heal","cure"],
+    examples:   [
+        "The fall hurt her knee and she couldn't walk.",
+        "His words hurt her feelings and she started crying.",
+        "The medicine won't hurt you, it will make you feel better."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'reason',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹiːzən/',
+    ipa_us: '/ˈɹiːzən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a cause or explanation for something",
+              "th": "สาเหตุ"
+        }
+  ],
+    antonyms: ["emotion","guess"],
+    examples:   [
+        "The reason I'm late is because of the traffic.",
+        "There's no reason to be afraid, everything will be fine.",
+        "She gave a good reason for not attending the meeting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'turn',
+    level: 'A1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/tɜːn/',
+    ipa_us: '/tɜːn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to change direction or move in a different way",
+              "th": "เปลี่ยนทิศทาง"
+        }
+  ],
+    antonyms: ["stay","remain"],
+    examples:   [
+        "Turn left at the next corner to get to the park.",
+        "She turned the page to continue reading the book.",
+        "The key turned easily in the lock."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'say',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/seɪ/',
+    ipa_us: '/seɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to express an opinion or thought in words",
+              "th": "พูด"
+        }
+  ],
+    antonyms: ["hide","keep"],
+    examples:   [
+        "What did you say? I didn't hear you.",
+        "She said she would meet us at 5 o'clock.",
+        "He didn't say anything, he just nodded."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hide',
+    level: 'A1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/haɪd/',
+    ipa_us: '/haɪd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to put or keep something out of sight",
+              "th": "ซ่อน"
+        }
+  ],
+    antonyms: ["show","reveal"],
+    examples:   [
+        "Hide the present, it's a surprise.",
+        "The cat likes to hide under the bed.",
+        "She tried to hide her tears, but it was too late."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'go',
+    level: 'A1',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/ɡəʉ/',
+    ipa_us: '/ɡəʉ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move from one place to another",
+              "th": "ไป"
+        }
+  ],
+    antonyms: ["stay","stop"],
+    examples:   [
+        "I'm going to the store, do you need anything?",
+        "She went to the party and had a great time.",
+        "Let's go for a walk in the park."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'information',
+    level: 'A1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˌɪnfəˈmeɪʃən/',
+    ipa_us: '/ˌɪnfəˈmeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "facts or details about something",
+              "th": "ข้อมูล"
+        }
+  ],
+    antonyms: ["rumor","guess"],
+    examples:   [
+        "The tourist information office is open from 9 to 5.",
+        "Can you give me some information about the hotel?",
+        "The company needs more information before making a decision."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'remember',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɹɪˈmɛmbə/',
+    ipa_us: '/ɹɪˈmɛmbə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to recall or bring to mind a piece of information",
+              "th": "จำ"
+        }
+  ],
+    antonyms: ["forget","ignore"],
+    examples:   [
+        "I remember my birthday, it's on December 12th.",
+        "She couldn't remember where she put her keys.",
+        "He remembered to call his mother on her birthday."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'map',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/mæp/',
+    ipa_us: '/mæp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a diagram or representation of an area",
+              "th": "แผนที่"
+        }
+  ],
+    antonyms: ["guide","brochure"],
+    examples:   [
+        "The map showed us the way to the hotel.",
+        "She studied the map to learn the new city.",
+        "He used a map to navigate the hiking trail."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'princess',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹɪnˈsɛs/',
+    ipa_us: '/pɹɪnˈsɛs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the daughter of a king or queen",
+              "th": "เจ้าหญิง"
+        }
+  ],
+    antonyms: ["queen","commoner"],
+    examples:   [
+        "The princess wore a beautiful dress to the ball.",
+        "She felt like a princess in her wedding dress.",
+        "The prince and princess had two children."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'singer',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɪŋə/',
+    ipa_us: '/ˈsɪŋə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who sings, especially as a profession",
+              "th": "นักร้อง"
+        }
+  ],
+    antonyms: ["dancer","actor"],
+    examples:   [
+        "The singer performed in front of a large crowd.",
+        "She is a famous singer and has won many awards.",
+        "He became a singer after winning a talent show."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shower',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈʃaʊ.ə(ɹ)/',
+    ipa_us: '/ˈʃaʊ.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that sends down water for washing",
+              "th": "ฝักบัว"
+        }
+  ],
+    antonyms: ["bath","sink"],
+    examples:   [
+        "I'm going to take a shower before bed.",
+        "The shower was hot and relaxing after the long day.",
+        "She installed a new shower head in her bathroom."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'article',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɑːtɪkəl/',
+    ipa_us: '/ˈɑːtɪkəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of writing, especially in a newspaper or magazine",
+              "th": "บทความ"
+        }
+  ],
+    antonyms: ["book","report"],
+    examples:   [
+        "The article in the newspaper was very interesting.",
+        "She wrote an article about her trip to Europe.",
+        "The article was published in a scientific journal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'meeting',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmiːtɪŋ/',
+    ipa_us: '/ˈmiːtɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an event where people come together to discuss something",
+              "th": "การประชุม"
+        }
+  ],
+    antonyms: ["gathering","party"],
+    examples:   [
+        "The meeting will start at 2 o'clock.",
+        "She attended a meeting with her colleagues.",
+        "The meeting was cancelled due to the weather."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'straight',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/stɹeɪt/',
+    ipa_us: '/stɹeɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not curved or bent",
+              "th": "ตรง"
+        }
+  ],
+    antonyms: ["curved","bent"],
+    examples:   [
+        "The road was straight and flat.",
+        "She has straight hair, not curly.",
+        "The line was straight, not wavy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fish',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/fɪʃ/',
+    ipa_us: '/fɪʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a living thing that lives in water and has gills",
+              "th": "ปลา"
+        }
+  ],
+    antonyms: ["mammal","bird"],
+    examples:   [
+        "The fish swam in the aquarium.",
+        "She ate fish for dinner last night.",
+        "He went fishing in the lake."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'delicious',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈlɪʃəs/',
+    ipa_us: '/dɪˈlɪʃəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very tasty and enjoyable to eat",
+              "th": "อร่อย"
+        }
+  ],
+    antonyms: ["tasteless","bitter"],
+    examples:   [
+        "The cake was delicious, I had two slices.",
+        "She thought the restaurant served delicious food.",
+        "The fruit was delicious and juicy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spell',
+    level: 'A1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/spɛl/',
+    ipa_us: '/spɛl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to say or write the letters of a word in the correct order",
+              "th": "สะกด"
+        }
+  ],
+    antonyms: ["misspell","forget"],
+    examples:   [
+        "Can you spell your name for me?",
+        "The word is hard to spell, it has many letters.",
+        "She learned to spell in elementary school."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tube',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tjuːb/',
+    ipa_us: '/tjuːb/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, hollow pipe, especially one used for transportation",
+              "th": "ท่อ"
+        }
+  ],
+    antonyms: ["pipe","hose"],
+    examples:   [
+        "The toothpaste came out of the tube.",
+        "The London Tube is a famous subway system.",
+        "The bike tire had a hole in the tube."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'job',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/d͡ʒɒb/',
+    ipa_us: '/d͡ʒɒb/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a regular activity or work that someone does to earn money",
+              "th": "งาน"
+        }
+  ],
+    antonyms: ["hobby","leisure"],
+    examples:   [
+        "I have a job interview tomorrow.",
+        "She loves her job as a teacher.",
+        "He's been looking for a job for months."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'about',
+    level: 'A1',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/əˈbɛʊt/',
+    ipa_us: '/əˈbɛʊt/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "on the subject of, or concerning",
+              "th": "เกี่ยวกับ"
+        }
+  ],
+    antonyms: ["without","excluding"],
+    examples:   [
+        "The book is about a young girl who travels.",
+        "I'm worried about the weather tomorrow.",
+        "She talked about her favorite food."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lot',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/lɒt/',
+    ipa_us: '/lɒt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large amount or quantity of something",
+              "th": "จำนวนมาก"
+        }
+  ],
+    antonyms: ["little","few"],
+    examples:   [
+        "I have a lot of work to do today.",
+        "She ate a lot of food at the party.",
+        "There's a lot of traffic on the road."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'star',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/stɑː(ɹ)/',
+    ipa_us: '/stɑː(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a massive, luminous ball of gas that is held together by its own gravity",
+              "th": "ดาว"
+        }
+  ],
+    antonyms: ["planet","moon"],
+    examples:   [
+        "The star shone brightly in the night sky.",
+        "She's a star in the movie industry.",
+        "The football player was a star on the field."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'family',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɛm(ɘ)li/',
+    ipa_us: '/ˈfɛm(ɘ)li/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of people related to each other by birth, marriage, or adoption",
+              "th": "ครอบครัว"
+        }
+  ],
+    antonyms: ["friends","strangers"],
+    examples:   [
+        "I'm going to visit my family for the holidays.",
+        "She comes from a big family with many siblings.",
+        "The family went on a trip to the beach together."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
