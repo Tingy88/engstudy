@@ -10115,6 +10115,446 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'muse',
+    level: 'B2',
+    partOfSpeech: ["noun","verb [T]"],
+    ipa_uk: '/mjuːz/',
+    ipa_us: '/mjuːz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person, especially a woman, who inspires a particular artist or writer",
+              "th": "คนหรือสิ่งที่สร้างแรงบันดาลใจให้กับศิลปินหรือนักเขียน"
+        },
+        {
+              "pos": "verb [T]",
+              "en": "to think carefully and thoroughly about something",
+              "th": "คิดอย่างรอบคอบและลึกซึ้งเกี่ยวกับเรื่องใดเรื่องหนึ่ง"
+        }
+  ],
+    antonyms: ["distract","ignore"],
+    examples:   [
+        "The beautiful scenery was a muse for the young painter.",
+        "She likes to muse about life and its meaning.",
+        "The poet's muse was his beloved wife."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spectacle',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈspɛktəkl̩/',
+    ipa_us: '/ˈspɛktəkl̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an unusual or impressive sight",
+              "th": "สิ่งที่มองเห็นได้ซึ่งไม่ธรรมดาหรือทำให้ประทับใจ"
+        }
+  ],
+    antonyms: ["normality","ordinariness"],
+    examples:   [
+        "The fireworks display was a spectacle that amazed the crowd.",
+        "The city's skyline is a spectacle at sunset.",
+        "The parade was a spectacle of music, dance, and colorful costumes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'interpretation',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪntəpɹəˈteɪʃən/',
+    ipa_us: '/ɪntəpɹəˈteɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act or process of explaining the meaning of something",
+              "th": "การกระทำหรือกระบวนการอธิบายความหมายของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["misinterpretation","confusion"],
+    examples:   [
+        "The interpretation of the poem's meaning varied among the readers.",
+        "The art critic's interpretation of the painting was insightful.",
+        "The court's interpretation of the law was controversial."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'undoubtedly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ʌnˈdaʊtɪdli/',
+    ipa_us: '/ʌnˈdaʊtɪdli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "without any doubt",
+              "th": "โดยไม่มีข้อสงสัย"
+        }
+  ],
+    antonyms: ["doubtfully","questionably"],
+    examples:   [
+        "She is undoubtedly the most talented singer in the competition.",
+        "He will undoubtedly succeed in his new business venture.",
+        "The new policy will undoubtedly improve the company's efficiency."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'snap',
+    level: 'B2',
+    partOfSpeech: ["verb [I/T]","noun"],
+    ipa_uk: '/snæp/',
+    ipa_us: '/snæp/',
+    meanings:   [
+        {
+              "pos": "verb [I/T]",
+              "en": "to break or cause something to break suddenly",
+              "th": "แตกหรือทำให้สิ่งใดสิ่งหนึ่งแตกอย่าง突然"
+        },
+        {
+              "pos": "noun",
+              "en": "a sudden, sharp noise",
+              "th": "เสียงที่ดังและชัดเจน"
+        }
+  ],
+    antonyms: ["attach","fasten"],
+    examples:   [
+        "The twig snapped in two when I bent it.",
+        "She snapped a photo of the beautiful scenery.",
+        "The firework snapped loudly in the night sky."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thrilling',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈθɹɪlɪŋ/',
+    ipa_us: '/ˈθɹɪlɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "extremely exciting or enjoyable",
+              "th": "น่าตื่นเต้นหรือสนุกสนานอย่างมาก"
+        }
+  ],
+    antonyms: ["boring","dull"],
+    examples:   [
+        "The thrilling rollercoaster ride was the highlight of the day.",
+        "The movie was so thrilling that I watched it twice.",
+        "The thrilling music made me want to dance all night."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'affectionately',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈfɛkʃənətli/',
+    ipa_us: '/əˈfɛkʃənətli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a loving or fond manner",
+              "th": "ด้วยความรักหรือความเอาใจใส่"
+        }
+  ],
+    antonyms: ["coldly","distantly"],
+    examples:   [
+        "She spoke affectionately about her childhood memories.",
+        "He looked at his wife affectionately and smiled.",
+        "The old couple held hands affectionately as they walked."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'delicately',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈdɛlɪkətli/',
+    ipa_us: '/ˈdɛlɪkətli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a careful and subtle manner",
+              "th": "ด้วยความระมัดระวังและอ่อนไหว"
+        }
+  ],
+    antonyms: ["roughly","coarsely"],
+    examples:   [
+        "The surgeon operated delicately to avoid damaging the surrounding tissue.",
+        "She handled the fragile vase delicately to avoid breaking it.",
+        "The artist painted the flowers delicately to capture their beauty."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cone',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəʊn/',
+    ipa_us: '/kəʊn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a shape that is narrow at the top and wider at the bottom",
+              "th": "รูปทรงที่แคบด้านบนและกว้างด้านล่าง"
+        }
+  ],
+    antonyms: ["cylinder","sphere"],
+    examples:   [
+        "The ice cream cone was filled with her favorite flavor.",
+        "The volcano's shape was like a cone.",
+        "The traffic cone was used to divert the traffic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'veteran',
+    level: 'B2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '[ˈvɛ.t̬ə.ɹən]',
+    ipa_us: '[ˈvɛ.t̬ə.ɹən]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who has a lot of experience in a particular field or activity",
+              "th": "บุคคลที่มีประสบการณ์มากมายในด้านใดด้านหนึ่งหรือกิจกรรมใดกิจกรรมหนึ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "having a lot of experience in a particular field or activity",
+              "th": "มีประสบการณ์มากมายในด้านใดด้านหนึ่งหรือกิจกรรมใดกิจกรรมหนึ่ง"
+        }
+  ],
+    antonyms: ["novice","amateur"],
+    examples:   [
+        "The veteran actor had been in the industry for over 30 years.",
+        "She is a veteran of the marketing world.",
+        "The veteran soldier was honored for his bravery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bartender',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbɑːˌtɛndə(ɹ)/',
+    ipa_us: '/ˈbɑːˌtɛndə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who serves drinks in a bar or pub",
+              "th": "บุคคลที่เสิร์ฟเครื่องดื่มในบาร์หรือผับ"
+        }
+  ],
+    antonyms: ["customer","patron"],
+    examples:   [
+        "The bartender was friendly and made great cocktails.",
+        "She worked as a bartender to pay for her college tuition.",
+        "The bartender was skilled at making intricate designs on the drinks."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'transitive',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtɹænzɪtɪv/',
+    ipa_us: '/ˈtɹænzɪtɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "(of a verb) taking an object",
+              "th": "(ของกริยา) ที่มีกรรม"
+        }
+  ],
+    antonyms: ["intransitive","passive"],
+    examples:   [
+        "The verb 'eat' is transitive because it takes an object, such as 'food'.",
+        "The sentence 'She wrote a letter' contains a transitive verb.",
+        "The verb 'throw' is transitive because it requires a direct object."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'underwear',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈʌndəwɛə/',
+    ipa_us: '/ˈʌndəwɛə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "clothes worn next to the skin under other clothes",
+              "th": "เสื้อผ้าที่สวมใส่ใกล้กับผิวหนังใต้เสื้อผ้าอื่น"
+        }
+  ],
+    antonyms: ["outerwear","overclothes"],
+    examples:   [
+        "She bought a new set of underwear to match her favorite dress.",
+        "He forgot to pack underwear for the trip.",
+        "The store sold a variety of underwear for men and women."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'that',
+    level: 'B2',
+    partOfSpeech: ["pronoun","adverb","conjunction"],
+    ipa_uk: '/ˈðæt/',
+    ipa_us: '/ˈðæt/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to indicate a person, thing, or idea previously mentioned",
+              "th": "ใช้เพื่อแสดงถึงบุคคล สิ่ง หรือความคิดที่กล่าวถึงก่อนหน้านี้"
+        },
+        {
+              "pos": "adverb",
+              "en": "to a certain extent or degree",
+              "th": "ในระดับหรือปริมาณที่แน่นอน"
+        },
+        {
+              "pos": "conjunction",
+              "en": "used to introduce a subordinate clause",
+              "th": "ใช้เพื่อนำ предложี ย่อย"
+        }
+  ],
+    antonyms: ["this","these"],
+    examples:   [
+        "I like that book, can I borrow it?",
+        "That is the best restaurant in town.",
+        "I'm going to the store, and that is where I'll meet you."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hint',
+    level: 'B2',
+    partOfSpeech: ["noun","verb [T]"],
+    ipa_uk: '/hɪnt/',
+    ipa_us: '/hɪnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a slight or indirect suggestion",
+              "th": "คำแนะนำที่ไม่ชัดเจนหรือไม่ตรงไปตรงมา"
+        },
+        {
+              "pos": "verb [T]",
+              "en": "to give a slight or indirect suggestion",
+              "th": "ให้คำแนะนำที่ไม่ชัดเจนหรือไม่ตรงไปตรงมา"
+        }
+  ],
+    antonyms: ["declare","state"],
+    examples:   [
+        "She gave me a hint about the surprise party.",
+        "The teacher hinted that the exam would be difficult.",
+        "The detective tried to hint to the suspect that they knew more than they were letting on."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'furious',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfjʊə.ɹɪəs/',
+    ipa_us: '/ˈfjʊə.ɹɪəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "extremely angry",
+              "th": "โกรธมาก"
+        }
+  ],
+    antonyms: ["calm","peaceful"],
+    examples:   [
+        "The furious driver honked his horn at the slow traffic.",
+        "She was furious when she found out about the betrayal.",
+        "The furious storm destroyed several houses in the neighborhood."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ethnic',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɛθ.nɪk/',
+    ipa_us: '/ˈɛθ.nɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to a particular group of people who share a common culture, language, or nationality",
+              "th": "เกี่ยวข้องกับกลุ่มคนใดกลุ่มหนึ่งที่มีวัฒนธรรม ภาษา หรือสัญชาติเดียวกัน"
+        }
+  ],
+    antonyms: ["national","cultural"],
+    examples:   [
+        "The ethnic diversity of the city is reflected in its cuisine.",
+        "The ethnic minority group faced discrimination and prejudice.",
+        "The festival celebrated the ethnic heritage of the community."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'foul',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun","verb [T]"],
+    ipa_uk: '/faʊl/',
+    ipa_us: '/faʊl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unpleasant or disgusting",
+              "th": "ไม่น่าดูหรือไม่น่ารับประทาน"
+        },
+        {
+              "pos": "noun",
+              "en": "a breach of the rules in a game or sport",
+              "th": "การละเมิดกฎในเกมหรือกีฬา"
+        },
+        {
+              "pos": "verb [T]",
+              "en": "to commit a foul in a game or sport",
+              "th": "ทำผิดกฎในเกมหรือกีฬา"
+        }
+  ],
+    antonyms: ["fair","clean"],
+    examples:   [
+        "The foul smell from the garbage made me nauseous.",
+        "The referee called a foul on the player for tripping.",
+        "The company was fined for its foul practices."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'impartial',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪmˈpɑɹ.ʃəl/',
+    ipa_us: '/ɪmˈpɑɹ.ʃəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not taking sides or showing bias",
+              "th": "ไม่เข้าข้างหรือแสดงความลำเอียง"
+        }
+  ],
+    antonyms: ["biased","partial"],
+    examples:   [
+        "The judge tried to remain impartial during the trial.",
+        "The impartial observer reported the facts without opinion.",
+        "The impartial jury delivered a verdict based on the evidence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
