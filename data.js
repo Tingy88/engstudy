@@ -9800,6 +9800,321 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'behest',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/biˈhɛst/',
+    ipa_us: '/biˈhɛst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal or authoritative order or request",
+              "th": "คำสั่งหรือคำขออย่างเป็นทางการ"
+        }
+  ],
+    antonyms: ["refusal","rejection"],
+    examples:   [
+        "The king acted at the behest of his advisors.",
+        "She did it at his behest, not because she wanted to.",
+        "The company made the decision at the behest of its shareholders."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'depraved',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈpɹeɪvd/',
+    ipa_us: '/dɪˈpɹeɪvd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "morally corrupt or wicked",
+              "th": "เสื่อมเสียหรือชั่วร้ายทางศีลธรรม"
+        }
+  ],
+    antonyms: ["virtuous","moral"],
+    examples:   [
+        "The depraved actions of the criminal shocked the community.",
+        "He was known for his depraved sense of humor.",
+        "The depraved conditions in the prison were inhumane."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'amorphous',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈmɔɹfəs/',
+    ipa_us: '/əˈmɔɹfəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lacking a clear or definite shape or form",
+              "th": "ไม่มีรูปร่างหรือรูปแบบที่ชัดเจน"
+        }
+  ],
+    antonyms: ["defined","structured"],
+    examples:   [
+        "The amorphous mass of cells grew rapidly.",
+        "The company's amorphous organizational structure made it hard to navigate.",
+        "The amorphous nature of the cloud made it difficult to predict its behavior."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'remorseful',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɪˈmɔː(ɹ)sfʊl/',
+    ipa_us: '/ɹɪˈmɔː(ɹ)sfʊl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing regret or guilt for something",
+              "th": "รู้สึกหรือแสดงความเสียใจหรือความผิดสำหรับบางสิ่ง"
+        }
+  ],
+    antonyms: ["unrepentant","unremorseful"],
+    examples:   [
+        "He was remorseful for his actions and apologized to the victim.",
+        "She felt remorseful for not visiting her grandmother more often.",
+        "The remorseful expression on his face showed that he was truly sorry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exalted',
+    level: 'C2',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/ɪɡˈzɔːltɪd/',
+    ipa_us: '/ɪɡˈzɔːltɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very great or impressive",
+              "th": "ยิ่งใหญ่หรือน่าประทับใจมาก"
+        },
+        {
+              "pos": "verb",
+              "en": "to raise or elevate something or someone to a higher position or status",
+              "th": "ยกหรือเลื่อนตำแหน่งบางสิ่งหรือบางคนไปสู่ตำแหน่งหรือสถานะที่สูงกว่า"
+        }
+  ],
+    antonyms: ["humble","lowly"],
+    examples:   [
+        "The exalted position of the CEO came with a lot of responsibility.",
+        "The exalted language used in the poem made it hard to understand.",
+        "The exalted status of the artist was reflected in the high price of his paintings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rebuke',
+    level: 'C2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɹiˈbjuːk/',
+    ipa_us: '/ɹiˈbjuːk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to criticize or scold someone for something",
+              "th": "วิพากษ์วิจารณ์หรือต่อว่าบางคนสำหรับบางสิ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a criticism or scolding",
+              "th": "คำวิพากษ์วิจารณ์หรือคำต่อว่า"
+        }
+  ],
+    antonyms: ["praise","commend"],
+    examples:   [
+        "The teacher rebuked the student for talking out of turn.",
+        "The rebuke from the boss was harsh but fair.",
+        "The company issued a public rebuke to the employee for his actions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'assimilation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˌsɪməˈleɪʃən/',
+    ipa_us: '/əˌsɪməˈleɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of becoming similar to something or someone else",
+              "th": "กระบวนการของการกลายเป็นเหมือนกับบางสิ่งหรือบางคน"
+        }
+  ],
+    antonyms: ["differentiation","separation"],
+    examples:   [
+        "The assimilation of the new employee into the company culture took time.",
+        "The assimilation of the immigrant community into the host country was a slow process.",
+        "The assimilation of the new technology into the existing system was seamless."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mariner',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmæɹɪnə/',
+    ipa_us: '/ˈmæɹɪnə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who works on a ship, especially a sailor",
+              "th": "คนงานบนเรือ โดยเฉพาะนักเดินเรือ"
+        }
+  ],
+    antonyms: ["landlubber","inlander"],
+    examples:   [
+        "The mariner had spent his entire life at sea.",
+        "The mariner's skills were essential for navigating the treacherous waters.",
+        "The mariner's tale of adventure and bravery inspired the young boy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'consternation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkɒn.stəˈneɪ.ʃən/',
+    ipa_us: '/ˌkɒn.stəˈneɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of shock, amazement, or dismay",
+              "th": "ความรู้สึกของความตกใจ ความประหลาดใจ หรือความเสียใจ"
+        }
+  ],
+    antonyms: ["delight","pleasure"],
+    examples:   [
+        "The news of the natural disaster caused consternation around the world.",
+        "The consternation on her face was evident when she heard the bad news.",
+        "The consternation among the investors was palpable when the stock market crashed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'articulate',
+    level: 'C2',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/ɑː(ɹ)ˈtɪk.jʊ.lət/',
+    ipa_us: '/ɑː(ɹ)ˈtɪk.jʊ.lət/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a clear and effective way of expressing thoughts or ideas",
+              "th": "มีวิธีการแสดงความคิดหรือความคิดเห็นที่ชัดเจนและมีประสิทธิภาพ"
+        },
+        {
+              "pos": "verb",
+              "en": "to express or formulate a thought or idea clearly",
+              "th": "แสดงหรือสร้างความคิดหรือความคิดเห็นอย่างชัดเจน"
+        }
+  ],
+    antonyms: ["inarticulate","mute"],
+    examples:   [
+        "The articulate speaker was able to convey her message effectively.",
+        "He was articulate about his feelings and was able to express them clearly.",
+        "The articulate writing style of the author made the complex topic easy to understand."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ruminant',
+    level: 'C2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈɹuːmɪnənt/',
+    ipa_us: '/ˈɹuːmɪnənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "eating and digesting plant-based food, especially grasses and other tough vegetation",
+              "th": "กินและย่อยอาหารที่มาจากพืช โดยเฉพาะหญ้าและพืชที่มีความทนทานอื่นๆ"
+        },
+        {
+              "pos": "noun",
+              "en": "an animal that eats and digests plant-based food, especially grasses and other tough vegetation",
+              "th": "สัตว์ที่กินและย่อยอาหารที่มาจากพืช โดยเฉพาะหญ้าและพืชที่มีความทนทานอื่นๆ"
+        }
+  ],
+    antonyms: ["carnivorous","omnivorous"],
+    examples:   [
+        "Cows are ruminant animals and have a four-chambered stomach.",
+        "The ruminant nature of the deer allowed it to survive on a diet of twigs and leaves.",
+        "The ruminant digestive system of the goat was adapted to break down cellulose in plant cell walls."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spontaneity',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈspɒn.tə.neɪ.ə.ti/',
+    ipa_us: '/ˈspɒn.tə.neɪ.ə.ti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being spontaneous or happening without prior planning",
+              "th": "คุณสมบัติของการเกิดขึ้นโดยไม่ได้มีการวางแผนล่วงหน้า"
+        }
+  ],
+    antonyms: ["premeditation","deliberation"],
+    examples:   [
+        "The spontaneity of the moment made it unforgettable.",
+        "The spontaneity of the child's laughter was infectious.",
+        "The spontaneity of the improvisational performance was impressive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vestigial',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/vɛˈstɪdʒəl/',
+    ipa_us: '/vɛˈstɪdʒəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "remaining or surviving from an earlier time or stage of development",
+              "th": "ยังคงอยู่หรือรอดจากช่วงเวลาก่อนหน้าหรือระยะการพัฒนา"
+        }
+  ],
+    antonyms: ["modern","contemporary"],
+    examples:   [
+        "The vestigial tailbone in humans is a remnant of our evolutionary past.",
+        "The vestigial remains of the ancient civilization were discovered in the desert.",
+        "The vestigial language of the indigenous people was still spoken by a few elders."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'facsimile',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/fækˈsɪm.ə.li/',
+    ipa_us: '/fækˈsɪm.ə.li/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an exact copy or reproduction of something",
+              "th": "สำเนาที่ถูกต้องหรือการทำซ้ำของบางสิ่ง"
+        }
+  ],
+    antonyms: ["original","genuine"],
+    examples:   [
+        "The facsimile of the ancient manuscript was used for study purposes.",
+        "The facsimile of the famous painting was almost indistinguishable from the real thing.",
+        "The company produced a facsimile of the popular toy, but it was not as well-made."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
