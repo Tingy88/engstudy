@@ -9385,6 +9385,421 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'attraction',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˈtɹækʃən/',
+    ipa_us: '/əˈtɹækʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person or thing that attracts",
+              "th": "สิ่งดึงดูด"
+        }
+  ],
+    antonyms: ["repulsion","aversion"],
+    examples:   [
+        "The city's main attraction is its beautiful park.",
+        "She was a major attraction at the party.",
+        "The museum's new exhibit is a big attraction for tourists."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'frustrated',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/fɹəsˈtɹeɪt.ɪd/',
+    ipa_us: '/fɹəsˈtɹeɪt.ɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing annoyance or disappointment",
+              "th": "รู้สึกหรือแสดงออกถึงความไม่พอใจหรือความผิดหวัง"
+        }
+  ],
+    antonyms: ["satisfied","content"],
+    examples:   [
+        "I feel frustrated when I'm stuck in traffic.",
+        "She was frustrated with her job and decided to quit.",
+        "He felt frustrated because he couldn't solve the puzzle."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prejudice',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɛd͡ʒədɪs/',
+    ipa_us: '/ˈpɹɛd͡ʒədɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an unfair and unreasonable opinion or feeling, especially one that is based on race, sex, or religion",
+              "th": "ความคิดเห็นที่ไม่ยุติธรรมและไม่มีเหตุผล"
+        }
+  ],
+    antonyms: ["tolerance","acceptance"],
+    examples:   [
+        "The company has a policy against prejudice in the workplace.",
+        "She tried to overcome her prejudice against people from different cultures.",
+        "The media can perpetuate prejudice and stereotypes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relative',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '[ˈɹɛl.ə.tʰɪv]',
+    ipa_us: '[ˈɹɛl.ə.tʰɪv]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is connected to someone else by blood or marriage",
+              "th": "บุคคลที่เกี่ยวข้องกับบุคคลอื่นโดยความสัมพันธ์ทางเลือดหรือการสมรส"
+        },
+        {
+              "pos": "adjective",
+              "en": "connected or related to something else",
+              "th": "เกี่ยวข้องกับหรือเชื่อมโยงกับสิ่งอื่น"
+        }
+  ],
+    antonyms: ["unrelated","absolute"],
+    examples:   [
+        "My relative is visiting from out of town.",
+        "The relative importance of the issues is often debated.",
+        "The two companies are relative newcomers to the market."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gallon',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɡælən/',
+    ipa_us: '/ˈɡælən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a unit of measurement for liquids, equal to about 3.8 liters",
+              "th": "หน่วยวัดของเหลวเท่ากับประมาณ 3.8 ลิตร"
+        }
+  ],
+    antonyms: ["milliliter","ounce"],
+    examples:   [
+        "The car's gas tank holds about 15 gallons of fuel.",
+        "The water bottle can hold a gallon of water.",
+        "The recipe calls for a gallon of milk."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discomfort',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪsˈkʌmfət/',
+    ipa_us: '/dɪsˈkʌmfət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of being uncomfortable or uneasy",
+              "th": "ความรู้สึกไม่สบายหรือไม่สบายใจ"
+        }
+  ],
+    antonyms: ["comfort","relief"],
+    examples:   [
+        "The patient experienced discomfort after the surgery.",
+        "The new shoes caused her discomfort and blisters.",
+        "The noise in the room caused me discomfort and made it hard to focus."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'origin',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɒɹ.ə.dʒən/',
+    ipa_us: '/ˈɒɹ.ə.dʒən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the point or place where something begins or is created",
+              "th": "จุดหรือสถานที่ที่สิ่งใดสิ่งหนึ่งเริ่มต้นหรือถูกสร้างขึ้น"
+        }
+  ],
+    antonyms: ["destination","ending"],
+    examples:   [
+        "The origin of the species is still a topic of debate.",
+        "The company's origin dates back to the 19th century.",
+        "The origin of the word is unclear, but it is thought to have come from Latin."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sidewalk',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsaɪdwɔːk/',
+    ipa_us: '/ˈsaɪdwɔːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a path for pedestrians at the side of a road",
+              "th": "ทางเดินสำหรับคนเดินอยู่ด้านข้างถนน"
+        }
+  ],
+    antonyms: ["highway","roadway"],
+    examples:   [
+        "The city is improving the sidewalks to make them more accessible.",
+        "The sidewalk was crowded with people walking to work.",
+        "The vendor was selling food on the sidewalk."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lorry',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlɒɹi/',
+    ipa_us: '/ˈlɒɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large vehicle for carrying goods, especially one with a flat bed and no roof",
+              "th": "ยานพาหนะขนาดใหญ่สำหรับขนส่งสินค้า"
+        }
+  ],
+    antonyms: ["car","motorcycle"],
+    examples:   [
+        "The lorry was parked on the side of the road.",
+        "The company uses lorries to transport goods across the country.",
+        "The lorry driver was tired after driving all night."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'paid',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈpeɪd/',
+    ipa_us: '/ˈpeɪd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give someone money for something",
+              "th": "จ่ายเงินให้ใครสักคนสำหรับสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["unpaid","owed"],
+    examples:   [
+        "I paid the bill with my credit card.",
+        "She paid the taxi driver and got out of the cab.",
+        "The company paid its employees a bonus at the end of the year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'souvenir',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌsuːvəˈnɪə(ɹ)/',
+    ipa_us: '/ˌsuːvəˈnɪə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a thing that you buy or keep to remind you of a holiday or a special place",
+              "th": "สิ่งที่คุณซื้อหรือเก็บไว้เพื่อระลึกถึงวันหยุดหรือสถานที่พิเศษ"
+        }
+  ],
+    antonyms: ["heirloom","keepsake"],
+    examples:   [
+        "I bought a souvenir t-shirt at the beach.",
+        "The souvenir shop was filled with all sorts of trinkets and mementos.",
+        "The souvenir from my trip to Paris is a beautiful painting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enthusiastic',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˌθjuːzɪˈæstɪk/',
+    ipa_us: '/ɪnˌθjuːzɪˈæstɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing a lot of excitement and interest",
+              "th": "รู้สึกหรือแสดงออกถึงความตื่นเต้นและความสนใจ"
+        }
+  ],
+    antonyms: ["apathetic","unenthusiastic"],
+    examples:   [
+        "The enthusiastic crowd cheered on their favorite team.",
+        "She was enthusiastic about her new job and was eager to start.",
+        "The enthusiastic teacher made the lesson fun and engaging."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unwell',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈwɛl/',
+    ipa_us: '/ʌnˈwɛl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not in good health",
+              "th": "ไม่สบาย"
+        }
+  ],
+    antonyms: ["well","healthy"],
+    examples:   [
+        "I'm feeling unwell and need to stay in bed.",
+        "She was unwell and couldn't attend the meeting.",
+        "The patient was unwell and required immediate medical attention."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'resemble',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹɪˈzɛmb(ə)l/',
+    ipa_us: '/ɹɪˈzɛmb(ə)l/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to look or seem like someone or something else",
+              "th": "มีลักษณะหรือดูเหมือนกับคนหรือสิ่งอื่น"
+        }
+  ],
+    antonyms: ["differ","contrast"],
+    examples:   [
+        "The twins resemble each other closely.",
+        "The new policy resembles the one that was introduced last year.",
+        "The painting resembles a photograph in its level of detail."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tragic',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtɹædʒɪk/',
+    ipa_us: '/ˈtɹædʒɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "causing or characterized by great sadness or suffering",
+              "th": "ทำให้เกิดหรือมีลักษณะของความเสียใจหรือทุกข์ทรมานอย่างมาก"
+        }
+  ],
+    antonyms: ["happy","fortunate"],
+    examples:   [
+        "The tragic accident resulted in the loss of many lives.",
+        "The tragic story of the hero's downfall was told in the play.",
+        "The tragic event had a profound impact on the community."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'isle',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/aɪ̯l/',
+    ipa_us: '/aɪ̯l/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small island",
+              "th": "เกาะเล็ก"
+        }
+  ],
+    antonyms: ["continent","mainland"],
+    examples:   [
+        "The isle was a popular destination for honeymooners.",
+        "The isle of Skye is known for its rugged landscape and picturesque villages.",
+        "The isle was surrounded by crystal-clear waters and coral reefs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tie',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/taɪ/',
+    ipa_us: '/taɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, narrow piece of cloth worn around the neck",
+              "th": "ผ้าผืนยาวและแคบที่สวมรอบคอ"
+        },
+        {
+              "pos": "verb",
+              "en": "to fasten or connect something with a string or cord",
+              "th": "มัดหรือเชื่อมสิ่งใดสิ่งหนึ่งด้วยเชือกหรือเส้นด้าย"
+        }
+  ],
+    antonyms: ["untie","loosen"],
+    examples:   [
+        "I need to tie my shoelaces before I go for a run.",
+        "The tie was a gift from my grandmother.",
+        "The two teams were tied at the end of the game, so they had to play overtime."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'main',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/meɪn/',
+    ipa_us: '/meɪn/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "most important or principal",
+              "th": "สำคัญที่สุดหรือหลัก"
+        }
+  ],
+    antonyms: ["secondary","minor"],
+    examples:   [
+        "The main reason for my trip was to visit my family.",
+        "The main course was a delicious steak with roasted vegetables.",
+        "The main street of the town was lined with shops and restaurants."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'feast',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/fiːst/',
+    ipa_us: '/fiːst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large and special meal, often to celebrate a particular occasion",
+              "th": "อาหารที่ใหญ่และพิเศษ บ่อยครั้งเพื่อเฉลิมฉลองในโอกาสพิเศษ"
+        },
+        {
+              "pos": "verb",
+              "en": "to eat a large and enjoyable meal",
+              "th": "รับประทานอาหารที่ใหญ่และน่าพึงพอใจ"
+        }
+  ],
+    antonyms: ["fast","abstain"],
+    examples:   [
+        "The family gathered for a feast on Thanksgiving Day.",
+        "The couple decided to feast on their favorite foods on their anniversary.",
+        "The king and his guests feasted on roasted meats and sweet pastries."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
