@@ -10850,6 +10850,571 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'leisure',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈliːʒə(ɹ)/',
+    ipa_us: '/ˈliːʒə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "time when you are not working or doing anything you have to do",
+              "th": "เวลาว่าง"
+        }
+  ],
+    antonyms: ["work","busy"],
+    examples:   [
+        "I love spending my leisure time playing sports.",
+        "She uses her leisure time to read books and watch movies.",
+        "He prefers to spend his leisure time traveling to new places."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'repair',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɹɪˈpɛə/',
+    ipa_us: '/ɹɪˈpɛə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to fix something that is broken or damaged",
+              "th": "ซ่อม"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of fixing something",
+              "th": "การซ่อม"
+        }
+  ],
+    antonyms: ["break","damage"],
+    examples:   [
+        "The mechanic will repair the car tomorrow.",
+        "The company will repair the road next month.",
+        "She needs to repair her bike before she can ride it again."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'one',
+    level: 'A2',
+    partOfSpeech: ["number","pronoun"],
+    ipa_uk: '/wan/',
+    ipa_us: '/wan/',
+    meanings:   [
+        {
+              "pos": "number",
+              "en": "the number 1",
+              "th": "หนึ่ง"
+        },
+        {
+              "pos": "pronoun",
+              "en": "used to refer to a single person or thing",
+              "th": "คนหรือสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["many","none"],
+    examples:   [
+        "I have one book in my bag.",
+        "One of my friends is coming over tonight.",
+        "This is one of the best restaurants in town."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dream',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɹiːm/',
+    ipa_us: '/dɹiːm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to have a series of images or thoughts in your mind while you are sleeping",
+              "th": "ฝัน"
+        },
+        {
+              "pos": "noun",
+              "en": "a series of images or thoughts in your mind while you are sleeping",
+              "th": "ความฝัน"
+        }
+  ],
+    antonyms: ["reality","wakefulness"],
+    examples:   [
+        "I dreamt about flying last night.",
+        "Her dream is to become a famous actress.",
+        "He dreams of traveling the world one day."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'senior',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈsiːnjə(r)/',
+    ipa_us: '/ˈsiːnjə(r)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "older or more experienced",
+              "th": "อาวุโส"
+        },
+        {
+              "pos": "noun",
+              "en": "a person who is older or more experienced",
+              "th": "ผู้อาวุโส"
+        }
+  ],
+    antonyms: ["junior","younger"],
+    examples:   [
+        "The senior manager will make the final decision.",
+        "She is a senior student at the university.",
+        "The senior citizens' club meets every Thursday."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'secretary',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɛk.ɹə.tɹi/',
+    ipa_us: '/ˈsɛk.ɹə.tɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who works in an office, typing letters and answering phone calls",
+              "th": "เลขานุการ"
+        }
+  ],
+    antonyms: ["boss","manager"],
+    examples:   [
+        "The secretary will take notes during the meeting.",
+        "She is the secretary of the company.",
+        "The secretary will answer your questions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'explanation',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌɛkspləˈneɪʃən/',
+    ipa_us: '/ˌɛkspləˈneɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement that explains something",
+              "th": "คำอธิบาย"
+        }
+  ],
+    antonyms: ["question","confusion"],
+    examples:   [
+        "The teacher gave a clear explanation of the lesson.",
+        "I didn't understand the explanation of the math problem.",
+        "The company will provide an explanation for the delay."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hike',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/haɪk/',
+    ipa_us: '/haɪk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to walk in the countryside, especially in mountains or woods",
+              "th": "เดินป่า"
+        },
+        {
+              "pos": "noun",
+              "en": "a long walk in the countryside",
+              "th": "การเดินป่า"
+        }
+  ],
+    antonyms: ["descend","rest"],
+    examples:   [
+        "We will hike to the top of the mountain tomorrow.",
+        "The hike was more difficult than I expected.",
+        "She loves to hike in the woods on the weekends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'familiar',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/fəˈmɪl.i.ə/',
+    ipa_us: '/fəˈmɪl.i.ə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "known or recognized",
+              "th": "คุ้นเคย"
+        }
+  ],
+    antonyms: ["unfamiliar","strange"],
+    examples:   [
+        "The song is familiar, but I don't know the title.",
+        "She is familiar with the city, having lived there before.",
+        "The smell of freshly baked cookies is familiar and comforting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sunlight',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsʌnˌlaɪt/',
+    ipa_us: '/ˈsʌnˌlaɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the light and warmth that come from the sun",
+              "th": "แสงแดด"
+        }
+  ],
+    antonyms: ["darkness","shade"],
+    examples:   [
+        "The sunlight streaming through the window is beautiful.",
+        "She loves to sit in the sunlight and read a book.",
+        "The sunlight makes the flowers bloom."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mix',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈmɪks/',
+    ipa_us: '/ˈmɪks/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to combine two or more things",
+              "th": "ผสม"
+        },
+        {
+              "pos": "noun",
+              "en": "a combination of two or more things",
+              "th": "ส่วนผสม"
+        }
+  ],
+    antonyms: ["separate","divide"],
+    examples:   [
+        "Can you mix the paint for me?",
+        "The mix of music at the party was great.",
+        "She likes to mix different ingredients to create a new recipe."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shampoo',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ʃamˈpuː/',
+    ipa_us: '/ʃamˈpuː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a liquid soap for washing hair",
+              "th": "แชมพู"
+        },
+        {
+              "pos": "verb",
+              "en": "to wash your hair with shampoo",
+              "th": "ล้างผม"
+        }
+  ],
+    antonyms: ["conditioner","dry"],
+    examples:   [
+        "I need to buy some shampoo for my hair.",
+        "She shampoos her hair every morning.",
+        "The shampoo is gentle and suitable for all hair types."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'produce',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/pɹəˈdjuːs/',
+    ipa_us: '/pɹəˈdjuːs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make or create something",
+              "th": "ผลิต"
+        },
+        {
+              "pos": "noun",
+              "en": "fresh fruit and vegetables",
+              "th": "ผลผลิต"
+        }
+  ],
+    antonyms: ["consume","destroy"],
+    examples:   [
+        "The company will produce a new product next year.",
+        "The farm produces fresh produce every day.",
+        "She loves to produce music and sing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unknown',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ʌnˈnəʊn/',
+    ipa_us: '/ʌnˈnəʊn/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not known or familiar",
+              "th": "ไม่ทราบ"
+        },
+        {
+              "pos": "noun",
+              "en": "a person or thing that is not known",
+              "th": "สิ่งที่ไม่ทราบ"
+        }
+  ],
+    antonyms: ["known","familiar"],
+    examples:   [
+        "The unknown artist became famous overnight.",
+        "The unknown variable in the equation is x.",
+        "She is afraid of the unknown."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'east',
+    level: 'A2',
+    partOfSpeech: ["noun","adverb"],
+    ipa_uk: '/iːst/',
+    ipa_us: '/iːst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the direction of the rising sun",
+              "th": "ทิศตะวันออก"
+        },
+        {
+              "pos": "adverb",
+              "en": "in or towards the east",
+              "th": "ไปทางทิศตะวันออก"
+        }
+  ],
+    antonyms: ["west","south"],
+    examples:   [
+        "The sun rises in the east.",
+        "The city is located in the east of the country.",
+        "She is traveling east for the summer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'opinion',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˈpɪnjən/',
+    ipa_us: '/əˈpɪnjən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a thought or belief about something",
+              "th": "ความคิดเห็น"
+        }
+  ],
+    antonyms: ["fact","truth"],
+    examples:   [
+        "I have a strong opinion about the new policy.",
+        "Her opinion is different from mine.",
+        "The expert's opinion is highly respected."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'specific',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/spəˈsɪf.ɪk/',
+    ipa_us: '/spəˈsɪf.ɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "clearly and exactly defined or identified",
+              "th": "เฉพาะเจาะจง"
+        }
+  ],
+    antonyms: ["general","vague"],
+    examples:   [
+        "The specific instructions were easy to follow.",
+        "She has a specific goal in mind.",
+        "The company is looking for someone with specific skills."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chart',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/tʃɑːt/',
+    ipa_us: '/tʃɑːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a table or graph that shows information in a clear and simple way",
+              "th": "แผนภูมิ"
+        },
+        {
+              "pos": "verb",
+              "en": "to draw or plan something on a chart",
+              "th": "วาดแผนภูมิ"
+        }
+  ],
+    antonyms: ["guess","estimate"],
+    examples:   [
+        "The chart shows the sales figures for the past year.",
+        "She will chart the course of the ship.",
+        "The doctor will chart the patient's progress."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dentist',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɛntɪst/',
+    ipa_us: '/ˈdɛntɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is trained to care for teeth and gums",
+              "th": "ทันตแพทย์"
+        }
+  ],
+    antonyms: ["patient","nurse"],
+    examples:   [
+        "I need to make an appointment with the dentist.",
+        "The dentist will examine my teeth.",
+        "She wants to be a dentist when she grows up."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fascinating',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfæsɪˌneɪtɪŋ/',
+    ipa_us: '/ˈfæsɪˌneɪtɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very interesting or attractive",
+              "th": "น่าดึงดูด"
+        }
+  ],
+    antonyms: ["boring","uninteresting"],
+    examples:   [
+        "The documentary was fascinating.",
+        "She finds the history of art fascinating.",
+        "The city is fascinating, with its rich culture and architecture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'automatic',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌɔːtəˈmætɪk/',
+    ipa_us: '/ˌɔːtəˈmætɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "working or done without being controlled by someone",
+              "th": "อัตโนมัติ"
+        }
+  ],
+    antonyms: ["manual","controlled"],
+    examples:   [
+        "The automatic door opened by itself.",
+        "The camera has an automatic focus.",
+        "The washing machine is automatic, so you just need to press a button."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'less',
+    level: 'A2',
+    partOfSpeech: ["adverb","determiner"],
+    ipa_uk: '/lɛs/',
+    ipa_us: '/lɛs/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a smaller degree or amount",
+              "th": "น้อยกว่า"
+        },
+        {
+              "pos": "determiner",
+              "en": "not as much or as many",
+              "th": "ไม่มาก"
+        }
+  ],
+    antonyms: ["more","greater"],
+    examples:   [
+        "I have less time than you do.",
+        "She eats less than her brother.",
+        "The new policy will result in less pollution."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'political',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pəˈlɪtɪkəl/',
+    ipa_us: '/pəˈlɪtɪkəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to politics or the government",
+              "th": "การเมือง"
+        }
+  ],
+    antonyms: ["non-political","neutral"],
+    examples:   [
+        "The political situation in the country is unstable.",
+        "She is interested in political science.",
+        "The company tries to stay out of political issues."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'quietly',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈkwaɪ.ɪt.li/',
+    ipa_us: '/ˈkwaɪ.ɪt.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a quiet way, without making much noise",
+              "th": "อย่างเงียบๆ"
+        }
+  ],
+    antonyms: ["loudly","noisily"],
+    examples:   [
+        "She spoke quietly so as not to wake the baby.",
+        "The students worked quietly on their project.",
+        "The cat walked quietly across the floor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
