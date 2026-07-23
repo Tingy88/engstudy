@@ -11415,6 +11415,473 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'intensive',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈtɛnsɪv/',
+    ipa_us: '/ɪnˈtɛnsɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "strong or extreme",
+              "th": "เข้มข้น หรือรุนแรง"
+        }
+  ],
+    antonyms: ["mild","weak"],
+    examples:   [
+        "The intensive training program helped me prepare for the marathon.",
+        "She had an intensive conversation with her friend about the recent news.",
+        "The doctor recommended an intensive course of treatment for the patient."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'launch',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/lɔːnt͡ʃ/',
+    ipa_us: '/lɔːnt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to start something",
+              "th": "เริ่มต้นสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of starting something",
+              "th": "การเริ่มต้นสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["end","stop"],
+    examples:   [
+        "The company will launch a new product next month.",
+        "The spaceship is ready to launch into orbit.",
+        "The event will launch with a grand opening ceremony."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'record',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈɹɛkɔːd/',
+    ipa_us: '/ˈɹɛkɔːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to set down or register something in writing",
+              "th": "บันทึกหรือจดบันทึกสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a document or medium that holds information",
+              "th": "เอกสารหรือสื่อที่บรรจุสารสนเทศ"
+        }
+  ],
+    antonyms: ["erase","delete"],
+    examples:   [
+        "She will record the meeting to review later.",
+        "The athlete set a new record in the 100-meter dash.",
+        "The company keeps a record of all employee salaries."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'intermediate',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪntə(ɹ)ˈmidi.ət/',
+    ipa_us: '/ɪntə(ɹ)ˈmidi.ət/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "at a middle level of difficulty or skill",
+              "th": "อยู่ในระดับกลางของความยากหรือทักษะ"
+        }
+  ],
+    antonyms: ["advanced","beginner"],
+    examples:   [
+        "The intermediate class is designed for students who have some experience.",
+        "The intermediate level of the video game is quite challenging.",
+        "She took an intermediate course in photography to improve her skills."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'impair',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪmˈpɛə/',
+    ipa_us: '/ɪmˈpɛə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to damage or weaken something",
+              "th": "ทำลายหรืออ่อนแอลง"
+        }
+  ],
+    antonyms: ["improve","enhance"],
+    examples:   [
+        "The injury will impair his ability to play sports.",
+        "The new policy may impair the company's reputation.",
+        "The lack of sleep can impair your judgment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sheer',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈʃɪə/',
+    ipa_us: '/ˈʃɪə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very great or extreme",
+              "th": "มากหรือรุนแรง"
+        }
+  ],
+    antonyms: ["mild","moderate"],
+    examples:   [
+        "The sheer size of the building was impressive.",
+        "She felt a sheer sense of excitement when she won the contest.",
+        "The sheer force of the wind blew the roof off the house."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'universe',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈjuːnɪˌvɜːs/',
+    ipa_us: '/ˈjuːnɪˌvɜːs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "all of space and time",
+              "th": "พื้นที่และเวลาทั้งหมด"
+        }
+  ],
+    antonyms: ["nothingness","void"],
+    examples:   [
+        "The universe is still full of mysteries waiting to be solved.",
+        "The scientist spent her career studying the universe and its secrets.",
+        "The universe is vast and complex, with many unknowns."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'idiom',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɪdɪəm/',
+    ipa_us: '/ˈɪdɪəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a phrase or expression with a non-literal meaning",
+              "th": "ประโยคหรือคำที่มีความหมายที่ไม่ตรงตามตัวอักษร"
+        }
+  ],
+    antonyms: ["literal","straightforward"],
+    examples:   [
+        "The idiom 'break a leg' means 'good luck'.",
+        "The idiom 'cost an arm and a leg' means something is very expensive.",
+        "The teacher explained the idiom 'bend over backwards' to the students."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mosquito',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/məˈski.toʊ/',
+    ipa_us: '/məˈski.toʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small flying insect that feeds on blood",
+              "th": "แมลงบินที่เล็กและดูดเลือด"
+        }
+  ],
+    antonyms: ["beneficial","harmless"],
+    examples:   [
+        "The mosquito bite gave me a nasty rash.",
+        "The mosquito net will keep the insects away.",
+        "The area is known for having a lot of mosquitoes during the summer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cave',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/keɪv/',
+    ipa_us: '/keɪv/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a hollow place in the ground or in the side of a hill",
+              "th": "ที่ว่างในพื้นดินหรือในด้านของเนินเขา"
+        }
+  ],
+    antonyms: ["mountain","hill"],
+    examples:   [
+        "The cave was dark and spooky, but also fascinating.",
+        "The explorer discovered a hidden cave deep in the forest.",
+        "The family went on a tour of the cave system."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'resident',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈɹɛzɪd(ə)nt/',
+    ipa_us: '/ˈɹɛzɪd(ə)nt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who lives in a particular place",
+              "th": "บุคคลที่อาศัยอยู่ในสถานที่ใดสถานที่หนึ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "living in a particular place",
+              "th": "อาศัยอยู่ในสถานที่ใดสถานที่หนึ่ง"
+        }
+  ],
+    antonyms: ["visitor","tourist"],
+    examples:   [
+        "The resident of the house next door is a kind old man.",
+        "The resident doctor will see you now.",
+        "The resident students have priority for on-campus housing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'global',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɡləʊbəl/',
+    ipa_us: '/ˈɡləʊbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the whole world",
+              "th": "เกี่ยวข้องกับโลกทั้งหมด"
+        }
+  ],
+    antonyms: ["local","regional"],
+    examples:   [
+        "The global economy is affected by many factors.",
+        "The company has a global presence with offices in many countries.",
+        "The global community is working together to address climate change."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'monthly',
+    level: 'B1',
+    partOfSpeech: ["adverb","adjective"],
+    ipa_uk: '/ˈmʌnθli/',
+    ipa_us: '/ˈmʌnθli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "happening or done every month",
+              "th": "เกิดขึ้นหรือทำทุกเดือน"
+        },
+        {
+              "pos": "adjective",
+              "en": "happening or done every month",
+              "th": "เกิดขึ้นหรือทำทุกเดือน"
+        }
+  ],
+    antonyms: ["yearly","daily"],
+    examples:   [
+        "The monthly meeting will be held next Wednesday.",
+        "The monthly subscription will be deducted from your account.",
+        "The company pays its employees a monthly salary."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'poisonous',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɔɪznəs/',
+    ipa_us: '/ˈpɔɪznəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a harmful or deadly effect",
+              "th": "มีผลเสียหรือร้ายแรง"
+        }
+  ],
+    antonyms: ["harmless","safe"],
+    examples:   [
+        "The poisonous snake bite can be deadly.",
+        "The poisonous gas leaked from the factory.",
+        "The poisonous plant should be handled with care."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rely',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹɪˈlaɪ/',
+    ipa_us: '/ɹɪˈlaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to depend on something or someone",
+              "th": "พึ่งพาสิ่งใดสิ่งหนึ่งหรือบุคคลใด"
+        }
+  ],
+    antonyms: ["doubt","question"],
+    examples:   [
+        "I rely on my friends for support.",
+        "The company relies on its employees to meet the deadline.",
+        "She relies on her intuition to make important decisions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'through',
+    level: 'B1',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/θɹuː/',
+    ipa_us: '/θɹuː/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "from one side to the other",
+              "th": "จากด้านหนึ่งไปอีกด้านหนึ่ง"
+        }
+  ],
+    antonyms: ["around","over"],
+    examples:   [
+        "I walked through the park on my way home.",
+        "The ball went through the hoop.",
+        "The company will get through the difficult time with the help of its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'faithful',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfeɪθ.fəl/',
+    ipa_us: '/ˈfeɪθ.fəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "loyal and dedicated",
+              "th": "จงรักภักดีและอุทิศตน"
+        }
+  ],
+    antonyms: ["disloyal","unfaithful"],
+    examples:   [
+        "The faithful dog waited for its owner at the door.",
+        "The faithful employee worked for the company for over 20 years.",
+        "The faithful fans supported their team through thick and thin."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'saucer',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɔː.sə/',
+    ipa_us: '/ˈsɔː.sə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small dish, typically used for serving coffee or tea",
+              "th": "จานเล็กๆ ที่ใช้ในการเสิร์ฟกาแฟหรือชา"
+        }
+  ],
+    antonyms: ["cup","bowl"],
+    examples:   [
+        "The saucer was filled with coffee.",
+        "The delicate saucer was a family heirloom.",
+        "The saucer was placed on the table next to the cup."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'remarkable',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɪˈmɑːkəbl̩/',
+    ipa_us: '/ɹɪˈmɑːkəbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "worthy of notice or attention",
+              "th": "ควรได้รับความสนใจหรือสังเกต"
+        }
+  ],
+    antonyms: ["unremarkable","ordinary"],
+    examples:   [
+        "The remarkable view from the top of the mountain was breathtaking.",
+        "The scientist made a remarkable discovery that changed the field.",
+        "The remarkable performance by the actor earned her an award."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'setting',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɛtɪŋ/',
+    ipa_us: '/ˈsɛtɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the place or surroundings in which something happens",
+              "th": "สถานที่หรือบริเวณที่สิ่งใดสิ่งหนึ่งเกิดขึ้น"
+        }
+  ],
+    antonyms: ["plot","story"],
+    examples:   [
+        "The setting of the novel was in 19th century England.",
+        "The setting of the play was a small village in France.",
+        "The setting of the movie was in a futuristic city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'slip',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/slɪp/',
+    ipa_us: '/slɪp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to fall or slide accidentally",
+              "th": "ลื่นหรือตกลงโดยไม่ตั้งใจ"
+        },
+        {
+              "pos": "noun",
+              "en": "a small piece of paper or a document",
+              "th": "กระดาษหรือเอกสารขนาดเล็ก"
+        }
+  ],
+    antonyms: ["catch","hold"],
+    examples:   [
+        "She slipped on the ice and fell.",
+        "The slip of paper had the password written on it.",
+        "The company will give you a slip to confirm your payment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
