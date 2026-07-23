@@ -10555,6 +10555,301 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'remedial',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɪˈmiːdɪəl/',
+    ipa_us: '/ɹɪˈmiːdɪəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "intended to correct or improve something",
+              "th": "ที่มีจุดมุ่งหมายเพื่อแก้ไขหรือปรับปรุงสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["harmful","detrimental"],
+    examples:   [
+        "The school offers remedial classes for students who are struggling with math.",
+        "The new policy is intended to have a remedial effect on the economy.",
+        "The doctor prescribed remedial exercise to help the patient recover from the injury."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'haggle',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈhæɡəl/',
+    ipa_us: '/ˈhæɡəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to argue or bargain about the price of something",
+              "th": "โต้แย้งหรือต่อรองเกี่ยวกับราคาของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["accept","agree"],
+    examples:   [
+        "I had to haggle with the vendor to get a good price for the souvenir.",
+        "The customer tried to haggle with the salesperson, but they wouldn't budge.",
+        "You have to be prepared to haggle when shopping at a market in some countries."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'closeness',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkləʊsnəs/',
+    ipa_us: '/ˈkləʊsnəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being close or intimate",
+              "th": "สภาพของการอยู่ใกล้หรือสนิทสนม"
+        }
+  ],
+    antonyms: ["distance","separation"],
+    examples:   [
+        "The closeness between the two friends was palpable.",
+        "The family's closeness was evident in the way they supported each other.",
+        "The closeness of the relationship made it difficult for them to say goodbye."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'muscular',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmʌs.kjə.lə/',
+    ipa_us: '/ˈmʌs.kjə.lə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having well-developed muscles",
+              "th": "มีกล้ามเนื้อที่พัฒนาแล้ว"
+        }
+  ],
+    antonyms: ["weak","frail"],
+    examples:   [
+        "The muscular build of the athlete was impressive.",
+        "The muscular tone of the model's body was evident in the photo shoot.",
+        "Regular exercise helped him develop a more muscular physique."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'profound',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹəˈfaʊnd/',
+    ipa_us: '/pɹəˈfaʊnd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very great or intense",
+              "th": "มากหรือเข้มข้น"
+        }
+  ],
+    antonyms: ["superficial","shallow"],
+    examples:   [
+        "The professor's words had a profound impact on the students.",
+        "The book's themes were profound and thought-provoking.",
+        "The experience had a profound effect on her, changing her perspective on life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'portrayal',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌpɔɹˈtɹeɪ.əl/',
+    ipa_us: '/ˌpɔɹˈtɹeɪ.əl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of describing or representing someone or something",
+              "th": "การอธิบายหรือแสดงถึงใครบางคนหรือสิ่งใด"
+        }
+  ],
+    antonyms: ["misrepresentation","distortion"],
+    examples:   [
+        "The portrayal of the character in the movie was inaccurate.",
+        "The artist's portrayal of the landscape was breathtaking.",
+        "The media's portrayal of the event was biased and misleading."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bloom',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/bluːm/',
+    ipa_us: '/bluːm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to produce flowers",
+              "th": "ผลิตดอกไม้"
+        }
+  ],
+    antonyms: ["wither","die"],
+    examples:   [
+        "The flowers will bloom in the spring.",
+        "The tree began to bloom after the warm weather.",
+        "The garden was full of colorful flowers that bloom in the summer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'protagonist',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹəˈtæ.ɡə.nɪst/',
+    ipa_us: '/pɹəˈtæ.ɡə.nɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the main character in a story or play",
+              "th": "ตัวละครหลักในเรื่องหรือละคร"
+        }
+  ],
+    antonyms: ["antagonist","villain"],
+    examples:   [
+        "The protagonist of the novel was a young woman named Sarah.",
+        "The protagonist's journey was the central theme of the story.",
+        "The actor played the protagonist in the movie, and his performance was praised."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'versatility',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌvəɹsəˈtɪlɪti/',
+    ipa_us: '/ˌvəɹsəˈtɪlɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to do many different things",
+              "th": "ความสามารถในการทำสิ่งต่างๆ มากมาย"
+        }
+  ],
+    antonyms: ["limitation","restriction"],
+    examples:   [
+        "The versatility of the tool made it useful for many tasks.",
+        "The actor's versatility allowed her to play a wide range of roles.",
+        "The versatility of the language made it easy to learn and use."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'persecute',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈpəːsɪkjuːt/',
+    ipa_us: '/ˈpəːsɪkjuːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to treat someone unfairly or cruelly, especially because of their race, religion, or beliefs",
+              "th": "ปฏิบัติต่อใครบางคนอย่างไม่ยุติธรรมหรือโหดร้าย โดยเฉพาะอย่างยิ่งเนื่องจากเชื้อชาติ ศาสนา หรือความเชื่อ"
+        }
+  ],
+    antonyms: ["protect","support"],
+    examples:   [
+        "The minority group was persecuted by the government.",
+        "The company was accused of persecuting its employees who belonged to a certain union.",
+        "The dictator persecuted anyone who opposed his regime."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'refurbish',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹiːˈfɜːbɪʃ/',
+    ipa_us: '/ɹiːˈfɜːbɪʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to repair or renovate something, especially a building",
+              "th": "ซ่อมแซมหรือปรับปรุงสิ่งใดสิ่งหนึ่ง โดยเฉพาะอาคาร"
+        }
+  ],
+    antonyms: ["demolish","destroy"],
+    examples:   [
+        "The old hotel was refurbished and reopened as a luxury resort.",
+        "The company decided to refurbish the office building instead of moving to a new location.",
+        "The city plans to refurbish the park and add new amenities."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'farce',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/fɑːs/',
+    ipa_us: '/fɑːs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a comedic play or situation that is absurd or ridiculous",
+              "th": "การแสดงตลกหรือสถานการณ์ที่เป็นเรื่องขบขันหรือน่าหัวเราะ"
+        }
+  ],
+    antonyms: ["tragedy","drama"],
+    examples:   [
+        "The play was a farce, with characters and situations that were completely absurd.",
+        "The meeting turned into a farce, with everyone arguing and shouting.",
+        "The movie was a farce, with a plot that was ridiculous and unbelievable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lethargy',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlɛθədʒi/',
+    ipa_us: '/ˈlɛθədʒi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of physical or mental inactivity",
+              "th": "สภาพของการไม่เคลื่อนไหวหรือไม่ทำงานของกายหรือใจ"
+        }
+  ],
+    antonyms: ["energy","vitality"],
+    examples:   [
+        "The patient's lethargy was a symptom of the illness.",
+        "The team's lethargy in the second half of the game cost them the win.",
+        "The cold weather induced a state of lethargy, making it hard to get out of bed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ecstasy',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛk.stə.si/',
+    ipa_us: '/ˈɛk.stə.si/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of intense happiness or excitement",
+              "th": "สภาพของความสุขหรือตื่นเต้นที่เข้มข้น"
+        }
+  ],
+    antonyms: ["agony","misery"],
+    examples:   [
+        "The crowd was in ecstasy as the concert began.",
+        "The news of the engagement filled her with ecstasy.",
+        "The beauty of the sunset filled him with ecstasy and a sense of wonder."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
