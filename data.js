@@ -11882,6 +11882,385 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'conceive',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kənˈsiːv/',
+    ipa_us: '/kənˈsiːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to form an idea or opinion",
+              "th": "คิดค้นหรือสร้างความคิด"
+        }
+  ],
+    antonyms: ["misconceive","misunderstand"],
+    examples:   [
+        "She conceived a plan to start her own business.",
+        "The idea was conceived by a team of experts.",
+        "The artist's imagination helped her conceive unique sculptures."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'supervisor',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈsuːpɚˌvaɪzɚ/',
+    ipa_us: '/ˈsuːpɚˌvaɪzɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is in charge of a particular job or activity",
+              "th": "ผู้ดูแลหรือกำกับงาน"
+        }
+  ],
+    antonyms: ["subordinate","assistant"],
+    examples:   [
+        "The supervisor of the project was very experienced.",
+        "She was promoted to be a supervisor after five years.",
+        "The supervisor helped the new employee to understand the task."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cheerfully',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈtʃɪəfəli/',
+    ipa_us: '/ˈtʃɪəfəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a cheerful manner",
+              "th": "ด้วยความสุขหรือร่าเริง"
+        }
+  ],
+    antonyms: ["gloomily","unhappily"],
+    examples:   [
+        "She answered the phone cheerfully.",
+        "The children played cheerfully in the park.",
+        "He worked cheerfully, even on Mondays."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'innovation',
+    level: 'B2',
+    partOfSpeech: ["noun [C,U]"],
+    ipa_uk: '/ˌɪnəˈveɪʃən/',
+    ipa_us: '/ˌɪnəˈveɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a new idea, method, or device",
+              "th": "ความคิดหรือสิ่งประดิษฐ์ใหม่"
+        }
+  ],
+    antonyms: ["tradition","convention"],
+    examples:   [
+        "The company's latest innovation was a huge success.",
+        "Innovation is key to staying competitive in the market.",
+        "The innovation of the internet changed the world."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'panel',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈpænəl/',
+    ipa_us: '/ˈpænəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of people who are chosen to discuss or decide something",
+              "th": "กลุ่มคนซึ่งถูกเลือกให้พูดคุยหรือตัดสินใจเกี่ยวกับเรื่องใดเรื่องหนึ่ง"
+        }
+  ],
+    antonyms: ["individual","singleton"],
+    examples:   [
+        "The panel discussed the issue for hours.",
+        "She was chosen to be on the panel of judges.",
+        "The panel of experts provided valuable insights."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'comprehensive',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌkɒm.pɹɪˈhɛn.sɪv/',
+    ipa_us: '/ˌkɒm.pɹɪˈhɛn.sɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "including or dealing with all or many different parts of something",
+              "th": "ครอบคลุมหรือเกี่ยวข้องกับส่วนต่างๆ ของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["limited","restricted"],
+    examples:   [
+        "The comprehensive report covered all aspects of the project.",
+        "The comprehensive insurance policy covered everything.",
+        "The comprehensive education system included many subjects."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'synonym',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈsɪnənɪm/',
+    ipa_us: '/ˈsɪnənɪm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a word or phrase that has the same or nearly the same meaning as another word or phrase",
+              "th": "คำหรือวลีที่มีความหมายเหมือนหรือคล้ายกับคำหรือวลีอื่น"
+        }
+  ],
+    antonyms: ["antonym","opposite"],
+    examples:   [
+        "The synonym for 'happy' is 'joyful'.",
+        "The thesaurus provided a list of synonyms for the word.",
+        "The teacher asked the students to find synonyms for the vocabulary words."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hook',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/huːk/',
+    ipa_us: '/huːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a curved or bent piece of metal or other material used for catching or holding things",
+              "th": "สิ่งที่มีรูปโค้งหรืองอทำจากโลหะหรือวัสดุอื่นใช้สำหรับจับหรือยึดสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["unhook","release"],
+    examples:   [
+        "The fisherman used a hook to catch the fish.",
+        "The hook on the door was rusty.",
+        "The singer's hook caught the audience's attention."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'messenger',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈmɛs.n̩.d͡ʒə/',
+    ipa_us: '/ˈmɛs.n̩.d͡ʒə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person or thing that takes or sends messages",
+              "th": "บุคคลหรือสิ่งที่นำหรือส่งสาร"
+        }
+  ],
+    antonyms: ["recipient","addressee"],
+    examples:   [
+        "The messenger delivered the package to the wrong address.",
+        "The messenger app allowed users to send messages quickly.",
+        "The messenger of the king was trusted with important information."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'haste',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/heɪst/',
+    ipa_us: '/heɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of acting or doing something quickly, often without thinking carefully",
+              "th": "การกระทำหรือการทำสิ่งใดสิ่งหนึ่งด้วยความเร็ว มักจะไม่คิดอย่างรอบคอบ"
+        }
+  ],
+    antonyms: ["delay","slowness"],
+    examples:   [
+        "She made a mistake due to haste.",
+        "The company's haste to launch the product resulted in errors.",
+        "The driver's haste caused the accident."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'glow',
+    level: 'B2',
+    partOfSpeech: ["noun [C,U]"],
+    ipa_uk: '/ɡləʊ/',
+    ipa_us: '/ɡləʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a soft, steady, and warm light",
+              "th": "แสงสว่างอ่อนๆ ที่คงที่และอบอุ่น"
+        }
+  ],
+    antonyms: ["darkness","shadow"],
+    examples:   [
+        "The glow of the sunset was beautiful.",
+        "The glow of the candle lit up the room.",
+        "The glow of the fireflies was mesmerizing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soliloquy',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/səˈlɪləkwi/',
+    ipa_us: '/səˈlɪləkwi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a speech in a play in which a character speaks their thoughts aloud while alone on stage",
+              "th": "การกล่าวสุนทรพจน์ในละครที่ตัวละครพูดความคิดของตนเองออกมาด้วยเสียงดังในขณะที่อยู่คนเดียวบนเวที"
+        }
+  ],
+    antonyms: ["dialogue","conversation"],
+    examples:   [
+        "The actor's soliloquy was the highlight of the play.",
+        "The soliloquy revealed the character's inner thoughts.",
+        "The playwright used soliloquies to explore the characters' emotions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'theme',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/θiːm/',
+    ipa_us: '/θiːm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the main subject or idea of a piece of writing, film, or art",
+              "th": "เรื่องหลักหรือความคิดหลักของงานเขียน ภาพยนตร์ หรือศิลปะ"
+        }
+  ],
+    antonyms: ["subtext","undercurrent"],
+    examples:   [
+        "The theme of the novel was love and loss.",
+        "The theme of the party was a masquerade ball.",
+        "The artist explored the theme of identity in her work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stain',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/steɪn/',
+    ipa_us: '/steɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mark or spot on a surface, especially one that is difficult to remove",
+              "th": "รอยหรือจุดบนพื้นผิว โดยเฉพาะอย่างยิ่งรอยที่ยากจะเอาออก"
+        }
+  ],
+    antonyms: ["cleanliness","spotlessness"],
+    examples:   [
+        "The stain on the carpet was difficult to remove.",
+        "The stain on her shirt was from red wine.",
+        "The artist used stain to create a unique effect on the wood."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cocktail',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkɒkteɪl/',
+    ipa_us: '/ˈkɒkteɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a drink made from a mixture of spirits, fruit juice, and other ingredients",
+              "th": "เครื่องดื่มที่ทำจากส่วนผสมของสุรา น้ำผลไม้ และส่วนผสมอื่นๆ"
+        }
+  ],
+    antonyms: ["mocktail","soft drink"],
+    examples:   [
+        "The bartender created a new cocktail for the party.",
+        "The cocktail party was a huge success.",
+        "The restaurant served a variety of cocktails."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'programmer',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈpɹəʊɡɹæmə/',
+    ipa_us: '/ˈpɹəʊɡɹæmə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who writes computer programs",
+              "th": "บุคคลที่เขียนโปรแกรมคอมพิวเตอร์"
+        }
+  ],
+    antonyms: ["user","operator"],
+    examples:   [
+        "The programmer worked long hours to meet the deadline.",
+        "The programmer created a new app for the company.",
+        "The programmer's skills were in high demand."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'later',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈleɪtə/',
+    ipa_us: '/ˈleɪtə/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "happening or done after a particular time",
+              "th": "เกิดขึ้นหรือทำหลังจากเวลาใดเวลาหนึ่ง"
+        }
+  ],
+    antonyms: ["earlier","sooner"],
+    examples:   [
+        "I'll call you later.",
+        "The movie starts later tonight.",
+        "The company will announce the results later this year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inherit',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɪnˈhɛɹɪt/',
+    ipa_us: '/ɪnˈhɛɹɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to receive money, property, or a title from someone who has died",
+              "th": "ได้รับเงิน ที่ดิน หรือตำแหน่งจากบุคคลที่เสียชีวิต"
+        }
+  ],
+    antonyms: ["disinherit","deprive"],
+    examples:   [
+        "She inherited a large sum of money from her grandmother.",
+        "The prince will inherit the throne when his father dies.",
+        "The company inherited a lot of debt from the previous owner."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
