@@ -12261,6 +12261,395 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'commission',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəˈmɪʃən/',
+    ipa_us: '/kəˈmɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of committing or doing something",
+              "th": "การกระทำหรือการทำสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["omission","neglect"],
+    examples:   [
+        "The commission of the crime was a shock to the community.",
+        "She was given a commission to paint a portrait of the CEO.",
+        "The government established a commission to investigate the scandal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'malice',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmælɪs/',
+    ipa_us: '/ˈmælɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the intention or desire to do harm to someone",
+              "th": "ความตั้งใจหรือความปรารถนาที่จะทำอันตรายต่อผู้อื่น"
+        }
+  ],
+    antonyms: ["benevolence","kindness"],
+    examples:   [
+        "The defendant was accused of acting with malice.",
+        "The malice in her eyes was unsettling.",
+        "The company was sued for malice and negligence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'leaven',
+    level: 'C2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈlɛv.ən/',
+    ipa_us: '/ˈlɛv.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a substance that causes dough to rise",
+              "th": "สิ่งที่ทำให้แป้งขึ้น"
+        },
+        {
+              "pos": "verb",
+              "en": "to add a substance to dough to make it rise",
+              "th": "เพิ่มสิ่งที่ทำให้แป้งขึ้น"
+        }
+  ],
+    antonyms: ["stale","flat"],
+    examples:   [
+        "Yeast is a common leaven used in baking.",
+        "The recipe called for leaven to be added to the dough.",
+        "The bread was light and fluffy, thanks to the leaven."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ornate',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɔɹˈneɪt/',
+    ipa_us: '/ɔɹˈneɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "highly decorated or elaborate",
+              "th": "ตกแต่งหรือประดับประดาอย่างสวยงาม"
+        }
+  ],
+    antonyms: ["plain","simple"],
+    examples:   [
+        "The ornate furniture in the palace was stunning.",
+        "The ornate details on the building were impressive.",
+        "The ornate language used in the poem was beautiful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'breadwinner',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbɹɛdˌwɪnɚ/',
+    ipa_us: '/ˈbɹɛdˌwɪnɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the person who earns the money to support a family",
+              "th": "บุคคลที่หาเงินเพื่อเลี้ยงดูครอบครัว"
+        }
+  ],
+    antonyms: ["dependent","recipient"],
+    examples:   [
+        "As the breadwinner, she worked hard to provide for her family.",
+        "The breadwinner of the family was struggling to make ends meet.",
+        "After her husband's death, she became the breadwinner and had to work multiple jobs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'daunting',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdɔːntɪŋ/',
+    ipa_us: '/ˈdɔːntɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "frightening or intimidating",
+              "th": "น่ากลัวหรือน่าเกรงขาม"
+        }
+  ],
+    antonyms: ["encouraging","reassuring"],
+    examples:   [
+        "The daunting task of public speaking made her nervous.",
+        "The daunting mountain climb was a challenge she was willing to take.",
+        "The daunting prospect of failure held him back from trying."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'imposition',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪm.pəˈzɪʃən/',
+    ipa_us: '/ɪm.pəˈzɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of imposing something, such as a tax or a rule",
+              "th": "การกำหนดหรือบังคับใช้สิ่งใดสิ่งหนึ่ง เช่น ภาษีหรือกฎ"
+        }
+  ],
+    antonyms: ["relief","exemption"],
+    examples:   [
+        "The imposition of the new tax was met with resistance.",
+        "The imposition of the rule was seen as unfair.",
+        "The imposition of the penalty was a harsh measure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nonchalant',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈnɒn.ʃəl.ənt/',
+    ipa_us: '/ˈnɒn.ʃəl.ənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "showing a lack of concern or interest",
+              "th": "แสดงถึงการขาดความกังวลหรือความสนใจ"
+        }
+  ],
+    antonyms: ["concerned","anxious"],
+    examples:   [
+        "He walked into the room with a nonchalant air.",
+        "She responded to the question with a nonchalant tone.",
+        "The nonchalant attitude of the manager was frustrating."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'artifact',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɑːtɪfækt/',
+    ipa_us: '/ˈɑːtɪfækt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an object made or used by humans, especially one of historical or cultural interest",
+              "th": "วัตถุที่ทำหรือใช้โดยมนุษย์ โดยเฉพาะอย่างยิ่งวัตถุที่มีความสนใจทางประวัติศาสตร์หรือวัฒนธรรม"
+        }
+  ],
+    antonyms: ["natural","organic"],
+    examples:   [
+        "The museum exhibited many artifacts from ancient civilizations.",
+        "The artifact was a valuable relic from the past.",
+        "The archaeologists uncovered an artifact that shed new light on the history of the region."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'palatable',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpæl.ə.tə.bəl/',
+    ipa_us: '/ˈpæl.ə.tə.bəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "pleasant to eat or taste",
+              "th": "มีรสชาติที่ดีหรือพึงพอใจ"
+        }
+  ],
+    antonyms: ["unpalatable","distasteful"],
+    examples:   [
+        "The palatable flavors of the dish made it a favorite.",
+        "The palatable aroma of the coffee filled the room.",
+        "The chef worked hard to create a palatable menu for the restaurant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'indolence',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɪndələns/',
+    ipa_us: '/ˈɪndələns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a lack of energy or enthusiasm, often resulting in laziness",
+              "th": "การขาดพลังงานหรือความกระตือรือร้น ซึ่งมักจะส่งผลให้เกิดความเกียจคร้าน"
+        }
+  ],
+    antonyms: ["diligence","industry"],
+    examples:   [
+        "His indolence made it difficult for him to finish the project on time.",
+        "The indolence of the summer days made her feel lazy.",
+        "The indolence of the team was a major concern for the coach."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lament',
+    level: 'C2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ləˈmɛnt/',
+    ipa_us: '/ləˈmɛnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling or expression of sadness or regret",
+              "th": "ความรู้สึกหรือการแสดงออกของความเศร้าใจหรือเสียใจ"
+        },
+        {
+              "pos": "verb",
+              "en": "to express sadness or regret for something",
+              "th": "แสดงความเศร้าใจหรือเสียใจต่อสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["celebrate","rejoice"],
+    examples:   [
+        "The lament of the mourners filled the air.",
+        "She lamented the loss of her loved one.",
+        "The poet wrote a lament for the fallen hero."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mediate',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈmidi.ət/',
+    ipa_us: '/ˈmidi.ət/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to help resolve a dispute or conflict between two or more parties",
+              "th": "ช่วยแก้ไขข้อพิพาทหรือความขัดแย้งระหว่างสองฝ่ายหรือมากกว่า"
+        }
+  ],
+    antonyms: ["aggravate","exacerbate"],
+    examples:   [
+        "The mediator helped to mediate the dispute between the two companies.",
+        "The teacher tried to mediate the argument between the two students.",
+        "The government attempted to mediate the conflict between the warring nations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'parasitic',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pæ.ɹəˈsɪt.ɪk/',
+    ipa_us: '/pæ.ɹəˈsɪt.ɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of a parasite, especially one that lives on or in another organism",
+              "th": "เกี่ยวข้องกับหรือมีลักษณะของปรสิต โดยเฉพาะอย่างยิ่งปรสิตที่อาศัยอยู่บนหรือในอินทรีย์อื่น"
+        }
+  ],
+    antonyms: ["mutualistic","symbiotic"],
+    examples:   [
+        "The parasitic worm was removed from the patient's intestine.",
+        "The parasitic relationship between the two organisms was fascinating.",
+        "The parasitic behavior of the company was criticized by the public."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'perverse',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pəˈvɜːs/',
+    ipa_us: '/pəˈvɜːs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "deliberately deviating from what is considered normal or acceptable",
+              "th": "เบี่ยงเบนอย่างเจตนาจากสิ่งที่ถือว่าเป็นปกติหรือยอมรับได้"
+        }
+  ],
+    antonyms: ["normal","conventional"],
+    examples:   [
+        "The perverse sense of humor was not appreciated by everyone.",
+        "The perverse behavior of the child was a concern for the parents.",
+        "The perverse desire for attention led her to act out in public."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'haphazardly',
+    level: 'C2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/hæpˈhæzədli/',
+    ipa_us: '/hæpˈhæzədli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a random or disorganized manner",
+              "th": "ในลักษณะที่ไม่มีระเบียบหรือไม่สุ่มสี่สุ่มห้า"
+        }
+  ],
+    antonyms: ["methodically","systematically"],
+    examples:   [
+        "The boxes were packed haphazardly, making it difficult to find anything.",
+        "The haphazardly planned trip ended in disaster.",
+        "The haphazardly written report was full of errors and inconsistencies."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'opaque',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əʊˈpeɪk/',
+    ipa_us: '/əʊˈpeɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not able to be seen through, either because it is solid or because it is not transparent",
+              "th": "ไม่สามารถมองผ่านได้ ไม่ว่าจะเป็นเพราะเป็นวัตถุหรือไม่โปร่งใส"
+        }
+  ],
+    antonyms: ["transparent","clear"],
+    examples:   [
+        "The opaque glass blocked the view from the outside.",
+        "The opaque language used in the contract was confusing.",
+        "The opaque water made it difficult to see the fish swimming inside."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bereft',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/bəˈɹɛft/',
+    ipa_us: '/bəˈɹɛft/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "left without something, especially something that is necessary or desirable",
+              "th": "ถูกทิ้งไว้โดยไม่มีสิ่งใด โดยเฉพาะอย่างยิ่งสิ่งที่จำเป็นหรือพึงประสงค์"
+        }
+  ],
+    antonyms: ["endowed","blessed"],
+    examples:   [
+        "The family was bereft of hope after the tragedy.",
+        "The community was bereft of resources and support.",
+        "The bereft expression on her face showed her deep sadness."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
