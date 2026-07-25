@@ -12986,6 +12986,448 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'bite',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/bʌɪt/',
+    ipa_us: '/bʌɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cut or wound with teeth",
+              "th": "กัด"
+        }
+  ],
+    antonyms: ["caress","kiss"],
+    examples:   [
+        "The dog will bite if it feels threatened.",
+        "She took a bite of the sandwich and started chewing.",
+        "The mosquito bite itched all night."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'basis',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈbeɪsɪs/',
+    ipa_us: '/ˈbeɪsɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a fact or situation that something is based on",
+              "th": "พื้นฐาน"
+        }
+  ],
+    antonyms: ["conclusion","outcome"],
+    examples:   [
+        "The decision was made on the basis of the available data.",
+        "The new policy will be the basis for future changes.",
+        "The company's success is on a solid basis of customer satisfaction."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mayor',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈmeɪ.ə/',
+    ipa_us: '/ˈmeɪ.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the most important person in a town or city, elected by the people or by the members of the town or city council",
+              "th": "นายกเทศมนตรี"
+        }
+  ],
+    antonyms: ["citizen","resident"],
+    examples:   [
+        "The mayor of the city gave a speech at the ceremony.",
+        "She has been the mayor for three terms.",
+        "The mayor is responsible for the city's budget."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'revision',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/riˈvɪ.ʒ(ə)n/',
+    ipa_us: '/riˈvɪ.ʒ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of changing or making something newer or more modern",
+              "th": "การแก้ไข"
+        }
+  ],
+    antonyms: ["original","first"],
+    examples:   [
+        "The revision of the book took several months.",
+        "The company is undergoing a major revision of its policies.",
+        "The revision of the contract was necessary due to the changes in the market."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enjoyable',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɛnˈdʒɔɪ.jə.bəl/',
+    ipa_us: '/ɛnˈdʒɔɪ.jə.bəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving pleasure or enjoyment",
+              "th": "สนุกสนาน"
+        }
+  ],
+    antonyms: ["boring","unpleasant"],
+    examples:   [
+        "The movie was enjoyable and entertaining.",
+        "The trip was enjoyable despite the long journey.",
+        "The food at the restaurant was enjoyable and delicious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'involved',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɪnˈvɒlvd/',
+    ipa_us: '/ɪnˈvɒlvd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to include someone or something in an activity or situation",
+              "th": "เกี่ยวข้อง"
+        }
+  ],
+    antonyms: ["excluded","separate"],
+    examples:   [
+        "She was involved in the project from the beginning.",
+        "The company is involved in several charity events.",
+        "The police are involved in the investigation of the crime."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stylish',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈstaɪlɪʃ/',
+    ipa_us: '/ˈstaɪlɪʃ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "attractive and fashionable",
+              "th": "ทันสมัย"
+        }
+  ],
+    antonyms: ["old-fashioned","unattractive"],
+    examples:   [
+        "The new restaurant is stylish and modern.",
+        "She has a stylish sense of fashion.",
+        "The hotel room was stylish and comfortable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'agenda',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/əˈdʒɛn.də/',
+    ipa_us: '/əˈdʒɛn.də/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a list of things to be discussed or done",
+              "th": "วาระการประชุม"
+        }
+  ],
+    antonyms: ["outcome","result"],
+    examples:   [
+        "The meeting had a long agenda.",
+        "The agenda for the conference included several keynote speakers.",
+        "The company's agenda is to increase profits."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'particularly',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/pəˈtɪkjəli/',
+    ipa_us: '/pəˈtɪkjəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "more than usual or more than others",
+              "th": "โดยเฉพาะ"
+        }
+  ],
+    antonyms: ["generally","usually"],
+    examples:   [
+        "I like this restaurant, particularly their seafood dishes.",
+        "She is good at languages, particularly Spanish.",
+        "The city is crowded, particularly during rush hour."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'waterfall',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈwɔːtəfɔːl/',
+    ipa_us: '/ˈwɔːtəfɔːl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place where water flows over the edge of a steep rock or cliff",
+              "th": "น้ำตก"
+        }
+  ],
+    antonyms: ["mountain","hill"],
+    examples:   [
+        "The waterfall was beautiful and picturesque.",
+        "The hike to the waterfall was challenging but worth it.",
+        "The waterfall is a popular tourist destination."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'survival',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/sɚˈvaɪvəl/',
+    ipa_us: '/sɚˈvaɪvəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of continuing to live or exist, especially in a difficult or dangerous situation",
+              "th": "การอยู่รอด"
+        }
+  ],
+    antonyms: ["death","extinction"],
+    examples:   [
+        "The survival of the species is at risk.",
+        "The survival skills of the hikers helped them stay alive.",
+        "The company's survival depends on its ability to adapt to the market."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bilingual',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/baɪˈlɪŋ.ɡju.əl/',
+    ipa_us: '/baɪˈlɪŋ.ɡju.əl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to speak two languages fluently",
+              "th": "พูดได้สองภาษา"
+        }
+  ],
+    antonyms: ["monolingual","unilingual"],
+    examples:   [
+        "The bilingual teacher was able to communicate with students from different countries.",
+        "The company is looking for a bilingual employee to work with international clients.",
+        "The bilingual program at the school helps students learn two languages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'murder',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈmɜːdə(ɹ)/',
+    ipa_us: '/ˈmɜːdə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the crime of killing someone deliberately",
+              "th": "การฆ่าคน"
+        }
+  ],
+    antonyms: ["save","protect"],
+    examples:   [
+        "The murder took place in a quiet neighborhood.",
+        "The police are investigating the murder of the young woman.",
+        "The suspect was arrested for the murder of his business partner."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'similarity',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/sɪmɪˈlæɹɪti/',
+    ipa_us: '/sɪmɪˈlæɹɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being similar",
+              "th": "ความคล้ายคลึง"
+        }
+  ],
+    antonyms: ["difference","dissimilarity"],
+    examples:   [
+        "The similarity between the two languages is striking.",
+        "The similarity in their appearance is due to their shared ancestry.",
+        "The company is looking for similarities in the data to identify trends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'finding',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈfaɪndɪŋ/',
+    ipa_us: '/ˈfaɪndɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "something that is discovered or learned",
+              "th": "สิ่งที่พบ"
+        }
+  ],
+    antonyms: ["losing","misplacing"],
+    examples:   [
+        "The finding of the study was published in a journal.",
+        "The archaeologist made a significant finding at the excavation site.",
+        "The company's finding on the market research was surprising."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mutual',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmjuːt͡ʃuəl/',
+    ipa_us: '/ˈmjuːt͡ʃuəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "shared by or affecting both sides",
+              "th": "ร่วมกัน"
+        }
+  ],
+    antonyms: ["one-sided","unilateral"],
+    examples:   [
+        "The mutual respect between the two leaders was evident.",
+        "The company has a mutual agreement with its partner.",
+        "The mutual fund is a popular investment option."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'largely',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '[ˈlaːdʒ.li]',
+    ipa_us: '[ˈlaːdʒ.li]',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a great extent or degree",
+              "th": "โดยส่วนใหญ่"
+        }
+  ],
+    antonyms: ["slightly","partly"],
+    examples:   [
+        "The company's success is largely due to its innovative products.",
+        "The city's population is largely made up of young people.",
+        "The decision was largely influenced by the CEO's opinion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'merely',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈmɪəli/',
+    ipa_us: '/ˈmɪəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "only or simply",
+              "th": "เพียงเท่านั้น"
+        }
+  ],
+    antonyms: ["mainly","mostly"],
+    examples:   [
+        "I'm merely a student, I don't have much experience.",
+        "The problem is merely a matter of perspective.",
+        "The solution is merely a temporary fix."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'switch',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/swɪtʃ/',
+    ipa_us: '/swɪtʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device for turning something on or off, or for changing from one thing to another",
+              "th": "สวิตช์"
+        }
+  ],
+    antonyms: ["stay","remain"],
+    examples:   [
+        "The switch on the wall controls the lights.",
+        "I'm going to switch to a different phone plan.",
+        "The company is going to switch to renewable energy sources."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wizard',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈwɪ.zəd/',
+    ipa_us: '/ˈwɪ.zəd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is skilled in magic or has a special power",
+              "th": "พ่อมด"
+        }
+  ],
+    antonyms: ["mortal","human"],
+    examples:   [
+        "The wizard in the story had the power to make things disappear.",
+        "The IT specialist is a wizard when it comes to fixing computers.",
+        "The company's financial wizard helped them navigate the crisis."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'consumption',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/kənˈsʌmp.ʃən/',
+    ipa_us: '/kənˈsʌmp.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of eating, drinking, or using something",
+              "th": "การบริโภค"
+        }
+  ],
+    antonyms: ["production","creation"],
+    examples:   [
+        "The consumption of sugar is linked to various health problems.",
+        "The company's energy consumption is high due to its manufacturing processes.",
+        "The government is trying to reduce the country's water consumption."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
