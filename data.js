@@ -13428,6 +13428,536 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'radio',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹeɪdiˌəʊ/',
+    ipa_us: '/ˈɹeɪdiˌəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that receives radio programmes",
+              "th": "เครื่องรับวิทยุ"
+        }
+  ],
+    antonyms: ["television","newspaper"],
+    examples:   [
+        "I listen to the radio every morning.",
+        "The radio is playing my favorite song.",
+        "She turned off the radio and went to sleep."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vegetable',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvɛd͡ʒtəbəl/',
+    ipa_us: '/ˈvɛd͡ʒtəbəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a plant, such as a cabbage or potato, that is grown for food",
+              "th": "พืชที่ปลูกเพื่อเป็นอาหาร"
+        }
+  ],
+    antonyms: ["fruit","meat"],
+    examples:   [
+        "I love eating vegetables with my meals.",
+        "The vegetable garden is full of fresh produce.",
+        "She put the vegetable soup in the fridge."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tea',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tiː/',
+    ipa_us: '/tiː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a hot drink made from the dried leaves of the tea plant",
+              "th": "เครื่องดื่มร้อนจากใบชา"
+        }
+  ],
+    antonyms: ["coffee","juice"],
+    examples:   [
+        "I drink tea every morning.",
+        "The tea is too hot to drink.",
+        "She likes to have tea with her friends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'off',
+    level: 'A1',
+    partOfSpeech: ["preposition","adverb"],
+    ipa_uk: '/ɔːf/',
+    ipa_us: '/ɔːf/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "away from a place or position",
+              "th": "ห่างจากที่หรือตำแหน่ง"
+        },
+        {
+              "pos": "adverb",
+              "en": "not operating or functioning",
+              "th": "ไม่ทำงานหรือไม่ดำเนินการ"
+        }
+  ],
+    antonyms: ["on","near"],
+    examples:   [
+        "The lights are off in the room.",
+        "She turned the TV off and went to bed.",
+        "The plane took off from the airport."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'money',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmʌni/',
+    ipa_us: '/ˈmʌni/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a medium of exchange, such as coins or banknotes",
+              "th": "สื่อกลางในการแลกเปลี่ยน เช่น เหรียญหรือธนบัตร"
+        }
+  ],
+    antonyms: ["debt","poverty"],
+    examples:   [
+        "I don't have enough money to buy that.",
+        "She saved her money for a year to buy a car.",
+        "He earns a lot of money from his job."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'could',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kʊd/',
+    ipa_us: '/kʊd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "past tense of 'can', used to express ability or possibility",
+              "th": "รูปที่ผ่านมาของ 'can' ใช้เพื่อแสดงความสามารถหรือความเป็นไปได้"
+        }
+  ],
+    antonyms: ["cannot","unable"],
+    examples:   [
+        "I could speak English when I was a child.",
+        "She could play the piano very well.",
+        "He could not finish the project on time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'those',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/ðəʊz/',
+    ipa_us: '/ðəʊz/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to refer to people or things that are not near the speaker",
+              "th": "ใช้เพื่ออ้างถึงบุคคลหรือสิ่งที่ไม่ได้อยู่ใกล้กับผู้พูด"
+        }
+  ],
+    antonyms: ["these","this"],
+    examples:   [
+        "Those books are mine.",
+        "I like those shoes, they are very nice.",
+        "Those people are my friends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hello',
+    level: 'A1',
+    partOfSpeech: ["interjection"],
+    ipa_uk: '/həˈləʊ/',
+    ipa_us: '/həˈləʊ/',
+    meanings:   [
+        {
+              "pos": "interjection",
+              "en": "used as a greeting when meeting someone",
+              "th": "ใช้เพื่อแสดงความเคารพเมื่อพบใครสักคน"
+        }
+  ],
+    antonyms: ["goodbye","farewell"],
+    examples:   [
+        "Hello, how are you?",
+        "She said hello to her friend on the phone.",
+        "He waved and said hello to the crowd."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'any',
+    level: 'A1',
+    partOfSpeech: ["determiner"],
+    ipa_uk: '/ˈæni/',
+    ipa_us: '/ˈæni/',
+    meanings:   [
+        {
+              "pos": "determiner",
+              "en": "used to indicate a small or indefinite quantity",
+              "th": "ใช้เพื่อแสดงปริมาณเล็กหรือไม่แน่นอน"
+        }
+  ],
+    antonyms: ["none","all"],
+    examples:   [
+        "Do you have any money?",
+        "I don't have any friends here.",
+        "Is there any food left?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'watch',
+    level: 'A1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/wɒt͡ʃ/',
+    ipa_us: '/wɒt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to look at something or someone for a period of time",
+              "th": "มองหรือดูสิ่งใดสิ่งหนึ่งหรือบุคคลเป็นเวลานาน"
+        },
+        {
+              "pos": "noun",
+              "en": "a device that shows the time",
+              "th": "อุปกรณ์ที่แสดงเวลา"
+        }
+  ],
+    antonyms: ["ignore","neglect"],
+    examples:   [
+        "I watch TV every night.",
+        "She watches her weight carefully.",
+        "He gave me his watch as a gift."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'week',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/wiːk/',
+    ipa_us: '/wiːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a period of seven days",
+              "th": "ช่วงเวลาเจ็ดวัน"
+        }
+  ],
+    antonyms: ["month","year"],
+    examples:   [
+        "I have a meeting next week.",
+        "She works five days a week.",
+        "He is on vacation for a week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'what',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/wɔt/',
+    ipa_us: '/wɔt/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to ask for information or clarification",
+              "th": "ใช้เพื่อขอข้อมูลหรือการชี้แจง"
+        }
+  ],
+    antonyms: ["which","that"],
+    examples:   [
+        "What is your name?",
+        "What time is it?",
+        "I don't know what to do."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'surprise',
+    level: 'A1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/səˈpɹaɪz/',
+    ipa_us: '/səˈpɹaɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cause someone to feel sudden and unexpected pleasure or astonishment",
+              "th": "ทำให้ใครสักคนรู้สึกตื่นเต้นหรือประหลาดใจอย่างไม่คาดคิด"
+        },
+        {
+              "pos": "noun",
+              "en": "an unexpected or astonishing event or situation",
+              "th": "เหตุการณ์หรือสถานการณ์ที่ไม่คาดคิดหรือตื่นตะลึง"
+        }
+  ],
+    antonyms: ["expect","predict"],
+    examples:   [
+        "The surprise party was a success.",
+        "I surprised my friend with a gift.",
+        "The news was a surprise to everyone."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'help',
+    level: 'A1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/hɛlp/',
+    ipa_us: '/hɛlp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give assistance or support to someone",
+              "th": "ให้ความช่วยเหลือหรือการสนับสนุนแก่ใครสักคน"
+        },
+        {
+              "pos": "noun",
+              "en": "assistance or support given to someone",
+              "th": "ความช่วยเหลือหรือการสนับสนุนที่ให้แก่ใครสักคน"
+        }
+  ],
+    antonyms: ["hinder","obstruct"],
+    examples:   [
+        "Can you help me with my homework?",
+        "She helps her mother with the household chores.",
+        "He needs help to finish the project."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ready',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹɛdi/',
+    ipa_us: '/ˈɹɛdi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "prepared or willing to do something",
+              "th": "เตรียมพร้อมหรือเต็มใจที่จะทำสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["unprepared","unwilling"],
+    examples:   [
+        "I am ready to go.",
+        "She is ready to start her new job.",
+        "He is not ready for the exam."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'swimming',
+    level: 'A1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈswɪmɪŋ/',
+    ipa_us: '/ˈswɪmɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of moving through water using the limbs",
+              "th": "การเคลื่อนไหวผ่านน้ำโดยใช้ขาหรือมือ"
+        },
+        {
+              "pos": "verb",
+              "en": "to move through water using the limbs",
+              "th": "เคลื่อนไหวผ่านน้ำโดยใช้ขาหรือมือ"
+        }
+  ],
+    antonyms: ["sinking","drowning"],
+    examples:   [
+        "I love swimming in the ocean.",
+        "She is swimming in the pool.",
+        "He goes swimming every weekend."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'horse',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/hɔːs/',
+    ipa_us: '/hɔːs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large, hoofed, herbivorous mammal",
+              "th": "สัตว์เลี้ยงลูกด้วยนมที่มีขนาดใหญ่ มีเขี้ยว และกินพืช"
+        }
+  ],
+    antonyms: ["donkey","mule"],
+    examples:   [
+        "I love riding a horse.",
+        "The horse is a beautiful animal.",
+        "She has a horse farm in the countryside."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'we',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/wiː/',
+    ipa_us: '/wiː/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to refer to the speaker and one or more other people",
+              "th": "ใช้เพื่ออ้างถึงผู้พูดและบุคคลอื่นหนึ่งหรือหลายคน"
+        }
+  ],
+    antonyms: ["they","I"],
+    examples:   [
+        "We are going to the movies tonight.",
+        "We have a meeting at 2 o'clock.",
+        "We love playing soccer together."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bad',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/bæːd/',
+    ipa_us: '/bæːd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "of poor quality or unpleasant",
+              "th": "มีคุณภาพไม่ดีหรือไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["good","excellent"],
+    examples:   [
+        "The food was bad, so I didn't eat it.",
+        "He has a bad habit of smoking.",
+        "The movie was bad, I didn't like it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'desk',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɛsk/',
+    ipa_us: '/dɛsk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of furniture with a flat surface, used for writing or working",
+              "th": "เฟอร์นิเจอร์ที่มีพื้นผิวเรียบ ใช้สำหรับเขียนหรือทำงาน"
+        }
+  ],
+    antonyms: ["chair","table"],
+    examples:   [
+        "I work at my desk every day.",
+        "The desk is too small for my computer.",
+        "She sat at her desk and started writing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'grass',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '[ɡɹ̠äːs]',
+    ipa_us: '[ɡɹ̠äːs]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of plant with narrow leaves that is commonly found in lawns and fields",
+              "th": "พืชชนิดหนึ่งที่มีใบแคบและพบได้ทั่วไปในสนามและทุ่ง"
+        }
+  ],
+    antonyms: ["concrete","asphalt"],
+    examples:   [
+        "The grass is green and soft.",
+        "She likes to play on the grass.",
+        "He cut the grass in the backyard."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'interested',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɪntəɹɛstəd/',
+    ipa_us: '/ˈɪntəɹɛstəd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling curious or wanting to learn more about something",
+              "th": "รู้สึกอยากรู้หรือต้องการเรียนรู้เพิ่มเติมเกี่ยวกับสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["bored","uninterested"],
+    examples:   [
+        "I am interested in learning a new language.",
+        "She is interested in science and technology.",
+        "He is not interested in sports."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'than',
+    level: 'A1',
+    partOfSpeech: ["conjunction"],
+    ipa_uk: '/ðæn/',
+    ipa_us: '/ðæn/',
+    meanings:   [
+        {
+              "pos": "conjunction",
+              "en": "used to compare two things",
+              "th": "ใช้เพื่อเปรียบเทียบสองสิ่ง"
+        }
+  ],
+    antonyms: ["like","as"],
+    examples:   [
+        "I am taller than my brother.",
+        "She runs faster than me.",
+        "He is more intelligent than his sister."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'again',
+    level: 'A1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈɡeɪn/',
+    ipa_us: '/əˈɡeɪn/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "one more time, or another time",
+              "th": "อีกครั้งหนึ่ง หรือครั้งอื่น"
+        }
+  ],
+    antonyms: ["never","once"],
+    examples:   [
+        "I will see you again tomorrow.",
+        "She wants to try again.",
+        "He did it again, and I'm not happy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
