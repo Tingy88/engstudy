@@ -12650,6 +12650,342 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'cessation',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/sɛˈseɪʃən/',
+    ipa_us: '/sɛˈseɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of stopping or bringing to an end",
+              "th": "การหยุดหรือสิ้นสุด"
+        }
+  ],
+    antonyms: ["continuation","persistence"],
+    examples:   [
+        "The company announced the cessation of its operations due to financial difficulties.",
+        "The cessation of hostilities led to a period of peace.",
+        "The doctor recommended the cessation of smoking to improve health."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'con',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kɒn/',
+    ipa_us: '/kɒn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a disadvantage or a swindle",
+              "th": "ข้อเสียหรือการหลอกลวง"
+        },
+        {
+              "pos": "verb",
+              "en": "to swindle or cheat",
+              "th": "หลอกลวงหรือโกง"
+        }
+  ],
+    antonyms: ["pro","benefit"],
+    examples:   [
+        "The con artist convinced the victim to invest in a fake scheme.",
+        "The new policy has a significant con: it will increase taxes.",
+        "The scammer tried to con the elderly woman out of her savings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ethical',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɛθɪkəl/',
+    ipa_us: '/ˈɛθɪkəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to moral principles or values",
+              "th": "เกี่ยวกับหลักศีลธรรมหรือค่านิยม"
+        }
+  ],
+    antonyms: ["unethical","immoral"],
+    examples:   [
+        "The company has an ethical policy of sourcing materials sustainably.",
+        "The doctor had to make an ethical decision about the patient's treatment.",
+        "The journalist's ethical standards were questioned after the scandal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sarcasm',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɑːˌkæzəm/',
+    ipa_us: '/ˈsɑːˌkæzəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the use of irony or mockery to express contempt",
+              "th": "การใช้คำพูดที่มีเสียงเยาะเย้ยเพื่อแสดงความไม่พอใจ"
+        }
+  ],
+    antonyms: ["sincerity","genuineness"],
+    examples:   [
+        "The teacher detected sarcasm in the student's tone and reprimanded him.",
+        "The comedian's use of sarcasm made the audience laugh.",
+        "The writer's sarcasm in the article was meant to criticize the government's policy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stylistic',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/staɪˈlɪstɪk/',
+    ipa_us: '/staɪˈlɪstɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to style or aesthetics",
+              "th": "เกี่ยวกับลักษณะหรือสุนทรียศาสตร์"
+        }
+  ],
+    antonyms: ["substantive","factual"],
+    examples:   [
+        "The stylistic elements of the film were widely praised by critics.",
+        "The author's stylistic approach to writing made the novel unique.",
+        "The designer's stylistic vision for the brand was innovative and bold."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clinical',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈklɪnɪkəl/',
+    ipa_us: '/ˈklɪnɪkəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the observation, diagnosis, or treatment of patients",
+              "th": "เกี่ยวกับการสังเกตการณ์ การวินิจฉัย หรือการรักษาผู้ป่วย"
+        }
+  ],
+    antonyms: ["theoretical","hypothetical"],
+    examples:   [
+        "The clinical trial of the new drug showed promising results.",
+        "The doctor's clinical experience helped her make an accurate diagnosis.",
+        "The clinical psychologist worked with patients to develop coping strategies."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'overseer',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈəʊvəˌsiːə(ɹ)/',
+    ipa_us: '/ˈəʊvəˌsiːə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who supervises or manages something",
+              "th": "บุคคลที่ดูแลหรือจัดการสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["subordinate","assistant"],
+    examples:   [
+        "The overseer of the project ensured that it was completed on time.",
+        "The company appointed an overseer to monitor the factory's operations.",
+        "The overseer of the estate managed the daily activities of the farm."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'faction',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfæk.ʃn̩/',
+    ipa_us: '/ˈfæk.ʃn̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small group within a larger group, often with different opinions or interests",
+              "th": "กลุ่มเล็กๆ ภายในกลุ่มใหญ่ๆ มักจะมีความคิดเห็นที่แตกต่างหรือมีส่วนสนใจที่แตกต่าง"
+        }
+  ],
+    antonyms: ["unity","solidarity"],
+    examples:   [
+        "The faction within the party opposed the leader's policies.",
+        "The faction in the community wanted to secede from the rest of the city.",
+        "The faction in the company was at odds with the management over wages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exhilarate',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɛɡ-/',
+    ipa_us: '/ɛɡ-/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone feel extremely happy or excited",
+              "th": "ทำให้ใครบางคนรู้สึกมีความสุขหรือตื่นเต้นอย่างมาก"
+        }
+  ],
+    antonyms: ["depress","dishearten"],
+    examples:   [
+        "The news of the wedding exhilarated the whole family.",
+        "The rollercoaster ride exhilarated the children, who screamed with delight.",
+        "The beautiful scenery exhilarated the hikers, who felt a sense of awe."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'slob',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/slɒb/',
+    ipa_us: '/slɒb/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is untidy or lazy",
+              "th": "บุคคลที่ไม่เรียบร้อยหรือเกียจคร้าน"
+        }
+  ],
+    antonyms: ["neat freak","perfectionist"],
+    examples:   [
+        "The slob left his dirty socks on the floor for weeks.",
+        "The slob spent the entire day watching TV and eating junk food.",
+        "The slob's apartment was a mess, with clothes and trash scattered everywhere."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'quip',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kwɪp/',
+    ipa_us: '/kwɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a witty or sarcastic remark",
+              "th": "คำพูดที่มีไหวพริบหรือเยาะเย้ย"
+        },
+        {
+              "pos": "verb",
+              "en": "to make a witty or sarcastic remark",
+              "th": "พูดหรือกล่าวคำที่มีไหวพริบหรือเยาะเย้ย"
+        }
+  ],
+    antonyms: ["compliment","praise"],
+    examples:   [
+        "The comedian's quip about the politician's hairstyle got a lot of laughs.",
+        "She quipped that the movie was so bad it was good.",
+        "The teacher quipped that the student's excuse was the most creative she had ever heard."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'durable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈd(j)ʊəɹəbəl/',
+    ipa_us: '/ˈd(j)ʊəɹəbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to withstand wear and tear or last for a long time",
+              "th": "สามารถทนต่อการเสื่อมสภาพหรือใช้งานได้นาน"
+        }
+  ],
+    antonyms: ["fragile","perishable"],
+    examples:   [
+        "The durable fabric of the sofa withstood the rough handling of the children.",
+        "The durable construction of the building made it resistant to earthquakes.",
+        "The company produced durable goods that could last for decades."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cleanly',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈklɛnli/',
+    ipa_us: '/ˈklɛnli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a clean and tidy manner",
+              "th": "ด้วยวิธีการที่สะอาดและเรียบร้อย"
+        }
+  ],
+    antonyms: ["messily","sloppily"],
+    examples:   [
+        "The surgeon performed the operation cleanly and efficiently.",
+        "The chef prepared the meal cleanly, avoiding cross-contamination.",
+        "The athlete played the game cleanly, without committing any fouls."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'strap',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/stɹæp/',
+    ipa_us: '/stɹæp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, narrow piece of material used for fastening or supporting something",
+              "th": "สิ่งที่ใช้สำหรับยึดหรือรองรับสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to fasten or secure something with a strap",
+              "th": "ยึดหรือรักษาสิ่งใดสิ่งหนึ่งด้วยสายรัด"
+        }
+  ],
+    antonyms: ["unfasten","release"],
+    examples:   [
+        "The strap on the backpack broke, causing the bag to fall off.",
+        "She strapped the baby into the car seat to ensure safety.",
+        "The hikers strapped on their gear and began the ascent."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'facial',
+    level: 'C1',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈfeɪʃəl/',
+    ipa_us: '/ˈfeɪʃəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the face",
+              "th": "เกี่ยวกับใบหน้า"
+        },
+        {
+              "pos": "noun",
+              "en": "a treatment for the face, such as a massage or a skin care procedure",
+              "th": "การรักษาใบหน้า เช่น การนวดหรือการดูแลผิว"
+        }
+  ],
+    antonyms: ["bodily","physical"],
+    examples:   [
+        "The facial recognition software identified the suspect in the video.",
+        "She got a facial at the spa to relax and rejuvenate her skin.",
+        "The facial expression of the actor conveyed the emotions of the character."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
