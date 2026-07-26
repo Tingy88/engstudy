@@ -13958,6 +13958,430 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'recruit',
+    level: 'B2',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/ɹɪˈkɹuːt/',
+    ipa_us: '/ɹɪˈkɹuːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to find and employ new people to work for an organization",
+              "th": "รับเข้าทำงานหรือเข้าร่วมองค์กร"
+        },
+        {
+              "pos": "noun",
+              "en": "a person who has recently joined a company, organization, or the army",
+              "th": "บุคคลที่เพิ่งเข้าร่วมงาน องค์กร หรือทหาร"
+        }
+  ],
+    antonyms: ["fire","dismiss"],
+    examples:   [
+        "The company will recruit new staff next month.",
+        "She was a recruit in the army for two years.",
+        "The football team will recruit new players for the upcoming season."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'colon',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkəʊ.lɒn/',
+    ipa_us: '/ˈkəʊ.lɒn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a punctuation mark (:)",
+              "th": "เครื่องหมายวรรคตอน (:) "
+        },
+        {
+              "pos": "noun",
+              "en": "a part of the large intestine",
+              "th": "ส่วนหนึ่งของลำไส้ใหญ่"
+        }
+  ],
+    antonyms: ["comma","semicolon"],
+    examples:   [
+        "Use a colon to separate hours from minutes.",
+        "The doctor specialized in colon cancer treatment.",
+        "The colon is an essential part of the digestive system."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'desolation',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˌdɛsəˈleɪʃən/',
+    ipa_us: '/ˌdɛsəˈleɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of being empty or uninhabited",
+              "th": "สภาพที่ว่างเปล่าหรือไม่มีผู้คนอาศัย"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of great sadness or loneliness",
+              "th": "ความรู้สึกที่น่าเศร้าหรือเหงา"
+        }
+  ],
+    antonyms: ["happiness","prosperity"],
+    examples:   [
+        "The desolation of the landscape was depressing.",
+        "The city was left in desolation after the war.",
+        "The desolation in her eyes was heartbreaking."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'astronomy',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/æˈstɹɑnəˌmi/',
+    ipa_us: '/æˈstɹɑnəˌmi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the study of the universe, stars, and planets",
+              "th": "การศึกษาจักรวาล ดวงดาว และดาวเคราะห์"
+        }
+  ],
+    antonyms: ["geology","biology"],
+    examples:   [
+        "Astronomy is a fascinating field of study.",
+        "The astronomy club will meet tonight to observe the stars.",
+        "The university offers a degree in astronomy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'serial',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun [C]"],
+    ipa_uk: '/ˈsɪəɹiːəɫ/',
+    ipa_us: '/ˈsɪəɹiːəɫ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "happening or done in a series of events",
+              "th": "เกิดขึ้นหรือทำเป็นชุดของเหตุการณ์"
+        },
+        {
+              "pos": "noun",
+              "en": "a story or show that is broadcast in several parts",
+              "th": "เรื่องราวหรือรายการโทรทัศน์ที่ออกอากาศเป็นหลายตอน"
+        }
+  ],
+    antonyms: ["single","individual"],
+    examples:   [
+        "The serial killer was caught by the police.",
+        "The serial number on the product is unique.",
+        "The serial drama was very popular among audiences."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'commonwealth',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkɔmənˌwɛlθ/',
+    ipa_us: '/ˈkɔmənˌwɛlθ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of countries that were formerly part of the British Empire",
+              "th": "กลุ่มประเทศที่เคยเป็นส่วนหนึ่งของจักรวรรดิบริติช"
+        }
+  ],
+    antonyms: ["empire","kingdom"],
+    examples:   [
+        "The Commonwealth Games are held every four years.",
+        "The country is a member of the Commonwealth.",
+        "The Commonwealth is a voluntary association of countries."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disciple',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/dɪˈsaɪpl̩/',
+    ipa_us: '/dɪˈsaɪpl̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who follows and learns from a teacher or leader",
+              "th": "บุคคลที่ตามและเรียนรู้จากครูหรือผู้นำ"
+        }
+  ],
+    antonyms: ["opponent","enemy"],
+    examples:   [
+        "Jesus had twelve disciples.",
+        "The disciple of the famous artist became a great painter.",
+        "The disciple was devoted to his master."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'miniature',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun [C]"],
+    ipa_uk: '/ˈmɪn(ɪ)ətʃə(ɹ)/',
+    ipa_us: '/ˈmɪn(ɪ)ətʃə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very small",
+              "th": "เล็กมาก"
+        },
+        {
+              "pos": "noun",
+              "en": "a small copy of something",
+              "th": "สำเนาที่เล็กของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["enormous","giant"],
+    examples:   [
+        "The miniature dog was cute.",
+        "The artist created a miniature sculpture.",
+        "The miniature model of the car was detailed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unlimited',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈlɪmɪtɪd/',
+    ipa_us: '/ʌnˈlɪmɪtɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having no limits or restrictions",
+              "th": "ไม่มีข้อจำกัดหรือการจำกัด"
+        }
+  ],
+    antonyms: ["limited","restricted"],
+    examples:   [
+        "The company offers unlimited internet data.",
+        "The unlimited possibilities of the future are exciting.",
+        "The unlimited budget allowed the team to be creative."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'abruptly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ə.ˈbɹʌpt.li/',
+    ipa_us: '/ə.ˈbɹʌpt.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "suddenly and unexpectedly",
+              "th": "อย่าง突然และไม่คาดคิด"
+        }
+  ],
+    antonyms: ["gradually","slowly"],
+    examples:   [
+        "The meeting ended abruptly.",
+        "The car stopped abruptly in the middle of the road.",
+        "The weather changed abruptly from sunny to rainy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'manipulate',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/məˈnɪpjʊleɪt/',
+    ipa_us: '/məˈnɪpjʊleɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to control or influence someone or something in a clever or unfair way",
+              "th": "ควบคุมหรือมีอิทธิพลต่อคนหรือสิ่งใดสิ่งหนึ่งด้วยวิธีที่ชาญฉลาดหรือไม่ยุติธรรม"
+        }
+  ],
+    antonyms: ["respect","honor"],
+    examples:   [
+        "The politician tried to manipulate public opinion.",
+        "The company manipulates the market to increase profits.",
+        "The artist learned to manipulate light and shadow in her paintings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mansion',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈmæn(t)ʃən/',
+    ipa_us: '/ˈmæn(t)ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a very large and impressive house",
+              "th": "บ้านที่มีขนาดใหญ่และน่าประทับใจ"
+        }
+  ],
+    antonyms: ["hut","shack"],
+    examples:   [
+        "The millionaire lived in a grand mansion.",
+        "The mansion had a beautiful garden and a swimming pool.",
+        "The mansion was built in the 19th century."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fox',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/fɒks/',
+    ipa_us: '/fɒks/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small to medium-sized omnivorous mammal",
+              "th": "สัตว์เลี้ยงลูกด้วยนมกินได้ทุกอย่างขนาดเล็กถึงขนาดกลาง"
+        },
+        {
+              "pos": "noun",
+              "en": "a sly or cunning person",
+              "th": "บุคคลที่ฉลาดหรือมีเล่ห์เหลี่ยม"
+        }
+  ],
+    antonyms: ["lion","elephant"],
+    examples:   [
+        "The fox is a solitary animal.",
+        "The fox is known for its intelligence and cunning.",
+        "The fox and the grapes is a famous fable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'encounter',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ɪnˈkaʊntə/',
+    ipa_us: '/ɪnˈkaʊntə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a meeting or meeting with someone or something",
+              "th": "การพบปะหรือสัมผัสกับคนหรือสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to meet or experience something, especially something unpleasant",
+              "th": "พบปะหรือประสบสิ่งใดสิ่งหนึ่ง โดยเฉพาะอย่างยิ่งสิ่งที่ไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["avoid","evade"],
+    examples:   [
+        "The encounter between the two friends was emotional.",
+        "The hikers encountered a bear in the woods.",
+        "The company will encounter many challenges in the future."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pessimistic',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌpɛ.səˈmɪs.tɪk/',
+    ipa_us: '/ˌpɛ.səˈmɪs.tɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a negative or hopeless outlook on life",
+              "th": "มีมุมมองที่ไม่ดีหรือไม่มีความหวังต่อชีวิต"
+        }
+  ],
+    antonyms: ["optimistic","hopeful"],
+    examples:   [
+        "The pessimistic view of the future is depressing.",
+        "The pessimistic attitude of the team affected their performance.",
+        "The pessimistic forecast predicted a recession."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'input',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɪnpʊt/',
+    ipa_us: '/ˈɪnpʊt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "something that is put into a machine or system",
+              "th": "สิ่งที่ใส่เข้าไปในเครื่องจักรหรือระบบ"
+        },
+        {
+              "pos": "noun",
+              "en": "a contribution or suggestion, especially one that is useful or helpful",
+              "th": "การมีส่วนร่วมหรือคำแนะนำ โดยเฉพาะอย่างยิ่งคำแนะนำที่มีประโยชน์หรือมีประโยชน์"
+        }
+  ],
+    antonyms: ["output","result"],
+    examples:   [
+        "The computer requires an input of data to function.",
+        "The team needs input from the stakeholders to make a decision.",
+        "The input of the expert was invaluable to the project."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'upgrade',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈʌp.ɡɹeɪd/',
+    ipa_us: '/ˈʌp.ɡɹeɪd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an improvement or increase in quality, size, or amount",
+              "th": "การปรับปรุงหรือเพิ่มขึ้นในด้านคุณภาพ ขนาด หรือปริมาณ"
+        },
+        {
+              "pos": "verb",
+              "en": "to improve or increase something, especially in quality, size, or amount",
+              "th": "ปรับปรุงหรือเพิ่มขึ้น โดยเฉพาะอย่างยิ่งในด้านคุณภาพ ขนาด หรือปริมาณ"
+        }
+  ],
+    antonyms: ["downgrade","deteriorate"],
+    examples:   [
+        "The company will upgrade its software next month.",
+        "The upgrade to the new phone was worth it.",
+        "The hotel room was upgraded to a suite."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'journalism',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈdʒɜːn(ə)lɪzəm/',
+    ipa_us: '/ˈdʒɜːn(ə)lɪzəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the work of collecting, writing, and publishing news",
+              "th": "งานเก็บข้อมูล เขียนและตีพิมพ์ข่าว"
+        }
+  ],
+    antonyms: ["fiction","entertainment"],
+    examples:   [
+        "Journalism is a challenging and rewarding career.",
+        "The journalism student won an award for her investigative report.",
+        "The journalism industry is facing many changes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
