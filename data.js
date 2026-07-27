@@ -14382,6 +14382,389 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'aboard',
+    level: 'C1',
+    partOfSpeech: ["preposition","adverb"],
+    ipa_uk: '/əˈbɔːd/',
+    ipa_us: '/əˈbɔːd/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "on or onto a ship, plane, or train",
+              "th": "บนหรือเข้าสู่เรือ เครื่องบิน หรือรถไฟ"
+        },
+        {
+              "pos": "adverb",
+              "en": "on or onto something",
+              "th": "บนหรือเข้าสู่สิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["ashore","onshore"],
+    examples:   [
+        "The passengers got aboard the plane and found their seats.",
+        "The crew welcomed us aboard with a smile and a drink.",
+        "The new policy will be implemented aboard all company ships."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clutch',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/klʌt͡ʃ/',
+    ipa_us: '/klʌt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to hold something tightly",
+              "th": "จับหรือยึดสิ่งใดสิ่งหนึ่งให้แน่น"
+        },
+        {
+              "pos": "noun",
+              "en": "a device for connecting and disconnecting two rotating shafts",
+              "th": "อุปกรณ์สำหรับต่อและแยกแกนหมุนสองแกน"
+        }
+  ],
+    antonyms: ["release","let go"],
+    examples:   [
+        "She clutched her purse tightly as she walked through the crowded market.",
+        "The driver had to clutch the steering wheel to avoid the accident.",
+        "The clutch in my car is broken, I need to get it fixed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'restorative',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɪˈstɒɹətɪv/',
+    ipa_us: '/ɹɪˈstɒɹətɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "helping to restore or improve something",
+              "th": "ช่วยให้ฟื้นฟูหรือปรับปรุงสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["detrimental","harmful"],
+    examples:   [
+        "The restorative justice program aims to repair the harm caused by the crime.",
+        "The restorative powers of sleep can help improve cognitive function.",
+        "The restorative properties of the cream can help soothe and heal the skin."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'elastic',
+    level: 'C1',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/iˈlæstɪk/',
+    ipa_us: '/iˈlæstɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to stretch or deform and then return to its original shape",
+              "th": "สามารถยืดหรือเปลี่ยนรูปและกลับสู่รูปเดิม"
+        },
+        {
+              "pos": "noun",
+              "en": "a type of fabric or material that can stretch",
+              "th": "ประเภทของเนื้อผ้าหรือวัสดุที่สามารถยืดได้"
+        }
+  ],
+    antonyms: ["inflexible","rigid"],
+    examples:   [
+        "The elastic band snapped back into place after being stretched.",
+        "The elastic properties of the material make it ideal for clothing.",
+        "The elastic in my pants is worn out, I need to get them fixed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ingenuity',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌɪndʒəˈn(j)uːəti/',
+    ipa_us: '/ˌɪndʒəˈn(j)uːəti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being clever and inventive",
+              "th": "คุณสมบัติของการเป็นคนฉลาดและคิดค้น"
+        }
+  ],
+    antonyms: ["ineptness","incompetence"],
+    examples:   [
+        "The ingenuity of the solution impressed the judges.",
+        "The ingenuity of the inventor led to the creation of many innovative products.",
+        "The ingenuity of the team helped them overcome the challenges and achieve their goal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'portray',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/pɔɹˈtɹeɪ/',
+    ipa_us: '/pɔɹˈtɹeɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to describe or represent someone or something in a particular way",
+              "th": "อธิบายหรือแสดงถึงใครหรือสิ่งใดในลักษณะเฉพาะ"
+        }
+  ],
+    antonyms: ["misrepresent","distort"],
+    examples:   [
+        "The artist's painting portrays a beautiful landscape.",
+        "The movie portrays the life of a famous historical figure.",
+        "The writer's words portray a sense of sadness and loss."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'raunchy',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹɔːntʃi/',
+    ipa_us: '/ˈɹɔːntʃi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a strong and often shocking sexual quality",
+              "th": "มีคุณภาพทางเพศที่เข้มข้นและบางครั้งทำให้ตกใจ"
+        }
+  ],
+    antonyms: ["tame","innocent"],
+    examples:   [
+        "The raunchy humor in the movie was not suitable for all audiences.",
+        "The raunchy lyrics of the song were criticized by some listeners.",
+        "The raunchy atmosphere of the club was not what I expected."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sap',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/sæp/',
+    ipa_us: '/sæp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to weaken or drain the energy or strength of something",
+              "th": "ทำให้อ่อนแอหรือหมดพลังหรือความแข็งแรงของสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a fluid that flows through the vessels of a plant",
+              "th": "ของเหลวที่ไหลผ่านหลอดเลือดของพืช"
+        }
+  ],
+    antonyms: ["strengthen","energize"],
+    examples:   [
+        "The disease can sap the strength of the infected person.",
+        "The sap of the tree is used to make medicine.",
+        "The long journey can sap your energy, so be sure to rest."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'monotony',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/məˈnɒtəni/',
+    ipa_us: '/məˈnɒtəni/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being dull and uninteresting",
+              "th": "คุณสมบัติของการเป็นคนน่าเบื่อและไม่น่าสนใจ"
+        }
+  ],
+    antonyms: ["variety","diversity"],
+    examples:   [
+        "The monotony of the task made it difficult to stay focused.",
+        "The monotony of the landscape made the journey feel long and boring.",
+        "The monotony of the routine was broken by the surprise party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'commend',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kəˈmɛnd/',
+    ipa_us: '/kəˈmɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to praise or express approval of someone or something",
+              "th": "เพื่อชื่นชมหรือแสดงความเห็นชอบต่อใครหรือสิ่งใด"
+        }
+  ],
+    antonyms: ["criticize","condemn"],
+    examples:   [
+        "The manager commended the team for their hard work.",
+        "The teacher commended the student for their excellent grades.",
+        "The company commended the employee for their innovative idea."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unison',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈjunɨsən/',
+    ipa_us: '/ˈjunɨsən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being in harmony or agreement",
+              "th": "สถานะของการอยู่ในความสามัคคีหรือความเห็นชอบ"
+        }
+  ],
+    antonyms: ["discord","disagreement"],
+    examples:   [
+        "The choir sang in unison, their voices blending together beautifully.",
+        "The team worked in unison to achieve their goal.",
+        "The crowd spoke in unison, demanding justice for the victim."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'forensic',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/fəˈɹɛn.sɪk/',
+    ipa_us: '/fəˈɹɛn.sɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the use of science or technology in the investigation of crimes",
+              "th": "เกี่ยวข้องกับการใช้วิทยาศาสตร์หรือเทคโนโลยีในการสืบสวนอาชญากรรม"
+        }
+  ],
+    antonyms: ["unscientific","amateur"],
+    examples:   [
+        "The forensic evidence was used to solve the crime.",
+        "The forensic team analyzed the DNA samples to identify the suspect.",
+        "The forensic expert testified in court about the findings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sacrifice',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈsækɹɪfaɪs/',
+    ipa_us: '/ˈsækɹɪfaɪs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give up something valuable or important",
+              "th": "ให้บางสิ่งที่มีค่าหรือสำคัญ"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of giving up something valuable or important",
+              "th": "การกระทำของการให้บางสิ่งที่มีค่าหรือสำคัญ"
+        }
+  ],
+    antonyms: ["gain","benefit"],
+    examples:   [
+        "She sacrificed her own needs for the sake of her family.",
+        "The team made a sacrifice to win the game, giving up their best player.",
+        "The sacrifice of the hero will never be forgotten."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compel',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kəmˈpɛl/',
+    ipa_us: '/kəmˈpɛl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to force or persuade someone to do something",
+              "th": "บังคับหรือชักชวนให้ใครทำบางสิ่ง"
+        }
+  ],
+    antonyms: ["deter","discourage"],
+    examples:   [
+        "The evidence compelled the jury to deliver a guilty verdict.",
+        "The circumstances compelled her to make a difficult decision.",
+        "The need to survive compelled the group to work together."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'midwife',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɪd.waɪf/',
+    ipa_us: '/ˈmɪd.waɪf/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who helps women give birth",
+              "th": "บุคคลที่ช่วยเหลือผู้หญิงให้กำเนิด"
+        }
+  ],
+    antonyms: ["obstetrician","doctor"],
+    examples:   [
+        "The midwife assisted the mother during the delivery.",
+        "The midwife provided emotional support to the new mother.",
+        "The midwife played a crucial role in the birth of the baby."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'jurisdiction',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/d͡ʒɔːɹɪsˈdɪkʃən/',
+    ipa_us: '/d͡ʒɔːɹɪsˈdɪkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the authority of a court or government to make decisions",
+              "th": "อำนาจของศาลหรือรัฐบาลในการตัดสินใจ"
+        }
+  ],
+    antonyms: ["exclusion","exception"],
+    examples:   [
+        "The court had jurisdiction over the case and made a ruling.",
+        "The jurisdiction of the local government was limited.",
+        "The company was subject to the jurisdiction of the regulatory agency."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'supple',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsʌpəl/',
+    ipa_us: '/ˈsʌpəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "able to bend or flex easily",
+              "th": "สามารถงอหรือยืดได้ง่าย"
+        }
+  ],
+    antonyms: ["stiff","rigid"],
+    examples:   [
+        "The supple leather made the shoes comfortable to wear.",
+        "The supple branches of the tree swayed in the wind.",
+        "The supple muscles of the athlete allowed her to perform complex movements."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
