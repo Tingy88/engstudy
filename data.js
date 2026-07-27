@@ -14765,6 +14765,556 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'married',
+    level: 'A2',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ˈmæɹ.ɪd/',
+    ipa_us: '/ˈmæɹ.ɪd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become someone's husband or wife",
+              "th": "แต่งงาน"
+        },
+        {
+              "pos": "adjective",
+              "en": "having a husband or wife",
+              "th": "ที่แต่งงานแล้ว"
+        }
+  ],
+    antonyms: ["single","unmarried"],
+    examples:   [
+        "They got married last year.",
+        "My married friends have a lot of responsibilities.",
+        "The married couple has two kids."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prediction',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹɪˈdɪkʃn/',
+    ipa_us: '/pɹɪˈdɪkʃn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement about what will happen in the future",
+              "th": "การทำนาย"
+        }
+  ],
+    antonyms: ["fact","reality"],
+    examples:   [
+        "The weather forecast is just a prediction.",
+        "Her prediction about the company's success was correct.",
+        "The prediction of the earthquake was made by scientists."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ankle',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈæŋ.kəl/',
+    ipa_us: '/ˈæŋ.kəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the joint that connects the foot to the leg",
+              "th": "ข้อเท้า"
+        }
+  ],
+    antonyms: ["knee","elbow"],
+    examples:   [
+        "She twisted her ankle while running.",
+        "The doctor examined my ankle and said it was broken.",
+        "The ankle is a common injury in sports."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'violent',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvaɪ(ə)lənt/',
+    ipa_us: '/ˈvaɪ(ə)lənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "using or involving physical force intended to hurt or kill",
+              "th": "ที่ใช้ความรุนแรง"
+        }
+  ],
+    antonyms: ["peaceful","nonviolent"],
+    examples:   [
+        "The violent storm caused a lot of damage.",
+        "The movie was too violent for children.",
+        "The violent crime rate has increased in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'receive',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹɪˈsiːv/',
+    ipa_us: '/ɹɪˈsiːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to get or be given something",
+              "th": "ได้รับ"
+        }
+  ],
+    antonyms: ["send","give"],
+    examples:   [
+        "I receive a lot of emails every day.",
+        "She will receive a prize for her outstanding work.",
+        "The company will receive a large investment from investors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bill',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/bɪl/',
+    ipa_us: '/bɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a document that shows the amount of money you owe for something",
+              "th": "ใบเรียกเก็บเงิน"
+        },
+        {
+              "pos": "verb",
+              "en": "to ask someone to pay for something",
+              "th": "เรียกเก็บเงิน"
+        }
+  ],
+    antonyms: ["pay","refund"],
+    examples:   [
+        "The bill for the dinner was very expensive.",
+        "The company will bill you for the services provided.",
+        "I need to pay the bill before the deadline."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'truth',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tɹuːθ/',
+    ipa_us: '/tɹuːθ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being true or accurate",
+              "th": "ความจริง"
+        }
+  ],
+    antonyms: ["lie","falsehood"],
+    examples:   [
+        "The truth is that I don't like the movie.",
+        "She told the truth about what happened.",
+        "The truth will come out eventually."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'crazy',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkɹeɪzi/',
+    ipa_us: '/ˈkɹeɪzi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "mentally ill or unstable",
+              "th": "บ้า"
+        },
+        {
+              "pos": "adjective",
+              "en": "extremely foolish or absurd",
+              "th": "บ้าๆ บอๆ"
+        }
+  ],
+    antonyms: ["sane","reasonable"],
+    examples:   [
+        "He's crazy about playing football.",
+        "The crazy driver almost hit me.",
+        "I think it's crazy to spend that much money on a car."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'whatever',
+    level: 'A2',
+    partOfSpeech: ["pronoun","adverb"],
+    ipa_uk: '/wɒtˈɛvə/',
+    ipa_us: '/wɒtˈɛvə/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "anything or everything",
+              "th": "อะไรก็ได้"
+        },
+        {
+              "pos": "adverb",
+              "en": "used to show that you do not care about something",
+              "th": "อะไรก็ได้"
+        }
+  ],
+    antonyms: ["nothing","none"],
+    examples:   [
+        "You can eat whatever you want.",
+        "I'll do whatever it takes to succeed.",
+        "Whatever happens, I'll be there for you."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'youth',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/juθ/',
+    ipa_us: '/juθ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the period of life when someone is young",
+              "th": "วัยหนุ่มสาว"
+        }
+  ],
+    antonyms: ["old age","adulthood"],
+    examples:   [
+        "The youth of today are very different from the past.",
+        "Youth is a time of discovery and exploration.",
+        "The youth center provides activities for young people."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'modern',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmɒd(ə)n/',
+    ipa_us: '/ˈmɒd(ə)n/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "new and up-to-date",
+              "th": "สมัยใหม่"
+        }
+  ],
+    antonyms: ["old","traditional"],
+    examples:   [
+        "The modern city is very different from the old town.",
+        "The company uses modern technology to improve efficiency.",
+        "The modern art museum has a unique collection."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'loose',
+    level: 'A2',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/luːs/',
+    ipa_us: '/luːs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not tight or secure",
+              "th": "หลวม"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something loose or free",
+              "th": "ทำให้หลวม"
+        }
+  ],
+    antonyms: ["tight","secure"],
+    examples:   [
+        "The loose screw needs to be tightened.",
+        "She has a loose tooth that needs to be pulled out.",
+        "The dog was loose in the park and ran away."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'champagne',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ʃæmˈpeɪn/',
+    ipa_us: '/ʃæmˈpeɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of sparkling wine",
+              "th": "แชมเปญ"
+        }
+  ],
+    antonyms: ["water","juice"],
+    examples:   [
+        "We drank champagne to celebrate our anniversary.",
+        "The champagne was very expensive.",
+        "Champagne is often served at weddings and parties."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'knowledge',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈnɒlɪdʒ/',
+    ipa_us: '/ˈnɒlɪdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "information, understanding, or skill that you get from experience or education",
+              "th": "ความรู้"
+        }
+  ],
+    antonyms: ["ignorance","lack of understanding"],
+    examples:   [
+        "The professor has a lot of knowledge about history.",
+        "The company values knowledge and innovation.",
+        "The knowledge of a new language can open up new opportunities."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'feature',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈfiːtʃə/',
+    ipa_us: '/ˈfiːtʃə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a part of something that is interesting or important",
+              "th": "คุณลักษณะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to include or show something as a special part of a program or performance",
+              "th": "นำเสนอ"
+        }
+  ],
+    antonyms: ["缺点","disadvantage"],
+    examples:   [
+        "The new smartphone has many exciting features.",
+        "The movie will feature a famous actor.",
+        "The feature of the new car is its advanced safety system."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'track',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/tɹæk/',
+    ipa_us: '/tɹæk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a path or route, especially one made for walking, running, or driving",
+              "th": "เส้นทาง"
+        },
+        {
+              "pos": "verb",
+              "en": "to follow or find the path or route of something or someone",
+              "th": "ติดตาม"
+        }
+  ],
+    antonyms: ["lose","misplace"],
+    examples:   [
+        "The track was very difficult to follow.",
+        "The athlete will track her progress to improve her performance.",
+        "The company will track the sales data to make informed decisions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ring',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɹɪŋ/',
+    ipa_us: '/ɹɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a circular piece of jewelry, especially one that is worn on the finger",
+              "th": "แหวน"
+        },
+        {
+              "pos": "verb",
+              "en": "to make a loud, clear sound, like a bell",
+              "th": "ดัง"
+        }
+  ],
+    antonyms: ["silent","quiet"],
+    examples:   [
+        "The ring on her finger is very beautiful.",
+        "The phone will ring when someone calls.",
+        "The bell will ring to signal the start of the class."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'beauty',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbuːti/',
+    ipa_us: '/ˈbuːti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being pleasing, attractive, or beautiful",
+              "th": "ความสวยงาม"
+        }
+  ],
+    antonyms: ["ugliness","unattractiveness"],
+    examples:   [
+        "The beauty of nature is breathtaking.",
+        "The beauty of the city is its unique architecture.",
+        "The beauty of the painting is its use of color and light."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'forever',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/fəˈɹɛvə(ɹ)/',
+    ipa_us: '/fəˈɹɛvə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "always, or for a very long time",
+              "th": "ตลอดไป"
+        }
+  ],
+    antonyms: ["never","temporarily"],
+    examples:   [
+        "I will love you forever.",
+        "The company will be in business forever.",
+        "The memory of the event will last forever."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sew',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/səʊ/',
+    ipa_us: '/səʊ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to join or repair something using a needle and thread",
+              "th": "เย็บ"
+        }
+  ],
+    antonyms: ["tear","unsew"],
+    examples:   [
+        "She will sew the torn page back together.",
+        "The tailor will sew a new suit for the wedding.",
+        "The seamstress will sew a beautiful dress for the party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'belong',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/bɪˈlɒŋ/',
+    ipa_us: '/bɪˈlɒŋ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be a part of something, or to be in a place where you feel comfortable or at home",
+              "th": "เป็นส่วนหนึ่ง"
+        }
+  ],
+    antonyms: ["not belong","be excluded"],
+    examples:   [
+        "I feel like I belong in this community.",
+        "The book belongs on the shelf.",
+        "The keys belong to my brother."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'comic',
+    level: 'A2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈkɒmɪk/',
+    ipa_us: '/ˈkɒmɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a book or magazine that contains cartoons or humorous stories",
+              "th": "หนังสือการ์ตูน"
+        },
+        {
+              "pos": "adjective",
+              "en": "funny or amusing",
+              "th": "ตลก"
+        }
+  ],
+    antonyms: ["tragic","serious"],
+    examples:   [
+        "The comic book is very popular among kids.",
+        "The comic actor is known for his funny performances.",
+        "The comic strip is a fun way to tell a story."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'architecture',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɑː.kɪ.ˌtɛk.tʃə/',
+    ipa_us: '/ˈɑː.kɪ.ˌtɛk.tʃə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the art or science of designing and building buildings, bridges, and other structures",
+              "th": "สถาปัตยกรรม"
+        }
+  ],
+    antonyms: ["destruction","demolition"],
+    examples:   [
+        "The architecture of the city is very unique.",
+        "The company specializes in sustainable architecture.",
+        "The architecture of the ancient temple is impressive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'oil',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɔɪl/',
+    ipa_us: '/ɔɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a liquid substance that is used as a fuel, lubricant, or in cooking",
+              "th": "น้ำมัน"
+        }
+  ],
+    antonyms: ["water","gas"],
+    examples:   [
+        "The car needs oil to run.",
+        "The cook used oil to fry the food.",
+        "The company drills for oil in the ocean."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
