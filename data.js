@@ -15315,6 +15315,483 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'sponsor',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈspɒn.sə/',
+    ipa_us: '/ˈspɒn.sə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person or organization that gives money to support an event, person, or activity",
+              "th": "ผู้สนับสนุนหรือองค์กรที่ให้เงินสนับสนุนกิจกรรม บุคคล หรืองาน"
+        },
+        {
+              "pos": "verb",
+              "en": "to support an event, person, or activity by giving money",
+              "th": "ให้การสนับสนุนโดยการให้เงินแก่บุคคล กิจกรรม หรืองาน"
+        }
+  ],
+    antonyms: ["opponent","rival"],
+    examples:   [
+        "The company will sponsor the charity event.",
+        "She sponsored her friend's education.",
+        "The sports team is looking for a sponsor to support their tournament."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dishwasher',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɪʃˌwɒʃə/',
+    ipa_us: '/ˈdɪʃˌwɒʃə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a machine that washes dishes",
+              "th": "เครื่องล้างจาน"
+        }
+  ],
+    antonyms: ["dishwasher","manual"],
+    examples:   [
+        "I loaded the dishwasher with dirty dishes.",
+        "The dishwasher is broken, we need to fix it.",
+        "She prefers to wash dishes by hand instead of using the dishwasher."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'massive',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmæs.ɪv/',
+    ipa_us: '/ˈmæs.ɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very large or heavy",
+              "th": "ใหญ่มากหรือหนักมาก"
+        }
+  ],
+    antonyms: ["small","tiny"],
+    examples:   [
+        "The massive stone statue stood in the city center.",
+        "The company has a massive debt to pay off.",
+        "The massive earthquake destroyed the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'majority',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/məˈd͡ʒɒɹɪti/',
+    ipa_us: '/məˈd͡ʒɒɹɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the larger number of people or things in a group",
+              "th": "จำนวนมากในกลุ่ม"
+        }
+  ],
+    antonyms: ["minority","few"],
+    examples:   [
+        "The majority of students voted for the new school policy.",
+        "The majority of people in the town speak English as their first language.",
+        "The majority of the company's profits come from overseas sales."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'weapon',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈwɛ.pən/',
+    ipa_us: '/ˈwɛ.pən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an object used for fighting or attacking",
+              "th": "อาวุธ"
+        }
+  ],
+    antonyms: ["shield","protection"],
+    examples:   [
+        "The soldier carried a weapon into battle.",
+        "The new weapon is more powerful than the old one.",
+        "The company develops weapons for the military."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'arise',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈɹaɪz/',
+    ipa_us: '/əˈɹaɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to get up or stand up",
+              "th": "ลุกขึ้นหรือยืนขึ้น"
+        },
+        {
+              "pos": "verb",
+              "en": "to come into existence or become apparent",
+              "th": "เกิดขึ้นหรือปรากฏชัดเจน"
+        }
+  ],
+    antonyms: ["sit","lie"],
+    examples:   [
+        "She will arise early in the morning to meditate.",
+        "A new problem has arisen that needs to be solved.",
+        "The issue arose during the meeting and was discussed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deprive',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈpɹaɪv/',
+    ipa_us: '/dɪˈpɹaɪv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take something away from someone or something",
+              "th": "เอาอะไรบางอย่างไปจากใครบางคนหรืออะไรบางอย่าง"
+        }
+  ],
+    antonyms: ["provide","supply"],
+    examples:   [
+        "The company will deprive employees of their benefits if they are late.",
+        "The lack of sleep will deprive you of your energy.",
+        "The government's policy will deprive the poor of their rights."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'opening',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈəʊ.pənɪŋ/',
+    ipa_us: '/ˈəʊ.pənɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an act of opening something",
+              "th": "การเปิดอะไรบางอย่าง"
+        },
+        {
+              "pos": "noun",
+              "en": "a vacant position or opportunity",
+              "th": "ตำแหน่งว่างหรือโอกาส"
+        }
+  ],
+    antonyms: ["closing","end"],
+    examples:   [
+        "The opening ceremony of the Olympics was spectacular.",
+        "There is an opening for a sales manager at the company.",
+        "The opening of the new restaurant was a huge success."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'alike',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈlaɪk/',
+    ipa_us: '/əˈlaɪk/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a similar way or to a similar degree",
+              "th": "ในลักษณะที่คล้ายคลึงกันหรือในระดับที่คล้ายคลึงกัน"
+        }
+  ],
+    antonyms: ["different","distinct"],
+    examples:   [
+        "The two sisters look alike and have similar personalities.",
+        "The two companies have alike business models.",
+        "The two paintings are alike in style and color."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'naked',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈnɛkɪd/',
+    ipa_us: '/ˈnɛkɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "without clothes",
+              "th": "ไม่มีเสื้อผ้า"
+        }
+  ],
+    antonyms: ["clothed","dressed"],
+    examples:   [
+        "The baby was naked and needed a diaper.",
+        "The model posed naked for the art class.",
+        "The tree was naked of leaves in the winter."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trail',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/tɹeɪl/',
+    ipa_us: '/tɹeɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a path or track made or used for walking, riding, or driving",
+              "th": "เส้นทางหรือรอยที่ทำหรือใช้สำหรับการเดิน ขี่ หรือขับรถ"
+        },
+        {
+              "pos": "verb",
+              "en": "to follow or move behind someone or something",
+              "th": "ติดตามหรือเคลื่อนที่หลังใครบางคนหรืออะไรบางอย่าง"
+        }
+  ],
+    antonyms: ["lead","precede"],
+    examples:   [
+        "The trail in the park is perfect for hiking.",
+        "The detective trailed the suspect to the hideout.",
+        "The company will trail behind its competitors if it doesn't innovate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'preserve',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/pɹəˈzɜːv/',
+    ipa_us: '/pɹəˈzɜːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to keep something in its original state or condition",
+              "th": "เก็บรักษาอะไรบางอย่างให้คงเดิม"
+        },
+        {
+              "pos": "noun",
+              "en": "a place where animals or plants are protected",
+              "th": "สถานที่ที่สัตว์หรือพืชได้รับการคุ้มครอง"
+        }
+  ],
+    antonyms: ["destroy","harm"],
+    examples:   [
+        "We need to preserve the environment for future generations.",
+        "The company will preserve the old building as a historic landmark.",
+        "The nature preserve is home to many endangered species."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'jog',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dʒɒɡ/',
+    ipa_us: '/dʒɒɡ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to run at a slow and steady pace",
+              "th": "วิ่งด้วยความเร็วที่ช้าและสม่ำเสมอ"
+        },
+        {
+              "pos": "noun",
+              "en": "a slow and steady run, especially as a form of exercise",
+              "th": "การวิ่งที่ช้าและสม่ำเสมอ โดยเฉพาะเป็นการออกกำลังกาย"
+        }
+  ],
+    antonyms: ["sprint","rush"],
+    examples:   [
+        "I like to jog in the morning to stay healthy.",
+        "The jog along the beach was refreshing.",
+        "She went for a jog to clear her mind."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mustard',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '[ˈmas.təd]',
+    ipa_us: '[ˈmas.təd]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a pungent powder or paste made from the seeds of the mustard plant, used as a condiment",
+              "th": "ผงหรือเปียกที่มีรสเข้มจากเมล็ดพืชมัสตาร์ด ใช้เป็นเครื่องปรุง"
+        }
+  ],
+    antonyms: ["mayonnaise","ketchup"],
+    examples:   [
+        "I put mustard on my hot dog.",
+        "The recipe calls for a teaspoon of mustard.",
+        "The mustard plant is easy to grow in the garden."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ape',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/eɪp/',
+    ipa_us: '/eɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large, intelligent primate that lives in trees",
+              "th": "ไพรเมทขนาดใหญ่ที่มีเหตุผลอาศัยอยู่บนต้นไม้"
+        }
+  ],
+    antonyms: ["human","monkey"],
+    examples:   [
+        "The ape swung from tree to tree with ease.",
+        "The ape is an endangered species due to habitat loss.",
+        "The ape is known for its intelligence and problem-solving skills."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'teller',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɛlə/',
+    ipa_us: '/ˈtɛlə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who operates a cash register or handles money transactions",
+              "th": "คนซึ่งปฏิบัติงานเครื่องจ่ายเงินหรือจัดการธุรกรรมเงิน"
+        }
+  ],
+    antonyms: ["receiver","collector"],
+    examples:   [
+        "The teller helped me with my banking transaction.",
+        "The teller counted the money carefully.",
+        "The bank teller was friendly and helpful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'confidence',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɒnfɪdəns/',
+    ipa_us: '/ˈkɒnfɪdəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the feeling of being certain or sure about something",
+              "th": "ความรู้สึกที่มั่นใจหรือแน่ใจเกี่ยวกับอะไรบางอย่าง"
+        }
+  ],
+    antonyms: ["doubt","uncertainty"],
+    examples:   [
+        "She has confidence in her abilities.",
+        "The team has confidence that they will win the game.",
+        "The company's confidence in the market has increased."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'examination',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪɡˌzæmɪˈneɪʃən/',
+    ipa_us: '/ɪɡˌzæmɪˈneɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal test of someone's knowledge or ability",
+              "th": "การสอบหรือการทดสอบความรู้หรือความสามารถของใครบางคนอย่างเป็นทางการ"
+        }
+  ],
+    antonyms: ["ignorance","lack"],
+    examples:   [
+        "The student studied hard for the examination.",
+        "The doctor will perform a thorough examination to diagnose the illness.",
+        "The examination results will be announced next week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pond',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɒnd/',
+    ipa_us: '/pɒnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small body of still water, typically smaller than a lake",
+              "th": "แหล่งน้ำนิ่งขนาดเล็ก โดยทั่วไปมีขนาดเล็กกว่าทะเลสาบ"
+        }
+  ],
+    antonyms: ["ocean","sea"],
+    examples:   [
+        "The pond in the park is home to many fish and frogs.",
+        "The children loved playing near the pond.",
+        "The pond is a popular spot for fishing and boating."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sphere',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/sfɪə/',
+    ipa_us: '/sfɪə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a round three-dimensional shape, like a ball",
+              "th": "รูปทรงกลมสามมิติ เช่น ลูกบอล"
+        },
+        {
+              "pos": "noun",
+              "en": "an area of activity or interest",
+              "th": "พื้นที่ของกิจกรรมหรือความสนใจ"
+        }
+  ],
+    antonyms: ["cube","rectangle"],
+    examples:   [
+        "The sphere is a perfect shape for a basketball.",
+        "The company operates in the sphere of technology.",
+        "The sphere of influence of the city extends to the surrounding areas."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rotten',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹɒtn̩/',
+    ipa_us: '/ˈɹɒtn̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "decayed or decomposed, especially due to fungal or bacterial action",
+              "th": "เน่าหรือย่อยสลาย โดยเฉพาะเนื่องจากการกระทำของเชื้อราหรือแบคทีเรีย"
+        }
+  ],
+    antonyms: ["fresh","healthy"],
+    examples:   [
+        "The rotten food was thrown away.",
+        "The rotten wood was replaced with new wood.",
+        "The rotten smell came from the garbage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
