@@ -16243,6 +16243,316 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'commode',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəˈməʊd/',
+    ipa_us: '/kəˈməʊd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of furniture with drawers or shelves, especially in a bedroom",
+              "th": "เฟอร์นิเจอร์ที่มีลิ้นชักหรือชั้นวาง โดยเฉพาะในห้องนอน"
+        },
+        {
+              "pos": "noun",
+              "en": "a toilet, especially in a portable or self-contained unit",
+              "th": "ห้องน้ำ โดยเฉพาะในหน่วยพกพาหรืออิสระ"
+        }
+  ],
+    antonyms: ["wardrobe","outhouse"],
+    examples:   [
+        "The antique commode in the bedroom was beautifully crafted with intricate carvings.",
+        "The commode in the RV was compact and efficient, making it ideal for camping trips.",
+        "She struggled to assemble the commode, following the complicated instructions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'colloquial',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kəˈləʊ.kwɪəl/',
+    ipa_us: '/kəˈləʊ.kwɪəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "used in informal conversation, but not in formal writing or speech",
+              "th": "ใช้ในการสนทนาที่ไม่เป็นทางการ แต่ไม่ใช่ในการเขียนหรือพูดอย่างเป็นทางการ"
+        }
+  ],
+    antonyms: ["formal","technical"],
+    examples:   [
+        "The colloquial expression 'break a leg' is often used to wish someone good luck.",
+        "The author's use of colloquial language made the novel feel more relatable and authentic.",
+        "In formal writing, it's best to avoid using colloquial terms or slang."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'euphoria',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/juːˈfɔːɹi.ə/',
+    ipa_us: '/juːˈfɔːɹi.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of intense happiness or excitement",
+              "th": "สภาวะของความสุขหรือความตื่นเต้นที่รุนแรง"
+        }
+  ],
+    antonyms: ["despair","melancholy"],
+    examples:   [
+        "The crowd erupted in euphoria when their team won the championship.",
+        "She felt a rush of euphoria when she finally achieved her long-term goal.",
+        "The music festival was a weekend of pure euphoria, with great music and wonderful company."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'austerity',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɔˈstɛɹɪti/',
+    ipa_us: '/ɔˈstɛɹɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of being severe or strict in manner or appearance",
+              "th": "สภาวะที่รุนแรงหรือเข้มงวดในลักษณะหรือการแสดงออก"
+        },
+        {
+              "pos": "noun",
+              "en": "a policy of reducing government spending, especially by cutting public services",
+              "th": "นโยบายที่ลดการใช้จ่ายของรัฐบาล โดยเฉพาะอย่างยิ่งโดยการลดบริการสาธารณะ"
+        }
+  ],
+    antonyms: ["luxury","extravagance"],
+    examples:   [
+        "The government's austerity measures led to widespread protests and unrest.",
+        "The monastery was a place of austerity, where monks lived simple and ascetic lives.",
+        "The company's austerity plan involved cutting costs and reducing staff."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'axiom',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈaks.ɪ.əm/',
+    ipa_us: '/ˈaks.ɪ.əm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement or idea that is widely accepted as true",
+              "th": "คำสั่งหรือความคิดที่ได้รับการยอมรับอย่างกว้างขวางว่าเป็นความจริง"
+        }
+  ],
+    antonyms: ["fallacy","misconception"],
+    examples:   [
+        "The axiom that 'all men are created equal' is a fundamental principle of democracy.",
+        "The scientist's theory was based on a simple axiom: that the universe is governed by laws.",
+        "The company's success was built on the axiom that 'the customer is always right'."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'anonymity',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ænəˈnɪmɪti/',
+    ipa_us: '/ænəˈnɪmɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being anonymous, or not named or identified",
+              "th": "สภาวะที่ไม่มีชื่อหรือไม่ได้รับการระบุ"
+        }
+  ],
+    antonyms: ["fame","recognition"],
+    examples:   [
+        "The whistleblower chose to remain in anonymity to protect their identity.",
+        "The artist's use of anonymity allowed them to create provocative works without fear of reprisal.",
+        "The online forum allowed users to post comments with anonymity, which sometimes led to abusive behavior."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'liaise',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/liːˈeɪz/',
+    ipa_us: '/liːˈeɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to communicate or cooperate with someone, especially in a formal or official way",
+              "th": "ติดต่อหรือร่วมมือกับใครบางคน โดยเฉพาะอย่างยิ่งในลักษณะที่เป็นทางการ"
+        }
+  ],
+    antonyms: ["ignore","disregard"],
+    examples:   [
+        "The marketing team will liaise with the sales department to launch the new product.",
+        "The ambassador will liaise with the foreign government to negotiate a trade agreement.",
+        "The project manager will liaise with the contractors to ensure the project is completed on time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chronology',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kɹəˈnɒl.ə.dʒi/',
+    ipa_us: '/kɹəˈnɒl.ə.dʒi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the study of the order in which events occur, especially in history",
+              "th": "การศึกษาลำดับของเหตุการณ์ที่เกิดขึ้น โดยเฉพาะอย่างยิ่งในประวัติศาสตร์"
+        }
+  ],
+    antonyms: ["randomness","disorder"],
+    examples:   [
+        "The historian's chronology of the war was meticulously researched and detailed.",
+        "The company's chronology of major events was displayed on a timeline in the lobby.",
+        "Understanding the chronology of the novel's plot was essential to appreciating its complexity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rife',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹaɪf/',
+    ipa_us: '/ɹaɪf/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "widespread or common, often in a way that is considered unpleasant or undesirable",
+              "th": "แพร่หลายหรือทั่วไป โดยเฉพาะอย่างยิ่งในลักษณะที่ไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["rare","uncommon"],
+    examples:   [
+        "Corruption is rife in the government, with many officials accused of bribery.",
+        "The disease is rife in the developing world, where access to healthcare is limited.",
+        "Rumor and speculation were rife in the days leading up to the announcement."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'munificence',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/mjuːˈnɪfɪsəns/',
+    ipa_us: '/mjuːˈnɪfɪsəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being generous or liberal in giving, especially to a worthy cause",
+              "th": "คุณสมบัติของการให้ที่มีใจกว้างหรือมีจิตกุศล โดยเฉพาะอย่างยิ่งในการบริจาคให้กับองค์กรที่ดี"
+        }
+  ],
+    antonyms: ["stinginess","miserliness"],
+    examples:   [
+        "The philanthropist's munificence was renowned, with donations to numerous charities.",
+        "The company's munificence in sponsoring the event was greatly appreciated.",
+        "The king's munificence towards the poor was legendary, with many stories of his generosity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'counsel',
+    level: 'C2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkaʊn.səl/',
+    ipa_us: '/ˈkaʊn.səl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "advice or guidance, especially from someone with experience or expertise",
+              "th": "คำแนะนำหรือคำปรึกษาที่ได้รับ โดยเฉพาะอย่างยิ่งจากบุคคลที่มีประสบการณ์หรือความเชี่ยวชาญ"
+        },
+        {
+              "pos": "verb",
+              "en": "to give advice or guidance to someone",
+              "th": "ให้คำแนะนำหรือคำปรึกษากับใครบางคน"
+        }
+  ],
+    antonyms: ["ignore","dismiss"],
+    examples:   [
+        "The lawyer offered counsel to the client, helping them navigate the complex legal system.",
+        "The counselor provided counsel to the student, helping them choose a career path.",
+        "The expert will counsel the company on how to improve their marketing strategy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'depravity',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dəˈpɹævɪti/',
+    ipa_us: '/dəˈpɹævɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of moral corruption or wickedness, especially in a way that is considered shocking or disgusting",
+              "th": "สภาวะของความเสื่อมหรือความชั่ว โดยเฉพาะอย่างยิ่งในลักษณะที่น่ากลัวหรือน่ารังเกียจ"
+        }
+  ],
+    antonyms: ["virtue","morality"],
+    examples:   [
+        "The depravity of the crime scene was shocking, with evidence of brutal violence.",
+        "The novel explored themes of depravity and redemption, highlighting the human condition.",
+        "The city's depravity was evident in its high crime rates and social inequality."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ephemera',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪˈfɛməɹə/',
+    ipa_us: '/ɪˈfɛməɹə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "things that are transitory or fleeting, especially things that are written or printed",
+              "th": "สิ่งที่ไม่คงทนหรือชั่วคราว โดยเฉพาะอย่างยิ่งสิ่งที่ถูกเขียนหรือพิมพ์"
+        }
+  ],
+    antonyms: ["permanence","timelessness"],
+    examples:   [
+        "The ephemera of the digital age, such as tweets and selfies, are often lost forever.",
+        "The artist's use of ephemera, such as newspaper clippings and ticket stubs, added a sense of nostalgia to the piece.",
+        "The historian studied the ephemera of the past, including letters and diaries, to gain insight into the lives of people who lived during that time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'seedy',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsiːdi/',
+    ipa_us: '/ˈsiːdi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a disreputable or unsavory character, especially in a way that is considered run-down or dilapidated",
+              "th": "มีลักษณะที่ไม่น่าเชื่อถือหรือไม่น่าดู โดยเฉพาะอย่างยิ่งในลักษณะที่ทรุดโทรมหรือพังทลาย"
+        }
+  ],
+    antonyms: ["respectable","upstanding"],
+    examples:   [
+        "The seedy part of town was known for its crime and poverty.",
+        "The seedy appearance of the hotel made it an unappealing place to stay.",
+        "The seedy character of the politician was exposed in the scandal, revealing their corrupt activities."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
