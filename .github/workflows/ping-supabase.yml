@@ -2,7 +2,7 @@ name: Keep Supabase Awake
 
 on:
   schedule:
-    - cron: '0 3 * * 1,4'   # ทุกวันจันทร์และพฤหัส 10:00 เวลาไทย
+    - cron: '0 3 * * *'   # ทุกวัน 10:00 เวลาไทย
   workflow_dispatch:
 
 jobs:
