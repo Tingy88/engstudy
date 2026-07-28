@@ -15792,6 +15792,457 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'ease',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/iːz/',
+    ipa_us: '/iːz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of comfort and relaxation",
+              "th": "สภาพที่สบายและผ่อนคลาย"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something less severe or unpleasant",
+              "th": "ทำให้สิ่งหนึ่งลดความรุนแรงหรือไม่สบาย"
+        }
+  ],
+    antonyms: ["difficulty","tension"],
+    examples:   [
+        "The warm bath helped to ease her muscles after the long run.",
+        "The new policy aims to ease the financial burden on low-income families.",
+        "The teacher tried to ease the students into the difficult topic with a simple example."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'province',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɒvɪns/',
+    ipa_us: '/ˈpɹɒvɪns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large area of land that is part of a country",
+              "th": "พื้นที่ขนาดใหญ่ที่เป็นส่วนหนึ่งของประเทศ"
+        }
+  ],
+    antonyms: ["city","capital"],
+    examples:   [
+        "The province of Quebec is known for its beautiful mountains and lakes.",
+        "The company has offices in several provinces across the country.",
+        "The new policy will be implemented in all provinces next year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'malady',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmæl.ə.di/',
+    ipa_us: '/ˈmæl.ə.di/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a disease or illness",
+              "th": "โรคหรือความเจ็บป่วย"
+        }
+  ],
+    antonyms: ["health","wellness"],
+    examples:   [
+        "The doctor specialized in treating rare maladies.",
+        "The new medicine has been proven to cure the malady.",
+        "The malady spread quickly through the small village."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'acquisition',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/æ.kwɪ.ˈzɪ.ʃən/',
+    ipa_us: '/æ.kwɪ.ˈzɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of getting or obtaining something",
+              "th": "การได้มาหรือครอบครองสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["loss","sale"],
+    examples:   [
+        "The company's latest acquisition is a small startup in Silicon Valley.",
+        "The museum's new acquisition is a rare painting by a famous artist.",
+        "The acquisition of the new skill took several months of practice."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'maestro',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmaɪstɹoʊ/',
+    ipa_us: '/ˈmaɪstɹoʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is very skilled or talented in a particular field",
+              "th": "บุคคลที่มีทักษะหรือความสามารถพิเศษในด้านใดด้านหนึ่ง"
+        }
+  ],
+    antonyms: ["amateur","novice"],
+    examples:   [
+        "The maestro conducted the symphony with precision and passion.",
+        "The famous chef is a maestro in the kitchen.",
+        "The artist is a maestro of color and light."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fear',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/fɪə/',
+    ipa_us: '/fɪə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an unpleasant emotion caused by the belief that someone or something is dangerous",
+              "th": "อารมณ์ที่ไม่สบายใจที่เกิดจากความเชื่อที่ว่าบางสิ่งหรือบางคนเป็นอันตราย"
+        },
+        {
+              "pos": "verb",
+              "en": "to feel afraid or anxious about something",
+              "th": "รู้สึกกลัวหรือกังวลเกี่ยวกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["courage","confidence"],
+    examples:   [
+        "She has a fear of spiders.",
+        "I fear that I may not be able to finish the project on time.",
+        "The fear of failure held him back from pursuing his dreams."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'falter',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈfɒltə(r)/',
+    ipa_us: '/ˈfɒltə(r)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become weaker or less confident",
+              "th": "อ่อนลงหรือสูญเสียความมั่นใจ"
+        }
+  ],
+    antonyms: ["strengthen","improve"],
+    examples:   [
+        "The runner began to falter in the last mile of the marathon.",
+        "The company's sales began to falter after the economic downturn.",
+        "Her voice faltered as she tried to speak in front of the large crowd."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discriminate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪsˈkɹɪmɪneɪt/',
+    ipa_us: '/dɪsˈkɹɪmɪneɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to treat someone or something unfairly or differently because of a particular characteristic",
+              "th": "ปฏิบัติต่อบางคนหรือบางสิ่งไม่ยุติธรรมหรือแตกต่างเนื่องจากลักษณะเฉพาะ"
+        }
+  ],
+    antonyms: ["accept","include"],
+    examples:   [
+        "The company was accused of discriminating against job applicants based on their age.",
+        "The policy aims to prevent people from discriminating against others based on their race.",
+        "The algorithm was designed to discriminate between relevant and irrelevant information."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mass',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/mæs/',
+    ipa_us: '/mæs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large quantity of something",
+              "th": "ปริมาณมากของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["individual","single"],
+    examples:   [
+        "The mass of the crowd made it difficult to move.",
+        "The company has a mass of data that needs to be analyzed.",
+        "The mass of the planet is much greater than that of the moon."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'considering',
+    level: 'B2',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/kənˈsɪdəɹɪŋ/',
+    ipa_us: '/kənˈsɪdəɹɪŋ/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "thinking about something before making a decision",
+              "th": "คิดเกี่ยวกับบางสิ่งก่อนตัดสินใจ"
+        }
+  ],
+    antonyms: ["ignoring","disregarding"],
+    examples:   [
+        "Considering the cost, I think we should choose the cheaper option.",
+        "Considering her experience, she is the best candidate for the job.",
+        "Considering the weather forecast, we should cancel the outdoor event."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sanitation',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌsænɪˈteɪʃən/',
+    ipa_us: '/ˌsænɪˈteɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the practice of keeping places clean and free from disease",
+              "th": "การปฏิบัติที่เกี่ยวกับการรักษาสิ่งแวดล้อมให้สะอาดและปลอดจากโรค"
+        }
+  ],
+    antonyms: ["pollution","contamination"],
+    examples:   [
+        "The city has improved its sanitation system in recent years.",
+        "The importance of sanitation cannot be overstated.",
+        "The lack of sanitation in the refugee camp has led to the spread of diseases."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'breakdown',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbɹeɪkdaʊn/',
+    ipa_us: '/ˈbɹeɪkdaʊn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a failure or collapse of something",
+              "th": "ความล้มเหลวหรือการล่มสลายของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["success","recovery"],
+    examples:   [
+        "The breakdown of the relationship was due to a lack of communication.",
+        "The car had a breakdown on the highway and had to be towed.",
+        "The emotional breakdown was a result of the traumatic event."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'listener',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlɪs(ə)nə/',
+    ipa_us: '/ˈlɪs(ə)nə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who listens to something, such as music or a conversation",
+              "th": "บุคคลที่ฟังสิ่งใดสิ่งหนึ่ง เช่น เพลงหรือการสนทนา"
+        }
+  ],
+    antonyms: ["speaker","talker"],
+    examples:   [
+        "The listener was completely absorbed in the story.",
+        "The listener called in to the radio show to ask a question.",
+        "The listener was moved to tears by the beautiful music."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'divert',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/daɪˈvɜːt/',
+    ipa_us: '/daɪˈvɜːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to change the direction or course of something",
+              "th": "เปลี่ยนทิศทางหรือแนวทางของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["continue","proceed"],
+    examples:   [
+        "The river was diverted to supply water to the nearby town.",
+        "The flight was diverted to a different airport due to bad weather.",
+        "The conversation was diverted to a more interesting topic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hail',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/heɪl/',
+    ipa_us: '/heɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "small balls of ice that fall from the sky during a storm",
+              "th": "ลูกกลมๆ ของน้ำแข็งที่ตกลงมาจากฟ้าระหว่างพายุ"
+        },
+        {
+              "pos": "verb",
+              "en": "to greet or welcome someone enthusiastically",
+              "th": "ทักทายหรือต้อนรับบางคนด้วยความกระตือรือร้น"
+        }
+  ],
+    antonyms: ["ignore","dismiss"],
+    examples:   [
+        "The hail storm damaged the crops and cars.",
+        "The crowd hailed the new champion with cheers and applause.",
+        "The taxi driver hailed us on the street and offered a ride."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relay',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˌɹiːˈleɪ/',
+    ipa_us: '/ˌɹiːˈleɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that receives and retransmits a signal",
+              "th": "อุปกรณ์ที่รับสัญญาณและถ่ายทอดสัญญาณ"
+        },
+        {
+              "pos": "verb",
+              "en": "to pass on information or a message",
+              "th": "ส่งต่อข้อมูลหรือส่งข้อความ"
+        }
+  ],
+    antonyms: ["block","interrupt"],
+    examples:   [
+        "The satellite relayed the signal back to Earth.",
+        "The team relayed the message to the next station.",
+        "The runner relayed the baton to her teammate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ambiguity',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/æmbɪˈɡjuːɪti/',
+    ipa_us: '/æmbɪˈɡjuːɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being unclear or open to multiple interpretations",
+              "th": "สภาพที่ไม่ชัดเจนหรือเปิดให้ตีความได้หลายอย่าง"
+        }
+  ],
+    antonyms: ["clarity","certainty"],
+    examples:   [
+        "The ambiguity of the sentence made it difficult to understand.",
+        "The ambiguity of the law led to conflicting interpretations.",
+        "The artist intentionally created ambiguity in her artwork to spark discussion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thirdly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈθɜːdli/',
+    ipa_us: '/ˈθɜːdli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in the third position or stage",
+              "th": "ในตำแหน่งหรือระยะที่สาม"
+        }
+  ],
+    antonyms: ["firstly","secondly"],
+    examples:   [
+        "Firstly, we need to gather all the necessary materials. Secondly, we need to assemble the parts. Thirdly, we need to test the product.",
+        "The teacher explained the concept in three steps: firstly, the introduction; secondly, the analysis; and thirdly, the conclusion.",
+        "The company has three main goals: firstly, to increase revenue; secondly, to expand market share; and thirdly, to improve customer satisfaction."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dove',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/dʌv/',
+    ipa_us: '/dʌv/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of bird that is often associated with peace",
+              "th": "ประเภทของนกที่มักจะเกี่ยวข้องกับสันติภาพ"
+        },
+        {
+              "pos": "verb",
+              "en": "to plunge or dive into something",
+              "th": "ลงหรือดำลงไปในบางสิ่ง"
+        }
+  ],
+    antonyms: ["hawk","attack"],
+    examples:   [
+        "The dove is a symbol of peace and love.",
+        "The dove flew back to its nest with a twig in its beak.",
+        "She dove into the pool and swam several laps."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'knot',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/nɒt/',
+    ipa_us: '/nɒt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a tie or fastening made by intertwining threads or strings",
+              "th": "การผูกหรือยึดโดยการบิดหรือพันเส้นด้ายหรือเชือก"
+        },
+        {
+              "pos": "verb",
+              "en": "to tie or fasten something with a knot",
+              "th": "ผูกหรือยึดบางสิ่งด้วยการบิดหรือพัน"
+        }
+  ],
+    antonyms: ["untie","loosen"],
+    examples:   [
+        "The sailor tied a knot in the rope to secure the boat.",
+        "The knot in the wood made it difficult to cut.",
+        "She knotted her hair to keep it out of her face."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
