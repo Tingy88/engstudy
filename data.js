@@ -16926,6 +16926,343 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'lyrics',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlɪɹ.ɪks/',
+    ipa_us: '/ˈlɪɹ.ɪks/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the words of a song",
+              "th": "เนื้อเพลง"
+        }
+  ],
+    antonyms: ["music","melody"],
+    examples:   [
+        "The lyrics of this song are very meaningful.",
+        "She wrote the lyrics for her favorite band.",
+        "The poet's lyrics were published in a book."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dissident',
+    level: 'B2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈdɪsɪdənt/',
+    ipa_us: '/ˈdɪsɪdənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who strongly disagrees with an established government or institution",
+              "th": "ผู้ไม่เห็นด้วย"
+        }
+  ],
+    antonyms: ["loyalist","supporter"],
+    examples:   [
+        "The dissident was arrested for speaking out against the government.",
+        "The dissident movement gained momentum over the years.",
+        "She was a dissident in her own party, always questioning the leadership."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'demanding',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈmɑːndɪŋ/',
+    ipa_us: '/dɪˈmɑːndɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "requiring a lot of energy, effort, or resources",
+              "th": "ต้องการมาก"
+        }
+  ],
+    antonyms: ["undemanding","easy"],
+    examples:   [
+        "The job was demanding, but she loved the challenge.",
+        "The course was demanding, with a lot of homework and exams.",
+        "The hike was demanding, but the view from the top was worth it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prevention',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹɪˈvɛnʃən/',
+    ipa_us: '/pɹɪˈvɛnʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of stopping something from happening",
+              "th": "การป้องกัน"
+        }
+  ],
+    antonyms: ["treatment","cure"],
+    examples:   [
+        "Prevention is better than cure, especially when it comes to diseases.",
+        "The company implemented a prevention program to reduce accidents.",
+        "The prevention of crime is a top priority for the government."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'charming',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtʃɑː(ɹ).mɪŋ/',
+    ipa_us: '/ˈtʃɑː(ɹ).mɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "pleasant and attractive",
+              "th": "น่าดึงดูด"
+        }
+  ],
+    antonyms: ["unpleasant","unattractive"],
+    examples:   [
+        "The city was charming, with its old buildings and narrow streets.",
+        "He was a charming person, always making people laugh.",
+        "The hotel room was charming, with a beautiful view of the ocean."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'roam',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹəʊm/',
+    ipa_us: '/ɹəʊm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move around a place or area without a fixed direction or purpose",
+              "th": "เดินเล่น"
+        }
+  ],
+    antonyms: ["stay","settle"],
+    examples:   [
+        "The dog likes to roam around the park.",
+        "She likes to roam around the city, exploring new places.",
+        "The nomads roam the desert, searching for food and water."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'defeat',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/dɪˈfiːt/',
+    ipa_us: '/dɪˈfiːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being beaten or overcome",
+              "th": "ความพ่ายแพ้"
+        }
+  ],
+    antonyms: ["victory","win"],
+    examples:   [
+        "The team suffered a defeat in the final game.",
+        "The defeat was a hard lesson for the young player.",
+        "The company's defeat in the market was due to poor management."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'boost',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/buːst/',
+    ipa_us: '/buːst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an increase in amount, degree, or intensity",
+              "th": "การเพิ่มขึ้น"
+        }
+  ],
+    antonyms: ["decrease","reduction"],
+    examples:   [
+        "The new policy gave a boost to the economy.",
+        "The boost in morale was evident after the team's win.",
+        "The company needs a boost in sales to stay competitive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'component',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kʌmˈpoʊnənt/',
+    ipa_us: '/kʌmˈpoʊnənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a part or element of something larger",
+              "th": "ส่วนประกอบ"
+        }
+  ],
+    antonyms: ["whole","entirety"],
+    examples:   [
+        "The component parts of the machine were complex and difficult to assemble.",
+        "The component of the team that worked on the project was very skilled.",
+        "The component of the recipe that made it unique was the special spice."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deceive',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈsiːv/',
+    ipa_us: '/dɪˈsiːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone believe something that is not true",
+              "th": "หลอกลวง"
+        }
+  ],
+    antonyms: ["reveal","disclose"],
+    examples:   [
+        "The company tried to deceive the public with false advertising.",
+        "She was deceived by the fake website and lost her money.",
+        "The politician was accused of trying to deceive the voters with his promises."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stack',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/stæk/',
+    ipa_us: '/stæk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a pile of objects, especially one that is neatly arranged",
+              "th": "กอง"
+        }
+  ],
+    antonyms: ["scatter","disperse"],
+    examples:   [
+        "The stack of books on the table was impressive.",
+        "She stacked the dishes in the kitchen.",
+        "The stack of paperwork on the desk was overwhelming."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'applicant',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈæp.lə.kɪnt/',
+    ipa_us: '/ˈæp.lə.kɪnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who applies for a job, a loan, or something else",
+              "th": "ผู้สมัคร"
+        }
+  ],
+    antonyms: ["employer","interviewer"],
+    examples:   [
+        "The applicant for the job was very qualified.",
+        "The company received many applications from interested applicants.",
+        "The applicant for the scholarship had to submit a personal statement."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'insult',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɪnˈsʌlt/',
+    ipa_us: '/ɪnˈsʌlt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a remark or action that is intended to offend or hurt someone's feelings",
+              "th": "คำดูถูก"
+        }
+  ],
+    antonyms: ["compliment","praise"],
+    examples:   [
+        "The insult was meant to hurt her feelings.",
+        "He was accused of insulting the teacher.",
+        "The insult was a personal attack, and it was not acceptable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'illustration',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌɪləˈstɹeɪʃən/',
+    ipa_us: '/ˌɪləˈstɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a picture or diagram that is used to explain or decorate something",
+              "th": "ภาพประกอบ"
+        }
+  ],
+    antonyms: ["text","description"],
+    examples:   [
+        "The illustration in the book was beautiful and detailed.",
+        "The artist created an illustration for the magazine cover.",
+        "The illustration of the concept was helpful in understanding it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'intrusion',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈtɹuːʒən/',
+    ipa_us: '/ɪnˈtɹuːʒən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of entering a place or situation without being invited or welcome",
+              "th": "การบุกรุก"
+        }
+  ],
+    antonyms: ["welcome","invitation"],
+    examples:   [
+        "The intrusion of the stranger into the private party was unwelcome.",
+        "The company's intrusion into the market was seen as a threat.",
+        "The intrusion of the noise into the quiet room was disturbing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'outskirts',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈaʊtskɜːts/',
+    ipa_us: '/ˈaʊtskɜːts/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the outer areas of a town or city",
+              "th": "ชานเมือง"
+        }
+  ],
+    antonyms: ["center","downtown"],
+    examples:   [
+        "The outskirts of the city were less crowded and more peaceful.",
+        "The company built a new factory on the outskirts of town.",
+        "The outskirts of the forest were home to many wild animals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
