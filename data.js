@@ -16553,6 +16553,379 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'dependent',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈpɛndənt/',
+    ipa_us: '/dɪˈpɛndənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "needing or relying on something or someone for support or existence",
+              "th": "พึ่งพา"
+        }
+  ],
+    antonyms: ["independent","self-sufficient"],
+    examples:   [
+        "The company is financially dependent on its main investor.",
+        "She is emotionally dependent on her partner.",
+        "The plant is dependent on sunlight to undergo photosynthesis."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tangle',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈtæŋ.ɡəl/',
+    ipa_us: '/ˈtæŋ.ɡəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to twist or turn something together in a confusing or complicated way",
+              "th": "ปมหรือพันกัน"
+        },
+        {
+              "pos": "noun",
+              "en": "a twisted or confused mass of something",
+              "th": "สิ่งที่ปมหรือพันกัน"
+        }
+  ],
+    antonyms: ["untangle","unravel"],
+    examples:   [
+        "The hair tangle made it difficult to comb.",
+        "The fishing lines began to tangle in the water.",
+        "The plot of the story started to tangle, making it hard to follow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tedious',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtiː.dɪəs/',
+    ipa_us: '/ˈtiː.dɪəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "too long, slow, or dull; boring or uninteresting",
+              "th": "น่าเบื่อ"
+        }
+  ],
+    antonyms: ["exciting","interesting"],
+    examples:   [
+        "The tedious lecture put the whole class to sleep.",
+        "Filling out the tax forms was a tedious task.",
+        "The tedious drive through the traffic jam was frustrating."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exterior',
+    level: 'C1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ɛkˈstɪəɹɪə/',
+    ipa_us: '/ɛkˈstɪəɹɪə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the outside surface of something, especially a building",
+              "th": "ภายนอก"
+        },
+        {
+              "pos": "adjective",
+              "en": "located on or relating to the outside",
+              "th": "ภายนอก"
+        }
+  ],
+    antonyms: ["interior","inside"],
+    examples:   [
+        "The exterior of the house needs to be painted.",
+        "The exterior design of the car is very sleek.",
+        "The exterior shots of the movie were filmed on location."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discard',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈdɪskɑːd/',
+    ipa_us: '/ˈdɪskɑːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to get rid of something because it is no longer needed, useful, or wanted",
+              "th": "ทิ้ง"
+        }
+  ],
+    antonyms: ["keep","retain"],
+    examples:   [
+        "Please discard the trash after the party.",
+        "The company will discard any unnecessary documents.",
+        "She had to discard her old clothes to make room for new ones."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fiddler',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɪdlə(ɹ)/',
+    ipa_us: '/ˈfɪdlə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who plays a fiddle, especially in traditional or folk music",
+              "th": "นักดนตรีที่เล่นไวโอลิน"
+        }
+  ],
+    antonyms: ["pianist","drummer"],
+    examples:   [
+        "The fiddler's music was lively and entertaining.",
+        "The fiddler played a beautiful melody at the wedding.",
+        "The traditional band featured a skilled fiddler."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'speculative',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈspɛkjuləˌtɪv/',
+    ipa_us: '/ˈspɛkjuləˌtɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "based on guesses or ideas, rather than on facts or evidence",
+              "th": "เกี่ยวกับการคาดเดา"
+        }
+  ],
+    antonyms: ["factual","concrete"],
+    examples:   [
+        "The article presented a speculative view of the future of technology.",
+        "The company's speculative investments did not pay off.",
+        "The philosopher's speculative ideas about the universe were thought-provoking."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'otter',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɒt.ə/',
+    ipa_us: '/ˈɒt.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a carnivorous, semi-aquatic mammal with a long, slender body and a thick, soft fur",
+              "th": "นาก"
+        }
+  ],
+    antonyms: ["beaver","raccoon"],
+    examples:   [
+        "The otter swam playfully in the river.",
+        "The otter's fur was soft and luxurious.",
+        "The zoo had an exhibit featuring otters and other aquatic animals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'beforehand',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/bɪˈfɔːhænd/',
+    ipa_us: '/bɪˈfɔːhænd/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "before something happens or is done",
+              "th": "ก่อนหน้านั้น"
+        }
+  ],
+    antonyms: ["afterwards","later"],
+    examples:   [
+        "I need to prepare everything beforehand to ensure a smooth presentation.",
+        "She studied beforehand to get a good grade on the test.",
+        "The company planned the event beforehand to make sure everything went well."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lapse',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/læps/',
+    ipa_us: '/læps/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to stop or come to an end, especially because of a lack of activity or attention",
+              "th": "หยุดชะงัก"
+        },
+        {
+              "pos": "noun",
+              "en": "a period of time when something, especially a right or a privilege, is not used or is forgotten",
+              "th": "ช่วงเวลา"
+        }
+  ],
+    antonyms: ["continue","persist"],
+    examples:   [
+        "The subscription will lapse if the payment is not made.",
+        "The company's insurance policy will lapse if they do not pay the premium.",
+        "There was a lapse in the conversation, and it became awkward."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'incisor',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈsaɪzə/',
+    ipa_us: '/ɪnˈsaɪzə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a tooth, especially a front tooth, that is used for cutting food",
+              "th": "ฟันหน้า"
+        }
+  ],
+    antonyms: ["molar","canine"],
+    examples:   [
+        "The incisor tooth was chipped and needed to be fixed.",
+        "The dentist examined the incisors for any signs of decay.",
+        "The incisors are the most visible teeth when smiling."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'premises',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɛməsiːz/',
+    ipa_us: '/ˈpɹɛməsiːz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a building or part of a building, especially one used for a particular purpose",
+              "th": "อาคาร"
+        }
+  ],
+    antonyms: ["outdoors","outside"],
+    examples:   [
+        "The company's premises are located in the city center.",
+        "The restaurant's premises were clean and well-maintained.",
+        "The school's premises include a playground and a library."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'suffice',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/səˈfaɪs/',
+    ipa_us: '/səˈfaɪs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be enough or adequate for a particular purpose",
+              "th": "เพียงพอ"
+        }
+  ],
+    antonyms: ["fail","be insufficient"],
+    examples:   [
+        "A simple apology will suffice in this situation.",
+        "The money I have will suffice for the trip.",
+        "A brief explanation will suffice, there is no need to go into details."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'psychiatric',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌsaɪ.ki.ˈæt.ɹɪk/',
+    ipa_us: '/ˌsaɪ.ki.ˈæt.ɹɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the branch of medicine that deals with the study, diagnosis, treatment, and prevention of mental, emotional, and behavioral disorders",
+              "th": "จิตเวช"
+        }
+  ],
+    antonyms: ["surgical","medical"],
+    examples:   [
+        "The psychiatric hospital provided treatment for patients with mental illnesses.",
+        "The doctor specialized in psychiatric care for children.",
+        "The psychiatric evaluation helped determine the cause of the patient's symptoms."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'recite',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹɪˈsaɪt/',
+    ipa_us: '/ɹɪˈsaɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to say or repeat something, especially a poem or a piece of writing, from memory",
+              "th": "朗读"
+        }
+  ],
+    antonyms: ["improvise","make up"],
+    examples:   [
+        "The student had to recite a poem in front of the class.",
+        "The actor recited the lines from the script perfectly.",
+        "The child recited the alphabet with ease."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trampoline',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tɹæmpəˈliːn/',
+    ipa_us: '/tɹæmpəˈliːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device with a strong fabric or plastic sheet stretched over a frame, used for jumping or performing gymnastic exercises",
+              "th": "เครื่องเล่นกระโดด"
+        }
+  ],
+    antonyms: ["balance beam","uneven bars"],
+    examples:   [
+        "The kids loved playing on the trampoline in the backyard.",
+        "The gymnast used the trampoline to practice her routine.",
+        "The trampoline park was a popular destination for birthday parties."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'indefinite',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈdɛfɪnɪt/',
+    ipa_us: '/ɪnˈdɛfɪnɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not clearly defined or determined; vague or uncertain",
+              "th": "ไม่แน่นอน"
+        }
+  ],
+    antonyms: ["definite","certain"],
+    examples:   [
+        "The company's future plans are indefinite.",
+        "The indefinite article 'a' is used to refer to a nonspecific noun.",
+        "The indefinite nature of the project made it difficult to plan."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
