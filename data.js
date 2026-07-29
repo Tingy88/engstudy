@@ -17263,6 +17263,491 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'burden',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈbɜːdn/',
+    ipa_us: '/ˈbɜːdn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a heavy load",
+              "th": "ภาระ"
+        },
+        {
+              "pos": "verb",
+              "en": "to give someone a lot of work or responsibility",
+              "th": "ให้ภาระ"
+        }
+  ],
+    antonyms: ["relief","ease"],
+    examples:   [
+        "The company has a heavy burden of debt.",
+        "She felt burdened by her many responsibilities.",
+        "The new policy has placed a burden on small businesses."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'uncover',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ʌnˈkʌvə(ɹ)/',
+    ipa_us: '/ʌnˈkʌvə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to find or discover something",
+              "th": "ค้นพบ"
+        },
+        {
+              "pos": "verb",
+              "en": "to remove a cover from something",
+              "th": "ถอดหน้าปัด"
+        }
+  ],
+    antonyms: ["cover","hide"],
+    examples:   [
+        "The police uncovered a plot to rob the bank.",
+        "She uncovered a hidden talent for painting.",
+        "The archaeologists uncovered an ancient city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'breath',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/bɹɛθ/',
+    ipa_us: '/bɹɛθ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the air that goes in and out of the lungs",
+              "th": "ลมหายใจ"
+        },
+        {
+              "pos": "noun",
+              "en": "a slight wind",
+              "th": "ลมพัด"
+        }
+  ],
+    antonyms: ["suffocation","stillness"],
+    examples:   [
+        "She took a deep breath before diving into the pool.",
+        "The fresh air filled my lungs with a refreshing breath.",
+        "The doctor checked the patient's breath sounds."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'display',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɪsˈpleɪ/',
+    ipa_us: '/dɪsˈpleɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to show or exhibit something",
+              "th": "แสดง"
+        },
+        {
+              "pos": "noun",
+              "en": "a show or exhibition of something",
+              "th": "การแสดง"
+        }
+  ],
+    antonyms: ["hide","conceal"],
+    examples:   [
+        "The museum will display the new exhibit next month.",
+        "She displayed her artwork at the local gallery.",
+        "The store window display was very attractive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spelling',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈspɛlɪŋ/',
+    ipa_us: '/ˈspɛlɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of writing or saying the letters of a word",
+              "th": "การสะกด"
+        },
+        {
+              "pos": "noun",
+              "en": "the way in which a word is spelled",
+              "th": "การสะกดคำ"
+        }
+  ],
+    antonyms: ["misspelling","error"],
+    examples:   [
+        "The student had trouble with the spelling of the word.",
+        "The teacher checked the spelling of the words on the test.",
+        "The spelling of the name was incorrect."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'circle',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈsɜɹkəl/',
+    ipa_us: '/ˈsɜɹkəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a shape with no beginning or end",
+              "th": "วงกลม"
+        },
+        {
+              "pos": "verb",
+              "en": "to move in a circle",
+              "th": "เคลื่อนที่เป็นวงกลม"
+        }
+  ],
+    antonyms: ["square","line"],
+    examples:   [
+        "The circle of friends was very close.",
+        "The car circled the block before parking.",
+        "The circle of life is a concept in many cultures."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gown',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɡaʊn/',
+    ipa_us: '/ɡaʊn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, formal dress",
+              "th": "ชุดราตรี"
+        },
+        {
+              "pos": "noun",
+              "en": "a robe or uniform worn for a particular purpose",
+              "th": "ชุดพิธี"
+        }
+  ],
+    antonyms: ["pants","shorts"],
+    examples:   [
+        "She wore a beautiful gown to the wedding.",
+        "The doctor wore a gown to protect himself from germs.",
+        "The graduation gown was a traditional color."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thumb',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/θʌm/',
+    ipa_us: '/θʌm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the short, thick finger on the side of the hand",
+              "th": "นิ้วหัวแม่มือ"
+        },
+        {
+              "pos": "noun",
+              "en": "a general idea or rough plan",
+              "th": "แนวคิด"
+        }
+  ],
+    antonyms: ["finger","index"],
+    examples:   [
+        "She hurt her thumb while playing sports.",
+        "The rule of thumb is to always be on time.",
+        "The thumb of the glove was worn out."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'novelist',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈnɒvəlɪst/',
+    ipa_us: '/ˈnɒvəlɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who writes novels",
+              "th": "นักเขียนนวนิยาย"
+        }
+  ],
+    antonyms: ["poet","journalist"],
+    examples:   [
+        "The novelist wrote a best-selling book.",
+        "She was a famous novelist in her country.",
+        "The novelist's writing style was unique."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fool',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/fuːl/',
+    ipa_us: '/fuːl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who acts unwisely or foolishly",
+              "th": "คนโง่"
+        },
+        {
+              "pos": "verb",
+              "en": "to deceive or trick someone",
+              "th": "หลอกลวง"
+        }
+  ],
+    antonyms: ["wise","intelligent"],
+    examples:   [
+        "He was a fool to invest all his money in one stock.",
+        "She fooled him into thinking she was rich.",
+        "The fool's errand was a waste of time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'parrot',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpæɹət/',
+    ipa_us: '/ˈpæɹət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a colorful bird that can imitate human speech",
+              "th": "นกแก้ว"
+        },
+        {
+              "pos": "noun",
+              "en": "a person who repeats what someone else has said without thinking",
+              "th": "คนพูดตาม"
+        }
+  ],
+    antonyms: ["original","creative"],
+    examples:   [
+        "The parrot repeated everything its owner said.",
+        "He was called a parrot because he never had an original thought.",
+        "The parrot's feathers were brightly colored."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'failure',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfeɪl.jɚ/',
+    ipa_us: '/ˈfeɪl.jɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of not succeeding",
+              "th": "ความล้มเหลว"
+        },
+        {
+              "pos": "noun",
+              "en": "a person or thing that does not succeed",
+              "th": "สิ่งที่ล้มเหลว"
+        }
+  ],
+    antonyms: ["success","achievement"],
+    examples:   [
+        "The failure of the business was due to poor management.",
+        "He felt like a failure after not getting the job.",
+        "The failure of the experiment was a setback."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'electron',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪˈlɛktɹɒn/',
+    ipa_us: '/ɪˈlɛktɹɒn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small particle with a negative charge",
+              "th": "อิเล็กตรอน"
+        }
+  ],
+    antonyms: ["proton","neutron"],
+    examples:   [
+        "Electrons are found in atoms.",
+        "The electron microscope was used to study the sample.",
+        "The flow of electrons is called electricity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'log',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/lɑɡ/',
+    ipa_us: '/lɑɡ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a section of a tree trunk",
+              "th": "ท่อนซุง"
+        },
+        {
+              "pos": "verb",
+              "en": "to write down or record something",
+              "th": "บันทึก"
+        }
+  ],
+    antonyms: ["branch","leaf"],
+    examples:   [
+        "The log was used for firewood.",
+        "She logged her hours of work.",
+        "The ship's log was an important record."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'documentary',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˌdɒk.jəˈmɛn.tɹi/',
+    ipa_us: '/ˌdɒk.jəˈmɛn.tɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a film or television program that shows real events or people",
+              "th": "ภาพยนตร์สารคดี"
+        },
+        {
+              "pos": "adjective",
+              "en": "relating to or consisting of documents",
+              "th": "เกี่ยวกับเอกสาร"
+        }
+  ],
+    antonyms: ["fiction","entertainment"],
+    examples:   [
+        "The documentary was about the history of the city.",
+        "The documentary evidence was used in court.",
+        "The documentary film won several awards."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flow',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/fləʊ/',
+    ipa_us: '/fləʊ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move smoothly and continuously",
+              "th": "ไหล"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of moving smoothly and continuously",
+              "th": "การไหล"
+        }
+  ],
+    antonyms: ["stop","block"],
+    examples:   [
+        "The river flowed gently to the sea.",
+        "The flow of traffic was heavy.",
+        "The flow of ideas was constant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'differ',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈdɪfə/',
+    ipa_us: '/ˈdɪfə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be unlike or dissimilar",
+              "th": "แตกต่าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to have or express a different opinion",
+              "th": "มีความคิดเห็นที่แตกต่าง"
+        }
+  ],
+    antonyms: ["agree","resemble"],
+    examples:   [
+        "The two languages differ greatly.",
+        "She differs from her sister in many ways.",
+        "The two theories differ in their approach."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'definition',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌdɛfɪˈnɪʃ(ə)n/',
+    ipa_us: '/ˌdɛfɪˈnɪʃ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement that explains the meaning of a word or phrase",
+              "th": "คำจำกัดความ"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of defining or explaining something",
+              "th": "การกำหนด"
+        }
+  ],
+    antonyms: ["ambiguity","uncertainty"],
+    examples:   [
+        "The definition of the word was unclear.",
+        "The definition of art is subjective.",
+        "The definition of the term was provided in the dictionary."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'possess',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/pəˈzɛs/',
+    ipa_us: '/pəˈzɛs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to have or hold something as one's own",
+              "th": "มี"
+        },
+        {
+              "pos": "verb",
+              "en": "to have a strong influence or control over someone",
+              "th": "มีอิทธิพล"
+        }
+  ],
+    antonyms: ["lack","lose"],
+    examples:   [
+        "She possesses a rare talent.",
+        "The company possesses a large market share.",
+        "The ghost was said to possess the house."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
