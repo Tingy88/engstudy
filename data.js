@@ -18536,6 +18536,406 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'rickety',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹɪk.e.ti/',
+    ipa_us: '/ˈɹɪk.e.ti/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "weak and likely to fall or collapse",
+              "th": "ไม่แข็งแรงและอาจล้มหรือพังลงมาได้ง่าย"
+        }
+  ],
+    antonyms: ["sturdy","stable"],
+    examples:   [
+        "The rickety bridge creaked ominously as we walked across it.",
+        "She was afraid to climb the rickety ladder to the top of the treehouse.",
+        "The old, rickety chair collapsed under the weight of the heavy man."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'informant',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈfɔːmənt/',
+    ipa_us: '/ɪnˈfɔːmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who gives information, especially to the police or another authority",
+              "th": "บุคคลที่ให้ข้อมูล โดยเฉพาะแก่ตำรวจหรือหน่วยงานอื่น"
+        }
+  ],
+    antonyms: ["withholder","concealer"],
+    examples:   [
+        "The police relied on an informant to gather evidence against the suspect.",
+        "The informant's testimony was crucial in solving the crime.",
+        "The company used an informant to gather information about its competitors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ostensibly',
+    level: 'C2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɒˈstɛn.sɪ.bli/',
+    ipa_us: '/ɒˈstɛn.sɪ.bli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "apparently or seemingly, but not necessarily actually",
+              "th": "ดูเหมือนว่าหรือปรากฏว่า แต่ไม่จำเป็นต้องเป็นความจริงเสมอไป"
+        }
+  ],
+    antonyms: ["actually","really"],
+    examples:   [
+        "He was ostensibly working on a new project, but he was actually playing video games.",
+        "The company ostensibly cares about its employees, but it doesn't show it in its actions.",
+        "She ostensibly agreed to go to the party, but she didn't show up."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'derisive',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈɹaɪ.sɪv/',
+    ipa_us: '/dɪˈɹaɪ.sɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "expressing contempt or ridicule",
+              "th": "แสดงความเยาะเย้ยหรือเหยียดหยาม"
+        }
+  ],
+    antonyms: ["respectful","admiring"],
+    examples:   [
+        "The derisive laughter of the crowd made the performer feel humiliated.",
+        "The derisive comments of the critics were devastating to the artist.",
+        "The derisive tone of the article was meant to mock the politician's statement."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cognitive',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkɒɡnɪtɪv/',
+    ipa_us: '/ˈkɒɡnɪtɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the mental processes of perception, attention, memory, learning, and problem-solving",
+              "th": "เกี่ยวกับกระบวนการทางจิตของการรับรู้, ความสนใจ, ความจำ, การเรียนรู้, และการแก้ปัญหา"
+        }
+  ],
+    antonyms: ["emotional","instinctive"],
+    examples:   [
+        "Cognitive psychology is the study of mental processes and behavior.",
+        "The cognitive abilities of the child were assessed through a series of tests.",
+        "The cognitive effects of the medication were still unknown and required further research."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'teem',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/tiːm/',
+    ipa_us: '/tiːm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be full of or abundant in something, especially living things",
+              "th": "เต็มไปด้วยหรือมีมากมายในบางสิ่ง โดยเฉพาะสิ่งมีชีวิต"
+        }
+  ],
+    antonyms: ["lack","be devoid of"],
+    examples:   [
+        "The forest teemed with wildlife, including deer, birds, and insects.",
+        "The city teemed with people, making it difficult to navigate the streets.",
+        "The ocean teemed with fish, making it a popular spot for fishing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'archetype',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɑːkɪtaɪp/',
+    ipa_us: '/ˈɑːkɪtaɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a very typical example of a person, thing, or idea",
+              "th": "ตัวอย่างที่เป็นแบบอย่างมากของบุคคล, สิ่ง, หรือแนวคิด"
+        }
+  ],
+    antonyms: ["exception","anomaly"],
+    examples:   [
+        "The hero of the story is an archetype of the brave warrior.",
+        "The archetype of the mother figure is often depicted in literature and art.",
+        "The company's founder was an archetype of the successful entrepreneur."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'parochial',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pəˈɹəʊkɪəl/',
+    ipa_us: '/pəˈɹəʊkɪəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "narrowly focused on local or regional issues, often to the exclusion of broader concerns",
+              "th": "มุ่งเน้นไปที่ประเด็นระดับท้องถิ่นหรือระดับภูมิภาค โดยมักจะไม่สนใจประเด็นที่กว้างขึ้น"
+        }
+  ],
+    antonyms: ["global","cosmopolitan"],
+    examples:   [
+        "The parochial views of the local community made it difficult to implement national policies.",
+        "The parochial focus of the newspaper was on local news and events.",
+        "The parochial mindset of the company limited its ability to expand globally."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'egalitarian',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪˌɡæl.ɪˈtɛə.ɹi.ən/',
+    ipa_us: '/ɪˌɡæl.ɪˈtɛə.ɹi.ən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "believing in or advocating for the principle of equal rights and opportunities for all people",
+              "th": "เชื่อหรือสนับสนุนหลักการของสิทธิและโอกาสที่เท่าเทียมกันสำหรับทุกคน"
+        }
+  ],
+    antonyms: ["elitist","hierarchical"],
+    examples:   [
+        "The egalitarian society aimed to eliminate social and economic inequalities.",
+        "The egalitarian approach to education emphasized the importance of equal access to resources.",
+        "The egalitarian values of the company were reflected in its policies and practices."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dissemination',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɨˌsɛmɨˈneɪʃən/',
+    ipa_us: '/dɨˌsɛmɨˈneɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of spreading or sharing information, ideas, or knowledge",
+              "th": "การกระจายหรือแบ่งปันข้อมูล, ความคิด, หรือความรู้"
+        }
+  ],
+    antonyms: ["concealment","suppression"],
+    examples:   [
+        "The dissemination of the news was rapid, spreading quickly through social media.",
+        "The dissemination of the research findings was crucial for advancing the field.",
+        "The dissemination of the company's mission and values was essential for its success."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'smattering',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsmæ.təɹ.ɪŋ/',
+    ipa_us: '/ˈsmæ.təɹ.ɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small amount or scattering of something, especially knowledge or skill",
+              "th": "ปริมาณเล็กน้อยหรือการกระจายของบางสิ่ง โดยเฉพาะความรู้หรือทักษะ"
+        }
+  ],
+    antonyms: ["proficiency","mastery"],
+    examples:   [
+        "She had a smattering of French, but was not fluent.",
+        "The artist had a smattering of experience with sculpture, but was primarily a painter.",
+        "The tourist had a smattering of knowledge about the local customs, but still got lost in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'combustion',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəmˈbʌs.tʃən/',
+    ipa_us: '/kəmˈbʌs.tʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of burning, especially in a chemical reaction that releases heat and light",
+              "th": "กระบวนการเผาไหม้ โดยเฉพาะในปฏิกิริยาเคมีที่ปล่อยความร้อนและแสง"
+        }
+  ],
+    antonyms: ["extinction","quenching"],
+    examples:   [
+        "The combustion engine is a type of engine that generates power through the combustion of fuel.",
+        "The combustion of fossil fuels releases carbon dioxide and other pollutants into the atmosphere.",
+        "The combustion reaction is a critical process in many industrial applications, including power generation and transportation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'demystify',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/diːˈmɪstɪfaɪ/',
+    ipa_us: '/diːˈmɪstɪfaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something seem less mysterious or intimidating by explaining or interpreting it in a clear and simple way",
+              "th": "ทำให้บางสิ่งดูไม่น่ากลัวหรือไม่น่าประหลาดใจโดยอธิบายหรือตีความมันในลักษณะที่ชัดเจนและง่าย"
+        }
+  ],
+    antonyms: ["mystify","obscure"],
+    examples:   [
+        "The scientist aimed to demystify the complex concept of quantum physics for the general public.",
+        "The teacher tried to demystify the difficult math problem by breaking it down into simpler steps.",
+        "The author's goal was to demystify the writing process, making it more accessible to aspiring writers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'incongruous',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈkɒn.ɡɹʊu.ʌs/',
+    ipa_us: '/ɪnˈkɒn.ɡɹʊu.ʌs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not matching or fitting in with something else, often in a way that is noticeable or unpleasant",
+              "th": "ไม่เข้ากันหรือไม่เหมาะสมกับบางสิ่งอื่น โดยมักจะเห็นได้ชัดหรือไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["congruous","harmonious"],
+    examples:   [
+        "The modern skyscraper looked incongruous among the historic buildings in the old town.",
+        "The loud music was incongruous with the peaceful atmosphere of the park.",
+        "The formal dress code was incongruous with the casual tone of the party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'diligent',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdɪlɪdʒənt/',
+    ipa_us: '/ˈdɪlɪdʒənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "showing careful and consistent effort or attention to detail",
+              "th": "แสดงความพยายามหรือความสนใจอย่างรอบคอบและต่อเนื่อง"
+        }
+  ],
+    antonyms: ["lazy","negligent"],
+    examples:   [
+        "The diligent student spent hours each day studying for the exam.",
+        "The diligent employee was always on time and met deadlines.",
+        "The diligent researcher spent years collecting data and analyzing results."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'predecessor',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹiːdɪsɛsɚ/',
+    ipa_us: '/ˈpɹiːdɪsɛsɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who had a particular job or position before someone else",
+              "th": "บุคคลที่มีงานหรือตำแหน่งนั้นมาก่อนใคร"
+        }
+  ],
+    antonyms: ["successor","replacement"],
+    examples:   [
+        "The predecessor of the current CEO was a well-respected leader in the industry.",
+        "The predecessor of the modern computer was the mainframe.",
+        "The predecessor of the current president was a popular figure, but had some controversies during their term."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'predilection',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌpɹiː.dəˈlɛk.ʃn̩/',
+    ipa_us: '/ˌpɹiː.dəˈlɛk.ʃn̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a preference or liking for something, especially one that is considered unusual or unjustified",
+              "th": "ความชอบหรือความนิยมสำหรับบางสิ่ง โดยเฉพาะอย่างยิ่งถ้าเป็นสิ่งที่ไม่ธรรมดาหรือไม่มีเหตุผล"
+        }
+  ],
+    antonyms: ["aversion","dislike"],
+    examples:   [
+        "She had a predilection for spicy food, which often surprised her friends.",
+        "He had a predilection for classical music, despite being a rock musician.",
+        "The company had a predilection for hiring candidates with unconventional backgrounds."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'allotment',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˈlɔt.mɛnt/',
+    ipa_us: '/əˈlɔt.mɛnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a part or share of something that is assigned or allocated to someone or something",
+              "th": "ส่วนหนึ่งหรือส่วนแบ่งของบางสิ่งที่ได้รับการกำหนดหรือจัดสรรให้กับใครบางคนหรือบางสิ่ง"
+        }
+  ],
+    antonyms: ["withholding","denial"],
+    examples:   [
+        "The allotment of land to the farmer was sufficient for their needs.",
+        "The allotment of funds for the project was limited, requiring careful budgeting.",
+        "The allotment of time for the presentation was strict, leaving no room for extensions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deterrent',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪˈtɛɹənt/',
+    ipa_us: '/dɪˈtɛɹənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "something that discourages or prevents someone from doing something",
+              "th": "สิ่งที่ขัดขวางหรือป้องกันไม่ให้ใครบางคนทำบางสิ่ง"
+        }
+  ],
+    antonyms: ["incentive","encouragement"],
+    examples:   [
+        "The threat of punishment was a deterrent to potential criminals.",
+        "The high cost of the product was a deterrent to many potential buyers.",
+        "The strict rules were a deterrent to anyone considering breaking them."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
