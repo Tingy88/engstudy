@@ -17748,6 +17748,541 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'camping',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkæmpɪŋ/',
+    ipa_us: '/ˈkæmpɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the activity of staying outdoors overnight in a tent",
+              "th": "การกางเต็นท์"
+        }
+  ],
+    antonyms: ["hiking","hotel"],
+    examples:   [
+        "Camping is a fun outdoor activity.",
+        "We went camping in the mountains last summer.",
+        "Camping allows us to connect with nature."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'petrol',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɛt.ɹəl/',
+    ipa_us: '/ˈpɛt.ɹəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a liquid fuel used for cars and other vehicles",
+              "th": "น้ำมันเบนซิน"
+        }
+  ],
+    antonyms: ["diesel","electric"],
+    examples:   [
+        "The car runs on petrol.",
+        "We need to fill up the petrol tank.",
+        "The price of petrol is increasing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'till',
+    level: 'A2',
+    partOfSpeech: ["preposition","conjunction"],
+    ipa_uk: '/tɪl/',
+    ipa_us: '/tɪl/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "up to a particular time",
+              "th": "จนถึง"
+        },
+        {
+              "pos": "conjunction",
+              "en": "up to the time that",
+              "th": "จนกระทั่ง"
+        }
+  ],
+    antonyms: ["since","from"],
+    examples:   [
+        "I'll work till 5 o'clock.",
+        "We'll wait till you arrive.",
+        "I've been waiting till the morning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'running',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈɹʌnɪŋ/',
+    ipa_us: '/ˈɹʌnɪŋ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "moving quickly on foot",
+              "th": "วิ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of moving quickly on foot",
+              "th": "การวิ่ง"
+        }
+  ],
+    antonyms: ["walking","standing"],
+    examples:   [
+        "I'm running late for work.",
+        "Running is a great way to stay fit.",
+        "She's running in the marathon tomorrow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thought',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/θɔːt/',
+    ipa_us: '/θɔːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an idea or opinion in your mind",
+              "th": "ความคิด"
+        }
+  ],
+    antonyms: ["action","feeling"],
+    examples:   [
+        "I had a strange thought last night.",
+        "Her thought was that we should try again.",
+        "The thought of flying scares me."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'road',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹəʊd/',
+    ipa_us: '/ɹəʊd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a path or way made for vehicles to travel on",
+              "th": "ถนน"
+        }
+  ],
+    antonyms: ["path","highway"],
+    examples:   [
+        "The road to the beach is closed.",
+        "We're driving down the road to the city.",
+        "The road was under construction."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'latest',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈleɪt.ɪst/',
+    ipa_us: '/ˈleɪt.ɪst/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "newest or most recent",
+              "th": "ใหม่ล่าสุด"
+        }
+  ],
+    antonyms: ["oldest","earliest"],
+    examples:   [
+        "I have the latest iPhone.",
+        "The latest news is that the concert is cancelled.",
+        "The latest fashion trends are from Paris."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'abroad',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈbɹɔːd/',
+    ipa_us: '/əˈbɹɔːd/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in or to a foreign country",
+              "th": "ต่างประเทศ"
+        }
+  ],
+    antonyms: ["home","locally"],
+    examples:   [
+        "I'm going abroad for vacation.",
+        "She's studying abroad in the US.",
+        "He's working abroad for a year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'other',
+    level: 'A2',
+    partOfSpeech: ["adjective","pronoun"],
+    ipa_uk: '/ˈɐðə/',
+    ipa_us: '/ˈɐðə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "different from the one or ones already mentioned",
+              "th": "อื่น"
+        },
+        {
+              "pos": "pronoun",
+              "en": "a person or thing that is different from the one or ones already mentioned",
+              "th": "อีกคนหนึ่ง"
+        }
+  ],
+    antonyms: ["same","similar"],
+    examples:   [
+        "I have other plans for tonight.",
+        "The other day, I saw a great movie.",
+        "There's another way to solve the problem."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'latter',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈlæt̬.əɹ/',
+    ipa_us: '/ˈlæt̬.əɹ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "happening or done near the end of a period of time",
+              "th": "ช่วงหลัง"
+        },
+        {
+              "pos": "noun",
+              "en": "the second of two things mentioned",
+              "th": "ส่วนที่สอง"
+        }
+  ],
+    antonyms: ["former","earlier"],
+    examples:   [
+        "I prefer the latter option.",
+        "The latter part of the book is more interesting.",
+        "The latter half of the year was busier."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'kilo',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkiːləʊ/',
+    ipa_us: '/ˈkiːləʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a unit of weight or mass equal to 1,000 grams",
+              "th": "กิโลกรัม"
+        }
+  ],
+    antonyms: ["gram","ton"],
+    examples:   [
+        "I weigh 60 kilos.",
+        "The bag weighs 5 kilos.",
+        "The price is 10 euros per kilo."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'friendship',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɹɛndʃɪp/',
+    ipa_us: '/ˈfɹɛndʃɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being friends",
+              "th": "มิตรภาพ"
+        }
+  ],
+    antonyms: ["enmity","hatred"],
+    examples:   [
+        "Our friendship has lasted for years.",
+        "Friendship is important for our well-being.",
+        "The friendship between the two countries is strong."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shadow',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈʃædəʊ/',
+    ipa_us: '/ˈʃædəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a dark shape made on the ground or on a surface by something blocking the light",
+              "th": "เงา"
+        }
+  ],
+    antonyms: ["light","silhouette"],
+    examples:   [
+        "The tree cast a shadow on the ground.",
+        "I saw a shadow moving in the corner.",
+        "The shadow of the mountain was visible from afar."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'depend',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈpɛnd/',
+    ipa_us: '/dɪˈpɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to rely on something or someone for support or existence",
+              "th": "พึ่งพา"
+        }
+  ],
+    antonyms: ["independent","self-sufficient"],
+    examples:   [
+        "I depend on my parents for financial support.",
+        "The company depends on its employees.",
+        "The plant depends on sunlight to grow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'advertisement',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ədˈvɜːtɪsmənt/',
+    ipa_us: '/ədˈvɜːtɪsmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a message or notice designed to persuade people to buy something",
+              "th": "โฆษณา"
+        }
+  ],
+    antonyms: ["review","criticism"],
+    examples:   [
+        "The advertisement on TV was very convincing.",
+        "The company spent a lot on advertisement.",
+        "The advertisement in the magazine caught my eye."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'quality',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkwɒlɪti/',
+    ipa_us: '/ˈkwɒlɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a high standard or level of something",
+              "th": "คุณภาพ"
+        }
+  ],
+    antonyms: ["poor","low"],
+    examples:   [
+        "The quality of the product is excellent.",
+        "The hotel is known for its high quality service.",
+        "The quality of the air is improving."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'frightened',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfɹaɪtn̩d/',
+    ipa_us: '/ˈfɹaɪtn̩d/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling scared or afraid",
+              "th": "กลัว"
+        }
+  ],
+    antonyms: ["brave","courageous"],
+    examples:   [
+        "The child was frightened by the loud noise.",
+        "I'm frightened of spiders.",
+        "She was frightened by the dark."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'production',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹəˈdʌkʃən/',
+    ipa_us: '/pɹəˈdʌkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of making or manufacturing something",
+              "th": "การผลิต"
+        }
+  ],
+    antonyms: ["consumption","destruction"],
+    examples:   [
+        "The production of the play was a huge success.",
+        "The company increased its production last year.",
+        "The production costs are very high."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'personality',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/-i/',
+    ipa_us: '/-i/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the combination of characteristics or traits that form an individual's distinctive character",
+              "th": "บุคลิก"
+        }
+  ],
+    antonyms: ["appearance","behavior"],
+    examples:   [
+        "She has a great personality.",
+        "His personality is very outgoing.",
+        "The personality of the team leader is very important."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'structure',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈstɹʌktʃə(ɹ)/',
+    ipa_us: '/ˈstɹʌktʃə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a building or other physical construction",
+              "th": "โครงสร้าง"
+        }
+  ],
+    antonyms: ["chaos","disorder"],
+    examples:   [
+        "The structure of the bridge is very complex.",
+        "The company is changing its structure.",
+        "The structure of the sentence is simple."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'euro',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈjʊəɹəʊ/',
+    ipa_us: '/ˈjʊəɹəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the official currency of the European Union",
+              "th": "ยูโร"
+        }
+  ],
+    antonyms: ["dollar","pound"],
+    examples:   [
+        "The euro is the currency used in many European countries.",
+        "I exchanged my dollars for euros.",
+        "The price is 10 euros per night."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'break',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/bɹeɪk/',
+    ipa_us: '/bɹeɪk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to separate or become separated into two or more parts",
+              "th": "แตก"
+        },
+        {
+              "pos": "noun",
+              "en": "a pause or interval in a activity",
+              "th": "การหยุดพัก"
+        }
+  ],
+    antonyms: ["fix","continue"],
+    examples:   [
+        "I need to break for lunch.",
+        "The glass will break if you drop it.",
+        "The break in the weather was welcome."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'safe',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/seɪf/',
+    ipa_us: '/seɪf/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "protected from harm or danger",
+              "th": "ปลอดภัย"
+        },
+        {
+              "pos": "noun",
+              "en": "a strongbox or container for keeping valuable things secure",
+              "th": "ตู้นิรภัย"
+        }
+  ],
+    antonyms: ["dangerous","risky"],
+    examples:   [
+        "The safe is locked.",
+        "I feel safe in this neighborhood.",
+        "The company ensures that its employees are safe at work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'balloon',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/bəˈluːn/',
+    ipa_us: '/bəˈluːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a flexible bag that can be filled with air or gas",
+              "th": "ลูกโป่ง"
+        }
+  ],
+    antonyms: ["pin","needle"],
+    examples:   [
+        "The balloon popped when I touched it.",
+        "The child was playing with a balloon.",
+        "The hot air balloon flew high in the sky."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
