@@ -18283,6 +18283,259 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'orphan',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɔːfən/',
+    ipa_us: '/ˈɔːfən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a child whose parents are dead",
+              "th": "เด็กกำพร้า"
+        }
+  ],
+    antonyms: ["parent","guardian"],
+    examples:   [
+        "The orphan was adopted by a loving family.",
+        "The orphanage provided a safe haven for the orphan.",
+        "The story of the orphan who became a successful entrepreneur is inspiring."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'divergent',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/daɪˈvɜːdʒənt/',
+    ipa_us: '/daɪˈvɜːdʒənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "different or moving in different directions",
+              "th": "แตกต่าง"
+        }
+  ],
+    antonyms: ["convergent","similar"],
+    examples:   [
+        "The divergent opinions on the issue made it difficult to reach a consensus.",
+        "The company's divergent business strategies led to confusion among its employees.",
+        "The artist's divergent style was reflected in her eclectic art pieces."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stray',
+    level: 'C1',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/stɹeɪ/',
+    ipa_us: '/stɹeɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to wander away from a place or path",
+              "th": "หลงทาง"
+        }
+  ],
+    antonyms: ["stay","remain"],
+    examples:   [
+        "The dog strayed from its owner and got lost in the woods.",
+        "The conversation strayed from the topic and became unproductive.",
+        "The hikers strayed from the trail and had to navigate through the dense forest."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rudimentary',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌɹuːdɪˈmɛntəɹi/',
+    ipa_us: '/ˌɹuːdɪˈmɛntəɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very basic or simple",
+              "th": "พื้นฐาน"
+        }
+  ],
+    antonyms: ["advanced","complex"],
+    examples:   [
+        "The rudimentary tools made it difficult to complete the project.",
+        "The rudimentary language skills of the tourist made communication challenging.",
+        "The company's rudimentary website needed to be updated."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'grounds',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ɡɹaʊndz/',
+    ipa_us: '/ɡɹaʊndz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a reason or explanation for something",
+              "th": "เหตุผล"
+        }
+  ],
+    antonyms: ["no reason","no excuse"],
+    examples:   [
+        "The company was sued on grounds of negligence.",
+        "The student was expelled from school on grounds of misconduct.",
+        "The employee was fired on grounds of poor performance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ghostly',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɡoʊstli/',
+    ipa_us: '/ˈɡoʊstli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "like a ghost, or giving the feeling of being a ghost",
+              "th": "เหมือนผี"
+        }
+  ],
+    antonyms: ["real","tangible"],
+    examples:   [
+        "The ghostly figure appeared in the abandoned mansion.",
+        "The ghostly atmosphere of the forest was eerie.",
+        "The ghostly sound of the violin was haunting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enviable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɛnvi.əbl̩/',
+    ipa_us: '/ˈɛnvi.əbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "deserving to be envied, or making someone feel envious",
+              "th": "น่า羨ย"
+        }
+  ],
+    antonyms: ["unenviable","undesirable"],
+    examples:   [
+        "The enviable lifestyle of the rich and famous was often portrayed in the media.",
+        "The enviable skills of the musician made her a sought-after performer.",
+        "The enviable location of the house made it a prime real estate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dispensary',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/dɪsˈpɛnsəɹi/',
+    ipa_us: '/dɪsˈpɛnsəɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place where medicines or other supplies are given out",
+              "th": "คลินิก"
+        }
+  ],
+    antonyms: ["pharmacy","store"],
+    examples:   [
+        "The dispensary provided free medical care to the community.",
+        "The dispensary was open 24 hours a day.",
+        "The company had a dispensary on site for its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'absolute',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈæb.səˌljuːt/',
+    ipa_us: '/ˈæb.səˌljuːt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "complete and total, or not limited in any way",
+              "th": "สมบูรณ์"
+        }
+  ],
+    antonyms: ["relative","conditional"],
+    examples:   [
+        "The absolute power of the dictator was frightening.",
+        "The absolute silence of the library was peaceful.",
+        "The company's absolute commitment to quality was impressive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'calf',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/kæf/',
+    ipa_us: '/kæf/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a young cow, or the back of the leg below the knee",
+              "th": "ลูกวัว"
+        }
+  ],
+    antonyms: ["adult","human"],
+    examples:   [
+        "The calf was separated from its mother and needed to be fed.",
+        "The hiker strained her calf muscle while climbing the mountain.",
+        "The farmer raised calves for beef production."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gnaw',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/nɔː/',
+    ipa_us: '/nɔː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to bite or chew on something constantly, often in a nervous or anxious way",
+              "th": "กัด"
+        }
+  ],
+    antonyms: ["stop","cease"],
+    examples:   [
+        "The mouse began to gnaw on the wire, causing a short circuit.",
+        "The dog liked to gnaw on bones to clean its teeth.",
+        "The anxiety made her gnaw on her nails nervously."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ground',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ɡɹaʊnd/',
+    ipa_us: '/ɡɹaʊnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the surface of the earth, or a reason or basis for something",
+              "th": "พื้น"
+        }
+  ],
+    antonyms: ["sky","air"],
+    examples:   [
+        "The ground was wet and muddy after the rain.",
+        "The company had solid ground to stand on after the merger.",
+        "The teacher helped the student find common ground with her peers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
