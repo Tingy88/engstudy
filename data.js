@@ -19916,6 +19916,388 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'crush',
+    level: 'B1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/kɹʌʃ/',
+    ipa_us: '/kɹʌʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to squeeze or press something very hard so that it becomes flat or broken",
+              "th": "บดหรือกดสิ่งใดสิ่งหนึ่งจนแบนหรือแตก"
+        },
+        {
+              "pos": "noun",
+              "en": "a strong feeling of love or attraction",
+              "th": "ความรู้สึกรักหรือดึงดูดที่รุนแรง"
+        }
+  ],
+    antonyms: ["release","love"],
+    examples:   [
+        "She has a crush on her classmate.",
+        "The machine will crush the rocks into small pieces.",
+        "He had a crush on his colleague, but she didn't feel the same way."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enthusiasm',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/-θuː-/',
+    ipa_us: '/-θuː-/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of great interest, excitement, or energy",
+              "th": "ความรู้สึกสนใจ สนุกสนาน หรือมีพลังงานมาก"
+        }
+  ],
+    antonyms: ["apathy","boredom"],
+    examples:   [
+        "The team played with great enthusiasm and won the game.",
+        "Her enthusiasm for the project was contagious and inspired the whole team.",
+        "The crowd showed their enthusiasm by cheering and clapping loudly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'loaf',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [I]"],
+    ipa_uk: '/ləʊf/',
+    ipa_us: '/ləʊf/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a shaped mass of bread",
+              "th": "ก้อนขนมปังที่มีรูปทรง"
+        },
+        {
+              "pos": "verb",
+              "en": "to spend time doing nothing or very little",
+              "th": "ใช้เวลาทำอะไรไม่มากหรือไม่ทำอะไรเลย"
+        }
+  ],
+    antonyms: ["work","hurry"],
+    examples:   [
+        "She bought a loaf of bread from the bakery.",
+        "He loves to loaf around on Sundays and watch TV all day.",
+        "The dog likes to loaf in the sunbeams that come through the windows."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'including',
+    level: 'B1',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/ɪnˈkluːdɪŋ/',
+    ipa_us: '/ɪnˈkluːdɪŋ/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "with something or someone as a part of it",
+              "th": "พร้อมสิ่งใดสิ่งหนึ่งเป็นส่วนหนึ่งของมัน"
+        }
+  ],
+    antonyms: ["excluding","leaving out"],
+    examples:   [
+        "The price includes all taxes, including VAT.",
+        "The hotel package, including breakfast and dinner, costs $200 per night.",
+        "The company's products, including smartphones and laptops, are very popular."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chuckle',
+    level: 'B1',
+    partOfSpeech: ["verb [I]","noun [C]"],
+    ipa_uk: '/ˈt͡ʃʌkəl/',
+    ipa_us: '/ˈt͡ʃʌkəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to laugh quietly, often in a silly or amused way",
+              "th": "หัวเราะเบาๆ โดยมักจะด้วยความงี่เง่าหรือความสนุกสนาน"
+        },
+        {
+              "pos": "noun",
+              "en": "a quiet laugh",
+              "th": "การหัวเราะเบาๆ"
+        }
+  ],
+    antonyms: ["cry","scream"],
+    examples:   [
+        "She couldn't help but chuckle at the silly joke.",
+        "He let out a chuckle when he saw the funny video.",
+        "The audience gave a collective chuckle at the comedian's witty remark."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'interest',
+    level: 'B1',
+    partOfSpeech: ["noun [C/U]","verb [T]"],
+    ipa_uk: '/ˈɪntəɹɪst/',
+    ipa_us: '/ˈɪntəɹɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of wanting to learn or know more about something",
+              "th": "ความรู้สึกอยากที่จะเรียนรู้หรือรู้เพิ่มเติมเกี่ยวกับบางสิ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to make someone want to learn or know more about something",
+              "th": "ทำให้บางคนอยากเรียนรู้หรือรู้เพิ่มเติมเกี่ยวกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["boredom","indifference"],
+    examples:   [
+        "She has a strong interest in science and technology.",
+        "The movie didn't interest me, so I fell asleep.",
+        "The teacher tried to interest the students in the subject by making it more interactive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rubbish',
+    level: 'B1',
+    partOfSpeech: ["noun [U/C]"],
+    ipa_uk: '/ˈɹʌbɪʃ/',
+    ipa_us: '/ˈɹʌbɪʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "waste material or unwanted things",
+              "th": "วัสดุหรือสิ่งของที่ไม่ต้องการ"
+        },
+        {
+              "pos": "noun",
+              "en": "something that is of very poor quality",
+              "th": "สิ่งที่มีคุณภาพต่ำมาก"
+        }
+  ],
+    antonyms: ["treasure","valuable"],
+    examples:   [
+        "Please take out the rubbish and put it in the bin.",
+        "The movie was rubbish, and I didn't enjoy it at all.",
+        "The football team played rubbish and lost the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'theory',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈθiːəɹi/',
+    ipa_us: '/ˈθiːəɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an idea or explanation for something that is based on a set of principles or ideas",
+              "th": "ความคิดหรือคำอธิบายสำหรับบางสิ่งที่อาศัยหลักการหรือความคิด"
+        }
+  ],
+    antonyms: ["fact","reality"],
+    examples:   [
+        "The theory of evolution explains how species change over time.",
+        "The detective had a theory about who committed the crime.",
+        "The scientist developed a new theory to explain the phenomenon."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'request',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ɹɪˈkwɛst/',
+    ipa_us: '/ɹɪˈkwɛst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a polite or formal ask for something",
+              "th": "การขออย่างสุภาพหรือเป็นทางการ"
+        },
+        {
+              "pos": "verb",
+              "en": "to ask for something in a polite or formal way",
+              "th": "ขออะไรบางอย่างด้วยวิธีสุภาพหรือเป็นทางการ"
+        }
+  ],
+    antonyms: ["refuse","deny"],
+    examples:   [
+        "I made a request to the manager for a day off.",
+        "The company will request a meeting with the supplier to discuss the issue.",
+        "She requested a song on the radio, and it was played immediately."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'currency',
+    level: 'B1',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/ˈkʌɹ.ən.si/',
+    ipa_us: '/ˈkʌɹ.ən.si/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the money used in a particular country or region",
+              "th": "เงินที่ใช้ในประเทศหรือภูมิภาคใดภูมิภาคหนึ่ง"
+        }
+  ],
+    antonyms: ["barter","trade"],
+    examples:   [
+        "The currency in Japan is the yen.",
+        "The value of the currency can fluctuate depending on the economy.",
+        "The company has to exchange its currency to do business abroad."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'goddess',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/-ɪs/',
+    ipa_us: '/-ɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a female deity or a woman who is greatly admired",
+              "th": "สตรีศักดิ์สิทธิ์หรือผู้หญิงที่ได้รับการยกย่องอย่างมาก"
+        }
+  ],
+    antonyms: ["god","mortal"],
+    examples:   [
+        "In ancient mythology, the goddess of love was often depicted as beautiful and powerful.",
+        "The actress was considered a goddess by her fans due to her stunning looks and talent.",
+        "The statue of the goddess was discovered in the ancient temple."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'total',
+    level: 'B1',
+    partOfSpeech: ["adjective","noun [C]"],
+    ipa_uk: '/ˈtəʊ.təl/',
+    ipa_us: '/ˈtəʊ.təl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "complete or entire",
+              "th": "สมบูรณ์หรือทั้งหมด"
+        },
+        {
+              "pos": "noun",
+              "en": "the whole amount or sum of something",
+              "th": "จำนวนหรือผลรวมทั้งหมดของบางสิ่ง"
+        }
+  ],
+    antonyms: ["partial","incomplete"],
+    examples:   [
+        "The total cost of the project was higher than expected.",
+        "The company has a total of 500 employees.",
+        "The total amount of money in the account is $10,000."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'base',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/beɪs/',
+    ipa_us: '/beɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the lowest part of something",
+              "th": "ส่วนล่างสุดของบางสิ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to establish or locate something on a particular place or thing",
+              "th": "จัดตั้งหรือวางบางสิ่งที่จุดหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["top","remove"],
+    examples:   [
+        "The base of the mountain is covered in trees.",
+        "The company will base its new office in the city center.",
+        "The research is based on data from several sources."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stupid',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈstjuːpɪd/',
+    ipa_us: '/ˈstjuːpɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lacking intelligence or common sense",
+              "th": "ขาดความฉลาดหรือความเข้าใจทั่วไป"
+        }
+  ],
+    antonyms: ["intelligent","wise"],
+    examples:   [
+        "It was stupid of me to forget my phone at home.",
+        "The movie was so stupid that I fell asleep.",
+        "He made a stupid mistake that cost the team the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exit',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [I/T]"],
+    ipa_uk: '/ˈɛksɪt/',
+    ipa_us: '/ˈɛksɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a way out of a place or a system",
+              "th": "ทางออกจากที่หรือระบบ"
+        },
+        {
+              "pos": "verb",
+              "en": "to leave a place or a system",
+              "th": "ออกจากที่หรือระบบ"
+        }
+  ],
+    antonyms: ["enter","join"],
+    examples:   [
+        "The exit from the highway is closed due to construction.",
+        "She will exit the company after five years of service.",
+        "The program will exit automatically if there's an error."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'headline',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈhɛd.laɪn/',
+    ipa_us: '/ˈhɛd.laɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the title of a newspaper article, typically in large letters",
+              "th": "ชื่อเรื่องของบทความในหนังสือพิมพ์ โดยปกติจะเขียนด้วยตัวอักษรขนาดใหญ่"
+        }
+  ],
+    antonyms: ["subtitle","footnote"],
+    examples:   [
+        "The headline of the news article was 'Economic Crisis Hits Country'.",
+        "The headline grabbed my attention, and I read the whole article.",
+        "The journalist wrote a catchy headline to attract more readers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
