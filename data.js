@@ -19455,6 +19455,467 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'elite',
+    level: 'B2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/eɪˈliːt/',
+    ipa_us: '/eɪˈliːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of people considered to be the best or most skilled in a particular area",
+              "th": "กลุ่มคนที่ถือว่าดีที่สุดหรือมีทักษะสูงสุดในด้านใดด้านหนึ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "representing the most skilled or superior group",
+              "th": "เป็นตัวแทนของกลุ่มที่มีทักษะสูงสุดหรือเหนือกว่า"
+        }
+  ],
+    antonyms: ["average","ordinary"],
+    examples:   [
+        "The elite team of scientists worked tirelessly to find a cure for the disease.",
+        "As an elite athlete, she had to maintain a strict training schedule.",
+        "The elite group of businessmen controlled a significant portion of the country's economy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exhaustion',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪɡˈzɔːs.tʃən/',
+    ipa_us: '/ɪɡˈzɔːs.tʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of extreme physical or mental tiredness",
+              "th": "สภาพของความเหนื่อยล้าทางกายหรือใจอย่างรุนแรง"
+        }
+  ],
+    antonyms: ["energy","vitality"],
+    examples:   [
+        "After working non-stop for 24 hours, she felt complete exhaustion.",
+        "The exhaustion from the long hike made it difficult for him to enjoy the scenic view.",
+        "The doctor warned that prolonged exhaustion could lead to serious health problems."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'personnel',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/-el/',
+    ipa_us: '/-el/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the people who work for an organization or business",
+              "th": "บุคคลที่ทำงานให้กับองค์กรหรือธุรกิจ"
+        }
+  ],
+    antonyms: ["machinery","equipment"],
+    examples:   [
+        "The company's personnel department is responsible for hiring new staff.",
+        "The hotel's personnel were friendly and helpful during our stay.",
+        "The personnel manager had to deal with a lot of conflicts between employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'regret',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɹiˈɡɹɛt/',
+    ipa_us: '/ɹiˈɡɹɛt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to feel sorry or disappointed about something",
+              "th": "รู้สึกเสียใจหรือผิดหวังเกี่ยวกับบางสิ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of sadness or disappointment about something",
+              "th": "ความรู้สึกเสียใจหรือผิดหวังเกี่ยวกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["delight","satisfaction"],
+    examples:   [
+        "I regret not taking the opportunity to travel when I was younger.",
+        "She expressed regret over her decision to quit her job.",
+        "He felt regret for not spending more time with his family before they moved away."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flat',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun","adverb"],
+    ipa_uk: '/flæt/',
+    ipa_us: '/flæt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a surface that is level or even",
+              "th": "มีพื้นผิวที่เรียบหรือราบ"
+        },
+        {
+              "pos": "noun",
+              "en": "a set of rooms for living in, especially on one floor of a building",
+              "th": "ชุดของห้องสำหรับอยู่อาศัย โดยเฉพาะอยู่บนชั้นเดียวของอาคาร"
+        },
+        {
+              "pos": "adverb",
+              "en": "completely or utterly",
+              "th": "อย่างสมบูรณ์หรือสิ้นเชิง"
+        }
+  ],
+    antonyms: ["steep","hilly"],
+    examples:   [
+        "The flat landscape stretched out as far as the eye could see.",
+        "The rent for the flat was quite expensive, but it was in a great location.",
+        "The tire was flat, so we had to stop and change it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'saw',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/sɔː/',
+    ipa_us: '/sɔː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "past tense of 'see'",
+              "th": "รูปที่ผ่านมาของ 'see'"
+        },
+        {
+              "pos": "noun",
+              "en": "a tool for cutting through wood or other materials",
+              "th": "เครื่องมือสำหรับตัดผ่านไม้หรือวัสดุอื่น"
+        }
+  ],
+    antonyms: ["missed","ignored"],
+    examples:   [
+        "I saw the movie last night and really enjoyed it.",
+        "The carpenter used a saw to cut the wood into smaller pieces.",
+        "She saw the accident happen right in front of her eyes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'drain',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɹeɪn/',
+    ipa_us: '/dɹeɪn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to remove liquid from something",
+              "th": "เอาเหลวออกจากสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a pipe or channel for carrying away waste water or other liquids",
+              "th": "ท่อหรือช่องทางสำหรับนำน้ำเสียหรือของเหลวอื่นออกไป"
+        }
+  ],
+    antonyms: ["fill","accumulate"],
+    examples:   [
+        "The sink was clogged, so I had to drain the water manually.",
+        "The drain in the shower was blocked, causing water to accumulate.",
+        "The company's financial problems began to drain its resources."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'glocal',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɡləʊk(ə)l/',
+    ipa_us: '/ˈɡləʊk(ə)l/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or denoting a product or service that is both global and local",
+              "th": "เกี่ยวข้องกับหรือแสดงถึงผลิตภัณฑ์หรือบริการที่ทั้งโลกและท้องถิ่น"
+        }
+  ],
+    antonyms: ["global","universal"],
+    examples:   [
+        "The glocal approach to marketing allowed the company to tailor its products to local tastes.",
+        "Glocalization is a key strategy for businesses looking to expand into new markets.",
+        "The glocal nature of the internet has enabled people from different cultures to connect and share ideas."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'yawn',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/jɔːn/',
+    ipa_us: '/jɔːn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to open your mouth wide and take a deep breath, often because you are tired",
+              "th": "เปิดปากกว้างและหายใจลึกๆ บ่อยครั้งเพราะความเหนื่อย"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of yawning",
+              "th": "การหาว"
+        }
+  ],
+    antonyms: ["smile","laugh"],
+    examples:   [
+        "I yawned loudly during the boring lecture.",
+        "The yawn that escaped her lips was a clear sign that she was tired.",
+        "He let out a big yawn after waking up from his nap."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bankruptcy',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbæŋkɹʌptsɪ/',
+    ipa_us: '/ˈbæŋkɹʌptsɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being unable to pay your debts",
+              "th": "สถานะที่ไม่สามารถชำระหนี้ได้"
+        }
+  ],
+    antonyms: ["prosperity","solvent"],
+    examples:   [
+        "The company filed for bankruptcy after years of struggling financially.",
+        "The threat of bankruptcy forced the business to restructure its debts.",
+        "Personal bankruptcy can have serious consequences on one's credit score."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'accommodation',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ə.ˌkɒm.ə.ˈdeɪ.ʃən/',
+    ipa_us: '/ə.ˌkɒm.ə.ˈdeɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place to stay, especially in a hotel or other establishment",
+              "th": "ที่พัก โดยเฉพาะอยู่ในโรงแรมหรือสถานประกอบการอื่น"
+        }
+  ],
+    antonyms: ["eviction","expulsion"],
+    examples:   [
+        "The hotel offered comfortable accommodation for its guests.",
+        "The university provided accommodation for its students in the form of dormitories.",
+        "The company's accommodation policy included reimbursement for travel expenses."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'proposed',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/pɹəˈpəʊzd/',
+    ipa_us: '/pɹəˈpəʊzd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "past tense of 'propose', to suggest or put forward an idea or plan",
+              "th": "รูปที่ผ่านมาของ 'propose' เสนอหรือเสนอความคิดหรือแผน"
+        }
+  ],
+    antonyms: ["rejected","dismissed"],
+    examples:   [
+        "The committee proposed a new budget for the upcoming year.",
+        "She proposed a solution to the problem that everyone agreed with.",
+        "The company proposed a merger with its rival, which was met with skepticism."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bestow',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/bɪˈstəʊ/',
+    ipa_us: '/bɪˈstəʊ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give something, especially an honor or a gift, to someone",
+              "th": "ให้บางสิ่ง โดยเฉพาะอย่างยิ่งเกียรติหรือของขวัญแก่ใครบางคน"
+        }
+  ],
+    antonyms: ["withhold","deny"],
+    examples:   [
+        "The king bestowed a knighthood upon the brave soldier.",
+        "The university bestowed an honorary degree upon the distinguished guest.",
+        "The company will bestow a bonus on its employees for their hard work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enterprise',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛntɚˌpɹaɪz/',
+    ipa_us: '/ˈɛntɚˌpɹaɪz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a business or organization, especially a small one",
+              "th": "ธุรกิจหรือองค์กร โดยเฉพาะอย่างยิ่งธุรกิจขนาดเล็ก"
+        }
+  ],
+    antonyms: ["closure","dissolution"],
+    examples:   [
+        "The small enterprise struggled to compete with larger corporations.",
+        "The entrepreneur's new enterprise quickly gained popularity.",
+        "The government provided support for small enterprises to encourage economic growth."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relic',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɛlɪk/',
+    ipa_us: '/ˈɹɛlɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an object that has survived from a past time, especially one that is interesting or valuable",
+              "th": "วัตถุที่รอดชีวิตมาจากสมัยก่อน โดยเฉพาะอย่างยิ่งวัตถุที่น่าสนใจหรือมีค่า"
+        }
+  ],
+    antonyms: ["innovation","novelty"],
+    examples:   [
+        "The museum exhibited a relic from the ancient civilization.",
+        "The old watch was a relic from her grandfather's time.",
+        "The relic of the past was a reminder of how far technology has come."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'linger',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈlɪŋɡə/',
+    ipa_us: '/ˈlɪŋɡə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to stay in a place for a longer time than necessary, often because you do not want to leave",
+              "th": "อยู่ในสถานที่เป็นเวลานานกว่าที่จำเป็น โดยทั่วไปเนื่องจากคุณไม่ต้องการออกไป"
+        }
+  ],
+    antonyms: ["hurry","rush"],
+    examples:   [
+        "The smell of freshly baked cookies lingered in the air.",
+        "She lingered by the window, watching the sunset.",
+        "The memory of the beautiful vacation lingered in his mind long after he returned home."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'botany',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/-ɪ/',
+    ipa_us: '/-ɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the scientific study of plants, including their structure, growth, evolution, and distribution",
+              "th": "การศึกษาวิทยาศาสตร์ของพืช รวมถึงโครงสร้าง การเติบโต การพัฒนา และการกระจาย"
+        }
+  ],
+    antonyms: ["zoology","entomology"],
+    examples:   [
+        "The botany class went on a field trip to study the local flora.",
+        "Her interest in botany led her to pursue a career in horticulture.",
+        "The botany department at the university was renowned for its research on plant genetics."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'motion',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈməʊʃən/',
+    ipa_us: '/ˈməʊʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of moving or the state of being in movement",
+              "th": "การเคลื่อนไหวหรือสภาพของการเคลื่อนไหว"
+        }
+  ],
+    antonyms: ["stillness","immobility"],
+    examples:   [
+        "The motion of the waves was soothing to watch.",
+        "The company is in motion to expand its operations to new markets.",
+        "The athlete's motion was smooth and efficient, allowing her to win the competition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'profile',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpɹəʊfaɪl/',
+    ipa_us: '/ˈpɹəʊfaɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a description of someone's character, abilities, or background",
+              "th": "คำอธิบายเกี่ยวกับบุคลิกภาพ ทักษะ หรือพื้นหลังของใครบางคน"
+        },
+        {
+              "pos": "verb",
+              "en": "to create a profile of someone or something",
+              "th": "สร้างโปรไฟล์ของใครบางคนหรือบางสิ่ง"
+        }
+  ],
+    antonyms: ["ignore","dismiss"],
+    examples:   [
+        "The company created a profile of its ideal customer to tailor its marketing strategy.",
+        "Her social media profile was very popular, with thousands of followers.",
+        "The detective profiled the suspect to predict their next move."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'turbulent',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtɜːbjələnt/',
+    ipa_us: '/ˈtɜːbjələnt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "characterized by conflict, disorder, or instability",
+              "th": "มีลักษณะของความขัดแย้ง ความไม่สงบ หรือความไม่มั่นคง"
+        }
+  ],
+    antonyms: ["peaceful","stable"],
+    examples:   [
+        "The turbulent relationship between the two countries made trade negotiations difficult.",
+        "The turbulent sea made it hard for the ship to stay on course.",
+        "The company's turbulent financial history made it difficult to secure investments."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
