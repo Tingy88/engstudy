@@ -18936,6 +18936,525 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'each',
+    level: 'A1',
+    partOfSpeech: ["determiner"],
+    ipa_uk: '/iːt͡ʃ/',
+    ipa_us: '/iːt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "determiner",
+              "en": "used to refer to individual items in a group",
+              "th": "ทุกๆ"
+        }
+  ],
+    antonyms: ["none","all"],
+    examples:   [
+        "I have two dogs, and each one is very friendly.",
+        "Each student will receive a copy of the textbook.",
+        "We visited three cities, and each city was unique."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'work',
+    level: 'A1',
+    partOfSpeech: ["verb [T]","noun [C/U]"],
+    ipa_uk: '/wɜːk/',
+    ipa_us: '/wɜːk/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to do a job or activity",
+              "th": "ทำงาน"
+        },
+        {
+              "pos": "noun [C/U]",
+              "en": "a job or activity",
+              "th": "งาน"
+        }
+  ],
+    antonyms: ["rest","play"],
+    examples:   [
+        "I work as an engineer.",
+        "My work is very challenging.",
+        "I need to work harder to finish this project."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'August',
+    level: 'A1',
+    partOfSpeech: ["noun [P]"],
+    ipa_uk: '/ɔːˈɡʌst/',
+    ipa_us: '/ɔːˈɡʌst/',
+    meanings:   [
+        {
+              "pos": "noun [P]",
+              "en": "the eighth month of the year",
+              "th": "สิงหาคม"
+        }
+  ],
+    antonyms: ["January","December"],
+    examples:   [
+        "I was born in August.",
+        "We always go on vacation in August.",
+        "August is a very hot month."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'life',
+    level: 'A1',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/laɪf/',
+    ipa_us: '/laɪf/',
+    meanings:   [
+        {
+              "pos": "noun [C/U]",
+              "en": "the state of being alive",
+              "th": "ชีวิต"
+        }
+  ],
+    antonyms: ["death","nothing"],
+    examples:   [
+        "Life is very precious.",
+        "My life is very busy.",
+        "I love my life in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bed',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/bed/',
+    ipa_us: '/bed/',
+    meanings:   [
+        {
+              "pos": "noun [C]",
+              "en": "a piece of furniture for sleeping",
+              "th": "เตียง"
+        }
+  ],
+    antonyms: ["table","chair"],
+    examples:   [
+        "I sleep in my bed every night.",
+        "The bed is very comfortable.",
+        "I made my bed this morning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'feel',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/fiːl/',
+    ipa_us: '/fiːl/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to have a particular emotion or sensation",
+              "th": "รู้สึก"
+        }
+  ],
+    antonyms: ["not feel","ignore"],
+    examples:   [
+        "I feel happy today.",
+        "I feel tired after working all day.",
+        "I feel sad when I'm alone."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'yellow',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/jɛlə/',
+    ipa_us: '/jɛlə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having the color of the sun or gold",
+              "th": "สีเหลือง"
+        }
+  ],
+    antonyms: ["blue","black"],
+    examples:   [
+        "The sun is yellow.",
+        "I love yellow flowers.",
+        "The yellow car is very bright."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hope',
+    level: 'A1',
+    partOfSpeech: ["verb [T]","noun [C/U]"],
+    ipa_uk: '/həʊp/',
+    ipa_us: '/həʊp/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to want something to happen",
+              "th": "หวัง"
+        },
+        {
+              "pos": "noun [C/U]",
+              "en": "a feeling of wanting something to happen",
+              "th": "ความหวัง"
+        }
+  ],
+    antonyms: ["fear","despair"],
+    examples:   [
+        "I hope it doesn't rain tomorrow.",
+        "My hope is to travel the world.",
+        "I have hope that everything will be okay."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gold',
+    level: 'A1',
+    partOfSpeech: ["noun [U]","adjective"],
+    ipa_uk: '/ɡɒʊld/',
+    ipa_us: '/ɡɒʊld/',
+    meanings:   [
+        {
+              "pos": "noun [U]",
+              "en": "a valuable yellow metal",
+              "th": "ทอง"
+        },
+        {
+              "pos": "adjective",
+              "en": "having the color of gold",
+              "th": "สีทอง"
+        }
+  ],
+    antonyms: ["silver","copper"],
+    examples:   [
+        "Gold is a very valuable metal.",
+        "The gold necklace is very expensive.",
+        "The gold medal is the highest award."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lazy',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈleɪzi/',
+    ipa_us: '/ˈleɪzi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not wanting to work or make an effort",
+              "th": "ขี้เกียจ"
+        }
+  ],
+    antonyms: ["hardworking","active"],
+    examples:   [
+        "I'm feeling lazy today.",
+        "He's a lazy person and never helps.",
+        "The lazy dog is sleeping all day."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'yet',
+    level: 'A1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/jɛt/',
+    ipa_us: '/jɛt/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at this time, but not before",
+              "th": "ยัง"
+        }
+  ],
+    antonyms: ["already","never"],
+    examples:   [
+        "I haven't eaten yet.",
+        "She hasn't arrived yet.",
+        "I'm not tired yet, let's keep going."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'everywhere',
+    level: 'A1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɛv.ɹi.(h)weə(ɹ)/',
+    ipa_us: '/ɛv.ɹi.(h)weə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in or to all places",
+              "th": "ทุกที่"
+        }
+  ],
+    antonyms: ["nowhere","rarely"],
+    examples:   [
+        "There are people everywhere.",
+        "I see her everywhere I go.",
+        "The music is playing everywhere in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'kiss',
+    level: 'A1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/kɪs/',
+    ipa_us: '/kɪs/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to touch someone's face or lips with your own",
+              "th": "จูบ"
+        },
+        {
+              "pos": "noun [C]",
+              "en": "the act of kissing",
+              "th": "การจูบ"
+        }
+  ],
+    antonyms: ["slap","hate"],
+    examples:   [
+        "He kissed her on the cheek.",
+        "The couple shared a romantic kiss.",
+        "I got a kiss from my mom."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'airport',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɛə.pɔːt/',
+    ipa_us: '/ˈɛə.pɔːt/',
+    meanings:   [
+        {
+              "pos": "noun [C]",
+              "en": "a place where planes take off and land",
+              "th": "สนามบิน"
+        }
+  ],
+    antonyms: ["seaport","train station"],
+    examples:   [
+        "The airport is very busy.",
+        "I'm going to the airport to pick up my friend.",
+        "The airport is far from the city center."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'beach',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/biːt͡ʃ/',
+    ipa_us: '/biːt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "noun [C]",
+              "en": "an area of land along a sea or lake",
+              "th": "ชายหาด"
+        }
+  ],
+    antonyms: ["mountain","city"],
+    examples:   [
+        "I love going to the beach.",
+        "The beach is very crowded.",
+        "We had a picnic on the beach."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'slow',
+    level: 'A1',
+    partOfSpeech: ["adjective","adverb"],
+    ipa_uk: '/sləʊ/',
+    ipa_us: '/sləʊ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "moving or happening at a lower speed",
+              "th": "ช้า"
+        },
+        {
+              "pos": "adverb",
+              "en": "at a lower speed",
+              "th": "อย่างช้า"
+        }
+  ],
+    antonyms: ["fast","quick"],
+    examples:   [
+        "The slow car is behind us.",
+        "I'm driving slow because of the traffic.",
+        "The slow music is very relaxing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sad',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/sæd/',
+    ipa_us: '/sæd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling unhappy or sorrowful",
+              "th": "เสียใจ"
+        }
+  ],
+    antonyms: ["happy","joyful"],
+    examples:   [
+        "I'm feeling sad today.",
+        "The sad news made me cry.",
+        "The sad movie is very depressing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dictionary',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈdɪkʃəˌnɛɹi/',
+    ipa_us: '/ˈdɪkʃəˌnɛɹi/',
+    meanings:   [
+        {
+              "pos": "noun [C]",
+              "en": "a book that lists words and their meanings",
+              "th": "พจนานุกรม"
+        }
+  ],
+    antonyms: ["thesaurus","encyclopedia"],
+    examples:   [
+        "I use a dictionary to learn new words.",
+        "The dictionary is very helpful.",
+        "I need a dictionary to translate this text."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'open',
+    level: 'A1',
+    partOfSpeech: ["adjective","verb [T]"],
+    ipa_uk: '/ˈəʊ.pən/',
+    ipa_us: '/ˈəʊ.pən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not closed or blocked",
+              "th": "เปิด"
+        },
+        {
+              "pos": "verb [T]",
+              "en": "to move something so that it is not closed or blocked",
+              "th": "เปิด"
+        }
+  ],
+    antonyms: ["closed","shut"],
+    examples:   [
+        "The door is open.",
+        "I need to open the window.",
+        "The store is open every day."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'correct',
+    level: 'A1',
+    partOfSpeech: ["adjective","verb [T]"],
+    ipa_uk: '/kəˈɹɛkt/',
+    ipa_us: '/kəˈɹɛkt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "right or accurate",
+              "th": "ถูกต้อง"
+        },
+        {
+              "pos": "verb [T]",
+              "en": "to make something right or accurate",
+              "th": "แก้ไข"
+        }
+  ],
+    antonyms: ["incorrect","wrong"],
+    examples:   [
+        "The answer is correct.",
+        "I need to correct my mistake.",
+        "The teacher will correct our homework."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cake',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/keɪk/',
+    ipa_us: '/keɪk/',
+    meanings:   [
+        {
+              "pos": "noun [C]",
+              "en": "a sweet food made from flour, sugar, and eggs",
+              "th": "เค้ก"
+        }
+  ],
+    antonyms: ["bread","pie"],
+    examples:   [
+        "I love eating cake.",
+        "The cake is very delicious.",
+        "We had cake at the party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'easy',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈiːzi/',
+    ipa_us: '/ˈiːzi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not difficult or requiring a lot of effort",
+              "th": "ง่าย"
+        }
+  ],
+    antonyms: ["hard","difficult"],
+    examples:   [
+        "This test is easy.",
+        "I found the solution easy.",
+        "The easy way is not always the best way."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'white',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/waɪt/',
+    ipa_us: '/waɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having the color of snow or milk",
+              "th": "สีขาว"
+        }
+  ],
+    antonyms: ["black","dark"],
+    examples:   [
+        "The white cat is very beautiful.",
+        "I love wearing white clothes.",
+        "The white house is very big."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
