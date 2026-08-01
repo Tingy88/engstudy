@@ -20383,6 +20383,211 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'spontaneous',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/spɒnˈteɪ.ni.əs/',
+    ipa_us: '/spɒnˈteɪ.ni.əs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "done or said without prior thought or planning",
+              "th": "เกิดขึ้นโดยไม่ได้คิดหรือวางแผนไว้ก่อน"
+        }
+  ],
+    antonyms: ["planned","premeditated"],
+    examples:   [
+        "The spontaneous applause from the crowd was overwhelming.",
+        "She made a spontaneous decision to quit her job and travel the world.",
+        "The spontaneous combustion of the dry leaves surprised everyone."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ingenious',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈdʒiːniəs/',
+    ipa_us: '/ɪnˈdʒiːniəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "cleverly inventive or resourceful",
+              "th": "ฉลาดในการคิดค้นหรือใช้ไหวพริบ"
+        }
+  ],
+    antonyms: ["unimaginative","uncreative"],
+    examples:   [
+        "The ingenious design of the new smartphone made it a bestseller.",
+        "She came up with an ingenious solution to the complex problem.",
+        "The ingenious use of recycled materials in the art piece was impressive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'demographic',
+    level: 'C1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/dɛməˈɡɹæfɪk/',
+    ipa_us: '/dɛməˈɡɹæfɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the study of the characteristics of a population",
+              "th": "การศึกษาลักษณะของประชากร"
+        },
+        {
+              "pos": "adjective",
+              "en": "relating to the study of the characteristics of a population",
+              "th": "เกี่ยวข้องกับการศึกษาลักษณะของประชากร"
+        }
+  ],
+    antonyms: ["individual","personal"],
+    examples:   [
+        "The demographic data revealed a significant shift in the population's age distribution.",
+        "The company's demographic analysis helped them target their marketing efforts effectively.",
+        "The demographic changes in the city had a profound impact on its culture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'elaborate',
+    level: 'C1',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ɪˈlæbəɹeɪt/',
+    ipa_us: '/ɪˈlæbəɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to add more details or explanation to something",
+              "th": "เพิ่มรายละเอียดหรือคำอธิบายให้กับบางสิ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "complex or detailed",
+              "th": "ซับซ้อนหรือมีรายละเอียด"
+        }
+  ],
+    antonyms: ["simple","straightforward"],
+    examples:   [
+        "The professor elaborated on the concept, providing examples and illustrations.",
+        "The elaborate design of the palace was a testament to the architect's skill.",
+        "The elaborate plot of the novel was engaging, but difficult to follow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prophet',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɒf.ɪt/',
+    ipa_us: '/ˈpɹɒf.ɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who speaks on behalf of a god or divine being",
+              "th": "บุคคลที่พูดแทนพระเจ้าหรือพระเจ้า"
+        }
+  ],
+    antonyms: ["skeptic","doubter"],
+    examples:   [
+        "The prophet's words were seen as a message from God, guiding the people.",
+        "The company's founder was like a prophet, predicting the future of technology.",
+        "The prophet's vision for a better world inspired a generation of activists."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'obscure',
+    level: 'C1',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/əbˈskjɔː(ɹ)/',
+    ipa_us: '/əbˈskjɔː(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not well-known or difficult to understand",
+              "th": "ไม่ค่อยรู้จักหรือยากต่อการเข้าใจ"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something difficult to see or understand",
+              "th": "ทำให้บางสิ่งยากต่อการมองเห็นหรือเข้าใจ"
+        }
+  ],
+    antonyms: ["famous","clear"],
+    examples:   [
+        "The obscure reference in the text was difficult to decipher.",
+        "The obscure artist's work was only recognized after her death.",
+        "The obscure language used in the contract made it hard to understand."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sedentary',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsɛd(ə)ntɛɹi/',
+    ipa_us: '/ˈsɛd(ə)ntɛɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "spending a lot of time sitting or not being active",
+              "th": "ใช้เวลานั่งมากหรือไม่ได้เคลื่อนไหว"
+        }
+  ],
+    antonyms: ["active","mobile"],
+    examples:   [
+        "A sedentary lifestyle can lead to health problems, such as obesity and diabetes.",
+        "The sedentary job required long hours of sitting at a desk, staring at a computer screen.",
+        "The sedentary behaviour of the children was a concern for their parents, who encouraged them to play outside."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'monotonous',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/məˈnɒtənəs/',
+    ipa_us: '/məˈnɒtənəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "dull and uninteresting, with too much repetition",
+              "th": "น่าเบื่อและไม่น่าสนใจ มีการซ้ำซ้อนมากเกินไป"
+        }
+  ],
+    antonyms: ["exciting","varied"],
+    examples:   [
+        "The monotonous sound of the engine made it difficult to sleep.",
+        "The monotonous job required doing the same tasks every day.",
+        "The monotonous landscape of the desert stretched out as far as the eye could see."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'impediment',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪmˈpɛdɪmənt/',
+    ipa_us: '/ɪmˈpɛdɪmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a thing that hinders or obstructs progress or movement",
+              "th": "สิ่งที่ขัดขวางหรือยับยั้งความก้าวหน้าหรือการเคลื่อนไหว"
+        }
+  ],
+    antonyms: ["aid","assistance"],
+    examples:   [
+        "The impediment in her speech made it difficult for her to communicate effectively.",
+        "The company's debt was a significant impediment to its growth and expansion.",
+        "The lack of funding was a major impediment to the project's success."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
