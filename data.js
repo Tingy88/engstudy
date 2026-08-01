@@ -20298,6 +20298,91 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'conform',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/kənˈfɔːm/',
+    ipa_us: '/kənˈfɔːm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to match or be in harmony with something",
+              "th": "สอดคล้องหรือเป็นไปตาม"
+        }
+  ],
+    antonyms: ["conflict","clash"],
+    examples:   [
+        "The company will conform to the new regulations.",
+        "She tried to conform to the social norms of the group.",
+        "The architect designed the building to conform to the surrounding landscape."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'integral',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɪntɪɡɹəl/',
+    ipa_us: '/ˈɪntɪɡɹəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "necessary or important for something to be complete or successful",
+              "th": "จำเป็นหรือสำคัญสำหรับบางสิ่งที่จะสมบูรณ์หรือประสบความสำเร็จ"
+        }
+  ],
+    antonyms: ["peripheral","optional"],
+    examples:   [
+        "The new employee was an integral part of the team.",
+        "The integral component of the machine was missing.",
+        "The company's integral values were reflected in its mission statement."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'humble',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈhʌmbəl/',
+    ipa_us: '/ˈhʌmbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not proud or arrogant, and often willing to listen and learn",
+              "th": "ไม่ภูมิใจหรือเย่อหยิ่งและมักเต็มใจที่จะฟังและเรียนรู้"
+        }
+  ],
+    antonyms: ["arrogant","proud"],
+    examples:   [
+        "The humble leader was loved by his people.",
+        "She was humble about her achievements and didn't like to brag.",
+        "The humble beginnings of the company were a testament to its hard work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'suburban',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/səˈbɜː(ɹ)bən/',
+    ipa_us: '/səˈbɜː(ɹ)bən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of the suburbs",
+              "th": "เกี่ยวข้องกับหรือมีลักษณะของชานเมือง"
+        }
+  ],
+    antonyms: ["urban","rural"],
+    examples:   [
+        "The suburban area was quiet and peaceful.",
+        "She lived in a suburban house with a big garden.",
+        "The suburban train took her to the city center."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
