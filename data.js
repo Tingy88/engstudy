@@ -20588,6 +20588,441 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'gifted',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɡɪftɪd/',
+    ipa_us: '/ˈɡɪftɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a natural ability or talent",
+              "th": "มีพรสวรรค์"
+        }
+  ],
+    antonyms: ["untalented","unskilled"],
+    examples:   [
+        "She's a gifted musician who started playing the piano at the age of five.",
+        "The gifted student won a scholarship to a prestigious university.",
+        "He's a gifted artist, and his paintings are highly sought after by collectors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'farming',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɑːmɪŋ/',
+    ipa_us: '/ˈfɑːmɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the activity of growing crops and raising livestock",
+              "th": "การทำนาหรือการเพาะเลี้ยงสัตว์"
+        }
+  ],
+    antonyms: ["hunting","gathering"],
+    examples:   [
+        "Farming is a traditional way of life in many rural areas.",
+        "The farming community was severely affected by the drought.",
+        "She left the city to pursue a career in organic farming."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'era',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɪə̯ɹ.ə/',
+    ipa_us: '/ˈɪə̯ɹ.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long and distinct period of time",
+              "th": "ช่วงเวลาหนึ่งที่ยาวนานและแตกต่าง"
+        }
+  ],
+    antonyms: ["moment","instant"],
+    examples:   [
+        "We're living in a new era of technological advancement.",
+        "The era of colonization had a profound impact on indigenous cultures.",
+        "The company is entering a new era of growth and expansion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cabin',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkæbɪn/',
+    ipa_us: '/ˈkæbɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small simple house, especially in a rural area",
+              "th": "บ้านเล็กๆ ในพื้นที่ชนบท"
+        }
+  ],
+    antonyms: ["mansion","skyscraper"],
+    examples:   [
+        "The family rented a cabin in the woods for their summer vacation.",
+        "The cabin was cozy and warm, with a fireplace and a beautiful view.",
+        "He spent his childhood summers playing in his grandparents' cabin by the lake."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'southwest',
+    level: 'B1',
+    partOfSpeech: ["adverb","noun"],
+    ipa_uk: '/saʊˈwɛst/',
+    ipa_us: '/saʊˈwɛst/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in or towards the southwest",
+              "th": "ไปทางตะวันตกเฉียงใต้"
+        },
+        {
+              "pos": "noun",
+              "en": "the direction or region to the southwest",
+              "th": "ทิศทางหรือภูมิภาคทางตะวันตกเฉียงใต้"
+        }
+  ],
+    antonyms: ["northeast","northwest"],
+    examples:   [
+        "The storm is moving southwest across the country.",
+        "The southwest region of the country is known for its beautiful beaches.",
+        "She's flying to the southwest for a business conference."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'poison',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpɔɪz(ə)n/',
+    ipa_us: '/ˈpɔɪz(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a substance that can harm or kill someone or something",
+              "th": "สสารที่สามารถทำอันตรายหรือฆ่าคนหรือสิ่งมีชีวิต"
+        },
+        {
+              "pos": "verb",
+              "en": "to give someone or something poison",
+              "th": "ให้คนหรือสิ่งมีชีวิตกินสสารพิษ"
+        }
+  ],
+    antonyms: ["antidote","remedy"],
+    examples:   [
+        "The poison from the snake's bite can be deadly if not treated promptly.",
+        "She poisoned the plants in her garden by using too much fertilizer.",
+        "The company was fined for poisoning the environment with toxic waste."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'boot',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/buːt/',
+    ipa_us: '/buːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of footwear that covers the foot and lower leg",
+              "th": "ประเภทของรองเท้าที่คลุมเท้าและขา"
+        },
+        {
+              "pos": "verb",
+              "en": "to start or restart a computer",
+              "th": "เริ่มต้นหรือรีสตาร์ทคอมพิวเตอร์"
+        }
+  ],
+    antonyms: ["shoe","slipper"],
+    examples:   [
+        "She wore a pair of boots to the hiking trip.",
+        "You need to boot up your computer to install the new software.",
+        "The boot camp was a challenging experience for the new recruits."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'reproduce',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˌɹi.pɹoʊˈdjus/',
+    ipa_us: '/ˌɹi.pɹoʊˈdjus/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to produce offspring or copies of something",
+              "th": "ผลิตลูกหลานหรือสำเนาของสิ่งใดๆ"
+        }
+  ],
+    antonyms: ["destroy","eliminate"],
+    examples:   [
+        "The animals reproduce quickly in the wild.",
+        "The company will reproduce the popular toy to meet the high demand.",
+        "The artist's work will reproduce in a new exhibition next month."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'admiration',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌæd.mɚˈeɪʃ.ən/',
+    ipa_us: '/ˌæd.mɚˈeɪʃ.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of great respect and wonder for someone or something",
+              "th": "ความรู้สึกที่ยิ่งใหญ่ของการเคารพและชื่นชมสำหรับคนหรือสิ่งใดๆ"
+        }
+  ],
+    antonyms: ["disgust","contempt"],
+    examples:   [
+        "She has a deep admiration for her role model.",
+        "The crowd showed their admiration for the performer with a standing ovation.",
+        "His admiration for the artist's work inspired him to become a painter."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shiver',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈʃɪvə/',
+    ipa_us: '/ˈʃɪvə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to feel or show fear or cold",
+              "th": "รู้สึกหรือแสดงความกลัวหรือความเย็น"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of fear or cold",
+              "th": "ความรู้สึกของความกลัวหรือความเย็น"
+        }
+  ],
+    antonyms: ["warmth","comfort"],
+    examples:   [
+        "She shivered with fear when she saw the ghost.",
+        "The cold wind made me shiver.",
+        "I got a shiver down my spine when I heard the scary story."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sports',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/spɔːts/',
+    ipa_us: '/spɔːts/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "games or activities that people do for fun or competition",
+              "th": "เกมหรือกิจกรรมที่คนทำเพื่อความสนุกหรือการแข่งขัน"
+        }
+  ],
+    antonyms: ["hobbies","leisure"],
+    examples:   [
+        "He's very interested in sports, especially football.",
+        "The school offers a variety of sports programs for students.",
+        "Sports can be a great way to stay healthy and active."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'yoga',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈjoʊɡə/',
+    ipa_us: '/ˈjoʊɡə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a system of exercises and breathing techniques for physical and mental well-being",
+              "th": "ระบบการออกกำลังกายและเทคนิคการหายใจสำหรับการดูแลสุขภาพร่างกายและจิตใจ"
+        }
+  ],
+    antonyms: ["gymnastics","athletics"],
+    examples:   [
+        "She practices yoga every morning to relax and focus.",
+        "Yoga can help improve flexibility and balance.",
+        "The yoga studio offers classes for beginners and advanced practitioners."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'oily',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɔɪli/',
+    ipa_us: '/ˈɔɪli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "covered or smeared with oil",
+              "th": "ปกคลุมหรือทาไปด้วยน้ำมัน"
+        }
+  ],
+    antonyms: ["dry","greasy"],
+    examples:   [
+        "The oily skin can be a problem for some people.",
+        "The mechanic's hands were oily after working on the car.",
+        "The oily fish is rich in omega-3 fatty acids."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'escape',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/əˈskeɪp/',
+    ipa_us: '/əˈskeɪp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to get free or break away from something",
+              "th": "หลบหนีหรือหลุดพ้นจากสิ่งใดๆ"
+        },
+        {
+              "pos": "noun",
+              "en": "an act of escaping or a way of escaping",
+              "th": "การหลบหนีหรือวิธีการหลบหนี"
+        }
+  ],
+    antonyms: ["capture","imprison"],
+    examples:   [
+        "The prisoner tried to escape from the jail.",
+        "The escape route was blocked by the fire.",
+        "She needed an escape from the stress of her daily life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'care',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kɛə/',
+    ipa_us: '/kɛə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the provision of what is necessary for the health, welfare, and protection of someone or something",
+              "th": "การให้สิ่งที่จำเป็นสำหรับสุขภาพ ความเป็นอยู่ที่ดี และการป้องกันของคนหรือสิ่งใดๆ"
+        },
+        {
+              "pos": "verb",
+              "en": "to feel concern or interest for someone or something",
+              "th": "รู้สึกห่วงใยหรือสนใจในคนหรือสิ่งใดๆ"
+        }
+  ],
+    antonyms: ["neglect","ignore"],
+    examples:   [
+        "The nurse took great care of the patient.",
+        "She doesn't care about what other people think.",
+        "The company provides excellent care for its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'amount',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˈmaʊnt/',
+    ipa_us: '/əˈmaʊnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a quantity of something",
+              "th": "ปริมาณของสิ่งใดๆ"
+        }
+  ],
+    antonyms: ["lack","shortage"],
+    examples:   [
+        "The amount of money in the bank is not enough.",
+        "The amount of time it takes to learn a new language is significant.",
+        "The company will donate a large amount to charity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gorgeous',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɡɔːdʒəs/',
+    ipa_us: '/ˈɡɔːdʒəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very beautiful or attractive",
+              "th": "สวยงามหรือน่าดึงดูดมาก"
+        }
+  ],
+    antonyms: ["ugly","unattractive"],
+    examples:   [
+        "The gorgeous sunset on the beach was breathtaking.",
+        "She looked gorgeous in her wedding dress.",
+        "The gorgeous scenery of the national park is a popular tourist destination."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nap',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/nap/',
+    ipa_us: '/nap/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a short sleep, especially during the day",
+              "th": "การนอนหลับพักผ่อนสั้นๆ โดยเฉพาะในช่วงกลางวัน"
+        },
+        {
+              "pos": "verb",
+              "en": "to sleep for a short time, especially during the day",
+              "th": "นอนหลับพักผ่อนสั้นๆ โดยเฉพาะในช่วงกลางวัน"
+        }
+  ],
+    antonyms: ["wakefulness","alertness"],
+    examples:   [
+        "I'm going to take a nap before the party tonight.",
+        "The baby needs a nap after playing outside.",
+        "She napped for an hour after lunch to refresh herself."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fitness',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɪtnəs/',
+    ipa_us: '/ˈfɪtnəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being physically strong and healthy",
+              "th": "สภาพร่างกายที่แข็งแรงและสุขภาพดี"
+        }
+  ],
+    antonyms: ["unfitness","weakness"],
+    examples:   [
+        "Regular exercise can improve your fitness level.",
+        "The fitness center offers a variety of classes and equipment.",
+        "She's very concerned about her fitness and diet."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
