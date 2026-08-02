@@ -21023,6 +21023,389 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'remark',
+    level: 'B2',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/ɹɪˈmɑːk/',
+    ipa_us: '/ɹɪˈmɑːk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to say something as a comment",
+              "th": "แสดงความคิดเห็น"
+        },
+        {
+              "pos": "noun",
+              "en": "a comment",
+              "th": "ความเห็น"
+        }
+  ],
+    antonyms: ["ignore","silence"],
+    examples:   [
+        "She made a remark about the food being too salty.",
+        "The teacher asked the student to repeat the remark.",
+        "His remark about the movie sparked a heated debate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rubble',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈɹʌb.əl/',
+    ipa_us: '/ˈɹʌb.əl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the remains of something that has been destroyed",
+              "th": "ซากที่เหลือของสิ่งที่ถูกทำลาย"
+        }
+  ],
+    antonyms: ["intact","whole"],
+    examples:   [
+        "The city was left in rubble after the earthquake.",
+        "The workers had to clear the rubble before rebuilding.",
+        "The rubble from the demolition site was used as landfill."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cease',
+    level: 'B2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/siːs/',
+    ipa_us: '/siːs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to stop something",
+              "th": "หยุดสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["continue","persist"],
+    examples:   [
+        "The company will cease production due to financial difficulties.",
+        "The music will cease when the timer goes off.",
+        "The war will cease when the treaty is signed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'widen',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈwaɪdən/',
+    ipa_us: '/ˈwaɪdən/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something wider",
+              "th": "ทำให้สิ่งใดสิ่งหนึ่งกว้างขึ้น"
+        }
+  ],
+    antonyms: ["narrow","constrict"],
+    examples:   [
+        "The government plans to widen the highway to reduce traffic congestion.",
+        "The doctor will widen the incision to examine the tissue.",
+        "The company will widen its product line to include more services."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'promptly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈpɹɒmptli/',
+    ipa_us: '/ˈpɹɒmptli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "quickly and on time",
+              "th": "อย่างรวดเร็วและตรงเวลา"
+        }
+  ],
+    antonyms: ["slowly","late"],
+    examples:   [
+        "The customer service team responded promptly to my inquiry.",
+        "The employee was asked to arrive promptly at 8am for the meeting.",
+        "The company will deliver the goods promptly within 3 working days."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'outline',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈaʊtlaɪn/',
+    ipa_us: '/ˈaʊtlaɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a general plan or idea of something",
+              "th": "แผนหรือความคิดทั่วไปของสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to draw a line around the edge of something",
+              "th": "วาดเส้นรอบขอบของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["detail","fill"],
+    examples:   [
+        "The teacher asked the students to create an outline for their essay.",
+        "The artist outlined the portrait with a pencil.",
+        "The company outlined its goals and objectives for the year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stimulate',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈstɪmjʊleɪt/',
+    ipa_us: '/ˈstɪmjʊleɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to encourage or help something to happen or develop",
+              "th": "กระตุ้นหรือช่วยให้สิ่งใดสิ่งหนึ่งเกิดขึ้นหรือพัฒนา"
+        }
+  ],
+    antonyms: ["discourage","hinder"],
+    examples:   [
+        "The new policy aims to stimulate economic growth.",
+        "The teacher tried to stimulate the students' interest in the subject.",
+        "The exercise will stimulate blood flow to the muscles."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deem',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/diːm/',
+    ipa_us: '/diːm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to consider or think that something is a certain way",
+              "th": "คิดหรือเห็นว่าสิ่งใดสิ่งหนึ่งเป็นอย่างนั้น"
+        }
+  ],
+    antonyms: ["disregard","ignore"],
+    examples:   [
+        "The judge deemed the evidence to be irrelevant.",
+        "The company deemed the project to be too risky.",
+        "The expert deemed the painting to be a fake."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'generosity',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˌd͡ʒɛnəˈɹɒsɪti/',
+    ipa_us: '/ˌd͡ʒɛnəˈɹɒsɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being kind and willing to give freely of your time or money",
+              "th": "คุณสมบัติของการมีใจกุศลและยินดีที่จะให้เวลาหรือเงินของคุณอย่างไม่จำเป็นต้องมีอะไรตอบแทน"
+        }
+  ],
+    antonyms: ["stinginess","miserliness"],
+    examples:   [
+        "The philanthropist's generosity helped many people in need.",
+        "The company's generosity with employee benefits was impressive.",
+        "The generosity of the donors made the charity event a success."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eyelid',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈaɪ.lɪd/',
+    ipa_us: '/ˈaɪ.lɪd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a flap of skin that covers and protects the eye",
+              "th": "แผ่นผิวที่ครอบคลุมและปกป้องดวงตา"
+        }
+  ],
+    antonyms: ["cornea","pupil"],
+    examples:   [
+        "The eyelid is a sensitive part of the face.",
+        "She had a twitch in her eyelid that was quite annoying.",
+        "The doctor examined the patient's eyelid for any signs of infection."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'neither',
+    level: 'B2',
+    partOfSpeech: ["determiner","pronoun"],
+    ipa_uk: '/ˈnaɪð.ə(ɹ)/',
+    ipa_us: '/ˈnaɪð.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "determiner",
+              "en": "not either of two things",
+              "th": "ไม่ใช่สิ่งใดสิ่งหนึ่งจากสองสิ่ง"
+        },
+        {
+              "pos": "pronoun",
+              "en": "not one and not the other of two things",
+              "th": "ไม่ใช่สิ่งหนึ่งและไม่ใช่สิ่งอื่นจากสองสิ่ง"
+        }
+  ],
+    antonyms: ["both","either"],
+    examples:   [
+        "I don't like coffee or tea, neither do I like milk.",
+        "Neither of the options is suitable for me.",
+        "Neither of us can attend the meeting on Friday."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'volunteer',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [I/T]"],
+    ipa_uk: '/vɒl.ənˈtɪə/',
+    ipa_us: '/vɒl.ənˈtɪə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who does something without being paid",
+              "th": "บุคคลที่ทำสิ่งใดสิ่งหนึ่งโดยไม่ได้รับค่าจ้าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to offer to do something without being asked",
+              "th": "ยินดีที่จะทำสิ่งใดสิ่งหนึ่งโดยไม่ได้รับการขอ"
+        }
+  ],
+    antonyms: ["refuse","decline"],
+    examples:   [
+        "The volunteer worked at the animal shelter.",
+        "I volunteer to help with the event.",
+        "The company encourages its employees to volunteer in the community."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pa',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/pɑː/',
+    ipa_us: '/pɑː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an informal term for father",
+              "th": "คำไม่ทางการสำหรับพ่อ"
+        }
+  ],
+    antonyms: ["ma","mom"],
+    examples:   [
+        "My pa is a kind and gentle man.",
+        "I'm going to visit my pa this weekend.",
+        "My pa always gives me good advice."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'authoritative',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɔːˈθɒɹɪtətɪv/',
+    ipa_us: '/ɔːˈθɒɹɪtətɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having the power to control or influence people's opinions or actions",
+              "th": "มีอำนาจในการควบคุมหรือมีอิทธิพลต่อความคิดเห็นหรือการกระทำของผู้คน"
+        }
+  ],
+    antonyms: ["unreliable","untrustworthy"],
+    examples:   [
+        "The professor is an authoritative figure in the field of economics.",
+        "The company is an authoritative source of information on the topic.",
+        "The government's authoritative decision was met with opposition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'attached',
+    level: 'B2',
+    partOfSpeech: ["verb [T]","adjective"],
+    ipa_uk: '/əˈtætʃt/',
+    ipa_us: '/əˈtætʃt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to join or connect something to something else",
+              "th": "เชื่อมต่อหรือยึดสิ่งใดสิ่งหนึ่งเข้ากับสิ่งอื่น"
+        },
+        {
+              "pos": "adjective",
+              "en": "joined or connected to something",
+              "th": "เชื่อมต่อหรือยึดกับสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["detached","separate"],
+    examples:   [
+        "The file is attached to the email.",
+        "The label is attached to the product.",
+        "The accessory is attached to the machine."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dental',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdɛntl̩/',
+    ipa_us: '/ˈdɛntl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the teeth or dentistry",
+              "th": "เกี่ยวข้องกับฟันหรือการทำฟัน"
+        }
+  ],
+    antonyms: ["medical","surgical"],
+    examples:   [
+        "The dental clinic offers a range of services.",
+        "The dental hygienist cleaned my teeth.",
+        "The company provides dental insurance for its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'odd',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɒd/',
+    ipa_us: '/ɒd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "strange or unusual",
+              "th": "แปลกหรือไม่ปกติ"
+        }
+  ],
+    antonyms: ["normal","usual"],
+    examples:   [
+        "The odd shape of the building made it stand out.",
+        "I had an odd feeling about the situation.",
+        "The odd number of students in the class made it difficult to pair them up."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
