@@ -16,6 +16,7 @@ const RD_CONFIG = {
   C1: { light:[500,700], standard:[650,900], exam:[800,1100] },
   C2: { light:[700,900], standard:[900,1200], exam:[1100,1500] },
 };
+const RD_QCOUNT = { light: 5, standard: 7, exam: 10 };
 
 // ===== RENDER READING PAGE =====
 function renderReading() {
@@ -24,7 +25,7 @@ function renderReading() {
 
   const cfg   = RD_CONFIG[STATE.level] || RD_CONFIG['B1'];
   const range = cfg[RD.difficulty];
-  const qCount = RD.difficulty==='exam' ? 6 : RD.difficulty==='standard' ? 5 : 4;
+  const qCount = RD_QCOUNT[RD.difficulty];
 
   const diffs = [
     { key:'light',    label:t('rd_light'),    desc:t('rd_light_desc')    },
@@ -82,6 +83,82 @@ function setDifficulty(diff) {
 }
 
 // ===== GENERATE READING WITH AI (with word-count validation + auto-expand) =====
+// ===== CALL 1: แต่งเรื่องอย่างเดียว (ไม่คิดคำถาม) =====
+async function generatePassage(level, difficulty) {
+  const cfg = RD_CONFIG[level] || RD_CONFIG['B1'];
+  const range = cfg[difficulty];
+  const diffLabel = { light: 'Light', standard: 'Standard', exam: 'Exam-style' }[difficulty];
+
+  const TOPIC_POOL = [
+    'space exploration', 'ancient history', 'urban wildlife', 'a small business owner',
+    'renewable energy', 'traditional crafts', 'ocean conservation', 'a scientific discovery',
+    'street food culture', 'a music festival', 'remote work challenges', 'volcanic islands',
+    'a mystery in a small town', 'sports psychology', 'architecture and design',
+    'a family tradition', 'artificial intelligence ethics', 'migration of animals',
+    'a historical figure', 'sustainable fashion', 'a childhood memory', 'city transportation',
+    'a folk legend', 'photography as a hobby', 'climate adaptation', 'a job interview twist',
+    'underground cave systems', 'a cooking competition', 'language and culture', 'friendship across generations',
+  ];
+  const topic = TOPIC_POOL[Math.floor(Math.random() * TOPIC_POOL.length)];
+
+  const prompt = `You are an IELTS/TOEFL reading test creator. CEFR: ${level}, Difficulty: ${diffLabel}.
+TASK: Write a ${diffLabel} fictional passage about "${topic}". Be creative and specific — avoid generic, cliché storylines.
+LENGTH: STRICTLY ${range[0]}-${range[1]} words. DO NOT write shorter.
+VOCABULARY: Use ONLY vocabulary appropriate for ${level}. NO simple words if level is B2+.
+DIFFICULTY MAPPING:
+- Light: Lower-bound of ${level}. Clear structure but academic vocabulary.
+- Standard: Mid ${level}. Some complex sentences, mixed structures.
+- Exam-style: Upper ${level}. DENSE text, complex grammar (passives, inversions, conditionals).
+
+LANGUAGE RULE (mandatory): the entire passage MUST be written in English only.
+
+Reply ONLY raw JSON:
+{"title":"...","passage":"..."}`;
+
+  let res = await callAI(prompt, 1024);
+  let wordCount = countWords(res.passage);
+  let attempts = 0;
+
+  // เหมือนของเดิม: ถ้าสั้นกว่าที่กำหนด ขอ AI ขยายต่อ สูงสุด 3 รอบ
+  while (wordCount < range[0] && attempts < 3) {
+    attempts++;
+    const needed = range[0] - wordCount + 40;
+    const expandPrompt = `Continue this passage naturally from where it ends. Add approximately ${needed} more words. SAME topic, SAME CEFR level (${level}), SAME difficulty (${diffLabel}). Do NOT repeat existing content, do NOT restart the story, do NOT add a title. Reply ONLY raw JSON: {"continuation":"..."}
+
+Existing passage:
+${res.passage}`;
+
+    const expandRes = await callAI(expandPrompt, 1024);
+    if (expandRes.continuation) {
+      res.passage = res.passage.trim() + ' ' + expandRes.continuation.trim();
+      wordCount = countWords(res.passage);
+    } else {
+      break;
+    }
+  }
+
+  return { title: res.title, passage: res.passage, topic };
+}
+// ===== CALL 2: วิเคราะห์เรื่อง → fact_map (ใช้ Mistral คนละตัวกับที่แต่งเรื่อง) =====
+async function extractFactMap(passage) {
+  const prompt = `You are analyzing a reading passage to extract its distinct facts/ideas — this will be used to build non-overlapping exam questions later.
+
+TASK: List every distinct, separable fact or idea stated in the passage. Each fact must be:
+- A single, specific piece of information (one event, one detail, one relationship, one description)
+- Genuinely DIFFERENT from every other fact in your list — if two facts would lead to the same question angle, merge them into one
+- Tagged with its position in the passage: "beginning", "middle", or "end"
+
+Extract as many distinct facts as the passage naturally supports (usually 8-15 for a passage this length). Do not pad with near-duplicate facts just to hit a number.
+
+Passage:
+${passage}
+
+Reply ONLY raw JSON:
+{"facts":[{"id":"fact_1","text":"...","position":"beginning"},{"id":"fact_2","text":"...","position":"middle"}]}`;
+
+  const res = await callAI(prompt, 1024, 'mistral');
+  return res.facts || [];
+}
 async function generateReading() {
   if (RD.loading) return;
   RD.loading = true; RD.submitted = false; RD.answers = {};
@@ -91,7 +168,7 @@ async function generateReading() {
 
   const cfg = RD_CONFIG[STATE.level] || RD_CONFIG['B1'];
   const range = cfg[RD.difficulty];
-  const qCount = RD.difficulty === 'exam' ? 10 : RD.difficulty === 'standard' ? 7 : 5;
+  const qCount = RD_QCOUNT[RD.difficulty];
   const diffLabel = { light: 'Light', standard: 'Standard', exam: 'Exam-style' }[RD.difficulty];
 
   const TOPIC_POOL = [
