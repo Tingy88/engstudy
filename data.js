@@ -21716,6 +21716,415 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'silly',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsɪli/',
+    ipa_us: '/ˈsɪli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "foolish or ridiculous",
+              "th": "โง่หรือน่าหัวเราะ"
+        }
+  ],
+    antonyms: ["serious","intelligent"],
+    examples:   [
+        "The silly joke made everyone laugh.",
+        "She looked silly in her oversized shoes.",
+        "The movie was so silly that I fell asleep."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'brand',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/bɹand/',
+    ipa_us: '/bɹand/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of product",
+              "th": "ยี่ห้อของสินค้า"
+        },
+        {
+              "pos": "verb",
+              "en": "to give something a particular name or image",
+              "th": "ให้ชื่อหรือภาพลักษณ์เฉพาะแก่สิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["generic","unbranded"],
+    examples:   [
+        "The brand new car was very expensive.",
+        "The company wants to brand itself as eco-friendly.",
+        "The brand of coffee I like is not available here."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'admit',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ədˈmɪt/',
+    ipa_us: '/ədˈmɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to agree that something is true",
+              "th": "ยอมรับว่าสิ่งใดสิ่งหนึ่งเป็นความจริง"
+        }
+  ],
+    antonyms: ["deny","refuse"],
+    examples:   [
+        "I admit that I made a mistake.",
+        "She admitted to eating the last piece of cake.",
+        "The company admitted to polluting the environment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'snow',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/snəʊ/',
+    ipa_us: '/snəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "white ice crystals that fall from the sky",
+              "th": "หิมะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to fall or be covered with snow",
+              "th": "ตกลงหรือถูกหิมะปิดบัง"
+        }
+  ],
+    antonyms: ["rain","heat"],
+    examples:   [
+        "The snow on the mountain was very deep.",
+        "It snowed all night, so the roads are closed.",
+        "The kids loved playing in the snow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'public',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈpʌblɪk/',
+    ipa_us: '/ˈpʌblɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "open to or affecting all people",
+              "th": "เปิดกว้างหรือส่งผลกระทบต่อทุกคน"
+        },
+        {
+              "pos": "noun",
+              "en": "the general population",
+              "th": "ประชาชนทั่วไป"
+        }
+  ],
+    antonyms: ["private","secret"],
+    examples:   [
+        "The public library is open on Sundays.",
+        "The company is going public with its new product.",
+        "The public transportation system is very efficient."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'copy',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkɒpi/',
+    ipa_us: '/ˈkɒpi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a duplicate or reproduction",
+              "th": "สำเนาหรือสิ่งพิมพ์"
+        },
+        {
+              "pos": "verb",
+              "en": "to make a duplicate or reproduction",
+              "th": "ทำสำเนาหรือสิ่งพิมพ์"
+        }
+  ],
+    antonyms: ["original","unique"],
+    examples:   [
+        "Can you copy this document for me?",
+        "The copy of the book was very cheap.",
+        "The artist was accused of copying someone else's work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clerk',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/klɐːk/',
+    ipa_us: '/klɐːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who works in an office or shop",
+              "th": "คนงานในสำนักงานหรือร้านค้า"
+        }
+  ],
+    antonyms: ["manager","boss"],
+    examples:   [
+        "The clerk at the store was very helpful.",
+        "The clerk typed up the report for the meeting.",
+        "The clerk at the hotel desk was friendly and efficient."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exchange',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɛksˈtʃeɪndʒ/',
+    ipa_us: '/ɛksˈtʃeɪndʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of giving something and receiving something in return",
+              "th": "การแลกเปลี่ยนสิ่งหนึ่งเพื่อได้สิ่งหนึ่งมาเป็นการตอบแทน"
+        },
+        {
+              "pos": "verb",
+              "en": "to give something and receive something in return",
+              "th": "แลกเปลี่ยนสิ่งหนึ่งเพื่อได้สิ่งหนึ่งมาเป็นการตอบแทน"
+        }
+  ],
+    antonyms: ["keep","hold"],
+    examples:   [
+        "The exchange rate is very high right now.",
+        "Can we exchange this shirt for a different size?",
+        "The students participated in a cultural exchange program."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'twice',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/twaɪs/',
+    ipa_us: '/twaɪs/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "two times",
+              "th": "สองครั้ง"
+        }
+  ],
+    antonyms: ["once","never"],
+    examples:   [
+        "I have been to Paris twice.",
+        "The bus runs twice an hour.",
+        "She has read the book twice already."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tidy',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtaɪdi/',
+    ipa_us: '/ˈtaɪdi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "neat and organized",
+              "th": "เรียบร้อยและเป็นระเบียบ"
+        }
+  ],
+    antonyms: ["messy","cluttered"],
+    examples:   [
+        "The tidy room was a pleasure to be in.",
+        "She is very tidy and organized in her work.",
+        "The tidy garden was full of beautiful flowers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pro',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹəʊ/',
+    ipa_us: '/pɹəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a professional or expert",
+              "th": "มืออาชีพหรือผู้เชี่ยวชาญ"
+        }
+  ],
+    antonyms: ["amateur","novice"],
+    examples:   [
+        "The pro tennis player won the tournament.",
+        "The pro photographer took amazing pictures.",
+        "The pro musician played a beautiful solo."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flight',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/flaɪt/',
+    ipa_us: '/flaɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of flying or a journey by air",
+              "th": "การบินหรือการเดินทางด้วยเครื่องบิน"
+        }
+  ],
+    antonyms: ["landing","crash"],
+    examples:   [
+        "The flight to New York was very long.",
+        "The bird took flight and soared into the sky.",
+        "The flight attendant was very friendly and helpful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'description',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪˈskɹɪpʃən/',
+    ipa_us: '/dɪˈskɹɪpʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement or picture that describes something",
+              "th": "คำบรรยายหรือรูปภาพที่อธิบายสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["summary","outline"],
+    examples:   [
+        "The description of the hotel was very accurate.",
+        "The job description was very detailed and clear.",
+        "The police officer gave a description of the suspect."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'several',
+    level: 'A2',
+    partOfSpeech: ["determiner"],
+    ipa_uk: '/ˈsɛv(ə)ɹəl/',
+    ipa_us: '/ˈsɛv(ə)ɹəl/',
+    meanings:   [
+        {
+              "pos": "determiner",
+              "en": "more than two but not many",
+              "th": "มากกว่าสองแต่น้อย"
+        }
+  ],
+    antonyms: ["few","none"],
+    examples:   [
+        "I have several books to read this week.",
+        "Several people were injured in the accident.",
+        "We have several options to choose from."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'amused',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈmjuːzd/',
+    ipa_us: '/əˈmjuːzd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling entertained or pleased",
+              "th": "รู้สึกสนุกหรือพอใจ"
+        }
+  ],
+    antonyms: ["bored","unhappy"],
+    examples:   [
+        "The children were amused by the clown.",
+        "I was amused by the silly joke.",
+        "The audience was amused by the comedian's performance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'green',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ɡɹiːn/',
+    ipa_us: '/ɡɹiːn/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "of the color between blue and yellow",
+              "th": "สีระหว่างสีน้ำเงินและสีเหลือง"
+        },
+        {
+              "pos": "noun",
+              "en": "a green color or a green area",
+              "th": "สีเขียวหรือพื้นที่สีเขียว"
+        }
+  ],
+    antonyms: ["red","brown"],
+    examples:   [
+        "The green grass was very soft.",
+        "The green eyes were very beautiful.",
+        "The city has a lot of green spaces."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dizzy',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdɪzi/',
+    ipa_us: '/ˈdɪzi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or causing a sensation of spinning or turning",
+              "th": "รู้สึกหรือทำให้เกิดความรู้สึกวิงเวียนหรือหมุน"
+        }
+  ],
+    antonyms: ["steady","stable"],
+    examples:   [
+        "I feel dizzy after spinning around.",
+        "The dizzy height of the mountain made me scared.",
+        "The dizzy patient was taken to the hospital."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pollute',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/pəˈljuːt/',
+    ipa_us: '/pəˈljuːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something dirty or harmful",
+              "th": "ทำให้สิ่งใดสิ่งหนึ่งโสโครกหรือเป็นอันตราย"
+        }
+  ],
+    antonyms: ["clean","purify"],
+    examples:   [
+        "The factory pollutes the air and water.",
+        "We must not pollute the environment.",
+        "The pollution in the city is very bad."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
