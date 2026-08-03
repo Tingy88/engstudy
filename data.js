@@ -21406,6 +21406,316 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'provocative',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹəˈvɒk.ə.tɪv/',
+    ipa_us: '/pɹəˈvɒk.ə.tɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "causing anger or annoyance",
+              "th": "กระตุ้นให้เกิดความโกรธหรือความไม่พอใจ"
+        }
+  ],
+    antonyms: ["soothing","calming"],
+    examples:   [
+        "The provocative statement made by the politician sparked a heated debate.",
+        "She wore a provocative dress to the party, which drew a lot of attention.",
+        "The provocative language used in the article was intended to stir up controversy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'envisage',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɛnˈvɪzɪdʒ/',
+    ipa_us: '/ɛnˈvɪzɪdʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to imagine or picture something in your mind",
+              "th": "จินตนาการหรือเห็นภาพบางสิ่งในใจ"
+        }
+  ],
+    antonyms: ["disregard","ignore"],
+    examples:   [
+        "I envisage a future where technology has solved all our problems.",
+        "She envisaged a career in medicine, but eventually became a lawyer.",
+        "The company envisages a significant increase in profits next year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'blister',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈblɪstɚ/',
+    ipa_us: '/ˈblɪstɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small pocket of fluid that forms on the skin",
+              "th": "ถุงน้ำที่เกิดขึ้นบนผิวหนัง"
+        },
+        {
+              "pos": "verb",
+              "en": "to form blisters on the skin",
+              "th": "ทำให้เกิดถุงน้ำบนผิวหนัง"
+        }
+  ],
+    antonyms: ["heal","cure"],
+    examples:   [
+        "The new shoes gave me a blister on my heel.",
+        "The heat from the fire caused her skin to blister.",
+        "The doctor drained the blister and applied a bandage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hostility',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/hɒˈstɪlɪti/',
+    ipa_us: '/hɒˈstɪlɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of opposition or hatred",
+              "th": "ความรู้สึกของการคัดค้านหรือความเกลียดชัง"
+        }
+  ],
+    antonyms: ["friendliness","affinity"],
+    examples:   [
+        "The hostility between the two countries has been ongoing for decades.",
+        "She felt a sense of hostility from her new colleagues.",
+        "The atmosphere in the room was filled with hostility and tension."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'carrier',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkæ.ɹɪ.ə/',
+    ipa_us: '/ˈkæ.ɹɪ.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person or thing that carries something",
+              "th": "บุคคลหรือสิ่งที่นำพาสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["receiver","recipient"],
+    examples:   [
+        "The airline is a major carrier of passengers and cargo.",
+        "The disease can be spread by a carrier who shows no symptoms.",
+        "The carrier pigeon flew back to its home with a message attached to its leg."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rarity',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɛə.ɹə.tɪ/',
+    ipa_us: '/ˈɹɛə.ɹə.tɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being rare or uncommon",
+              "th": "สถานะของการเป็นสิ่งที่หายากหรือไม่ธรรมดา"
+        }
+  ],
+    antonyms: ["commonness","abundance"],
+    examples:   [
+        "The rarity of the disease made it difficult to find a cure.",
+        "The rarity of the gemstone made it extremely valuable.",
+        "The museum showcased the rarity of the ancient artifact."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exodus',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛksədəs/',
+    ipa_us: '/ˈɛksədəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large-scale departure of people from a place",
+              "th": "การออกเดินทางของคนจำนวนมากจากที่หนึ่ง"
+        }
+  ],
+    antonyms: ["influx","arrival"],
+    examples:   [
+        "The exodus of refugees from the war-torn country was a humanitarian crisis.",
+        "The company's exodus from the city resulted in a significant loss of jobs.",
+        "The exodus of young people from rural areas to cities is a growing concern."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'paddle',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈpæ.dəl/',
+    ipa_us: '/ˈpæ.dəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move a boat through water using a paddle",
+              "th": "เคลื่อนเรือผ่านน้ำโดยใช้ไม้พาย"
+        },
+        {
+              "pos": "noun",
+              "en": "a flat piece of wood or plastic used for rowing",
+              "th": "ไม้พายหรือพลาสติกที่ใช้สำหรับพายเรือ"
+        }
+  ],
+    antonyms: ["anchor","moor"],
+    examples:   [
+        "We had to paddle the canoe to get to the other side of the lake.",
+        "The paddle was made of lightweight material.",
+        "She loved to paddle in the calm waters of the river."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'notwithstanding',
+    level: 'C1',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/ˌnɒtwɪðˈstændɪŋ/',
+    ipa_us: '/ˌnɒtwɪðˈstændɪŋ/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "despite something",
+              "th": "แม้ว่า"
+        }
+  ],
+    antonyms: ["because of","due to"],
+    examples:   [
+        "I'm going to the party notwithstanding the rain.",
+        "She got the job notwithstanding her lack of experience.",
+        "The company will proceed with the project notwithstanding the opposition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'candid',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkæn.dɪd/',
+    ipa_us: '/ˈkæn.dɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "honest and straightforward in what you say or do",
+              "th": "ซื่อสัตย์และตรงไปตรงมาในสิ่งที่คุณพูดหรือทำ"
+        }
+  ],
+    antonyms: ["deceptive","dishonest"],
+    examples:   [
+        "The candid photograph captured the moment perfectly.",
+        "She gave a candid interview about her experiences.",
+        "The candid feedback was helpful in improving the product."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'overdraft',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈəʊvədɹɑːft/',
+    ipa_us: '/ˈəʊvədɹɑːft/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an amount of money that is withdrawn from a bank account in excess of the balance",
+              "th": "จำนวนเงินที่ถอนออกจากบัญชีธนาคารเกินกว่ายอดเงิน"
+        }
+  ],
+    antonyms: ["deposit","credit"],
+    examples:   [
+        "The bank charged a fee for the overdraft.",
+        "She went into overdraft after paying her rent.",
+        "The company's overdraft facility helped them to manage their cash flow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'explanatory',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɛkˈsplanət(ə)ɹi/',
+    ipa_us: '/ɛkˈsplanət(ə)ɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "providing an explanation or clarification",
+              "th": "ให้คำอธิบายหรือการชี้แจง"
+        }
+  ],
+    antonyms: ["ambiguous","vague"],
+    examples:   [
+        "The explanatory notes helped to clarify the complex concept.",
+        "The professor gave an explanatory lecture on the topic.",
+        "The explanatory diagram made it easier to understand the process."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bribe',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/bɹaɪb/',
+    ipa_us: '/bɹaɪb/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a payment or gift given to someone in order to influence their behavior",
+              "th": "การชำระเงินหรือของขวัญที่ให้กับใครสักคนเพื่อ影响 พฤติกรรมของพวกเขา"
+        },
+        {
+              "pos": "verb",
+              "en": "to give someone a bribe",
+              "th": "ให้คนอื่นรับของขวัญหรือเงินเพื่อ影响 พฤติกรรม"
+        }
+  ],
+    antonyms: ["reward","incentive"],
+    examples:   [
+        "The company was accused of paying a bribe to win the contract.",
+        "She was offered a bribe to drop the charges.",
+        "The politician was found guilty of accepting a bribe."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hypocrisy',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/hɪˈpɒkɹəsi/',
+    ipa_us: '/hɪˈpɒkɹəsi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of pretending to have virtues or moral principles that you do not actually have",
+              "th": "การกระทำที่แสร้งว่ามีคุณธรรมหรือหลักการทางศีลธรรมที่คุณไม่ได้มีจริง"
+        }
+  ],
+    antonyms: ["sincerity","authenticity"],
+    examples:   [
+        "The politician's hypocrisy was exposed by the media.",
+        "She accused her ex-boyfriend of hypocrisy for his actions.",
+        "The company's hypocrisy in their advertising campaign was criticized by consumers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
