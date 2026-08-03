@@ -159,6 +159,57 @@ Reply ONLY raw JSON:
   const res = await callAI(prompt, 1024, 'mistral');
   return res.facts || [];
 }
+// ===== CALL 3: วางแผนคำถาม (จับคู่ fact_id ไม่ซ้ำ + เช็คด้วยโค้ด) =====
+const QUESTION_TYPES = [
+  'Main Idea', 'Detail', 'Negative Factual', 'Inference',
+  'Rhetorical Purpose', 'Vocabulary in Context', 'Reference',
+  'Sentence Simplification', 'Relationship',
+];
+
+async function buildQuestionPlan(facts, qCount) {
+  const prompt = `You are planning exam questions for a reading passage. Below is a list of distinct facts extracted from the passage.
+
+TASK: Select ${qCount} facts from the list below and assign ONE question type to each. Rules:
+- Each selected fact_id must be used EXACTLY ONCE (never reuse a fact_id)
+- Spread your selection across different positions (beginning/middle/end) — do not pick only from one part
+- Choose question types ONLY from this list: ${QUESTION_TYPES.join(', ')}
+- No single question type may be used more than 3 times
+- Vary your selection — do not default to only "Detail" and "Inference"
+
+Facts:
+${JSON.stringify(facts)}
+
+Reply ONLY raw JSON:
+{"plan":[{"fact_id":"fact_3","type":"Detail"},{"fact_id":"fact_7","type":"Inference"}]}`;
+
+  const res = await callAI(prompt, 1024);
+  let plan = res.plan || [];
+
+  // ===== เช็คด้วยโค้ดทันที (ไม่พึ่ง AI เลย เชื่อถือได้ 100%) =====
+  const seen = new Set();
+  const deduped = [];
+  for (const item of plan) {
+    if (!seen.has(item.fact_id)) {
+      seen.add(item.fact_id);
+      deduped.push(item);
+    }
+    // ถ้า fact_id ซ้ำ ตัดตัวที่ซ้ำทิ้งเลย ไม่ใส่ในแผน
+  }
+
+  // ถ้า AI เลือกมาไม่ครบ qCount (เพราะบางตัวถูกตัดซ้ำทิ้ง) เติมจาก facts ที่เหลือ
+  if (deduped.length < qCount) {
+    const usedIds = new Set(deduped.map(p => p.fact_id));
+    const remaining = facts.filter(f => !usedIds.has(f.id));
+    let typeIndex = 0;
+    for (const f of remaining) {
+      if (deduped.length >= qCount) break;
+      deduped.push({ fact_id: f.id, type: QUESTION_TYPES[typeIndex % QUESTION_TYPES.length] });
+      typeIndex++;
+    }
+  }
+
+  return deduped.slice(0, qCount);
+}
 async function generateReading() {
   if (RD.loading) return;
   RD.loading = true; RD.submitted = false; RD.answers = {};
