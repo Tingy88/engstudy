@@ -22346,6 +22346,399 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'media',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmiːdɪə/',
+    ipa_us: '/ˈmiːdɪə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the main means of mass communication",
+              "th": "สื่อ"
+        }
+  ],
+    antonyms: ["reality","truth"],
+    examples:   [
+        "The media played a significant role in shaping public opinion.",
+        "Social media has become an essential tool for businesses to reach their target audience.",
+        "The media coverage of the event was extensive and reached a global audience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'morality',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/məˈɹælɪti/',
+    ipa_us: '/məˈɹælɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "principles of what is right and wrong",
+              "th": "ศีลธรรม"
+        }
+  ],
+    antonyms: ["immorality","wickedness"],
+    examples:   [
+        "The company's morality was questioned after the scandal.",
+        "Morality is a complex issue that has been debated by philosophers for centuries.",
+        "The teacher tried to instill good morality in her students."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'polish',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈpɒlɪʃ/',
+    ipa_us: '/ˈpɒlɪʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something smooth and shiny",
+              "th": "ทำให้เรียบและเงา"
+        },
+        {
+              "pos": "noun",
+              "en": "a substance used to polish surfaces",
+              "th": "สิ่งที่ใช้ขัดเงา"
+        }
+  ],
+    antonyms: ["roughen","dull"],
+    examples:   [
+        "She polished the silver necklace until it shone.",
+        "The polish on the floor made it slippery.",
+        "He used a special polish to remove the scratches from the car."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eruption',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪˈɹʌpʃən/',
+    ipa_us: '/ɪˈɹʌpʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of erupting or bursting out",
+              "th": "การปะทุ"
+        }
+  ],
+    antonyms: ["calmness","serenity"],
+    examples:   [
+        "The eruption of the volcano caused widespread destruction.",
+        "The eruption of violence in the city was a cause for concern.",
+        "The eruption of the disease was sudden and unexpected."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'decline',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɪˈklaɪn/',
+    ipa_us: '/dɪˈklaɪn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become weaker or less",
+              "th": "อ่อนลง"
+        },
+        {
+              "pos": "noun",
+              "en": "a downward trend or a decrease",
+              "th": "การลดลง"
+        }
+  ],
+    antonyms: ["increase","improvement"],
+    examples:   [
+        "The company's sales began to decline after the economic crisis.",
+        "The decline of the Roman Empire was a gradual process.",
+        "She declined the offer because it didn't align with her goals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'solvent',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '[ˈsɒlvənt]',
+    ipa_us: '[ˈsɒlvənt]',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having enough money or assets to pay debts",
+              "th": "มีเงินเพียงพอ"
+        },
+        {
+              "pos": "noun",
+              "en": "a liquid substance that can dissolve other substances",
+              "th": "สารที่สามารถละลายสารอื่น"
+        }
+  ],
+    antonyms: ["insolvent","bankrupt"],
+    examples:   [
+        "The company was solvent and able to pay its debts.",
+        "The solvent used in the laboratory was highly toxic.",
+        "The solvent was used to clean the surface of the material."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'desirable',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪˈzaɪəɹəbəl/',
+    ipa_us: '/dɪˈzaɪəɹəbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "wanted or wished for",
+              "th": "ที่ต้องการ"
+        }
+  ],
+    antonyms: ["undesirable","unwanted"],
+    examples:   [
+        "The desirable location of the house made it very expensive.",
+        "She considered a career in medicine to be highly desirable.",
+        "The desirable skills for the job included proficiency in multiple languages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'consolation',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkɒn.səˈleɪ.ʃən/',
+    ipa_us: '/ˌkɒn.səˈleɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of giving comfort or sympathy",
+              "th": "การให้ความสบายใจ"
+        }
+  ],
+    antonyms: ["distress","sorrow"],
+    examples:   [
+        "The news of her recovery was a consolation to her family.",
+        "The consolation prize was a nice gesture, but it didn't make up for the loss.",
+        "The counselor offered consolation to the grieving parents."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'moral',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈmɒɹəl/',
+    ipa_us: '/ˈmɒɹəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to principles of what is right and wrong",
+              "th": "เกี่ยวกับหลักศีลธรรม"
+        },
+        {
+              "pos": "noun",
+              "en": "a lesson or message about right and wrong",
+              "th": "บทเรียนหรือข้อความเกี่ยวกับสิ่งที่ถูกและผิด"
+        }
+  ],
+    antonyms: ["immoral","unethical"],
+    examples:   [
+        "The moral of the story is that honesty is the best policy.",
+        "The company's moral obligation is to protect the environment.",
+        "The moral implications of the decision were carefully considered."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'legislative',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈlɛ.dʒɪ.slə.tɪv/',
+    ipa_us: '/ˈlɛ.dʒɪ.slə.tɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the making of laws",
+              "th": "เกี่ยวกับการทำกฎหมาย"
+        }
+  ],
+    antonyms: ["executive","judicial"],
+    examples:   [
+        "The legislative branch of the government is responsible for creating laws.",
+        "The legislative process can be slow and cumbersome.",
+        "The legislative committee reviewed the proposed bill and made several changes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'yield',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/jiːld/',
+    ipa_us: '/jiːld/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to produce or provide something",
+              "th": "ให้ผลผลิต"
+        },
+        {
+              "pos": "noun",
+              "en": "the amount of something produced or provided",
+              "th": "ผลผลิต"
+        }
+  ],
+    antonyms: ["withhold","refuse"],
+    examples:   [
+        "The farm yielded a bountiful harvest.",
+        "The investment yielded a high return.",
+        "The yield of the crop was higher than expected due to the good weather."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'obedience',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ə(ʊ)ˈbiːdɪəns/',
+    ipa_us: '/ə(ʊ)ˈbiːdɪəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of following rules or instructions",
+              "th": "การเชื่อฟัง"
+        }
+  ],
+    antonyms: ["disobedience","defiance"],
+    examples:   [
+        "The teacher emphasized the importance of obedience in the classroom.",
+        "The obedience of the dog was impressive, as it followed every command.",
+        "The obedience to the law is essential for maintaining social order."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bend',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/bɛnd/',
+    ipa_us: '/bɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to change direction or shape",
+              "th": "เปลี่ยนทิศทางหรือรูปทรง"
+        },
+        {
+              "pos": "noun",
+              "en": "a curve or bend in a road or path",
+              "th": "การโค้งหรือเปลี่ยนทิศทาง"
+        }
+  ],
+    antonyms: ["straighten","align"],
+    examples:   [
+        "The road began to bend and curve as it wound its way up the mountain.",
+        "She had to bend down to pick up the pen that had fallen on the floor.",
+        "The bend in the river created a beautiful and tranquil scene."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'specify',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈspɛsɪfaɪ/',
+    ipa_us: '/ˈspɛsɪfaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to state or describe something precisely",
+              "th": "ระบุหรืออธิบายอย่างแม่นยำ"
+        }
+  ],
+    antonyms: ["omit","vague"],
+    examples:   [
+        "The contract specified the terms and conditions of the agreement.",
+        "She specified that she wanted a room with a view of the ocean.",
+        "The instructions specified the exact measurements and materials needed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'splash',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/splæʃ/',
+    ipa_us: '/splæʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move quickly and make a splashing sound",
+              "th": "เคลื่อนที่อย่างรวดเร็วและทำให้เกิดเสียงกระจาย"
+        },
+        {
+              "pos": "noun",
+              "en": "a small amount of liquid that falls or is thrown",
+              "th": "ปริมาณน้ำที่ตกหรือโยน"
+        }
+  ],
+    antonyms: ["drip","trickle"],
+    examples:   [
+        "The kids loved to splash in the pool on hot summer days.",
+        "The splash of water on the rocks created a beautiful sight.",
+        "The splash of color in the painting added a touch of vibrancy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'formation',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/fə(ɹ).ˈmeɪ.ʃən/',
+    ipa_us: '/fə(ɹ).ˈmeɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act or process of forming something",
+              "th": "การก่อตัวหรือการสร้าง"
+        }
+  ],
+    antonyms: ["dissolution","destruction"],
+    examples:   [
+        "The formation of the company was a long and difficult process.",
+        "The formation of the mountain range was the result of millions of years of geological activity.",
+        "The formation of the team was announced at the press conference."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vinegar',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvɪnəɡə/',
+    ipa_us: '/ˈvɪnəɡə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sour liquid used in cooking",
+              "th": "ของเหลวที่มีรสเปรี้ยวที่ใช้ในการทำอาหาร"
+        }
+  ],
+    antonyms: ["oil","butter"],
+    examples:   [
+        "She used vinegar to make a salad dressing.",
+        "The smell of vinegar filled the air as she cleaned the floor.",
+        "The vinegar in the recipe added a tangy flavor to the dish."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
