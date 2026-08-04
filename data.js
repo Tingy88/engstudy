@@ -22125,6 +22125,227 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'adorn',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əˈdɔː(ɹ)n/',
+    ipa_us: '/əˈdɔː(ɹ)n/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "add attractive or decorative features to something",
+              "th": "เพิ่มคุณลักษณะที่น่าดึงดูดหรือตกแต่งให้กับบางสิ่ง"
+        }
+  ],
+    antonyms: ["strip","bare"],
+    examples:   [
+        "The city's main square was adorned with beautiful flowers and fountains.",
+        "Her dress was adorned with intricate embroidery and sparkling jewels.",
+        "The ancient temple was adorned with mysterious symbols and carvings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'provincial',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹɒvinʃəl̩/',
+    ipa_us: '/pɹɒvinʃəl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of the countryside or a particular province",
+              "th": "เกี่ยวข้องกับหรือเป็นลักษณะของชนบทหรือจังหวัดใดจังหวัดหนึ่ง"
+        }
+  ],
+    antonyms: ["urban","cosmopolitan"],
+    examples:   [
+        "The provincial town was surrounded by rolling hills and farmland.",
+        "She grew up in a provincial city and loved its slow pace of life.",
+        "The provincial government was responsible for maintaining the local roads and infrastructure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'oblique',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈbliːk/',
+    ipa_us: '/əˈbliːk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "(of a line, angle, or shape) not straight or direct",
+              "th": "(ของเส้น มุม หรือรูป) ไม่ตรงหรือไม่ตรงไปตรงมา"
+        },
+        {
+              "pos": "adjective",
+              "en": "(of a remark or comment) indirect or ambiguous",
+              "th": "(ของคำพูดหรือคำวิจารณ์) ไม่ตรงไปตรงมาหรือคลุมเครือ"
+        }
+  ],
+    antonyms: ["straight","direct"],
+    examples:   [
+        "The oblique angle of the sun made it difficult to take a good photo.",
+        "Her oblique comments about the movie left us wondering what she really thought.",
+        "The oblique shape of the building made it stand out from the surrounding architecture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wallow',
+    level: 'C2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/ˈwɒ.ləʊ/',
+    ipa_us: '/ˈwɒ.ləʊ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to roll or lie in something unpleasant, such as mud or a dirty place",
+              "th": "กลิ้งหรือนอนในบางสิ่งที่ไม่พึงประสงค์ เช่นโคลนหรือที่ที่ไม่สะอาด"
+        },
+        {
+              "pos": "verb",
+              "en": "to enjoy or take pleasure in something, especially something that is considered unpleasant or wrong",
+              "th": "เพลิดเพลินหรือสนุกกับบางสิ่ง โดยเฉพาะอย่างยิ่งถ้าบางสิ่งนั้นถือว่าไม่พึงประสงค์หรือผิด"
+        }
+  ],
+    antonyms: ["avoid","shun"],
+    examples:   [
+        "The pigs loved to wallow in the muddy pit on a hot summer day.",
+        "She wallowed in her own misery and refused to talk to anyone.",
+        "He wallowed in the praise and attention he received after his successful performance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hapless',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈhæplɪs/',
+    ipa_us: '/ˈhæplɪs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having bad luck or being unfortunate",
+              "th": "มีโชคไม่ดีหรือเป็นคนไม่มีดวง"
+        }
+  ],
+    antonyms: ["lucky","fortunate"],
+    examples:   [
+        "The hapless tourist got lost in the city and couldn't find his way back to the hotel.",
+        "The hapless team lost every game in the tournament.",
+        "The hapless actor struggled to find work and was often unemployed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'angst',
+    level: 'C2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/æŋ(k)st/',
+    ipa_us: '/æŋ(k)st/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of deep anxiety or fear about the future",
+              "th": "ความรู้สึกของความวิตกกังวลหรือกลัวเกี่ยวกับอนาคต"
+        }
+  ],
+    antonyms: ["confidence","optimism"],
+    examples:   [
+        "The student felt angst about her upcoming exams and was studying hard to prepare.",
+        "The company's financial troubles caused angst among its employees.",
+        "The threat of climate change filled her with angst about the future of the planet."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disdainful',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪsˈdeɪn.fʌl/',
+    ipa_us: '/dɪsˈdeɪn.fʌl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing contempt or dislike for something or someone",
+              "th": "รู้สึกหรือแสดงความเยาะเย้ยหรือไม่ชอบบางสิ่งหรือบางคน"
+        }
+  ],
+    antonyms: ["respectful","admiring"],
+    examples:   [
+        "The disdainful look on her face made it clear that she didn't approve of the idea.",
+        "The politician's disdainful attitude towards the opposition party was widely criticized.",
+        "The artist's disdainful view of commercialism led him to create art that was provocative and challenging."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ally',
+    level: 'C2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈæli/',
+    ipa_us: '/ˈæli/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a country, person, or group that helps and supports another country, person, or group",
+              "th": "ประเทศ บุคคล หรือกลุ่มที่ช่วยเหลือและสนับสนุนประเทศ บุคคล หรือกลุ่มอื่น"
+        }
+  ],
+    antonyms: ["enemy","opponent"],
+    examples:   [
+        "The two countries formed an alliance and became close allies.",
+        "She found an ally in her friend, who supported her through the difficult times.",
+        "The company formed an alliance with a rival firm to increase its market share."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'myriad',
+    level: 'C2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈmɪɹi.æd/',
+    ipa_us: '/ˈmɪɹi.æd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large, indefinite number of something",
+              "th": "จำนวนมากที่ไม่แน่นอนของบางสิ่ง"
+        }
+  ],
+    antonyms: ["few","limited"],
+    examples:   [
+        "The city offered a myriad of cultural and entertainment options.",
+        "The company's product line included a myriad of different models and designs.",
+        "The internet provided a myriad of sources of information on the topic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pervasive',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pəˈveɪ.sɪv/',
+    ipa_us: '/pəˈveɪ.sɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "existing or being felt throughout a place or system",
+              "th": "มีอยู่หรือรู้สึกทั่วทั้งสถานที่หรือระบบ"
+        }
+  ],
+    antonyms: ["limited","restricted"],
+    examples:   [
+        "The pervasive smell of smoke filled the entire building.",
+        "The company's pervasive culture of innovation led to its success.",
+        "The pervasive influence of social media on modern society is a topic of much debate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
