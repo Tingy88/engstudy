@@ -22739,6 +22739,566 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'steep',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/stiːp/',
+    ipa_us: '/stiːp/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a sharp or abrupt slope",
+              "th": "ชัน"
+        }
+  ],
+    antonyms: ["gentle","flat"],
+    examples:   [
+        "The steep hill was difficult to climb.",
+        "She had to pay a steep price for her mistake.",
+        "The steep stairs led to the attic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flash',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/flæʃ/',
+    ipa_us: '/flæʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to shine or reflect light suddenly",
+              "th": "闪烁"
+        },
+        {
+              "pos": "noun",
+              "en": "a brief, sudden burst of light",
+              "th": "闪光"
+        }
+  ],
+    antonyms: ["dim","steady"],
+    examples:   [
+        "The camera flash blinded me for a second.",
+        "A flash of lightning illuminated the dark sky.",
+        "She flashed a bright smile at the photographer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'block',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/blɒk/',
+    ipa_us: '/blɒk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a solid piece of material, especially wood or stone",
+              "th": "ก้อน"
+        },
+        {
+              "pos": "verb",
+              "en": "to prevent or obstruct something",
+              "th": "ขัดขวาง"
+        }
+  ],
+    antonyms: ["unblock","allow"],
+    examples:   [
+        "The block of wood was too heavy to lift.",
+        "The road was blocked due to construction.",
+        "She tried to block out the noise with earplugs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'respectable',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '[ɹi.ˈspɛk.tə.bl̩]',
+    ipa_us: '[ɹi.ˈspɛk.tə.bl̩]',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "worthy of respect; decent",
+              "th": "มีเกียรติ"
+        }
+  ],
+    antonyms: ["disreputable","shameful"],
+    examples:   [
+        "He came from a respectable family.",
+        "She was a respectable member of society.",
+        "The respectable old man was admired by all."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rage',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɹeɪdʒ/',
+    ipa_us: '/ɹeɪdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "uncontrolled anger or fury",
+              "th": "ความโกรธ"
+        },
+        {
+              "pos": "verb",
+              "en": "to feel or express intense anger",
+              "th": "โกรธ"
+        }
+  ],
+    antonyms: ["calm","peace"],
+    examples:   [
+        "The rage in her eyes was frightening.",
+        "He raged against the machine for hours.",
+        "The crowd's rage was directed at the corrupt government."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'upstairs',
+    level: 'B1',
+    partOfSpeech: ["adverb","adjective"],
+    ipa_uk: '/ˈʌpˌstɛəz/',
+    ipa_us: '/ˈʌpˌstɛəz/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "on or to a floor above",
+              "th": "ชั้นบน"
+        },
+        {
+              "pos": "adjective",
+              "en": "located on a floor above",
+              "th": "อยู่ชั้นบน"
+        }
+  ],
+    antonyms: ["downstairs","below"],
+    examples:   [
+        "My bedroom is upstairs.",
+        "She went upstairs to get some rest.",
+        "The upstairs room had a beautiful view."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'librarian',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/laɪˈbɹɛɹ.i.ən/',
+    ipa_us: '/laɪˈbɹɛɹ.i.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person in charge of a library",
+              "th": "บรรณารักษ์"
+        }
+  ],
+    antonyms: ["reader","patron"],
+    examples:   [
+        "The librarian helped me find a book.",
+        "She worked as a librarian for 10 years.",
+        "The librarian was very knowledgeable about literature."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compliment',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkɒmplɪmənt/',
+    ipa_us: '/ˈkɒmplɪmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an expression of praise or admiration",
+              "th": "คำชม"
+        },
+        {
+              "pos": "verb",
+              "en": "to praise or express admiration for someone",
+              "th": "ชมเชย"
+        }
+  ],
+    antonyms: ["insult","criticize"],
+    examples:   [
+        "She gave me a compliment on my dress.",
+        "He complimented her on her cooking.",
+        "The compliment made me feel proud."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'feed',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈfiːd/',
+    ipa_us: '/ˈfiːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give food to someone or something",
+              "th": "ให้อาหาร"
+        },
+        {
+              "pos": "noun",
+              "en": "food for animals or plants",
+              "th": "อาหารสัตว์"
+        }
+  ],
+    antonyms: ["starve","withhold"],
+    examples:   [
+        "I feed my cat every morning.",
+        "The feed for the chickens was expensive.",
+        "The baby needs to feed every few hours."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'suffer',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈsʌfə/',
+    ipa_us: '/ˈsʌfə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to experience or feel pain or discomfort",
+              "th": "ทนทุกข์"
+        }
+  ],
+    antonyms: ["enjoy","thrive"],
+    examples:   [
+        "She suffered from a headache all day.",
+        "He suffered a serious injury in the accident.",
+        "The company will suffer losses if it doesn't adapt."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'positively',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈpɒzɪtɪvli/',
+    ipa_us: '/ˈpɒzɪtɪvli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a positive or favorable way",
+              "th": "ในทางบวก"
+        }
+  ],
+    antonyms: ["negatively","pessimistically"],
+    examples:   [
+        "I am positively sure that I will pass the exam.",
+        "She reacted positively to the news.",
+        "He spoke positively about the new policy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'counter',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkaʊntə/',
+    ipa_us: '/ˈkaʊntə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a surface or table for displaying or selling goods",
+              "th": "เคาน์เตอร์"
+        },
+        {
+              "pos": "verb",
+              "en": "to act against or oppose something",
+              "th": "ต่อต้าน"
+        }
+  ],
+    antonyms: ["support","agree"],
+    examples:   [
+        "The counter in the store was very crowded.",
+        "She counter-attacked with a strong argument.",
+        "The company will counter the competitor's offer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'package',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpækɪdʒ/',
+    ipa_us: '/ˈpækɪdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a container or bundle of goods",
+              "th": "แพ็คเกจ"
+        },
+        {
+              "pos": "verb",
+              "en": "to put something into a package or container",
+              "th": "ห่อ"
+        }
+  ],
+    antonyms: ["unpack","unbox"],
+    examples:   [
+        "The package arrived yesterday.",
+        "She packaged the gift beautifully.",
+        "The company will package the software with the hardware."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'honesty',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɒnəsti/',
+    ipa_us: '/ˈɒnəsti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being honest or truthful",
+              "th": "ความซื่อสัตย์"
+        }
+  ],
+    antonyms: ["dishonesty","deceit"],
+    examples:   [
+        "Honesty is the best policy.",
+        "She valued honesty above all else.",
+        "The company's honesty was questioned by the media."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'quantity',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkwɑndədi/',
+    ipa_us: '/ˈkwɑndədi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large or small amount of something",
+              "th": "ปริมาณ"
+        }
+  ],
+    antonyms: ["quality","type"],
+    examples:   [
+        "The quantity of water in the tank was low.",
+        "She bought a large quantity of clothes.",
+        "The company produces a large quantity of goods every year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'declare',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈkleə/',
+    ipa_us: '/dɪˈkleə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to announce or state something officially",
+              "th": "ประกาศ"
+        }
+  ],
+    antonyms: ["conceal","hide"],
+    examples:   [
+        "The company will declare its profits next week.",
+        "She declared her love for him.",
+        "The government declared a state of emergency."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rare',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '[ɹɜɹ]',
+    ipa_us: '[ɹɜɹ]',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not common or usual; unusual",
+              "th": "หายาก"
+        }
+  ],
+    antonyms: ["common","usual"],
+    examples:   [
+        "The rare book was very valuable.",
+        "She has a rare talent for music.",
+        "The rare disease was difficult to treat."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'visa',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈviː.sə/',
+    ipa_us: '/ˈviː.sə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an official document giving permission to enter or stay in a country",
+              "th": "วีซ่า"
+        }
+  ],
+    antonyms: ["passport","ID"],
+    examples:   [
+        "I need a visa to travel to the US.",
+        "She applied for a visa to study abroad.",
+        "The visa application process was complicated."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'supportive',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/səˈpɔːtɪv/',
+    ipa_us: '/səˈpɔːtɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving help or encouragement",
+              "th": "ให้การสนับสนุน"
+        }
+  ],
+    antonyms: ["unsupportive","opposed"],
+    examples:   [
+        "My family is very supportive of my career.",
+        "The supportive community helped the new business.",
+        "She was a supportive friend during difficult times."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'embarrass',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪmˈbæ.ɹəs/',
+    ipa_us: '/ɪmˈbæ.ɹəs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone feel ashamed or self-conscious",
+              "th": "ทำให้เขินอาย"
+        }
+  ],
+    antonyms: ["praise","compliment"],
+    examples:   [
+        "I embarrassed myself in front of my crush.",
+        "She embarrassed her brother in public.",
+        "The mistake embarrassed the company."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'despair',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/dɪˈspɛə(ɹ)/',
+    ipa_us: '/dɪˈspɛə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of hopelessness or sadness",
+              "th": "ความสิ้นหวัง"
+        },
+        {
+              "pos": "verb",
+              "en": "to lose all hope or confidence",
+              "th": "สิ้นหวัง"
+        }
+  ],
+    antonyms: ["hope","optimism"],
+    examples:   [
+        "The news filled her with despair.",
+        "He despaired of ever finding a job.",
+        "The team despaired of winning the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rest',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɹɛst/',
+    ipa_us: '/ɹɛst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a period of sleep or relaxation",
+              "th": "การพัก"
+        },
+        {
+              "pos": "verb",
+              "en": "to stop doing something and relax",
+              "th": "พัก"
+        }
+  ],
+    antonyms: ["work","activity"],
+    examples:   [
+        "I need to rest my eyes.",
+        "She rested her head on his shoulder.",
+        "The team will rest for a few days before the next game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'afterwards',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈɑːftə.wədz/',
+    ipa_us: '/ˈɑːftə.wədz/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at a later time; after something has happened",
+              "th": "หลังจากนั้น"
+        }
+  ],
+    antonyms: ["before","previously"],
+    examples:   [
+        "I will meet you afterwards.",
+        "She felt sad afterwards.",
+        "The company will review the results afterwards."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bother',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '[ˈbɔðə(ɹ)]',
+    ipa_us: '[ˈbɔðə(ɹ)]',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to annoy or disturb someone",
+              "th": "รบกวน"
+        },
+        {
+              "pos": "noun",
+              "en": "a person or thing that causes trouble or annoyance",
+              "th": "สิ่งที่รบกวน"
+        }
+  ],
+    antonyms: ["help","assist"],
+    examples:   [
+        "The noise bothers me.",
+        "She didn't want to bother him with her problems.",
+        "The bother of traveling was not worth it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
