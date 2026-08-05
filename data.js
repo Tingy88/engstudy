@@ -23494,6 +23494,217 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'fluctuation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/flʌktʃuːˈeɪʃən/',
+    ipa_us: '/flʌktʃuːˈeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a change in the level or amount of something",
+              "th": "การเปลี่ยนแปลงของระดับหรือปริมาณของบางสิ่ง"
+        }
+  ],
+    antonyms: ["stability","consistency"],
+    examples:   [
+        "The fluctuation in the stock market made it difficult to predict the future of investments.",
+        "The company experienced a fluctuation in sales due to changes in consumer demand.",
+        "The researcher studied the fluctuation in temperature to understand its impact on the environment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ignominious',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪɡnəˈmɪnɪəs/',
+    ipa_us: '/ɪɡnəˈmɪnɪəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "deserving or causing shame or disgrace",
+              "th": "สมควรหรือทำให้เกิดความอับอายหรือความเสื่อม"
+        }
+  ],
+    antonyms: ["honorable","glorious"],
+    examples:   [
+        "The company's ignominious failure led to a loss of public trust.",
+        "He suffered an ignominious defeat in the election, losing by a wide margin.",
+        "The ignominious treatment of the prisoners was widely condemned by human rights organizations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'acreage',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈeɪk(ə)ɹɪd͡ʒ/',
+    ipa_us: '/ˈeɪk(ə)ɹɪd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a area of land, especially one used for farming",
+              "th": "พื้นที่ของที่ดิน โดยเฉพาะที่ใช้สำหรับการเกษตร"
+        }
+  ],
+    antonyms: ["smallholding","urbanization"],
+    examples:   [
+        "The farmer owned a large acreage of land, which he used to grow crops.",
+        "The company purchased a significant acreage of land for the development of a new resort.",
+        "The government implemented policies to protect the acreage of natural habitats and wildlife reserves."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tactic',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtæktɪk/',
+    ipa_us: '/ˈtæktɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a plan or strategy for achieving something",
+              "th": "แผนหรือยุทธวิธีสำหรับการบรรลุเป้าหมาย"
+        }
+  ],
+    antonyms: ["strategy","approach"],
+    examples:   [
+        "The company used a new tactic to increase sales and expand its customer base.",
+        "The football team's tactic of playing defensively paid off, as they won the game.",
+        "The politician's tactic of making promises she couldn't keep backfired, losing her the election."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'connote',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kɒˈnəʊt/',
+    ipa_us: '/kɒˈnəʊt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to suggest or imply a particular idea or quality",
+              "th": "ทำให้แนะนำหรือบอกเป็นนัยถึงแนวคิดหรือคุณภาพเฉพาะ"
+        }
+  ],
+    antonyms: ["denote","specify"],
+    examples:   [
+        "The word 'home' connotes a sense of warmth and comfort.",
+        "The company's logo connotes innovation and progress.",
+        "The smell of freshly baked cookies connotes a sense of nostalgia and happiness."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'haughty',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈhɑti/',
+    ipa_us: '/ˈhɑti/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a proud and superior attitude",
+              "th": "มีความภาคภูมิใจและเหนือกว่า"
+        }
+  ],
+    antonyms: ["humble","modest"],
+    examples:   [
+        "The haughty aristocrat looked down on the common people.",
+        "The haughty tone of the letter made it clear that the writer was not interested in negotiating.",
+        "The haughty expression on her face made it difficult for others to approach her."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clinch',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/klɪntʃ/',
+    ipa_us: '/klɪntʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to settle or secure something, especially a victory or a deal",
+              "th": "ทำให้เรื่องหรือสิ่งใดมั่นคงหรือรับประกัน โดยเฉพาะชัยชนะหรือข้อตกลง"
+        }
+  ],
+    antonyms: ["lose","fail"],
+    examples:   [
+        "The team managed to clinch the championship title in the final game.",
+        "The company was able to clinch the deal with the investor, securing funding for the project.",
+        "The politician's speech helped to clinch the election, winning over undecided voters."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'regulatory',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹɛɡjələtɹi/',
+    ipa_us: '/ˈɹɛɡjələtɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or concerned with the regulation of something",
+              "th": "เกี่ยวข้องกับการควบคุมหรือกำกับดูแลบางสิ่ง"
+        }
+  ],
+    antonyms: ["deregulatory","unrestricted"],
+    examples:   [
+        "The regulatory body oversaw the implementation of new environmental laws.",
+        "The company had to comply with regulatory requirements to operate in the country.",
+        "The regulatory framework for the industry was revised to address concerns about safety and fairness."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'philistine',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɪlɪstaɪn/',
+    ipa_us: '/ˈfɪlɪstaɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is lacking in cultural or artistic appreciation",
+              "th": "บุคคลที่ขาดการชื่นชมหรือประเมินคุณค่าทางวัฒนธรรมหรือศิลปะ"
+        }
+  ],
+    antonyms: ["connoisseur","aficionado"],
+    examples:   [
+        "The philistine billionaire preferred to invest in real estate rather than art.",
+        "The philistine attitude towards music was reflected in the lack of funding for the local orchestra.",
+        "The philistine crowd at the museum seemed more interested in taking selfies than actually looking at the artwork."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'retrospect',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɛtɹoˌspɛkt/',
+    ipa_us: '/ˈɹɛtɹoˌspɛkt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a review or consideration of past events or experiences",
+              "th": "การตรวจสอบหรือพิจารณาเหตุการณ์หรือประสบการณ์ในอดีต"
+        }
+  ],
+    antonyms: ["prospect","forecast"],
+    examples:   [
+        "In retrospect, she realized that she had made a mistake by quitting her job.",
+        "The company's success in retrospect was due to the hard work and dedication of its employees.",
+        "The historian's book provided a valuable retrospect on the major events of the 20th century."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
