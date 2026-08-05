@@ -23299,6 +23299,201 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'sentiment',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɛn.tɪ.mənt/',
+    ipa_us: '/ˈsɛn.tɪ.mənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling or opinion, especially a vague or instinctive one",
+              "th": "ความรู้สึกหรือความคิดเห็น โดยเฉพาะอย่างยิ่งความรู้สึกที่ไม่ชัดเจนหรือโดยสัญชาตญาณ"
+        }
+  ],
+    antonyms: ["fact","reason"],
+    examples:   [
+        "The sentiment among the crowd was one of excitement and anticipation.",
+        "The poet's words expressed a sentiment of love and longing.",
+        "The company's sentiment towards the new policy was largely negative."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'removed',
+    level: 'C1',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ɹɪˈmuːvd/',
+    ipa_us: '/ɹɪˈmuːvd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take something away or off",
+              "th": "เอาสิ่งใดสิ่งหนึ่งออกไปหรือออก"
+        },
+        {
+              "pos": "adjective",
+              "en": "not closely connected or related",
+              "th": "ไม่เกี่ยวข้องหรือไม่เกี่ยวข้องอย่างใกล้ชิด"
+        }
+  ],
+    antonyms: ["added","connected"],
+    examples:   [
+        "The doctor removed the bandage to examine the wound.",
+        "The removed section of the highway was closed for repairs.",
+        "The removed look on her face indicated she was distracted."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'realist',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɪəlɪst/',
+    ipa_us: '/ˈɹɪəlɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who accepts the world as it is and deals with it in a practical way",
+              "th": "บุคคลที่ยอมรับโลกตามที่เป็นและจัดการกับมันในแบบที่เป็นไปได้"
+        }
+  ],
+    antonyms: ["idealist","optimist"],
+    examples:   [
+        "As a realist, she knew that the project would take longer than expected to complete.",
+        "The realist in him told him to be cautious and prepare for the worst.",
+        "The artist was a realist, painting scenes of everyday life in a straightforward way."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'terrain',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tə.ˈreɪn/',
+    ipa_us: '/tə.ˈreɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of land or an area of land with a particular feature or characteristics",
+              "th": "ที่ดินหรือพื้นที่ที่มีลักษณะเฉพาะหรือคุณลักษณะ"
+        }
+  ],
+    antonyms: ["landscape","environment"],
+    examples:   [
+        "The hikers had to navigate difficult terrain to reach the summit.",
+        "The terrain of the desert made it challenging to build a road.",
+        "The military unit was trained to operate in various types of terrain."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'maternal',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/məˈtɜːnəl/',
+    ipa_us: '/məˈtɜːnəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of a mother",
+              "th": "เกี่ยวข้องกับหรือเป็นลักษณะของแม่"
+        }
+  ],
+    antonyms: ["paternal","fatherly"],
+    examples:   [
+        "The maternal instinct kicked in as soon as she held her newborn baby.",
+        "The maternal care and support she received from her family helped her recover.",
+        "The artist's maternal portrait was a tribute to her own mother's love and sacrifice."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'immortalize',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪ.ˈmɔː(ɹ).tə.ˌlaɪz/',
+    ipa_us: '/ɪ.ˈmɔː(ɹ).tə.ˌlaɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone or something famous or remembered forever",
+              "th": "ทำให้ใครบางคนหรือสิ่งใดสิ่งหนึ่ง มีชื่อเสียงหรือจดจำตลอดไป"
+        }
+  ],
+    antonyms: ["forget","overlook"],
+    examples:   [
+        "The artist's painting immortalized the beauty of the landscape.",
+        "The writer's novel immortalized the struggles of the working class.",
+        "The musician's song immortalized the memory of a loved one."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'extortion',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪkˈstɔːʃn/',
+    ipa_us: '/ɪkˈstɔːʃn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of getting something, especially money, by threatening or forcing someone",
+              "th": "การกระทำที่ได้รับบางสิ่ง โดยเฉพาะเงิน โดยการข่มขู่หรือบังคับใครบางคน"
+        }
+  ],
+    antonyms: ["donation","gift"],
+    examples:   [
+        "The company was accused of extortion for demanding payment from its suppliers.",
+        "The extortion scheme involved threatening to reveal sensitive information.",
+        "The police investigated the extortion case and arrested the perpetrators."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prophetic',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹəˈfɛtɪk/',
+    ipa_us: '/pɹəˈfɛtɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing the ability to predict what will happen in the future",
+              "th": "มีหรือแสดงความสามารถในการคาดการณ์สิ่งที่จะเกิดขึ้นในอนาคต"
+        }
+  ],
+    antonyms: ["unpredictable","unexpected"],
+    examples:   [
+        "The prophetic words of the ancient sage were fulfilled centuries later.",
+        "The prophetic vision of the entrepreneur led to the creation of a successful startup.",
+        "The prophetic message in the novel warned of the dangers of climate change."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rotate',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹəʊˈteɪt/',
+    ipa_us: '/ɹəʊˈteɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to turn or cause something to turn around a central point",
+              "th": "การหมุนหรือทำให้สิ่งใดสิ่งหนึ่งหมุนรอบจุดศูนย์กลาง"
+        }
+  ],
+    antonyms: ["stop","freeze"],
+    examples:   [
+        "The Earth rotates on its axis, causing day and night.",
+        "The wheels of the car rotate when it moves.",
+        "The company will rotate its staff every six months to give them new challenges."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
