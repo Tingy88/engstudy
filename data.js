@@ -23705,6 +23705,490 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'stand',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/stænd/',
+    ipa_us: '/stænd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be in an upright position",
+              "th": "ยืน"
+        }
+  ],
+    antonyms: ["sit","lie"],
+    examples:   [
+        "She will stand on the stage to give a speech.",
+        "The flag will stand for our country.",
+        "Can you stand up for a minute?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'broken',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈbɹəʊkən/',
+    ipa_us: '/ˈbɹəʊkən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "damaged or not working",
+              "th": "เสีย"
+        }
+  ],
+    antonyms: ["fixed","working"],
+    examples:   [
+        "The broken toy is of no use to the child.",
+        "The broken glass needs to be cleaned up.",
+        "The broken relationship can be mended."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'social',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsəʊʃəl/',
+    ipa_us: '/ˈsəʊʃəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to society",
+              "th": "สังคม"
+        }
+  ],
+    antonyms: ["private","personal"],
+    examples:   [
+        "Social media is very popular among young people.",
+        "The social worker helps people in need.",
+        "The social event was attended by many guests."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'successful',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/səkˈsɛsfl̩/',
+    ipa_us: '/səkˈsɛsfl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "achieving or having achieved success",
+              "th": "ประสบความสำเร็จ"
+        }
+  ],
+    antonyms: ["unsuccessful","failed"],
+    examples:   [
+        "The successful business owner is very wealthy.",
+        "The successful student graduated with honors.",
+        "The successful team won the championship."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'they',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/ðeɪ/',
+    ipa_us: '/ðeɪ/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to refer to people or things previously mentioned",
+              "th": "พวกเขา"
+        }
+  ],
+    antonyms: ["we","I"],
+    examples:   [
+        "They are coming to our house tonight.",
+        "They have been married for ten years.",
+        "They will be happy to see you."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'awake',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈweɪk/',
+    ipa_us: '/əˈweɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not sleeping",
+              "th": "ตื่น"
+        }
+  ],
+    antonyms: ["asleep","sleepy"],
+    examples:   [
+        "I'm awake and ready to go.",
+        "The baby is awake and crying.",
+        "I've been awake all night thinking about the problem."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tall',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/tɔːl/',
+    ipa_us: '/tɔːl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a great height",
+              "th": "สูง"
+        }
+  ],
+    antonyms: ["short","small"],
+    examples:   [
+        "The tall building is very impressive.",
+        "He is a tall and handsome man.",
+        "The tall trees provide shade for the park."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'keep',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kiːp/',
+    ipa_us: '/kiːp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to hold or retain something",
+              "th": "เก็บ"
+        }
+  ],
+    antonyms: ["give","throw"],
+    examples:   [
+        "Can you keep the secret?",
+        "I will keep the book for you.",
+        "Keep the door closed, please."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'home',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/(h)əʊm/',
+    ipa_us: '/(h)əʊm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the place where you live",
+              "th": "บ้าน"
+        }
+  ],
+    antonyms: ["away","outside"],
+    examples:   [
+        "I'm going home now.",
+        "My home is very cozy and warm.",
+        "Home is where the heart is."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shirt',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ʃɜːt/',
+    ipa_us: '/ʃɜːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a garment for the upper body",
+              "th": "เสื้อ"
+        }
+  ],
+    antonyms: ["pants","skirt"],
+    examples:   [
+        "I need to wash my shirt.",
+        "The shirt is very comfortable to wear.",
+        "Can you help me find a shirt that fits?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spy',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/spaɪ/',
+    ipa_us: '/spaɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who secretly watches or listens to someone",
+              "th": "จารชน"
+        }
+  ],
+    antonyms: ["detective","investigator"],
+    examples:   [
+        "The spy was caught and arrested.",
+        "The spy novel is very exciting to read.",
+        "The spy worked for a secret organization."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'age',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/eɪd͡ʒ/',
+    ipa_us: '/eɪd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the stage of life at a particular time",
+              "th": "อายุ"
+        }
+  ],
+    antonyms: ["youth","old"],
+    examples:   [
+        "What is your age?",
+        "The age of the building is very old.",
+        "The age of the tree is estimated to be hundreds of years."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'potato',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/pəˈteɪ.təʊ/',
+    ipa_us: '/pəˈteɪ.təʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a root vegetable",
+              "th": "มันฝรั่ง"
+        }
+  ],
+    antonyms: ["carrot","broccoli"],
+    examples:   [
+        "The potato is a staple food in many countries.",
+        "I love to eat mashed potato.",
+        "The potato salad is very delicious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'celebrate',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈsɛl.ə.bɹeɪt/',
+    ipa_us: '/ˈsɛl.ə.bɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to mark a special occasion with festivities",
+              "th": "เฉลิมฉลอง"
+        }
+  ],
+    antonyms: ["mourn","grieve"],
+    examples:   [
+        "We will celebrate our anniversary tonight.",
+        "The team will celebrate their victory with a party.",
+        "The country will celebrate its independence day."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discuss',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/dɪsˈkʊs/',
+    ipa_us: '/dɪsˈkʊs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to talk about something in order to reach a decision",
+              "th": "อภิปราย"
+        }
+  ],
+    antonyms: ["avoid","ignore"],
+    examples:   [
+        "We need to discuss the plan before we start.",
+        "The team will discuss the strategy for the game.",
+        "The committee will discuss the proposal and make a decision."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'show',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ʃəʊ/',
+    ipa_us: '/ʃəʊ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to display or exhibit something",
+              "th": "แสดง"
+        }
+  ],
+    antonyms: ["hide","conceal"],
+    examples:   [
+        "The museum will show the art exhibition.",
+        "The teacher will show the students how to do the experiment.",
+        "The company will show their new product at the trade fair."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'become',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/bəˈkʊm/',
+    ipa_us: '/bəˈkʊm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to change or transform into something",
+              "th": "กลายเป็น"
+        }
+  ],
+    antonyms: ["remain","stay"],
+    examples:   [
+        "She will become a doctor when she finishes her studies.",
+        "The company will become a leading brand in the industry.",
+        "The city will become a major tourist destination."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enjoy',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ənˈd͡ʒɔɪ/',
+    ipa_us: '/ənˈd͡ʒɔɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take pleasure in something",
+              "th": "สนุก"
+        }
+  ],
+    antonyms: ["hate","dislike"],
+    examples:   [
+        "I enjoy reading books in my free time.",
+        "The kids will enjoy playing in the park.",
+        "We will enjoy the concert tonight."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rain',
+    level: 'A1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ɹeɪn/',
+    ipa_us: '/ɹeɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "water that falls from the sky",
+              "th": "ฝน"
+        }
+  ],
+    antonyms: ["sun","shine"],
+    examples:   [
+        "The rain is very heavy today.",
+        "I love to walk in the rain.",
+        "The rain will help the plants grow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'come',
+    level: 'A1',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/kʌm/',
+    ipa_us: '/kʌm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move towards the speaker",
+              "th": "มา"
+        }
+  ],
+    antonyms: ["go","leave"],
+    examples:   [
+        "I will come to your house tonight.",
+        "The bus will come in 10 minutes.",
+        "The teacher will come to the classroom now."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dog',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/dɑɡ/',
+    ipa_us: '/dɑɡ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a domesticated carnivorous mammal",
+              "th": "สุนัข"
+        }
+  ],
+    antonyms: ["cat","bird"],
+    examples:   [
+        "The dog is very loyal to its owner.",
+        "I love to play with the dog.",
+        "The dog is a good companion for the elderly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pet',
+    level: 'A1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/pɛt/',
+    ipa_us: '/pɛt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a domesticated or tame animal",
+              "th": "สัตว์เลี้ยง"
+        }
+  ],
+    antonyms: ["wild","feral"],
+    examples:   [
+        "The pet store sells many kinds of animals.",
+        "I have a pet cat at home.",
+        "The pet dog is very friendly and playful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pick',
+    level: 'A1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/pɪk/',
+    ipa_us: '/pɪk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to choose or select something",
+              "th": "เลือก"
+        }
+  ],
+    antonyms: ["reject","refuse"],
+    examples:   [
+        "I will pick the red shirt.",
+        "The farmer will pick the apples from the tree.",
+        "The team will pick the best player for the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
