@@ -24189,6 +24189,363 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'dense',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɛns/',
+    ipa_us: '/dɛns/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a lot of things or people in a small space",
+              "th": "ที่มีสิ่งของหรือคนอยู่ในพื้นที่เล็ก"
+        }
+  ],
+    antonyms: ["sparse","thin"],
+    examples:   [
+        "The forest was dense and difficult to navigate.",
+        "The city has a dense population, which can make it hard to find a place to live.",
+        "The dense fog made it impossible to see more than a few feet in front of us."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pirate',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpaɪ̯(ə)ɹət/',
+    ipa_us: '/ˈpaɪ̯(ə)ɹət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who sails the seas and steals from other ships",
+              "th": "คนเดินเรือที่ล่องเรือไปตามทะเลและขโมยจากเรืออื่น"
+        },
+        {
+              "pos": "verb",
+              "en": "to steal or take something, especially in a way that is not legal",
+              "th": "ขโมยหรือเอาสิ่งใดสิ่งหนึ่ง โดยเฉพาะในทางที่ไม่ถูกต้องตามกฎหมาย"
+        }
+  ],
+    antonyms: ["sailor","lawman"],
+    examples:   [
+        "The pirate ship sailed the Caribbean, plundering and pillaging as it went.",
+        "The company accused the other firm of trying to pirate their technology.",
+        "The pirate flag flew high above the ship, striking fear into the hearts of all who saw it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eligible',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɛlɪdʒəb(ə)l/',
+    ipa_us: '/ˈɛlɪdʒəb(ə)l/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having the right or suitable qualifications to do something",
+              "th": "มีสิทธิ์หรือคุณสมบัติที่เหมาะสมในการทำสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["ineligible","unqualified"],
+    examples:   [
+        "You must be eligible to vote in order to participate in the election.",
+        "The company is looking for eligible candidates to fill the open position.",
+        "Only eligible students will be allowed to take the advanced course."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'essentially',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɪˈsɛnʃəli/',
+    ipa_us: '/ɪˈsɛnʃəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "used to show that something is the most important or basic part of something",
+              "th": "ใช้เพื่อแสดงว่าสิ่งใดสิ่งหนึ่งเป็นส่วนสำคัญหรือพื้นฐานของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["basically","fundamentally"],
+    examples:   [
+        "The new policy is essentially the same as the old one, with a few minor changes.",
+        "The company is essentially a family business, with several family members involved.",
+        "The problem is essentially one of communication, and can be solved by talking things through."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'treaty',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɹiːti/',
+    ipa_us: '/ˈtɹiːti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal agreement between two or more countries or organizations",
+              "th": "ข้อตกลงรูปแบบอย่างเป็นทางการระหว่างสองหรือหลายประเทศหรือองค์กร"
+        }
+  ],
+    antonyms: ["war","conflict"],
+    examples:   [
+        "The treaty was signed by representatives of both countries, marking the beginning of a new era of peace.",
+        "The company has a treaty with a supplier to provide raw materials for the next five years.",
+        "The treaty has been in place for decades, but it is still an important part of international relations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wound',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/wuːnd/',
+    ipa_us: '/wuːnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an injury, especially one that is caused by a cut or a blow",
+              "th": "การบาดเจ็บ โดยเฉพาะอย่างยิ่งการบาดเจ็บที่เกิดจากการตัดหรือการถูกตี"
+        },
+        {
+              "pos": "verb",
+              "en": "to hurt or injure someone or something",
+              "th": "ทำให้ใครบางคนหรือบางสิ่งบาดเจ็บหรือได้รับบาดแผล"
+        }
+  ],
+    antonyms: ["heal","cure"],
+    examples:   [
+        "The doctor cleaned and bandaged the wound to prevent infection.",
+        "The hikers had to navigate through the dense forest, trying not to wound themselves on the sharp branches.",
+        "The wound on her knee was still sore, but it was starting to heal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'intersection',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɪntəɹˌsɛkʃən/',
+    ipa_us: '/ˈɪntəɹˌsɛkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place where two or more roads or paths meet or cross",
+              "th": "จุดหรือพื้นที่ที่ถนนหรือเส้นทางสองหรือหลายเส้นตัดกันหรือเชื่อมต่อ"
+        }
+  ],
+    antonyms: ["dead end","cul-de-sac"],
+    examples:   [
+        "The intersection of the two highways is always congested during rush hour.",
+        "The city is planning to improve the intersection by adding more traffic lights and pedestrian crossings.",
+        "The accident occurred at the intersection of Main and Elm streets."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'outfit',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈaʊtfɪt/',
+    ipa_us: '/ˈaʊtfɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a set of clothes, especially for a particular occasion or activity",
+              "th": "ชุดเสื้อผ้า โดยเฉพาะสำหรับงานหรือกิจกรรมเฉพาะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to provide someone or something with the necessary equipment or supplies",
+              "th": "จัดหาสิ่งจำเป็นให้กับคนหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["undress","remove"],
+    examples:   [
+        "She wore a beautiful outfit to the wedding, complete with a fancy hat and high heels.",
+        "The company will outfit the new employees with the necessary software and equipment.",
+        "The team's outfit for the game was a bold and eye-catching design."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'confession',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kənˈfɛʃən/',
+    ipa_us: '/kənˈfɛʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of admitting that you have done something wrong or bad",
+              "th": "การยอมรับว่าคุณทำอะไรที่ไม่ถูกต้องหรือไม่ดี"
+        }
+  ],
+    antonyms: ["denial","refusal"],
+    examples:   [
+        "The priest listened to the confession of the young man, offering words of comfort and guidance.",
+        "The police obtained a confession from the suspect after hours of questioning.",
+        "Her confession of love was met with surprise and delight by her partner."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'heap',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/heːp/',
+    ipa_us: '/heːp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a pile of things, especially one that is untidy or disorganized",
+              "th": "กองของสิ่งของ โดยเฉพาะอย่างยิ่งหากเป็นกองที่ไม่เรียบร้อยหรือไม่มีการจัดระเบียบ"
+        },
+        {
+              "pos": "verb",
+              "en": "to put or throw things into a pile, often in a careless or untidy way",
+              "th": "วางหรือโยนสิ่งของเข้ากอง โดยมักจะทำในลักษณะที่ไม่สนใจหรือไม่เรียบร้อย"
+        }
+  ],
+    antonyms: ["order","arrange"],
+    examples:   [
+        "The room was a heap of clutter, with clothes and books scattered everywhere.",
+        "The farmer heaped the hay into a large pile, ready for the winter months.",
+        "The kids heaped their toys into a big box, making it hard to find anything."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mathematical',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌmæθəˈmætɪkəl/',
+    ipa_us: '/ˌmæθəˈmætɪkəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or using math, especially in a way that is precise or exact",
+              "th": "เกี่ยวข้องกับหรือใช้คณิตศาสตร์ โดยเฉพาะอย่างยิ่งในลักษณะที่แม่นยำหรือแน่นอน"
+        }
+  ],
+    antonyms: ["random","approximate"],
+    examples:   [
+        "The mathematical model predicted the outcome of the experiment with great accuracy.",
+        "The student struggled with the mathematical concepts, finding them difficult to understand.",
+        "The mathematical proof was complex and required a deep understanding of the subject."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cemetery',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsem.ɘˌtiɘɹ.i/',
+    ipa_us: '/ˈsem.ɘˌtiɘɹ.i/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place where dead people are buried, often with gravestones or other markers",
+              "th": "สถานที่ที่คนตายถูกฝัง โดยมีหลักศิลาหรือสัญลักษณ์อื่น ๆ"
+        }
+  ],
+    antonyms: ["birthplace","nursery"],
+    examples:   [
+        "The cemetery was a peaceful and beautiful place, with well-manicured lawns and gardens.",
+        "The family visited the cemetery to pay their respects to their loved ones who had passed away.",
+        "The old cemetery was a historic site, with many famous people buried there."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'privilege',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɪv(ɪ)lɪdʒ/',
+    ipa_us: '/ˈpɹɪv(ɪ)lɪdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a special right or advantage that is given to someone or something",
+              "th": "สิทธิพิเศษหรือความได้เปรียบที่ให้กับคนหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["disadvantage","penalty"],
+    examples:   [
+        "The privilege of attending the exclusive event was reserved for VIP guests only.",
+        "The company offered its employees the privilege of working from home one day a week.",
+        "The privilege of being a citizen of this country comes with many responsibilities."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disapproval',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '[dɪsəˈpɹuːvəɫ]',
+    ipa_us: '[dɪsəˈpɹuːvəɫ]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the feeling or expression of not approving or agreeing with something",
+              "th": "ความรู้สึกหรือการแสดงออกของการไม่เห็นด้วยหรือไม่เห็นคุณค่าของสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["approval","agreement"],
+    examples:   [
+        "The teacher's disapproval was clear, as she frowned at the student's behavior.",
+        "The company's disapproval of the proposal was based on its high cost and low potential for return.",
+        "The government's disapproval of the new policy was evident in their public statements."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'profitable',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɹɒfɪtəbl̩/',
+    ipa_us: '/ˈpɹɒfɪtəbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "making or likely to make a profit, especially in business or finance",
+              "th": "ทำกำไรหรือมีแนวโน้มที่จะทำกำไร โดยเฉพาะอย่างยิ่งในธุรกิจหรือการเงิน"
+        }
+  ],
+    antonyms: ["unprofitable","loss-making"],
+    examples:   [
+        "The company's new product line has been very profitable, with sales exceeding expectations.",
+        "The investor was looking for a profitable opportunity to put his money into.",
+        "The small business has been profitable for several years, allowing the owner to expand and hire more staff."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'alter',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɑl.tɚ/',
+    ipa_us: '/ˈɑl.tɚ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to change or modify something, often in a way that is noticeable or significant",
+              "th": "เปลี่ยนแปลงหรือแก้ไขบางสิ่ง โดยมักจะเปลี่ยนแปลงในลักษณะที่เห็นได้ชัดหรือมีนัยสำคัญ"
+        }
+  ],
+    antonyms: ["maintain","preserve"],
+    examples:   [
+        "The designer will alter the dress to fit your measurements perfectly.",
+        "The company had to alter its business strategy in response to the changing market conditions.",
+        "The artist's decision to alter the color palette of the painting completely changed its mood and atmosphere."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
