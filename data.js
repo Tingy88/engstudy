@@ -24846,6 +24846,467 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'front',
+    level: 'A2',
+    partOfSpeech: ["noun","adverb"],
+    ipa_uk: '/fɹʌnt/',
+    ipa_us: '/fɹʌnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the side or part of something that is seen first",
+              "th": "ด้านหน้า"
+        },
+        {
+              "pos": "adverb",
+              "en": "at or towards the front",
+              "th": "ที่ด้านหน้า"
+        }
+  ],
+    antonyms: ["back","rear"],
+    examples:   [
+        "The front of the house is very beautiful.",
+        "She stood at the front of the classroom.",
+        "The front door was locked."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'official',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈfɪʃəl/',
+    ipa_us: '/əˈfɪʃəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to an authority or organization",
+              "th": "เป็นทางการ"
+        }
+  ],
+    antonyms: ["unofficial","informal"],
+    examples:   [
+        "The official language of the country is English.",
+        "She is an official representative of the company.",
+        "The official opening of the museum was last week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bear',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/bɛə(ɹ)/',
+    ipa_us: '/bɛə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to carry or hold something",
+              "th": "แบกหรือถือ"
+        },
+        {
+              "pos": "noun",
+              "en": "a large, strong animal",
+              "th": "หมี"
+        }
+  ],
+    antonyms: ["give","release"],
+    examples:   [
+        "I have to bear the weight of my backpack.",
+        "The bear climbed up the tree.",
+        "She cannot bear the thought of losing her job."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'roll',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɹəʊl/',
+    ipa_us: '/ɹəʊl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move or cause something to move in a rotating or curved motion",
+              "th": "กลิ้งหรือหมุน"
+        },
+        {
+              "pos": "noun",
+              "en": "a rotating or curved motion",
+              "th": "การกลิ้งหรือหมุน"
+        }
+  ],
+    antonyms: ["stay","stop"],
+    examples:   [
+        "The ball began to roll down the hill.",
+        "She likes to roll her sleeves up when it's hot.",
+        "The roll of the dice determined our fate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'energetic',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌɛnəˈdʒɛtɪk/',
+    ipa_us: '/ˌɛnəˈdʒɛtɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a lot of energy and enthusiasm",
+              "th": "มีพลังและความกระตือรือร้น"
+        }
+  ],
+    antonyms: ["lazy","tired"],
+    examples:   [
+        "She is an energetic and motivated person.",
+        "The energetic music made us want to dance.",
+        "He has an energetic personality that is infectious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'move',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/muːv/',
+    ipa_us: '/muːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to change the position of something or someone",
+              "th": "ย้ายหรือเคลื่อน"
+        }
+  ],
+    antonyms: ["stay","remain"],
+    examples:   [
+        "I'm going to move to a new apartment next month.",
+        "She moved her chair to get more comfortable.",
+        "The company will move its headquarters to a new city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thirsty',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈθɜː(ɹ)st.i/',
+    ipa_us: '/ˈθɜː(ɹ)st.i/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling a need to drink something",
+              "th": "กระหายน้ำ"
+        }
+  ],
+    antonyms: ["full","satisfied"],
+    examples:   [
+        "I'm thirsty after playing sports all day.",
+        "The thirsty plant needs to be watered.",
+        "She felt thirsty after eating the spicy food."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'downstairs',
+    level: 'A2',
+    partOfSpeech: ["adverb","adjective"],
+    ipa_uk: '/daʊnˈstɛəz/',
+    ipa_us: '/daʊnˈstɛəz/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "on or to a lower floor of a building",
+              "th": "ชั้นล่าง"
+        },
+        {
+              "pos": "adjective",
+              "en": "located on a lower floor of a building",
+              "th": "ที่ชั้นล่าง"
+        }
+  ],
+    antonyms: ["upstairs","above"],
+    examples:   [
+        "My room is downstairs.",
+        "She went downstairs to get a snack.",
+        "The downstairs bathroom is very small."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'coast',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kəʊst/',
+    ipa_us: '/kəʊst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the land along the edge of the sea",
+              "th": "ชายฝั่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to move or travel without using much energy",
+              "th": "เคลื่อนที่หรือเดินทางโดยไม่ต้องใช้พลังงานมาก"
+        }
+  ],
+    antonyms: ["inland","mountain"],
+    examples:   [
+        "The coast of the country is very beautiful.",
+        "She likes to coast on her bike when she's tired.",
+        "The coast road is very scenic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nowadays',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈnaʊ.ə.deɪz/',
+    ipa_us: '/ˈnaʊ.ə.deɪz/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at the present time",
+              "th": "ในปัจจุบัน"
+        }
+  ],
+    antonyms: ["formerly","previously"],
+    examples:   [
+        "Nowadays, many people use smartphones.",
+        "She doesn't like the music nowadays.",
+        "Nowadays, it's common to work from home."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'click',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/klɪk/',
+    ipa_us: '/klɪk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make a short, sharp sound, typically by pressing a button",
+              "th": "คลิก"
+        },
+        {
+              "pos": "noun",
+              "en": "a short, sharp sound, typically made by pressing a button",
+              "th": "เสียงคลิก"
+        }
+  ],
+    antonyms: ["press","hold"],
+    examples:   [
+        "Click the button to submit the form.",
+        "I heard a click and then the door opened.",
+        "She likes to click on the links to learn more."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'expression',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪkˈspɹɛʃ.ən/',
+    ipa_us: '/ɪkˈspɹɛʃ.ən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a phrase or sentence that expresses a particular idea or feeling",
+              "th": "นิพจน์หรือคำพูด"
+        }
+  ],
+    antonyms: ["concealment","hiding"],
+    examples:   [
+        "Her expression changed when she heard the news.",
+        "The expression on his face was very sad.",
+        "The artist's use of color was a powerful expression of emotion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shout',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ʃaʊt/',
+    ipa_us: '/ʃaʊt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to speak very loudly, often because you are excited or angry",
+              "th": "ร้องหรือตะโกน"
+        },
+        {
+              "pos": "noun",
+              "en": "a loud cry, typically to express excitement or anger",
+              "th": "เสียงร้องหรือตะโกน"
+        }
+  ],
+    antonyms: ["whisper","murmur"],
+    examples:   [
+        "She shouted with excitement when she won the prize.",
+        "The shout of the crowd was deafening.",
+        "He shouted at the top of his lungs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lifestyle',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlaɪfˌstaɪl/',
+    ipa_us: '/ˈlaɪfˌstaɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the way a person lives, including their habits, customs, and beliefs",
+              "th": "วิถีชีวิต"
+        }
+  ],
+    antonyms: ["death","demise"],
+    examples:   [
+        "A healthy lifestyle is very important.",
+        "She changed her lifestyle after moving to the city.",
+        "His lifestyle is very different from mine."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enough',
+    level: 'A2',
+    partOfSpeech: ["adjective","adverb"],
+    ipa_uk: '/iˈnʌf/',
+    ipa_us: '/iˈnʌf/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "as much or as many as needed or wanted",
+              "th": "เพียงพอ"
+        },
+        {
+              "pos": "adverb",
+              "en": "to the degree or extent needed or wanted",
+              "th": "เพียงพอ"
+        }
+  ],
+    antonyms: ["insufficient","inadequate"],
+    examples:   [
+        "I have enough money to buy the ticket.",
+        "She is smart enough to solve the problem.",
+        "He worked hard enough to get the promotion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'beginner',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/bɪˈɡɪnə/',
+    ipa_us: '/bɪˈɡɪnə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is new to an activity or subject",
+              "th": "ผู้เริ่มต้น"
+        }
+  ],
+    antonyms: ["expert","professional"],
+    examples:   [
+        "The beginner's class is very popular.",
+        "She is a beginner at playing the guitar.",
+        "He is a beginner in the field of marketing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pence',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pəns/',
+    ipa_us: '/pəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a unit of money in the United Kingdom, equal to one hundredth of a pound",
+              "th": "เพนนี"
+        }
+  ],
+    antonyms: ["pounds","dollars"],
+    examples:   [
+        "The price is 50 pence.",
+        "She paid 20 pence for the candy.",
+        "He has 100 pence in his pocket."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'danger',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdeɪn.dʒə(ɹ)/',
+    ipa_us: '/ˈdeɪn.dʒə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a situation or thing that may cause harm or injury",
+              "th": "อันตราย"
+        }
+  ],
+    antonyms: ["safety","security"],
+    examples:   [
+        "The danger of the situation was very real.",
+        "She is in danger of losing her job.",
+        "The warning sign indicated danger ahead."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cassette',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kæˈsɛt/',
+    ipa_us: '/kæˈsɛt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a plastic case containing a length of magnetic tape, used for recording or playing back music or speech",
+              "th": "เทปคาสเซ็ต"
+        }
+  ],
+    antonyms: ["cd","digital"],
+    examples:   [
+        "The cassette player is an old technology.",
+        "She still has a collection of cassettes.",
+        "He listened to music on a cassette tape."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'send',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/sɛnd/',
+    ipa_us: '/sɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cause something to go or be taken to a person or place",
+              "th": "ส่ง"
+        }
+  ],
+    antonyms: ["receive","get"],
+    examples:   [
+        "I will send you the package tomorrow.",
+        "She sent a letter to her friend.",
+        "He sent a message to the team."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
