@@ -24546,6 +24546,306 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'pinnacle',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɪnəkəl/',
+    ipa_us: '/ˈpɪnəkəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the most successful or highest point",
+              "th": "จุดสูงสุด"
+        }
+  ],
+    antonyms: ["base","bottom"],
+    examples:   [
+        "The company has reached the pinnacle of success in the industry.",
+        "She felt like she was on top of the world, at the pinnacle of her career.",
+        "The hike was challenging, but the view from the pinnacle was breathtaking."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'detest',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/dɪˈtɛst/',
+    ipa_us: '/dɪˈtɛst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to feel intense dislike for something or someone",
+              "th": "เกลียดชัง"
+        }
+  ],
+    antonyms: ["love","adore"],
+    examples:   [
+        "I detest it when people litter in public places.",
+        "She detests the idea of eating insects as a source of protein.",
+        "He detests the smell of tobacco and always avoids smokers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'seedling',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsiːdlɪŋ/',
+    ipa_us: '/ˈsiːdlɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a young plant, especially one that has recently grown from a seed",
+              "th": "ต้นกล้า"
+        }
+  ],
+    antonyms: ["mature plant","full-grown tree"],
+    examples:   [
+        "The gardener carefully transplanted the seedling into a larger pot.",
+        "The seedling needed more water and sunlight to grow.",
+        "The farmer nurtured the seedling until it became a strong, healthy plant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'minutiae',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/maɪˈn(j)uːʃ(ɪ)ˌaɪ/',
+    ipa_us: '/maɪˈn(j)uːʃ(ɪ)ˌaɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "small, unimportant details",
+              "th": "รายละเอียดเล็กๆ น้อยๆ"
+        }
+  ],
+    antonyms: ["major issues","significant details"],
+    examples:   [
+        "The contract was filled with minutiae that needed to be carefully reviewed.",
+        "She was bored by the minutiae of the meeting and tuned out.",
+        "The artist focused on the minutiae of the painting to create a realistic effect."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hostile',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈhɒstaɪl/',
+    ipa_us: '/ˈhɒstaɪl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "showing opposition or resistance",
+              "th": "เป็นปรปักษ์"
+        }
+  ],
+    antonyms: ["friendly","welcoming"],
+    examples:   [
+        "The hostile crowd booed the opposing team.",
+        "The company faced hostile takeover bids from rival firms.",
+        "The atmosphere in the room was hostile, making it difficult to have a productive conversation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'subtly',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈsʌ.tl̩.li/',
+    ipa_us: '/ˈsʌ.tl̩.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a subtle manner",
+              "th": "อย่างอ่อนไหว"
+        }
+  ],
+    antonyms: ["obviously","blatantly"],
+    examples:   [
+        "The artist used subtle colors to create a nuanced effect.",
+        "The writer subtly hinted at the character's true intentions.",
+        "The teacher subtly guided the students towards the correct answer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'heighten',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈhaɪtən/',
+    ipa_us: '/ˈhaɪtən/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to increase or make something more intense",
+              "th": "เพิ่มหรือทำให้บางสิ่งรุนแรงขึ้น"
+        }
+  ],
+    antonyms: ["reduce","lessen"],
+    examples:   [
+        "The music heightened the emotional impact of the scene.",
+        "The news heightened the sense of urgency among the team.",
+        "The exercise heightened the athlete's endurance and stamina."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'agreeable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈɡɹiːəbl/',
+    ipa_us: '/əˈɡɹiːəbl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "pleasant and enjoyable",
+              "th": "น่าพึงพอใจ"
+        }
+  ],
+    antonyms: ["unpleasant","disagreeable"],
+    examples:   [
+        "The weather was agreeable, perfect for a picnic.",
+        "The hotel room was agreeable, with a comfortable bed and clean bathroom.",
+        "The company's policies were agreeable to the employees, who felt valued and supported."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'evoke',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɪˈvəʊk/',
+    ipa_us: '/ɪˈvəʊk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to produce a strong feeling or memory",
+              "th": "ทำให้เกิดความรู้สึกหรือความทรงจำ"
+        }
+  ],
+    antonyms: ["suppress","repress"],
+    examples:   [
+        "The smell of freshly baked cookies evoked memories of childhood.",
+        "The painting evoked a sense of calm and serenity.",
+        "The music evoked a strong emotional response from the audience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'naive',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/naɪˈiːv/',
+    ipa_us: '/naɪˈiːv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lacking experience or worldly wisdom",
+              "th": "ไร้ประสบการณ์หรือภูมิปัญญาโลก"
+        }
+  ],
+    antonyms: ["experienced","sophisticated"],
+    examples:   [
+        "The naive tourist got lost in the city.",
+        "The naive investor lost money in the stock market.",
+        "The naive child believed in fairy tales and magic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vicious',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvɪʃəs/',
+    ipa_us: '/ˈvɪʃəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "cruel or violent",
+              "th": "โหดร้ายหรือรุนแรง"
+        }
+  ],
+    antonyms: ["gentle","kind"],
+    examples:   [
+        "The vicious dog attacked the mailman.",
+        "The vicious cycle of poverty was difficult to break.",
+        "The vicious storm caused widespread destruction and loss of life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flourish',
+    level: 'C1',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/ˈflʌ.ɹɪʃ/',
+    ipa_us: '/ˈflʌ.ɹɪʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to grow or develop well or strongly",
+              "th": "เติบโตหรือพัฒนาอย่างดีหรือเข้มแข็ง"
+        }
+  ],
+    antonyms: ["decline","wither"],
+    examples:   [
+        "The business flourished under the new management.",
+        "The plant flourished in the warm and sunny climate.",
+        "The artist's career flourished after the successful exhibition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'antiquated',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈæntɪˌkweɪtɪd/',
+    ipa_us: '/ˈæntɪˌkweɪtɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "old-fashioned or outdated",
+              "th": "เก่าแก่หรือล้าสมัย"
+        }
+  ],
+    antonyms: ["modern","up-to-date"],
+    examples:   [
+        "The antiquated computer system was replaced with a new one.",
+        "The antiquated laws were revised to reflect modern society.",
+        "The antiquated furniture was restored to its original beauty."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'contest',
+    level: 'C1',
+    partOfSpeech: ["noun","verb [T]"],
+    ipa_uk: '/ˈkɒn.tɛst/',
+    ipa_us: '/ˈkɒn.tɛst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a competition or dispute",
+              "th": "การแข่งขันหรือการโต้แย้ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to dispute or challenge something",
+              "th": "โต้แย้งหรือท้าทาย"
+        }
+  ],
+    antonyms: ["agreement","acceptance"],
+    examples:   [
+        "The company will contest the lawsuit in court.",
+        "The athlete will contest the gold medal in the final round.",
+        "The student contested the grade, believing it was unfair."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
