@@ -25307,6 +25307,504 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'compound',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkɒmpaʊnd/',
+    ipa_us: '/ˈkɒmpaʊnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a substance formed from two or more different substances",
+              "th": "สสารที่เกิดจากสสารสองหรือมากกว่าสองชนิด"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something worse",
+              "th": "ทำให้สถานการณ์เลวร้ายลง"
+        }
+  ],
+    antonyms: ["simple","improve"],
+    examples:   [
+        "The company's financial problems were compounded by the economic downturn.",
+        "The doctor warned that the compound fracture would take several months to heal.",
+        "The new policy has compounded the existing social issues."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sheriff',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈʃɛɹəf/',
+    ipa_us: '/ˈʃɛɹəf/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a senior police officer in a county or city",
+              "th": "เจ้าหน้าที่ตำรวจระดับสูงในเขตหรือเมือง"
+        }
+  ],
+    antonyms: ["criminal","prisoner"],
+    examples:   [
+        "The sheriff and his deputies were responsible for maintaining law and order in the town.",
+        "The new sheriff was determined to reduce crime in the area.",
+        "The sheriff's department was called to investigate the robbery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'biography',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/baɪˈɒɡɹəfi/',
+    ipa_us: '/baɪˈɒɡɹəfi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the story of a person's life written by someone else",
+              "th": "เรื่องราวชีวิตของบุคคลที่เขียนโดยคนอื่น"
+        }
+  ],
+    antonyms: ["autobiography","fiction"],
+    examples:   [
+        "The biography of the famous scientist was a bestseller.",
+        "She wrote a biography of her mother, which was published last year.",
+        "The biography of the president was highly acclaimed by critics."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'annoyed',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈnɔɪd/',
+    ipa_us: '/əˈnɔɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing irritation or frustration",
+              "th": "รู้สึกหรือแสดงออกถึงความหงุดหงิดหรือความผิดหวัง"
+        }
+  ],
+    antonyms: ["pleased","delighted"],
+    examples:   [
+        "I was annoyed by the noise from the construction site.",
+        "She was annoyed with her brother for borrowing her car without permission.",
+        "He was annoyed by the slow service at the restaurant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'satellite',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsætəlaɪt/',
+    ipa_us: '/ˈsætəlaɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that orbits around a planet or moon",
+              "th": "อุปกรณ์ที่โคจรรอบดาวเคราะห์หรือดวงจันทร์"
+        }
+  ],
+    antonyms: ["ground-based","terrestrial"],
+    examples:   [
+        "The satellite was launched into space to study the weather patterns.",
+        "The company uses a satellite to provide internet access to remote areas.",
+        "The satellite took high-resolution images of the Earth's surface."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'illuminate',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪlˈl(j)uməneɪt/',
+    ipa_us: '/ɪlˈl(j)uməneɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something brighter or more understandable",
+              "th": "ทำให้สิ่งใดสิ่งหนึ่งมีความสว่างหรือเข้าใจได้ดีขึ้น"
+        }
+  ],
+    antonyms: ["darken","obscure"],
+    examples:   [
+        "The lights illuminated the dark room.",
+        "The professor's explanation helped to illuminate the complex concept.",
+        "The fireworks illuminated the night sky."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sticker',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈstɪkə(r)/',
+    ipa_us: '/ˈstɪkə(r)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small piece of paper or plastic with a sticky side",
+              "th": "กระดาษหรือพลาสติกขนาดเล็กที่มีด้านที่ติด"
+        }
+  ],
+    antonyms: ["label","sign"],
+    examples:   [
+        "The child put a sticker on her shirt.",
+        "The company uses stickers to label their products.",
+        "The sticker on the fruit was hard to remove."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shallow',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈʃaləʊ/',
+    ipa_us: '/ˈʃaləʊ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not deep or profound",
+              "th": "ไม่ลึกหรือไม่ลึกซึ้ง"
+        }
+  ],
+    antonyms: ["deep","profound"],
+    examples:   [
+        "The water in the pool was shallow, so I could stand up.",
+        "The movie had a shallow plot and lacked character development.",
+        "The shallow soil made it difficult to grow plants."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'personally',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈpɜːsnəli/',
+    ipa_us: '/ˈpɜːsnəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a personal way, or as a personal opinion",
+              "th": "ในทางส่วนตัวหรือเป็นความคิดเห็นส่วนตัว"
+        }
+  ],
+    antonyms: ["objectively","impersonally"],
+    examples:   [
+        "I personally think that the new policy is a good idea.",
+        "She personally oversaw the development of the new product.",
+        "He personally apologized to the customer for the mistake."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rescue',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈɹɛs.kjuː/',
+    ipa_us: '/ˈɹɛs.kjuː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of saving someone or something from a dangerous or difficult situation",
+              "th": "การช่วยชีวิตหรือช่วยให้รอดพ้นจากสถานการณ์ที่อันตรายหรือยากลำบาก"
+        },
+        {
+              "pos": "verb",
+              "en": "to save someone or something from a dangerous or difficult situation",
+              "th": "ช่วยชีวิตหรือช่วยให้รอดพ้นจากสถานการณ์ที่อันตรายหรือยากลำบาก"
+        }
+  ],
+    antonyms: ["abandon","neglect"],
+    examples:   [
+        "The rescue team saved the hikers from the mountain.",
+        "The rescue mission was successful, and all the hostages were freed.",
+        "The rescue dog helped to locate the missing child."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'defend',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈfɛnd/',
+    ipa_us: '/dɪˈfɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to protect someone or something from harm or attack",
+              "th": "ปกป้องหรือช่วยเหลือบุคคลหรือสิ่งใดสิ่งหนึ่งจากอันตรายหรือการโจมตี"
+        }
+  ],
+    antonyms: ["attack","surrender"],
+    examples:   [
+        "The lawyer defended her client in court.",
+        "The team defended their title in the championship game.",
+        "The country's military defended its borders against the invading army."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'equipment',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪˈkwɪpmənt/',
+    ipa_us: '/ɪˈkwɪpmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the things that are needed for a particular activity or job",
+              "th": "สิ่งที่จำเป็นต่อการทำกิจกรรมหรืองานใดงานหนึ่ง"
+        }
+  ],
+    antonyms: ["lack","shortage"],
+    examples:   [
+        "The company invested in new equipment to improve productivity.",
+        "The athlete's equipment was carefully selected to enhance performance.",
+        "The hospital's medical equipment was state-of-the-art."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'suspect',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈsʌs.pɛkt/',
+    ipa_us: '/ˈsʌs.pɛkt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is thought to have committed a crime",
+              "th": "บุคคลที่คิดว่าเป็นผู้กระทำผิด"
+        },
+        {
+              "pos": "verb",
+              "en": "to think that someone has done something wrong",
+              "th": "คิดว่าบุคคลใดบุคคลหนึ่งทำผิด"
+        }
+  ],
+    antonyms: ["witness","victim"],
+    examples:   [
+        "The police suspect that the thief was a former employee.",
+        "I suspect that my neighbor is hiding something.",
+        "The detective suspected that the suspect was not telling the truth."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'abstract',
+    level: 'B1',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈæbˌstɹækt/',
+    ipa_us: '/ˈæbˌstɹækt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not based on real or practical things",
+              "th": "ไม่เกี่ยวกับสิ่งที่แท้จริงหรือสิ่งที่ใช้ได้จริง"
+        },
+        {
+              "pos": "noun",
+              "en": "a summary of a text or a piece of art that does not show the details",
+              "th": "สรุปข้อความหรืองานศิลปะที่ไม่แสดงรายละเอียด"
+        }
+  ],
+    antonyms: ["concrete","tangible"],
+    examples:   [
+        "The abstract concept of time is difficult to understand.",
+        "The artist's abstract paintings were highly praised by critics.",
+        "The abstract of the research paper was published in the journal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'objective',
+    level: 'B1',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ɒbˈd͡ʒɛk.tɪv/',
+    ipa_us: '/ɒbˈd͡ʒɛk.tɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not influenced by personal feelings or opinions",
+              "th": "ไม่ได้รับอิทธิพลจากความรู้สึกหรือความคิดเห็นส่วนตัว"
+        },
+        {
+              "pos": "noun",
+              "en": "a goal or aim that someone is trying to achieve",
+              "th": "เป้าหมายหรือจุดมุ่งหมายที่บุคคลใดบุคคลหนึ่งพยายามที่จะบรรลุ"
+        }
+  ],
+    antonyms: ["subjective","biased"],
+    examples:   [
+        "The journalist tried to remain objective in her reporting.",
+        "The company's objective is to increase profits by the end of the year.",
+        "The teacher tried to be objective when grading the students' work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'until',
+    level: 'B1',
+    partOfSpeech: ["preposition","conjunction"],
+    ipa_uk: '/ənˈtɪl/',
+    ipa_us: '/ənˈtɪl/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "up to a particular time or point",
+              "th": "จนถึงเวลาหรือจุดใดจุดหนึ่ง"
+        },
+        {
+              "pos": "conjunction",
+              "en": "used to indicate a continuation of an action or situation",
+              "th": "ใช้เพื่อแสดงการดำเนินการต่อของการกระทำหรือสถานการณ์"
+        }
+  ],
+    antonyms: ["since","from"],
+    examples:   [
+        "I will work until 5 o'clock.",
+        "The store is open until midnight.",
+        "She will study until she finishes her degree."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'illness',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɪl.nəs/',
+    ipa_us: '/ˈɪl.nəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a disease or condition that makes someone sick",
+              "th": "โรคหรือสภาพที่ทำให้บุคคลใดบุคคลหนึ่งป่วย"
+        }
+  ],
+    antonyms: ["health","wellness"],
+    examples:   [
+        "The patient's illness was diagnosed by the doctor.",
+        "The company provides health insurance to cover employees' illness.",
+        "The illness spread quickly through the school."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'freely',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈfɹili/',
+    ipa_us: '/ˈfɹili/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "without restriction or limitation",
+              "th": "โดยไม่มีข้อจำกัดหรือการจำกัด"
+        }
+  ],
+    antonyms: ["restricted","limited"],
+    examples:   [
+        "The birds flew freely in the sky.",
+        "She spoke freely about her opinions.",
+        "The company allows employees to work freely from home."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'desperate',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdɛsp(ə)ɹət/',
+    ipa_us: '/ˈdɛsp(ə)ɹət/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing that someone is in a very difficult or hopeless situation",
+              "th": "รู้สึกหรือแสดงออกถึงความยากลำบากหรือความหมดหวัง"
+        }
+  ],
+    antonyms: ["hopeful","optimistic"],
+    examples:   [
+        "The desperate mother tried to find a cure for her child's illness.",
+        "The company was desperate to stay in business.",
+        "The desperate situation called for desperate measures."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'productive',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹəˈdʌktɪv/',
+    ipa_us: '/pɹəˈdʌktɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "producing or achieving a lot",
+              "th": "ผลิตหรือบรรลุเป้าหมายได้มาก"
+        }
+  ],
+    antonyms: ["unproductive","inefficient"],
+    examples:   [
+        "The productive team finished the project ahead of schedule.",
+        "She had a productive day at work, completing all her tasks.",
+        "The company invested in new equipment to increase productivity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'roadside',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈɹəʊdsaɪd/',
+    ipa_us: '/ˈɹəʊdsaɪd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the area at the side of a road",
+              "th": "พื้นที่ที่ด้านข้างของถนน"
+        },
+        {
+              "pos": "adjective",
+              "en": "located or happening at the side of a road",
+              "th": "ตั้งอยู่หรือเกิดขึ้นที่ด้านข้างของถนน"
+        }
+  ],
+    antonyms: ["city","urban"],
+    examples:   [
+        "The roadside diner was a popular stop for travelers.",
+        "The roadside assistance service helped stranded drivers.",
+        "The roadside market sold fresh produce to passing motorists."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dozen',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdʌzən/',
+    ipa_us: '/ˈdʌzən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of 12 things",
+              "th": "กลุ่มของสิ่งใดสิ่งหนึ่ง 12 ชิ้น"
+        }
+  ],
+    antonyms: ["single","individual"],
+    examples:   [
+        "I bought a dozen eggs at the store.",
+        "The company received a dozen applications for the job.",
+        "The baker sold a dozen cakes at the market."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
