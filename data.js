@@ -25805,6 +25805,420 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'tolerate',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈtɒl.ə.ɹeɪt/',
+    ipa_us: '/ˈtɒl.ə.ɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to accept or allow something that you do not like or agree with",
+              "th": "ทนหรือยอมรับบางสิ่งที่คุณไม่ชอบหรือไม่เห็นด้วย"
+        }
+  ],
+    antonyms: ["intolerate","refuse"],
+    examples:   [
+        "She can't tolerate the noise from the construction site.",
+        "The new employee had to tolerate a lot of criticism from his boss.",
+        "The patient was unable to tolerate the side effects of the medication."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'leak',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [I/T]"],
+    ipa_uk: '/liːk/',
+    ipa_us: '/liːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small hole or crack in something, such as a pipe or a container, that allows liquid or gas to escape",
+              "th": "รูหรือช่องว่างเล็กๆ ในสิ่งของ เช่น ท่อหรือภาชนะ ที่ทำให้ของเหลวหรือก๊าซรั่วออก"
+        },
+        {
+              "pos": "verb",
+              "en": "to allow liquid or gas to escape through a small hole or crack",
+              "th": "ทำให้ของเหลวหรือก๊าซรั่วออกผ่านรูหรือช่องว่างเล็กๆ"
+        }
+  ],
+    antonyms: ["contain","seal"],
+    examples:   [
+        "The leak in the pipe caused water to flood the entire room.",
+        "The company tried to cover up the leak of confidential information.",
+        "The tire started to leak air after driving over a sharp rock."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'await',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əˈwɛɪt/',
+    ipa_us: '/əˈwɛɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to wait for something to happen or for someone to arrive",
+              "th": "รอจนกว่าสิ่งใดสิ่งหนึ่งจะเกิดขึ้นหรือรอจนกว่าใครบางคนจะมาถึง"
+        }
+  ],
+    antonyms: ["ignore","dismiss"],
+    examples:   [
+        "We await your response to our proposal with great interest.",
+        "The crowd awaited the arrival of the famous singer with excitement.",
+        "The family awaited news of their loved one who was traveling abroad."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sustain',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/səˈsteɪn/',
+    ipa_us: '/səˈsteɪn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to support or maintain something, such as an activity, a process, or a system",
+              "th": "สนับสนุนหรือรักษาสิ่งใดสิ่งหนึ่ง เช่น กิจกรรม กระบวนการ หรือระบบ"
+        }
+  ],
+    antonyms: ["harm","damage"],
+    examples:   [
+        "The company aims to sustain its growth through innovation and investment.",
+        "The government implemented policies to sustain the country's economic development.",
+        "The environmental organization works to sustain the natural balance of the ecosystem."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'corporate',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkɔːp(ə)ɹət/',
+    ipa_us: '/ˈkɔːp(ə)ɹət/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to a company or business, especially a large one",
+              "th": "เกี่ยวข้องกับบริษัทหรือธุรกิจ โดยเฉพาะอย่างยิ่งบริษัทขนาดใหญ่"
+        }
+  ],
+    antonyms: ["individual","personal"],
+    examples:   [
+        "The corporate world is highly competitive and demanding.",
+        "The company has a strong corporate culture that emphasizes teamwork and innovation.",
+        "The corporate tax rate is higher than the individual tax rate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'blend',
+    level: 'B2',
+    partOfSpeech: ["verb [I/T]","noun [C]"],
+    ipa_uk: '/blɛnd/',
+    ipa_us: '/blɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to mix things together, especially in a way that creates a smooth and consistent whole",
+              "th": "ผสมสิ่งต่างๆ เข้าด้วยกัน โดยเฉพาะอย่างยิ่งในการสร้างสิ่งที่มีความสม่ำเสมอ"
+        },
+        {
+              "pos": "noun",
+              "en": "a mixture of different things, such as flavors, colors, or textures",
+              "th": "ส่วนผสมของสิ่งต่างๆ ที่แตกต่างกัน เช่น รสชาติ สี หรือเนื้อสัมผัส"
+        }
+  ],
+    antonyms: ["separate","isolate"],
+    examples:   [
+        "The chef blended the ingredients together to create a delicious sauce.",
+        "The company blended traditional and modern designs to create a unique product.",
+        "The blend of coffee beans from different regions created a rich and complex flavor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'solo',
+    level: 'B2',
+    partOfSpeech: ["adverb","adjective","noun [C]"],
+    ipa_uk: '/ˈsoʊ.loʊ/',
+    ipa_us: '/ˈsoʊ.loʊ/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "alone, without anyone else",
+              "th": "เพียงผู้เดียว โดยไม่มีใครอื่น"
+        },
+        {
+              "pos": "adjective",
+              "en": "performed or done by one person alone",
+              "th": "แสดงหรือทำโดยบุคคลเพียงผู้เดียว"
+        },
+        {
+              "pos": "noun",
+              "en": "a performance or piece of music played by one person",
+              "th": "การแสดงหรือชิ้นงานดนตรีที่เล่นโดยบุคคลเพียงผู้เดียว"
+        }
+  ],
+    antonyms: ["duet","ensemble"],
+    examples:   [
+        "The singer performed a solo at the concert.",
+        "The solo traveler enjoyed exploring the city on her own.",
+        "The solo artist's exhibition featured paintings and sculptures created over the past year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'buzz',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [I]"],
+    ipa_uk: '/bʌz/',
+    ipa_us: '/bʌz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a low, continuous humming noise, especially one made by an insect or a machine",
+              "th": "เสียงฮัมต่อเนื่องต่ำๆ โดยเฉพาะอย่างยิ่งเสียงที่ทำโดยแมลงหรือเครื่องจักร"
+        },
+        {
+              "pos": "verb",
+              "en": "to make a low, continuous humming noise",
+              "th": "ทำให้เกิดเสียงฮัมต่อเนื่องต่ำๆ"
+        }
+  ],
+    antonyms: ["silence","stillness"],
+    examples:   [
+        "The buzz of the bee as it flew around the garden was loud and annoying.",
+        "The city was filled with the buzz of traffic and construction.",
+        "The new product created a buzz in the market with its innovative features."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'circuitry',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈsɜːkɪtɹi/',
+    ipa_us: '/ˈsɜːkɪtɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the system of wires and components that carry electric current in a device or machine",
+              "th": "ระบบของเส้นลวดและอุปกรณ์ที่นำกระแสไฟฟ้าในอุปกรณ์หรือเครื่องจักร"
+        }
+  ],
+    antonyms: ["mechanism","structure"],
+    examples:   [
+        "The circuitry of the computer is complex and difficult to repair.",
+        "The company specializes in designing and manufacturing circuitry for electronic devices.",
+        "The circuitry of the robot allows it to perform a variety of tasks with precision and accuracy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scribble',
+    level: 'B2',
+    partOfSpeech: ["verb [I/T]","noun [C]"],
+    ipa_uk: '/ˈskɹɪbəl/',
+    ipa_us: '/ˈskɹɪbəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to write or draw something quickly and carelessly",
+              "th": "เขียนหรือวาดสิ่งใดสิ่งหนึ่งโดยเร็วและไม่สนใจ"
+        },
+        {
+              "pos": "noun",
+              "en": "something that is written or drawn quickly and carelessly",
+              "th": "สิ่งที่เขียนหรือวาดโดยเร็วและไม่สนใจ"
+        }
+  ],
+    antonyms: ["write","draw"],
+    examples:   [
+        "The child scribbled on the wall with a crayon.",
+        "The artist scribbled some notes in the margin of the book.",
+        "The scribble on the paper was illegible and made no sense."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'undertake',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ʌndəˈteɪk/',
+    ipa_us: '/ʌndəˈteɪk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take on a task or responsibility, especially a difficult or challenging one",
+              "th": "รับภาระหรือความรับผิดชอบ โดยเฉพาะอย่างยิ่งภาระที่ยากหรือท้าทาย"
+        }
+  ],
+    antonyms: ["refuse","decline"],
+    examples:   [
+        "The company undertook a major renovation project to modernize its facilities.",
+        "The researcher undertook a thorough analysis of the data to draw meaningful conclusions.",
+        "The team undertook a challenging hike to reach the summit of the mountain."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shaken',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈʃeɪkən/',
+    ipa_us: '/ˈʃeɪkən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "shocked or upset, especially because of something that has happened",
+              "th": "ตกใจหรือสั่นคลอน โดยเฉพาะอย่างยิ่งเนื่องจากสิ่งที่เกิดขึ้น"
+        }
+  ],
+    antonyms: ["calm","composed"],
+    examples:   [
+        "The news of the accident left her shaken and distraught.",
+        "The earthquake shook the building, leaving the occupants shaken and frightened.",
+        "The experience had left him shaken, but he was determined to move on."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'countryman',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkʌntɹimən/',
+    ipa_us: '/ˈkʌntɹimən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person from the same country as someone else",
+              "th": "บุคคลจากประเทศเดียวกันกับบุคคลอื่น"
+        }
+  ],
+    antonyms: ["foreigner","stranger"],
+    examples:   [
+        "The two countrymen met by chance while traveling abroad.",
+        "The countryman was happy to meet someone from his hometown while living overseas.",
+        "The countryman's accent and mannerisms were familiar and comforting to the expatriate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'expert',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","adjective"],
+    ipa_uk: '/ˈɛkspəːt/',
+    ipa_us: '/ˈɛkspəːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who has a high level of knowledge or skill in a particular area",
+              "th": "บุคคลที่มีความรู้หรือทักษะในระดับสูงในด้านใดด้านหนึ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "having a high level of knowledge or skill in a particular area",
+              "th": "มีความรู้หรือทักษะในระดับสูงในด้านใดด้านหนึ่ง"
+        }
+  ],
+    antonyms: ["amateur","novice"],
+    examples:   [
+        "The expert in the field of medicine was called to testify in the court case.",
+        "The company hired an expert to consult on the marketing strategy.",
+        "The expert gardener was able to identify the rare species of plant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'extensive',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɛksˈtɛn.sɪv/',
+    ipa_us: '/ɛksˈtɛn.sɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "covering or affecting a large area or a great number of things",
+              "th": "ครอบคลุมหรือส่งผลกระทบต่อพื้นที่ใหญ่หรือจำนวนมาก"
+        }
+  ],
+    antonyms: ["limited","restricted"],
+    examples:   [
+        "The company has an extensive network of distributors and suppliers.",
+        "The researcher conducted an extensive study on the effects of climate change.",
+        "The extensive collection of art and artifacts was impressive and diverse."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cellar',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈsɛlə(ɹ)/',
+    ipa_us: '/ˈsɛlə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a room or space below the ground floor of a building, often used for storing wine or other goods",
+              "th": "ห้องหรือพื้นที่ใต้พื้นชั้นล่างของอาคาร โดยทั่วไปใช้สำหรับเก็บไวน์หรือสินค้าอื่นๆ"
+        }
+  ],
+    antonyms: ["attic","loft"],
+    examples:   [
+        "The wine cellar was cool and damp, perfect for storing fine wines.",
+        "The family stored their winter clothes and blankets in the cellar.",
+        "The old mansion had a cellar that was rumored to be haunted."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'existing',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪɡˈzɪstɪŋ/',
+    ipa_us: '/ɪɡˈzɪstɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "already in existence or use",
+              "th": "มีอยู่แล้วหรือใช้งานแล้ว"
+        }
+  ],
+    antonyms: ["new","non-existent"],
+    examples:   [
+        "The company will build on the existing infrastructure to expand its operations.",
+        "The researcher used existing data to support her hypothesis.",
+        "The existing laws and regulations need to be revised and updated."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stepmother',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈstɛpmʌðə/',
+    ipa_us: '/ˈstɛpmʌðə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the wife of one's father, who is not one's biological mother",
+              "th": "ภรรยาของพ่อของตน ซึ่งไม่ใช่แม่ทางชีววิทยา"
+        }
+  ],
+    antonyms: ["mother","biological mother"],
+    examples:   [
+        "The stepmother tried to be kind and understanding to her stepchildren.",
+        "The stepmother and stepdaughter had a strained relationship.",
+        "The stepmother took care of her stepson when his mother passed away."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
