@@ -26219,6 +26219,326 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'chill',
+    level: 'C1',
+    partOfSpeech: ["verb [T]","noun [C/U]"],
+    ipa_uk: '/tʃɪl/',
+    ipa_us: '/tʃɪl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something cooler",
+              "th": "ทำให้เย็นลง"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of coldness",
+              "th": "ความรู้สึกของความเย็น"
+        }
+  ],
+    antonyms: ["heat","warmth"],
+    examples:   [
+        "The air conditioner will chill the room.",
+        "I feel a chill run down my spine.",
+        "She gave me a chill when she stared at me."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'aquarium',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/-ɛɹiəm/',
+    ipa_us: '/-ɛɹiəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a container filled with water for keeping fish or other aquatic animals",
+              "th": "ภาชนะที่เต็มไปด้วยน้ำสำหรับเลี้ยงปลาหรือสัตว์น้ำอื่น"
+        }
+  ],
+    antonyms: ["desert","wilderness"],
+    examples:   [
+        "The aquarium in the city is home to many species of fish.",
+        "The child was fascinated by the aquarium in the waiting room.",
+        "The aquarium was a popular attraction at the zoo."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'orchard',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɔː.tʃəd/',
+    ipa_us: '/ˈɔː.tʃəd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an area of land used for growing fruit or nut trees",
+              "th": "พื้นที่ที่ใช้สำหรับการปลูกต้นไม้ผลหรือต้นไม้ผลแห้ง"
+        }
+  ],
+    antonyms: ["desert","barren land"],
+    examples:   [
+        "The family owned an orchard that produced delicious apples.",
+        "The orchard was a beautiful place to take a walk.",
+        "The farmer worked hard to maintain the orchard."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'commendation',
+    level: 'C1',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/ˌkɒmənˈdeɪʃən/',
+    ipa_us: '/ˌkɒmənˈdeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an official statement or award given to someone for their achievements",
+              "th": "คำกล่าวหรือรางวัลที่มอบให้กับบุคคลสำหรับผลงานของพวกเขา"
+        }
+  ],
+    antonyms: ["criticism","disapproval"],
+    examples:   [
+        "The team received a commendation for their outstanding performance.",
+        "The employee was given a commendation for her excellent work.",
+        "The commendation was a well-deserved recognition of her efforts."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'graft',
+    level: 'C1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/ɡɹæft/',
+    ipa_us: '/ɡɹæft/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to join a piece of tissue or a plant onto another part of the body or plant",
+              "th": "การเชื่อมต่อเนื้อเยื่อหรือพืชเข้ากับส่วนอื่นของร่างกายหรือพืช"
+        },
+        {
+              "pos": "noun",
+              "en": "a piece of tissue or a plant that has been joined onto another part of the body or plant",
+              "th": "เนื้อเยื่อหรือพืชที่ถูกเชื่อมต่อเข้ากับส่วนอื่นของร่างกายหรือพืช"
+        }
+  ],
+    antonyms: ["amputation","removal"],
+    examples:   [
+        "The surgeon will graft the skin onto the burned area.",
+        "The gardener will graft the branch onto the tree.",
+        "The graft was successful and the patient is recovering well."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conformity',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/kənˈfɔːmɪti/',
+    ipa_us: '/kənˈfɔːmɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of matching or being similar to something, especially to a standard or a rule",
+              "th": "การทำตามหรือคล้ายคลึงกับสิ่งใดสิ่งหนึ่ง โดยเฉพาะอย่างยิ่งกับมาตรฐานหรือกฎ"
+        }
+  ],
+    antonyms: ["nonconformity","rebellion"],
+    examples:   [
+        "The company emphasizes conformity to its dress code.",
+        "The conformity of the data to the model was impressive.",
+        "The conformity of the students to the rules was expected."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scorn',
+    level: 'C1',
+    partOfSpeech: ["verb [T]","noun [U]"],
+    ipa_uk: '/skɔːn/',
+    ipa_us: '/skɔːn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to feel or show contempt or disdain for someone or something",
+              "th": "รู้สึกหรือแสดงความเหยียดหยามหรือความไม่ชอบมาพากลต่อใครบางคนหรือสิ่งใด"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of contempt or disdain",
+              "th": "ความรู้สึกของความเหยียดหยามหรือความไม่ชอบมาพากล"
+        }
+  ],
+    antonyms: ["admiration","respect"],
+    examples:   [
+        "She scorned the idea of going to the party.",
+        "He felt scorn for the politician's corrupt actions.",
+        "The scorn in her voice was unmistakable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'frost',
+    level: 'C1',
+    partOfSpeech: ["noun [U]","verb [T]"],
+    ipa_uk: '/fɹɑst/',
+    ipa_us: '/fɹɑst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a thin layer of ice that forms on surfaces when they are cold",
+              "th": "ชั้นบางของน้ำแข็งที่เกิดขึ้นบนพื้นผิวเมื่อพวกมันเย็น"
+        },
+        {
+              "pos": "verb",
+              "en": "to cover something with a thin layer of ice",
+              "th": "การปกคลุมสิ่งใดสิ่งหนึ่งด้วยชั้นบางของน้ำแข็ง"
+        }
+  ],
+    antonyms: ["thaw","melt"],
+    examples:   [
+        "The frost on the window made it hard to see outside.",
+        "The farmer was worried about the frost damaging his crops.",
+        "The frost on the ground made the road slippery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deceit',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/dɪˈsiːt/',
+    ipa_us: '/dɪˈsiːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of deceiving someone or the state of being deceived",
+              "th": "การหลอกลวงหรือการถูกหลอกลวง"
+        }
+  ],
+    antonyms: ["honesty","truthfulness"],
+    examples:   [
+        "The company's deceit led to a major scandal.",
+        "The deceit in his voice was obvious.",
+        "The deceit of the politician was exposed by the media."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tomb',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/tuːm/',
+    ipa_us: '/tuːm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a structure or container for holding a dead body",
+              "th": "โครงสร้างหรือภาชนะที่ใช้สำหรับบรรจุศพ"
+        }
+  ],
+    antonyms: ["birthplace","nursery"],
+    examples:   [
+        "The pharaoh's tomb was discovered in the desert.",
+        "The tomb was decorated with intricate carvings.",
+        "The tomb of the unknown soldier was a symbol of respect."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'woo',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/wuː/',
+    ipa_us: '/wuː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to try to attract or persuade someone, especially a romantic partner",
+              "th": "พยายามดึงดูดหรือชักชวนใครบางคน โดยเฉพาะคู่รัก"
+        }
+  ],
+    antonyms: ["repel","deter"],
+    examples:   [
+        "He tried to woo her with expensive gifts.",
+        "The company is trying to woo new customers with discounts.",
+        "The politician's charm was used to woo voters."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'brainwash',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈbɹeɪnwɒʃ/',
+    ipa_us: '/ˈbɹeɪnwɒʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone believe or do something by using repeated and forceful methods",
+              "th": "ทำให้ใครบางคนเชื่อหรือทำอะไรบางอย่างโดยใช้วิธีการซ้ำๆและบังคับ"
+        }
+  ],
+    antonyms: ["educate","enlighten"],
+    examples:   [
+        "The cult tried to brainwash its members into following its leader.",
+        "The government was accused of trying to brainwash the population.",
+        "The brainwash of propaganda was used to control the people."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'render',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈɹɛn.də/',
+    ipa_us: '/ˈɹɛn.də/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give or provide something, especially a service or a payment",
+              "th": "ให้หรือจัดหาอะไรบางอย่าง โดยเฉพาะบริการหรือการชำระเงิน"
+        }
+  ],
+    antonyms: ["withhold","refuse"],
+    examples:   [
+        "The company will render the services as agreed.",
+        "The artist will render the painting in oil.",
+        "The computer will render the graphics in real-time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'charter',
+    level: 'C1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈt͡ʃɑːtə/',
+    ipa_us: '/ˈt͡ʃɑːtə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a document that gives a group of people the right to do something",
+              "th": "เอกสารที่ให้สิทธิ์แก่กลุ่มคนในการทำอะไรบางอย่าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to hire or rent a vehicle, especially a ship or a plane",
+              "th": "การเช่าหรือให้เช่าพาหนะ โดยเฉพาะเรือหรือเครื่องบิน"
+        }
+  ],
+    antonyms: ["revoke","cancel"],
+    examples:   [
+        "The company will charter a plane for the conference.",
+        "The university has a charter that guarantees academic freedom.",
+        "The charter school was established to provide alternative education."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
