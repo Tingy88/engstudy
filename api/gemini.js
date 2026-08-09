@@ -33,7 +33,17 @@ export default async function handler(req, res) {
     }
 
     const data = await r.json();
-    if (data.error) throw new Error(data.error.message || JSON.stringify(data.error));
+
+    if (!r.ok) {
+      throw new Error(`${provider} API error (HTTP ${r.status}): ${data.error?.message || JSON.stringify(data)}`);
+    }
+    if (data.error) {
+      throw new Error(data.error.message || JSON.stringify(data.error));
+    }
+    if (!data.choices || !data.choices[0] || !data.choices[0].message) {
+      throw new Error(`${provider} returned unexpected response shape: ${JSON.stringify(data).slice(0, 300)}`);
+    }
+
     const aiText = data.choices[0].message.content;
     res.status(200).json({ candidates: [{ content: { parts: [{ text: aiText }] } }] });
   } catch (err) {
