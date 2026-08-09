@@ -397,8 +397,11 @@ function renderQuestion(q, qi) {
       <div style="font-size:14px;font-weight:500;line-height:1.6;margin-bottom:12px">
         ${q.question}
       </div>
-      ${q.options.map((opt,oi) => `
-        <div onclick="selectAnswer(${qi},${oi},'${escStr(opt[0])}')"
+      ${q.options.map((opt,oi) => {
+        const letter = ['A','B','C','D'][oi];
+        const cleanText = opt.replace(/^[A-Da-d][\.\):]\s*/, '').trim();
+        return `
+        <div onclick="selectAnswer(${qi},${oi},'${letter}')"
           id="q${qi}opt${oi}"
           style="padding:12px 14px;border:0.5px solid var(--border);
             border-radius:10px;margin-bottom:7px;cursor:pointer;
@@ -407,10 +410,11 @@ function renderQuestion(q, qi) {
           <span style="width:24px;height:24px;border-radius:6px;
             background:var(--surface2);display:flex;align-items:center;
             justify-content:center;font-size:12px;font-weight:500;flex-shrink:0">
-            ${opt[0]}
+            ${letter}
           </span>
-          <span>${opt.substring(3)}</span>
-        </div>`).join('')}
+          <span>${cleanText}</span>
+        </div>`;
+      }).join('')}
     </div>`;
 }
 
