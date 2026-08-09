@@ -210,6 +210,47 @@ Reply ONLY raw JSON:
 
   return deduped.slice(0, qCount);
 }
+// ===== CALL 4: เขียนคำถามจริงจาก plan ที่ยืนยันไม่ซ้ำแล้ว =====
+async function writeQuestions(passage, facts, plan) {
+  const factMap = {};
+  facts.forEach(f => { factMap[f.id] = f.text; });
+
+  const planWithText = plan.map(p => ({
+    fact_id: p.fact_id,
+    type: p.type,
+    fact_text: factMap[p.fact_id] || '',
+  }));
+
+  const prompt = `You are writing exam questions for a reading passage. Below is a passage and a fixed plan of ${plan.length} questions — each with a specific fact to test and a specific question type. Write exactly ONE question per plan item, strictly matching its assigned fact and type.
+
+RULES PER QUESTION TYPE:
+- "Main Idea": asks about the passage's overall point. WRONG options must be true-but-minor details, never the central theme.
+- "Detail": the correct answer MUST be a paraphrase — NEVER reuse 3+ consecutive words from the passage in the correct option.
+- "Negative Factual": phrase the question with "NOT" or "EXCEPT". Three options are true per the passage, one is false or unmentioned.
+- "Inference": the answer is NEVER stated in any single sentence. It must require combining at least TWO separate pieces of information.
+- "Rhetorical Purpose": asks WHY the author mentions/includes something (not WHAT it is).
+- "Vocabulary in Context": asks the closest meaning of a specific word/phrase from the passage. Wrong options must be OTHER real dictionary meanings of that word.
+- "Reference": asks what a pronoun (it/this/they/such) refers to.
+- "Sentence Simplification": quote ONE long/complex sentence, ask which option best restates its essential meaning.
+- "Relationship": asks how two ideas/events relate (cause-effect, contrast, sequence).
+
+DISTRACTOR RULES (every question): NEVER use blatant opposites or absurd options. Each wrong option must come from real passage content, altered subtly.
+
+LANGUAGE RULE (mandatory): question and all 4 options MUST be in English only. ONLY "explanation" uses Thai.
+
+Passage:
+${passage}
+
+Question plan (write exactly one question per item, in this order):
+${JSON.stringify(planWithText)}
+
+Reply ONLY raw JSON:
+{"questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทย"}]}`;
+
+  const res = await callAI(prompt, 2048);
+  return res.questions || [];
+}
+
 async function generateReading() {
   if (RD.loading) return;
   RD.loading = true; RD.submitted = false; RD.answers = {};
