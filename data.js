@@ -27279,6 +27279,488 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'quite',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/kwaɪt/',
+    ipa_us: '/kwaɪt/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a certain extent",
+              "th": "ถึงระดับหนึ่ง"
+        }
+  ],
+    antonyms: ["not at all","slightly"],
+    examples:   [
+        "I'm quite tired after working all day.",
+        "She's quite good at playing the piano.",
+        "The movie was quite interesting, but the ending was confusing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'average',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈævəɹɪd͡ʒ/',
+    ipa_us: '/ˈævəɹɪd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "normal or usual",
+              "th": "ปกติหรือธรรมดา"
+        },
+        {
+              "pos": "noun",
+              "en": "a medium or normal amount",
+              "th": "จำนวนปานกลางหรือปกติ"
+        }
+  ],
+    antonyms: ["exceptional","outstanding"],
+    examples:   [
+        "The average temperature in July is 25 degrees Celsius.",
+        "He's an average student, not very good but not very bad either.",
+        "The average person can't afford to buy a house in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cost',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkɑst/',
+    ipa_us: '/ˈkɑst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the amount of money needed to buy or do something",
+              "th": "จำนวนเงินที่ต้องการซื้อหรือทำอะไรสักอย่าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to be priced at",
+              "th": "มีราคา"
+        }
+  ],
+    antonyms: ["gain","benefit"],
+    examples:   [
+        "The cost of living in the city is very high.",
+        "The new policy will cost the company a lot of money.",
+        "The cost of the ticket includes food and drink."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disappear',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪsəˈpiːɹ/',
+    ipa_us: '/dɪsəˈpiːɹ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become invisible or to no longer exist",
+              "th": "หายไปหรือไม่มีอยู่อีกต่อไป"
+        }
+  ],
+    antonyms: ["appear","emerge"],
+    examples:   [
+        "The magician made the rabbit disappear in front of our eyes.",
+        "The company will disappear if it doesn't get more funding.",
+        "The water in the lake began to disappear due to the drought."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gather',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɡæðə/',
+    ipa_us: '/ˈɡæðə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to come together or to collect something",
+              "th": "มารวมกันหรือเก็บเกี่ยวสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["scatter","disperse"],
+    examples:   [
+        "People began to gather in the park for the concert.",
+        "She gathered her belongings and left the house.",
+        "The team will gather for a meeting to discuss the project."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soft',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/sɑft/',
+    ipa_us: '/sɑft/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not hard or rough",
+              "th": "ไม่แข็งหรือไม่หยาบ"
+        }
+  ],
+    antonyms: ["hard","rough"],
+    examples:   [
+        "The soft music helped me to fall asleep.",
+        "She has soft and beautiful hair.",
+        "The soft toy was made of cotton and was very cuddly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'product',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɒd.əkt/',
+    ipa_us: '/ˈpɹɒd.əkt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "something that is made or grown to be sold",
+              "th": "สิ่งที่ทำหรือปลูกเพื่อขาย"
+        }
+  ],
+    antonyms: ["service","idea"],
+    examples:   [
+        "The company launched a new product last month.",
+        "The farmer's product was sold at the market.",
+        "The product was made from high-quality materials."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tram',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tɹam/',
+    ipa_us: '/tɹam/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a vehicle that runs on rails, used for carrying people",
+              "th": "ยานพาหนะที่วิ่งบนรางใช้สำหรับขนส่งคน"
+        }
+  ],
+    antonyms: ["bus","car"],
+    examples:   [
+        "I took the tram to get to the city center.",
+        "The tram ride was very smooth and comfortable.",
+        "The tram stopped at every station to pick up passengers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hiking',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈhaɪkɪŋ/',
+    ipa_us: '/ˈhaɪkɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the activity of walking in the countryside for pleasure",
+              "th": "กิจกรรมเดินเล่นในชนบทเพื่อความสนุก"
+        },
+        {
+              "pos": "verb",
+              "en": "to go for a long walk in the countryside",
+              "th": "ไปเดินเล่นในชนบทเป็นเวลานาน"
+        }
+  ],
+    antonyms: ["staying","resting"],
+    examples:   [
+        "Hiking is my favorite outdoor activity.",
+        "We went hiking in the mountains last weekend.",
+        "The trail was very challenging, but the view from the top was worth hiking for."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dislike',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɪsˈlaɪk/',
+    ipa_us: '/dɪsˈlaɪk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to not like something or someone",
+              "th": "ไม่ชอบอะไรหรือใครสักอย่าง"
+        },
+        {
+              "pos": "noun",
+              "en": "a feeling of not liking something or someone",
+              "th": "ความรู้สึกที่ไม่ชอบอะไรหรือใครสักอย่าง"
+        }
+  ],
+    antonyms: ["like","love"],
+    examples:   [
+        "I dislike it when people are late.",
+        "She has a strong dislike for spicy food.",
+        "The dislike between the two teams was very obvious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'human',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈhjuː.mən/',
+    ipa_us: '/ˈhjuː.mən/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to people",
+              "th": "เกี่ยวข้องกับคน"
+        },
+        {
+              "pos": "noun",
+              "en": "a person",
+              "th": "คน"
+        }
+  ],
+    antonyms: ["animal","robot"],
+    examples:   [
+        "Human rights are very important.",
+        "The human body is very complex.",
+        "The human mind is capable of amazing things."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'winner',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈwɪnə/',
+    ipa_us: '/ˈwɪnə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who wins a competition or contest",
+              "th": "คนชนะการแข่งขันหรือการประกวด"
+        }
+  ],
+    antonyms: ["loser","defeated"],
+    examples:   [
+        "The winner of the contest will receive a prize.",
+        "She was the winner of the marathon last year.",
+        "The winner of the game was very happy and excited."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'uneasy',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈiːzi/',
+    ipa_us: '/ʌnˈiːzi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling worried or uncomfortable",
+              "th": "รู้สึกกังวลหรือไม่สบายใจ"
+        }
+  ],
+    antonyms: ["comfortable","relaxed"],
+    examples:   [
+        "I felt uneasy during the job interview.",
+        "The uneasy feeling in my stomach wouldn't go away.",
+        "The crowd was uneasy and started to get restless."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'been',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/biːn/',
+    ipa_us: '/biːn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "past participle of 'be'",
+              "th": "รูปกริยาในอดีตของ 'be'"
+        }
+  ],
+    antonyms: ["never been","not been"],
+    examples:   [
+        "I have been to Paris before.",
+        "She has been studying English for three years.",
+        "They have been married for over 20 years."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'surprising',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/səˈpɹaɪzɪŋ/',
+    ipa_us: '/səˈpɹaɪzɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "unexpected or astonishing",
+              "th": "ไม่คาดคิดหรือน่าประหลาดใจ"
+        }
+  ],
+    antonyms: ["expected","predictable"],
+    examples:   [
+        "The surprising news was announced yesterday.",
+        "The surprising thing about the movie was the ending.",
+        "The surprising result of the experiment was very interesting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'complete',
+    level: 'A2',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/kəmˈpliːt/',
+    ipa_us: '/kəmˈpliːt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "whole or entire",
+              "th": "ทั้งหมดหรือสมบูรณ์"
+        },
+        {
+              "pos": "verb",
+              "en": "to finish something",
+              "th": "ทำอะไรสักอย่างให้เสร็จ"
+        }
+  ],
+    antonyms: ["incomplete","unfinished"],
+    examples:   [
+        "The complete set of books is very expensive.",
+        "I will complete my degree next year.",
+        "The project is complete and ready to be launched."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'desert',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/dɪˈzɜːt/',
+    ipa_us: '/dɪˈzɜːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a dry and often sandy region",
+              "th": "พื้นที่แห้งและบ่อยครั้งเป็นพื้นที่ทราย"
+        },
+        {
+              "pos": "verb",
+              "en": "to leave someone or something without help or support",
+              "th": "ทอดทิ้งใครหรืออะไรสักอย่างโดยไม่มีการช่วยเหลือหรือสนับสนุน"
+        }
+  ],
+    antonyms: ["oasis","support"],
+    examples:   [
+        "The desert was very hot and dry.",
+        "The soldiers were forced to desert their posts.",
+        "The company will desert the project if it's not profitable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'valley',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvæli/',
+    ipa_us: '/ˈvæli/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a low area of land between hills or mountains",
+              "th": "พื้นที่ต่ำระหว่างเนินเขาหรือภูเขา"
+        }
+  ],
+    antonyms: ["mountain","hill"],
+    examples:   [
+        "The valley was very green and beautiful.",
+        "The valley was surrounded by high mountains.",
+        "The river flowed through the valley and into the sea."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'container',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kənˈteɪnə/',
+    ipa_us: '/kənˈteɪnə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a box or other object used for holding something",
+              "th": "กล่องหรือวัตถุอื่นๆ ที่ใช้สำหรับบรรจุอะไรสักอย่าง"
+        }
+  ],
+    antonyms: ["content","object"],
+    examples:   [
+        "The container was filled with water.",
+        "The container was used to store food.",
+        "The container was very heavy and hard to move."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'text',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/tɛkst/',
+    ipa_us: '/tɛkst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of writing or typing",
+              "th": "ส่วนหนึ่งของการเขียนหรือพิมพ์"
+        },
+        {
+              "pos": "verb",
+              "en": "to send a message to someone's phone",
+              "th": "ส่งข้อความให้โทรศัพท์ของใครสักคน"
+        }
+  ],
+    antonyms: ["image","call"],
+    examples:   [
+        "The text of the book was very interesting.",
+        "I will text you when I arrive.",
+        "The text message was very short and simple."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clearly',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈkliːɹli/',
+    ipa_us: '/ˈkliːɹli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a clear and easy to understand way",
+              "th": "ในลักษณะที่ชัดเจนและเข้าใจได้ง่าย"
+        }
+  ],
+    antonyms: ["unclearly","vaguely"],
+    examples:   [
+        "She explained the concept clearly and simply.",
+        "The teacher spoke clearly and slowly.",
+        "The instructions were written clearly and were easy to follow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
