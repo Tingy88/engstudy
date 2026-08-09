@@ -251,6 +251,7 @@ Reply ONLY raw JSON:
   return res.questions || [];
 }
 
+// ===== GENERATE READING (pipeline ใหม่ 4 ขั้น) =====
 async function generateReading() {
   if (RD.loading) return;
   RD.loading = true; RD.submitted = false; RD.answers = {};
@@ -258,89 +259,21 @@ async function generateReading() {
   const btn = document.getElementById('btn-gen-reading');
   if (btn) { btn.disabled = true; btn.textContent = t('rd_generating'); }
 
-  const cfg = RD_CONFIG[STATE.level] || RD_CONFIG['B1'];
-  const range = cfg[RD.difficulty];
   const qCount = RD_QCOUNT[RD.difficulty];
   const diffLabel = { light: 'Light', standard: 'Standard', exam: 'Exam-style' }[RD.difficulty];
 
-  const TOPIC_POOL = [
-    'space exploration', 'ancient history', 'urban wildlife', 'a small business owner',
-    'renewable energy', 'traditional crafts', 'ocean conservation', 'a scientific discovery',
-    'street food culture', 'a music festival', 'remote work challenges', 'volcanic islands',
-    'a mystery in a small town', 'sports psychology', 'architecture and design',
-    'a family tradition', 'artificial intelligence ethics', 'migration of animals',
-    'a historical figure', 'sustainable fashion', 'a childhood memory', 'city transportation',
-    'a folk legend', 'photography as a hobby', 'climate adaptation', 'a job interview twist',
-    'underground cave systems', 'a cooking competition', 'language and culture', 'friendship across generations',
-  ];
-  const topic = TOPIC_POOL[Math.floor(Math.random() * TOPIC_POOL.length)];
-
-  const prompt = `You are an IELTS/TOEFL reading test creator. CEFR: ${STATE.level}, Difficulty: ${diffLabel}. 
-TASK: Write a ${diffLabel} fictional passage about "${topic}". Be creative and specific — avoid generic, cliché storylines. 
-LENGTH: STRICTLY ${range[0]}-${range[1]} words. DO NOT write shorter.
-VOCABULARY: Use ONLY vocabulary appropriate for ${STATE.level}. NO simple words if level is B2+.
-DIFFICULTY MAPPING:
-- Light: Lower-bound of ${STATE.level}. Clear structure but academic vocabulary.
-- Standard: Mid ${STATE.level}. Some complex sentences, mixed question types.
-- Exam-style: Upper ${STATE.level}. DENSE text, complex grammar (passives, inversions, conditionals).
-
-QUESTION TYPE POOL — you MUST choose types ONLY from this list (do not invent other labels):
-1. "Main Idea" — asks about the passage's overall point. WRONG options must be true-but-minor details, never the central theme.
-2. "Detail" — asks about one specific stated fact. The correct answer MUST be a paraphrase — NEVER reuse 3+ consecutive words from the passage in the correct option.
-3. "Negative Factual" — phrase the question with "NOT" or "EXCEPT". Three options are true per the passage, one is false or unmentioned.
-4. "Inference" — the answer is NEVER stated in any single sentence. It must require combining at least TWO separate pieces of information from different parts of the passage.
-5. "Rhetorical Purpose" — asks WHY the author mentions/includes something (not WHAT it is). Wrong options describe what the thing IS rather than why it's mentioned.
-6. "Vocabulary in Context" — asks the closest meaning of a specific word/phrase from the passage. Wrong options must be OTHER real dictionary meanings of that same word, just wrong for this context.
-7. "Reference" — asks what a pronoun (it/this/they/such) refers to. Wrong options are other nearby nouns that don't fit the sentence's logic.
-8. "Sentence Simplification" — quote ONE genuinely long/complex sentence from the passage, ask which option best restates its essential meaning. Wrong options distort the cause-effect or drop a key condition.
-9. "Relationship" — asks how two ideas/events in the passage relate (cause-effect, contrast, sequence). Wrong options reverse or misstate that relationship.
-
-SELECTION RULE: randomly select ${qCount} types from this pool (repeats allowed) but NO single type may be used more than 3 times. Vary your selection — do not default to only Detail and Inference.
-
-MANDATORY ANTI-REPETITION PROCESS:
-STEP 1: Before writing, list ${qCount} different specific facts/sentences from DIFFERENT parts of the passage (spread across beginning, middle, end).
-STEP 2: Assign one question type (from the pool above, respecting the cap) to each fact.
-STEP 3: Check — no two facts may be about the same underlying point even if phrased differently. If two overlap, replace one with an unused part of the passage.
-STEP 4: Only then write the questions.
-
-DISTRACTOR RULES (apply to every question regardless of type):
-- NEVER use blatant opposites (increase/decrease) or absurd/nonsensical options.
-- Each wrong option must come from real passage content, altered in one subtle way per the mechanism described for its type above.
-
-LANGUAGE RULE (mandatory, no exceptions): passage, every question, and all 4 options for every single question MUST be written in English only. NEVER switch to Thai anywhere in these fields. ONLY the "explanation" field uses Thai.
-
-Reply ONLY raw JSON:
-{"title":"...","passage":"...","questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${STATE.level}"}]}`;
-
   try {
-    let res = await callAI(prompt, 2048);
-    let wordCount = countWords(res.passage);
-    let attempts = 0;
+    const passageResult = await generatePassage(STATE.level, RD.difficulty);
+    const facts = await extractFactMap(passageResult.passage);
+    const plan = await buildQuestionPlan(facts, qCount);
+    let questions = await writeQuestions(passageResult.passage, facts, plan);
 
-    // ถ้าสั้นกว่าที่กำหนด ให้ขอ AI ขยายเนื้อหาต่อ สูงสุด 3 รอบ
-    while (wordCount < range[0] && attempts < 3) {
-      attempts++;
-      const needed = range[0] - wordCount + 40; // ขอเผื่อนิดหน่อยกันสั้นซ้ำ
-      const expandPrompt = `Continue this passage naturally from where it ends. Add approximately ${needed} more words. SAME topic, SAME CEFR level (${STATE.level}), SAME difficulty (${diffLabel}). Do NOT repeat existing content, do NOT restart the story, do NOT add a title. Reply ONLY raw JSON: {"continuation":"..."}
+    questions = await auditAndFixQuestions(passageResult.passage, questions, STATE.level, diffLabel);
 
-Existing passage:
-${res.passage}`;
-
-      const expandRes = await callAI(expandPrompt, 1024);
-      if (expandRes.continuation) {
-        res.passage = res.passage.trim() + ' ' + expandRes.continuation.trim();
-        wordCount = countWords(res.passage);
-      } else {
-        break; // AI ไม่ยอมส่ง continuation กลับมา หยุด retry กันลูปค้าง
-      }
-    }
-
-    res.questions = await auditAndFixQuestions(res.passage, res.questions, STATE.level, diffLabel);
-
-    RD.passage = res.passage;
-    RD.questions = res.questions;
+    RD.passage = passageResult.passage;
+    RD.questions = questions;
     RD.loading = false;
-    renderReadingPassage(res);
+    renderReadingPassage({ title: passageResult.title, ...RD });
 
   } catch (err) {
     RD.loading = false;
@@ -605,7 +538,6 @@ function updateReadingStats(acc) {
 
 // ===== ตรวจสอบคำถามที่ generate มา แล้วซ่อมข้อที่มีปัญหา =====
 async function auditAndFixQuestions(passage, questions, level, diffLabel) {
-  if (diffLabel !== 'Exam-style') return questions;
 
   // ===== ขั้นที่ 1: เช็คด้วยโค้ดก่อนเสมอ (ไม่พึ่ง AI เลย เชื่อถือได้ 100%) =====
   const failingSet = new Map();
