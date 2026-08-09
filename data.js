@@ -26875,6 +26875,410 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'virtual',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvɵːtʃuəl/',
+    ipa_us: '/ˈvɵːtʃuəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "existing or done on computers or the internet",
+              "th": "มีอยู่หรือทำบนคอมพิวเตอร์หรืออินเทอร์เน็ต"
+        }
+  ],
+    antonyms: ["real","physical"],
+    examples:   [
+        "The company will hold a virtual meeting to discuss the new project.",
+        "She has a virtual assistant to help her with her daily tasks.",
+        "The virtual reality headset allows users to experience immersive games."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'relatively',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '[ˈɹɛl.ə.tʰɪv.li]',
+    ipa_us: '[ˈɹɛl.ə.tʰɪv.li]',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a certain degree or extent",
+              "th": "ในระดับหรือขนาดที่แน่นอน"
+        }
+  ],
+    antonyms: ["absolutely","completely"],
+    examples:   [
+        "The new policy has been relatively well-received by the public.",
+        "She is relatively new to the company, having started just a few months ago.",
+        "The city is relatively small compared to the capital."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'preposition',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌpɹɛpəˈzɪʃən/',
+    ipa_us: '/ˌpɹɛpəˈzɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a word that shows the relationship between a noun or pronoun and other words in a sentence",
+              "th": "คำที่แสดงความสัมพันธ์ระหว่างคำนามหรือสรรพนามกับคำอื่น ๆ ในประโยค"
+        }
+  ],
+    antonyms: ["conjunction","interjection"],
+    examples:   [
+        "The word 'in' is a preposition that indicates location.",
+        "The teacher explained the concept of preposition to the students.",
+        "The sentence 'The book is on the table' uses the preposition 'on'."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cage',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/keɪdʒ/',
+    ipa_us: '/keɪdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an enclosure made of bars or wires, used to confine or protect something",
+              "th": "สิ่งปิดล้อมที่ทำจากแท่งหรือลวด ใช้สำหรับจำกัดหรือปกป้องสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to put or keep someone or something in a cage",
+              "th": "วางหรือเก็บคนหรือสิ่งใดสิ่งหนึ่งในกรง"
+        }
+  ],
+    antonyms: ["free","release"],
+    examples:   [
+        "The bird was kept in a cage in the living room.",
+        "The zookeeper had to cage the lion for its own safety.",
+        "The activist fought to cage the cruel treatment of animals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wagon',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈwæɡ(ə)n/',
+    ipa_us: '/ˈwæɡ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a vehicle with four wheels, used for carrying goods or people",
+              "th": "ยานพาหนะที่มีสี่ล้อ ใช้สำหรับขนส่งสินค้าหรือคน"
+        }
+  ],
+    antonyms: ["car","motorcycle"],
+    examples:   [
+        "The farmer used a wagon to transport his crops to the market.",
+        "The wagon was filled with luggage and supplies for the camping trip.",
+        "The child played with a toy wagon in the sandbox."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scared',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/skɛəd/',
+    ipa_us: '/skɛəd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling fear or anxiety",
+              "th": "รู้สึกกลัวหรือวิตกกังวล"
+        }
+  ],
+    antonyms: ["brave","fearless"],
+    examples:   [
+        "The child was scared of the dark and couldn't sleep alone.",
+        "She was scared to try skydiving for the first time.",
+        "The dog was scared of thunderstorms and would hide under the bed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'educate',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈedʒɘkæet/',
+    ipa_us: '/ˈedʒɘkæet/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to teach or train someone, especially in a school or university",
+              "th": "สอนหรือฝึกอบรมคน โดยเฉพาะอย่างยิ่งในโรงเรียนหรือมหาวิทยาลัย"
+        }
+  ],
+    antonyms: ["mislead","deceive"],
+    examples:   [
+        "The teacher aimed to educate her students about environmental issues.",
+        "The program was designed to educate young people about the dangers of smoking.",
+        "The university educated thousands of students every year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pipe',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/paɪp/',
+    ipa_us: '/paɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, hollow tube used for carrying water, gas, or other fluids",
+              "th": "ท่อที่ยาวและกลวง ใช้สำหรับลำเลียงน้ำ ก๊าซ หรือของเหลวอื่น ๆ"
+        },
+        {
+              "pos": "verb",
+              "en": "to play a pipe, especially a musical one",
+              "th": "เล่นท่อ โดยเฉพาะท่อดนตรี"
+        }
+  ],
+    antonyms: ["block","clog"],
+    examples:   [
+        "The plumber fixed the leaky pipe in the kitchen.",
+        "The musician began to pipe a lively tune on his flute.",
+        "The pipe was clogged with hair and soap scum."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'grill',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ɡɹɪl/',
+    ipa_us: '/ɡɹɪl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cook food directly over heat, usually on a metal frame",
+              "th": "ปรุงอาหารโดยตรงเหนือความร้อน โดยทั่วไปบนกรอบโลหะ"
+        },
+        {
+              "pos": "noun",
+              "en": "a device with a metal frame used for cooking food over heat",
+              "th": "อุปกรณ์ที่มีกรอบโลหะใช้สำหรับปรุงอาหารเหนือความร้อน"
+        }
+  ],
+    antonyms: ["stew","boil"],
+    examples:   [
+        "She decided to grill the steak for dinner instead of baking it.",
+        "The chef used a grill to cook the vegetables.",
+        "The family gathered around the grill for a barbecue."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'occupy',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɒkjʊpaɪ/',
+    ipa_us: '/ˈɒkjʊpaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take or hold control of a place, position, or activity",
+              "th": "ยึดหรือควบคุมสถานที่ ตำแหน่ง หรือกิจกรรม"
+        }
+  ],
+    antonyms: ["vacate","abandon"],
+    examples:   [
+        "The protesters occupy the city square to demonstrate against the government.",
+        "The company will occupy the new office building next month.",
+        "The artist's work will occupy the entire floor of the museum."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'document',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈdɒkjʊmənt/',
+    ipa_us: '/ˈdɒkjʊmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a written or printed paper that provides information or evidence",
+              "th": "เอกสารที่เขียนหรือพิมพ์ให้ข้อมูลหรือหลักฐาน"
+        },
+        {
+              "pos": "verb",
+              "en": "to record or write down something in order to provide evidence or information",
+              "th": "บันทึกหรือเขียนสิ่งใดสิ่งหนึ่งเพื่อให้หลักฐานหรือข้อมูล"
+        }
+  ],
+    antonyms: ["destroy","erase"],
+    examples:   [
+        "The lawyer needed to document the evidence for the court case.",
+        "The company will document all employee interactions for future reference.",
+        "The historian spent years documenting the history of the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sigh',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/saɪ/',
+    ipa_us: '/saɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to let out a deep breath, often because you are tired, bored, or unhappy",
+              "th": "ปล่อยลมหายใจลึก ๆ โดยทั่วไปเนื่องจากคุณเหนื่อยง่าย น่าเบื่อ หรือไม่มีความสุข"
+        },
+        {
+              "pos": "noun",
+              "en": "a deep breath that you let out, often because you are tired, bored, or unhappy",
+              "th": "ลมหายใจลึก ๆ ที่คุณปล่อยออกมา โดยทั่วไปเนื่องจากคุณเหนื่อยง่าย น่าเบื่อ หรือไม่มีความสุข"
+        }
+  ],
+    antonyms: ["laugh","smile"],
+    examples:   [
+        "She let out a sigh of relief when she finally finished the difficult task.",
+        "The tired child sighed and laid his head on the table.",
+        "The audience sighed in disappointment when the concert was cancelled."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'immediately',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈmiːdi.ətli/',
+    ipa_us: '/əˈmiːdi.ətli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at once, without delay",
+              "th": "ทันที โดยไม่มีการชะลอ"
+        }
+  ],
+    antonyms: ["later","eventually"],
+    examples:   [
+        "The fire department responded immediately to the emergency call.",
+        "She needed to leave immediately to catch her flight.",
+        "The company will deliver the package immediately after payment is made."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'upload',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əpˈləʊd/',
+    ipa_us: '/əpˈləʊd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move or transfer data or files from a computer to a website or server",
+              "th": "ย้ายหรือส่งต่อข้อมูลหรือไฟล์จากคอมพิวเตอร์ไปยังเว็บไซต์หรือเซิร์ฟเวอร์"
+        }
+  ],
+    antonyms: ["download","remove"],
+    examples:   [
+        "The user uploaded the video to YouTube.",
+        "The company will upload the new software to the cloud.",
+        "She uploaded her resume to the job search website."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'beast',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/biːst/',
+    ipa_us: '/biːst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a wild or savage animal",
+              "th": "สัตว์ป่าหรือสัตว์ป่าเถื่อน"
+        }
+  ],
+    antonyms: ["pet","tame"],
+    examples:   [
+        "The beast in the jungle was feared by all who crossed its path.",
+        "The mythological beast was said to have supernatural powers.",
+        "The hunter tracked the beast through the forest."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'merchant',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɜːtʃənt/',
+    ipa_us: '/ˈmɜːtʃənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who buys and sells goods, especially in large quantities",
+              "th": "บุคคลที่ซื้อและขายสินค้า โดยเฉพาะอย่างยิ่งในปริมาณมาก"
+        }
+  ],
+    antonyms: ["consumer","customer"],
+    examples:   [
+        "The merchant sold goods from all over the world in his store.",
+        "The merchant marine played a crucial role in the country's economy.",
+        "The merchant was known for his honesty and fairness in business dealings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'convince',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kənˈvɪns/',
+    ipa_us: '/kənˈvɪns/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone believe or agree with something",
+              "th": "ทำให้คนเชื่อหรือเห็นด้วยกับสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["doubt","disagree"],
+    examples:   [
+        "The lawyer tried to convince the jury of his client's innocence.",
+        "She was able to convince her parents to let her travel alone.",
+        "The advertisement aimed to convince viewers to buy the product."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'amazing',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈmeɪzɪŋ/',
+    ipa_us: '/əˈmeɪzɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "extremely good or surprising",
+              "th": "ดีหรือน่าประหลาดใจอย่างมาก"
+        }
+  ],
+    antonyms: ["terrible","awful"],
+    examples:   [
+        "The fireworks display was amazing and filled the entire sky.",
+        "The new restaurant served amazing food that everyone loved.",
+        "The view from the top of the mountain was simply amazing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
