@@ -26539,6 +26539,342 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'melancholy',
+    level: 'C2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈmelənkəli/',
+    ipa_us: '/ˈmelənkəli/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of deep sadness",
+              "th": "ความรู้สึกเสียใจอย่างลึกซึ้ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "having a feeling of deep sadness",
+              "th": "มีความรู้สึกเสียใจอย่างลึกซึ้ง"
+        }
+  ],
+    antonyms: ["cheerful","joyful"],
+    examples:   [
+        "The melancholy music filled the room.",
+        "She had a melancholy expression on her face.",
+        "The poet's melancholy words reflected his sorrow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'emulsifier',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˈmʌl.sɪf.aɪ.ə(ɹ)/',
+    ipa_us: '/əˈmʌl.sɪf.aɪ.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a substance that helps to mix two or more liquids together",
+              "th": "สสารที่ช่วยให้ของเหลวสองหรือมากกว่าผสมกัน"
+        }
+  ],
+    antonyms: ["separatist","divider"],
+    examples:   [
+        "The emulsifier in the recipe helped to combine the oil and water.",
+        "Emulsifiers are commonly used in food products.",
+        "The scientist studied the properties of emulsifiers in different liquids."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shimmer',
+    level: 'C2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈʃɪmə(ɹ)/',
+    ipa_us: '/ˈʃɪmə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to shine with a faint, unsteady light",
+              "th": "ส่องแสงด้วยแสงอ่อนและไม่แน่นอน"
+        },
+        {
+              "pos": "noun",
+              "en": "a faint, unsteady light",
+              "th": "แสงอ่อนและไม่แน่นอน"
+        }
+  ],
+    antonyms: ["dim","dull"],
+    examples:   [
+        "The stars began to shimmer in the night sky.",
+        "The shimmer of the diamond caught my eye.",
+        "The heat made the air shimmer above the road."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'blitz',
+    level: 'C2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/blɪts/',
+    ipa_us: '/blɪts/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sudden and intense attack or effort",
+              "th": "การโจมตีหรือพยายามอย่างรวดเร็วและเข้มข้น"
+        },
+        {
+              "pos": "verb",
+              "en": "to attack or work on something with great energy and speed",
+              "th": "โจมตีหรือทำงานอย่างรวดเร็วและเข้มข้น"
+        }
+  ],
+    antonyms: ["delay","postpone"],
+    examples:   [
+        "The team launched a blitz on the opponent's goal.",
+        "The company will blitz the market with their new product.",
+        "The storm blitzed the city with heavy rain and strong winds."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'buzzard',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbʌzəɹd/',
+    ipa_us: '/ˈbʌzəɹd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of bird that feeds on dead animals",
+              "th": "นกที่กินสัตว์ที่ตายแล้ว"
+        }
+  ],
+    antonyms: ["hummingbird","sparrow"],
+    examples:   [
+        "The buzzard soared overhead, searching for its next meal.",
+        "The buzzard is a common sight in the desert.",
+        "The buzzard's sharp eyes scanned the ground for carrion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'magnanimous',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/mæɡˈnæn.ɪ.məs/',
+    ipa_us: '/mæɡˈnæn.ɪ.məs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "generous and kind, especially to someone who has been defeated",
+              "th": "มีใจกว้างและดี โดยเฉพาะต่อผู้ที่พ่ายแพ้"
+        }
+  ],
+    antonyms: ["petty","mean-spirited"],
+    examples:   [
+        "The magnanimous winner congratulated the loser on a good game.",
+        "The magnanimous donor gave a large sum of money to the charity.",
+        "The king was known for his magnanimous treatment of his enemies."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'taciturn',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtæsɪtɜːn/',
+    ipa_us: '/ˈtæsɪtɜːn/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not talking much",
+              "th": "ไม่พูดมาก"
+        }
+  ],
+    antonyms: ["talkative","loquacious"],
+    examples:   [
+        "The taciturn man rarely spoke, but when he did, it was worth listening to.",
+        "The taciturn nature of the artist made her seem mysterious.",
+        "The teacher encouraged the taciturn student to participate in class."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'interweave',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪntəɹˈwiːv/',
+    ipa_us: '/ɪntəɹˈwiːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to combine different things, such as threads or ideas, in a complex way",
+              "th": "รวมสิ่งต่างๆ เช่น เส้นด้ายหรือความคิดในลักษณะที่ซับซ้อน"
+        }
+  ],
+    antonyms: ["separate","isolate"],
+    examples:   [
+        "The artist interwove different materials to create a unique sculpture.",
+        "The writer interwove historical facts and fiction in her novel.",
+        "The musician interwove different melodies to create a beautiful song."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fallacy',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfæləsi/',
+    ipa_us: '/ˈfæləsi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mistake or flaw in reasoning or argument",
+              "th": "ข้อผิดพลาดหรือจุดอ่อนในการให้เหตุผลหรือโต้แย้ง"
+        }
+  ],
+    antonyms: ["truth","fact"],
+    examples:   [
+        "The argument was based on a fallacy and was therefore invalid.",
+        "The fallacy in the reasoning led to a false conclusion.",
+        "The philosopher identified the fallacy in the opponent's argument."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deprivation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɛp.ɹɪ.veɪʃən/',
+    ipa_us: '/dɛp.ɹɪ.veɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being without something, especially something that is necessary or desirable",
+              "th": "สถานะที่ไม่มีสิ่งใด โดยเฉพาะสิ่งที่จำเป็นหรือต้องการ"
+        }
+  ],
+    antonyms: ["abundance","plenty"],
+    examples:   [
+        "The deprivation of food and water led to the refugees' suffering.",
+        "The deprivation of sleep affected her mood and performance.",
+        "The country's economic deprivation led to widespread poverty."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'subsist',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/səbˈsɪst/',
+    ipa_us: '/səbˈsɪst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to exist or continue to exist, often with difficulty",
+              "th": "มีอยู่หรือยังคงมีอยู่ โดยมักจะมีความยากลำบาก"
+        }
+  ],
+    antonyms: ["thrive","flourish"],
+    examples:   [
+        "The family had to subsist on a limited budget.",
+        "The plant managed to subsist in the harsh environment.",
+        "The community had to subsist on donations and charity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'embody',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪmˈbɒdi/',
+    ipa_us: '/ɪmˈbɒdi/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to represent or symbolize something, such as an idea or a quality",
+              "th": "เป็นตัวแทนหรือสัญลักษณ์ของสิ่งใดสิ่งหนึ่ง เช่น ความคิดหรือคุณสมบัติ"
+        }
+  ],
+    antonyms: ["misrepresent","distort"],
+    examples:   [
+        "The statue embodies the spirit of freedom.",
+        "The company's mission statement embodies its values.",
+        "The artist's work embodies the emotions and struggles of her life."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'revile',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹəˈvaɪl/',
+    ipa_us: '/ɹəˈvaɪl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to criticize or speak badly of someone or something",
+              "th": "วิพากษ์วิจารณ์หรือพูดไม่ดีเกี่ยวกับใครบางคนหรือสิ่งใด"
+        }
+  ],
+    antonyms: ["praise","commend"],
+    examples:   [
+        "The politician was reviled by the opposition party.",
+        "The company's policies were reviled by the environmentalists.",
+        "The artist's work was reviled by the critics, but loved by the public."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mercenary',
+    level: 'C2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈmɜː.sə.nə.ɹi/',
+    ipa_us: '/ˈmɜː.sə.nə.ɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who fights or works for money, rather than for a cause or principle",
+              "th": "บุคคลที่ต่อสู้หรือทำงานเพื่อเงิน มากกว่าเพื่อเหตุผลหรือหลักการ"
+        },
+        {
+              "pos": "adjective",
+              "en": "done or motivated by a desire for money or material gain",
+              "th": "ทำหรือมีแรงจูงใจจากความต้องการเงินหรือผลประโยชน์ทางวัตถุ"
+        }
+  ],
+    antonyms: ["altruistic","selfless"],
+    examples:   [
+        "The mercenary soldier fought for the highest bidder.",
+        "The company's mercenary approach to business led to its downfall.",
+        "The mercenary nature of the politician's decision was widely criticized."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'posterity',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɒˈstɛɹɪti/',
+    ipa_us: '/pɒˈstɛɹɪti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "future generations",
+              "th": "ชั่วรุ่นต่อๆ ไป"
+        }
+  ],
+    antonyms: ["predecessors","ancestors"],
+    examples:   [
+        "The famous scientist's work will be remembered by posterity.",
+        "The artist's creations will be enjoyed by posterity.",
+        "The writer's words will inspire posterity to take action."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
