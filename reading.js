@@ -248,7 +248,12 @@ Reply ONLY raw JSON:
 {"questions":[{"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทย"}]}`;
 
   const res = await callAI(prompt, 2048);
-  return res.questions || [];
+  const questions = res.questions || [];
+  // แนบ fact_id ที่ใช้จริงติดกับแต่ละคำถาม (ตามลำดับใน plan) เพื่อให้ audit รู้ว่าข้อไหนใช้ fact ไหนไปแล้ว
+  questions.forEach((q, i) => {
+    q.fact_id = plan[i] ? plan[i].fact_id : null;
+  });
+  return questions;
 }
 
 // ===== GENERATE READING (pipeline ใหม่ 4 ขั้น) =====
@@ -268,7 +273,7 @@ async function generateReading() {
     const plan = await buildQuestionPlan(facts, qCount);
     let questions = await writeQuestions(passageResult.passage, facts, plan);
 
-    questions = await auditAndFixQuestions(passageResult.passage, questions, STATE.level, diffLabel);
+    questions = await auditAndFixQuestions(passageResult.passage, questions, STATE.level, diffLabel, facts);
 
     RD.passage = passageResult.passage;
     RD.questions = questions;
@@ -537,7 +542,10 @@ function updateReadingStats(acc) {
 }
 
 // ===== ตรวจสอบคำถามที่ generate มา แล้วซ่อมข้อที่มีปัญหา =====
-async function auditAndFixQuestions(passage, questions, level, diffLabel) {
+async function auditAndFixQuestions(passage, questions, level, diffLabel, facts) {
+  facts = facts || [];
+  const usedFactIds = new Set(questions.map(q => q.fact_id).filter(Boolean));
+  const unusedFacts = facts.filter(f => !usedFactIds.has(f.id));
 
   // ===== ขั้นที่ 1: เช็คด้วยโค้ดก่อนเสมอ (ไม่พึ่ง AI เลย เชื่อถือได้ 100%) =====
   const failingSet = new Map();
@@ -593,7 +601,17 @@ Reply ONLY raw JSON listing ONLY the indices (0-based) that fail, with the speci
   const failing = [...failingSet.entries()].map(([index, reason]) => ({ index, reason }));
 
   for (const f of failing) {
-    const fixPrompt = `Rewrite ONLY this one exam question about the passage below. The previous version failed because: "${f.reason}"
+    const replacementFact = unusedFacts.shift(); // ดึง fact ที่ยังไม่ถูกใช้มา 1 อัน แล้วเอาออกจาก pool ทันที กันซ้ำ
+
+    const fixPrompt = replacementFact ? `Rewrite ONLY this one exam question about the passage below. The previous version failed because: "${f.reason}"
+
+Passage:
+${passage}
+
+Write a NEW question that specifically tests this fact ONLY (do not test any other fact from the passage): "${replacementFact.text}"
+
+Pick whichever question type fits this fact naturally (Detail, Inference, Relationship, Vocabulary in Context, etc). Distractors must be subtle and plausible (NOT blatant opposites, NOT verbatim passage text as wrong answers). The question and all 4 options MUST be in English. Reply ONLY raw JSON: {"question":"...","type":"...","options":["A...","B...","C...","D..."],"answer":"A","explanation":"อธิบายเป็นภาษาไทยระดับ ${level}"}`
+    : `Rewrite ONLY this one exam question about the passage below. The previous version failed because: "${f.reason}"
 
 Passage:
 ${passage}
@@ -610,7 +628,10 @@ Write a NEW question (different angle, not the same fact as before) that is a ge
       fixed.answer = letters[0];
       // เช็คซ้ำอีกรอบว่าที่ซ่อมมาไม่มีไทยหลุด ถ้ายังมีไทยอยู่ ไม่ใส่ค่าใหม่ทับ (ปล่อยของเดิมไว้ดีกว่า)
       const stillHasThai = thaiPattern.test(fixed.question) || fixed.options.some(o => thaiPattern.test(o));
-      if (!stillHasThai) questions[f.index] = fixed;
+      if (!stillHasThai) {
+        fixed.fact_id = replacementFact ? replacementFact.id : null;
+        questions[f.index] = fixed;
+      }
     } catch (e) {
       // ซ่อมไม่สำเร็จ ปล่อยข้อเดิมไว้
     }
