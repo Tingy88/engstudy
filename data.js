@@ -28076,6 +28076,301 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'isolated',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈaɪsəleɪtɪd/',
+    ipa_us: '/ˈaɪsəleɪtɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "separate from others, either physically or socially",
+              "th": "แยกจากผู้อื่น ไม่ว่าจะเป็นทางกายภาพหรือทางสังคม"
+        }
+  ],
+    antonyms: ["connected","integrated"],
+    examples:   [
+        "The village was isolated from the rest of the world by the mountains.",
+        "She felt isolated in the big city, away from her family and friends.",
+        "The researcher spent years studying the isolated tribe in the Amazon rainforest."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'readable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹiːdəbl̩/',
+    ipa_us: '/ˈɹiːdəbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "easy to read or understand",
+              "th": "สามารถอ่านหรือเข้าใจได้ง่าย"
+        }
+  ],
+    antonyms: ["illegible","incomprehensible"],
+    examples:   [
+        "The font was readable, even for people with poor eyesight.",
+        "The author's writing style is clear and readable.",
+        "The instructions were readable, but the technical terms were confusing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'plunge',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/plʌndʒ/',
+    ipa_us: '/plʌndʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to jump or fall suddenly into something, such as water or a difficult situation",
+              "th": "กระโดดหรือตกอย่าง突然ลงสู่สิ่งใดสิ่งหนึ่ง เช่น น้ำหรือสถานการณ์ที่ยากลำบาก"
+        }
+  ],
+    antonyms: ["rise","emerge"],
+    examples:   [
+        "She took a deep breath and plunged into the icy water.",
+        "The company's stock price plunged after the scandal was revealed.",
+        "The hikers had to plunge through the dense jungle to reach the lost city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stiffen',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/ˈstɪfən/',
+    ipa_us: '/ˈstɪfən/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become or make something stiff or rigid",
+              "th": "ทำให้หรือกลายเป็นแข็งหรือตึง"
+        }
+  ],
+    antonyms: ["relax","loosen"],
+    examples:   [
+        "Her body began to stiffen with fear as she saw the snake.",
+        "The muscles in his back stiffened with pain after the injury.",
+        "The glue will stiffen the fabric and make it more durable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'reassure',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɹiəˈʃʊə(ɹ)/',
+    ipa_us: '/ɹiəˈʃʊə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone feel more confident or calm by giving them comfort or support",
+              "th": "ทำให้ใครบางคนรู้สึกมั่นใจหรือสงบมากขึ้นโดยการให้ความสบายใจหรือการสนับสนุน"
+        }
+  ],
+    antonyms: ["frighten","intimidate"],
+    examples:   [
+        "The doctor reassured the patient that the surgery would be successful.",
+        "She tried to reassure her child that there was nothing to be afraid of.",
+        "The company reassured its investors that the financial situation was under control."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'demise',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/dɪˈmaɪz/',
+    ipa_us: '/dɪˈmaɪz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the death of someone or something, especially a famous or important person",
+              "th": "การเสียชีวิตของใครบางคนหรือสิ่งใดสิ่งหนึ่ง โดยเฉพาะบุคคลที่มีชื่อเสียงหรือสำคัญ"
+        }
+  ],
+    antonyms: ["birth","emergence"],
+    examples:   [
+        "The demise of the company was a shock to the entire industry.",
+        "The king's demise led to a period of instability in the kingdom.",
+        "The demise of the traditional music scene was lamented by many fans."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'plunge',
+    level: 'C1',
+    partOfSpeech: ["verb [I/T]"],
+    ipa_uk: '/plʌndʒ/',
+    ipa_us: '/plʌndʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to jump or fall suddenly into something, such as water or a difficult situation",
+              "th": "กระโดดหรือตกอย่าง突然ลงสู่สิ่งใดสิ่งหนึ่ง เช่น น้ำหรือสถานการณ์ที่ยากลำบาก"
+        }
+  ],
+    antonyms: ["rise","emerge"],
+    examples:   [
+        "She took a deep breath and plunged into the icy water.",
+        "The company's stock price plunged after the scandal was revealed.",
+        "The hikers had to plunge through the dense jungle to reach the lost city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scenario',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/səˈneːɹi.əʉ/',
+    ipa_us: '/səˈneːɹi.əʉ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a possible future situation or series of events",
+              "th": "สถานการณ์หรือเหตุการณ์ในอนาคตที่เป็นไปได้"
+        }
+  ],
+    antonyms: ["reality","actuality"],
+    examples:   [
+        "The company developed a scenario to prepare for a potential crisis.",
+        "The movie depicted a dystopian scenario where the world had been destroyed.",
+        "The team created a scenario to test the new software's performance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'peninsula',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/pəˈnɪn.ʃə.lə/',
+    ipa_us: '/pəˈnɪn.ʃə.lə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of land that is connected to the mainland on one side and surrounded by water on the other sides",
+              "th": "ที่ดินที่เชื่อมต่อกับแผ่นดินใหญ่ทางด้านหนึ่งและล้อมรอบด้วยน้ำทางด้านอื่น"
+        }
+  ],
+    antonyms: ["island","continent"],
+    examples:   [
+        "The peninsula was a popular tourist destination due to its beautiful beaches.",
+        "The city was located on a peninsula, surrounded by water on three sides.",
+        "The peninsula was home to a diverse range of flora and fauna."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'intellect',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈɪntəlɛkt/',
+    ipa_us: '/ˈɪntəlɛkt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to think and understand things, especially in a logical and rational way",
+              "th": "ความสามารถในการคิดและเข้าใจสิ่งต่าง ๆ โดยเฉพาะอย่างยิ่งในการคิดและให้เหตุผล"
+        }
+  ],
+    antonyms: ["emotion","instinct"],
+    examples:   [
+        "She was known for her sharp intellect and quick thinking.",
+        "The professor's intellect and expertise in the field were respected by all.",
+        "The book challenged my intellect and made me think critically."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fiddly',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfɪdli/',
+    ipa_us: '/ˈfɪdli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "requiring a lot of careful and precise movement or attention to detail",
+              "th": "ต้องการการเคลื่อนไหวหรือความสนใจในรายละเอียดที่แม่นยำและระมัดระวัง"
+        }
+  ],
+    antonyms: ["simple","straightforward"],
+    examples:   [
+        "The fiddly mechanism of the watch required a skilled repairman.",
+        "The recipe was fiddly and required a lot of precise measurements.",
+        "The fiddly details of the contract needed to be carefully reviewed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exhaust',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɪɡˈzɔːst/',
+    ipa_us: '/ɪɡˈzɔːst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone or something extremely tired or weak",
+              "th": "ทำให้บุคคลหรือสิ่งใดสิ่งหนึ่งเหนื่อยหรืออ่อนลงอย่างมาก"
+        }
+  ],
+    antonyms: ["energize","invigorate"],
+    examples:   [
+        "The long hike exhausted me, and I needed a rest.",
+        "The company's financial troubles exhausted its resources.",
+        "The exhausting work schedule left her feeling drained and demotivated."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'realism',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ɹi.əlɪzm/',
+    ipa_us: '/ɹi.əlɪzm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being realistic or practical",
+              "th": "คุณภาพของการเป็นจริงหรือเป็นปฏิบัติ"
+        }
+  ],
+    antonyms: ["idealism","romanticism"],
+    examples:   [
+        "The artist's realism in depicting everyday life was impressive.",
+        "The company's realism in assessing its financial situation helped it make informed decisions.",
+        "The writer's realism in portraying the characters' struggles was relatable and engaging."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'precision',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/pɹɪˈsɪ.ʒ(ə)n/',
+    ipa_us: '/pɹɪˈsɪ.ʒ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being exact and accurate",
+              "th": "คุณภาพของการเป็นแม่นยำและถูกต้อง"
+        }
+  ],
+    antonyms: ["imprecision","inaccuracy"],
+    examples:   [
+        "The precision of the watch was impressive, with an accuracy of one second per year.",
+        "The surgeon's precision and skill were essential in performing the delicate operation.",
+        "The precision of the measurements was crucial in determining the success of the experiment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
