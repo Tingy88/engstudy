@@ -27761,6 +27761,321 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'diplomat',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɪ.plə.mæt/',
+    ipa_us: '/ˈdɪ.plə.mæt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an official who represents a country",
+              "th": "นักการทูต"
+        }
+  ],
+    antonyms: ["rebel","activist"],
+    examples:   [
+        "The diplomat was sent to negotiate a peace treaty between the two countries.",
+        "She has worked as a diplomat for over a decade, representing her country abroad.",
+        "The diplomat's skills in negotiation helped to resolve the conflict."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'coma',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkəʊmə/',
+    ipa_us: '/ˈkəʊmə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of deep unconsciousness, lasting for a long time",
+              "th": "ภาวะโคม่า"
+        }
+  ],
+    antonyms: ["consciousness","awareness"],
+    examples:   [
+        "The patient has been in a coma for several weeks after the accident.",
+        "The doctor said that the coma was caused by a severe head injury.",
+        "The family waited anxiously for their loved one to come out of the coma."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'criticism',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɹɪtɪsɪzəm/',
+    ipa_us: '/ˈkɹɪtɪsɪzəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of giving an opinion about something, especially when you think it is bad or wrong",
+              "th": "การวิจารณ์"
+        }
+  ],
+    antonyms: ["praise","approval"],
+    examples:   [
+        "The movie received harsh criticism from the film critics.",
+        "The artist was prepared for criticism of her new exhibition.",
+        "The company took the criticism of their product seriously and made improvements."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'strip',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/stɹɪp/',
+    ipa_us: '/stɹɪp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to remove something, such as clothes or a covering",
+              "th": "ถอด"
+        },
+        {
+              "pos": "noun",
+              "en": "a long, narrow piece of something",
+              "th": "แถบ"
+        }
+  ],
+    antonyms: ["cover","dress"],
+    examples:   [
+        "She stripped the old wallpaper from the walls to paint them.",
+        "The strip of land along the river was perfect for a walk.",
+        "The police strip searched the suspect for any hidden evidence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inspect',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪnˈspɛkt/',
+    ipa_us: '/ɪnˈspɛkt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to look at something carefully in order to check its condition or quality",
+              "th": "ตรวจสอบ"
+        }
+  ],
+    antonyms: ["ignore","neglect"],
+    examples:   [
+        "The health inspector came to inspect the kitchen for cleanliness.",
+        "The mechanic will inspect the car to find the problem.",
+        "The teacher inspected the students' homework to give feedback."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deceptive',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dɪ.ˈsɛp.tɪv/',
+    ipa_us: '/dɪ.ˈsɛp.tɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving a false impression, or intended to deceive people",
+              "th": "หลอกลวง"
+        }
+  ],
+    antonyms: ["honest","transparent"],
+    examples:   [
+        "The company's deceptive advertising practices were exposed by the media.",
+        "The deceptive smile of the politician hid his true intentions.",
+        "The deceptive calm before the storm was a warning sign of the impending disaster."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bookmark',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈbʊkmɑɹk/',
+    ipa_us: '/ˈbʊkmɑɹk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small piece of paper or other material used to mark a place in a book",
+              "th": "เครื่องหมายหน้า"
+        },
+        {
+              "pos": "verb",
+              "en": "to mark a webpage or other digital content for later reference",
+              "th": "บุ๊กมาร์ก"
+        }
+  ],
+    antonyms: ["delete","remove"],
+    examples:   [
+        "She used a bookmark to mark the page where she stopped reading.",
+        "The browser allowed her to bookmark her favorite websites.",
+        "The app helped users bookmark articles to read later."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'offend',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈfɛnd/',
+    ipa_us: '/əˈfɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make someone feel upset, angry, or insulted",
+              "th": "ทำให้ไม่พอใจ"
+        }
+  ],
+    antonyms: ["please","delight"],
+    examples:   [
+        "The joke offended some people in the audience.",
+        "The comment was meant to offend, but it only made her stronger.",
+        "The artist's intention was not to offend, but to spark a conversation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'minister',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈmɪnɪstə/',
+    ipa_us: '/ˈmɪnɪstə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is in charge of a government department",
+              "th": "รัฐมนตรี"
+        },
+        {
+              "pos": "verb",
+              "en": "to give help or care to someone, especially in a formal or official way",
+              "th": "ดูแล"
+        }
+  ],
+    antonyms: ["oppose","hinder"],
+    examples:   [
+        "The minister of education announced a new policy for schools.",
+        "The nurse ministered to the patient's needs with kindness and care.",
+        "The minister's speech was meant to calm the fears of the public."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'illustrate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪ.ˈlʌs.tɹeɪt/',
+    ipa_us: '/ɪ.ˈlʌs.tɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to draw pictures or diagrams to help explain or decorate something",
+              "th": "วาดภาพประกอบ"
+        }
+  ],
+    antonyms: ["obscure","confuse"],
+    examples:   [
+        "The artist was hired to illustrate the children's book.",
+        "The diagram helped to illustrate the complex concept.",
+        "The professor used examples to illustrate the theory in class."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vibrate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/vaɪˈbɹeɪt/',
+    ipa_us: '/vaɪˈbɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to shake or quiver with a rapid motion, often making a humming or buzzing sound",
+              "th": "สั่น"
+        }
+  ],
+    antonyms: ["stabilize","calm"],
+    examples:   [
+        "The phone began to vibrate in her pocket, signaling an incoming call.",
+        "The guitar string would vibrate when plucked, producing a clear tone.",
+        "The machine started to vibrate violently, causing the floor to shake."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'doorway',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɔːweɪ/',
+    ipa_us: '/ˈdɔːweɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the opening in a wall that allows you to enter or leave a room or building",
+              "th": "ประตู"
+        }
+  ],
+    antonyms: ["barrier","obstacle"],
+    examples:   [
+        "The doorway was narrow, making it difficult to move the furniture through.",
+        "The doorway led to a beautiful garden, full of flowers and trees.",
+        "The doorway was decorated with intricate carvings and designs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discipline',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈdɪ.sə.plɪn/',
+    ipa_us: '/ˈdɪ.sə.plɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the practice of training people to obey rules or follow a particular code of behavior",
+              "th": "วินัย"
+        },
+        {
+              "pos": "verb",
+              "en": "to train or control someone, especially a child, to behave in a particular way",
+              "th": "ฝึกฝน"
+        }
+  ],
+    antonyms: ["indulge","pamper"],
+    examples:   [
+        "The teacher tried to discipline the class, but they were too rowdy.",
+        "The athlete's discipline and dedication paid off in the competition.",
+        "The company's discipline policy was strict, with clear consequences for misconduct."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sag',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/sæɡ/',
+    ipa_us: '/sæɡ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become or make something lower or less strong, often because of a lack of support or energy",
+              "th": "ยุบ"
+        }
+  ],
+    antonyms: ["rise","strengthen"],
+    examples:   [
+        "The old bridge began to sag under the weight of the traffic.",
+        "Her shoulders sagged in defeat as she realized she had lost the competition.",
+        "The economy began to sag, with a decline in sales and revenue."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
