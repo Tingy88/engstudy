@@ -28371,6 +28371,285 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'refuge',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɛfjuːdʒ/',
+    ipa_us: '/ˈɹɛfjuːdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place of safety",
+              "th": "ที่หลบภัย"
+        }
+  ],
+    antonyms: ["danger","threat"],
+    examples:   [
+        "The family sought refuge in a nearby town during the flood.",
+        "The animal shelter provided refuge for stray cats and dogs.",
+        "The refugees were given refuge in a camp near the border."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pretend',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/pɹɪˈtɛnd/',
+    ipa_us: '/pɹɪˈtɛnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to act as if something is true",
+              "th": "ทำเป็น"
+        }
+  ],
+    antonyms: ["reveal","admit"],
+    examples:   [
+        "The child likes to pretend she is a princess.",
+        "He pretended to be asleep so he wouldn't have to talk to her.",
+        "The company pretended to care about the environment, but it was just a marketing ploy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'microscopy',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/maɪ.ˈkɹɔ.skə.pi/',
+    ipa_us: '/maɪ.ˈkɹɔ.skə.pi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the use of a microscope to study something",
+              "th": "การใช้กล้องจุลทรรศน์"
+        }
+  ],
+    antonyms: ["macroscopy","telescopy"],
+    examples:   [
+        "The scientist used microscopy to study the cells.",
+        "Microscopy is an essential tool in biology.",
+        "The student learned about microscopy in her biology class."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'coconut',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkəʊ.kə.nʌt/',
+    ipa_us: '/ˈkəʊ.kə.nʌt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large fruit with a hard shell and white flesh",
+              "th": "มะพร้าว"
+        }
+  ],
+    antonyms: ["hazelnut","almond"],
+    examples:   [
+        "Coconuts are a staple food in many tropical countries.",
+        "The coconut tree is a common sight in coastal areas.",
+        "She used coconut oil to moisturize her skin."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'perseverance',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˌpɜːsəˈvɪəɹəns/',
+    ipa_us: '/ˌpɜːsəˈvɪəɹəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of continuing to try to do something despite difficulties",
+              "th": "ความอดทน"
+        }
+  ],
+    antonyms: ["quitting","giving up"],
+    examples:   [
+        "Her perseverance paid off when she finally got the job.",
+        "The team's perseverance led to their victory in the championship.",
+        "The student's perseverance helped her to overcome her learning difficulties."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'permanence',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈpɜmənəns/',
+    ipa_us: '/ˈpɜmənəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of lasting or remaining forever",
+              "th": "ความถาวร"
+        }
+  ],
+    antonyms: ["temporariness","impermanence"],
+    examples:   [
+        "The artist sought to create a sense of permanence in her work.",
+        "The company's permanence in the market is due to its strong brand.",
+        "The permanence of the monument is a testament to the city's rich history."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vacant',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈveɪkənt/',
+    ipa_us: '/ˈveɪkənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not occupied or used",
+              "th": "ว่าง"
+        }
+  ],
+    antonyms: ["occupied","filled"],
+    examples:   [
+        "The vacant lot was sold to a developer.",
+        "The hotel room was vacant, so we were able to check in early.",
+        "The vacant position was advertised in the newspaper."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'picture',
+    level: 'B2',
+    partOfSpeech: ["noun","verb [T]"],
+    ipa_uk: '/ˈpɪktʃə/',
+    ipa_us: '/ˈpɪktʃə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a drawing or painting",
+              "th": "รูปภาพ"
+        },
+        {
+              "pos": "verb",
+              "en": "to imagine or form a mental image of something",
+              "th": "จินตนาการ"
+        }
+  ],
+    antonyms: ["reality","fact"],
+    examples:   [
+        "The picture on the wall was painted by a local artist.",
+        "I can picture myself living in a big city.",
+        "The movie was based on a picture book for children."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'found',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/faʊnd/',
+    ipa_us: '/faʊnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to discover or come across something, especially by chance",
+              "th": "พบ"
+        }
+  ],
+    antonyms: ["lost","misplaced"],
+    examples:   [
+        "The hikers found a beautiful waterfall in the woods.",
+        "She found a great job after graduating from college.",
+        "The archaeologists found ancient ruins in the desert."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soak',
+    level: 'B2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/səʊk/',
+    ipa_us: '/səʊk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become or make something completely wet",
+              "th": "แช่"
+        }
+  ],
+    antonyms: ["dry","drain"],
+    examples:   [
+        "The clothes will soak in the washing machine for an hour.",
+        "She likes to soak in the bathtub after a long day.",
+        "The soil will soak up the rainwater quickly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inch',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪntʃ/',
+    ipa_us: '/ɪntʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a unit of length equal to one-twelfth of a foot",
+              "th": "นิ้ว"
+        }
+  ],
+    antonyms: ["mile","kilometer"],
+    examples:   [
+        "The ruler is 12 inches long.",
+        "The plant grew an inch overnight.",
+        "The fabric is sold by the inch."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'translator',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɹanzleɪtə/',
+    ipa_us: '/ˈtɹanzleɪtə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who translates text or speech from one language to another",
+              "th": "นักแปล"
+        }
+  ],
+    antonyms: ["interpreter","localizer"],
+    examples:   [
+        "The translator worked on the project for several months.",
+        "The company hired a translator to help with communication.",
+        "The translator's job is to ensure that the meaning is conveyed accurately."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'secondly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈsɛkəndli/',
+    ipa_us: '/ˈsɛkəndli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in the second place; in addition",
+              "th": "อันดับที่สอง"
+        }
+  ],
+    antonyms: ["firstly","primarily"],
+    examples:   [
+        "Firstly, the company will increase production, and secondly, it will expand its marketing efforts.",
+        "The new policy has two main goals: firstly, to reduce costs, and secondly, to improve efficiency.",
+        "The teacher explained the concept firstly in English, and secondly in the students' native language."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
