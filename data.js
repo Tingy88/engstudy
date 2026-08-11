@@ -29080,6 +29080,112 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'solitude',
+    level: 'C2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈsɒlɪˌtjuːd/',
+    ipa_us: '/ˈsɒlɪˌtjuːd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being alone",
+              "th": "สถานะของการอยู่เพียงลำพัง"
+        }
+  ],
+    antonyms: ["company","crowd"],
+    examples:   [
+        "She enjoyed the solitude of the forest, finding peace in the quiet.",
+        "The solitude of the island was a welcome change from city life.",
+        "He found solitude in his room, away from the noise of the world."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tetchy',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtɛtʃi/',
+    ipa_us: '/ˈtɛtʃi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "irritable or easily annoyed",
+              "th": "หงุดหงิดหรือง่ายต่อการทำให้โกรธ"
+        }
+  ],
+    antonyms: ["calm","patient"],
+    examples:   [
+        "She was feeling tetchy after a long day at work.",
+        "The tetchy customer complained about the service.",
+        "He was in a tetchy mood, snapping at everyone around him."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spatial',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈspeɪʃəl/',
+    ipa_us: '/ˈspeɪʃəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to space or the relationship between objects in space",
+              "th": "เกี่ยวข้องกับพื้นที่หรือความสัมพันธ์ระหว่างวัตถุในพื้นที่"
+        }
+  ],
+    antonyms: ["temporal","linear"],
+    examples:   [
+        "The spatial awareness of the architect was impressive.",
+        "The spatial relationships between the characters were complex.",
+        "The spatial data was used to create a 3D model of the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'abundant',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈbʌn.dn̩t/',
+    ipa_us: '/əˈbʌn.dn̩t/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "existing or available in large quantities",
+              "th": "มีอยู่หรือมีให้ใช้ในปริมาณมาก"
+        }
+  ],
+    antonyms: ["scarce","rare"],
+    examples:   [
+        "The abundant natural resources of the country made it wealthy.",
+        "The abundant evidence supported the theory.",
+        "The abundant sunshine made the day perfect for a picnic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vortex',
+    level: 'C2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈvɔɹtɛks/',
+    ipa_us: '/ˈvɔɹtɛks/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mass of fluid (such as a liquid or gas) that is rotating around a central point",
+              "th": "มวลของของเหลว (เช่น ของเหลวหรือก๊าซ) ที่หมุนรอบจุดศูนย์กลาง"
+        }
+  ],
+    antonyms: ["stillness","calm"],
+    examples:   [
+        "The tornado created a vortex that lifted the house off its foundation.",
+        "The vortex of the whirlpool pulled the swimmer underwater.",
+        "The artist's depiction of a vortex was a swirling mix of colors and shapes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
