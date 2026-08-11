@@ -28650,6 +28650,436 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'similarly',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈsɪmələli/',
+    ipa_us: '/ˈsɪmələli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a similar way",
+              "th": "ในลักษณะที่คล้ายคลึง"
+        }
+  ],
+    antonyms: ["differently","contrarily"],
+    examples:   [
+        "She spoke similarly to her mother, with a gentle tone.",
+        "The two companies have similarly structured business models.",
+        "The artist painted the landscape similarly to the one he saw in his dream."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'herd',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/hɜːd/',
+    ipa_us: '/hɜːd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of animals",
+              "th": "ฝูงสัตว์"
+        },
+        {
+              "pos": "verb",
+              "en": "to gather and move animals",
+              "th": "รวมและขับเคลื่อนสัตว์"
+        }
+  ],
+    antonyms: ["scatter","disperse"],
+    examples:   [
+        "The shepherd had to herd the sheep across the field.",
+        "A herd of elephants was seen roaming in the wild.",
+        "It's difficult to herd cats because they are so independent."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'monitor',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈmɒnɨtə/',
+    ipa_us: '/ˈmɒnɨtə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device for watching or listening",
+              "th": "อุปกรณ์สำหรับดูหรือฟัง"
+        },
+        {
+              "pos": "verb",
+              "en": "to watch or listen carefully",
+              "th": "ดูหรือฟังอย่างระมัดระวัง"
+        }
+  ],
+    antonyms: ["ignore","neglect"],
+    examples:   [
+        "The doctor had to monitor the patient's condition closely.",
+        "The company will monitor the situation and make adjustments as needed.",
+        "The teacher asked a student to monitor the class while she was out."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'procrastination',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹəʊˌkɹæs.tɪˈneɪ.ʃən/',
+    ipa_us: '/pɹəʊˌkɹæs.tɪˈneɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of delaying or putting off tasks",
+              "th": "การล่าช้าหรือเลื่อนงาน"
+        }
+  ],
+    antonyms: ["punctuality","promptness"],
+    examples:   [
+        "Procrastination can lead to missed deadlines and lost opportunities.",
+        "She struggled with procrastination and had to develop strategies to overcome it.",
+        "The student's procrastination resulted in a poor grade on the assignment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dive',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈdaɪv/',
+    ipa_us: '/ˈdaɪv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to jump or fall into water",
+              "th": "กระโดดหรือตกลงไปในน้ำ"
+        },
+        {
+              "pos": "noun",
+              "en": "a jump or fall into water",
+              "th": "การกระโดดหรือตกลงไปในน้ำ"
+        }
+  ],
+    antonyms: ["rise","surface"],
+    examples:   [
+        "The scuba diver had to dive deep into the ocean to see the coral reef.",
+        "The athlete took a dive off the high board, performing a perfect flip.",
+        "The plane began to dive, and the pilot had to act quickly to stabilize it."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'content',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/kənˈtɛnt/',
+    ipa_us: '/kənˈtɛnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the things that are held or included in something",
+              "th": "สิ่งที่ถูกถือหรือรวมอยู่ในบางสิ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "feeling happy or satisfied",
+              "th": "รู้สึกสบายใจหรือพึงพอใจ"
+        }
+  ],
+    antonyms: ["unhappy","dissatisfied"],
+    examples:   [
+        "The content of the book was both informative and entertaining.",
+        "She felt content after eating a delicious meal.",
+        "The company provides high-quality content for its subscribers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'brightly',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈbɹaɪtli/',
+    ipa_us: '/ˈbɹaɪtli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a bright or shining manner",
+              "th": "ในลักษณะที่สว่างหรือส่องแสง"
+        }
+  ],
+    antonyms: ["dimly","dullly"],
+    examples:   [
+        "The sun shone brightly in the clear sky.",
+        "The city lights twinkled brightly at night.",
+        "The student's face lit up brightly when she heard the good news."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'athletic',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/æθˈlɛt.ɪk/',
+    ipa_us: '/æθˈlɛt.ɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a strong and healthy body",
+              "th": "มีร่างกายที่แข็งแรงและสุขภาพดี"
+        }
+  ],
+    antonyms: ["weak","frail"],
+    examples:   [
+        "The athletic team won the championship with their impressive skills.",
+        "She has an athletic build, which helps her in her career as a model.",
+        "The athletic program at the school emphasizes both physical and mental well-being."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'brotherhood',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbɹʌðəhʊd/',
+    ipa_us: '/ˈbɹʌðəhʊd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the relationship between brothers or between men",
+              "th": "ความสัมพันธ์ระหว่างพี่น้องหรือระหว่างชาย"
+        }
+  ],
+    antonyms: ["rivalry","hostility"],
+    examples:   [
+        "The brotherhood of the fraternity was strong and supportive.",
+        "The sense of brotherhood among the team members helped them work together effectively.",
+        "The organization promotes a sense of brotherhood and unity among its members."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hunger',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈhʌŋɡə/',
+    ipa_us: '/ˈhʌŋɡə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of needing food",
+              "th": "ความรู้สึกที่ต้องการอาหาร"
+        }
+  ],
+    antonyms: ["fullness","satiety"],
+    examples:   [
+        "The hunger strike was a form of protest against the government.",
+        "After a long hike, she felt a strong hunger and needed to eat.",
+        "The charity worked to alleviate hunger and poverty in the community."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'enrich',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪnˈɹɪt͡ʃ/',
+    ipa_us: '/ɪnˈɹɪt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something more valuable or interesting",
+              "th": "ทำให้บางสิ่งมีค่าหรือน่าสนใจมากขึ้น"
+        }
+  ],
+    antonyms: ["impoverish","deplete"],
+    examples:   [
+        "The experience enriched her life and broadened her perspective.",
+        "The company aims to enrich the community by providing educational programs.",
+        "The artist's use of color and texture helped to enrich the overall effect of the painting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'laugh',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/laːf/',
+    ipa_us: '/laːf/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to express joy or amusement",
+              "th": "แสดงความสุขหรือความบันเทิง"
+        },
+        {
+              "pos": "noun",
+              "en": "an expression of joy or amusement",
+              "th": "การแสดงความสุขหรือความบันเทิง"
+        }
+  ],
+    antonyms: ["cry","sob"],
+    examples:   [
+        "The comedy show made her laugh out loud.",
+        "The laugh of the child was contagious and brightened up the room.",
+        "The actor's laugh was so realistic that it seemed like he was really amused."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'capsule',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkæpsjuːl/',
+    ipa_us: '/ˈkæpsjuːl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small container, especially for medicine or spacecraft",
+              "th": "ภาชนะเล็กๆ สำหรับยาหรือยานอวกาศ"
+        }
+  ],
+    antonyms: ["container","vessel"],
+    examples:   [
+        "The astronaut traveled to space in a capsule.",
+        "The doctor prescribed a capsule to be taken twice a day.",
+        "The time capsule was buried to be opened in 50 years."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dude',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/d(j)uːd/',
+    ipa_us: '/d(j)uːd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an informal term used to address a friend or stranger",
+              "th": "คำที่ไม่ทางการใช้เรียกเพื่อนหรือคนแปลกหน้า"
+        }
+  ],
+    antonyms: ["sir","ma'am"],
+    examples:   [
+        "The surfer dude caught a gnarly wave and rode it all the way to shore.",
+        "The guy was such a cool dude, always willing to lend a helping hand.",
+        "The bartender asked the dude what he wanted to drink."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'urgent',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɜːdʒənt/',
+    ipa_us: '/ˈɜːdʒənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "needing immediate attention or action",
+              "th": "ต้องการความสนใจหรือการกระทำทันที"
+        }
+  ],
+    antonyms: ["non-urgent","routine"],
+    examples:   [
+        "The doctor considered the patient's condition urgent and decided to operate immediately.",
+        "The company faced an urgent need to reduce costs and increase efficiency.",
+        "The government issued an urgent warning about the impending natural disaster."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bounce',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/baʊns/',
+    ipa_us: '/baʊns/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to jump or spring back after hitting something",
+              "th": "กระโดดหรือสปริงกลับหลังตกลงไปที่บางสิ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "the act of jumping or springing back",
+              "th": "การกระโดดหรือสปริงกลับ"
+        }
+  ],
+    antonyms: ["sink","fall"],
+    examples:   [
+        "The ball began to bounce when it hit the floor.",
+        "The trampoline allowed the kids to bounce high into the air.",
+        "The check will bounce if there are not enough funds in the account."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'extraordinary',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪksˈtɹɔː(ɹ)dɪnəɹi/',
+    ipa_us: '/ɪksˈtɹɔː(ɹ)dɪnəɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "beyond what is normal or expected",
+              "th": "เกินกว่าที่ปกติหรือคาดหวัง"
+        }
+  ],
+    antonyms: ["ordinary","usual"],
+    examples:   [
+        "The fireworks display was extraordinary, filling the entire sky.",
+        "The athlete's extraordinary talent and dedication earned her a scholarship.",
+        "The scientist made an extraordinary discovery that changed the field of medicine."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ecosystem',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈiːkəʊˌsɪstəm/',
+    ipa_us: '/ˈiːkəʊˌsɪstəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a system of living things and their environment",
+              "th": "ระบบของสิ่งมีชีวิตและสิ่งแวดล้อม"
+        }
+  ],
+    antonyms: ["wasteland","barrenland"],
+    examples:   [
+        "The coral reef is a delicate ecosystem that requires careful protection.",
+        "The company aims to reduce its impact on the ecosystem by using sustainable practices.",
+        "The forest ecosystem provides a habitat for a diverse range of plant and animal species."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'circular',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsɜːk.jə.lə(ɹ)/',
+    ipa_us: '/ˈsɜːk.jə.lə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "shaped like a circle",
+              "th": "มีรูปร่างเหมือนวงกลม"
+        }
+  ],
+    antonyms: ["linear","straight"],
+    examples:   [
+        "The circular motion of the wheel made it efficient for transportation.",
+        "The company adopted a circular business model to reduce waste and increase sustainability.",
+        "The architect designed a circular building to maximize natural light and energy efficiency."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
