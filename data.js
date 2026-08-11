@@ -29186,6 +29186,510 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'activity',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ækˈtɪ.və.ti/',
+    ipa_us: '/ækˈtɪ.və.ti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "something that people do",
+              "th": "กิจกรรม"
+        }
+  ],
+    antonyms: ["inactivity","idleness"],
+    examples:   [
+        "The school offers many activities for students.",
+        "My favorite activity is playing soccer.",
+        "The company will provide activities for the employees during the holiday."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'angry',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈæŋ.ɡɹi/',
+    ipa_us: '/ˈæŋ.ɡɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling or showing anger",
+              "th": "โกรธ"
+        }
+  ],
+    antonyms: ["happy","calm"],
+    examples:   [
+        "He got angry when his brother broke his toy.",
+        "The angry customer complained to the manager.",
+        "She was angry with her friend for not calling her back."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'big',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/bɪɡ/',
+    ipa_us: '/bɪɡ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "of a large size",
+              "th": "ใหญ่"
+        }
+  ],
+    antonyms: ["small","little"],
+    examples:   [
+        "The big house on the hill is for sale.",
+        "I have a big appetite, so I eat a lot.",
+        "The big brown bear climbed up the mountain."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'close',
+    level: 'A1',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/kləʊz/',
+    ipa_us: '/kləʊz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move or bring something near to something else",
+              "th": "ปิด"
+        },
+        {
+              "pos": "adjective",
+              "en": "near in distance or time",
+              "th": "ใกล้"
+        }
+  ],
+    antonyms: ["open","far"],
+    examples:   [
+        "Please close the door when you leave the room.",
+        "The store is close to my house, so I can walk there.",
+        "The close relationship between the two friends was admirable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bicycle',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbaɪsɪkl̩/',
+    ipa_us: '/ˈbaɪsɪkl̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a vehicle with two wheels, powered by pedaling",
+              "th": "จักรยาน"
+        }
+  ],
+    antonyms: ["car","motorcycle"],
+    examples:   [
+        "I ride my bicycle to school every day.",
+        "The bicycle path in the park is very popular.",
+        "She learned to ride a bicycle when she was five years old."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'telephone',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɛləfəʊn/',
+    ipa_us: '/ˈtɛləfəʊn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device for communicating over long distances",
+              "th": "โทรศัพท์"
+        }
+  ],
+    antonyms: ["letter","email"],
+    examples:   [
+        "I need to use the telephone to call my mom.",
+        "The telephone rang, and I answered it.",
+        "She talked to her friend on the telephone for hours."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'today',
+    level: 'A1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/təˈdeɪ/',
+    ipa_us: '/təˈdeɪ/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "on this present day",
+              "th": "วันนี้"
+        }
+  ],
+    antonyms: ["yesterday","tomorrow"],
+    examples:   [
+        "I have a meeting at work today.",
+        "The weather forecast says it will rain today.",
+        "We are going to the beach today, so I'm excited."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mind',
+    level: 'A1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/maɪnd/',
+    ipa_us: '/maɪnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the element of a person that enables them to be aware of their surroundings",
+              "th": "ใจ"
+        },
+        {
+              "pos": "verb",
+              "en": "to be careful or attentive",
+              "th": "ระวัง"
+        }
+  ],
+    antonyms: ["forget","ignore"],
+    examples:   [
+        "I'll mind the store while you're away.",
+        "She has a brilliant mind and is very intelligent.",
+        "Please mind your step on the stairs, it's slippery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'snake',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsneɪk/',
+    ipa_us: '/ˈsneɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, slender reptile without legs",
+              "th": "งู"
+        }
+  ],
+    antonyms: ["lizard","tortoise"],
+    examples:   [
+        "The snake slithered through the grass.",
+        "I'm afraid of snakes, they scare me.",
+        "The zoo has a big snake exhibit with many species."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mother',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmʌðə(ɹ)/',
+    ipa_us: '/ˈmʌðə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a female parent",
+              "th": "แม่"
+        }
+  ],
+    antonyms: ["father","daughter"],
+    examples:   [
+        "My mother is a great cook, she makes delicious meals.",
+        "I love my mother, she's always there for me.",
+        "The mother bear protected her cubs from harm."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'classmate',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈklɑːs.meɪt/',
+    ipa_us: '/ˈklɑːs.meɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is in the same class at school",
+              "th": "เพื่อนร่วมชั้น"
+        }
+  ],
+    antonyms: ["teacher","principal"],
+    examples:   [
+        "My classmate helped me with my math homework.",
+        "I sat next to my classmate on the bus.",
+        "The classmate of mine is very smart and always gets good grades."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'expensive',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɛkˈspɛnsɪv/',
+    ipa_us: '/ɛkˈspɛnsɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "costing a lot of money",
+              "th": "แพง"
+        }
+  ],
+    antonyms: ["cheap","affordable"],
+    examples:   [
+        "The expensive car was parked in the driveway.",
+        "I don't like expensive restaurants, they're not worth it.",
+        "The expensive jewelry was locked in a safe."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'funny',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈfʊnɪ/',
+    ipa_us: '/ˈfʊnɪ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "causing laughter or amusement",
+              "th": "ตลก"
+        }
+  ],
+    antonyms: ["boring","serious"],
+    examples:   [
+        "The funny movie made me laugh out loud.",
+        "My brother is very funny, he always makes me smile.",
+        "The comedian told a funny joke that everyone enjoyed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tell',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/tɛl/',
+    ipa_us: '/tɛl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to say or communicate something",
+              "th": "บอก"
+        }
+  ],
+    antonyms: ["hide","keep"],
+    examples:   [
+        "Can you tell me the time, please?",
+        "I'll tell you a secret, but you have to promise not to tell anyone else.",
+        "She told me that she's going to the party tonight."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'band',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/bænd/',
+    ipa_us: '/bænd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of musicians who play music together",
+              "th": "วงดนตรี"
+        }
+  ],
+    antonyms: ["solo","orchestra"],
+    examples:   [
+        "The band played at the concert last night.",
+        "I love listening to music by my favorite band.",
+        "The band members were all very talented and worked well together."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'elementary',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/(ˌ)ɛlɪ̈ˈmɛnt(ə)ɹɪ/',
+    ipa_us: '/(ˌ)ɛlɪ̈ˈmɛnt(ə)ɹɪ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the earliest stages of education",
+              "th": "ประถม"
+        }
+  ],
+    antonyms: ["advanced","secondary"],
+    examples:   [
+        "I attended an elementary school when I was a kid.",
+        "The elementary teacher was very patient with her students.",
+        "The elementary level of the language course is very basic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sea',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/siː/',
+    ipa_us: '/siː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large area of saltwater",
+              "th": "ทะเล"
+        }
+  ],
+    antonyms: ["land","mountain"],
+    examples:   [
+        "The sea is very beautiful and calming.",
+        "I love swimming in the sea during the summer.",
+        "The sea level is rising due to climate change."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'message',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɛsɪd͡ʒ/',
+    ipa_us: '/ˈmɛsɪd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of information or communication",
+              "th": "ข้อความ"
+        }
+  ],
+    antonyms: ["silence","ignorance"],
+    examples:   [
+        "I sent a message to my friend on social media.",
+        "The message on the billboard was very clear.",
+        "The president gave a message of hope to the nation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sign',
+    level: 'A1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/saɪn/',
+    ipa_us: '/saɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mark or symbol used to convey meaning",
+              "th": "สัญลักษณ์"
+        },
+        {
+              "pos": "verb",
+              "en": "to write one's name on something",
+              "th": "ลงชื่อ"
+        }
+  ],
+    antonyms: ["ignore","refuse"],
+    examples:   [
+        "The sign on the door said 'Do not enter'.",
+        "I need to sign my name on the contract.",
+        "The sign language interpreter helped the deaf person understand."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'officer',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɑfɪsɚ/',
+    ipa_us: '/ˈɑfɪsɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who holds a position of authority",
+              "th": "เจ้าหน้าที่"
+        }
+  ],
+    antonyms: ["civilian","prisoner"],
+    examples:   [
+        "The police officer helped me with the accident.",
+        "The officer in charge was very experienced.",
+        "The officer on duty was very friendly and helpful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'along',
+    level: 'A1',
+    partOfSpeech: ["preposition","adverb"],
+    ipa_uk: '/əˈlɑŋ/',
+    ipa_us: '/əˈlɑŋ/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "in a line or direction",
+              "th": "ตาม"
+        },
+        {
+              "pos": "adverb",
+              "en": "moving or continuing in a steady and continuous way",
+              "th": "ต่อไป"
+        }
+  ],
+    antonyms: ["across","against"],
+    examples:   [
+        "The road runs along the coast.",
+        "I'll walk along with you to the store.",
+        "The project is moving along as planned."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'town',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/taʊn/',
+    ipa_us: '/taʊn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small or medium-sized human settlement",
+              "th": "เมือง"
+        }
+  ],
+    antonyms: ["city","village"],
+    examples:   [
+        "I live in a small town in the countryside.",
+        "The town is very quiet and peaceful.",
+        "The town hall is where the local government meets."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'her',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/ə(ɹ)/',
+    ipa_us: '/ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to refer to a female person or animal",
+              "th": "เธอ"
+        }
+  ],
+    antonyms: ["him","it"],
+    examples:   [
+        "The book is hers, she bought it yesterday.",
+        "Her favorite food is pizza.",
+        "I'm going to meet her at the park at 5 o'clock."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
