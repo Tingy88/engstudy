@@ -30201,6 +30201,374 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'beautify',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈbjuː.tɪ.faɪ/',
+    ipa_us: '/ˈbjuː.tɪ.faɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something or someone more beautiful",
+              "th": "ทำให้บางสิ่งหรือบางคนสวยงามขึ้น"
+        }
+  ],
+    antonyms: ["uglify","disfigure"],
+    examples:   [
+        "The city council plans to beautify the park with new flowers and trees.",
+        "She likes to beautify her room with paintings and decorative items.",
+        "The company will beautify the old building to attract more customers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'absentee',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˌæb.sn̩ˈti/',
+    ipa_us: '/ˌæb.sn̩ˈti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is not present, especially at work or school",
+              "th": "บุคคลที่ไม่อยู่หรือไม่เข้าร่วม โดยเฉพาะอย่างยิ่งที่ทำงานหรือโรงเรียน"
+        }
+  ],
+    antonyms: ["attendee","participant"],
+    examples:   [
+        "The teacher marked the absentee student as absent in the attendance record.",
+        "The company has a strict policy for absentee employees.",
+        "The absentee landlord never visited his properties, causing them to fall into disrepair."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'carve',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kɑːv/',
+    ipa_us: '/kɑːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cut or shape something with a sharp tool",
+              "th": "ตัดหรือหล่อหลอมบางสิ่งด้วยเครื่องมือที่มีปลายคม"
+        }
+  ],
+    antonyms: ["assemble","join"],
+    examples:   [
+        "The sculptor will carve the statue from a block of marble.",
+        "She likes to carve wooden decorations for her home.",
+        "The chef will carve the turkey for the holiday dinner."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pastor',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈpɑːstə/',
+    ipa_us: '/ˈpɑːstə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a priest or minister in charge of a church or congregation",
+              "th": "นักบวชหรือ牧師ที่รับผิดชอบโบสถ์หรือชุมชนศาสนา"
+        }
+  ],
+    antonyms: ["parishioner","congregant"],
+    examples:   [
+        "The pastor delivered a sermon to the congregation on Sunday morning.",
+        "The pastor visited the sick member of the church to offer comfort and support.",
+        "The pastor led the wedding ceremony for the young couple."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prosper',
+    level: 'B2',
+    partOfSpeech: ["verb [I]"],
+    ipa_uk: '/ˈpɹɒspə(ɹ)/',
+    ipa_us: '/ˈpɹɒspə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become or be successful and wealthy",
+              "th": "ประสบความสำเร็จและมั่งคั่ง"
+        }
+  ],
+    antonyms: ["decline","struggle"],
+    examples:   [
+        "The company will prosper if it innovates and adapts to the changing market.",
+        "She worked hard and prospered in her career as a lawyer.",
+        "The city prospered during the period of economic growth and development."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'outing',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈaʊtɪŋ/',
+    ipa_us: '/ˈaʊtɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a short trip or excursion, especially for pleasure",
+              "th": "การเดินทางสั้น ๆ หรือการเดินทางท่องเที่ยว โดยเฉพาะเพื่อความสนุกสนาน"
+        }
+  ],
+    antonyms: ["staycation","isolation"],
+    examples:   [
+        "The family went on an outing to the beach for the summer holiday.",
+        "The company organized an outing for its employees to a nearby park.",
+        "The outing to the mountains was a great opportunity to enjoy nature and relax."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'overseas',
+    level: 'B2',
+    partOfSpeech: ["adverb","adjective"],
+    ipa_uk: '/ˌəʊvəˈsiːz/',
+    ipa_us: '/ˌəʊvəˈsiːz/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in or to a foreign country",
+              "th": "ในหรือไปต่างประเทศ"
+        },
+        {
+              "pos": "adjective",
+              "en": "located or operating in a foreign country",
+              "th": "ตั้งอยู่หรือดำเนินการในต่างประเทศ"
+        }
+  ],
+    antonyms: ["domestic","local"],
+    examples:   [
+        "She traveled overseas for the first time when she was 20 years old.",
+        "The company has overseas branches in several countries.",
+        "The overseas student had to adapt to a new culture and language."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thrilled',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/θɹɪld/',
+    ipa_us: '/θɹɪld/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling extremely happy or excited",
+              "th": "รู้สึกมีความสุขหรือตื่นเต้นอย่างมาก"
+        }
+  ],
+    antonyms: ["disappointed","unimpressed"],
+    examples:   [
+        "I was thrilled to receive the news that I got the job.",
+        "She was thrilled to meet her favorite celebrity at the concert.",
+        "The children were thrilled to go on a rollercoaster ride at the amusement park."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'advancement',
+    level: 'B2',
+    partOfSpeech: ["noun [C,U]"],
+    ipa_uk: '/ædˈvæns.mɛnt/',
+    ipa_us: '/ædˈvæns.mɛnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of moving forward or improving something",
+              "th": "การเคลื่อนไหวไปข้างหน้าหรือการปรับปรุงบางสิ่ง"
+        }
+  ],
+    antonyms: ["decline","deterioration"],
+    examples:   [
+        "The company's advancement in technology has led to increased efficiency.",
+        "The advancement of medical science has saved countless lives.",
+        "The employee's advancement in the company was due to her hard work and dedication."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wait',
+    level: 'B2',
+    partOfSpeech: ["verb [I,T]"],
+    ipa_uk: '/weɪt/',
+    ipa_us: '/weɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to stay in one place or delay action until something happens or is done",
+              "th": "รออยู่ในสถานที่หนึ่งหรือชะลอการกระทำจนกว่าบางสิ่งจะเกิดขึ้นหรือเสร็จสิ้น"
+        }
+  ],
+    antonyms: ["hurry","rush"],
+    examples:   [
+        "I have to wait for 30 minutes for the bus to arrive.",
+        "She will wait for her friend to finish work before they meet up.",
+        "The customer had to wait in line for hours to buy the new product."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'indulge',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɪnˈdʌldʒ/',
+    ipa_us: '/ɪnˈdʌldʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to allow yourself to enjoy something, especially a pleasure or a luxury",
+              "th": "อนุญาตให้ตัวเองเพลิดเพลินกับบางสิ่ง โดยเฉพาะความสุขหรือความหรูหรา"
+        }
+  ],
+    antonyms: ["restrain","deprive"],
+    examples:   [
+        "I will indulge in a slice of cake for my birthday.",
+        "She likes to indulge in spa treatments to relax and unwind.",
+        "The family will indulge in a luxurious vacation to celebrate their anniversary."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bombing',
+    level: 'B2',
+    partOfSpeech: ["noun [C,U]"],
+    ipa_uk: '/ˈbɒmɪŋ/',
+    ipa_us: '/ˈbɒmɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of attacking or destroying something with bombs",
+              "th": "การโจมตีหรือทำลายบางสิ่งด้วยระเบิด"
+        }
+  ],
+    antonyms: ["construction","building"],
+    examples:   [
+        "The bombing of the city during the war caused widespread destruction.",
+        "The government condemned the bombing of the school as a terrorist act.",
+        "The bombing of the factory resulted in the loss of many lives and jobs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'question',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈkwɛstjən/',
+    ipa_us: '/ˈkwɛstjən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sentence or phrase used to ask for information or clarification",
+              "th": "ประโยคหรือวลีที่ใช้เพื่อขอข้อมูลหรือการชี้แจง"
+        },
+        {
+              "pos": "verb",
+              "en": "to ask someone for information or clarification",
+              "th": "ถามใครบางคนเพื่อขอข้อมูลหรือการชี้แจง"
+        }
+  ],
+    antonyms: ["answer","statement"],
+    examples:   [
+        "The teacher asked the student a question about the lesson.",
+        "The journalist will question the politician about the scandal.",
+        "The question on everyone's mind is what will happen next."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fame',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/feɪm/',
+    ipa_us: '/feɪm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being widely known and admired",
+              "th": "สถานะของการเป็นที่รู้จักและได้รับการชื่นชมอย่างกว้างขวาง"
+        }
+  ],
+    antonyms: ["obscurity","anonymity"],
+    examples:   [
+        "The actor's fame grew rapidly after the release of the movie.",
+        "The musician's fame was short-lived due to her lack of new material.",
+        "The artist's fame brought her both wealth and criticism."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lawsuit',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈlɔˌs(j)ut/',
+    ipa_us: '/ˈlɔˌs(j)ut/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a case in a court of law, in which one person or organization is suing another",
+              "th": "คดีในศาล โดยที่บุคคลหนึ่งหรือองค์กรหนึ่งฟ้องร้องอีกบุคคลหนึ่งหรือองค์กรหนึ่ง"
+        }
+  ],
+    antonyms: ["settlement","agreement"],
+    examples:   [
+        "The company is facing a lawsuit from a former employee.",
+        "The lawsuit against the government was dismissed due to lack of evidence.",
+        "The family filed a lawsuit against the hospital for medical malpractice."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'parliament',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈpɑːləmənt/',
+    ipa_us: '/ˈpɑːləmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the group of people who are elected to make and change the laws of a country",
+              "th": "กลุ่มคนซึ่งได้รับการเลือกตั้งเพื่อทำและเปลี่ยนกฎหมายของประเทศ"
+        }
+  ],
+    antonyms: ["dictatorship","monarchy"],
+    examples:   [
+        "The parliament voted to pass the new law.",
+        "The parliament is composed of representatives from different parties.",
+        "The parliament building is a historic landmark in the city."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'colleague',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkɒliːɡ/',
+    ipa_us: '/ˈkɒliːɡ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who works with you, especially in an office or profession",
+              "th": "บุคคลที่ทำงานร่วมกับคุณ โดยเฉพาะอย่างยิ่งในสำนักงานหรือวิชาชีพ"
+        }
+  ],
+    antonyms: ["competitor","rival"],
+    examples:   [
+        "My colleague helped me with the project.",
+        "The colleague who sat next to me was very friendly.",
+        "The colleagues worked together as a team to achieve their goal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
