@@ -30011,6 +30011,196 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'merit',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmɛɹət/',
+    ipa_us: '/ˈmɛɹət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being good or worthy",
+              "th": "คุณธรรมหรือคุณค่า"
+        }
+  ],
+    antonyms: ["demerit","flaw"],
+    examples:   [
+        "The new policy has merit and should be implemented.",
+        "Her hard work and dedication earned her a merit award.",
+        "The company's merit system rewards employees based on performance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'impeccably',
+    level: 'C2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɪmˈpɛk.ə.bli/',
+    ipa_us: '/ɪmˈpɛk.ə.bli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a perfectly correct or satisfactory way",
+              "th": "ด้วยวิธีที่ถูกต้องหรือสมบูรณ์แบบ"
+        }
+  ],
+    antonyms: ["poorly","inadequately"],
+    examples:   [
+        "The chef prepared the meal impeccably, with each ingredient perfectly balanced.",
+        "The company's reputation was built on its ability to deliver products impeccably.",
+        "The hotel staff treated us impeccably, with exceptional service and hospitality."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'denotation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌdiː.noʊˈteɪ.ʃən/',
+    ipa_us: '/ˌdiː.noʊˈteɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the literal or primary meaning of a word or phrase",
+              "th": "ความหมายตามตัวอักษรหรือความหมายหลักของคำหรือวลี"
+        }
+  ],
+    antonyms: ["connotation","inference"],
+    examples:   [
+        "The denotation of the word 'bank' refers to a financial institution.",
+        "The denotation of the term 'globalization' is the increasing interconnectedness of the world.",
+        "Understanding the denotation of words is crucial for effective communication."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'wholly',
+    level: 'C2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈhəʊli/',
+    ipa_us: '/ˈhəʊli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "completely or entirely",
+              "th": "โดยสมบูรณ์หรือทั้งหมด"
+        }
+  ],
+    antonyms: ["partially","incompletely"],
+    examples:   [
+        "The company is wholly owned by its founder.",
+        "The new policy is wholly unnecessary and will cause more problems.",
+        "The team worked wholly together, achieving their goals with ease."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'affectation',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌæf.ɛkˈteɪ.ʃən/',
+    ipa_us: '/ˌæf.ɛkˈteɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a behavior or mannerism that is artificial or pretentious",
+              "th": "พฤติกรรมหรือท่าทางที่ไม่แท้จริงหรือทำเป็น"
+        }
+  ],
+    antonyms: ["genuineness","sincerity"],
+    examples:   [
+        "The actor's affectation of a British accent was unconvincing.",
+        "The affectation of the wealthy elite was evident in their extravagant lifestyle.",
+        "The poet's use of complex language was seen as an affectation by some critics."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'emulate',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɛm.jə.leɪt/',
+    ipa_us: '/ˈɛm.jə.leɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to copy or imitate someone or something",
+              "th": "เลียนแบบหรือทำตามคนหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["differentiate","distinguish"],
+    examples:   [
+        "The young artist sought to emulate the style of her idol.",
+        "The company tried to emulate the success of its competitor.",
+        "The student aimed to emulate the academic achievements of her sibling."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'instantaneous',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnstənˈteɪni.əs/',
+    ipa_us: '/ɪnstənˈteɪni.əs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "happening or done immediately",
+              "th": "เกิดขึ้นหรือทำในทันที"
+        }
+  ],
+    antonyms: ["delayed","slow"],
+    examples:   [
+        "The instantaneous response to the emergency was crucial in saving lives.",
+        "The instantaneous feedback from the sensor allowed for real-time adjustments.",
+        "The instantaneous nature of social media made it a powerful tool for communication."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'helm',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/hɛlm/',
+    ipa_us: '/hɛlm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the steering gear of a ship, or a person in charge of a ship or organization",
+              "th": "อุปกรณ์ควบคุมทิศทางของเรือ หรือบุคคลที่ควบคุมเรือหรือองค์กร"
+        }
+  ],
+    antonyms: ["rudder","crew"],
+    examples:   [
+        "The captain stood at the helm of the ship, navigating through treacherous waters.",
+        "The new CEO took the helm of the company, promising to turn it around.",
+        "The experienced sailor took the helm, expertly steering the boat through the storm."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hover',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈhɒ.və(ɹ)/',
+    ipa_us: '/ˈhɒ.və(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to stay in one place, usually in the air, without moving",
+              "th": "อยู่ในตำแหน่งเดียว โดยทั่วไปอยู่ในอากาศ โดยไม่เคลื่อนไหว"
+        }
+  ],
+    antonyms: ["move","proceed"],
+    examples:   [
+        "The helicopter hovered above the city, waiting for clearance to land.",
+        "The drone hovered in the air, taking photos of the landscape.",
+        "The bird hovered above its nest, watching over its young."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
