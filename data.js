@@ -29690,6 +29690,327 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'battery',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbætəɹi/',
+    ipa_us: '/ˈbætəɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that produces electricity",
+              "th": "อุปกรณ์ที่ผลิตไฟฟ้า"
+        }
+  ],
+    antonyms: ["generator","solar panel"],
+    examples:   [
+        "The battery in my phone is dead.",
+        "She inserted the battery into the toy and it started working.",
+        "The car's battery was old and needed to be replaced."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'marvel',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈmɑːvl̩/',
+    ipa_us: '/ˈmɑːvl̩/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to feel great wonder or admiration",
+              "th": "รู้สึกประหลาดใจหรือชื่นชมอย่างมาก"
+        },
+        {
+              "pos": "noun",
+              "en": "a person or thing that is very surprising or impressive",
+              "th": "บุคคลหรือสิ่งที่น่าประหลาดใจหรือน่าประทับใจมาก"
+        }
+  ],
+    antonyms: ["dislike","ignore"],
+    examples:   [
+        "I marvel at the beauty of the Grand Canyon.",
+        "The marvel of modern technology is the internet.",
+        "She was a marvel of strength and endurance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'recharge',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɹiːtʃɑː(ɹ)dʒ/',
+    ipa_us: '/ˈɹiːtʃɑː(ɹ)dʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to fill something with energy or power again",
+              "th": "เติมพลังหรือพลังงานให้กับบางสิ่งอีกครั้ง"
+        }
+  ],
+    antonyms: ["drain","exhaust"],
+    examples:   [
+        "I need to recharge my phone's battery.",
+        "The car's battery needs to be recharged.",
+        "She took a break to recharge and come back to work refreshed."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'glean',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɡliːn/',
+    ipa_us: '/ɡliːn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to gather or collect something, especially information",
+              "th": "เก็บเกี่ยวหรือรวบรวมบางสิ่ง尤其คือข้อมูล"
+        }
+  ],
+    antonyms: ["discard","ignore"],
+    examples:   [
+        "The researchers gleaned valuable data from the experiment.",
+        "She gleaned information about the company from the internet.",
+        "The farmer gleaned the leftover crops from the field."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stoke',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/stəʊk/',
+    ipa_us: '/stəʊk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to add fuel to a fire or furnace",
+              "th": "เติมเชื้อเพลิงให้กับไฟหรือเตา"
+        }
+  ],
+    antonyms: ["extinguish","douse"],
+    examples:   [
+        "The fire needs to be stoked to keep it burning.",
+        "He stoked the furnace to heat the house.",
+        "The engineer stoked the engine to increase its power."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'detriment',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdɛtɹɪmənt/',
+    ipa_us: '/ˈdɛtɹɪmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a thing that causes harm or damage",
+              "th": "สิ่งที่ก่อให้เกิดอันตรายหรือความเสียหาย"
+        }
+  ],
+    antonyms: ["benefit","advantage"],
+    examples:   [
+        "The pollution is a detriment to the environment.",
+        "The new policy is a detriment to the company's growth.",
+        "The lack of sleep was a detriment to her health."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mutually',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/-lɪ/',
+    ipa_us: '/-lɪ/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a way that affects or is done by both parties",
+              "th": "ด้วยวิธีที่ส่งผลกระทบหรือทำโดยทั้งสองฝ่าย"
+        }
+  ],
+    antonyms: ["unilaterally","one-sidedly"],
+    examples:   [
+        "The two companies agreed to work together mutually.",
+        "The couple benefited mutually from their partnership.",
+        "The countries signed a mutually beneficial trade agreement."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'craving',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɹeɪ.vɪŋ/',
+    ipa_us: '/ˈkɹeɪ.vɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a strong and often unpleasant feeling of wanting something",
+              "th": "ความรู้สึกที่รุนแรงและไม่สบายใจที่ต้องการบางสิ่ง"
+        }
+  ],
+    antonyms: ["disgust","aversion"],
+    examples:   [
+        "She had a craving for chocolate cake.",
+        "The smoker had a craving for a cigarette.",
+        "The pregnant woman had a craving for pickles."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'recollection',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹɛkəˈlɛkʃən/',
+    ipa_us: '/ɹɛkəˈlɛkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of remembering something",
+              "th": "การนึกถึงบางสิ่ง"
+        }
+  ],
+    antonyms: ["forgetfulness","oblivion"],
+    examples:   [
+        "The smell of freshly baked cookies triggered a recollection of my childhood.",
+        "The old photograph sparked a recollection of the happy times.",
+        "The recollection of the traumatic event still haunted her."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'implicate',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɪmplɪkət/',
+    ipa_us: '/ˈɪmplɪkət/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to suggest that someone is involved in something, especially something bad",
+              "th": "แสดงให้เห็นว่าบางคนเกี่ยวข้องกับบางสิ่ง尤其คือสิ่งที่ไม่ดี"
+        }
+  ],
+    antonyms: ["exonerate","clear"],
+    examples:   [
+        "The evidence implicated the suspect in the crime.",
+        "The company's actions implicated them in the scandal.",
+        "The witness's testimony implicated the defendant."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'induction',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈdʌkʃən/',
+    ipa_us: '/ɪnˈdʌkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of introducing someone to a new job or organization",
+              "th": "การแนะนำบุคคลเข้าสู่งานใหม่หรือองค์กร"
+        }
+  ],
+    antonyms: ["termination","dismissal"],
+    examples:   [
+        "The new employee underwent an induction program.",
+        "The company provided an induction course for the new staff.",
+        "The induction ceremony marked the beginning of the new president's term."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compliance',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəmˈplaɪəns/',
+    ipa_us: '/kəmˈplaɪəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of obeying a rule or law",
+              "th": "การปฏิบัติตามกฎหรือกฎหมาย"
+        }
+  ],
+    antonyms: ["noncompliance","disobedience"],
+    examples:   [
+        "The company ensured compliance with the new regulations.",
+        "The employee's compliance with the rules was excellent.",
+        "The government enforced compliance with the tax laws."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'niche',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/niːʃ/',
+    ipa_us: '/niːʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a specialized market or area of activity",
+              "th": "ตลาดหรือพื้นที่กิจกรรมที่มีความเชี่ยวชาญ"
+        }
+  ],
+    antonyms: ["mainstream","general"],
+    examples:   [
+        "The company found a niche in the market for eco-friendly products.",
+        "The artist's niche was painting landscapes.",
+        "The niche magazine catered to a specific audience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clench',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/klɛntʃ/',
+    ipa_us: '/klɛntʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to tighten or grasp something firmly",
+              "th": "กระชับหรือจับบางสิ่งให้แน่น"
+        }
+  ],
+    antonyms: ["release","loosen"],
+    examples:   [
+        "She clenched her fists in anger.",
+        "He clenched his teeth to stop himself from crying out in pain.",
+        "The athlete clenched her muscles to prepare for the competition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'anthropologist',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌæn.θɹoʊˈpɑl.ə.d͡ʒɪst/',
+    ipa_us: '/ˌæn.θɹoʊˈpɑl.ə.d͡ʒɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who studies human beings, especially their behavior, culture, and biology",
+              "th": "บุคคลที่ศึกษามนุษย์尤其คือพฤติกรรม วัฒนธรรม และชีววิทยา"
+        }
+  ],
+    antonyms: ["sociologist","psychologist"],
+    examples:   [
+        "The anthropologist spent years studying the indigenous tribe.",
+        "The anthropologist's research focused on the cultural practices of the community.",
+        "The anthropologist's findings were published in a prestigious journal."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
