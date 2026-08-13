@@ -30569,6 +30569,499 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'rhythm',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɪ.ð(ə)m/',
+    ipa_us: '/ˈɹɪ.ð(ə)m/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a pattern of sounds or movements",
+              "th": "จังหวะ"
+        }
+  ],
+    antonyms: ["chaos","disorder"],
+    examples:   [
+        "The music had a catchy rhythm that made me want to dance.",
+        "The drummer's rhythm was perfect, it was like a heartbeat.",
+        "The poet's use of rhythm and rhyme created a beautiful melody."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trick',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/tɹɪk/',
+    ipa_us: '/tɹɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a skillful or deceptive act",
+              "th": "กลอุบาย"
+        },
+        {
+              "pos": "verb",
+              "en": "to deceive or cheat",
+              "th": "หลอกลวง"
+        }
+  ],
+    antonyms: ["honesty","truth"],
+    examples:   [
+        "The magician performed a clever trick with the cards.",
+        "He tried to trick me into giving him my money.",
+        "The trick to solving this puzzle is to think outside the box."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fairly',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈfɛə(ɹ).li/',
+    ipa_us: '/ˈfɛə(ɹ).li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to a moderate degree",
+              "th": "ค่อนข้าง"
+        }
+  ],
+    antonyms: ["extremely","completely"],
+    examples:   [
+        "I'm fairly certain that I locked the door.",
+        "The movie was fairly good, but not great.",
+        "She's fairly new to the company, so she's still learning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'branch',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/bɹæntʃ/',
+    ipa_us: '/bɹæntʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a part of a tree that grows out from the trunk",
+              "th": "กิ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to divide into separate parts",
+              "th": "แยกออก"
+        }
+  ],
+    antonyms: ["trunk","main"],
+    examples:   [
+        "The branch of the tree broke off in the storm.",
+        "The company will branch out into new markets next year.",
+        "The river branches off into several smaller streams."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'separate',
+    level: 'A2',
+    partOfSpeech: ["verb","adjective"],
+    ipa_uk: '/ˈsɛpəɹət/',
+    ipa_us: '/ˈsɛpəɹət/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to divide or part",
+              "th": "แยก"
+        },
+        {
+              "pos": "adjective",
+              "en": "not together or connected",
+              "th": "แยกกัน"
+        }
+  ],
+    antonyms: ["together","united"],
+    examples:   [
+        "Please separate the laundry before washing.",
+        "The twins are separate individuals with their own interests.",
+        "The hotel rooms are separate from the main building."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'manager',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmæn.ɪ.dʒə/',
+    ipa_us: '/ˈmæn.ɪ.dʒə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person responsible for controlling or administering",
+              "th": "ผู้จัดการ"
+        }
+  ],
+    antonyms: ["employee","worker"],
+    examples:   [
+        "The store manager helped me find what I was looking for.",
+        "She's the manager of the marketing department.",
+        "The team manager made some tough decisions during the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'simply',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈsɪmpli/',
+    ipa_us: '/ˈsɪmpli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a straightforward or uncomplicated way",
+              "th": "อย่างง่าย"
+        }
+  ],
+    antonyms: ["complicatedly","difficultly"],
+    examples:   [
+        "I simply don't have time for that.",
+        "The solution is simply to add more water.",
+        "She simply loves playing with her dog."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'heating',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈhiːtɪŋ/',
+    ipa_us: '/ˈhiːtɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a system for warming a building",
+              "th": "ระบบทำความร้อน"
+        }
+  ],
+    antonyms: ["cooling","chilling"],
+    examples:   [
+        "The heating in this building is very efficient.",
+        "We need to turn on the heating in winter.",
+        "The heating bill was very high last month."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'refrigerator',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹɪˈfɹɪd͡ʒəˌɹeɪtə/',
+    ipa_us: '/ɹɪˈfɹɪd͡ʒəˌɹeɪtə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an appliance for keeping food cold",
+              "th": "ตู้เย็น"
+        }
+  ],
+    antonyms: ["oven","stove"],
+    examples:   [
+        "The refrigerator is making a strange noise.",
+        "Please put the leftovers in the refrigerator.",
+        "The refrigerator is one of the most important appliances in the kitchen."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'appreciate',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈpɹiː.si.eɪt/',
+    ipa_us: '/əˈpɹiː.si.eɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to recognize the value or quality of something",
+              "th": "ชื่นชม"
+        }
+  ],
+    antonyms: ["disregard","ignore"],
+    examples:   [
+        "I appreciate your help with the move.",
+        "She appreciates the beauty of nature.",
+        "We appreciate your feedback on our service."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spoon',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/spuːn/',
+    ipa_us: '/spuːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a utensil for eating or serving food",
+              "th": "ช้อน"
+        }
+  ],
+    antonyms: ["fork","knife"],
+    examples:   [
+        "Can you pass me a spoon?",
+        "The spoon is in the drawer.",
+        "She ate the soup with a spoon."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'oak',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əʊk/',
+    ipa_us: '/əʊk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of tree",
+              "th": "ต้นโอ๊ก"
+        }
+  ],
+    antonyms: ["pine","maple"],
+    examples:   [
+        "The oak tree in our backyard is very old.",
+        "Oak wood is very durable.",
+        "The oak floor is beautiful and expensive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'honey',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈhʌni/',
+    ipa_us: '/ˈhʌni/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sweet, viscous fluid produced by bees",
+              "th": "น้ำผึ้ง"
+        }
+  ],
+    antonyms: ["poison","venom"],
+    examples:   [
+        "I put honey in my tea.",
+        "The bees produced a lot of honey this summer.",
+        "Honey is a natural remedy for coughs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'email',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈiːmeɪl/',
+    ipa_us: '/ˈiːmeɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a message sent electronically",
+              "th": "อีเมล"
+        },
+        {
+              "pos": "verb",
+              "en": "to send an email",
+              "th": "ส่งอีเมล"
+        }
+  ],
+    antonyms: ["letter","post"],
+    examples:   [
+        "I sent an email to my friend.",
+        "Can you email me the document?",
+        "I need to check my email for new messages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'timetable',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtaɪmˌteɪbəl/',
+    ipa_us: '/ˈtaɪmˌteɪbəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a schedule or plan",
+              "th": "ตารางเวลา"
+        }
+  ],
+    antonyms: ["flexibility","spontaneity"],
+    examples:   [
+        "The train timetable is available online.",
+        "I need to make a timetable for my study schedule.",
+        "The teacher gave us a timetable for the exam dates."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'as',
+    level: 'A2',
+    partOfSpeech: ["conjunction","preposition"],
+    ipa_uk: '/ˈæs/',
+    ipa_us: '/ˈæs/',
+    meanings:   [
+        {
+              "pos": "conjunction",
+              "en": "in the same way or to the same extent",
+              "th": "เช่นเดียวกับ"
+        },
+        {
+              "pos": "preposition",
+              "en": "in the role or capacity of",
+              "th": "ในฐานะ"
+        }
+  ],
+    antonyms: ["but","however"],
+    examples:   [
+        "I'm as tall as my brother.",
+        "She works as a doctor.",
+        "He's as happy as can be."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'national',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈnæʃ(ə)nəl/',
+    ipa_us: '/ˈnæʃ(ə)nəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to a country or nation",
+              "th": "ระดับชาติ"
+        }
+  ],
+    antonyms: ["international","global"],
+    examples:   [
+        "The national park is a beautiful place to visit.",
+        "The national team won the championship.",
+        "The national museum has a vast collection of artifacts."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'slowly',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈsləʊli/',
+    ipa_us: '/ˈsləʊli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at a slow pace or rate",
+              "th": "ช้าๆ"
+        }
+  ],
+    antonyms: ["quickly","fast"],
+    examples:   [
+        "The old man walked slowly due to his age.",
+        "The teacher explained the lesson slowly so we could understand.",
+        "The flowers bloomed slowly in the cold weather."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'weight',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/weɪt/',
+    ipa_us: '/weɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the amount or quantity of something",
+              "th": "น้ำหนัก"
+        }
+  ],
+    antonyms: ["lightness","buoyancy"],
+    examples:   [
+        "I need to lose some weight before the wedding.",
+        "The weight of the box is too much for me to lift.",
+        "The weight of the responsibility is crushing me."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'try',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/tɹaɪ/',
+    ipa_us: '/tɹaɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make an effort or attempt",
+              "th": "พยายาม"
+        }
+  ],
+    antonyms: ["give up","quit"],
+    examples:   [
+        "I'll try to finish the project by tomorrow.",
+        "Can you try to speak more slowly?",
+        "She tried to learn how to play the piano."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nearly',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈniːɹli/',
+    ipa_us: '/ˈniːɹli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "almost or very close to",
+              "th": "เกือบ"
+        }
+  ],
+    antonyms: ["far","distant"],
+    examples:   [
+        "I'm nearly finished with my homework.",
+        "The train is nearly full, there are only a few seats left.",
+        "She's nearly as tall as her mother."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pack',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/pæk/',
+    ipa_us: '/pæk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to put things into a bag or container",
+              "th": "ใส่ของ"
+        },
+        {
+              "pos": "noun",
+              "en": "a group of animals",
+              "th": "ฝูง"
+        }
+  ],
+    antonyms: ["unpack","unload"],
+    examples:   [
+        "Can you pack my suitcase for me?",
+        "The pack of wolves is a fearsome sight.",
+        "The hikers had to pack their gear and leave the campsite."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
