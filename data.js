@@ -31062,6 +31062,416 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'firefighter',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfaɪə(ɹ)ˌfaɪt.ə(ɹ)/',
+    ipa_us: '/ˈfaɪə(ɹ)ˌfaɪt.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person whose job is to put out fires",
+              "th": "ผู้ที่ทำงานดับไฟ"
+        }
+  ],
+    antonyms: ["arsonist","pyromaniac"],
+    examples:   [
+        "Firefighters risk their lives to save others.",
+        "The firefighter rescued the family from the burning building.",
+        "My brother wants to be a firefighter when he grows up."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'willingness',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈwɪlɪŋnəs/',
+    ipa_us: '/ˈwɪlɪŋnəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being willing to do something",
+              "th": "ความเต็มใจที่จะทำบางสิ่ง"
+        }
+  ],
+    antonyms: ["reluctance","unwillingness"],
+    examples:   [
+        "Her willingness to help others is admirable.",
+        "The company values the willingness of its employees to learn.",
+        "The willingness to take risks is essential for success."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'promote',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/pɹəˈməʊt/',
+    ipa_us: '/pɹəˈməʊt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to help something to happen or to increase",
+              "th": "ส่งเสริมหรือช่วยให้บางสิ่งเกิดขึ้น"
+        }
+  ],
+    antonyms: ["demote","hinder"],
+    examples:   [
+        "The company will promote the new product on social media.",
+        "Exercise can promote good health.",
+        "The government aims to promote tourism in the region."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bracelet',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbɹeɪslət/',
+    ipa_us: '/ˈbɹeɪslət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of jewelry worn around the wrist",
+              "th": "เครื่องประดับสำหรับสวมข้อมือ"
+        }
+  ],
+    antonyms: ["necklace","ring"],
+    examples:   [
+        "She wore a beautiful silver bracelet to the party.",
+        "The bracelet was a gift from her grandmother.",
+        "He bought a leather bracelet as a souvenir."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'breathless',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈbɹɛθləs/',
+    ipa_us: '/ˈbɹɛθləs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having no breath; out of breath",
+              "th": "ไม่มีลมหายใจ"
+        },
+        {
+              "pos": "adjective",
+              "en": "extremely exciting or impressive",
+              "th": "น่าตื่นเต้นหรือประทับใจมาก"
+        }
+  ],
+    antonyms: ["breathtaking","exhilarating"],
+    examples:   [
+        "After running, I was breathless and needed to rest.",
+        "The breathless scenery took my breath away.",
+        "The audience was left breathless by the magician's tricks."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'humorous',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈhjuːməɹəs/',
+    ipa_us: '/ˈhjuːməɹəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a sense of humor",
+              "th": "มีความตลกขบขัน"
+        }
+  ],
+    antonyms: ["serious","boring"],
+    examples:   [
+        "The comedian's humorous jokes made the audience laugh.",
+        "He has a humorous way of looking at life.",
+        "The movie was humorous and entertaining."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'accent',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈak.sənt/',
+    ipa_us: '/ˈak.sənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a way of pronouncing words that is typical of a particular region or group of people",
+              "th": "การออกเสียงที่เป็นลักษณะเฉพาะของภูมิภาคหรือกลุ่มคน"
+        }
+  ],
+    antonyms: ["dialect","tone"],
+    examples:   [
+        "I love her French accent.",
+        "He has a strong accent from the south.",
+        "The actor's accent was so good that it sounded real."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cheerful',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈt͡ʃɪəfəl/',
+    ipa_us: '/ˈt͡ʃɪəfəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having or showing a pleasant and optimistic disposition",
+              "th": "มีความสุขและดูสบายใจ"
+        }
+  ],
+    antonyms: ["gloomy","depressed"],
+    examples:   [
+        "She has a cheerful personality that brightens up the room.",
+        "The cheerful music made me want to dance.",
+        "He always has a cheerful smile on his face."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compromise',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkɒmpɹəˌmaɪz/',
+    ipa_us: '/ˈkɒmpɹəˌmaɪz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a situation in which people accept something that is not perfect in order to reach an agreement",
+              "th": "การประนีประนอม"
+        },
+        {
+              "pos": "verb",
+              "en": "to accept something that is not perfect in order to reach an agreement",
+              "th": "ยอมรับบางสิ่งที่ไม่สมบูรณ์เพื่อไปถึงข้อตกลง"
+        }
+  ],
+    antonyms: ["refuse","reject"],
+    examples:   [
+        "The compromise between the two parties was successful.",
+        "We need to compromise on the price.",
+        "The company is willing to compromise on the terms of the contract."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'identity',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/aɪˈdɛntəti/',
+    ipa_us: '/aɪˈdɛntəti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being who or what someone or something is",
+              "th": "สภาพของการเป็นตัวของตัวเอง"
+        }
+  ],
+    antonyms: ["anonymity","obscurity"],
+    examples:   [
+        "Her identity as an artist is very important to her.",
+        "The company's identity is reflected in its logo.",
+        "The city's identity is shaped by its history and culture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prosperous',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɹɒs.p(ə.)ɹəs/',
+    ipa_us: '/ˈpɹɒs.p(ə.)ɹəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a lot of money, success, or good fortune",
+              "th": "มีเงิน มีอำนาจ หรือมีความสำเร็จ"
+        }
+  ],
+    antonyms: ["poor","unsuccessful"],
+    examples:   [
+        "The city has become prosperous in recent years.",
+        "She comes from a prosperous family.",
+        "The company has been prosperous since its establishment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pole',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɔːl/',
+    ipa_us: '/pɔːl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long, thin, straight piece of wood, metal, or plastic",
+              "th": "แท่งที่ยาวและตรง"
+        }
+  ],
+    antonyms: ["hole","gap"],
+    examples:   [
+        "The flag was attached to a pole.",
+        "The pole was used to support the tent.",
+        "She used a pole to vault over the obstacle."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'imitate',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɪmɪteɪt/',
+    ipa_us: '/ˈɪmɪteɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to copy or reproduce the actions, speech, or mannerisms of someone or something",
+              "th": "เลียนแบบหรือทำซ้ำการกระทำ พูด หรือท่าทางของคนหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["originate","create"],
+    examples:   [
+        "The comedian can imitate many different accents.",
+        "She can imitate the sound of a bird.",
+        "The actor's ability to imitate the character's mannerisms was impressive."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'regional',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹiːdʒnəl/',
+    ipa_us: '/ˈɹiːdʒnəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or characteristic of a particular region",
+              "th": "เกี่ยวข้องกับหรือมีลักษณะเฉพาะของภูมิภาคใดภูมิภาคหนึ่ง"
+        }
+  ],
+    antonyms: ["national","global"],
+    examples:   [
+        "The regional dialect is unique to this area.",
+        "The company has a regional office in every major city.",
+        "The regional cuisine is famous for its spicy dishes."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'appetite',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈæp.ə.taɪt/',
+    ipa_us: '/ˈæp.ə.taɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a natural desire to eat food",
+              "th": "ความต้องการอาหารตามธรรมชาติ"
+        }
+  ],
+    antonyms: ["disgust","aversion"],
+    examples:   [
+        "I have a big appetite for spicy food.",
+        "After exercise, I have a huge appetite.",
+        "The smell of food increased my appetite."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'extreme',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɛkˈstɹiːm/',
+    ipa_us: '/ɛkˈstɹiːm/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very great or intense; far beyond what is normal",
+              "th": "มากหรือรุนแรงมาก มากกว่าปกติ"
+        }
+  ],
+    antonyms: ["mild","moderate"],
+    examples:   [
+        "The extreme weather conditions made it difficult to travel.",
+        "She has an extreme fear of heights.",
+        "The company is taking extreme measures to reduce costs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unlikely',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈlaɪkli/',
+    ipa_us: '/ʌnˈlaɪkli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not likely to happen or be true",
+              "th": "ไม่น่าจะเกิดขึ้นหรือเป็นความจริง"
+        }
+  ],
+    antonyms: ["likely","probable"],
+    examples:   [
+        "It's unlikely that I'll be able to attend the meeting.",
+        "The unlikely hero saved the day.",
+        "It's unlikely that the project will be finished on time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'comma',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɒm.ə/',
+    ipa_us: '/ˈkɒm.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a punctuation mark (,) used to separate items in a list or to separate clauses in a sentence",
+              "th": "เครื่องหมายวรรคตอน (,) ที่ใช้ในการแบ่งรายการสิ่งของหรือการแบ่งประโยค"
+        }
+  ],
+    antonyms: ["period","semicolon"],
+    examples:   [
+        "Use a comma to separate the items in the list.",
+        "The comma is an important punctuation mark in English.",
+        "She forgot to put a comma in the sentence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'concentration',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkɒnsənˈtɹeɪʃən/',
+    ipa_us: '/ˌkɒnsənˈtɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of giving all your attention to something",
+              "th": "การให้ความสนใจอย่างเต็มที่กับสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["distraction","diversion"],
+    examples:   [
+        "The concentration of the students in the classroom was impressive.",
+        "She needs to improve her concentration to finish the project.",
+        "The concentration of the athlete during the competition was remarkable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
