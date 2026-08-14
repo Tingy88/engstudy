@@ -31472,6 +31472,248 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'buffer',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈbafə(ɹ)/',
+    ipa_us: '/ˈbafə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person or thing that reduces the impact of something unpleasant",
+              "th": "บุคคลหรือสิ่งที่ลดผลกระทบของสิ่งที่ไม่พึงประสงค์"
+        },
+        {
+              "pos": "verb",
+              "en": "to reduce the impact of something unpleasant",
+              "th": "ลดผลกระทบของสิ่งที่ไม่พึงประสงค์"
+        }
+  ],
+    antonyms: ["amplifier","intensifier"],
+    examples:   [
+        "The buffer zone between the two countries helped to reduce tensions.",
+        "The new policy will act as a buffer against economic downturns.",
+        "The company will buffer the effects of the recession by reducing staff."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'demolition',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌdɛm.əˈlɪʃən/',
+    ipa_us: '/ˌdɛm.əˈlɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of destroying a building or other structure",
+              "th": "การทำลายอาคารหรือโครงสร้างอื่น"
+        }
+  ],
+    antonyms: ["construction","renovation"],
+    examples:   [
+        "The demolition of the old building was a sad sight for many residents.",
+        "The company specializes in demolition and excavation services.",
+        "The city council approved the demolition of the abandoned factory."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'somersault',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈsʌmə(ɹ)ˌsɒlt/',
+    ipa_us: '/ˈsʌmə(ɹ)ˌsɒlt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a movement in which someone flips their body over in the air",
+              "th": "การเคลื่อนไหวที่บุคคลพลิกตัวในอากาศ"
+        },
+        {
+              "pos": "verb",
+              "en": "to flip one's body over in the air",
+              "th": "พลิกตัวในอากาศ"
+        }
+  ],
+    antonyms: ["stumble","trip"],
+    examples:   [
+        "The gymnast performed a perfect somersault on the floor exercise.",
+        "The child did a somersault on the trampoline, laughing with joy.",
+        "The acrobat's somersault was so smooth that it looked effortless."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'depict',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈpɪkt/',
+    ipa_us: '/dɪˈpɪkt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to show or represent something in a picture or words",
+              "th": "แสดงหรือนำเสนอสิ่งใดสิ่งหนึ่งโดยใช้รูปภาพหรือคำพูด"
+        }
+  ],
+    antonyms: ["conceal","hide"],
+    examples:   [
+        "The painting depicts a beautiful landscape with rolling hills.",
+        "The novel depicts the struggles of growing up in a poor neighborhood.",
+        "The documentary depicts the harsh reality of climate change."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prospective',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹəˈspɛktɪv/',
+    ipa_us: '/pɹəˈspɛktɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "likely or expected to happen or be the case in the future",
+              "th": "อาจจะเกิดขึ้นหรือเป็นไปได้ในอนาคต"
+        }
+  ],
+    antonyms: ["retrospective","past"],
+    examples:   [
+        "The company has prospective plans to expand into new markets.",
+        "The prospective student was excited to start college in the fall.",
+        "The prospective buyer was interested in purchasing the property."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'advantageous',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌædvənˈteɪd͡ʒəs/',
+    ipa_us: '/ˌædvənˈteɪd͡ʒəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving an advantage or benefit",
+              "th": "ให้ประโยชน์หรือผลประโยชน์"
+        }
+  ],
+    antonyms: ["disadvantageous","detrimental"],
+    examples:   [
+        "The company's location was advantageous, being close to major transportation hubs.",
+        "The new policy has been advantageous for the environment, reducing pollution.",
+        "The student's language skills were advantageous in her career, allowing her to communicate effectively with international clients."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'voluntarily',
+    level: 'C1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈvɒləntɹɪli/',
+    ipa_us: '/ˈvɒləntɹɪli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "without being forced or paid to do something",
+              "th": "โดยไม่ได้รับการบังคับหรือจ่ายเงินให้ทำสิ่งใด"
+        }
+  ],
+    antonyms: ["involuntarily","compulsorily"],
+    examples:   [
+        "The volunteers worked voluntarily at the animal shelter, caring for the animals.",
+        "The company's employees donated their time voluntarily to help with the community project.",
+        "The student participated voluntarily in the research study, eager to contribute to the field."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'venerate',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈvɛnəɹeɪt/',
+    ipa_us: '/ˈvɛnəɹeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to regard with deep respect or reverence",
+              "th": "มองด้วยความเคารพหรือความนับถืออย่างลึกซึ้ง"
+        }
+  ],
+    antonyms: ["desecrate","defile"],
+    examples:   [
+        "The people venerate their ancestors, honoring their memory and legacy.",
+        "The artist's work is venerated by critics and collectors alike, prized for its beauty and significance.",
+        "The historical site is venerated by tourists and locals, a symbol of the country's rich heritage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'duration',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/djʊˈɹeɪʃn̩/',
+    ipa_us: '/djʊˈɹeɪʃn̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the length of time that something lasts or continues",
+              "th": "ระยะเวลาที่สิ่งใดสิ่งหนึ่งยังคงอยู่หรือดำเนินต่อไป"
+        }
+  ],
+    antonyms: ["briefness","shortness"],
+    examples:   [
+        "The duration of the concert was three hours, including intermissions.",
+        "The company's success was due to the duration of their investment in research and development.",
+        "The duration of the project was extended due to unforeseen circumstances."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pounce',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/paʊns/',
+    ipa_us: '/paʊns/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to jump or move quickly in order to catch or attack something",
+              "th": "กระโดดหรือเคลื่อนไหวอย่างรวดเร็วเพื่อจับหรือโจมตีสิ่งใด"
+        }
+  ],
+    antonyms: ["withdraw","retreat"],
+    examples:   [
+        "The cat will pounce on any toy that is moved quickly.",
+        "The dog will pounce on anyone who enters the house, barking loudly.",
+        "The investor will pounce on any opportunity to make a profit, taking risks."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inclusion',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈkluːʒən/',
+    ipa_us: '/ɪnˈkluːʒən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of including someone or something",
+              "th": "การรวมบุคคลหรือสิ่งใดสิ่งหนึ่งเข้าด้วยกัน"
+        }
+  ],
+    antonyms: ["exclusion","segregation"],
+    examples:   [
+        "The company's policy of inclusion has created a diverse and welcoming work environment.",
+        "The school's inclusion program has helped students with disabilities to participate fully.",
+        "The government's inclusion of marginalized groups in the decision-making process has been praised."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
