@@ -31714,6 +31714,311 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'denounce',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/diˈnaʊns/',
+    ipa_us: '/diˈnaʊns/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to publicly declare that someone or something is wrong or evil",
+              "th": "ประกาศอย่างเปิดเผยว่าบุคคลหรือสิ่งใดสิ่งหนึ่งเป็นคนไม่ดีหรือชั่วร้าย"
+        }
+  ],
+    antonyms: ["praise","commend"],
+    examples:   [
+        "The organization was forced to denounce the actions of its former leader.",
+        "She was afraid to denounce her boss for fear of losing her job.",
+        "The government denounce the use of violence against civilians."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cascade',
+    level: 'C2',
+    partOfSpeech: ["noun [C]","verb [I]"],
+    ipa_uk: '/kæsˈkeɪd/',
+    ipa_us: '/kæsˈkeɪd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small waterfall, especially one that is part of a larger waterfall",
+              "th": "น้ำตกขนาดเล็ก โดยเฉพาะอย่างยิ่งซึ่งเป็นส่วนหนึ่งของน้ำตกขนาดใหญ่"
+        },
+        {
+              "pos": "verb",
+              "en": "to flow or fall in a cascade",
+              "th": "ไหลหรือตกลงมาเป็นน้ำตก"
+        }
+  ],
+    antonyms: ["trickle","drought"],
+    examples:   [
+        "The cascade of water down the mountain was breathtaking.",
+        "The news of her resignation cascaded through the company like wildfire.",
+        "The cascade of flowers down the wedding cake was beautiful."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cosmic',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkɒz.mɪk/',
+    ipa_us: '/ˈkɒz.mɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to the universe, especially the part of it outside the Earth's atmosphere",
+              "th": "เกี่ยวข้องกับจักรวาล โดยเฉพาะส่วนที่อยู่นอกชั้นบรรยากาศของโลก"
+        }
+  ],
+    antonyms: ["earthly","terrestrial"],
+    examples:   [
+        "The cosmic dance of the planets in our solar system is a wonder to behold.",
+        "The cosmic explosion was so powerful that it was seen from millions of light years away.",
+        "The cosmic rays from the sun were affecting the communication systems on Earth."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'circuit',
+    level: 'C2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '[ˈsəɾ.kɪʈ]',
+    ipa_us: '[ˈsəɾ.kɪʈ]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a path or route that starts and ends in the same place, often going around something",
+              "th": "เส้นทางหรือเส้นทางที่เริ่มต้นและสิ้นสุด ณ จุดเดียวกัน โดยทั่วไปจะเดินไปรอบ ๆ สิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["dead end","impasse"],
+    examples:   [
+        "The circuit of the Grand Prix was challenging for the drivers.",
+        "The electric circuit in the house was damaged and needed to be repaired.",
+        "The tourist followed the circuit of the museum to see all the exhibits."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'tacit',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtæsɪt/',
+    ipa_us: '/ˈtæsɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not expressed or stated openly, but understood or implied",
+              "th": "ไม่ได้แสดงออกหรือกล่าวอย่างเปิดเผย แต่เข้าใจหรือบอกเป็นนัย"
+        }
+  ],
+    antonyms: ["explicit","overt"],
+    examples:   [
+        "There was a tacit understanding between the two friends that they would meet at 5 pm.",
+        "The company had a tacit agreement with the supplier to buy their products.",
+        "The politician's tacit support for the policy was seen as a sign of approval."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lurid',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈl(j)ʊə.ɹɪd/',
+    ipa_us: '/ˈl(j)ʊə.ɹɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "shocking or disturbing because of being related to violence, sex, or other unpleasant things",
+              "th": "ทำให้สะดุดตาหรือรบกวนจิตใจเพราะเกี่ยวข้องกับความรุนแรง การมีเพศสัมพันธ์ หรือสิ่งไม่พึงประสงค์อื่น ๆ"
+        }
+  ],
+    antonyms: ["tasteful","refined"],
+    examples:   [
+        "The lurid details of the crime were not suitable for children.",
+        "The lurid colors of the painting were overwhelming.",
+        "The lurid headlines of the newspaper were meant to attract attention."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'venomous',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvɛnəməs/',
+    ipa_us: '/ˈvɛnəməs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a poison that can be injected into someone or something, especially through a bite or sting",
+              "th": "มีพิษที่สามารถฉีดเข้าไปในใครบางคนหรือบางสิ่ง โดยเฉพาะผ่านการกัดหรือต่อย"
+        }
+  ],
+    antonyms: ["harmless","non-toxic"],
+    examples:   [
+        "The venomous snake was found in the desert.",
+        "The venomous spider bite was very painful.",
+        "The doctor warned about the venomous effects of the medication."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'punctual',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpʌŋktjʊəl/',
+    ipa_us: '/ˈpʌŋktjʊəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "arriving or doing something at the expected or planned time",
+              "th": "มาถึงหรือทำบางสิ่ง ณ เวลาที่คาดหวังหรือวางแผนไว้"
+        }
+  ],
+    antonyms: ["late","tardy"],
+    examples:   [
+        "The punctual arrival of the train was a welcome surprise.",
+        "She was always punctual and never missed a meeting.",
+        "The company valued punctuality and rewarded employees who were on time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gale',
+    level: 'C2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ɡeɪl/',
+    ipa_us: '/ɡeɪl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a very strong wind",
+              "th": "ลมแรงมาก"
+        }
+  ],
+    antonyms: ["breeze","zephyr"],
+    examples:   [
+        "The gale force winds caused widespread damage to the town.",
+        "The ship was struggling to stay on course in the gale.",
+        "The gale warning was issued for the coastal areas."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'verily',
+    level: 'C2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈvɛɹ.əl.i/',
+    ipa_us: '/ˈvɛɹ.əl.i/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "used to emphasize the truth or certainty of something",
+              "th": "ใช้เพื่อเน้นย้ำถึงความจริงหรือความแน่นอนของบางสิ่ง"
+        }
+  ],
+    antonyms: ["doubtfully","questionably"],
+    examples:   [
+        "Verily, I say unto you, this is the truth.",
+        "The witness testified verily that she had seen the accused at the scene.",
+        "The doctor verily believed that the patient would recover fully."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inert',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈɝt/',
+    ipa_us: '/ɪnˈɝt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not able to move or act, or not reacting to a stimulus",
+              "th": "ไม่สามารถเคลื่อนไหวหรือทำปฏิกิริยาต่อสิ่งเร้า"
+        }
+  ],
+    antonyms: ["active","dynamic"],
+    examples:   [
+        "The inert gas did not react with the other chemicals.",
+        "The patient was inert and unresponsive after the accident.",
+        "The inert material was used to line the chemical containers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'etching',
+    level: 'C2',
+    partOfSpeech: ["noun [U]","verb [T]"],
+    ipa_uk: '/ˈetʃ.ɪŋ/',
+    ipa_us: '/ˈetʃ.ɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of creating a design or picture on a surface, especially by using acid or a sharp tool",
+              "th": "การสร้างภาพหรือรูปภาพบนพื้นผิว โดยเฉพาะโดยใช้กรดหรือเครื่องมือที่คม"
+        },
+        {
+              "pos": "verb",
+              "en": "to create a design or picture on a surface, especially by using acid or a sharp tool",
+              "th": "สร้างภาพหรือรูปภาพบนพื้นผิว โดยเฉพาะโดยใช้กรดหรือเครื่องมือที่คม"
+        }
+  ],
+    antonyms: ["smoothing","polishing"],
+    examples:   [
+        "The artist specialized in etching and printmaking.",
+        "The etching on the glass was delicate and intricate.",
+        "The craftsman used etching to create a design on the metal plate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'embed',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/əmˈbɛd/',
+    ipa_us: '/əmˈbɛd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to fix or place something firmly in a surrounding material or context",
+              "th": "ติดหรือวางบางสิ่งให้แน่นในเนื้อหาหรือบริบทที่ล้อมรอบ"
+        }
+  ],
+    antonyms: ["extract","remove"],
+    examples:   [
+        "The journalist tried to embed herself in the community to get a better story.",
+        "The company will embed a chip in the product to track its location.",
+        "The teacher embedded the video in the presentation to illustrate the point."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unencumbered',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌʌnɪnˈkʌmbəd/',
+    ipa_us: '/ˌʌnɪnˈkʌmbəd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not having or carrying any heavy or unwanted things, such as responsibilities or worries",
+              "th": "ไม่มีหรือพกพาสิ่งที่หนักหรือไม่พึงประสงค์ เช่น ความรับผิดชอบหรือความกังวล"
+        }
+  ],
+    antonyms: ["encumbered","burdened"],
+    examples:   [
+        "The hikers felt unencumbered and free as they walked through the forest.",
+        "The company was unencumbered by debt and was able to invest in new projects.",
+        "The artist worked unencumbered by traditional techniques and created something new."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
