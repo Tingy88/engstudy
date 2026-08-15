@@ -25,7 +25,7 @@ export default async function handler(req, res) {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${KEY}`, 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: "llama-3.3-70b-versatile",
+          model: "openai/gpt-oss-120b",
           messages: [{ role: "user", content: userText }],
           temperature: 0.4, max_tokens: 2048, response_format: { type: "json_object" }
         })
