@@ -32019,6 +32019,410 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'whistle',
+    level: 'B2',
+    partOfSpeech: ["verb [T]","noun"],
+    ipa_uk: '/wɪsl̩/',
+    ipa_us: '/wɪsl̩/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to make a high-pitched sound, typically to attract attention",
+              "th": "ทำให้เกิดเสียงสูงเพื่อดึงดูดความสนใจ"
+        },
+        {
+              "pos": "noun",
+              "en": "a high-pitched sound, typically made to attract attention",
+              "th": "เสียงสูงเพื่อดึงดูดความสนใจ"
+        }
+  ],
+    antonyms: ["silence","quiet"],
+    examples:   [
+        "The referee blew his whistle to stop the game.",
+        "She let out a loud whistle when she saw her favorite singer.",
+        "The sound of the whistle signaled the start of the race."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'marathon',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈmæɹəθən/',
+    ipa_us: '/ˈmæɹəθən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a long-distance running race, typically 42.195 kilometers",
+              "th": "การแข่งขันวิ่งระยะไกลที่มีระยะทางประมาณ 42.195 กิโลเมตร"
+        }
+  ],
+    antonyms: ["sprint","short distance"],
+    examples:   [
+        "She trained for months to run her first marathon.",
+        "The city hosts an annual marathon that attracts runners from all over the world.",
+        "Finishing a marathon is a significant achievement for any runner."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deduction',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪˈdʊkʃən/',
+    ipa_us: '/dɪˈdʊkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of reaching a conclusion by reasoning",
+              "th": "การหาข้อสรุปโดยใช้เหตุผล"
+        }
+  ],
+    antonyms: ["induction","assumption"],
+    examples:   [
+        "The detective used deduction to figure out who committed the crime.",
+        "The teacher encouraged her students to use deduction to solve the math problem.",
+        "The scientist made a deduction about the behavior of the animals based on her observations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'affordable',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈfɔː(ɹ).də.bəl/',
+    ipa_us: '/əˈfɔː(ɹ).də.bəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not expensive, able to be bought or paid for",
+              "th": "ไม่แพง สามารถซื้อหรือจ่ายได้"
+        }
+  ],
+    antonyms: ["expensive","unaffordable"],
+    examples:   [
+        "The new smartphone is affordable and has all the features I need.",
+        "The company aims to make healthcare more affordable for low-income families.",
+        "The affordable housing project provides cheap apartments for young professionals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'novelty',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈnɒvəlti/',
+    ipa_us: '/ˈnɒvəlti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being new and interesting",
+              "th": "คุณสมบัติของสิ่งที่ใหม่และน่าสนใจ"
+        }
+  ],
+    antonyms: ["ordinariness","familiarity"],
+    examples:   [
+        "The novelty of the new gadget wore off after a few days.",
+        "The company tries to keep its products fresh by introducing novelty items every season.",
+        "The novelty of traveling to a new country was exciting, but also overwhelming."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'boiling',
+    level: 'B2',
+    partOfSpeech: ["adjective","verb [I]"],
+    ipa_uk: '/ˈbɔɪlɪŋ/',
+    ipa_us: '/ˈbɔɪlɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "extremely angry",
+              "th": "โกรธมาก"
+        },
+        {
+              "pos": "verb [I]",
+              "en": "to reach or be at the temperature at which water turns into steam",
+              "th": "ถึงหรืออยู่ที่อุณหภูมิที่น้ำเปลี่ยนเป็นไอน้ำ"
+        }
+  ],
+    antonyms: ["freezing","cold"],
+    examples:   [
+        "The water is boiling, so be careful not to touch it.",
+        "She was boiling with anger when she heard the news.",
+        "The kettle started boiling, so I turned off the stove."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ambassador',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/æmˈbæs.ə.də(ɹ)/',
+    ipa_us: '/æmˈbæs.ə.də(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an official representative of a country or organization",
+              "th": "ตัวแทนอย่างเป็นทางการของประเทศหรือองค์กร"
+        }
+  ],
+    antonyms: ["opponent","enemy"],
+    examples:   [
+        "The ambassador of the United States met with the president of the host country.",
+        "She was appointed as an ambassador for the charity organization.",
+        "The brand ambassador promoted the product on social media."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'retreat',
+    level: 'B2',
+    partOfSpeech: ["verb [I]","noun"],
+    ipa_uk: '/ɹəˈtɹiːt/',
+    ipa_us: '/ɹəˈtɹiːt/',
+    meanings:   [
+        {
+              "pos": "verb [I]",
+              "en": "to move back or withdraw from a place or situation",
+              "th": "ถอยหลังหรือถอนตัวจากที่หรือสถานการณ์"
+        },
+        {
+              "pos": "noun",
+              "en": "a place where people can go to rest or escape from their usual activities",
+              "th": "สถานที่ที่ผู้คนสามารถไปพักผ่อนหรือหลบหนีจากกิจกรรมปกติ"
+        }
+  ],
+    antonyms: ["advance","approach"],
+    examples:   [
+        "The army was forced to retreat from the battlefield.",
+        "The company will hold a retreat for its employees in the mountains.",
+        "The family went on a retreat to the beach to relax and spend time together."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'remains',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɹɪˈmeɪnz/',
+    ipa_us: '/ɹɪˈmeɪnz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "what is left after something has been destroyed, used, or removed",
+              "th": "สิ่งที่เหลือหลังจากที่สิ่งใดสิ่งหนึ่งถูกทำลาย ใช้หรือเอาออก"
+        }
+  ],
+    antonyms: ["beginnings","start"],
+    examples:   [
+        "The remains of the ancient city were discovered by archaeologists.",
+        "The remains of the meal were thrown away.",
+        "The remains of the fire were still smoldering the next morning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'suspend',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/səˈspɛnd/',
+    ipa_us: '/səˈspɛnd/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to stop something from happening or being done for a period of time",
+              "th": "หยุดสิ่งใดสิ่งหนึ่งจากการเกิดขึ้นหรือทำเพื่อช่วงเวลาหนึ่ง"
+        }
+  ],
+    antonyms: ["resume","continue"],
+    examples:   [
+        "The company will suspend production until the issue is resolved.",
+        "The teacher suspended the student from school for a week.",
+        "The government suspended the law to help the affected areas."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'squash',
+    level: 'B2',
+    partOfSpeech: ["verb [T]","noun"],
+    ipa_uk: '/skwɒʃ/',
+    ipa_us: '/skwɒʃ/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to crush or flatten something",
+              "th": "บดหรือแบนราบสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a sport played in an indoor court with a small, hollow ball",
+              "th": "กีฬาที่เล่นในสนามในร่มด้วยลูกบอลที่กลวงเล็ก"
+        }
+  ],
+    antonyms: ["support","uphold"],
+    examples:   [
+        "The car squashed the can like it was a toy.",
+        "She loves to play squash on the weekends.",
+        "The bug was squashed by the shoe."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'originally',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈɹɪdʒnəli/',
+    ipa_us: '/əˈɹɪdʒnəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "at the beginning or in the early stages",
+              "th": "ในตอนต้นหรือในช่วงแรก"
+        }
+  ],
+    antonyms: ["finally","eventually"],
+    examples:   [
+        "The company was originally founded in 1990.",
+        "The plan was originally to go to the beach, but it rained.",
+        "The recipe was originally from my grandmother."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'qualification',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkwɒlɪfɪˈkeɪʃən/',
+    ipa_us: '/ˌkwɒlɪfɪˈkeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a quality or attribute that makes someone suitable for a particular job or activity",
+              "th": "คุณสมบัติหรือลักษณะที่ทำให้บุคคลเหมาะสมสำหรับงานหรือกิจกรรมเฉพาะ"
+        }
+  ],
+    antonyms: ["disqualification","inadequacy"],
+    examples:   [
+        "She has the necessary qualification to be a doctor.",
+        "The qualification for the scholarship is a GPA of 3.5 or higher.",
+        "The company looks for employees with the right qualification and experience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'orator',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɒ.ɹə.tə(ɹ)/',
+    ipa_us: '/ˈɒ.ɹə.tə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is skilled at public speaking",
+              "th": "บุคคลที่มีทักษะในการพูดต่อสาธารณะ"
+        }
+  ],
+    antonyms: ["listener","audience"],
+    examples:   [
+        "The orator delivered a powerful speech that moved the crowd.",
+        "She is a skilled orator and has given many lectures on the topic.",
+        "The orator's words were inspiring and motivated the audience to take action."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'research',
+    level: 'B2',
+    partOfSpeech: ["noun","verb [U]"],
+    ipa_uk: '/ɹɪˈsɜːtʃ/',
+    ipa_us: '/ɹɪˈsɜːtʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the systematic investigation into and study of materials and sources",
+              "th": "การสอบสวนและการศึกษาวัสดุและแหล่งที่มาอย่างเป็นระบบ"
+        },
+        {
+              "pos": "verb [U]",
+              "en": "to carry out a systematic investigation into and study of materials and sources",
+              "th": "ดำเนินการสอบสวนและการศึกษาวัสดุและแหล่งที่มาอย่างเป็นระบบ"
+        }
+  ],
+    antonyms: ["ignorance","neglect"],
+    examples:   [
+        "The research team spent months collecting data and analyzing the results.",
+        "She will research the topic and write a paper on it.",
+        "The company invests heavily in research and development to stay ahead of the competition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'despise',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/dɪˈspaɪz/',
+    ipa_us: '/dɪˈspaɪz/',
+    meanings:   [
+        {
+              "pos": "verb [T]",
+              "en": "to feel a strong dislike or hatred for someone or something",
+              "th": "รู้สึกไม่ชอบหรือเกลียดชังบุคคลหรือสิ่งใดสิ่งหนึ่ง"
+        }
+  ],
+    antonyms: ["admire","respect"],
+    examples:   [
+        "She despises people who lie and cheat.",
+        "He despises the idea of working in a cubicle all day.",
+        "The community despises the company for polluting the environment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pavement',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpeɪvmənt/',
+    ipa_us: '/ˈpeɪvmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a hard surface, especially one made of stone, concrete, or asphalt, for walking or driving on",
+              "th": "พื้นผิวที่แข็งแรง โดยเฉพาะพื้นผิวที่ทำจากหิน คอนกรีต หรือยางมะตอย สำหรับเดินหรือขับรถ"
+        }
+  ],
+    antonyms: ["dirt","gravel"],
+    examples:   [
+        "The pavement was wet and slippery after the rain.",
+        "The city is repairing the pavement on Main Street.",
+        "The children drew pictures on the pavement with chalk."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'entrepreneur',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌɒn.tɹə.pɹəˈnɜː/',
+    ipa_us: '/ˌɒn.tɹə.pɹəˈnɜː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who starts, organizes, and manages their own business",
+              "th": "บุคคลที่เริ่มต้น จัดระเบียบ และจัดการธุรกิจของตนเอง"
+        }
+  ],
+    antonyms: ["employee","worker"],
+    examples:   [
+        "She is a successful entrepreneur who founded her own company.",
+        "The entrepreneur invested all his savings in his new venture.",
+        "The entrepreneur's innovative idea led to the creation of a new industry."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
