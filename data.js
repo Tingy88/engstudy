@@ -32423,6 +32423,301 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'release',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɹɪˈliːs/',
+    ipa_us: '/ɹɪˈliːs/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something available to the public",
+              "th": "ปล่อยให้ใช้หรือเผยแพร่สู่สาธารณะ"
+        }
+  ],
+    antonyms: ["capture","withhold"],
+    examples:   [
+        "The company will release a new product next month.",
+        "The government released a statement about the crisis.",
+        "The artist will release her new album soon."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sympathy',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈsɪmpəθi/',
+    ipa_us: '/ˈsɪmpəθi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of pity or understanding for someone",
+              "th": "ความรู้สึกเห็นใจหรือเข้าใจผู้อื่น"
+        }
+  ],
+    antonyms: ["indifference","apathy"],
+    examples:   [
+        "I have a lot of sympathy for people who are struggling financially.",
+        "The family received many messages of sympathy after the loss of their loved one.",
+        "The charity aims to raise awareness and sympathy for the cause."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'companion',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/kəmˈpænjən/',
+    ipa_us: '/kəmˈpænjən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who accompanies someone",
+              "th": "คนที่ร่วมเดินทางหรือทำกิจกรรมด้วย"
+        }
+  ],
+    antonyms: ["stranger","loner"],
+    examples:   [
+        "My dog is a loyal companion and always stays by my side.",
+        "The travel company provides a companion for solo travelers.",
+        "She was a wonderful companion on our trip and made it very enjoyable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ecology',
+    level: 'B1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ɛˈkɒlədʒi/',
+    ipa_us: '/ɛˈkɒlədʒi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the study of the relationship between living things and their environment",
+              "th": "การศึกษาความสัมพันธ์ระหว่างสิ่งมีชีวิตและสิ่งแวดล้อม"
+        }
+  ],
+    antonyms: ["pollution","destruction"],
+    examples:   [
+        "The company is committed to protecting the ecology of the area.",
+        "The study of ecology is crucial for understanding the impact of human activity on the environment.",
+        "The university has a strong department of ecology and conservation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ruin',
+    level: 'B1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/ˈɹuː.ɪn/',
+    ipa_us: '/ˈɹuː.ɪn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to cause something to be completely destroyed or damaged",
+              "th": "ทำให้สิ่งใดสิ่งหนึ่งถูกทำลายหรือเสียหายอย่างสมบูรณ์"
+        }
+  ],
+    antonyms: ["restore","preserve"],
+    examples:   [
+        "The earthquake ruined the city and left many people homeless.",
+        "The company's reputation was ruined by the scandal.",
+        "The beautiful old building was left to ruin and is now a pile of rubble."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'institute',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ˈɪnstɪt(j)uːt/',
+    ipa_us: '/ˈɪnstɪt(j)uːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an organization that has a particular purpose or function",
+              "th": "องค์กรที่มีวัตถุประสงค์หรือหน้าที่เฉพาะ"
+        }
+  ],
+    antonyms: ["abolish","dissolve"],
+    examples:   [
+        "The university is a prestigious institute of higher learning.",
+        "The research institute is dedicated to finding a cure for the disease.",
+        "The government will institute new policies to address the economic crisis."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'characteristic',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˌkæɹəktəˈɹɪstɪk/',
+    ipa_us: '/ˌkæɹəktəˈɹɪstɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feature or quality that is typical of someone or something",
+              "th": "คุณลักษณะหรือคุณสมบัติที่เป็นแบบฉบับของใครบางคนหรือบางสิ่ง"
+        }
+  ],
+    antonyms: ["exception","anomaly"],
+    examples:   [
+        "Honesty is a characteristic that is highly valued in our company.",
+        "The characteristic of the species is its bright blue color.",
+        "The artist's use of bold colors is a characteristic of her style."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'underage',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌʌndəɹˈeɪdʒ/',
+    ipa_us: '/ˌʌndəɹˈeɪdʒ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "younger than the legal age",
+              "th": "อายุน้อยกว่าอายุตามกฎหมาย"
+        }
+  ],
+    antonyms: ["adult","of-age"],
+    examples:   [
+        "The underage driver was not allowed to drive the car.",
+        "The company does not sell alcohol to underage customers.",
+        "The underage student was not permitted to attend the concert."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rudely',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈɹuːdli/',
+    ipa_us: '/ˈɹuːdli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a rude or impolite way",
+              "th": "ในลักษณะที่หยาบคายหรือไม่สุภาพ"
+        }
+  ],
+    antonyms: ["politely","courteously"],
+    examples:   [
+        "The customer was treated rudely by the sales assistant.",
+        "He spoke rudely to his sister and made her cry.",
+        "The manager was rudely interrupted by the phone call."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'collar',
+    level: 'B1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈkɒl.ə/',
+    ipa_us: '/ˈkɒl.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the part of a shirt or dress that fits around the neck",
+              "th": "ส่วนของเสื้อหรือชุดที่พอดีกับลำคอ"
+        }
+  ],
+    antonyms: ["sleeve","hem"],
+    examples:   [
+        "The dog's collar was too tight and needed to be adjusted.",
+        "The shirt had a stiff collar that was uncomfortable to wear.",
+        "The police officer grabbed the suspect by the collar and pulled him away."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dull',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dəl/',
+    ipa_us: '/dəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not sharp or interesting",
+              "th": "ไม่มีความคมชัดหรือน่าสนใจ"
+        }
+  ],
+    antonyms: ["sharp","interesting"],
+    examples:   [
+        "The movie was dull and I fell asleep halfway through.",
+        "The teacher's dull voice put the students to sleep.",
+        "The dull weather made it a perfect day to stay indoors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'second',
+    level: 'B1',
+    partOfSpeech: ["noun [C]","adverb"],
+    ipa_uk: '/ˈsɛkɪnd/',
+    ipa_us: '/ˈsɛkɪnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a unit of time, equal to one-sixtieth of a minute",
+              "th": "หน่วยเวลา เท่ากับหนึ่งในหกสิบของนาที"
+        }
+  ],
+    antonyms: ["first","last"],
+    examples:   [
+        "I'll be with you in a second.",
+        "The athlete came in second in the competition.",
+        "The clock ticked away, second by second."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trustworthy',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈtɹʌst.wɜɹ.ði/',
+    ipa_us: '/ˈtɹʌst.wɜɹ.ði/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "deserving of trust or confidence",
+              "th": "สมควรได้รับความไว้วางใจหรือความเชื่อมั่น"
+        }
+  ],
+    antonyms: ["unreliable","untrustworthy"],
+    examples:   [
+        "He is a trustworthy friend and always keeps his promises.",
+        "The company is a trustworthy partner and has a good reputation.",
+        "The bank is a trustworthy institution and protects its customers' money."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disable',
+    level: 'B1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '[dɪsˈeɪbəɫ]',
+    ipa_us: '[dɪsˈeɪbəɫ]',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to make something unable to work or function",
+              "th": "ทำให้บางสิ่งไม่สามารถทำงานหรือใช้งานได้"
+        }
+  ],
+    antonyms: ["enable","activate"],
+    examples:   [
+        "The virus disabled the computer and made it unusable.",
+        "The injury disabled the athlete and prevented her from competing.",
+        "The company disabled the account due to suspicious activity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
