@@ -32718,6 +32718,227 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'squander',
+    level: 'C1',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈskwɒnd.ə/',
+    ipa_us: '/ˈskwɒnd.ə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to waste something, especially money or time, by spending or using it carelessly",
+              "th": "ใช้จ่ายหรือใช้เวลาที่มีอยู่อย่างฟุ้งเฟ้อหรือสิ้นเปลือง"
+        }
+  ],
+    antonyms: ["conserve","save"],
+    examples:   [
+        "The government has been accused of squandering public funds on unnecessary projects.",
+        "She squandered her inheritance on lavish vacations and luxury items.",
+        "The company squandered its resources on a failed marketing campaign."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fatigue',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/fəˈtiːɡ/',
+    ipa_us: '/fəˈtiːɡ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of extreme tiredness, especially because of hard work or exercise",
+              "th": "ความเหนื่อยล้าอย่างมาก โดยเฉพาะอย่างยิ่งเนื่องมาจากการทำงานหนักหรือออกกำลังกาย"
+        }
+  ],
+    antonyms: ["energy","vitality"],
+    examples:   [
+        "After working for 12 hours straight, I felt overwhelming fatigue.",
+        "The athlete's fatigue was evident as she struggled to finish the marathon.",
+        "The doctor warned that prolonged fatigue could be a sign of an underlying health issue."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'assertion',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/əˈsɜːʃən/',
+    ipa_us: '/əˈsɜːʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement or declaration that something is true",
+              "th": "ข้อความหรือคำประกาศที่ว่าบางสิ่งบางอย่างเป็นความจริง"
+        }
+  ],
+    antonyms: ["denial","retraction"],
+    examples:   [
+        "The company made a bold assertion that it would be profitable within a year.",
+        "Her assertion that she was innocent was met with skepticism by the jury.",
+        "The scientist's assertion that climate change is real was supported by overwhelming evidence."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'trauma',
+    level: 'C1',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/ˈtɹaʊ.mə/',
+    ipa_us: '/ˈtɹaʊ.mə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a very upsetting or disturbing experience, especially one that can cause psychological damage",
+              "th": "ประสบการณ์ที่ทำให้สะเทือนใจหรือรบกวนจิตใจ โดยเฉพาะอย่างยิ่งประสบการณ์ที่สามารถก่อให้เกิดความเสียหายทางจิตใจ"
+        }
+  ],
+    antonyms: ["comfort","solace"],
+    examples:   [
+        "The accident left her with physical and emotional trauma that took years to heal.",
+        "The trauma of losing a loved one can be overwhelming and difficult to cope with.",
+        "The therapist specialized in helping patients work through trauma and develop coping mechanisms."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lodge',
+    level: 'C1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/lɒdʒ/',
+    ipa_us: '/lɒdʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to provide someone with a place to stay, usually for a short time",
+              "th": "ให้ที่พักแก่ใครสักคน โดยทั่วไปเป็นระยะเวลาสั้นๆ"
+        },
+        {
+              "pos": "noun",
+              "en": "a building or house where people can stay, especially in a rural or natural area",
+              "th": "อาคารหรือบ้านที่คนสามารถพักได้ โดยเฉพาะอย่างยิ่งในพื้นที่ชนบทหรือธรรมชาติ"
+        }
+  ],
+    antonyms: ["evict","expel"],
+    examples:   [
+        "The hotel will lodge us for the duration of the conference.",
+        "The lodge in the mountains was a cozy retreat from the city.",
+        "The family decided to lodge a complaint with the management about the poor service."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'poise',
+    level: 'C1',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/pɔɪz/',
+    ipa_us: '/pɔɪz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of balance or stability, especially in a person's body or mind",
+              "th": "สภาพของความสมดุลหรือความมั่นคง โดยเฉพาะอย่างยิ่งในร่างกายหรือจิตใจของบุคคล"
+        }
+  ],
+    antonyms: ["clumsiness","awkwardness"],
+    examples:   [
+        "The dancer's poise and elegance on stage were impressive.",
+        "She maintained her poise even in the face of difficult questions from the interviewer.",
+        "The athlete's poise under pressure helped her win the championship."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bulk',
+    level: 'C1',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/bʌlk/',
+    ipa_us: '/bʌlk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large quantity of something, especially when it is considered as a whole",
+              "th": "ปริมาณมากของบางสิ่ง โดยเฉพาะอย่างยิ่งเมื่อถือเป็นหนึ่งเดียว"
+        }
+  ],
+    antonyms: ["smallness","minuteness"],
+    examples:   [
+        "The company buys its supplies in bulk to save money.",
+        "The bulk of the work was completed within the first few weeks of the project.",
+        "The bulk of the population lives in urban areas."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'apprentice',
+    level: 'C1',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/əˈpɹɛntɪs/',
+    ipa_us: '/əˈpɹɛntɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who is learning a trade or skill by working under the guidance of an experienced person",
+              "th": "บุคคลที่กำลังเรียนรู้อาชีพหรือทักษะโดยการทำงานภายใต้การแนะนำของบุคคลที่มีประสบการณ์"
+        }
+  ],
+    antonyms: ["master","expert"],
+    examples:   [
+        "The young apprentice learned the art of carpentry from his experienced mentor.",
+        "The company offers an apprentice program for recent graduates to gain work experience.",
+        "The apprentice worked hard to prove herself and eventually became a skilled craftsman."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'harvest',
+    level: 'C1',
+    partOfSpeech: ["verb [T]","noun [C]"],
+    ipa_uk: '/ˈhaːvəst/',
+    ipa_us: '/ˈhaːvəst/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to gather in crops, especially as a regular part of farming",
+              "th": "เก็บเกี่ยวพืชผล โดยเฉพาะอย่างยิ่งเป็นส่วนหนึ่งของการทำฟาร์ม"
+        },
+        {
+              "pos": "noun",
+              "en": "the time of year when crops are gathered in, or the crops that are gathered at this time",
+              "th": "ช่วงเวลาในหนึ่งปีที่พืชผลถูกเก็บเกี่ยว หรือพืชผลที่ถูกเก็บเกี่ยวในช่วงเวลานี้"
+        }
+  ],
+    antonyms: ["sow","plant"],
+    examples:   [
+        "The farmers harvest their crops in the fall, when they are ripe and ready to be picked.",
+        "The harvest festival is a celebration of the season's bounty and the hard work of the farmers.",
+        "The company will harvest the data from the survey to gain insights into consumer behavior."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discourse',
+    level: 'C1',
+    partOfSpeech: ["noun [C/U]"],
+    ipa_uk: '/dɪsˈkɔː(ɹ)s/',
+    ipa_us: '/dɪsˈkɔː(ɹ)s/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal and serious conversation or discussion, especially about a particular topic",
+              "th": "การคุยหรืออภิปรายอย่างเป็นทางการและจริงจัง โดยเฉพาะอย่างยิ่งเกี่ยวกับหัวข้อเฉพาะ"
+        }
+  ],
+    antonyms: ["monologue","soliloquy"],
+    examples:   [
+        "The academic discourse on the topic of climate change was lively and informative.",
+        "The discourse between the two leaders was tense, with both sides refusing to compromise.",
+        "The book is a discourse on the nature of reality, exploring the relationship between the physical and metaphysical worlds."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
