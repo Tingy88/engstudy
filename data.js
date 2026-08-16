@@ -33386,6 +33386,577 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'stove',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/stəʊv/',
+    ipa_us: '/stəʊv/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device for cooking",
+              "th": "เตา"
+        }
+  ],
+    antonyms: ["refrigerator","sink"],
+    examples:   [
+        "She cooked dinner on the stove.",
+        "The stove in our kitchen is very old.",
+        "Can you turn off the stove, please?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stomach',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈstʌmək/',
+    ipa_us: '/ˈstʌmək/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the organ in the body where food is digested",
+              "th": "ท้อง"
+        }
+  ],
+    antonyms: ["back","spine"],
+    examples:   [
+        "I have a pain in my stomach.",
+        "The stomach is a very important organ.",
+        "After eating, my stomach feels full."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soda',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsəʊdə/',
+    ipa_us: '/ˈsəʊdə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sweet, fizzy drink",
+              "th": "น้ำอัดลม"
+        }
+  ],
+    antonyms: ["water","juice"],
+    examples:   [
+        "I'd like a glass of soda, please.",
+        "Soda is not good for your teeth.",
+        "Can you pass me a soda from the fridge?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'online',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɒnˈlaɪn/',
+    ipa_us: '/ɒnˈlaɪn/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "connected to the internet",
+              "th": "ออนไลน์"
+        }
+  ],
+    antonyms: ["offline","disconnected"],
+    examples:   [
+        "I'm working online today.",
+        "You can buy tickets online.",
+        "The course is available online."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fisherman',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɪʃəmən/',
+    ipa_us: '/ˈfɪʃəmən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who catches fish for a living",
+              "th": "ชาวประมง"
+        }
+  ],
+    antonyms: ["farmer","engineer"],
+    examples:   [
+        "My father is a fisherman.",
+        "The fisherman caught a big fish.",
+        "The village is home to many fishermen."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'concern',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kənˈsɜːn/',
+    ipa_us: '/kənˈsɜːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a worry or problem",
+              "th": "ความกังวล"
+        },
+        {
+              "pos": "verb",
+              "en": "to worry about something",
+              "th": "กังวล"
+        }
+  ],
+    antonyms: ["relief","comfort"],
+    examples:   [
+        "I have a concern about the project.",
+        "The company's financial concern is growing.",
+        "Her concern for her family is admirable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lemon',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlɛmən/',
+    ipa_us: '/ˈlɛmən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a yellow citrus fruit",
+              "th": "มะนาว"
+        }
+  ],
+    antonyms: ["orange","apple"],
+    examples:   [
+        "I like to drink lemon juice.",
+        "The lemon tree in our garden is blooming.",
+        "Can you squeeze a lemon for me?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'comfortable',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈkʌm.fə.tə.bəl/',
+    ipa_us: '/ˈkʌm.fə.tə.bəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling relaxed and happy",
+              "th": "สบาย"
+        }
+  ],
+    antonyms: ["uncomfortable","tired"],
+    examples:   [
+        "This chair is very comfortable.",
+        "I feel comfortable in my new home.",
+        "The hotel room was comfortable and clean."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'polite',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pəˈlaɪt/',
+    ipa_us: '/pəˈlaɪt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having good manners",
+              "th": "สุภาพ"
+        }
+  ],
+    antonyms: ["rude","impolite"],
+    examples:   [
+        "He is a very polite person.",
+        "The polite waiter helped us with the menu.",
+        "It's polite to say thank you."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'most',
+    level: 'A2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈməʊst/',
+    ipa_us: '/ˈməʊst/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "the greatest amount or degree",
+              "th": "ส่วนใหญ่"
+        }
+  ],
+    antonyms: ["least","fewest"],
+    examples:   [
+        "I like reading the most.",
+        "Most people enjoy traveling.",
+        "This is the most beautiful city I've seen."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'childhood',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtʃaɪldhʊd/',
+    ipa_us: '/ˈtʃaɪldhʊd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the time of life when you are a child",
+              "th": "วัยเด็ก"
+        }
+  ],
+    antonyms: ["adulthood","old age"],
+    examples:   [
+        "My childhood was very happy.",
+        "Childhood memories are precious.",
+        "She had a difficult childhood."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'drive',
+    level: 'A2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɹaɪv/',
+    ipa_us: '/dɹaɪv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to operate a vehicle",
+              "th": "ขับรถ"
+        },
+        {
+              "pos": "noun",
+              "en": "a trip in a vehicle",
+              "th": "การเดินทาง"
+        }
+  ],
+    antonyms: ["walk","stop"],
+    examples:   [
+        "I love to drive on the highway.",
+        "The drive to the beach was long.",
+        "Can you drive me to the airport?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'surfing',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈsɝfɪŋ/',
+    ipa_us: '/ˈsɝfɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the sport of riding on waves",
+              "th": "การโต้คลื่น"
+        },
+        {
+              "pos": "verb",
+              "en": "to ride on waves",
+              "th": "โต้คลื่น"
+        }
+  ],
+    antonyms: ["swimming","diving"],
+    examples:   [
+        "Surfing is my favorite sport.",
+        "I'm going surfing this weekend.",
+        "She learned surfing in Hawaii."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'snack',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/snæk/',
+    ipa_us: '/snæk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small amount of food eaten between meals",
+              "th": "ของว่าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to eat a small amount of food",
+              "th": "กินของว่าง"
+        }
+  ],
+    antonyms: ["meal","feast"],
+    examples:   [
+        "I need a snack to keep me going.",
+        "The snack bar is open all day.",
+        "Let's snack on some fruit."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'direct',
+    level: 'A2',
+    partOfSpeech: ["adjective","verb","adverb"],
+    ipa_uk: '/d(a)ɪˈɹɛkt/',
+    ipa_us: '/d(a)ɪˈɹɛkt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "going straight to a place",
+              "th": "ตรง"
+        },
+        {
+              "pos": "verb",
+              "en": "to show or guide someone",
+              "th": "ชี้นำ"
+        },
+        {
+              "pos": "adverb",
+              "en": "in a straight line",
+              "th": "ตรงไป"
+        }
+  ],
+    antonyms: ["indirect","roundabout"],
+    examples:   [
+        "The direct flight takes 5 hours.",
+        "Can you direct me to the nearest hotel?",
+        "The bus goes direct to the city center."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gender',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈdʒɛndə/',
+    ipa_us: '/ˈdʒɛndə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being male or female",
+              "th": "เพศ"
+        }
+  ],
+    antonyms: ["age","nationality"],
+    examples:   [
+        "What is your gender?",
+        "The company promotes gender equality.",
+        "Gender is an important aspect of identity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fault',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/fɒlt/',
+    ipa_us: '/fɒlt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mistake or weakness",
+              "th": "ข้อผิดพลาด"
+        }
+  ],
+    antonyms: ["strength","perfection"],
+    examples:   [
+        "It's my fault that we're late.",
+        "The fault in the machine caused it to break.",
+        "She found fault with the restaurant's service."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'calendar',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkæl.ən.də/',
+    ipa_us: '/ˈkæl.ən.də/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a system of organizing days",
+              "th": "ปฏิทิน"
+        }
+  ],
+    antonyms: ["clock","timer"],
+    examples:   [
+        "I need to check my calendar.",
+        "The calendar on my phone is very useful.",
+        "Can you mark the date on the calendar?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'association',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˌsəʊsiˈeɪʃən/',
+    ipa_us: '/əˌsəʊsiˈeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of people with a common interest",
+              "th": "สมาคม"
+        }
+  ],
+    antonyms: ["competition","rivalry"],
+    examples:   [
+        "I'm a member of the football association.",
+        "The association helps people with disabilities.",
+        "The company is part of a trade association."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'earn',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɜːn/',
+    ipa_us: '/ɜːn/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to receive money for work",
+              "th": "ได้รับ"
+        }
+  ],
+    antonyms: ["spend","lose"],
+    examples:   [
+        "I earn a good salary.",
+        "She earns more than her husband.",
+        "You can earn money by working online."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'proper',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɹɔp.ə/',
+    ipa_us: '/ˈpɹɔp.ə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "correct or suitable",
+              "th": "เหมาะสม"
+        }
+  ],
+    antonyms: ["improper","incorrect"],
+    examples:   [
+        "This is the proper way to do it.",
+        "The proper use of the tool is important.",
+        "She has a proper understanding of the issue."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'barbecue',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈbɑːbɪˌkjuː/',
+    ipa_us: '/ˈbɑːbɪˌkjuː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a meal cooked outdoors",
+              "th": "อาหารปิ้งย่าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to cook food outdoors",
+              "th": "ปิ้งย่าง"
+        }
+  ],
+    antonyms: ["picnic","dinner"],
+    examples:   [
+        "We're having a barbecue this weekend.",
+        "I love to barbecue with my friends.",
+        "The smell of barbecue is delicious."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'championship',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtʃæmpi.ənʃɪp/',
+    ipa_us: '/ˈtʃæmpi.ənʃɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a competition to find the best",
+              "th": "การแข่งขันชิงแชมป์"
+        }
+  ],
+    antonyms: ["friendly match","exhibition"],
+    examples:   [
+        "The team won the championship.",
+        "The championship game was intense.",
+        "She's training for the championship."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'free',
+    level: 'A2',
+    partOfSpeech: ["adjective","adverb"],
+    ipa_uk: '/fɹiː/',
+    ipa_us: '/fɹiː/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not costing any money",
+              "th": "ฟรี"
+        },
+        {
+              "pos": "adverb",
+              "en": "without any cost",
+              "th": "ฟรี"
+        }
+  ],
+    antonyms: ["expensive","costly"],
+    examples:   [
+        "The museum is free on Sundays.",
+        "I got a free ticket to the concert.",
+        "You can download the app for free."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hug',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/hʌɡ/',
+    ipa_us: '/hʌɡ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an act of holding someone tightly",
+              "th": "การกอด"
+        },
+        {
+              "pos": "verb",
+              "en": "to hold someone tightly",
+              "th": "กอด"
+        }
+  ],
+    antonyms: ["push","reject"],
+    examples:   [
+        "I gave my mom a hug.",
+        "The hug from my friend made me feel better.",
+        "Can I get a hug from you?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
