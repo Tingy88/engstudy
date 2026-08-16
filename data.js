@@ -32939,6 +32939,453 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'donate',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/dəʊˈneɪt/',
+    ipa_us: '/dəʊˈneɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give something, especially money, to a charity or a good cause",
+              "th": "บริจาค"
+        }
+  ],
+    antonyms: ["withhold","refuse"],
+    examples:   [
+        "The billionaire donated millions to the local hospital.",
+        "She decided to donate her old clothes to the poor.",
+        "The company will donate a portion of its profits to environmental organizations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'condemn',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kənˈdɛm/',
+    ipa_us: '/kənˈdɛm/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to criticize or punish someone or something strongly",
+              "th": "ประณาม"
+        }
+  ],
+    antonyms: ["praise","approve"],
+    examples:   [
+        "The government condemned the terrorist attack on the city.",
+        "She condemned her brother's behavior as unacceptable.",
+        "The human rights organization condemned the use of child labor in the factory."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'compensate',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ˈkɒm.pən.seɪt/',
+    ipa_us: '/ˈkɒm.pən.seɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to pay someone money because they have suffered a loss or injury",
+              "th": "ชดเชย"
+        }
+  ],
+    antonyms: ["penalize","fine"],
+    examples:   [
+        "The company will compensate the employees for their overtime work.",
+        "The government will compensate the farmers for their crop losses due to the drought.",
+        "The insurance company will compensate the family for their medical expenses."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'exceed',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɪkˈsiːd/',
+    ipa_us: '/ɪkˈsiːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to be greater or more than something",
+              "th": "เกิน"
+        }
+  ],
+    antonyms: ["fall short","lack"],
+    examples:   [
+        "The company's profits exceeded their expectations this quarter.",
+        "The new policy aims to exceed the previous standards of quality and safety.",
+        "The athlete's performance exceeded the world record by a significant margin."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'prime',
+    level: 'B2',
+    partOfSpeech: ["adjective","noun","verb [T]"],
+    ipa_uk: '/pɹaɪ̯m/',
+    ipa_us: '/pɹaɪ̯m/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "of the best quality or importance",
+              "th": "ชั้นหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "the most active or powerful period of someone's life or career",
+              "th": "ช่วงเวลาแห่งความสำเร็จ"
+        }
+  ],
+    antonyms: ["secondary","inferior"],
+    examples:   [
+        "The prime minister is the head of the government.",
+        "The prime location of the hotel makes it an ideal choice for tourists.",
+        "The prime example of a successful entrepreneur is Steve Jobs."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fragrance',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈfɹeɪɡɹəns/',
+    ipa_us: '/ˈfɹeɪɡɹəns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a pleasant and sweet smell",
+              "th": "กลิ่นหอม"
+        }
+  ],
+    antonyms: ["stench","odor"],
+    examples:   [
+        "The fragrance of the perfume filled the room.",
+        "The fragrance of the flowers was intoxicating.",
+        "The new fragrance of the soap is very refreshing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'luxurious',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/lʌkˈsjʊɹ.i.əs/',
+    ipa_us: '/lʌkˈsjʊɹ.i.əs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very comfortable and expensive",
+              "th": "หรูหรา"
+        }
+  ],
+    antonyms: ["basic","simple"],
+    examples:   [
+        "The luxurious hotel room had a stunning view of the city.",
+        "The luxurious car was equipped with all the latest features.",
+        "The luxurious spa offered a range of treatments and massages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sharp',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʃɑːp/',
+    ipa_us: '/ʃɑːp/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a strong, clear, and clever quality",
+              "th": "คม"
+        }
+  ],
+    antonyms: ["dull","blunt"],
+    examples:   [
+        "The sharp knife cut through the rope easily.",
+        "The sharp mind of the detective helped solve the crime.",
+        "The sharp turn on the road was difficult to navigate."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'bio',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈbaɪəʊ/',
+    ipa_us: '/ˈbaɪəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a short description of someone's life and work",
+              "th": "ชีวประวัติ"
+        }
+  ],
+    antonyms: ["autobiography","memoir"],
+    examples:   [
+        "The bio of the famous scientist was very inspiring.",
+        "The bio of the artist was included in the exhibition catalog.",
+        "The bio of the politician was criticized for being too brief."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'payment',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈpeɪmənt/',
+    ipa_us: '/ˈpeɪmənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of paying someone or something",
+              "th": "การชำระเงิน"
+        }
+  ],
+    antonyms: ["refund","reimbursement"],
+    examples:   [
+        "The payment for the goods was made in cash.",
+        "The payment of the rent is due at the end of the month.",
+        "The payment system of the online store was very secure."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'audit',
+    level: 'B2',
+    partOfSpeech: ["noun [C]","verb [T]"],
+    ipa_uk: '/ɔː.dɪt/',
+    ipa_us: '/ɔː.dɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an official examination of an organization's or person's financial records",
+              "th": "การตรวจสอบ"
+        }
+  ],
+    antonyms: ["review","examination"],
+    examples:   [
+        "The company underwent an audit to ensure its financial records were accurate.",
+        "The auditor conducted an audit of the company's accounts.",
+        "The audit revealed some discrepancies in the financial statements."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'alongside',
+    level: 'B2',
+    partOfSpeech: ["preposition"],
+    ipa_uk: '/ə.lɒŋˈsaɪd/',
+    ipa_us: '/ə.lɒŋˈsaɪd/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "next to or together with something or someone",
+              "th": "ข้างๆ"
+        }
+  ],
+    antonyms: ["opposite","across"],
+    examples:   [
+        "The new building will be constructed alongside the existing one.",
+        "The teacher walked alongside the student, guiding them through the project.",
+        "The company will work alongside the government to develop the new policy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eagerly',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈiːɡəli/',
+    ipa_us: '/ˈiːɡəli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "with a strong and excited desire to do something",
+              "th": "อย่างกระตือรือร้น"
+        }
+  ],
+    antonyms: ["reluctantly","unwillingly"],
+    examples:   [
+        "The kids were eagerly waiting for Christmas morning.",
+        "The fans were eagerly anticipating the release of the new album.",
+        "The students were eagerly participating in the class discussion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ling',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/lɪŋ/',
+    ipa_us: '/lɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a type of fish",
+              "th": "ปลาลิง"
+        }
+  ],
+    antonyms: ["cod","haddock"],
+    examples:   [
+        "The ling is a popular fish in Scandinavian cuisine.",
+        "The ling is often served smoked or pickled.",
+        "The ling is a versatile fish that can be cooked in many ways."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'rusty',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɹʌsti/',
+    ipa_us: '/ˈɹʌsti/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "covered with or containing rust",
+              "th": "ผุ"
+        }
+  ],
+    antonyms: ["shiny","new"],
+    examples:   [
+        "The rusty gate creaked as it opened.",
+        "The rusty old car had been abandoned for years.",
+        "The rusty tools were no longer usable."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chew',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/tʃuː/',
+    ipa_us: '/tʃuː/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to bite and crush food with your teeth",
+              "th": "เคี้ยว"
+        }
+  ],
+    antonyms: ["swallow","gulp"],
+    examples:   [
+        "You need to chew your food slowly and carefully.",
+        "The dog likes to chew on bones.",
+        "The gum is designed to help you chew and freshen your breath."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'goat',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ɡɐ̟ʉt/',
+    ipa_us: '/ɡɐ̟ʉt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a mammal that is related to sheep and has a beard and horns",
+              "th": "แพะ"
+        }
+  ],
+    antonyms: ["sheep","cattle"],
+    examples:   [
+        "The goat climbed up the mountain with ease.",
+        "The goat is a symbol of agility and flexibility.",
+        "The goat's milk is used to make cheese and butter."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'softness',
+    level: 'B2',
+    partOfSpeech: ["noun [U]"],
+    ipa_uk: '/ˈsɑftnəs/',
+    ipa_us: '/ˈsɑftnəs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being soft and gentle",
+              "th": "ความนุ่ม"
+        }
+  ],
+    antonyms: ["hardness","roughness"],
+    examples:   [
+        "The softness of the blanket made it comfortable to snuggle up in.",
+        "The softness of the music created a relaxing atmosphere.",
+        "The softness of the skin was a result of regular moisturizing."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'laser',
+    level: 'B2',
+    partOfSpeech: ["noun [C]"],
+    ipa_uk: '/ˈleɪz.ə(ɹ)/',
+    ipa_us: '/ˈleɪz.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a device that produces a narrow beam of light",
+              "th": "เลเซอร์"
+        }
+  ],
+    antonyms: ["LED","incandescent"],
+    examples:   [
+        "The laser pointer was used to highlight the important points.",
+        "The laser surgery was a quick and painless procedure.",
+        "The laser printer produced high-quality documents."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'revolve',
+    level: 'B2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/ɹɪˈvɒlv/',
+    ipa_us: '/ɹɪˈvɒlv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to move or cause something to move in a circle around a central point",
+              "th": "หมุน"
+        }
+  ],
+    antonyms: ["stop","stand still"],
+    examples:   [
+        "The Earth revolves around the Sun.",
+        "The wheels of the car revolve as it moves.",
+        "The issues revolve around the need for more funding."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'impatiently',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɪmˈpeɪʃəntli/',
+    ipa_us: '/ɪmˈpeɪʃəntli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a way that shows you are impatient",
+              "th": "อย่างไม่อดทน"
+        }
+  ],
+    antonyms: ["patiently","calmly"],
+    examples:   [
+        "She waited impatiently for the bus to arrive.",
+        "He tapped his foot impatiently, waiting for the meeting to start.",
+        "The kids looked at their parents impatiently, eager to open their presents."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
