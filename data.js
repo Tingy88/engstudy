@@ -33957,6 +33957,316 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'occupant',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɒk.jʊ.pənt/',
+    ipa_us: '/ˈɒk.jʊ.pənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who lives or works in a building or vehicle",
+              "th": "ผู้ที่อาศัยหรือทำงานในอาคารหรือยานพาหนะ"
+        }
+  ],
+    antonyms: ["vacant","unoccupied"],
+    examples:   [
+        "The occupant of the house was a kind old man.",
+        "The driver and all occupants of the car were injured in the crash.",
+        "Please ensure that all occupants of the building evacuate immediately in case of a fire."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'veneration',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌvɛnəˈɹeɪʃən/',
+    ipa_us: '/ˌvɛnəˈɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of great respect and admiration",
+              "th": "ความรู้สึกของการเคารพและชื่นชมอย่างมาก"
+        }
+  ],
+    antonyms: ["disrespect","contempt"],
+    examples:   [
+        "The people of the town have a deep veneration for their ancestors.",
+        "The veneration of the saint was evident in the grand procession.",
+        "Her veneration for the artist only grew stronger after seeing his latest exhibition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'advisory',
+    level: 'C1',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ədˈvaɪzəɹi/',
+    ipa_us: '/ədˈvaɪzəɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "giving advice or recommendations",
+              "th": "ให้คำแนะนำหรือคำแนะนำ"
+        },
+        {
+              "pos": "noun",
+              "en": "a group of people who give advice",
+              "th": "กลุ่มคนที่ให้คำแนะนำ"
+        }
+  ],
+    antonyms: ["mandatory","obligatory"],
+    examples:   [
+        "The company has an advisory board that meets quarterly to discuss strategy.",
+        "The advisory role is to provide guidance and support to the team.",
+        "The government issued an advisory warning about the potential dangers of the new policy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'repel',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹɪˈpɛl/',
+    ipa_us: '/ɹɪˈpɛl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to drive or keep away, often in a forceful or violent manner",
+              "th": "ขับไล่หรือป้องกันไม่ให้เข้าใกล้ โดยมักใช้กำลังหรือความรุนแรง"
+        }
+  ],
+    antonyms: ["attract","draw"],
+    examples:   [
+        "The strong smell of the insect repellent helped to repel mosquitoes.",
+        "The country's military was able to repel the invasion.",
+        "The negative attitude of the staff did much to repel potential customers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'shambles',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈʃæmbl̩z/',
+    ipa_us: '/ˈʃæmbl̩z/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a state of complete disorder or confusion",
+              "th": "สภาพที่ไม่มีระเบียบหรือสับสนอย่างมาก"
+        }
+  ],
+    antonyms: ["order","organization"],
+    examples:   [
+        "After the hurricane, the town was left in shambles.",
+        "The company's finances were in shambles due to poor management.",
+        "The room was in shambles after the party, with trash and broken items everywhere."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'preach',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/pɹiːt͡ʃ/',
+    ipa_us: '/pɹiːt͡ʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give a sermon or talk about something, often in a way that is intended to persuade or advise",
+              "th": "พูดหรือให้คำแนะนำเกี่ยวกับบางสิ่ง โดยมักตั้งใจเพื่อชักชวนหรือให้คำแนะนำ"
+        }
+  ],
+    antonyms: ["listen","remain silent"],
+    examples:   [
+        "The minister will preach at the Sunday service.",
+        "She likes to preach to her friends about the importance of healthy eating.",
+        "The activist went on stage to preach about the need for environmental action."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'gape',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɡeɪp/',
+    ipa_us: '/ˈɡeɪp/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to open your mouth wide, often in surprise or shock",
+              "th": "เปิดปากกว้าง โดยมักเป็นเพราะความประหลาดใจหรือตกใจ"
+        }
+  ],
+    antonyms: ["close","shut"],
+    examples:   [
+        "She gaped at the stunning view from the top of the mountain.",
+        "The audience gaped in amazement at the magician's trick.",
+        "He gaped in horror at the scene of the accident."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'flashback',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈflæʃbæk/',
+    ipa_us: '/ˈflæʃbæk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a scene or image from the past that appears suddenly in your mind",
+              "th": "ฉากหรือภาพจากอดีตที่ปรากฏขึ้นในใจของคุณอย่าง突然"
+        }
+  ],
+    antonyms: ["flashforward","prediction"],
+    examples:   [
+        "The smell of the old book triggered a flashback to her childhood.",
+        "The movie used flashbacks to tell the story of the character's past.",
+        "The sound of the song brought on a flashback to her first love."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'conceivable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kənˈsiːvəbl̩/',
+    ipa_us: '/kənˈsiːvəbl̩/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "possible to imagine or think of",
+              "th": "สามารถจินตนาการหรือคิดได้"
+        }
+  ],
+    antonyms: ["inconceivable","unthinkable"],
+    examples:   [
+        "It's conceivable that the new policy could lead to significant economic growth.",
+        "The idea of traveling to Mars is conceivable with current technology.",
+        "The possibility of a cure for the disease is conceivable in the near future."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'clutter',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈklʌtə(ɹ)/',
+    ipa_us: '/ˈklʌtə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large number of things that are scattered or disorganized in a place",
+              "th": "จำนวนมากของสิ่งที่กระจายหรือไม่มีระเบียบในสถานที่"
+        },
+        {
+              "pos": "verb",
+              "en": "to fill or cover something with a large number of things, making it disorganized or untidy",
+              "th": "เติมหรือปกคลุมบางสิ่งด้วยจำนวนมากของสิ่ง โดยทำให้ไม่มีระเบียบหรือไม่เรียบร้อย"
+        }
+  ],
+    antonyms: ["order","tidiness"],
+    examples:   [
+        "The room was filled with clutter, making it hard to move around.",
+        "She spent the day cluttering up the garage with boxes and old furniture.",
+        "The desk was cluttered with papers, pens, and empty coffee cups."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vegetation',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌvɛd͡ʒəˈteɪʃən/',
+    ipa_us: '/ˌvɛd͡ʒəˈteɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "plants, such as trees, grass, and flowers, that grow in a particular area",
+              "th": "พืช เช่น ต้นไม้ หญ้า และดอกไม้ ที่เติบโตในพื้นที่ใดพื้นที่หนึ่ง"
+        }
+  ],
+    antonyms: ["barrenness","desolation"],
+    examples:   [
+        "The park is filled with lush vegetation, making it a popular spot for picnics.",
+        "The area was once a desert, but after irrigation, it became covered in vegetation.",
+        "The unique vegetation of the island is home to many endemic species."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'voluntary',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈvɒ.lən.tɹi/',
+    ipa_us: '/ˈvɒ.lən.tɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "done or given because someone wants to, not because they have to",
+              "th": "ทำหรือให้เพราะต้องการ ไม่ใช่เพราะจำเป็นต้องทำ"
+        }
+  ],
+    antonyms: ["involuntary","mandatory"],
+    examples:   [
+        "The voluntary work at the animal shelter was rewarding and fun.",
+        "She made a voluntary donation to the charity.",
+        "The company offers voluntary retirement packages to its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'contractor',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɒnˌtɹæk.tə(ɹ)/',
+    ipa_us: '/ˈkɒnˌtɹæk.tə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person or company that undertakes a contract to provide materials or labor",
+              "th": "บุคคลหรือบริษัทที่ทำสัญญาเพื่อจัดหาวัสดุหรือแรงงาน"
+        }
+  ],
+    antonyms: ["client","employer"],
+    examples:   [
+        "The contractor was hired to build the new house.",
+        "The company hired a contractor to fix the broken elevator.",
+        "The government awarded the contract to the lowest bidder, a small contractor from the local area."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'chisel',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈtʃɪzəl/',
+    ipa_us: '/ˈtʃɪzəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a tool with a flat, sharp blade, used for cutting or shaping stone, wood, or metal",
+              "th": "เครื่องมือที่มีใบมีดแบนและคม ใช้สำหรับตัดหรือตกแต่งหิน ไม้ หรือโลหะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to cut or shape something using a chisel",
+              "th": "ตัดหรือตกแต่งบางสิ่งโดยใช้เครื่องมือตกแต่ง"
+        }
+  ],
+    antonyms: ["smooth","polish"],
+    examples:   [
+        "The sculptor used a chisel to create the intricate details on the statue.",
+        "He chiseled away at the stone for hours to create the perfect shape.",
+        "The carpenter used a chisel to remove the old finish from the wood."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
