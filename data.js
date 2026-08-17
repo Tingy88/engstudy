@@ -34267,6 +34267,525 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'carton',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɑːtn̩/',
+    ipa_us: '/ˈkɑːtn̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a box made of cardboard or plastic",
+              "th": "กล่องกระดาษหรือพลาสติก"
+        }
+  ],
+    antonyms: ["bag","sack"],
+    examples:   [
+        "The carton of eggs was broken on the floor.",
+        "She packed her belongings in a carton to move to a new house.",
+        "The carton of juice was almost empty."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hanging',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ˈhæŋɪŋ/',
+    ipa_us: '/ˈhæŋɪŋ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to suspend something in the air",
+              "th": "แขวนหรือลटकับสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "a decoration or picture on a wall",
+              "th": "สิ่งประดับหรือรูปภาพบนผนัง"
+        }
+  ],
+    antonyms: ["standing","lying"],
+    examples:   [
+        "The picture was hanging on the wall.",
+        "She was hanging the laundry outside to dry.",
+        "The hanging gardens were a beautiful sight."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'climate',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈklaɪmɪt/',
+    ipa_us: '/ˈklaɪmɪt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the weather conditions in a particular place",
+              "th": "สภาพอากาศในบริเวณใดบริเวณหนึ่ง"
+        }
+  ],
+    antonyms: ["weather","atmosphere"],
+    examples:   [
+        "The climate in Hawaii is warm and sunny.",
+        "The company is trying to reduce its carbon footprint to combat climate change.",
+        "The climate in the mountains is cold and snowy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'name',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/neɪm/',
+    ipa_us: '/neɪm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a word or phrase that identifies a person or thing",
+              "th": "คำหรือวลีที่ใช้เรียกบุคคลหรือสิ่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to give a name to someone or something",
+              "th": "ตั้งชื่อให้กับบุคคลหรือสิ่ง"
+        }
+  ],
+    antonyms: ["anonymous","unknown"],
+    examples:   [
+        "What is your name?",
+        "The company will name a new CEO next week.",
+        "The baby's name is Emily."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'paradise',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpæ.ɹə.daɪs/',
+    ipa_us: '/ˈpæ.ɹə.daɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place or situation that is extremely pleasant",
+              "th": "สถานที่หรือสถานการณ์ที่ดีมาก"
+        }
+  ],
+    antonyms: ["hell","nightmare"],
+    examples:   [
+        "The island was a paradise for honeymooners.",
+        "The park was a paradise for children to play.",
+        "The new restaurant was a paradise for foodies."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'limited',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈlɪmɪtɪd/',
+    ipa_us: '/ˈlɪmɪtɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "restricted or confined in some way",
+              "th": "ถูกจำกัดหรือควบคุมในบางด้าน"
+        }
+  ],
+    antonyms: ["unlimited","infinite"],
+    examples:   [
+        "The limited edition of the book sold out quickly.",
+        "The company has limited resources to invest in new projects.",
+        "The limited time offer was only available for a few days."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pregnant',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɹɛɡnənt/',
+    ipa_us: '/ˈpɹɛɡnənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "having a baby developing inside the womb",
+              "th": "มีทารกอยู่ในครรภ์"
+        }
+  ],
+    antonyms: ["not pregnant","infertile"],
+    examples:   [
+        "The pregnant woman was taking prenatal classes.",
+        "She was pregnant with her first child.",
+        "The pregnant cat was about to give birth."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'steadily',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈstɛdɪli/',
+    ipa_us: '/ˈstɛdɪli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a steady and consistent manner",
+              "th": "ด้วยความสม่ำเสมอและต่อเนื่อง"
+        }
+  ],
+    antonyms: ["unsteadily","erratically"],
+    examples:   [
+        "The company's sales have been increasing steadily over the years.",
+        "She worked steadily throughout the night to finish the project.",
+        "The economy has been growing steadily since the recession."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'approximately',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/əˈpɹɒk.sɪ.mət.li/',
+    ipa_us: '/əˈpɹɒk.sɪ.mət.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "close to a certain value or amount",
+              "th": "ใกล้เคียงกับค่าหรือจำนวนใดจำนวนหนึ่ง"
+        }
+  ],
+    antonyms: ["exactly","precisely"],
+    examples:   [
+        "The population of the city is approximately one million.",
+        "The cost of the project was approximately ten thousand dollars.",
+        "The distance between the two cities is approximately five hundred miles."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hesitate',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈhɛzɪteɪt/',
+    ipa_us: '/ˈhɛzɪteɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to pause or be uncertain about what to do",
+              "th": "หยุดชั่วคราวหรือไม่แน่ใจว่าจะทำอะไร"
+        }
+  ],
+    antonyms: ["decide","act"],
+    examples:   [
+        "She hesitated for a moment before making the decision.",
+        "He hesitated to ask for help because he was afraid of being rejected.",
+        "The company hesitated to invest in the new project due to the high risk."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'medium',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈmiːdɪəm/',
+    ipa_us: '/ˈmiːdɪəm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a middle point or position",
+              "th": "จุดกึ่งกลางหรือตำแหน่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "average or moderate in size, amount, or degree",
+              "th": "ปานกลางหรือสมดุลในขนาด, จำนวน, หรือระดับ"
+        }
+  ],
+    antonyms: ["small","large"],
+    examples:   [
+        "The medium size shirt fit her perfectly.",
+        "The company uses social media as a medium to communicate with customers.",
+        "The medium of instruction in the school is English."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'packing',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpakɪŋ/',
+    ipa_us: '/ˈpakɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of putting things into a container or bag",
+              "th": "การใส่สิ่งของลงในภาชนะหรือถุง"
+        },
+        {
+              "pos": "verb",
+              "en": "to put things into a container or bag",
+              "th": "ใส่สิ่งของลงในภาชนะหรือถุง"
+        }
+  ],
+    antonyms: ["unpacking","unloading"],
+    examples:   [
+        "The packing of the boxes took a long time.",
+        "She was packing her luggage for the trip.",
+        "The packing material was made of recycled paper."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'excellence',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛksələns/',
+    ipa_us: '/ˈɛksələns/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the quality of being extremely good or superior",
+              "th": "คุณภาพที่ดีมากหรือเหนือกว่า"
+        }
+  ],
+    antonyms: ["mediocrity","poor quality"],
+    examples:   [
+        "The company strives for excellence in all its products.",
+        "The excellence of the university is recognized worldwide.",
+        "The award was given to recognize excellence in teaching."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'recover',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹɪˈkʌvə/',
+    ipa_us: '/ɹɪˈkʌvə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become healthy or strong again",
+              "th": "ฟื้นตัวหรือกลับมามีสุขภาพดีหรือแข็งแรงอีกครั้ง"
+        }
+  ],
+    antonyms: ["worsen","deteriorate"],
+    examples:   [
+        "She will recover from the illness soon.",
+        "The economy is expected to recover next year.",
+        "The patient took a long time to recover from the surgery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'consumer',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kənˈsjuːmə/',
+    ipa_us: '/kənˈsjuːmə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who buys and uses goods or services",
+              "th": "บุคคลที่ซื้อและใช้สินค้าหรือบริการ"
+        }
+  ],
+    antonyms: ["producer","manufacturer"],
+    examples:   [
+        "The consumer protection agency helps to protect the rights of consumers.",
+        "The company is trying to understand the needs of its consumers.",
+        "The consumer market is a major driver of the economy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'link',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/lɪŋk/',
+    ipa_us: '/lɪŋk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a connection or relationship between two or more things",
+              "th": "ความเชื่อมโยงหรือความสัมพันธ์ระหว่างสิ่งสองสิ่งหรือมากกว่า"
+        },
+        {
+              "pos": "verb",
+              "en": "to connect or join two or more things",
+              "th": "เชื่อมโยงหรือรวมสิ่งสองสิ่งหรือมากกว่า"
+        }
+  ],
+    antonyms: ["separate","disconnect"],
+    examples:   [
+        "The link between the two companies is very strong.",
+        "The website provides a link to the online store.",
+        "The link between the two cities is by bus or train."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'discovery',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dɪsˈkʌvəɹi/',
+    ipa_us: '/dɪsˈkʌvəɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of finding or learning something new",
+              "th": "การค้นพบหรือเรียนรู้สิ่งใหม่"
+        }
+  ],
+    antonyms: ["loss","ignorance"],
+    examples:   [
+        "The discovery of the new planet was a major breakthrough.",
+        "The discovery of the cure for the disease was a significant achievement.",
+        "The discovery of the ancient city was a remarkable find."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'numerous',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈnjuːməɹəs/',
+    ipa_us: '/ˈnjuːməɹəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "existing or occurring in large numbers",
+              "th": "มีอยู่หรือเกิดขึ้นในจำนวนมาก"
+        }
+  ],
+    antonyms: ["few","scarce"],
+    examples:   [
+        "There are numerous benefits to exercising regularly.",
+        "The company has numerous branches around the world.",
+        "The city has numerous museums and art galleries."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fix',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈfɪks/',
+    ipa_us: '/ˈfɪks/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to repair or mend something that is broken or damaged",
+              "th": "ซ่อมแซมหรือแก้ไขสิ่งที่เสียหายหรือชำรุด"
+        }
+  ],
+    antonyms: ["break","damage"],
+    examples:   [
+        "Can you fix the broken chair?",
+        "The mechanic will fix the car's engine.",
+        "The IT team will fix the computer's software issue."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'honestly',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈɒnɪstli/',
+    ipa_us: '/ˈɒnɪstli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in a truthful and sincere manner",
+              "th": "ด้วยความจริงใจและซื่อสัตย์"
+        }
+  ],
+    antonyms: ["dishonestly","deceitfully"],
+    examples:   [
+        "I honestly don't know the answer to that question.",
+        "She spoke honestly about her feelings.",
+        "The company honestly tries to provide the best service possible."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'back',
+    level: 'B1',
+    partOfSpeech: ["adverb","noun"],
+    ipa_uk: '/bæk/',
+    ipa_us: '/bæk/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "to or in a place that is behind something",
+              "th": "ไปที่หรือในสถานที่ที่อยู่ด้านหลังของสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "noun",
+              "en": "the rear part of the body",
+              "th": "ส่วนหลังของร่างกาย"
+        }
+  ],
+    antonyms: ["front","forward"],
+    examples:   [
+        "Can you go back to the beginning of the story?",
+        "The back of the house is where the garden is.",
+        "She has a pain in her back."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'inscription',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪnˈskɹɪpʃən/',
+    ipa_us: '/ɪnˈskɹɪpʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a message or words written or carved on a surface",
+              "th": "ข้อความหรือคำที่เขียนหรือแกะสลักบนพื้นผิว"
+        }
+  ],
+    antonyms: ["erasure","deletion"],
+    examples:   [
+        "The inscription on the tombstone was a poem.",
+        "The inscription on the medal was the winner's name.",
+        "The inscription on the wall was a quote from a famous person."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'top',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/tɒp/',
+    ipa_us: '/tɒp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the highest or uppermost part of something",
+              "th": "ส่วนบนหรือส่วนบนสุดของสิ่งใดสิ่งหนึ่ง"
+        },
+        {
+              "pos": "adjective",
+              "en": "of the highest quality or rank",
+              "th": "มีคุณภาพหรืออันดับสูงสุด"
+        }
+  ],
+    antonyms: ["bottom","lowest"],
+    examples:   [
+        "The top of the mountain was covered in snow.",
+        "The top student in the class was awarded a scholarship.",
+        "The top priority is to finish the project on time."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
