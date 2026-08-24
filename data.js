@@ -34786,6 +34786,28 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'relegate',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɹɛlɪɡeɪt/',
+    ipa_us: '/ˈɹɛlɪɡeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to assign to a lower position or rank",
+              "th": "ย้ายตำแหน่งลงระดับต่ำกว่า"
+        }
+  ],
+    antonyms: ["promote","elevate"],
+    examples:   [
+        "The committee decided to relegate the controversial proposal to the next meeting.",
+        "She was relegated to a junior role after the restructuring.",
+        "He felt humbled when his achievements were relegated to a footnote."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
