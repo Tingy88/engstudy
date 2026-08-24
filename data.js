@@ -34935,6 +34935,154 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'subsidize',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈsʌbsɪdaɪz/',
+    ipa_us: '/ˈsʌbsɪdaɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to support financially, especially by providing a grant or aid",
+              "th": "ให้เงินสนับสนุน"
+        }
+  ],
+    antonyms: ["defund","withdraw"],
+    examples:   [
+        "The government decided to subsidize renewable energy projects to reduce carbon emissions.",
+        "Many students rely on scholarships that subsidize their tuition fees.",
+        "The company subsidized the cost of public transportation for its employees."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vandal',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvændəl/',
+    ipa_us: '/ˈvændəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who deliberately destroys or damages property",
+              "th": "ผู้ทำลายทรัพย์สินโดยเจตนา"
+        }
+  ],
+    antonyms: ["preserver","caretaker"],
+    examples:   [
+        "The park was defaced overnight by a vandal who spray‑painted graffiti on the benches.",
+        "Local authorities increased patrols after a series of vandal attacks on historic monuments.",
+        "She caught the vandal in the act and called the police."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'brink',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/bɹɪŋk/',
+    ipa_us: '/bɹɪŋk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the edge or point at which something begins or is about to happen",
+              "th": "ขอบ, จุดเริ่มต้น"
+        }
+  ],
+    antonyms: ["center","middle"],
+    examples:   [
+        "The country teetered on the brink of economic collapse.",
+        "She stood on the brink of a major scientific breakthrough.",
+        "The hikers paused at the brink of the canyon to admire the view."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'brevity',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈbɹɛvəti/',
+    ipa_us: '/ˈbɹɛvəti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "concise and exact use of words in writing or speech",
+              "th": "ความกระชับ"
+        }
+  ],
+    antonyms: ["verbosity","wordiness"],
+    examples:   [
+        "The speaker was praised for the brevity of his presentation.",
+        "In legal documents, brevity can prevent misunderstandings.",
+        "She admired the poet's ability to convey emotion with such brevity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'redundant',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɹɪˈdʌn.dənt/',
+    ipa_us: '/ɹɪˈdʌn.dənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "exceeding what is necessary; superfluous",
+              "th": "ซ้ำซ้อน, ไม่จำเป็น"
+        }
+  ],
+    antonyms: ["essential","necessary"],
+    examples:   [
+        "The report contained several redundant paragraphs that were later removed.",
+        "Modern smartphones have redundant safety features to prevent data loss.",
+        "He felt his role had become redundant after the merger."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ephemeral',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈfɛ.mə.ɹəl/',
+    ipa_us: '/əˈfɛ.mə.ɹəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "lasting for a very short time; fleeting",
+              "th": "สั้นๆ, ชั่วคราว"
+        }
+  ],
+    antonyms: ["permanent","lasting"],
+    examples:   [
+        "The beauty of a sunrise is inherently ephemeral.",
+        "Social media trends are often ephemeral, disappearing within days.",
+        "She cherished the ephemeral moments of childhood."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'posture',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɒstʃə/',
+    ipa_us: '/ˈpɒstʃə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the position in which someone holds their body; a particular attitude or bearing",
+              "th": "ท่าทาง"
+        }
+  ],
+    antonyms: ["slouch","misalignment"],
+    examples:   [
+        "Good posture can prevent back pain during long hours at a desk.",
+        "His confident posture conveyed authority during the negotiation.",
+        "The yoga instructor corrected the student's posture to improve balance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
