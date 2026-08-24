@@ -34808,6 +34808,133 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'I',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/aɪ/',
+    ipa_us: '/aɪ/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "the speaker referring to themselves",
+              "th": "ฉัน"
+        }
+  ],
+    antonyms: ["you","they"],
+    examples:   [
+        "I am going to the store.",
+        "I love reading books.",
+        "I will call you tomorrow."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'classroom',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈklɑːsɹʊm/',
+    ipa_us: '/ˈklɑːsɹʊm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a room where teaching takes place",
+              "th": "ห้องเรียน"
+        }
+  ],
+    antonyms: ["hallway","playground"],
+    examples:   [
+        "The teacher entered the classroom early.",
+        "Students must keep the classroom clean.",
+        "We have math in the classroom at 10 a.m."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soccer',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɒk.ə/',
+    ipa_us: '/ˈsɒk.ə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sport played with a round ball that is kicked",
+              "th": "ฟุตบอล"
+        }
+  ],
+    antonyms: ["cricket","hockey"],
+    examples:   [
+        "Soccer is popular worldwide.",
+        "He scored the winning goal in soccer.",
+        "We play soccer after school on the field."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'due',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/dʒʉː/',
+    ipa_us: '/dʒʉː/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "expected to happen or arrive",
+              "th": "กำหนด"
+        }
+  ],
+    antonyms: ["early","unexpected"],
+    examples:   [
+        "The train is due at 6 pm.",
+        "Your assignment is due tomorrow.",
+        "She is due to start her new job next week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'anybody',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/ˈɛn.i.bɒd.i/',
+    ipa_us: '/ˈɛn.i.bɒd.i/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "any person",
+              "th": "ใครก็ได้"
+        }
+  ],
+    antonyms: ["nobody","everyone"],
+    examples:   [
+        "Anybody can join the club.",
+        "If anybody calls, tell them I'm busy.",
+        "Is there anybody who needs help?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'he',
+    level: 'A1',
+    partOfSpeech: ["pronoun"],
+    ipa_uk: '/hi/',
+    ipa_us: '/hi/',
+    meanings:   [
+        {
+              "pos": "pronoun",
+              "en": "used to refer to a male person",
+              "th": "เขา"
+        }
+  ],
+    antonyms: ["she","they"],
+    examples:   [
+        "He is reading a book.",
+        "He will arrive at noon.",
+        "I saw him at the park."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
