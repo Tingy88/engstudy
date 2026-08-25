@@ -35514,6 +35514,75 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'hibernation',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌhaɪ.bəːˈneɪ.ʃən/',
+    ipa_us: '/ˌhaɪ.bəːˈneɪ.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "A state of inactivity and metabolic depression in animals during winter.",
+              "th": "สภาวะการหยุดกิจกรรมและการลดการเผาผลาญของสัตว์ในช่วงฤดูหนาว"
+        }
+  ],
+    antonyms: ["activity","wakefulness"],
+    examples:   [
+        "The bear entered hibernation as the first snow fell.",
+        "Scientists study hibernation to understand how metabolism can be slowed safely.",
+        "During hibernation the squirrel's heart rate drops dramatically."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'puzzle',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpʌzəl/',
+    ipa_us: '/ˈpʌzəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "A game, problem, or toy that tests ingenuity or knowledge.",
+              "th": "ปริศนา"
+        },
+        {
+              "pos": "verb",
+              "en": "To cause someone to be confused or perplexed.",
+              "th": "ทำให้สับสน"
+        }
+  ],
+    antonyms: ["solution","clarify"],
+    examples:   [
+        "The crossword puzzle kept her occupied on the rainy afternoon.",
+        "His cryptic email puzzled everyone in the office.",
+        "She enjoys solving puzzles that require logical reasoning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'smug',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/smʌɡ/',
+    ipa_us: '/smʌɡ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "Having or showing excessive pride in oneself or one's achievements.",
+              "th": "อวดดี"
+        }
+  ],
+    antonyms: ["humble","modest"],
+    examples:   [
+        "He gave a smug grin after winning the debate.",
+        "Her smug attitude alienated many of her teammates.",
+        "The advertisement felt smug, as if it knew it was superior to competitors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
