@@ -35083,6 +35083,437 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'paperwork',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpeɪ.pɚ.wɚk/',
+    ipa_us: '/ˈpeɪ.pɚ.wɚk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "official documents required for a procedure",
+              "th": "เอกสารทางการที่จำเป็นสำหรับกระบวนการ"
+        }
+  ],
+    antonyms: ["informality","verbal"],
+    examples:   [
+        "The new employee spent the morning sorting out the paperwork for his contract.",
+        "She complained that the paperwork for the visa application was endless.",
+        "After the meeting, we filed all the paperwork in the cabinet."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'width',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈwɪdθ/',
+    ipa_us: '/ˈwɪdθ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the measurement of something from side to side",
+              "th": "ความกว้าง"
+        }
+  ],
+    antonyms: ["narrowness","thinness"],
+    examples:   [
+        "The width of the river made it impossible to jump across.",
+        "She adjusted the width of the table to fit the narrow hallway.",
+        "Engineers calculated the width of the bridge to ensure safety."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'coarse',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kɔːs/',
+    ipa_us: '/kɔːs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "rough in texture or lacking refinement",
+              "th": "หยาบ"
+        }
+  ],
+    antonyms: ["fine","smooth"],
+    examples:   [
+        "The sand felt coarse under his bare feet.",
+        "His coarse language offended many listeners at the conference.",
+        "The fabric was too coarse for a formal dress."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'balanced',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈbælənst/',
+    ipa_us: '/ˈbælənst/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "kept in proper proportion; fair",
+              "th": "สมดุล"
+        }
+  ],
+    antonyms: ["unbalanced","biased"],
+    examples:   [
+        "She maintains a balanced diet by mixing proteins, carbs, and vegetables.",
+        "The judge gave a balanced verdict after hearing both sides.",
+        "A balanced budget is essential for the country's economic stability."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dye',
+    level: 'B2',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/daɪ/',
+    ipa_us: '/daɪ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to add color to something by soaking it in a solution",
+              "th": "ทำให้สีโดยการแช่ในสารละลาย"
+        },
+        {
+              "pos": "noun",
+              "en": "a substance used to color materials",
+              "th": "สารทำสี"
+        }
+  ],
+    antonyms: ["bleach","fade"],
+    examples:   [
+        "She decided to dye her hair a bright red for the summer.",
+        "The fabric was dyed with natural pigments from plants.",
+        "We need to buy more dye before the workshop starts."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'suck',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/sʌk/',
+    ipa_us: '/sʌk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to draw in air or liquid by creating a vacuum",
+              "th": "ดูด"
+        }
+  ],
+    antonyms: ["blow","expel"],
+    examples:   [
+        "The baby began to suck on the bottle after a few minutes.",
+        "He tried to suck the spilled juice back into the cup but only made a mess.",
+        "The vacuum cleaner can suck up dust from the carpet."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'electronically',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ɪˌlɛkˈtɹɒn.ɪk.li/',
+    ipa_us: '/ɪˌlɛkˈtɹɒn.ɪk.li/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "by means of electronic devices or systems",
+              "th": "โดยอิเล็กทรอนิกส์"
+        }
+  ],
+    antonyms: ["manually","physically"],
+    examples:   [
+        "The report was submitted electronically to save paper.",
+        "Students can now vote electronically in the school election.",
+        "All invoices are now processed electronically."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'projection',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɹəˈdʒɛkʃən/',
+    ipa_us: '/pɹəˈdʒɛkʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of displaying an image on a surface",
+              "th": "การฉาย"
+        }
+  ],
+    antonyms: ["retraction","absorption"],
+    examples:   [
+        "The movie's projection lasted two hours and fifteen minutes.",
+        "Her projection of confidence helped her win the interview.",
+        "The teacher used a slide projection to illustrate the concept."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'testimony',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɛstɪməni/',
+    ipa_us: '/ˈtɛstɪməni/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal statement given as evidence",
+              "th": "คำให้การ"
+        }
+  ],
+    antonyms: ["silence","denial"],
+    examples:   [
+        "The witness gave a clear testimony in court.",
+        "Her testimony about the accident helped the investigators.",
+        "He wrote a testimony of gratitude for the volunteers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'contradictory',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˌkɑntɹəˈdɪktəɹi/',
+    ipa_us: '/ˌkɑntɹəˈdɪktəɹi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "mutually opposed or inconsistent",
+              "th": "ขัดแย้ง"
+        }
+  ],
+    antonyms: ["consistent","compatible"],
+    examples:   [
+        "The report contains several contradictory statements that need clarification.",
+        "Her actions are contradictory to the values she claims to uphold.",
+        "The data appeared contradictory, so the scientists repeated the experiment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soaked',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/səʊkt/',
+    ipa_us: '/səʊkt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "completely saturated with liquid",
+              "th": "เปียกชุ่ม"
+        }
+  ],
+    antonyms: ["dry","parched"],
+    examples:   [
+        "After the rain, the ground was soaked and muddy.",
+        "He arrived at the party soaked from the sudden downpour.",
+        "The sponge was soaked with water after being left in the sink."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unwilling',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈwɪlɪŋ/',
+    ipa_us: '/ʌnˈwɪlɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not ready or eager to do something",
+              "th": "ไม่เต็มใจ"
+        }
+  ],
+    antonyms: ["willing","eager"],
+    examples:   [
+        "She was unwilling to accept the promotion because of the extra travel.",
+        "The child was unwilling to share his toys with the others.",
+        "He felt unwilling to speak in front of a large audience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'starve',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/stɑːv/',
+    ipa_us: '/stɑːv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to suffer or die from lack of food",
+              "th": "อดอาหาร"
+        }
+  ],
+    antonyms: ["feed","nourish"],
+    examples:   [
+        "During the siege, many residents began to starve.",
+        "If you skip meals for too long, you might start to feel like you are starving.",
+        "The stray cat was rescued before it could starve to death."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'commute',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/kəˈmjuːt/',
+    ipa_us: '/kəˈmjuːt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to travel regularly between home and work or school",
+              "th": "เดินทางไปทำงาน"
+        }
+  ],
+    antonyms: ["stay","remain"],
+    examples:   [
+        "She commutes by train from the suburbs to the city centre.",
+        "The company offers a shuttle to help employees commute more easily.",
+        "He decided to move closer to work to avoid a long daily commute."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'comb',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kəʊm/',
+    ipa_us: '/kəʊm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a tool with teeth used for untangling hair or fibers",
+              "th": "หวี"
+        },
+        {
+              "pos": "verb",
+              "en": "to smooth or arrange hair or fibers with a comb",
+              "th": "หวี"
+        }
+  ],
+    antonyms: ["tangle","mess"],
+    examples:   [
+        "She bought a new comb after her old one broke.",
+        "He combed his hair before the interview to look neat.",
+        "The gardener combed through the leaves to find the hidden seedlings."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'interfere',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˌɪntəˈfɪə/',
+    ipa_us: '/ˌɪntəˈfɪə/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to get involved in a way that hinders or disrupts",
+              "th": "แทรกแซง"
+        }
+  ],
+    antonyms: ["assist","help"],
+    examples:   [
+        "Please do not interfere with the experiment while it is running.",
+        "She tried to interfere in their argument, but they asked her to stop.",
+        "The noise from the construction interfered with my concentration."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'assumption',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/əˈsʌmp.ʃən/',
+    ipa_us: '/əˈsʌmp.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "something taken for granted without proof",
+              "th": "สมมติฐาน"
+        }
+  ],
+    antonyms: ["fact","certainty"],
+    examples:   [
+        "The scientist's assumption was later disproved by new data.",
+        "We made the assumption that the meeting would start at nine.",
+        "His assumption about her intentions caused unnecessary tension."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'triangle',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtɹaɪəŋɡəl/',
+    ipa_us: '/ˈtɹaɪəŋɡəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a polygon with three sides and three angles",
+              "th": "สามเหลี่ยม"
+        }
+  ],
+    antonyms: ["circle","square"],
+    examples:   [
+        "The children learned how to calculate the area of a triangle.",
+        "She drew a perfect triangle on the whiteboard for the geometry lesson.",
+        "The traffic sign was shaped like a red triangle."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'perspiration',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌpɜːspəˈɹeɪʃən/',
+    ipa_us: '/ˌpɜːspəˈɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of sweating; sweat",
+              "th": "เหงื่อ"
+        }
+  ],
+    antonyms: ["dryness","aridity"],
+    examples:   [
+        "His perspiration was evident after the intense workout.",
+        "The heat caused excessive perspiration among the crowd.",
+        "She wiped away the perspiration from her forehead before the interview."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pumpkin',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpʌmpkɪn/',
+    ipa_us: '/ˈpʌmpkɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large orange fruit with a thick rind, used for cooking and decoration",
+              "th": "ฟักทอง"
+        }
+  ],
+    antonyms: ["apple","berry"],
+    examples:   [
+        "We carved a spooky face into the pumpkin for Halloween.",
+        "Pumpkin soup is a popular dish in the autumn months.",
+        "The farmer harvested a dozen pumpkins from his field."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
