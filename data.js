@@ -35583,6 +35583,479 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'fever',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfiːvə/',
+    ipa_us: '/ˈfiːvə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a high body temperature",
+              "th": "อุณหภูมิสูง"
+        }
+  ],
+    antonyms: ["cold","normal"],
+    examples:   [
+        "She has a fever and needs to stay in bed.",
+        "The doctor said the fever was caused by an infection.",
+        "After the fever broke, he felt much better."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ghost',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɡəʊst/',
+    ipa_us: '/ɡəʊst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the spirit of a dead person",
+              "th": "วิญญาณของคนที่เสียชีวิต"
+        }
+  ],
+    antonyms: ["living","person"],
+    examples:   [
+        "The children were scared of the ghost in the attic.",
+        "He told a story about a friendly ghost.",
+        "The old house is said to be haunted by a ghost."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'does',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dəʊz/',
+    ipa_us: '/dəʊz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "performs an action",
+              "th": "ทำ"
+        }
+  ],
+    antonyms: ["doesn't","fails"],
+    examples:   [
+        "She does her homework every evening.",
+        "What does he do after school?",
+        "He does not like spicy food."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'painting',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpeɪn.tɪŋ/',
+    ipa_us: '/ˈpeɪn.tɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a picture made with paint",
+              "th": "ภาพวาดที่ทำด้วยสี"
+        }
+  ],
+    antonyms: ["drawing","sculpture"],
+    examples:   [
+        "The painting on the wall is very colorful.",
+        "She bought a new painting for her living room.",
+        "The museum displayed a famous painting by Van Gogh."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'because',
+    level: 'A1',
+    partOfSpeech: ["conjunction"],
+    ipa_uk: '/bɪˈkɒz/',
+    ipa_us: '/bɪˈkɒz/',
+    meanings:   [
+        {
+              "pos": "conjunction",
+              "en": "for the reason that",
+              "th": "เพราะว่า"
+        }
+  ],
+    antonyms: ["although","despite"],
+    examples:   [
+        "I stayed home because it was raining.",
+        "She smiled because she was happy.",
+        "He left early because he had an appointment."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'festival',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɛstəvəl/',
+    ipa_us: '/ˈfɛstəvəl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a day or period of celebration",
+              "th": "งานเทศกาล"
+        }
+  ],
+    antonyms: ["workday","routine"],
+    examples:   [
+        "The city hosts a music festival every summer.",
+        "Children love the food stalls at the festival.",
+        "We bought tickets for the film festival next month."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'poster',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpoʊstɚ/',
+    ipa_us: '/ˈpoʊstɚ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large printed picture for display",
+              "th": "โปสเตอร์"
+        }
+  ],
+    antonyms: ["digital ad","handout"],
+    examples:   [
+        "The school put up a poster about the science fair.",
+        "He bought a movie poster for his bedroom.",
+        "The concert poster showed the date and the performers."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lovely',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈlʌvli/',
+    ipa_us: '/ˈlʌvli/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "pleasant or attractive",
+              "th": "น่ารักหรือสวยงาม"
+        }
+  ],
+    antonyms: ["ugly","unpleasant"],
+    examples:   [
+        "What a lovely garden you have!",
+        "She felt lovely after the compliment.",
+        "The weather was lovely for a picnic."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'restaurant',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹɛs.t(ə).ɹ(ə)nt/',
+    ipa_us: '/ˈɹɛs.t(ə).ɹ(ə)nt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place where meals are served to customers",
+              "th": "ร้านอาหาร"
+        }
+  ],
+    antonyms: ["home","kitchen"],
+    examples:   [
+        "We ate dinner at a new Italian restaurant.",
+        "The restaurant was busy on Saturday night.",
+        "She works as a waiter in a restaurant near the park."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'soup',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/suːp/',
+    ipa_us: '/suːp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a liquid dish made by boiling ingredients",
+              "th": "ซุป"
+        }
+  ],
+    antonyms: ["solid food","dry"],
+    examples:   [
+        "Chicken soup is good when you have a cold.",
+        "She added vegetables to the soup for extra flavor.",
+        "The restaurant serves a spicy tomato soup."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'love',
+    level: 'A1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/lʊv/',
+    ipa_us: '/lʊv/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a strong feeling of affection",
+              "th": "ความรัก"
+        },
+        {
+              "pos": "verb",
+              "en": "to feel deep affection for",
+              "th": "รัก"
+        }
+  ],
+    antonyms: ["hate","dislike"],
+    examples:   [
+        "She feels love for her family.",
+        "I love reading books in the park.",
+        "They fell in love during the summer vacation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nineteen',
+    level: 'A1',
+    partOfSpeech: ["number"],
+    ipa_uk: '/naɪnˈtiːn/',
+    ipa_us: '/naɪnˈtiːn/',
+    meanings:   [
+        {
+              "pos": "number",
+              "en": "the number after eighteen",
+              "th": "สิบเก้า"
+        }
+  ],
+    antonyms: ["twenty","eighteen"],
+    examples:   [
+        "She turned nineteen last month.",
+        "There are nineteen students in the class.",
+        "The bus number is nineteen."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'grammar',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɡɹæm.ə(ɹ)/',
+    ipa_us: '/ˈɡɹæm.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the set of rules for a language",
+              "th": "ไวยากรณ์"
+        }
+  ],
+    antonyms: ["slang","incorrectness"],
+    examples:   [
+        "We study English grammar in school.",
+        "Good grammar makes writing clear.",
+        "The teacher corrected the grammar mistakes in the essay."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'find',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/faɪnd/',
+    ipa_us: '/faɪnd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to discover something by searching",
+              "th": "หา, พบ"
+        }
+  ],
+    antonyms: ["lose","misplace"],
+    examples:   [
+        "Can you find my keys on the table?",
+        "She will find a solution to the problem.",
+        "I found a nice book at the library."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'habit',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈhæbət/',
+    ipa_us: '/ˈhæbət/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a regular practice or routine",
+              "th": "นิสัย"
+        }
+  ],
+    antonyms: ["disorder","irregularity"],
+    examples:   [
+        "Brushing teeth before bed is a good habit.",
+        "He has a habit of checking his phone often.",
+        "Reading every night became her favorite habit."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'excited',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪkˈsaɪtɪd/',
+    ipa_us: '/ɪkˈsaɪtɪd/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "feeling eager and enthusiastic",
+              "th": "ตื่นเต้น"
+        }
+  ],
+    antonyms: ["bored","calm"],
+    examples:   [
+        "The children were excited about the trip.",
+        "She felt excited before the performance.",
+        "He is excited to start his new job."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'lion',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlaɪən/',
+    ipa_us: '/ˈlaɪən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large wild cat with a mane",
+              "th": "สิงโต"
+        }
+  ],
+    antonyms: ["prey","deer"],
+    examples:   [
+        "The lion roared loudly in the zoo.",
+        "A lion is often called the king of the jungle.",
+        "The children learned about lions in science class."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'young',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/jʌŋ/',
+    ipa_us: '/jʌŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not old; having lived only a short time",
+              "th": "อายุน้อย"
+        }
+  ],
+    antonyms: ["old","elderly"],
+    examples:   [
+        "The young boy loves to play soccer.",
+        "She looks young for her age.",
+        "Young trees grow quickly in spring."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'visit',
+    level: 'A1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈvɪzɪt/',
+    ipa_us: '/ˈvɪzɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to go somewhere to see someone or something",
+              "th": "เยี่ยมชม"
+        }
+  ],
+    antonyms: ["avoid","ignore"],
+    examples:   [
+        "We will visit the museum tomorrow.",
+        "She likes to visit her grandparents on weekends.",
+        "He plans to visit the new park after school."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'drink',
+    level: 'A1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/dɹɪŋk/',
+    ipa_us: '/dɹɪŋk/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to swallow liquid",
+              "th": "ดื่ม"
+        },
+        {
+              "pos": "noun",
+              "en": "a liquid that can be swallowed",
+              "th": "เครื่องดื่ม"
+        }
+  ],
+    antonyms: ["eat","abstain"],
+    examples:   [
+        "She likes to drink orange juice in the morning.",
+        "Can I get a cold drink, please?",
+        "He forgot to drink water during the hike."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'glass',
+    level: 'A1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɡlɑːs/',
+    ipa_us: '/ɡlɑːs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a transparent container for liquids",
+              "th": "แก้ว"
+        }
+  ],
+    antonyms: ["plastic","metal"],
+    examples:   [
+        "She poured water into a glass.",
+        "The window is made of thick glass.",
+        "He broke a glass while cleaning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cute',
+    level: 'A1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kjuːt/',
+    ipa_us: '/kjuːt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "attractive in a pretty or endearing way",
+              "th": "น่ารัก"
+        }
+  ],
+    antonyms: ["ugly","unattractive"],
+    examples:   [
+        "The puppy is so cute!",
+        "She wore a cute dress to the party.",
+        "That baby has a cute smile."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
