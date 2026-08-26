@@ -36240,6 +36240,101 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'sprout',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/spɹʌʊt/',
+    ipa_us: '/spɹʌʊt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to begin to grow; to produce shoots or buds",
+              "th": "เริ่มเติบโต; ผลิตยอดหรือกิ่งใหม่"
+        },
+        {
+              "pos": "noun",
+              "en": "a young shoot or bud of a plant",
+              "th": "ยอดอ่อนของพืช"
+        }
+  ],
+    antonyms: ["wither","die"],
+    examples:   [
+        "After the rain, the seeds began to sprout within a day.",
+        "She likes to sprout beans in a glass jar on her kitchen counter.",
+        "The chef used fresh sprout as a garnish for the salad."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'mingle',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈmɪŋ.ɡəl/',
+    ipa_us: '/ˈmɪŋ.ɡəl/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to mix or combine; to socialize with others",
+              "th": "ผสมหรือรวมกัน; สังสรรค์กับผู้อื่น"
+        }
+  ],
+    antonyms: ["isolate","separate"],
+    examples:   [
+        "Guests were encouraged to mingle during the cocktail hour.",
+        "The colors mingle to create a vibrant mural.",
+        "She prefers to mingle quietly rather than dominate the conversation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sustainable',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/səˈsteɪnəbəl/',
+    ipa_us: '/səˈsteɪnəbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "capable of being maintained over the long term without depletion of resources",
+              "th": "ที่สามารถรักษาไว้ได้ในระยะยาวโดยไม่ทำให้ทรัพยากรหมด"
+        }
+  ],
+    antonyms: ["unsustainable","exhaustible"],
+    examples:   [
+        "The company adopted sustainable practices to reduce waste.",
+        "Solar energy is a sustainable alternative to fossil fuels.",
+        "Students discussed the importance of sustainable agriculture."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cloak',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈkloʊk/',
+    ipa_us: '/ˈkloʊk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a loose outer garment, often worn for warmth or concealment",
+              "th": "เสื้อคลุมที่หลวม ใช้เพื่อความอบอุ่นหรือปกปิด"
+        },
+        {
+              "pos": "verb",
+              "en": "to cover or conceal something",
+              "th": "ปกปิดหรือทำให้มองไม่เห็น"
+        }
+  ],
+    antonyms: ["reveal","expose"],
+    examples:   [
+        "He wore a dark cloak as the night fell.",
+        "The scandal was cloaked in secrecy for months.",
+        "She tried to cloak her disappointment with a smile."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
