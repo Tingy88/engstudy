@@ -36335,6 +36335,425 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'generous',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈdʒɛn(ə)ɹəs/',
+    ipa_us: '/ˈdʒɛn(ə)ɹəs/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "willing to give or share more than is usual or expected",
+              "th": "ใจกว้างพร้อมให้หรือแบ่งปันมากกว่าที่คาดหวัง"
+        }
+  ],
+    antonyms: ["stingy","selfish"],
+    examples:   [
+        "He was generous with his time, helping anyone who needed it.",
+        "She gave a generous donation to the charity.",
+        "Their generous spirit made the whole community feel welcome."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'geography',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/dʒɪˈɒɡɹəfi/',
+    ipa_us: '/dʒɪˈɒɡɹəfi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the study of the physical features of the Earth and its atmosphere",
+              "th": "การศึกษาเกี่ยวกับลักษณะทางกายภาพของโลกและบรรยากาศ"
+        }
+  ],
+    antonyms: ["mathematics","literature"],
+    examples:   [
+        "We studied geography to learn about different climates.",
+        "Her geography class included a field trip to the local river.",
+        "The map in the geography textbook showed the continents clearly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'boom',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/buːm/',
+    ipa_us: '/buːm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a period of rapid economic growth or popularity",
+              "th": "ช่วงเวลาที่เศรษฐกิจหรือความนิยมเติบโตอย่างรวดเร็ว"
+        },
+        {
+              "pos": "verb",
+              "en": "to make a loud, deep sound",
+              "th": "ทำให้เกิดเสียงดังกระหึ่ม"
+        }
+  ],
+    antonyms: ["bust","decline"],
+    examples:   [
+        "The tech industry experienced a boom in the early 2000s.",
+        "The crowd began to boom as the band took the stage.",
+        "After the boom, the market soon entered a period of decline."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'vision',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈvɪ.ʒ(ə)n/',
+    ipa_us: '/ˈvɪ.ʒ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to see; a mental image of what the future could be",
+              "th": "ความสามารถในการมองเห็นหรือภาพในใจของอนาคต"
+        }
+  ],
+    antonyms: ["blindness","myopia"],
+    examples:   [
+        "Her vision for the company includes expanding overseas.",
+        "He lost his vision after the accident and now uses a guide dog.",
+        "The artist's vision was evident in every brushstroke of the painting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'patient',
+    level: 'B1',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈpeɪʃənt/',
+    ipa_us: '/ˈpeɪʃənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person receiving medical treatment",
+              "th": "ผู้ที่รับการรักษาทางการแพทย์"
+        },
+        {
+              "pos": "adjective",
+              "en": "able to accept or tolerate delays, problems, or suffering without becoming annoyed",
+              "th": "สามารถรับหรือทนต่อความล่าช้า ปัญหา หรือความเจ็บปวดโดยไม่โกรธ"
+        }
+  ],
+    antonyms: ["doctor","impatient"],
+    examples:   [
+        "The doctor checked on each patient before the end of the shift.",
+        "She was patient while waiting for the bus in the rain.",
+        "A patient learner often achieves better results than a hurried one."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'offensive',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/əˈfɛnsɪv/',
+    ipa_us: '/əˈfɛnsɪv/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "causing someone to feel upset, angry, or hurt",
+              "th": "ทำให้คนรู้สึกไม่พอใจ โกรธ หรือเจ็บปวด"
+        }
+  ],
+    antonyms: ["inoffensive","polite"],
+    examples:   [
+        "His jokes were considered offensive by many in the audience.",
+        "The offensive smell made it hard to stay in the room.",
+        "She apologized for the offensive comment she made during the meeting."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pause',
+    level: 'B1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/pɔːz/',
+    ipa_us: '/pɔːz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to temporarily stop speaking or doing something",
+              "th": "หยุดทำบางอย่างชั่วคราว"
+        },
+        {
+              "pos": "noun",
+              "en": "a temporary stop or break",
+              "th": "การหยุดชั่วคราว"
+        }
+  ],
+    antonyms: ["continue","resume"],
+    examples:   [
+        "She paused the video to answer a phone call.",
+        "After a short pause, the speaker continued his presentation.",
+        "The music had a dramatic pause before the final chorus."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'absorb',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əbˈsɔːb/',
+    ipa_us: '/əbˈsɔːb/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to take in or soak up (liquid, information, etc.)",
+              "th": "ดูดซึมหรือรับเข้าไป"
+        }
+  ],
+    antonyms: ["emit","repel"],
+    examples:   [
+        "The sponge will absorb the spilled water quickly.",
+        "He tried to absorb as much information as possible before the exam.",
+        "Plants absorb sunlight to produce energy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'either',
+    level: 'B1',
+    partOfSpeech: ["determiner","pronoun"],
+    ipa_uk: '/ˈaɪð.ə(ɹ)/',
+    ipa_us: '/ˈaɪð.ə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "determiner",
+              "en": "used to refer to one or the other of two people or things",
+              "th": "ใช้เพื่ออ้างถึงหนึ่งในสองคนหรือสองสิ่ง"
+        },
+        {
+              "pos": "pronoun",
+              "en": "each of two people or things",
+              "th": "แต่ละคนหรือสิ่งในสองอย่าง"
+        }
+  ],
+    antonyms: ["neither","both"],
+    examples:   [
+        "You can take either route to get there.",
+        "Either of the books will be fine for the assignment.",
+        "She didn't know whether to call either of her friends."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'distinguish',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪsˈtɪŋɡwɪʃ/',
+    ipa_us: '/dɪsˈtɪŋɡwɪʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to recognize or treat as different",
+              "th": "แยกแยะหรือพิจารณาว่าแตกต่าง"
+        }
+  ],
+    antonyms: ["confuse","blend"],
+    examples:   [
+        "It's hard to distinguish the twins in the photograph.",
+        "She can distinguish good coffee from bad quickly.",
+        "The teacher asked us to distinguish fact from opinion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'waste',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/weɪst/',
+    ipa_us: '/weɪst/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "material that is not wanted or needed",
+              "th": "วัสดุที่ไม่ต้องการหรือไม่จำเป็น"
+        },
+        {
+              "pos": "verb",
+              "en": "to use or expend carelessly",
+              "th": "ใช้หรือเสียโดยไม่ระมัดระวัง"
+        }
+  ],
+    antonyms: ["conserve","save"],
+    examples:   [
+        "We should recycle to reduce waste.",
+        "He wasted his afternoon playing video games instead of studying.",
+        "The factory aims to waste less water each year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'parcel',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '[ˈpʰaː.səɫ]',
+    ipa_us: '[ˈpʰaː.səɫ]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a package wrapped for sending",
+              "th": "พัสดุที่ห่อเพื่อส่ง"
+        },
+        {
+              "pos": "verb",
+              "en": "to divide into parts or portions",
+              "th": "แบ่งเป็นส่วนหรือชิ้น"
+        }
+  ],
+    antonyms: ["whole","collect"],
+    examples:   [
+        "The parcel arrived at my doorstep this morning.",
+        "She decided to parcel the land into smaller plots.",
+        "He parcelled out the money to each department equally."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'miserable',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈmɪz(ə)ɹəbəl/',
+    ipa_us: '/ˈmɪz(ə)ɹəbəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "very unhappy or uncomfortable",
+              "th": "รู้สึกไม่สบายใจหรือทุกข์ทรมาน"
+        }
+  ],
+    antonyms: ["happy","joyful"],
+    examples:   [
+        "She felt miserable after losing her job.",
+        "The weather was miserable, with rain and cold wind.",
+        "He looked miserable, sitting alone in the corner."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unclear',
+    level: 'B1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈklɪɚ/',
+    ipa_us: '/ʌnˈklɪɚ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not easy to understand or interpret",
+              "th": "ไม่ชัดเจนหรือทำความเข้าใจได้ยาก"
+        }
+  ],
+    antonyms: ["clear","obvious"],
+    examples:   [
+        "His instructions were unclear, so we asked for clarification.",
+        "The sky was unclear, making it hard to predict the weather.",
+        "The report remained unclear despite several revisions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'composition',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkɒmpəˈzɪʃən/',
+    ipa_us: '/ˌkɒmpəˈzɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of putting things together; a piece of writing or music",
+              "th": "การจัดเรียงสิ่งต่าง ๆ หรือผลงานเขียน/ดนตรี"
+        }
+  ],
+    antonyms: ["decomposition","chaos"],
+    examples:   [
+        "Her composition won first prize in the school contest.",
+        "The composition of the alloy determines its strength.",
+        "He spent the afternoon working on his essay composition."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'elbow',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɛl.bəʊ/',
+    ipa_us: '/ˈɛl.bəʊ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the joint between the upper and lower parts of the arm",
+              "th": "ข้อศอกระหว่างแขนบนและแขนล่าง"
+        }
+  ],
+    antonyms: ["knee","shoulder"],
+    examples:   [
+        "He bumped his elbow on the doorframe.",
+        "She rested her elbow on the table while thinking.",
+        "The doctor examined his elbow for any swelling."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'above',
+    level: 'B1',
+    partOfSpeech: ["preposition","adverb"],
+    ipa_uk: '/əˈbʌv/',
+    ipa_us: '/əˈbʌv/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "at a higher level or layer than",
+              "th": "อยู่เหนือหรือระดับที่สูงกว่า"
+        },
+        {
+              "pos": "adverb",
+              "en": "higher in position",
+              "th": "อยู่สูงกว่า"
+        }
+  ],
+    antonyms: ["below","beneath"],
+    examples:   [
+        "The picture hangs above the fireplace.",
+        "Temperatures above 30°C are common in summer.",
+        "She placed the book above the stack of magazines."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'burning',
+    level: 'B1',
+    partOfSpeech: ["adjective","verb"],
+    ipa_uk: '/bɜːnɪŋ/',
+    ipa_us: '/bɜːnɪŋ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "on fire; very hot",
+              "th": "กำลังไหม้หรือร้อนมาก"
+        },
+        {
+              "pos": "verb",
+              "en": "to be on fire; to produce heat and light",
+              "th": "อยู่ในสภาพไฟไหม้หรือให้ความร้อนและแสง"
+        }
+  ],
+    antonyms: ["extinguishing","cooling"],
+    examples:   [
+        "The burning candle lit the dark room.",
+        "She felt a burning sensation in her throat after the pepper.",
+        "Firefighters worked quickly to stop the burning building."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
