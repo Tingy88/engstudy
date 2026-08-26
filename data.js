@@ -36056,6 +36056,190 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'annex',
+    level: 'C2',
+    partOfSpeech: ["verb [T]","noun"],
+    ipa_uk: '/ˈænɛks/',
+    ipa_us: '/ˈænɛks/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "To add or attach, especially to a larger entity, often by force or formal agreement.",
+              "th": "ผนวกหรือแนบเข้าไปกับสิ่งที่ใหญ่กว่า โดยมักใช้กำลังหรือข้อตกลงอย่างเป็นทางการ"
+        },
+        {
+              "pos": "noun",
+              "en": "A building or an addition to a main structure.",
+              "th": "อาคารเสริมหรือส่วนต่อเติมของอาคารหลัก"
+        }
+  ],
+    antonyms: ["secede","detach"],
+    examples:   [
+        "The empire annexed the neighboring territory after a brief war.",
+        "She annexed a new wing to the museum to house modern art.",
+        "The treaty forced the small state to annex its border villages."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'eminent',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈɛmɪnənt/',
+    ipa_us: '/ˈɛmɪnənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "Prominent, distinguished, or highly respected within a particular field.",
+              "th": "โดดเด่นหรือเป็นที่เคารพในสาขาหนึ่ง"
+        }
+  ],
+    antonyms: ["obscure","unknown"],
+    examples:   [
+        "The eminent physicist delivered the keynote address at the conference.",
+        "She comes from an eminent family of musicians.",
+        "His eminent reputation preceded him wherever he traveled."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'plume',
+    level: 'C2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈpljuːm/',
+    ipa_us: '/ˈpljuːm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "A large, soft feather; also a cloud of smoke or steam.",
+              "th": "ขนนกขนาดใหญ่หรือเมฆควัน"
+        },
+        {
+              "pos": "verb",
+              "en": "To display or spread out something, especially feathers, in a showy manner.",
+              "th": "ทำให้แสดงออกหรือกระจายอย่างโดดเด่น"
+        }
+  ],
+    antonyms: ["baldness","concealment"],
+    examples:   [
+        "A bright white plume rose from the volcano’s crater.",
+        "The peacock displayed a magnificent plume during the mating ritual.",
+        "She plumed her hat with a silk ribbon for the gala."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'buccaneer',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌbʌkəˈnɪə(ɹ)/',
+    ipa_us: '/ˌbʌkəˈnɪə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "A pirate, especially one who operated in the Caribbean during the 17th century.",
+              "th": "โจรสลัดโดยเฉพาะในแคริบเบียนศตวรรษที่ 17"
+        }
+  ],
+    antonyms: ["law-abiding citizen","trader"],
+    examples:   [
+        "The buccaneer boarded the merchant ship and seized its cargo.",
+        "Legends of buccaneers still inspire adventure novels today.",
+        "He dressed as a buccaneer for the costume party."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'patchy',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpætʃi/',
+    ipa_us: '/ˈpætʃi/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "Uneven, irregular, or incomplete in coverage or consistency.",
+              "th": "ไม่สม่ำเสมอหรือไม่ต่อเนื่องในความครอบคลุม"
+        }
+  ],
+    antonyms: ["uniform","consistent"],
+    examples:   [
+        "The internet connection was patchy throughout the night.",
+        "His memory of the event was patchy at best.",
+        "The garden’s growth was patchy due to uneven watering."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'contrive',
+    level: 'C2',
+    partOfSpeech: ["verb [T]"],
+    ipa_uk: '/kənˈtɹaɪv/',
+    ipa_us: '/kənˈtɹaɪv/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "To devise or plan something with ingenuity, often in a way that seems artificial or forced.",
+              "th": "คิดหรือวางแผนบางสิ่งอย่างชาญฉลาดโดยมักดูเป็นการบังคับหรือทำให้ดูไม่เป็นธรรมชาติ"
+        }
+  ],
+    antonyms: ["neglect","ignore"],
+    examples:   [
+        "She contrived an excuse to leave the meeting early.",
+        "The playwright contrived a plot twist that surprised the audience.",
+        "He contrived a method to recycle water using simple materials."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'agile',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈæd͡ʒ.aɪl/',
+    ipa_us: '/ˈæd͡ʒ.aɪl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "Able to move quickly and easily; mentally quick and adaptable.",
+              "th": "เคลื่อนที่ได้เร็วและง่าย; มีความคิดเร็วและปรับตัวได้"
+        }
+  ],
+    antonyms: ["clumsy","rigid"],
+    examples:   [
+        "The gymnast’s agile movements earned her a perfect score.",
+        "Startups need an agile mindset to survive market changes.",
+        "He was agile both physically on the field and intellectually in negotiations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'ebb',
+    level: 'C2',
+    partOfSpeech: ["verb [I]","noun"],
+    ipa_uk: '/ɛb/',
+    ipa_us: '/ɛb/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "To recede or decline gradually, especially of tides or fortunes.",
+              "th": "ค่อยๆ ถอยหลังหรือลดลงโดยเฉพาะของน้ำหรือโชคชะตา"
+        },
+        {
+              "pos": "noun",
+              "en": "The flowing back of the tide; a decline or reduction.",
+              "th": "การถอยหลังของน้ำขึ้นน้ำลง; การลดลง"
+        }
+  ],
+    antonyms: ["flow","rise"],
+    examples:   [
+        "The tide began to ebb as the sun set.",
+        "His enthusiasm ebbed after the project's failure.",
+        "She felt a sense of ebb in her confidence after the criticism."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
