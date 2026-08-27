@@ -36754,6 +36754,247 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'shed',
+    level: 'C1',
+    partOfSpeech: ["verb","noun"],
+    ipa_uk: '/ʃɛd/',
+    ipa_us: '/ʃɛd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to discard or get rid of something",
+              "th": "กำจัดหรือทิ้งสิ่งของออกไป"
+        },
+        {
+              "pos": "noun",
+              "en": "a simple, single‑story building used for storage or work",
+              "th": "อาคารเล็ก ๆ ชั้นเดียวที่ใช้เก็บของหรือทำงาน"
+        }
+  ],
+    antonyms: ["keep","store"],
+    examples:   [
+        "After the storm, the trees began to shed their leaves.",
+        "She decided to shed the old habits that were holding her back.",
+        "The garden tools were kept in a small wooden shed at the back of the house."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'awe',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɔ/',
+    ipa_us: '/ɔ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a feeling of reverential respect mixed with fear or wonder",
+              "th": "ความรู้สึกเคารพและประหลาดใจผสมกับความกลัว"
+        },
+        {
+              "pos": "verb",
+              "en": "to inspire awe in someone",
+              "th": "ทำให้เกิดความเคารพหรือประหลาดใจ"
+        }
+  ],
+    antonyms: ["disdain","indifference"],
+    examples:   [
+        "The Grand Canyon filled us with awe.",
+        "She awed the audience with her flawless performance.",
+        "He felt a deep awe when he stood beneath the night sky full of stars."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'voice',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/vɔɪs/',
+    ipa_us: '/vɔɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the sound produced by humans when speaking or singing",
+              "th": "เสียงที่มนุษย์สร้างขึ้นเมื่อพูดหรือร้องเพลง"
+        },
+        {
+              "pos": "verb",
+              "en": "to express something in words or to give a particular expression to something",
+              "th": "แสดงออกด้วยคำพูดหรือให้ความหมายเฉพาะกับบางสิ่ง"
+        }
+  ],
+    antonyms: ["silence","ignore"],
+    examples:   [
+        "Her voice was barely audible over the traffic noise.",
+        "He decided to voice his concerns at the meeting.",
+        "The director voiced the main character in the animated film."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'innovate',
+    level: 'C1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈɪnəveɪt/',
+    ipa_us: '/ˈɪnəveɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to introduce new ideas, methods, or products",
+              "th": "แนะนำแนวคิด วิธีการ หรือผลิตภัณฑ์ใหม่"
+        }
+  ],
+    antonyms: ["imitate","stagnate"],
+    examples:   [
+        "The startup aims to innovate the way we think about renewable energy.",
+        "She constantly seeks ways to innovate within the design department.",
+        "Companies that fail to innovate often lose market share to more agile competitors."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'invoice',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈɪnˌvɔɪs/',
+    ipa_us: '/ˈɪnˌvɔɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a detailed bill for goods or services provided",
+              "th": "ใบแจ้งหนี้ที่ระบุรายละเอียดของสินค้า หรือบริการที่ให้"
+        },
+        {
+              "pos": "verb",
+              "en": "to send a bill to someone for payment",
+              "th": "ส่งใบแจ้งหนี้ให้ผู้รับเพื่อขอการชำระเงิน"
+        }
+  ],
+    antonyms: ["receipt","payment"],
+    examples:   [
+        "The contractor sent an invoice for the completed work.",
+        "Please invoice us by the end of the month for the supplies delivered.",
+        "She kept all her invoices organized in a digital folder."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'peacock',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpiːkɒk/',
+    ipa_us: '/ˈpiːkɒk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large colorful bird known for its extravagant tail feathers",
+              "th": "นกยูงขนาดใหญ่สีสันสดใสที่มีหางสวยงาม"
+        }
+  ],
+    antonyms: ["sparrow","crow"],
+    examples:   [
+        "The peacock strutted across the garden, displaying its iridescent plumage.",
+        "She wore a dress that reminded everyone of a peacock's brilliant colors.",
+        "In the zoo, the peacock's call could be heard early each morning."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'disdain',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/dɪsˈdeɪn/',
+    ipa_us: '/dɪsˈdeɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the feeling that someone or something is unworthy of respect",
+              "th": "ความรู้สึกว่าบุคคลหรือสิ่งใดสิ่งหนึ่งไม่สมควรได้รับความเคารพ"
+        },
+        {
+              "pos": "verb",
+              "en": "to regard with contempt or scorn",
+              "th": "มองด้วยความดูถูกหรือเย็นชา"
+        }
+  ],
+    antonyms: ["respect","admire"],
+    examples:   [
+        "She looked at the messy room with disdain.",
+        "He disdained the suggestion that he might be wrong.",
+        "Their disdain for the outdated policy led to a swift reform."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'canoe',
+    level: 'C1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kəˈnuː/',
+    ipa_us: '/kəˈnuː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a narrow, lightweight boat pointed at both ends and propelled with a paddle",
+              "th": "เรือพายแคบและเบาที่มีปลายแหลมทั้งสองด้าน"
+        },
+        {
+              "pos": "verb",
+              "en": "to travel in a canoe",
+              "th": "พายเรือคานู"
+        }
+  ],
+    antonyms: ["motorboat","submarine"],
+    examples:   [
+        "We rented a canoe to explore the calm lake.",
+        "He canoes down the river every summer with his friends.",
+        "The children learned how to canoe safely under the instructor's guidance."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'whilst',
+    level: 'C1',
+    partOfSpeech: ["conjunction"],
+    ipa_uk: '/hwaɪlst/',
+    ipa_us: '/hwaɪlst/',
+    meanings:   [
+        {
+              "pos": "conjunction",
+              "en": "during the time that; at the same time as",
+              "th": "ในช่วงเวลาที่; พร้อมกันกับ"
+        }
+  ],
+    antonyms: ["after","before"],
+    examples:   [
+        "Whilst I was cooking, the phone rang unexpectedly.",
+        "She read a book whilst waiting for her appointment.",
+        "He managed to finish the report whilst the team discussed the new strategy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'connoisseur',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌkɒnəˈsɜɹ/',
+    ipa_us: '/ˌkɒnəˈsɜɹ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an expert judge in matters of taste, especially in the fine arts or cuisine",
+              "th": "ผู้เชี่ยวชาญที่มีความรู้ลึกซึ้งในเรื่องรสชาติหรือศิลปะ"
+        }
+  ],
+    antonyms: ["novice","amateur"],
+    examples:   [
+        "He is a connoisseur of vintage wines, able to identify subtle notes in each glass.",
+        "The art gallery hired a connoisseur to authenticate the newly discovered painting.",
+        "As a connoisseur of jazz, she could distinguish between different saxophone styles."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
