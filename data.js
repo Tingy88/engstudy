@@ -36995,6 +36995,91 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'peak',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/piːk/',
+    ipa_us: '/piːk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the highest point of something",
+              "th": "ยอด"
+        }
+  ],
+    antonyms: ["bottom","valley"],
+    examples:   [
+        "We reached the peak of the mountain just before sunrise.",
+        "Sales hit a peak in December and then fell back.",
+        "His career reached its peak in the early 2000s."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'cottage',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈkɒtɪdʒ/',
+    ipa_us: '/ˈkɒtɪdʒ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small, simple house, typically in the countryside",
+              "th": "กระท่อม"
+        }
+  ],
+    antonyms: ["mansion","apartment"],
+    examples:   [
+        "They rented a cozy cottage by the lake for the weekend.",
+        "The old stone cottage has a thatched roof and a garden.",
+        "She wrote her novel while staying in a seaside cottage."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'timing',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈtaɪmɪŋ/',
+    ipa_us: '/ˈtaɪmɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the choice, judgment, or control of when something should be done",
+              "th": "การจับเวลา"
+        }
+  ],
+    antonyms: ["mistiming","delay"],
+    examples:   [
+        "Good timing is crucial in comedy.",
+        "The coach praised the player's timing during the game.",
+        "She adjusted the timing of the lights to match the music."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'spare',
+    level: 'B2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈspɛə(ɹ)/',
+    ipa_us: '/ˈspɛə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "extra; not currently needed",
+              "th": "สำรอง"
+        }
+  ],
+    antonyms: ["essential","necessary"],
+    examples:   [
+        "I keep a spare key under the mat.",
+        "The car has a spare tire in the trunk.",
+        "She bought a spare ticket in case a friend wanted to join."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
