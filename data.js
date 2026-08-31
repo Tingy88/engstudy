@@ -37080,6 +37080,154 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'singe',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/sɪnd͡ʒ/',
+    ipa_us: '/sɪnd͡ʒ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to burn something lightly or superficially",
+              "th": "เผาไหม้บางส่วนหรือผิวหนัง"
+        }
+  ],
+    antonyms: ["extinguish","douse"],
+    examples:   [
+        "The chef warned not to singe the onions for more than a minute.",
+        "A stray spark can easily singe the curtains if left unattended.",
+        "She tried to singe the edge of the fabric to give it a distressed look."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'incipient',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ɪnˈsɪp.i.ənt/',
+    ipa_us: '/ɪnˈsɪp.i.ənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "just beginning to appear or develop",
+              "th": "เพิ่งเริ่มปรากฏหรือพัฒนา"
+        }
+  ],
+    antonyms: ["mature","established"],
+    examples:   [
+        "Scientists detected incipient signs of volcanic activity in the region.",
+        "The incipient romance between the two colleagues was evident to everyone.",
+        "Early warning systems are designed to catch incipient failures before they spread."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'kinetic',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/kɪˈnɛtɪk/',
+    ipa_us: '/kɪˈnɛtɪk/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "relating to or resulting from motion",
+              "th": "เกี่ยวกับหรือเป็นผลมาจากการเคลื่อนที่"
+        }
+  ],
+    antonyms: ["static","inert"],
+    examples:   [
+        "Kinetic sculptures move with the wind, creating ever‑changing patterns.",
+        "The kinetic energy of the car was transformed into electricity during braking.",
+        "His kinetic style of dancing captivated the audience."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'preeminent',
+    level: 'C2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/pɹiːˈɛmɪnənt/',
+    ipa_us: '/pɹiːˈɛmɪnənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "surpassing all others; distinguished",
+              "th": "เหนือกว่าผู้อื่น; มีความโดดเด่น"
+        }
+  ],
+    antonyms: ["mediocre","inferior"],
+    examples:   [
+        "She is a preeminent scholar in the field of quantum physics.",
+        "The preeminent chef earned three Michelin stars for his restaurant.",
+        "His preeminent reputation attracted students from around the world."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'moor',
+    level: 'C2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/moː/',
+    ipa_us: '/moː/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an area of open, uncultivated land, often covered with heather and peat",
+              "th": "ที่ดินเปิดโล่งที่ไม่ได้ทำการเพาะปลูก มักมีพืชตระกูลไฮเดอร์และพีต"
+        }
+  ],
+    antonyms: ["desert","plain"],
+    examples:   [
+        "We spent the weekend camping on the Scottish moor.",
+        "The ancient stone circle stood solitary on the misty moor.",
+        "Wild ponies roam freely across the northern moor."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'nigh',
+    level: 'C2',
+    partOfSpeech: ["adjective","adverb"],
+    ipa_uk: '/naɪ/',
+    ipa_us: '/naɪ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "near; almost",
+              "th": "ใกล้; เกือบ"
+        }
+  ],
+    antonyms: ["far","distant"],
+    examples:   [
+        "The deadline is nigh, so we must finish the report today.",
+        "Winter is nigh, and the first snowflakes have begun to fall.",
+        "His retirement is nigh, and he is preparing his farewell speech."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'succeed',
+    level: 'C2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/səkˈsiːd/',
+    ipa_us: '/səkˈsiːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to achieve the desired result or to follow after another in a position",
+              "th": "ประสบความสำเร็จตามที่ต้องการหรือสืบต่อจากตำแหน่งก่อนหน้า"
+        }
+  ],
+    antonyms: ["fail","falter"],
+    examples:   [
+        "She worked hard and eventually succeeded in launching her own company.",
+        "After the CEO retired, his deputy succeeded him as the new leader.",
+        "The experiment succeeded beyond all expectations."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
