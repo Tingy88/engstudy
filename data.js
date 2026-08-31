@@ -37228,6 +37228,70 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'freeze',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈfɹiːz/',
+    ipa_us: '/ˈfɹiːz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to become hardened into ice; to become very cold",
+              "th": "แช่แข็ง"
+        }
+  ],
+    antonyms: ["melt","thaw"],
+    examples:   [
+        "The lake will freeze in winter.",
+        "She forgot to freeze the leftovers.",
+        "The cold wind made my fingers freeze."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'end',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ɛnd/',
+    ipa_us: '/ɛnd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the final part of something",
+              "th": "จุดจบ"
+        }
+  ],
+    antonyms: ["beginning","start"],
+    examples:   [
+        "The end of the movie was surprising.",
+        "She reached the end of the road.",
+        "We must work until the end of the day."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'scarf',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/skɑːf/',
+    ipa_us: '/skɑːf/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a piece of fabric worn around the neck for warmth or fashion",
+              "th": "ผ้าพันคอ"
+        }
+  ],
+    antonyms: ["bare","exposed"],
+    examples:   [
+        "She wrapped a red scarf around her neck.",
+        "He bought a wool scarf for winter.",
+        "The scarf fluttered in the wind."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
