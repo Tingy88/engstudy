@@ -37461,6 +37461,28 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'jury',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈd͡ʒʊə.ɹi/',
+    ipa_us: '/ˈd͡ʒʊə.ɹi/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a group of people sworn to give a verdict",
+              "th": "คณะผู้ตัดสินคดี"
+        }
+  ],
+    antonyms: ["judge","solitary"],
+    examples:   [
+        "The jury deliberated for three hours before reaching a verdict.",
+        "She was called to serve on a jury for a high‑profile trial.",
+        "The judge thanked the jury for their careful consideration."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
