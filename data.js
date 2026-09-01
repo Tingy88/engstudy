@@ -37292,6 +37292,175 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'collaboration',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/kəˌlæbəˈɹeɪʃən/',
+    ipa_us: '/kəˌlæbəˈɹeɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the act of working jointly with others",
+              "th": "ความร่วมมือ"
+        }
+  ],
+    antonyms: ["isolation","competition"],
+    examples:   [
+        "The research collaboration between the two universities yielded groundbreaking results.",
+        "Their artistic collaboration produced a series of striking murals.",
+        "Effective collaboration requires clear communication and shared goals."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'specimen',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈspɛsɪmɪn/',
+    ipa_us: '/ˈspɛsɪmɪn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sample taken for scientific study or display",
+              "th": "ตัวอย่าง"
+        }
+  ],
+    antonyms: ["whole","entirety"],
+    examples:   [
+        "The biologist collected a specimen of the rare orchid for analysis.",
+        "The museum displayed a fossil specimen that dated back millions of years.",
+        "Each specimen was labeled with its origin and collection date."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'intuition',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌɪntjʊˈɪʃən/',
+    ipa_us: '/ˌɪntjʊˈɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the ability to understand something immediately, without conscious reasoning",
+              "th": "สัญชาตญาณ"
+        }
+  ],
+    antonyms: ["reasoning","analysis"],
+    examples:   [
+        "She trusted her intuition when choosing the new project partner.",
+        "His intuition told him that the market would shift, and he was right.",
+        "Intuition often guides artists in making creative decisions."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'landscape',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈlandskeɪp/',
+    ipa_us: '/ˈlandskeɪp/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the visible features of an area of land, often considered aesthetically",
+              "th": "ภูมิทัศน์"
+        }
+  ],
+    antonyms: ["interior","urban"],
+    examples:   [
+        "The painter captured the rugged mountain landscape in vivid colors.",
+        "Urban development has dramatically altered the natural landscape of the region.",
+        "A well‑maintained garden can enhance the landscape of any home."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'premise',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹɛ.mɪs/',
+    ipa_us: '/ˈpɹɛ.mɪs/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a statement or idea that is assumed to be true and from which a conclusion follows",
+              "th": "ข้อสมมติฐาน"
+        }
+  ],
+    antonyms: ["conclusion","result"],
+    examples:   [
+        "The premise of the novel is that time travel is possible.",
+        "His argument rests on the faulty premise that all people act rationally.",
+        "Before testing the hypothesis, we must clarify the underlying premise."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'fraction',
+    level: 'C1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈfɹæk.ʃən/',
+    ipa_us: '/ˈfɹæk.ʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a small part or segment of a whole",
+              "th": "เศษส่วน"
+        }
+  ],
+    antonyms: ["whole","entirety"],
+    examples:   [
+        "Only a fraction of the budget was allocated to education.",
+        "He ate a fraction of the cake, saving the rest for later.",
+        "A tiny fraction of the population holds the majority of the wealth."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'sentient',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈsɛn.ti.ənt/',
+    ipa_us: '/ˈsɛn.ti.ənt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "capable of feeling or perceiving things",
+              "th": "มีสติ"
+        }
+  ],
+    antonyms: ["insentient","unconscious"],
+    examples:   [
+        "Science fiction often explores the rights of sentient robots.",
+        "The octopus is considered a sentient creature due to its problem‑solving abilities.",
+        "She argued that all sentient beings deserve moral consideration."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'linear',
+    level: 'C1',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈlɪn.i.ə/',
+    ipa_us: '/ˈlɪn.i.ə/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "arranged in, extending along, or resembling a straight line",
+              "th": "เชิงเส้น"
+        }
+  ],
+    antonyms: ["nonlinear","random"],
+    examples:   [
+        "The story follows a linear narrative from beginning to end.",
+        "Engineers designed a linear track for the high‑speed train.",
+        "Her thinking was too linear to appreciate the project's complexity."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
