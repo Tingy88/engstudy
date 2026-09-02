@@ -37568,6 +37568,337 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'lawn',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/lɔːn/',
+    ipa_us: '/lɔːn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an area of short, mowed grass, especially in a garden or park",
+              "th": "พื้นที่หญ้าตัดสั้นโดยเฉพาะในสวนหรือสวนสาธารณะ"
+        }
+  ],
+    antonyms: ["desert","concrete"],
+    examples:   [
+        "The children played soccer on the school lawn after classes.",
+        "She spent the afternoon reading a book on the freshly cut lawn.",
+        "We hired a gardener to keep the lawn neat during the summer."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'dispute',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈdɪs.pjuːt/',
+    ipa_us: '/ˈdɪs.pjuːt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a disagreement or argument about something",
+              "th": "ความขัดแย้งหรือการโต้เถียงเกี่ยวกับบางอย่าง"
+        },
+        {
+              "pos": "verb",
+              "en": "to argue about; contest",
+              "th": "โต้เถียงหรือคัดค้าน"
+        }
+  ],
+    antonyms: ["agreement","consensus"],
+    examples:   [
+        "The border dispute between the two countries lasted for decades.",
+        "They dispute the accuracy of the report and demand a revision.",
+        "She decided to dispute the fine in court."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'demolish',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dəˈmɒl.ɪʃ/',
+    ipa_us: '/dəˈmɒl.ɪʃ/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to completely destroy a building or structure",
+              "th": "ทำลายหรือทำให้สิ่งก่อสร้างพังทลายอย่างสมบูรณ์"
+        }
+  ],
+    antonyms: ["build","preserve"],
+    examples:   [
+        "The old factory was demolished to make way for a new shopping mall.",
+        "After the fire, the city council decided to demolish the unsafe bridge.",
+        "Engineers must ensure the building can be safely demolished without harming nearby residents."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'violate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈvaɪəˌleɪt/',
+    ipa_us: '/ˈvaɪəˌleɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to break or fail to comply with a rule or law",
+              "th": "ละเมิดหรือไม่ปฏิบัติตามกฎหรือกฎหมาย"
+        }
+  ],
+    antonyms: ["obey","respect"],
+    examples:   [
+        "He was fined for violating traffic regulations.",
+        "The company was accused of violating environmental standards.",
+        "She warned that any attempt to violate the contract would result in legal action."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'navigate',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ˈnæv.ɪ.ɡeɪt/',
+    ipa_us: '/ˈnæv.ɪ.ɡeɪt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to plan and direct the course of a ship, aircraft, or other vehicle",
+              "th": "วางแผนและกำหนดเส้นทางของเรือ, เครื่องบิน หรือยานพาหนะอื่น"
+        }
+  ],
+    antonyms: ["wander","lose"],
+    examples:   [
+        "The captain used the stars to navigate across the Atlantic.",
+        "Modern smartphones can navigate you to the nearest coffee shop.",
+        "She learned how to navigate the complex filing system at work."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'thigh',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/θaɪ/',
+    ipa_us: '/θaɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the part of the leg between the hip and the knee",
+              "th": "ส่วนของขาที่อยู่ระหว่างสะโพกและเข่า"
+        }
+  ],
+    antonyms: ["calf","shin"],
+    examples:   [
+        "She injured her thigh during the soccer match.",
+        "The doctor examined the swelling on his thigh.",
+        "He wore a compression sleeve around his thigh to aid recovery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'decay',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/dɪˈkeɪ/',
+    ipa_us: '/dɪˈkeɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the process of rotting or decomposition",
+              "th": "กระบวนการเน่าเสียหรือการสลายตัว"
+        },
+        {
+              "pos": "verb",
+              "en": "to decompose or rot",
+              "th": "สลายหรือเน่าเสีย"
+        }
+  ],
+    antonyms: ["growth","heal"],
+    examples:   [
+        "The decay of the old building made it unsafe for residents.",
+        "Fruit left out in the sun will decay quickly.",
+        "Scientists study how organic matter decays in different environments."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'servant',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsɜːvənt/',
+    ipa_us: '/ˈsɜːvənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who performs duties for others, especially in a household",
+              "th": "คนที่ทำหน้าที่ให้ผู้อื่น โดยเฉพาะในบ้าน"
+        }
+  ],
+    antonyms: ["master","employer"],
+    examples:   [
+        "The servant prepared breakfast before the family woke up.",
+        "In the novel, the servant overhears a secret conversation.",
+        "She was promoted from servant to house manager after years of dedication."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'aspire',
+    level: 'B2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/əˈspaɪə(ɹ)/',
+    ipa_us: '/əˈspaɪə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to have a strong desire to achieve something",
+              "th": "มีความปรารถนาอย่างแรงกล้าที่จะบรรลุเป้าหมาย"
+        }
+  ],
+    antonyms: ["settle","be content"],
+    examples:   [
+        "He aspires to become a doctor and help his community.",
+        "Many young athletes aspire to compete in the Olympics.",
+        "She aspires to write a novel that will inspire readers worldwide."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'presumably',
+    level: 'B2',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/pɹɪˈzjuːməbli/',
+    ipa_us: '/pɹɪˈzjuːməbli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "used to indicate that something is assumed to be true",
+              "th": "ใช้เพื่อบ่งบอกว่าบางสิ่งถือว่าเป็นความจริง"
+        }
+  ],
+    antonyms: ["certainly","definitely"],
+    examples:   [
+        "Presumably, the meeting will start at nine o'clock.",
+        "She didn't answer, so presumably she's busy.",
+        "The package was delivered early, presumably because of the new courier service."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'opponent',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɒpəʊnənt/',
+    ipa_us: '/ɒpəʊnənt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a person who competes against or fights another in a contest",
+              "th": "ผู้ที่แข่งขันหรือสู้กับผู้อื่นในการแข่งขัน"
+        }
+  ],
+    antonyms: ["ally","partner"],
+    examples:   [
+        "The champion faced a tough opponent in the final round.",
+        "She respected her political opponent despite their differences.",
+        "In chess, each opponent must think several moves ahead."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'leash',
+    level: 'B2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/liːʃ/',
+    ipa_us: '/liːʃ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a strap or cord for restraining a dog or other animal",
+              "th": "สายรัดหรือเชือกที่ใช้ควบคุมสุนัขหรือสัตว์อื่น"
+        },
+        {
+              "pos": "verb",
+              "en": "to attach a leash to an animal or to restrict someone’s freedom",
+              "th": "ผูกเชือกกับสัตว์หรือจำกัดอิสระของคน"
+        }
+  ],
+    antonyms: ["freedom","release"],
+    examples:   [
+        "He kept his dog on a leash while walking through the park.",
+        "The manager decided to leash the project’s budget to avoid overspending.",
+        "She leashed the puppy before letting it run in the yard."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'racism',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɹeɪsɪzm̩/',
+    ipa_us: '/ˈɹeɪsɪzm̩/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "prejudice, discrimination, or antagonism directed against someone of a different race",
+              "th": "อคติ การเลือกปฏิบัติ หรือความเป็นศัตรูต่อคนที่มีเชื้อชาติแตกต่าง"
+        }
+  ],
+    antonyms: ["tolerance","equality"],
+    examples:   [
+        "The school launched a program to combat racism among students.",
+        "He spoke out against racism during the rally.",
+        "Historical documents reveal how deeply racism was embedded in past policies."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'pearl',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/pɜːl/',
+    ipa_us: '/pɜːl/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a smooth, rounded gem formed within the shell of a pearl oyster",
+              "th": "อัญมณีที่เรียบและกลมที่เกิดขึ้นภายในเปลือกหอยมุก"
+        }
+  ],
+    antonyms: ["dullness","imperfection"],
+    examples:   [
+        "She wore a necklace with a single white pearl.",
+        "The diver discovered a rare black pearl at the ocean floor.",
+        "He polished the pearl earrings until they shone brightly."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'times',
+    level: 'B2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/tɑemz/',
+    ipa_us: '/tɑemz/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "plural of time; occasions or instances",
+              "th": "รูปพหูพจน์ของเวลา; โอกาสหรือเหตุการณ์"
+        }
+  ],
+    antonyms: ["once","single"],
+    examples:   [
+        "These are the difficult times we must endure together.",
+        "He has visited the museum many times over the years.",
+        "During those times, the city was known for its bustling markets."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
