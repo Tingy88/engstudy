@@ -37483,6 +37483,91 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'furthermore',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈfɜː(ɹ).ðə(ɹ).mɔː(ɹ)/',
+    ipa_us: '/ˈfɜː(ɹ).ðə(ɹ).mɔː(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "in addition; moreover",
+              "th": "นอกจากนี้"
+        }
+  ],
+    antonyms: ["however","nevertheless"],
+    examples:   [
+        "She finished her report, and furthermore, she presented it to the board.",
+        "The weather was cold, and furthermore, it started to rain.",
+        "He not only apologized, but furthermore offered to help."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'privacy',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈpɹaɪv.ə.sɪ/',
+    ipa_us: '/ˈpɹaɪv.ə.sɪ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of being free from public attention or intrusion",
+              "th": "ความเป็นส่วนตัว"
+        }
+  ],
+    antonyms: ["publicity","exposure"],
+    examples:   [
+        "I value my privacy and keep my personal diary locked.",
+        "The new law protects the privacy of online users.",
+        "She closed the curtains to ensure her privacy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'possibility',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˌpɒsɪˈbɪliti/',
+    ipa_us: '/ˌpɒsɪˈbɪliti/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a chance that something may happen",
+              "th": "ความเป็นไปได้"
+        }
+  ],
+    antonyms: ["impossibility","certainty"],
+    examples:   [
+        "There is a possibility of rain tomorrow.",
+        "We should consider every possibility before deciding.",
+        "The possibility of a promotion excited her."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'deliver',
+    level: 'B1',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/dɪˈlɪvə(ɹ)/',
+    ipa_us: '/dɪˈlɪvə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to bring and hand over something to the intended recipient",
+              "th": "ส่งมอบ"
+        }
+  ],
+    antonyms: ["receive","withhold"],
+    examples:   [
+        "The courier will deliver the documents by noon.",
+        "He promised to deliver the speech on time.",
+        "The restaurant will deliver pizza to your house."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
