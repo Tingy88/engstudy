@@ -37899,6 +37899,440 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'treasure',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈtɹɛʒə/',
+    ipa_us: '/ˈtɹɛʒə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a collection of valuable objects",
+              "th": "สมบัติ"
+        },
+        {
+              "pos": "verb",
+              "en": "to keep something safe",
+              "th": "ซ่อนเก็บ"
+        }
+  ],
+    antonyms: ["trash","worthless"],
+    examples:   [
+        "The pirates buried the treasure on a deserted island.",
+        "She treasures the letters her grandmother wrote.",
+        "He tried to treasure every moment of his vacation."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'raise',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɹeɪz/',
+    ipa_us: '/ɹeɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to lift or move something to a higher position",
+              "th": "ยกขึ้น"
+        }
+  ],
+    antonyms: ["lower","drop"],
+    examples:   [
+        "Please raise your hand if you have a question.",
+        "The company will raise salaries next year.",
+        "She raised the flag at sunrise."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'frame',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/fɹeɪm/',
+    ipa_us: '/fɹeɪm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a rigid structure that surrounds or supports something",
+              "th": "กรอบ"
+        },
+        {
+              "pos": "verb",
+              "en": "to put a picture or object into a frame",
+              "th": "ใส่กรอบ"
+        }
+  ],
+    antonyms: ["unframe","remove"],
+    examples:   [
+        "The picture looks better in a wooden frame.",
+        "He framed the photograph before hanging it on the wall.",
+        "The carpenter built a frame for the new door."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'accept',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ækˈsɛpt/',
+    ipa_us: '/ækˈsɛpt/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to agree to receive or take something offered",
+              "th": "รับ"
+        }
+  ],
+    antonyms: ["reject","refuse"],
+    examples:   [
+        "He will accept the job offer tomorrow.",
+        "She accepted the gift with a smile.",
+        "We must accept the rules of the game."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'advise',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ədˈvaɪz/',
+    ipa_us: '/ədˈvaɪz/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to give someone advice or a recommendation",
+              "th": "แนะนำ"
+        }
+  ],
+    antonyms: ["discourage","mislead"],
+    examples:   [
+        "The teacher advised us to study every day.",
+        "She advised him to wear a coat because it was cold.",
+        "Can you advise me on which book to read?"
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'zone',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/zəʊn/',
+    ipa_us: '/zəʊn/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "an area that is different from its surroundings",
+              "th": "โซน"
+        }
+  ],
+    antonyms: ["center","core"],
+    examples:   [
+        "The city has a quiet residential zone.",
+        "Please stay in the safety zone during the drill.",
+        "The park is in a green zone of the town."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'unfair',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ʌnˈfɛə(ɹ)/',
+    ipa_us: '/ʌnˈfɛə(ɹ)/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not just or reasonable",
+              "th": "ไม่เป็นธรรม"
+        }
+  ],
+    antonyms: ["fair","just"],
+    examples:   [
+        "It is unfair to blame him for the mistake.",
+        "She felt the decision was unfair.",
+        "The game seemed unfair because one team was much stronger."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'park',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '[paːk]',
+    ipa_us: '[paːk]',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a public green area for recreation",
+              "th": "สวนสาธารณะ"
+        },
+        {
+              "pos": "verb",
+              "en": "to leave a vehicle in a designated place",
+              "th": "จอดรถ"
+        }
+  ],
+    antonyms: ["street","drive"],
+    examples:   [
+        "We had a picnic in the park.",
+        "She likes to park her car near the supermarket.",
+        "The children played soccer in the park after school."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'include',
+    level: 'A2',
+    partOfSpeech: ["verb"],
+    ipa_uk: '/ɪnˈkluːd/',
+    ipa_us: '/ɪnˈkluːd/',
+    meanings:   [
+        {
+              "pos": "verb",
+              "en": "to contain as part of a whole",
+              "th": "รวม"
+        }
+  ],
+    antonyms: ["exclude","omit"],
+    examples:   [
+        "The price includes breakfast.",
+        "Please include your phone number on the form.",
+        "The tour will include a visit to the museum."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'magic',
+    level: 'A2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈmadʒɪk/',
+    ipa_us: '/ˈmadʒɪk/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the art of producing supernatural effects",
+              "th": "เวทมนตร์"
+        },
+        {
+              "pos": "adjective",
+              "en": "having mysterious or wonderful qualities",
+              "th": "มหัศจรรย์"
+        }
+  ],
+    antonyms: ["reality","science"],
+    examples:   [
+        "The magician performed amazing magic tricks.",
+        "She felt a magic moment when she saw the sunrise.",
+        "The garden looked magical in the moonlight."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'hundred',
+    level: 'A2',
+    partOfSpeech: ["noun","adjective"],
+    ipa_uk: '/ˈhʌndɚd/',
+    ipa_us: '/ˈhʌndɚd/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the number 100",
+              "th": "หนึ่งร้อย"
+        },
+        {
+              "pos": "adjective",
+              "en": "consisting of one hundred units",
+              "th": "ร้อย"
+        }
+  ],
+    antonyms: ["zero","thousand"],
+    examples:   [
+        "There are a hundred pages in this book.",
+        "She ran a hundred meters in the race.",
+        "He saved a hundred dollars for his trip."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'point',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/pɔɪnt/',
+    ipa_us: '/pɔɪnt/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a sharp end of something",
+              "th": "จุด"
+        },
+        {
+              "pos": "verb",
+              "en": "to indicate something by directing attention",
+              "th": "ชี้"
+        }
+  ],
+    antonyms: ["blur","ignore"],
+    examples:   [
+        "The pencil has a sharp point.",
+        "She pointed to the map to show the route.",
+        "He made a good point during the discussion."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'low',
+    level: 'A2',
+    partOfSpeech: ["adjective","adverb"],
+    ipa_uk: '/ləʊ/',
+    ipa_us: '/ləʊ/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "not high; near the ground",
+              "th": "ต่ำ"
+        },
+        {
+              "pos": "adverb",
+              "en": "in a quiet or soft voice",
+              "th": "เสียงต่ำ"
+        }
+  ],
+    antonyms: ["high","loud"],
+    examples:   [
+        "The ball rolled low across the field.",
+        "She spoke in a low voice so no one could hear.",
+        "The temperature is low today, wear a coat."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'stadium',
+    level: 'A2',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈsteɪ.di.əm/',
+    ipa_us: '/ˈsteɪ.di.əm/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a large place where sports events are held",
+              "th": "สนามกีฬา"
+        }
+  ],
+    antonyms: ["home","field"],
+    examples:   [
+        "The concert will be held in the stadium.",
+        "Fans filled the stadium for the final match.",
+        "The stadium was built last year."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'perfect',
+    level: 'A2',
+    partOfSpeech: ["adjective"],
+    ipa_uk: '/ˈpɜː.fɛkt/',
+    ipa_us: '/ˈpɜː.fɛkt/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "without any mistakes; complete",
+              "th": "สมบูรณ์"
+        }
+  ],
+    antonyms: ["imperfect","flawed"],
+    examples:   [
+        "She gave a perfect performance.",
+        "The cake turned out perfect on the first try.",
+        "He wants a perfect score on the test."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'condition',
+    level: 'A2',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/kənˈdɪʃən/',
+    ipa_us: '/kənˈdɪʃən/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "the state of something, especially regarding health or appearance",
+              "th": "สภาพ"
+        },
+        {
+              "pos": "verb",
+              "en": "to make something happen under certain circumstances",
+              "th": "กำหนด"
+        }
+  ],
+    antonyms: ["disorder","ignore"],
+    examples:   [
+        "The car is in good condition.",
+        "She works under the condition that she finishes early.",
+        "The contract will condition the payment on delivery."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'single',
+    level: 'A2',
+    partOfSpeech: ["adjective","noun"],
+    ipa_uk: '/ˈsɪŋɡəl/',
+    ipa_us: '/ˈsɪŋɡəl/',
+    meanings:   [
+        {
+              "pos": "adjective",
+              "en": "only one; not married",
+              "th": "โสด"
+        },
+        {
+              "pos": "noun",
+              "en": "a song released on its own",
+              "th": "ซิงเกิล"
+        }
+  ],
+    antonyms: ["married","multiple"],
+    examples:   [
+        "He is single and lives alone.",
+        "She bought a single ticket for the concert.",
+        "The band released a new single last week."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'over',
+    level: 'A2',
+    partOfSpeech: ["preposition","adverb","adjective"],
+    ipa_uk: '/ˈəʊ.və(ɹ)/',
+    ipa_us: '/ˈəʊ.və(ɹ)/',
+    meanings:   [
+        {
+              "pos": "preposition",
+              "en": "higher than; above",
+              "th": "เหนือ"
+        },
+        {
+              "pos": "adverb",
+              "en": "finished or completed",
+              "th": "เสร็จแล้ว"
+        },
+        {
+              "pos": "adjective",
+              "en": "excessively; too much",
+              "th": "เกิน"
+        }
+  ],
+    antonyms: ["under","below"],
+    examples:   [
+        "The picture hangs over the fireplace.",
+        "The game is over now.",
+        "He ate an over amount of candy."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
