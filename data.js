@@ -38333,6 +38333,96 @@ const WORDS = [{
   ],
     box: 1, correct: 0, seen: 0, lastSeen: null,
   },
+
+  {
+    word: 'shelter',
+    level: 'B1',
+    partOfSpeech: ["noun","verb"],
+    ipa_uk: '/ˈʃɛltə/',
+    ipa_us: '/ˈʃɛltə/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a place giving protection from danger or weather",
+              "th": "ที่พักพิง"
+        },
+        {
+              "pos": "verb",
+              "en": "to protect or give shelter to",
+              "th": "ให้ที่หลบภัย"
+        }
+  ],
+    antonyms: ["exposure","danger"],
+    examples:   [
+        "After the storm, we took shelter in a small cabin.",
+        "The organization provides shelter for homeless families.",
+        "She sheltered the stray cat from the rain."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'greeting',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ˈɡɹiːtɪŋ/',
+    ipa_us: '/ˈɡɹiːtɪŋ/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a polite word or sign of welcome",
+              "th": "การทักทาย"
+        }
+  ],
+    antonyms: ["farewell","goodbye"],
+    examples:   [
+        "A warm greeting can make a good first impression.",
+        "She sent a greeting card to her aunt for her birthday.",
+        "The host's greeting was cheerful and welcoming."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'constantly',
+    level: 'B1',
+    partOfSpeech: ["adverb"],
+    ipa_uk: '/ˈkɒnstəntli/',
+    ipa_us: '/ˈkɒnstəntli/',
+    meanings:   [
+        {
+              "pos": "adverb",
+              "en": "continuously over a period of time",
+              "th": "อย่างต่อเนื่อง"
+        }
+  ],
+    antonyms: ["occasionally","rarely"],
+    examples:   [
+        "He is constantly checking his phone for messages.",
+        "The river constantly erodes the banks during the rainy season.",
+        "She constantly reminds us to recycle."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
+  {
+    word: 'election',
+    level: 'B1',
+    partOfSpeech: ["noun"],
+    ipa_uk: '/ɪˈlɛkʃ(ə)n/',
+    ipa_us: '/ɪˈlɛkʃ(ə)n/',
+    meanings:   [
+        {
+              "pos": "noun",
+              "en": "a formal process of choosing someone for public office",
+              "th": "การเลือกตั้ง"
+        }
+  ],
+    antonyms: ["appointment","selection"],
+    examples:   [
+        "The national election will be held next month.",
+        "Many candidates campaigned hard before the election.",
+        "Voter turnout was high in the recent election."
+  ],
+    box: 1, correct: 0, seen: 0, lastSeen: null,
+  },
 ];
 
 // ===== DISTRACTORS MAP =====
