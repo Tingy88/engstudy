@@ -73,8 +73,24 @@ function pickWordsForLevel(cefrjList, level, excludeWords, count) {
   return candidates.slice(0, count).map(c => c.word);
 }
 
-// ===== ให้ Groq เติมรายละเอียดให้คำที่กำหนดมาแล้ว (ไม่ต้องคิดคำ/level เอง) =====
+// ===== ให้ Groq เติมรายละเอียดให้คำที่กำหนดมาแล้ว (เลือกรุ่นโมเดลที่ใช้งานได้ให้อัตโนมัติ) =====
 async function generateCandidates(level, wordList) {
+  // 1. ดึงรายชื่อโมเดลที่ใช้งานได้จริงจาก Groq ณ ตอนนี้
+  const modelsRes = await fetch('https://api.groq.com/openai/v1/models', {
+    headers: { 'Authorization': `Bearer ${GROQ_KEY}` }
+  });
+  const modelsData = await modelsRes.json();
+  if (!modelsRes.ok || !modelsData.data) {
+    throw new Error('Groq Auth/Models error: ' + JSON.stringify(modelsData));
+  }
+
+  const availableModels = modelsData.data.map(m => m.id);
+  // กรองเอาเฉพาะโมเดล Text ที่พร้อมใช้งาน (ตัด whisper และ guard ออก)
+  const validModels = availableModels.filter(id => !id.includes('whisper') && !id.includes('guard'));
+  const chosenModel = validModels[0];
+  console.log(`โมเดลที่ Groq รองรับขณะนี้: ${validModels.join(', ')}`);
+  console.log(`เลือกใช้โมเดล: ${chosenModel}`);
+
   const prompt = `You are given a fixed list of English words at CEFR level ${level}. For EACH word in this exact list, provide: partOfSpeech (array e.g. ['verb [T]']), meanings (array of {pos, en, th} - en definition in English, th translation in Thai), antonyms (array, 2 words), examples (array of exactly 3 natural sentences using the word).
 DO NOT add, remove, or change any word in the list. Use ALL of them.
 
@@ -86,7 +102,7 @@ Reply ONLY raw JSON: {"words":[{"word":"...","level":"${level}","partOfSpeech":[
     method: 'POST',
     headers: { 'Authorization': `Bearer ${GROQ_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'llama-3.1-8b-instant',
+      model: chosenModel,
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.4, max_tokens: 4000,
       response_format: { type: 'json_object' },
