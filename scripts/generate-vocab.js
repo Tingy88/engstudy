@@ -73,9 +73,9 @@ function pickWordsForLevel(cefrjList, level, excludeWords, count) {
   return candidates.slice(0, count).map(c => c.word);
 }
 
-// ===== ให้ Groq เติมรายละเอียดให้คำที่กำหนดมาแล้ว (เลือกรุ่นโมเดลที่ใช้งานได้ให้อัตโนมัติ) =====
+// ===== ให้ Groq เติมรายละเอียดให้คำที่กำหนดมาแล้ว (ใช้ Qwen และแบ่งทำทีละ 10 คำ) =====
 async function generateCandidates(level, wordList) {
-  // 1. ดึงรายชื่อโมเดลที่ใช้งานได้จริงจาก Groq ณ ตอนนี้
+  // 1. ดึงรายชื่อโมเดลที่ใช้งานได้จริงจาก Groq
   const modelsRes = await fetch('https://api.groq.com/openai/v1/models', {
     headers: { 'Authorization': `Bearer ${GROQ_KEY}` }
   });
@@ -85,32 +85,43 @@ async function generateCandidates(level, wordList) {
   }
 
   const availableModels = modelsData.data.map(m => m.id);
-  // กรองเอาเฉพาะโมเดล Text ที่พร้อมใช้งาน (ตัด whisper และ guard ออก)
   const validModels = availableModels.filter(id => !id.includes('whisper') && !id.includes('guard'));
-  const chosenModel = validModels[0];
+  // เลือก Qwen เป็นอันดับแรก เพราะเก่ง JSON และไม่กินโควตา reasoning tokens
+  const chosenModel = validModels.find(id => id.includes('qwen')) || validModels[0];
   console.log(`โมเดลที่ Groq รองรับขณะนี้: ${validModels.join(', ')}`);
   console.log(`เลือกใช้โมเดล: ${chosenModel}`);
 
-  const prompt = `You are given a fixed list of English words at CEFR level ${level}. For EACH word in this exact list, provide: partOfSpeech (array e.g. ['verb [T]']), meanings (array of {pos, en, th} - en definition in English, th translation in Thai), antonyms (array, 2 words), examples (array of exactly 3 natural sentences using the word).
+  // แบ่งทำทีละ 10 คำ ป้องกันข้อความยาวเกินเพดาน Token จน JSON ขาด
+  const CHUNK_SIZE = 10;
+  let allWords = [];
+
+  for (let i = 0; i < wordList.length; i += CHUNK_SIZE) {
+    const chunk = wordList.slice(i, i + CHUNK_SIZE);
+    const prompt = `You are given a fixed list of English words at CEFR level ${level}. For EACH word in this exact list, provide: partOfSpeech (array e.g. ['verb [T]']), meanings (array of {pos, en, th} - en definition in English, th translation in Thai), antonyms (array, 2 words), examples (array of exactly 3 natural sentences using the word).
 DO NOT add, remove, or change any word in the list. Use ALL of them.
 
-Word list: ${wordList.join(', ')}
+Word list: ${chunk.join(', ')}
 
 Reply ONLY raw JSON: {"words":[{"word":"...","level":"${level}","partOfSpeech":[...],"meanings":[...],"antonyms":[...],"examples":[...]}]}`;
 
-  const r = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-    method: 'POST',
-    headers: { 'Authorization': `Bearer ${GROQ_KEY}`, 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      model: chosenModel,
-      messages: [{ role: 'user', content: prompt }],
-      temperature: 0.4, max_tokens: 4000,
-      response_format: { type: 'json_object' },
-    }),
-  });
-  const data = await r.json();
-  if (data.error) throw new Error('Groq error: ' + data.error.message);
-  return JSON.parse(data.choices[0].message.content).words;
+    const r = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: { 'Authorization': `Bearer ${GROQ_KEY}`, 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: chosenModel,
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.4,
+        max_tokens: 4000,
+        response_format: { type: 'json_object' },
+      }),
+    });
+    const data = await r.json();
+    if (data.error) throw new Error('Groq error: ' + data.error.message);
+    const words = JSON.parse(data.choices[0].message.content).words;
+    allWords = allWords.concat(words);
+  }
+
+  return allWords;
 }
 
 // ===== ขั้นที่ 4: ดึง IPA จาก dictionary จริง =====
