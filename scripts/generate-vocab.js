@@ -86,7 +86,7 @@ Reply ONLY raw JSON: {"words":[{"word":"...","level":"${level}","partOfSpeech":[
     method: 'POST',
     headers: { 'Authorization': `Bearer ${GROQ_KEY}`, 'Content-Type': 'application/json' },
     body: JSON.stringify({
-      model: 'llama-3.3-70b-versatile',
+      model: 'llama-3.1-8b-instant',
       messages: [{ role: 'user', content: prompt }],
       temperature: 0.4, max_tokens: 4000,
       response_format: { type: 'json_object' },
